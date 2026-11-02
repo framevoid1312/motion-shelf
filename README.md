@@ -1,6 +1,6 @@
 # Phil's Motion Shelf
 
-One wall of code-made animation: 1,474 prompts, films, styles, agent skills and HyperFrames blocks from 25 open-source sources, 1,046 of them with hover-to-play video.
+One wall of code-made animation: 1,557 prompts, films, styles, agent skills and HyperFrames blocks from 25 open-source sources, 1,131 of them with hover-to-play video.
 
 Live site: served by GitHub Pages from `index.html`.
 
