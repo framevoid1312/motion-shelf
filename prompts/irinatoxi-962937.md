@@ -1,0 +1,23 @@
+# Opus 5.5 just turned a smartphone into a 20-second trip from glass to…
+
+**#515 by likes** · ♥ 8 · by [@irinatoxi](https://x.com/irinatoxi) · [Original post](https://x.com/irinatoxi/status/2104212841657962937) · [Watch the video](https://media.skillry.dev/opus-5-5/irinatoxi-962937/original.mp4)
+
+[![Opus 5.5 just turned a smartphone into a 20-second trip from glass to…](https://media.skillry.dev/opus-5-5/irinatoxi-962937/original.fcdcece49a.webp)](https://x.com/irinatoxi/status/2104212841657962937)
+
+## Prompt
+
+```text
+Opus 5.5 just turned a smartphone into a 20-second trip from glass to atoms.
+
+It starts on the phone, dives through the motherboard and chip, then keeps going through the semiconductor structure until you’re basically staring at the atomic scale.
+
+This is the kind of 3D shot that normally looks like a whole studio touched it.
+
+Instead, Opus 5.5 built the sequence.
+
+That’s fucking ridiculous.
+```
+
+The prompt and video belong to @irinatoxi; this page links back to their post.
+
+[← Back to the list](../README.md) · [Watch it on the site](https://framevoid1312.github.io/motion-shelf/)
