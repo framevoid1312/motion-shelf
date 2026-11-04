@@ -1,6 +1,6 @@
 # ς: the letter that only ends
 
-**Made by Phil** ([@framevoid1312](https://github.com/framevoid1312)) with Claude Opus 5.5 writing code · 2 Nov 2026 · Swiss motion · canvas · Greek type · 1080p24 · 31 s
+Made with Claude Opus 5.5 writing code · 2 Nov 2026 · Swiss motion · canvas · Greek type · 1080p24 · 31 s
 
 A Swiss-grid type film: 24 Greek letters snap into a specimen sheet, then a blue final sigma breaks every rule, slides off the grid and lands at the end of τέλος.
 

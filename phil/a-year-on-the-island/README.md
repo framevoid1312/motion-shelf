@@ -1,6 +1,6 @@
 # A Year on the Island
 
-**Made by Phil** ([@framevoid1312](https://github.com/framevoid1312)) with Claude Opus 5.5 writing code · 3 Nov 2026 · Memphis diorama · three.js · 1080p60 · 30 s
+Made with Claude Opus 5.5 writing code · 3 Nov 2026 · Memphis diorama · three.js · 1080p60 · 30 s
 
 A tiny Memphis-style diorama island on one slow orbit. Each season ripples out from the lighthouse as a wave: spring, summer, autumn, winter, night, spring again. Scored and foley-synced in code.
 
