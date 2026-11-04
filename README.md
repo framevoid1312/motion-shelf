@@ -8,7 +8,7 @@ Every entry here has a playable original video and a prompt you can copy and run
 
 ## Contents
 
-- [Motion repos to try](#motion-repos-to-try)
+- [Skills to try](#skills-to-try)
 - [Top 60](#top-60)
 - [All 918, ranked by likes](#all-ranked-by-likes)
 - [What's on the site besides these](#whats-on-the-site-besides-these)
@@ -16,21 +16,35 @@ Every entry here has a playable original video and a prompt you can copy and run
 - [Phil's films](#phils-films)
 - [Credits](#credits)
 
-## Motion repos to try
+## Skills to try
 
-Repos and links for anyone who wants to try them. All MIT-licensed agent skills; star counts as of 4 November 2026. Each one has a card with its demo video on the [site](https://framevoid1312.github.io/motion-shelf/) under **Repos to try**.
+Free agent skills for making motion and video with Claude Code, Codex and other coding agents, most-starred first (star counts checked on 4 November 2026). Each one has a card with its demo on the [site](https://framevoid1312.github.io/motion-shelf/) under **Skills to try**.
 
-| # | Repo | ★ | What it does |
-|---:|---|---:|---|
-| 1 | [**Huashu Art Motion**](https://github.com/alchaincyf/huashu-art-motion) | ~6k | Artistic animations, visual storytelling and explainer videos using code-based rendering. |
-| 2 | [**Earshot**](https://github.com/Leonxlnx/earshot) | ~3.6k | Gives coding agents audio analysis and code-generated sound effects. |
-| 3 | [**Huashu Motion**](https://github.com/alchaincyf/huashu-motion) | ~2.2k | Beat-synced product launch films, motion graphics and browser-editable scenes. |
-| 4 | [**Reanimate**](https://github.com/NiazMorshed2007/reanimate) | ~1k | Recreates web and video animations using frame-by-frame comparisons. |
-| 5 | [**Explainroo**](https://github.com/vincentsch/explainroo) | 782 | Narrated explainer videos with local voice generation and word-level timing. |
-| 6 | [**Rossark Motion**](https://github.com/rossark0/rossark-motion-skill) | 652 | Animates SVGs, characters and illustrations for React Native and SwiftUI. |
-| 7 | [**Video Director**](https://github.com/win4r/video-director) | 282 | Video planning, timeline validation and automated quality checks. |
-| 8 | [**Take One**](https://github.com/talsiach/take-one) | 132 | Turns prompts into videos through a multi-stage creative pipeline. |
-| 9 | [**Argo**](https://github.com/shreyaskarnik/argo) | 96 | Creates product demo videos from Playwright walkthroughs with AI voiceovers. |
+| # | Skill | ★ | What it does | Licence |
+|---:|---|---:|---|---|
+| 1 | [**OpenMontage**](https://github.com/calesthio/OpenMontage) | 76.2k | Turns a coding agent into a full video studio: research, script, assets, editing and final composition through 12 production pipelines and hundreds of agent skills. | AGPL-3.0 |
+| 2 | [**video-use**](https://github.com/browser-use/video-use) | 30.5k | Edit real footage by chatting with Claude Code: cuts filler words and dead air, grades colour, fades every cut. Includes a Manim skill for 3Blue1Brown-style animation. | MIT |
+| 3 | [**GSAP Skills**](https://github.com/greensock/gsap-skills) | 17.9k | The official GSAP skills: core tweens, timelines, ScrollTrigger, plugins, React and performance, so agents write GSAP the right way. | MIT |
+| 4 | [**Huashu Art Motion**](https://github.com/alchaincyf/huashu-art-motion) | 6.2k | Artistic animations, visual storytelling and explainer videos using code-based rendering. | MIT |
+| 5 | [**Earshot**](https://github.com/Leonxlnx/earshot) | 3.8k | Gives coding agents audio analysis and code-generated sound effects. | MIT |
+| 6 | [**Motion Design Skill**](https://github.com/LottieFiles/motion-design-skill) | 2.8k | Motion design principles for agents from LottieFiles: timing, easing, choreography and Disney principles adapted for UI, for any animation library. | MIT |
+| 7 | [**Story to Hand-drawn Video**](https://github.com/gnipbao/story-to-handdrawn-video) | 2.4k | Turns a story or a set of images into a hand-drawn diary-comic animation in Remotion, with hand lettering and hundreds of style recipes. | MIT |
+| 8 | [**Huashu Motion**](https://github.com/alchaincyf/huashu-motion) | 2.3k | Beat-synced product launch films, motion graphics and browser-editable scenes. | MIT |
+| 9 | [**Claude Animated Shorts**](https://github.com/mromidev/claude-animated-shorts) | 1.4k | Vertical animated story shorts: 2D characters in a painted 3D world with ink outlines, gliding cameras, narration and a synthesized score, in three.js inside Remotion. | MIT |
+| 10 | [**Reanimate**](https://github.com/NiazMorshed2007/reanimate) | 1.1k | Recreates web and video animations using frame-by-frame comparisons. | MIT |
+| 11 | [**Video Spec Builder**](https://github.com/feicaiclub/video-spec-builder) | 1.1k | Asks the questions a director would, then writes a to-the-second shot script (video-spec.md) for HyperFrames to render. | MIT |
+| 12 | [**Bang Motion**](https://github.com/bangtutorial/bang-motion) | 1.1k | Browser motion graphics that move like video, not slides: openers, promos, bumpers, kinetic type and five explainer styles in a single index.html. | MIT |
+| 13 | [**Explainroo**](https://github.com/vincentsch/explainroo) | 824 | Narrated explainer videos with local voice generation and word-level timing. | MIT |
+| 14 | [**Claude Remotion Skill**](https://github.com/haidrrrry/claude-remotion-skill) | 818 | Motion graphics in Remotion from one prompt: intros, logo animations, promos, captions, b-roll and sound design. | MIT |
+| 15 | [**Claude Motion Design**](https://github.com/howseen-ai/claude-motion-design) | 764 | Motion design in pure code (HTML, Playwright, ffmpeg), no After Effects: launch films, showreels, promos and remakes of a reference video. | MIT |
+| 16 | [**Blender Skills**](https://github.com/EL4CTEO/blender-skills) | 700 | 28 professional Blender 5.2 workflows as agent skills: animation, rigging, lighting, simulation, stylized NPR, rendering and more. | MIT |
+| 17 | [**Rossark Motion**](https://github.com/rossark0/rossark-motion-skill) | 689 | Animates SVGs, characters and illustrations for React Native and SwiftUI. | MIT |
+| 18 | [**AI Promo Video Maker**](https://github.com/liyupi/ai-promo-video-maker) | 437 | Product promo films from a name or URL: researches the product, offers style frames, captures real 4K pages, cuts to the beat and adds narration. | MIT |
+| 19 | [**xilo-opus-video**](https://github.com/Kianzzz/xilo-opus-video) | 366 | Code-made video with three plans and previews first, then a frame-by-frame render: Canvas, WebGL, Three.js, Remotion, HyperFrames or Manim, with a coded score. | MIT |
+| 20 | [**Video Director**](https://github.com/win4r/video-director) | 312 | Video planning, timeline validation and automated quality checks. | MIT |
+| 21 | [**HyperFrames Community Skills**](https://github.com/heygen-com/hyperframes-community-skills) | 249 | Focused community skills for HyperFrames: p5 paint animation, Vox-style explainers, 3D camera captions, day-in-my-life and more. | Apache-2.0 |
+| 22 | [**Take One**](https://github.com/talsiach/take-one) | 172 | Turns prompts into videos through a multi-stage creative pipeline. | MIT |
+| 23 | [**Argo**](https://github.com/shreyaskarnik/argo) | 122 | Creates product demo videos from Playwright walkthroughs with AI voiceovers. | MIT |
 
 ## Top 60
 
