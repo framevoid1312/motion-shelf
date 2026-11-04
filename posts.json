@@ -20,6 +20,16 @@
   "prompt": "Create a video of Portland, OR's bus service on a random Tuesday! Showcase Portland's different neighborhoods at a high level and then zoom in on specific routes in each quadrant (absorbing North Portland into NE and South Portland into SW for brevity). Use a light theme. Slow down the speed of the bus animation when zoomed in, without increasing the total duration too much so the viewer can appreciate some of the landscape and streets it travels through in a given loop."
  },
  {
+  "id": "2103315922098470926",
+  "likes": 17248,
+  "title": "Claude motion designer showreel",
+  "author": "stephanlivera",
+  "url": "https://x.com/stephanlivera/status/2103315922098470926",
+  "video": "https://video.twimg.com/amplify_video/2103315748496302080/vid/avc1/1920x1080/Ug6RUqJ59vKTsnPX.mp4",
+  "poster": "https://pbs.twimg.com/amplify_video_thumb/2103315748496302080/img/eScXkusmi5doSQFo.jpg",
+  "prompt": "make a dynamic 15-second motion graphics video that shows what an incredible motion designer you are, like it's your showreel for a résumé. go all out."
+ },
+ {
   "id": "2103534482930491441",
   "likes": 16504,
   "title": "I've included an MP4 file and an original link to a video that is…",
@@ -528,6 +538,16 @@
   "video": "https://video.twimg.com/amplify_video/2106808951396261888/vid/avc1/720x878/Js3RkaTKaBtZupW3.mp4",
   "poster": "https://pbs.twimg.com/amplify_video_thumb/2106808951396261888/img/WErKc9ObXH3eEwvW.jpg",
   "prompt": "Create an interactive 3D \"Plush Octopus\" toy as a single self-contained HTML file using native WebGPU. A cute stuffed octopus sits on a soft studio table: a big round head with two glossy black safety-bead eyes, embroidered blush cheeks and a small stitched smile, and eight chubby tapering arms that lie on the table and curl up at the tips, revealing a paler underside with rows of sucker discs. Make it look like real minky plush: dense real-time fur with visible strands, soft sheen, fur that sways when the toy moves, and soft contact shadows.\n\nInteractions:\n- Drag the head or any single arm to stretch it independently; arms must stay connected to the body and never pass through each other or the head.\n- \"Finger\" tool: a finger follows the pointer above the octopus. Nearby arms reach up for it; press to lower it and the arms wrap around it and hold on. Moving or lifting the finger drags or lifts the octopus until the arms let go. Poking the head dents it.\n- \"Comb\" tool: stroke the fur to change its direction; against the grain it looks darker, with the grain it shines. Add a \"Smooth fur\" button.\n- \"Shake it\" button: pick the octopus up by the crown and shake it so the arms flop and swing like soft sausages, then set it down.\n- Squish (press down from above), Toss, and Reset. If it lands upside down, it slowly rolls back onto its arms.\n\nControls: three fur colours (Coral, Lilac, Lagoon), sliders for stuffing firmness, pile length, and internal damping, quarter speed, pause. Support mouse and touch, camera orbit, and zoom (scroll or pinch). Use an elegant editorial \"material study\" layout: a large serif title, a compact control panel, and live readouts (mass, volume, kinetic energy, arms holding on). Generate all geometry, materials, and fur procedurally: no external libraries, models, textures, or other assets. Prioritize believable soft-body physics, stable simulation, and a cosy, polished look."
+ },
+ {
+  "id": "2106101651010449796",
+  "likes": 1397,
+  "title": "Engraving-style Claude ad",
+  "author": "LexnLin",
+  "url": "https://x.com/LexnLin/status/2106101651010449796",
+  "video": "https://video.twimg.com/amplify_video/2106097909800312832/vid/avc1/1080x1920/HCXHbmDdy6gLibHk.mp4",
+  "poster": "https://pbs.twimg.com/amplify_video_thumb/2106097909800312832/img/l3WWj0WLsHk28pJB.jpg",
+  "prompt": "Make a fast-paced ad for Claude, about 10–15 s (closer to 15). Reference video attached.\n\n1. research:\n- Study Claude's earlier brand designs first.\n- Find every photo and asset that fits: artistic, editorial, whatever the idea needs.\n\n2. design/direction\n- An art reimagine: bold, light mode.\n- Clean and perfect: no beige \"artsy\" look, no eyebrow labels.\n- Paint elements on top of the images.\n- Above all: fast-paced and very creative.\n\n3. rules\n- No slop. Study the reference closely: smoothness, timing, shot durations, fonts, elements.\n- Take some inspiration and borrow techniques, but change the design overall, it should look like something you did completely on yourself with your own taste\n- Every morph has to be perfect.\n\nideas: (since everything moves fast)\n- Clean, varied Claude SVG animations\n- Images small, bigger, several at once\n- Morphing text\n- Clean 3D animation\n- Zooms\n\nextra notes:\n- Feel free to work 10+ hours\n- Give me the final video, ending on the Claude logo."
  },
  {
   "id": "2103683057689522564",
@@ -2260,6 +2280,16 @@
   "prompt": "🚨 Gemini 4 Carbon is 3x cheaper than Opus 5.5. but is it better?\n\nsame prompt: 9 tiny troublemakers, a dock full of tools, and one of them has to pop at the end.\n\nGemini 4 Carbon - $4.10, 34 min\nOpus 5.5 - $12.80, 1h 12m\n\nCarbon looks SERIOUSLY good. brighter, shinier, more chaos.\nOpus feels more alive. the way they all stare at the one getting squashed got me\n\nwatch till the end, the inside of the black one is where it gets interesting.\n\nis Opus still worth 3x the price?"
  },
  {
+  "id": "2104200591278739735",
+  "likes": 307,
+  "title": "AjustaCV Pro pricing promo",
+  "author": "thayto_dev",
+  "url": "https://x.com/thayto_dev/status/2104200591278739735",
+  "video": "https://video.twimg.com/amplify_video/2104200527491870720/vid/avc1/1920x1080/LTEjo5rcCgbNWMcx.mp4",
+  "poster": "https://pbs.twimg.com/amplify_video_thumb/2104200527491870720/img/mCucp5pu1P51FLjB.jpg",
+  "prompt": "make a dynamic 15-second motion graphics video that shows what an incredible motion designer you are, like it's your showreel for a résumé. go all out."
+ },
+ {
   "id": "2103407771102421285",
   "likes": 307,
   "title": "Showreel prompt, using memory (Japanese)",
@@ -2348,6 +2378,16 @@
   "video": "https://video.twimg.com/amplify_video/2103547680194805760/vid/avc1/1280x720/IUquSb__Wb7hbfzu.mp4",
   "poster": "https://pbs.twimg.com/amplify_video_thumb/2103547680194805760/img/gpq7QSBNF6M6BRLi.jpg",
   "prompt": "In LilyPond, write the opening largo movement of a trio sonata in the style of Corelli. Use a major key and a variety of suspensions. Use three staves: one for each violin and two for the bass continuo."
+ },
+ {
+  "id": "2107040421989994822",
+  "likes": 291,
+  "title": "SuperX feature release teaser",
+  "author": "robj3d3",
+  "url": "https://x.com/robj3d3/status/2107040421989994822",
+  "video": "https://video.twimg.com/amplify_video/2107039984603844608/vid/avc1/1920x1080/vgjihl8IHy4SCuBu.mp4",
+  "poster": "https://pbs.twimg.com/amplify_video_thumb/2107039984603844608/img/bnoA6VeT0QiuXjUr.jpg",
+  "prompt": "look at my product roadmap and make a dynamic 15-second motion graphics video that teases the next feature release. go all out and hold nothing back"
  },
  {
   "id": "2105719735438495965",
@@ -2520,6 +2560,16 @@
   "prompt": "株式会社Cominkaの採用PR動画を作りたい。あなたがどれほど素晴らしいモーションデザイナーかを示す、ダイナミックな15秒のモーショングラフィックスビデオを作成してください。履歴書用のショーリールのような感じで、全力でやって。素材やCominkaのデザインスタイルなどは次の採用サイトを参考にして。営業を募集しているから営業募集で。gemini-3.8-flash-ttsで声も追加できたら最高かも。大阪だから関西弁がいいかな。検討して。"
  },
  {
+  "id": "2103925420211229164",
+  "likes": 253,
+  "title": "Branding agency showreel",
+  "author": "jacksonfall",
+  "url": "https://x.com/jacksonfall/status/2103925420211229164",
+  "video": "https://video.twimg.com/amplify_video/2103925220515954689/vid/avc1/1294x720/Et0H6-Hg05r9rtiX.mp4",
+  "poster": "https://pbs.twimg.com/amplify_video_thumb/2103925220515954689/img/xWzxEp_nw1UtXy41.jpg",
+  "prompt": "make a dynamic 30-second motion graphics video that shows what an incredible motion designer you are, create all graphics from scratch as if you were a niche branding agency for startup founders, like it's your showreel for a résumé. go all out."
+ },
+ {
   "id": "2106138602073641241",
   "likes": 243,
   "title": "Claude mascot coworker mod demo",
@@ -2588,6 +2638,16 @@
   "video": "https://media.skillry.dev/opus-5-5/froessell-562325/original.mp4",
   "poster": "https://media.skillry.dev/opus-5-5/froessell-562325/original.eb54fc5e20.webp",
   "prompt": "PRD — Police Chase Arcade Game\n\nWorking title: Heatwave\nPlatform: iOS + Android\nEngine: Unity\nGenre: Top-down 3D arcade chase / survival\nOrientation: Portrait\nInput: One-thumb touch controls\nBusiness model: TBD — design MVP around gameplay first\nPrimary goal: Build a genuinely fun playable prototype before adding progression or monetization.\n⸻\nProduct vision\nA fast, chaotic mobile arcade game where the player is constantly being pursued by increasingly aggressive police.\nThe player cannot directly attack.\nInstead, they survive by driving aggressively, drifting around obstacles, making sudden turns and tricking pursuing police into crashing into obstacles and each other.\nThe fantasy is:\nYou’re not stronger than the police. You’re harder to catch.\n\nRuns should produce constant near-misses, chain collisions and moments where the player escapes a seemingly impossible situation.\n\nThink:\n\neasy controls + aggressive pursuit + physics chaos + escalating pressure.\n\n⸻\n\nCore gameplay loop\n\nSTART RUN\n↓\nDRIVE / DRIFT\n↓\nPOLICE PURSUE\n↓\nBAIT POLICE\n↓\nDODGE\n↓\nPOLICE CRASH\n↓\nGAIN SCORE\n↓\nWANTED LEVEL INCREASES\n↓\nMORE / HARDER POLICE\n↓\nSURVIVE\n↓\nEVENTUALLY GET CAUGHT\n↓\nSCORE / RESTART\n\nTarget run duration:\n\n2–5 minutes.\n\nRestart should take less than 2 seconds.\n\n⸻\n\nDesign principles\n\n3.1 One-thumb playable\n\nThe player should be able to understand the controls within seconds.\nNo accelerator.\nNo brake pedal.\nNo virtual steering wheel.\nThe vehicle moves automatically.\nThe player controls only direction.\n\n(I moved away from this after testing it the first time and added the onscreen joystick)\n\n3.2 Arcade physics, not simulation\nVehicles should:\ndrift\nslide\nbounce\nspin\ncollide dramatically\nrecover quickly\nFun takes priority over physical accuracy.\n\n3.3 Pursuers are weapons\nPolice are effectively the player’s offensive mechanic.\nThe player should learn:\n“If I turn here, that cop is going straight into that wall.”\n3.4 Chaos should remain readable\n\nEven with 10+ vehicles on screen, the player must immediately understand:\nwhere they are\nwhere they’re moving\n\nwhere police are coming from\n\nwhat can kill them\n\n3.5 Failure should feel fair\n\nDeath should generally result from a mistake the player understands rather than unpredictable physics.\n\n⸻\n\nMVP scope\n\nDo not build progression, upgrades, missions or monetization for the first milestone.\n\nThe first version contains:\n\n1 player vehicle\n\n1 arena\n\n1 police vehicle\n\n1 elite police variant\n\n5 wanted levels\n\nphysics collisions\n\nenvironmental obstacles\nscoring\nplayer health\npolice destruction\nbasic VFX\nbasic audio\n\ngame-over screen\n\ninstant restart\n\nThat’s enough to determine whether the game deserves further development.\n\n⸻\n\nPlayer vehicle\n\nMovement\n\nPlayer vehicle uses a Rigidbody-based arcade controller.\n\nDo not rely heavily on realistic WheelColliders.\nCore variables should be exposed in the Unity Inspector:\nAcceleration\nMaximum Speed\nTurn Speed\nTurn Curve\nLateral Grip\nDrift Factor\nVehicle Mass\nCollision Force\nDrag\nAngular Drag\nRecovery Speed\nThese need to be extremely easy to tune.\n\n⸻\n\nControls\n\nRecommended first implementation:\n\nDrag steering\n\nPlayer touches anywhere on the lower portion of the screen.\n\nDragging horizontally controls steering.\n\n← drag          turn left\n→ drag          turn right\nVehicle accelerates automatically.\nSteering should be relative rather than absolute.\nThe player should be able to lift their finger without immediately losing control.\nAlternative to prototype\nTest:\nHold left/right side of screen = steer left/right.\nDon’t commit until both have been tested on a physical phone.\n⸻\nDrift system\nDrifting should happen naturally when turning at speed.\nNo dedicated drift button.\nAt low speed:\nhigh traction\n\nAt high speed:\n\nreduced lateral traction\n\nThis produces controlled sliding.\n\nLong drifts can optionally award score.\n\nExample:\n\nDRIFT\n+120\nLONG DRIFT\n+340\n\nBut drift scoring is secondary to police destruction.\n\n⸻\nPolice AI\nPolice should feel:\naggressive, predictable and slightly stupid.\nThey should not simply follow the player’s current position.\nInstead, calculate an interception target based on player velocity.\nConceptually:\ntarget =\nplayerPosition\n+\nplayerVelocity * predictionTime\nPolice therefore try to cut the player off.\n⸻\nPolice intelligence\n\nPolice intentionally have limited obstacle avoidance.\n\nThis is important.\n\nPerfect navigation would make the game less fun.\n\nPolice should:\n\npursue aggressively\n\nattempt interception\n\navoid obvious static obstacles\n\npoorly account for other police\novershoot turns\n\ncollide with each other\n\noccasionally take dangerous routes\n\nThis creates opportunities for the player.\n\n⸻\n\nPolice destruction\n\nPolice can be destroyed by:\n\nhigh-speed obstacle collisions\n\nhitting another police vehicle\n\nchain collisions\n\nenvironmental hazards\n\nThe player does not have weapons.\n\nExample scoring:\n\nCOP SMASHED\n+250\nDOUBLE SMASH\n+600\nTRIPLE SMASH\n+1,000\nPILEUP!\n+2,000\n\nChain collisions should be heavily rewarded.\n\n⸻\n\nWanted system\n\nWanted level controls difficulty.\n\n★☆☆☆☆\n★★☆☆☆\n★★★☆☆\n★★★★☆\n★★★★★\n\nWanted level increases based primarily on survival time and score.\nLevel 1\n2 police.\nSlow and forgiving.\n\nLevel 2\n\n3–4 police.\n\nSlightly faster.\n\nLevel 3\n\n5–6 police.\n\nMore aggressive interception.\n\nLevel 4\n\n7–9 police.\n\nElite police introduced.\nLevel 5\nMaximum chaos.\n10+ police depending on device performance.\n\nElite units appear frequently.\n\nThe game should eventually become effectively impossible.\n\nThat’s intentional.\n\n⸻\n\nElite police\n\nThe MVP only needs one special police type.\n\nInterceptor\n\nVisually distinct vehicle.\nCharacteristics:\nfaster than standard police\nlower mass\naggressive prediction\nsharp steering\neasier to destroy in collisions\n\nThis creates a glass-cannon pursuer.\n\n⸻\n\nPlayer health\n\nUse a simple health bar.\n\nExample:\nHULL\n██████░░░░\nMinor impacts:\nsmall damage.\n\nHeavy impacts:\n\nlarge damage.\n\nExtremely high-speed impacts:\npotential instant destruction.\nPolice contact alone shouldn’t immediately kill the player.\nThis allows chaotic scrambles.\n⸻\nArena\nFirst arena should be compact.\nSomething roughly equivalent to:\n\nROCK\n\n┌─────────────┐\n│             │\n│   ROCK      │\n│             │\n│       ███   │\n│             │\n│ ROCK        │\n│         ROCK│\n└─────────────┘\n\nObstacles need enough space between them for high-speed movement.\n\nAvoid procedural generation initially.\n\nHand-design one good arena.\n⸻\nEnvironment\nFor the first visual theme, I’d use something other than water so we’re not cloning the reference too closely.\nMy preference:\n\nDesert outlaw chase\n\nPlayer is an outlaw escaping through a stylized desert environment.\n\nEnvironment contains:\n\nrock formations\n\ncacti\n\nbarriers\n\nabandoned vehicles\n\nramps\n\nfences\n\nsmall buildings\n\ndust\n\ndestructible props\n\nIt also fits the chunky visual language you’re already exploring with Bolt Pit.\n\n⸻\n\nCamera\n\nTop-down perspective camera.\n\nNot completely vertical.\n\nSomething approximately:\n\n55–70° downward angle.\n\nCamera follows player with smoothing.\n\nCamera should look slightly ahead in the player’s travel direction.\n\nAt high speed:\n\ncamera pulls back slightly.\n\nAt low speed:\n\ncamera moves closer.\n\n⸻\nCamera juice\nSmall camera effects make a large difference.\nLight collision\nTiny shake.\n\nHeavy collision\n\nStrong short shake.\n\nPolice destruction\n\nShake + tiny freeze frame.\n\nExample:\n\n50–100 ms hit stop.\nLarge pileup\n\nSlight zoom impulse + shake + particles.\n\nDon’t overdo continuous shaking.\n\n⸻\n\nVisual style\n\nChunky stylized 3D.\n\nCharacteristics:\n\nsimplified geometry\n\nexaggerated proportions\n\nbright readable vehicles\n\nsoft lighting\n\nminimal textures\n\nstrong silhouettes\n\nexaggerated particles\nAvoid realistic vehicle proportions.\nCars should feel almost toy-like.\n⸻\nVFX\nMinimum MVP effects:\nPlayer\ndust trail\ntire/skid marks\ndrift smoke\n\nimpact sparks\n\nPolice\n\nsiren lights\n\nsmoke when damaged\n\ndestruction explosion\n\ndebris\n\nEnvironment\n\ndust\n\ndestructible objects\n\nimpact particles\n\n⸻\nCollision feedback\nEvery significant collision should combine:\nphysics + particles + audio + camera response.\nMajor police destruction:\nIMPACT\n→ physics impulse\n→ vehicle fragments/debris\n→ sparks\n→ smoke\n→ camera shake\n→ hit stop\n→ sound\n→ score popup\nThis interaction is one of the game’s main sources of satisfaction.\n⸻\nScore system\n\nScore comes from:\n\nActionExample\nSurviving+10/sec\nPolice destroyed+250\nDriftvariable\nNear miss+100\nDouble collision+600\nTriple collision+1,000\nLarge pileup+2,000\n\nExact values should remain configurable.\n\n⸻\n\nNear misses\n\nOptional for MVP but potentially valuable.\n\nDetect when a police vehicle passes extremely close to the player at high relative velocity.\n\nDisplay:\n\nCLOSE CALL! +100\n\nThis rewards risky driving.\n\n⸻\n\nUI\n\nDuring gameplay keep UI extremely minimal.\n\nSCORE                          COINS\n13,590                          14\n★★★☆☆\nWANTED\nGAME\nHULL\n████████░░\n\nNo minimap initially.\n\nOff-screen police can use subtle edge indicators.\n\n⸻\n\nGame over\n\nWhen hull reaches zero:\n\nbrief slow motion.\n\nPlayer crashes.\n\nThen:\n\nBUSTED\nSCORE\n24,850\nBEST\n31,220\n[ AGAIN ]\n\nTapping anywhere could restart.\n\nAvoid unnecessary menus between runs.\n\n⸻\n\nAudio\n\nThe soundscape should sell speed and collisions.\n\nRequired:\n\nengine\n\ntire squeal\n\npolice sirens\nimpact\nmetal crunch\ndebris\ndestruction\nUI score sounds\nwanted level increase\n\nSirens should become increasingly chaotic as wanted level increases.\n\n⸻\n\nTechnical architecture\n\nSuggested Unity structure:\n\nGameManager\nPlayer\n├── PlayerController\n├── VehiclePhysics\n├── PlayerHealth\n└── PlayerEffects\nPolice\n├── PoliceController\n├── PoliceAI\n├── VehiclePhysics\n├── PoliceHealth\n└── PoliceEffects\nSystems\n├── SpawnManager\n├── WantedManager\n├── ScoreManager\n├── AudioManager\n├── CameraManager\n└── PoolManager\nUI\n├── HUD\n├── WantedUI\n├── ScoreUI\n├── HealthUI\n└── GameOverUI\n\nAvoid building an elaborate framework.\n\n⸻\nObject pooling\nPolice, particles and debris should use object pooling.\nAvoid frequent:\n\nInstantiate()\nDestroy()\n\nduring gameplay.\nMobile performance should be considered from the beginning.\n⸻\nPerformance target\n\nTarget:\n\n60 FPS\non a mid-range modern iPhone/Android device.\nInitial limits:\n\n~12 active vehicles\n\n~100 simple debris/particles\n\nsimple shadows\n\nlimited real-time lights\n\nPerformance should be tested on device early.\n\n⸻\nDevelopment milestones\nMilestone 1 — Greybox driving\nBuild:\nempty arena\ncube player\ntouch steering\nacceleration\ndrifting\n\ncamera\n\nSuccess criterion:\n\nDriving around an empty arena feels satisfying.\n\nDo not continue until it does.\n\n⸻\nMilestone 2 — The chase\nAdd:\none police vehicle\npursuit AI\ninterception\ncollisions\nSuccess criterion:\n\nDodging one police car is entertaining.\n\n⸻\n\nMilestone 3 — Emergent chaos\n\nAdd:\n\nmultiple police\n\npolice-police collisions\n\nobstacles\n\ndestruction\n\nscoring\n\nSuccess criterion:\n\nPlayer can intentionally cause:\n\npolice → police\nand\npolice → environment\ncollisions.\nThis is the critical milestone.\n⸻\nMilestone 4 — Escalation\n\nAdd:\n\nwanted levels\n\nspawning\n\ndifficulty scaling\n\ninterceptor\n\nNow a run has an arc:\n\ncalm\n↓\npressure\n↓\nchaos\n↓\npanic\n↓\ndeath\n\n⸻\n\nMilestone 5 — Juice\nAdd:\nparticles\ncamera shake\nhit stop\nskid marks\n\ndust\n\nsirens\n\ncollision sounds\n\nscore popups\n\n⸻\n\nMilestone 6 — Mobile build\n\nBuild for real devices.\nTest:\ncontrols\nperformance\nreadability\nbattery/thermal behaviour\ndifferent screen ratios\n⸻\nMilestone 7 — Decide whether to continue\n\nAt this point, stop development temporarily.\n\nDon’t immediately build a garage and 37 unlockable cars.\n\nPut the build in front of people.\n\nThe important questions are:\n\nDo people immediately understand it?\nDo they restart after dying?\nDo they intentionally try to make cops crash?\nDoes “one more run” happen naturally?\nIf not, work on the core loop rather than adding content.\n⸻\nPhase 2 — only after validation\nIf the prototype works, then expand into:\nCars\n↓\nCoins\n↓\nUnlocks\n↓\nChallenges\n↓\nNew arenas\n↓\nSpecial police\n↓\nUpgrades\n↓\nDaily challenges\n↓\nLeaderboards\nPotential environments:\ndesert\ncity\ndocks\nsnow\nindustrial yard\nairport\nconstruction site\nmilitary base\nAnd then there’s room for ridiculous police units: SUVs, armored vans, helicopters dropping roadblocks, etc.\n\nI have opened a @[Unity CLI installation] project which we can work in. The art style of the game should be fun and cartoony and the action also over the top.\nI have imported the Topdown engine into the project as well that we can use:\nhttps://topdown-engine.moremountains.com/\n\nI want the game to be optimized for mobile, but should work on desktop while testing."
+ },
+ {
+  "id": "2103589440258187408",
+  "likes": 217,
+  "title": "Enxovaly baby app promo",
+  "author": "gabrielbuzziv",
+  "url": "https://x.com/gabrielbuzziv/status/2103589440258187408",
+  "video": "https://video.twimg.com/amplify_video/2103589369307127808/vid/avc1/1920x1080/NqfYijlrDZ1QmDkJ.mp4",
+  "poster": "https://pbs.twimg.com/amplify_video_thumb/2103589369307127808/img/Jc5YPX6S9hq4N3kr.jpg",
+  "prompt": "make a dynamic 15-second motion graphics video that shows what an incredible motion designer you are, like it's your showreel for a résumé. go all out."
  },
  {
   "id": "2110385278246654052",
@@ -3170,6 +3230,16 @@
   "prompt": "Create a low-poly 3D horse running in a seamless loop using Three.js. Build it procedurally from primitive geometry, animate the legs, body, head, and tail.\n\nOrganise the implementation into a clean, maintainable multi-file structure. Separate HTML, CSS, and JavaScript into appropriate files, and split JavaScript into multiple ES modules where doing so improves separation of concerns.\n\nThe project must be self-contained and runnable by opening index.html (or using a simple static web server), with no build process required. External CDN dependencies such as Three.js are acceptable.\n\nDo your best, you are being rated against other AI models.  Put extra effort in."
  },
  {
+  "id": "2103557833153466403",
+  "likes": 91,
+  "title": "Drone Emprit showreel",
+  "author": "ismailfahmi",
+  "url": "https://x.com/ismailfahmi/status/2103557833153466403",
+  "video": "https://video.twimg.com/amplify_video/2103557727356436480/vid/avc1/1920x1080/b2cLy2OzxP3qebom.mp4",
+  "poster": "https://pbs.twimg.com/amplify_video_thumb/2103557727356436480/img/-HKt4XBTlgKrzx1f.jpg",
+  "prompt": "make a dynamic 15-second motion graphics video that shows what an incredible media intelligent Drone Emprit is, like it's our showreel for a résumé. go all out."
+ },
+ {
   "id": "2108890995459047654",
   "likes": 91,
   "title": "Interactive 3D Dino Jelly Diorama in Three.js",
@@ -3580,6 +3650,16 @@
   "prompt": "输入如下：魔鬼控制人类最简单的方法,就是让人保持漂流状态。98% 的人,终其一生都在漂流。\" —— 拿破仑·希尔《智胜恶魔》\n\n参考这个洞见，创作一部讲解视频，尽可能令人难以置信的 2D 动画，时长 1 -3分钟，要有连贯的讲解，对白和声音。"
  },
  {
+  "id": "2103404901451829311",
+  "likes": 51,
+  "title": "Motion designer showreel",
+  "author": "hanifproduktif",
+  "url": "https://x.com/hanifproduktif/status/2103404901451829311",
+  "video": "https://video.twimg.com/amplify_video/2103404836717002752/vid/avc1/1920x1080/UMTMXnxkqX566-yp.mp4",
+  "poster": "https://pbs.twimg.com/media/HTDLjf6awAAE1aR.jpg",
+  "prompt": "You are applying as a motion designer in my agency. Make 15s video to showcase your skills and capabilities. Send me a showreel"
+ },
+ {
   "id": "2108577475752054868",
   "likes": 51,
   "title": "Meteor Time-Freeze Cinematic Sequence Prompt Orchestrated by Opus 5.5",
@@ -3728,16 +3808,6 @@
   "video": "https://media.skillry.dev/opus-5-5/aylmerth-356252/original.mp4",
   "poster": "https://media.skillry.dev/opus-5-5/aylmerth-356252/original.22dec1597f.webp",
   "prompt": "I made this with a two sentence prompt using Opus 5.5 and Remotion."
- },
- {
-  "id": "2104424611010232366",
-  "likes": 43,
-  "title": "make a 15-second motion graphics showreel that proves what an…",
-  "author": "RoundtableSpace",
-  "url": "https://x.com/RoundtableSpace/status/2104424611010232366",
-  "video": "https://video.twimg.com/amplify_video/2103315748496302080/vid/avc1/1280x720/eCO2uc133COVHpCg.mp4",
-  "poster": "https://media.skillry.dev/opus-5-5/_prompts/roundtablespace-232366/poster.c3e1114aa2.webp",
-  "prompt": "make a 15-second motion graphics showreel that proves what an incredible motion designer you are, go all out."
  },
  {
   "id": "2103587706999914649",
@@ -3948,6 +4018,16 @@
   "video": "https://media.skillry.dev/opus-5-5/heyiamnick-119558/original.mp4",
   "poster": "https://media.skillry.dev/opus-5-5/heyiamnick-119558/original.9d470f3eab.webp",
   "prompt": "<direction>\nBuild a 30-second looping motion design showreel that introduces CLAUDE, a motion designer.\nConcept, in one line: one pencil line gets promoted three times (graphite on paper, wire on a blueprint, light on black) and never leaves the screen.\n\nEvery shot is made out of the previous one: shapes, type and colour transform into the next scene. No cuts, no fades.\n\nTypeface: Geist only. Weight 900 for big words, 600 to 800 for small labels (24 to 28 px, tracked 0.14 to 0.3 em).\nPalette: paper cream #EDE6D5, blueprint blue #1B3ED2, hologram cyan #45F0DD, plus black #07080A, graphite #16161A and white. Each stage's accent is the next stage's colour: blue pencil on paper, cyan on the blueprint, white on the hologram.\nCamera: locked and front-on for the whole film, like a drafting table. Objects turn; the camera never moves.\nEmpty border: nothing at rest within 150 px of the sides or 90 px of the top and bottom. Things travelling through may cross it.\n\nThree inks. The same geometry is drawn in whichever ink is on screen:\n- PAPER: a cream paper background (use my paper image if I give one, otherwise flat cream with fine drawn grain) with a 60 px blue grid at about 13% and every fifth line at 26%. Lines are pencil: resampled and pushed off true by slow sine waves whose phase changes 8 times a second, stroked twice (full width at 90%, half width at 40% with more wobble), with paper tooth knocked out of the strokes, then multiplied onto the paper. Fills are diagonal hatching drawn on one line at a time. Big type is hatching cut to the letter shapes, with a doubled outline.\n- BLUEPRINT: flat blue with the same grid in white. Clean white lines 3 to 4 px, hidden edges dashed and thinner, fills are fine clean hatching.\n- HOLOGRAM: black with the same grid in cyan. Cyan lines with a white core 30% of the line width. Fills are horizontal scan lines on an 8 px pitch whose thickness follows how lit the surface is. No blur halo anywhere: it reads as light through line density only.\n\nBanned: particle bursts, glows, lens flares, camera shake, RGB split, crossfades, generic gradients, bouncy easing, holds longer than half a second, anything that looks like a template.\n</direction>\n\n<structure>\n120 BPM, 60 beats, 15 bars of 2 seconds. Something happens on every beat. Moves start 0.05 s before their beat so they land on it.\nEasing: a critically damped spring, 1 - (1 + w t) e^(-w t) with w between 12 and 40, so nothing ever passes its target; exponential ease-in and ease-out for wipes, presses and exits.\nScene changes: paper to blueprint by a shape that floods the frame with a hard edge; blueprint to hologram and hologram to paper by one horizontal scan line.\nThe last frame is the first frame, so it loops.\nTwo corner labels stay on all film: top left \"FIG. 07 — GEAR\" (bar number and name), bottom right \"BEAT 27 / 60\". Bar names: DRAFT, TYPE, CURVE, MORPH, TILE, SOLID, GEAR, PANEL, DATA, LIGHT, WAVE, GLOBE, DRUM, FORM, END.\n</structure>\n<mascot>\n\nThe creative director: a small box character. Body 76 x 54 units with rounded corners, two short arm stubs (24 x 16) at mid height, four straight legs (11 x 33), two tall rounded-rectangle eyes (8 x 14). Draw it about 250 px wide. Its right arm is raised 58 degrees holding a pencil.\nOn paper: graphite outline with sparse blue hatching and graphite eyes. In the hologram: cyan outline with scan-line fill and white eyes. It is never a fourth colour.\nIt runs with alternate leg pairs lifting, six steps a second, leaning 7 degrees into the run.\n</mascot>\n<storyboard>\n\nBar 1, HOOK, 0-2 s, paper.\nFrame 0: CLAUDE in Geist 900, fitted to 1500 px wide, centred, pencil-hatched. INTRODUCING small above it, A MOTION DESIGNER small below. A pencil rail 1620 px wide sits 96 px above the letters. The mascot stands on the rail at x = 1560 with CREATIVE DIRECTOR lettered to its left.\n\n0.0: the small lines un-type; the mascot runs off the right edge, accelerating.\n\n0.36 to 0.5: the rail drops, accelerating, to 26 px below the baseline and presses the letters flat into itself.\n\n1.0: the line rises to the middle, shortens to 1320 px and splits into two rails 140 px apart; 41 blue ruler ticks sweep along the top rail.\n\n1.5: the rails open to 300 px; a blue height dimension draws at the right with a live number.\n\nBar 2, KINETIC TYPE, 2-4 s, paper. Words sit between the rails and are clipped to that slot; the rails move to fit each word.\n\n2.0: INTRODUCING rises through the baseline letter by letter, then lifts out through the top.\n\n2.5: A MOTION whips in from the left (1400 px in 0.2 s).\n\n3.0: the rails clap shut on it and reopen, stretching DESIGNER out of the line; its letters then fly out sideways.\n\n3.5: CLAUDE in blue pencil, letters dropping from above one every 0.05 s. At 4.0 the rails close and crush it into one line 1476 px long.\n\nBar 3, CURVES, 4-6 s, paper.\n\n4.1: the line gets pen-tool handles (430 px long at 58 degrees, small squares at the ends, circles on the handle tips, the label EASE) and bends into an S.\n\n4.5: the handles swing to the mirror angle; eight blue copies fan out 34 px apart, joined at both ends like a leaf.\n\n5.0: handles retract; the ribbon becomes travelling sine waves (amplitude 92 px, 2.75 cycles, each line a little out of phase).\n\n5.5: it gathers back into one flat line.\n\nBar 4, SHAPE MORPH, 6-8 s, paper.\n\n6.1: the line curls into a circle of radius 235 (curvature grows, length stays). 6.5: triangle, turning 120 degrees as it changes. 7.0: square. 7.5: hexagon, point up, radius 270. Blue hatching builds inside, then cross-hatching.\n\nBar 5, TILING, 8-10 s, paper.\n\n8.0: the hexagon shrinks to radius 96 and six more slide out around it. 8.5: twelve more, a honeycomb of\n\n19. 9.0: dense hatching sweeps across until every cell is solid blue. 9.6 to 10.0: the centre cell's shape grows past the frame with a hard edge; inside it is the blueprint, with the honeycomb in white line.\n\nBar 6, 2D TO 3D, 10-12 s, blueprint.\n\n10.0: three lines draw inside every hexagon, plus three dashed hidden ones: each is a cube seen corner-on. \n\n10.5: the eighteen outer cubes slide into the centre one, which grows to radius 270. 11.0: it turns a quarter and perspective switches on. 11.5: it faces front.\n\nBar 7, MECHANISM, 12-14 s, blueprint.\n\n12.0: the cube flattens and its front square grows teeth: a 16-tooth gear, pitch radius 208. From 12.25 the train steps 45 degrees on every eighth note. 12.5: a 10-tooth gear grows out to the upper right, meshing. 13.0: a 12-tooth gear to the upper left. Each has a dashed pitch circle, a hub and a label (16T, 10T, 12T). 13.5: the small gears retract; the gear becomes a square again and the cube gets its depth back.\nBar 8, UNFOLD, 14-16 s, blueprint.\n\n14.0: the cube unfolds on its hinges into a cross of six squares. 14.5: the squares slide and stretch into six panels: a header strip, a tall sidebar, a wide chart, two tiles, a timeline strip.\n\n15.0: they fill in. Header: \"CLAUDE — MOTION REEL\", a BARS / RING switch, a LIGHT toggle. Chart: 30 bars, one per second of this film, heights 42 30 36 44 50 46 52 62 50 56 62 72 60 66 58 76 56 62 68 74 70 78 86 94 100 93 97 90 80 50. Timeline: the 15 bar names, a keyframe diamond on each.\n15.5: counters roll up: 120 BPM, 60 BEATS, 1800 FRAMES, 0 CUTS.\nBar 9, DATA, 16-18 s, blueprint.\n\n16.0: a graph line draws across the bar tops; a cyan playhead lands on the timeline at the real time. The current second's bar is solid cyan, earlier ones hatched, later ones outlined. A cursor arrives.\n16.5: it clicks RING: the chart's baseline bends round into a circle of radius 110 with the ba"
+ },
+ {
+  "id": "2103831140033241156",
+  "likes": 28,
+  "title": "Browser automation skill launch",
+  "author": "hqmank",
+  "url": "https://x.com/hqmank/status/2103831140033241156",
+  "video": "https://video.twimg.com/amplify_video/2103830793105629184/vid/avc1/1920x1080/y8InLVNBlYfJgvWk.mp4",
+  "poster": "https://pbs.twimg.com/amplify_video_thumb/2103830793105629184/img/NppYefNdZaT8GZxN.jpg",
+  "prompt": "Make a dynamic 20-second motion graphics launch video for my open-source project jev-browser-skill ('Give a site. Write a goal. Jev clicks.'), like it's the hero video on its GitHub README. Go all out."
  },
  {
   "id": "2104222017696469188",
@@ -4260,6 +4340,16 @@
   "prompt": "Create a video using Rust + SVG via fframes where every frame is a function. Include particles, 3D geometry, springs, shaders and an audio-reactive ring, synchronized to a 128 BPM beat grid."
  },
  {
+  "id": "2104070024575242622",
+  "likes": 19,
+  "title": "Whiteboard skill tutorial",
+  "author": "lemomo_ai",
+  "url": "https://x.com/lemomo_ai/status/2104070024575242622",
+  "video": "https://video.twimg.com/amplify_video/2104056361764216832/vid/avc1/1920x1080/y6Ft48snH_vjdovx.mp4",
+  "poster": "https://pbs.twimg.com/amplify_video_thumb/2104056361764216832/img/-M4LLJ0IjWLnB2g4.jpg",
+  "prompt": "Create a tutorial video explaining how to create videos using Lemo-Opuscar skill (Opus 5.5) , in a [Whiteboard Explainer] style.  One prompt, one answer, then ship film."
+ },
+ {
   "id": "2103629247751618782",
   "likes": 19,
   "title": "I want you to make a 60-second, fully animated explainer video, end…",
@@ -4510,6 +4600,16 @@
   "prompt": "帮我制作一个动画，主题描绘芝士相机的理念和使用场景，需要打动我们的目标用户（男朋友给女朋友拍照，拍出更好看的照片）；包括音效和音乐；你可以使用任何你觉得合适的工具和技术，做出最好最惊艳的效果，不要使用已有的skill，不要参考以前做过的视频或者文案"
  },
  {
+  "id": "2103776623548158453",
+  "likes": 15,
+  "title": "Flexprice motion showreel",
+  "author": "sudeepsd_",
+  "url": "https://x.com/sudeepsd_/status/2103776623548158453",
+  "video": "https://video.twimg.com/amplify_video/2103776344383606784/vid/avc1/1920x1080/Lc2GIlRerHVolnLS.mp4",
+  "poster": "https://pbs.twimg.com/amplify_video_thumb/2103776344383606784/img/aSDlm_RceioVwdTW.jpg",
+  "prompt": "make a dynamic 15-second motion graphics video of what you know about @tryflexprice that shows what an incredible motion designer you are, like it's your showreel for a résumé. go all out."
+ },
+ {
   "id": "2103604431627452427",
   "likes": 15,
   "title": "You're a world-class motion designer building a Supademo launch…",
@@ -4548,6 +4648,16 @@
   "video": "https://video.twimg.com/amplify_video/2104481133219991552/vid/avc1/1280x720/KMkoJEb-y6eYyp6c.mp4?tag=16",
   "poster": "https://media.skillry.dev/opus-5-5/_prompts/paulo-kombucha-283883/poster.2e31bd3a93.webp",
   "prompt": "make a dynamic 15-second motion graphics video to talk about our referral program"
+ },
+ {
+  "id": "2103772327146119508",
+  "likes": 14,
+  "title": "Tally product demo",
+  "author": "VisheshBaghell",
+  "url": "https://x.com/VisheshBaghell/status/2103772327146119508",
+  "video": "https://video.twimg.com/amplify_video/2103772214030159872/vid/avc1/1920x1080/J3gfo2idqEwYHQLH.mp4",
+  "poster": "https://pbs.twimg.com/amplify_video_thumb/2103772214030159872/img/rlcTb1Zmnk9oc24H.jpg",
+  "prompt": "build me a product demo for my site using /brag skill. make sure to emphasize on all features"
  },
  {
   "id": "2103761658745335993",
@@ -4968,6 +5078,16 @@
   "video": "https://video.twimg.com/amplify_video/2106842187228925952/vid/avc1/720x720/Lc_b2gnFXgKR_OWN.mp4",
   "poster": "https://media.skillry.dev/opus-5-5/_prompts/uinerd-635877/poster.2c439980fe.webp",
   "prompt": "[attach character image] make a 15-second animation of it, built in code. topic: the last day of Oktoberfest. one last ‘Prost!’ as the Wiesn lights go out. find free public-domain sounds online, sync them to the animation, and mix everything with ffmpeg."
+ },
+ {
+  "id": "2103395846578676116",
+  "likes": 9,
+  "title": "Claude motion design showreel",
+  "author": "rendesr",
+  "url": "https://x.com/rendesr/status/2103395846578676116",
+  "video": "https://video.twimg.com/amplify_video/2103395348689670144/vid/avc1/1920x1080/2WTXjQl7Y82aAI31.mp4",
+  "poster": "https://pbs.twimg.com/amplify_video_thumb/2103395348689670144/img/oKCJi4CPL3rwwgaw.jpg",
+  "prompt": "Make a dynamic 15 second motion graphics video that shows off what an incredible motion designer you are. Imagine it's your showreel for a resume!"
  },
  {
   "id": "2103796337041137833",
@@ -5980,6 +6100,16 @@
   "prompt": "Analyze https://t.co/gVJcJyZnZl and build a product promo from our own UI, not generic components.\n\n<direction>\nDribbble-level UI motion. One shape, never cut: every state is the same element morphing its size, radius and color while its content swaps with a short blur. A cursor drives every change with real clicks and drags. Light warm-gray canvas, black and white components, one clean UI font (Geist). Springs everywhere, a tiny overshoot at most. The camera zooms so each state fills the frame. The last frame is the first frame, so it loops.\nBanned: bouncy easing, particle bursts, glows, gradients on UI chrome, mismatched icon strokes, dead time, anything that looks like a template.\n</direction>"
  },
  {
+  "id": "2103542756555768014",
+  "likes": 4,
+  "title": "Fitters Bible app promo",
+  "author": "Adamdesgns",
+  "url": "https://x.com/Adamdesgns/status/2103542756555768014",
+  "video": "https://video.twimg.com/amplify_video/2103542594726768641/vid/avc1/1920x1080/Zm5GtkxYfF_QCfug.mp4",
+  "poster": "https://pbs.twimg.com/amplify_video_thumb/2103542594726768641/img/VGr9HsSu1cUKgt4Y.jpg",
+  "prompt": "make a dynamic 15-second motion graphics video that shows what an incredible motion designer you are, like it's your showreel for a résumé. go all out. (About the pipefitters bible)"
+ },
+ {
   "id": "2103837803587293397",
   "likes": 4,
   "title": "you are a pro motion designer. analyze my portfolio and make a ~30…",
@@ -6358,6 +6488,16 @@
   "video": "https://video.twimg.com/amplify_video/2103117396420534272/vid/avc1/1280x720/ysv09iYl5LLfKGEX.mp4",
   "poster": "https://media.skillry.dev/opus-5-5/_prompts/godsboy7777-150194/poster.2f448efec5.webp",
   "prompt": "Build a single self-contained HTML file: a 3D marble computer, in the spirit of Wintergatan's marble machine and the Digi-Comp II, that adds two 4-bit numbers using nothing but marbles falling through mechanical toggles.\n\nHard rules:\n\n1. One HTML file. Three.js from https://t.co/KCQbEZLusb via an import map, plus its OrbitControls addon. No other libraries, no physics engine, no external assets.\n\n2. The mechanism is the computer. Each bit of the result is stored in a two-state toggle (flip-flop) that a marble physically flips as it passes. Carries happen because a marble leaving one toggle rolls on to the next. Do not compute the answer in JavaScript arithmetic anywhere. The displayed result must be read from the toggle states after the last marble stops.\n\n3. Marbles move along tracks with believable gravity and timing. Nothing teleports. You may script motion along paths, but every toggle flip must be caused by a marble arriving at it.\n\n4. Input: two rows of four switches (A and B, 0 to 15), set by clicking. A lever labelled RUN releases the marbles. A counter shows how many marbles have fallen.\n\n5. Output: a row of five result toggles, most significant bit on the left, and a readout that shows the binary and decimal value read from those toggles.\n\n6. A DEMO button runs 5+6, then 9+7, then 15+15, resetting between runs, so it can be screen-recorded without touching anything.\n\n7. Looks: a wooden board, brass toggles, glass marbles, warm studio lighting, soft shadows, a slow camera that follows the busiest part of the machine. It should look good in a square 1080x1080 recording.\n\n8. Short click sounds via the Web Audio API when a toggle flips, started only after the first user click.\n\n9. It must run at 60 fps on a normal laptop and have no console errors.\n\nOutput only the complete HTML file."
+ },
+ {
+  "id": "2103644352794992798",
+  "likes": 3,
+  "title": "Motion designer showreel",
+  "author": "VanshWTFFF",
+  "url": "https://x.com/VanshWTFFF/status/2103644352794992798",
+  "video": "https://video.twimg.com/amplify_video/2103644169562710016/vid/avc1/1280x720/1Hv8okRDOslwjBCb.mp4?tag=14",
+  "poster": "https://pbs.twimg.com/amplify_video_thumb/2103644169562710016/img/iNpSJDw0xBCmXHYm.jpg",
+  "prompt": "make a dynamic 10 second motion graphics video that shows what an incredible motion designer you are, like it's your showreel for a resume."
  },
  {
   "id": "2103810247131549880",
@@ -6788,6 +6928,36 @@
   "video": "https://video.twimg.com/amplify_video/2103145494377848833/vid/avc1/720x1280/B1IK2AAPnYnQxJBE.mp4",
   "poster": "https://media.skillry.dev/opus-5-5/_prompts/agioyaz-986461/poster.6ec968ddc4.webp",
   "prompt": "three.jsで、縦長1080×1920・30コマ/秒・約36秒の短編映像を作ってください。\n\n【作品名】\n余白\n\n【見せたい体験】\n効率化に追われて時間を失っていく感覚と、余白を手に入れた瞬間に人生が豊かな光で満たされていく感覚を、人物を一切登場させずに体感させる映像です。最後に床一面に浮かび上がるステンドグラスの光で、見た人が思わず息をのむことを目指します。\n\n【舞台】\n・薄暗い石造りの大聖堂の内部。正面の壁に、高さ15m・幅10mの尖頭アーチ型の窓が一つだけある\n・窓の外からは、斜め45度の角度で強い光が差し込み、石の床に窓の形の光を落としている\n・窓には、中央に聖母、両脇に翼を広げた二人の天使、上部にバラ窓を配したステンドグラスがはまっている。デザインは既存の作品を模さずオリジナルで、左右対称の構図にする\n\n【時間の構成】\n0〜3秒：窓から差す光は、まだ色のない白い光。床にやわらかな白い光の形\n3〜11秒：「忙しい」「効率化」「至急」「締切」などの言葉が刻まれた灰色の立方体が、部屋の手前から次々と飛んできて窓を埋めていく。飛来のペースはどんどん加速し、窓が埋まるほど部屋は暗くなる\n11〜14秒：窓は完全にふさがれ、闇と静寂\n14〜19秒：「忙しい」のブロックが一つだけ窓から外れて落ち、光の粒になって消える。空いた穴から、鮮やかな色の一筋の光が差し込む\n19〜26秒：最初の穴を中心に、ブロックが連鎖的に外れていく。穴が増えるたびに色とりどりの光の柱が増え、隠れていたステンドグラスが少しずつ姿を現す\n26〜33秒：すべてのブロックが消え、カメラは光の柱をくぐり抜けて上昇し、真上から床を見下ろす。床一面に、聖母と天使のステンドグラスが色鮮やかな光として映し出されている\n33〜36秒：画面全体がまばゆい光に包まれ、最後の言葉が浮かび、静かに終わる\n\n【言葉（明朝体、控えめに浮かんでは消える）】\n・「毎日、もっと速く。」\n・「もっと、効率よく。」\n・「気づけば、光が入らなくなっていた。」\n・「ひとつ、手放してみる。」\n・「空いたところから、光が入る。」\n・「その光は、前より豊かだった。」\n・最後に大きく：「豊かさは余白に宿る」\n\n【光と質感】\n・光の柱は、ステンドグラスのその場所の色に染まり、空中の塵がきらめく\n・床の投影は、窓のどの穴が空いているかを正確に反映する（ブロックがある場所は影になる）\n・ブロックは無機質なマットグレー。言葉は白く刻印されている\n・前半は冷たく無彩色、後半は宝石のような赤・青・金。この色の対比で「豊かになった」ことを語る\n\n【技術条件】\n・ステンドグラスの絵柄は画像として生成し、床の光・光の柱・窓の表示はすべて同じ絵柄から計算して一致させる\n・時間を1/30秒ずつ正確に進めて1コマずつ書き出し、MP4にする\n\n【仕上げ】\n各場面を実際に描画して確認し、ステンドグラスの絵柄が床の上で聖母と天使として読み取れるか、言葉が読めるか、動きが唐突でないかを直してから渡してください。"
+ },
+ {
+  "id": "2103744870041170220",
+  "likes": 2,
+  "title": "Recruiter self-intro reel",
+  "author": "blushpetal795",
+  "url": "https://x.com/blushpetal795/status/2103744870041170220",
+  "video": "https://video.twimg.com/amplify_video/2103744827301220352/vid/avc1/1280x720/1ftvb6QVwX3FC2bp.mp4?tag=14",
+  "poster": "https://pbs.twimg.com/amplify_video_thumb/2103744827301220352/img/_M_R6GNGd-5fbI1o.jpg",
+  "prompt": "Make a dynamic 15-second motion graphics video of me introducing myself to a recruiter. Use all the motion design skills you have, like it's your showreel for a resume. Go all out."
+ },
+ {
+  "id": "2103617278671818789",
+  "likes": 2,
+  "title": "Motion designer showreel",
+  "author": "KangarooHere",
+  "url": "https://x.com/KangarooHere/status/2103617278671818789",
+  "video": "https://video.twimg.com/amplify_video/2103617221360787456/vid/avc1/1920x1080/3Fl3wJPPO0gGX42e.mp4",
+  "poster": "https://pbs.twimg.com/amplify_video_thumb/2103617221360787456/img/JwnZgD1Z0ZVbm5EH.jpg",
+  "prompt": "make a dynamic 20-second motion graphics video for my newsletter that shows what an incredible motion designer you are, like it's your showreel for a résumé. go all out."
+ },
+ {
+  "id": "2103786742520184909",
+  "likes": 2,
+  "title": "Swiss-style motion showreel",
+  "author": "levabashidze",
+  "url": "https://x.com/levabashidze/status/2103786742520184909",
+  "video": "https://video.twimg.com/amplify_video/2103785942251122689/vid/avc1/1280x720/N0WdhGr4bgMs3MEm.mp4?tag=14",
+  "poster": "https://pbs.twimg.com/amplify_video_thumb/2103785942251122689/img/XwGFgbyIqZiYWhGQ.jpg",
+  "prompt": "make a dynamic 15-second motion graphics video that shows what an incredible motion designer you are, like it's your showreel for a résumé. go all out. dont ask just make"
  },
  {
   "id": "2103857153308029058",

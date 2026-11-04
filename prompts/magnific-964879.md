@@ -1,6 +1,6 @@
 # Character builder with sliders demo
 
-**#46 by likes** · ♥ 1,592 · by [@magnific](https://x.com/magnific) · [Original post](https://x.com/magnific/status/2104587476014964879) · [Watch the video](https://video.twimg.com/amplify_video/2104587439746732033/vid/avc1/1280x720/HDJxE-1ULp8m5tkX.mp4?tag=16)
+**#47 by likes** · ♥ 1,592 · by [@magnific](https://x.com/magnific) · [Original post](https://x.com/magnific/status/2104587476014964879) · [Watch the video](https://video.twimg.com/amplify_video/2104587439746732033/vid/avc1/1280x720/HDJxE-1ULp8m5tkX.mp4?tag=16)
 
 [![Character builder with sliders demo](https://pbs.twimg.com/amplify_video_thumb/2104587439746732033/img/0A6euAblO7l0csep.jpg)](https://x.com/magnific/status/2104587476014964879)
 

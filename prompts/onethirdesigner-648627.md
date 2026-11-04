@@ -1,6 +1,6 @@
 # Animated fitness-app celebration screen
 
-**#34 by likes** · ♥ 2,057 · by [@Onethirdesigner](https://x.com/Onethirdesigner) · [Original post](https://x.com/Onethirdesigner/status/2103749509616648627) · [Watch the video](https://video.twimg.com/amplify_video/2103748872338329600/vid/avc1/778x720/l9OgASR21Woiq3fF.mp4?tag=14)
+**#35 by likes** · ♥ 2,057 · by [@Onethirdesigner](https://x.com/Onethirdesigner) · [Original post](https://x.com/Onethirdesigner/status/2103749509616648627) · [Watch the video](https://video.twimg.com/amplify_video/2103748872338329600/vid/avc1/778x720/l9OgASR21Woiq3fF.mp4?tag=14)
 
 [![Animated fitness-app celebration screen](https://pbs.twimg.com/amplify_video_thumb/2103748872338329600/img/C2O3GqKXhmqZKIrE.jpg)](https://x.com/Onethirdesigner/status/2103749509616648627)
 

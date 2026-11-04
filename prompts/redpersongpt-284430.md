@@ -1,6 +1,6 @@
 # Create a studio level motion design ad for my app mimicly. Show me…
 
-**#638 by likes** · ♥ 3 · by [@redpersongpt](https://x.com/redpersongpt) · [Original post](https://x.com/redpersongpt/status/2103807094554284430) · [Watch the video](https://media.skillry.dev/opus-5-5/redpersongpt-284430/original.mp4)
+**#652 by likes** · ♥ 3 · by [@redpersongpt](https://x.com/redpersongpt) · [Original post](https://x.com/redpersongpt/status/2103807094554284430) · [Watch the video](https://media.skillry.dev/opus-5-5/redpersongpt-284430/original.mp4)
 
 [![Create a studio level motion design ad for my app mimicly. Show me…](https://media.skillry.dev/opus-5-5/redpersongpt-284430/original.aa458f7e3a.webp)](https://x.com/redpersongpt/status/2103807094554284430)
 

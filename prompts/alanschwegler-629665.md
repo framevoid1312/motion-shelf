@@ -1,6 +1,6 @@
 # Armé este reel para mi web de gestión de eventos con Opus 5.5 Todo es…
 
-**#862 by likes** · ♥ 0 · by [@alanschwegler](https://x.com/alanschwegler) · [Original post](https://x.com/alanschwegler/status/2102634404774629665) · [Watch the video](https://media.skillry.dev/opus-5-5/alanschwegler-629665/original.mp4)
+**#879 by likes** · ♥ 0 · by [@alanschwegler](https://x.com/alanschwegler) · [Original post](https://x.com/alanschwegler/status/2102634404774629665) · [Watch the video](https://media.skillry.dev/opus-5-5/alanschwegler-629665/original.mp4)
 
 [![Armé este reel para mi web de gestión de eventos con Opus 5.5 Todo es…](https://media.skillry.dev/opus-5-5/alanschwegler-629665/original.90809097f3.webp)](https://x.com/alanschwegler/status/2102634404774629665)
 

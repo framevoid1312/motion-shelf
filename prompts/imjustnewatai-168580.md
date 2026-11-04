@@ -1,6 +1,6 @@
 # All of human progress, then 30 years ahead
 
-**#9 by likes** · ♥ 8,137 · by [@imjustnewatai](https://x.com/imjustnewatai) · [Original post](https://x.com/imjustnewatai/status/2106081142143168580) · [Watch the video](https://video.twimg.com/amplify_video/2106080680471834624/vid/avc1/1280x720/0NtOwm8I5CqQO3AH.mp4)
+**#10 by likes** · ♥ 8,137 · by [@imjustnewatai](https://x.com/imjustnewatai) · [Original post](https://x.com/imjustnewatai/status/2106081142143168580) · [Watch the video](https://video.twimg.com/amplify_video/2106080680471834624/vid/avc1/1280x720/0NtOwm8I5CqQO3AH.mp4)
 
 [![All of human progress, then 30 years ahead](https://pbs.twimg.com/amplify_video_thumb/2106080680471834624/img/XbejF3z_IpBdCzsz.jpg)](https://x.com/imjustnewatai/status/2106081142143168580)
 

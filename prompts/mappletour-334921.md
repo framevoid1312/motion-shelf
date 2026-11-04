@@ -1,6 +1,6 @@
 # Opus 5.5に「ド派手なPVを作って」と丸投げしたら、ほぼ任せきりで完成した😳…
 
-**#698 by likes** · ♥ 2 · by [@mappletour](https://x.com/mappletour) · [Original post](https://x.com/mappletour/status/2104206756482334921) · [Watch the video](https://media.skillry.dev/opus-5-5/mappletour-334921/original.mp4)
+**#715 by likes** · ♥ 2 · by [@mappletour](https://x.com/mappletour) · [Original post](https://x.com/mappletour/status/2104206756482334921) · [Watch the video](https://media.skillry.dev/opus-5-5/mappletour-334921/original.mp4)
 
 [![Opus 5.5に「ド派手なPVを作って」と丸投げしたら、ほぼ任せきりで完成した😳…](https://media.skillry.dev/opus-5-5/mappletour-334921/original.0bb6633b54.webp)](https://x.com/mappletour/status/2104206756482334921)
 

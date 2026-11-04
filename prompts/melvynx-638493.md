@@ -1,6 +1,6 @@
 # make a dynamic 15-second motion graphics video that shows what an…
 
-**#320 by likes** · ♥ 86 · by [@melvynx](https://x.com/melvynx) · [Original post](https://x.com/melvynx/status/2103714680577638493) · [Watch the video](https://media.skillry.dev/opus-5-5/melvynx-638493/original.mp4)
+**#327 by likes** · ♥ 86 · by [@melvynx](https://x.com/melvynx) · [Original post](https://x.com/melvynx/status/2103714680577638493) · [Watch the video](https://media.skillry.dev/opus-5-5/melvynx-638493/original.mp4)
 
 [![make a dynamic 15-second motion graphics video that shows what an…](https://media.skillry.dev/opus-5-5/melvynx-638493/original.93566e677b.webp)](https://x.com/melvynx/status/2103714680577638493)
 

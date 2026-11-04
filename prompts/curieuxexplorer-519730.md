@@ -1,6 +1,6 @@
 # I made a 3D survival game in one prompt with Opus 5.5 Survive 60…
 
-**#615 by likes** · ♥ 4 · by [@CurieuxExplorer](https://x.com/CurieuxExplorer) · [Original post](https://x.com/CurieuxExplorer/status/2103407536741519730) · [Watch the video](https://media.skillry.dev/opus-5-5/curieuxexplorer-519730/original.mp4)
+**#628 by likes** · ♥ 4 · by [@CurieuxExplorer](https://x.com/CurieuxExplorer) · [Original post](https://x.com/CurieuxExplorer/status/2103407536741519730) · [Watch the video](https://media.skillry.dev/opus-5-5/curieuxexplorer-519730/original.mp4)
 
 [![I made a 3D survival game in one prompt with Opus 5.5 Survive 60…](https://media.skillry.dev/opus-5-5/curieuxexplorer-519730/original.e6bb8f2edd.webp)](https://x.com/CurieuxExplorer/status/2103407536741519730)
 

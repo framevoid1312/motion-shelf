@@ -1,6 +1,6 @@
 # 添付の画像を「最後の画面」にして、全部タイルでできた30秒の広告動画（音つき・mp4）を作ってください。…
 
-**#665 by likes** · ♥ 3 · by [@tanabe_fragm](https://x.com/tanabe_fragm) · [Original post](https://x.com/tanabe_fragm/status/2107644501372322001) · [Watch the video](https://video.twimg.com/amplify_video/2107643868024020992/vid/avc1/1280x720/c803E_QIF_Xtf6Fg.mp4)
+**#679 by likes** · ♥ 3 · by [@tanabe_fragm](https://x.com/tanabe_fragm) · [Original post](https://x.com/tanabe_fragm/status/2107644501372322001) · [Watch the video](https://video.twimg.com/amplify_video/2107643868024020992/vid/avc1/1280x720/c803E_QIF_Xtf6Fg.mp4)
 
 [![添付の画像を「最後の画面」にして、全部タイルでできた30秒の広告動画（音つき・mp4）を作ってください。…](https://media.skillry.dev/opus-5-5/_prompts/tanabe-fragm-322001/poster.cfd51c9fe1.webp)](https://x.com/tanabe_fragm/status/2107644501372322001)
 

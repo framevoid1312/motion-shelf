@@ -1,6 +1,6 @@
 # I hate LinkedIn so much that I had Opus 5.5 + remotion make a launch…
 
-**#401 by likes** · ♥ 26 · by [@MaxHirsch13](https://x.com/MaxHirsch13) · [Original post](https://x.com/MaxHirsch13/status/2107985883949600983) · [Watch the video](https://media.skillry.dev/opus-5-5/maxhirsch13-600983/original.mp4)
+**#409 by likes** · ♥ 26 · by [@MaxHirsch13](https://x.com/MaxHirsch13) · [Original post](https://x.com/MaxHirsch13/status/2107985883949600983) · [Watch the video](https://media.skillry.dev/opus-5-5/maxhirsch13-600983/original.mp4)
 
 [![I hate LinkedIn so much that I had Opus 5.5 + remotion make a launch…](https://media.skillry.dev/opus-5-5/maxhirsch13-600983/original.add91f835f.webp)](https://x.com/MaxHirsch13/status/2107985883949600983)
 

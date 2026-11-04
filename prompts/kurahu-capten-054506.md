@@ -1,6 +1,6 @@
 # Create a vertical lyric video featuring the lyrics as the main…
 
-**#632 by likes** · ♥ 4 · by [@kurahu_capten](https://x.com/kurahu_capten) · [Original post](https://x.com/kurahu_capten/status/2103742110747054506) · [Watch the video](https://video.twimg.com/amplify_video/2103732984562208768/vid/avc1/720x1280/lX8T3zXiLdqSr2BJ.mp4)
+**#645 by likes** · ♥ 4 · by [@kurahu_capten](https://x.com/kurahu_capten) · [Original post](https://x.com/kurahu_capten/status/2103742110747054506) · [Watch the video](https://video.twimg.com/amplify_video/2103732984562208768/vid/avc1/720x1280/lX8T3zXiLdqSr2BJ.mp4)
 
 [![Create a vertical lyric video featuring the lyrics as the main…](https://media.skillry.dev/opus-5-5/_prompts/kurahu-capten-054506/poster.87120b736d.webp)](https://x.com/kurahu_capten/status/2103742110747054506)
 

@@ -1,6 +1,6 @@
 # Animated Minecraft treasure map graphic
 
-**#251 by likes** · ♥ 257 · by [@sethfowIer](https://x.com/sethfowIer) · [Original post](https://x.com/sethfowIer/status/2113248976984068329) · [Watch the video](https://video.twimg.com/amplify_video/2113248401655554049/vid/avc1/1280x720/Yr4ZxNFxkHPaFfwr.mp4)
+**#255 by likes** · ♥ 257 · by [@sethfowIer](https://x.com/sethfowIer) · [Original post](https://x.com/sethfowIer/status/2113248976984068329) · [Watch the video](https://video.twimg.com/amplify_video/2113248401655554049/vid/avc1/1280x720/Yr4ZxNFxkHPaFfwr.mp4)
 
 [![Animated Minecraft treasure map graphic](https://pbs.twimg.com/amplify_video_thumb/2113248401655554049/img/MB0SF0dmugrcBjTv.jpg)](https://x.com/sethfowIer/status/2113248976984068329)
 

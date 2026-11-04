@@ -1,6 +1,6 @@
 # ださいけど、Remotion で動画っぽいのつくった。コードは見てない。環境だけ用意した…っていっても、いつものように jj init…
 
-**#430 by likes** · ♥ 19 · by [@iTakahashikun](https://x.com/iTakahashikun) · [Original post](https://x.com/iTakahashikun/status/2103731575661990109) · [Watch the video](https://media.skillry.dev/opus-5-5/itakahashikun-990109/original.mp4)
+**#439 by likes** · ♥ 19 · by [@iTakahashikun](https://x.com/iTakahashikun) · [Original post](https://x.com/iTakahashikun/status/2103731575661990109) · [Watch the video](https://media.skillry.dev/opus-5-5/itakahashikun-990109/original.mp4)
 
 [![ださいけど、Remotion で動画っぽいのつくった。コードは見てない。環境だけ用意した…っていっても、いつものように jj init…](https://media.skillry.dev/opus-5-5/itakahashikun-990109/original.2df9a473ee.webp)](https://x.com/iTakahashikun/status/2103731575661990109)
 

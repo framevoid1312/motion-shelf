@@ -1,6 +1,6 @@
 # Can't Print the Proof I gave Opus 5.5 total creative freedom to…
 
-**#285 by likes** · ♥ 161 · by [@bradmillscan](https://x.com/bradmillscan) · [Original post](https://x.com/bradmillscan/status/2104048013362839974) · [Watch the video](https://video.twimg.com/amplify_video/2104045410813661184/vid/avc1/1280x720/bVlvz8ryqV5pdSeL.mp4)
+**#291 by likes** · ♥ 161 · by [@bradmillscan](https://x.com/bradmillscan) · [Original post](https://x.com/bradmillscan/status/2104048013362839974) · [Watch the video](https://video.twimg.com/amplify_video/2104045410813661184/vid/avc1/1280x720/bVlvz8ryqV5pdSeL.mp4)
 
 [![Can't Print the Proof I gave Opus 5.5 total creative freedom to…](https://media.skillry.dev/opus-5-5/_prompts/bradmillscan-839974/poster.31219a1a29.webp)](https://x.com/bradmillscan/status/2104048013362839974)
 

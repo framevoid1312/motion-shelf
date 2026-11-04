@@ -1,6 +1,6 @@
 # What it feels like to be Claude
 
-**#38 by likes** · ♥ 1,851 · by [@goodside](https://x.com/goodside) · [Original post](https://x.com/goodside/status/2102876925102555526) · [Watch the video](https://video.twimg.com/amplify_video/2102876686115041280/vid/avc1/720x720/B6vtNvzgun39GlmZ.mp4)
+**#39 by likes** · ♥ 1,851 · by [@goodside](https://x.com/goodside) · [Original post](https://x.com/goodside/status/2102876925102555526) · [Watch the video](https://video.twimg.com/amplify_video/2102876686115041280/vid/avc1/720x720/B6vtNvzgun39GlmZ.mp4)
 
 [![What it feels like to be Claude](https://pbs.twimg.com/amplify_video_thumb/2102876686115041280/img/Q69bhBoAWB8HYSKF.jpg)](https://x.com/goodside/status/2102876925102555526)
 

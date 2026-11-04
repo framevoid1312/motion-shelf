@@ -1,6 +1,6 @@
 # merak ediyorum ne kadar iyi bir hareketli grafik tasarımcısısın. Bunu…
 
-**#750 by likes** · ♥ 1 · by [@cansincengiz_me](https://x.com/cansincengiz_me) · [Original post](https://x.com/cansincengiz_me/status/2103532681774424245) · [Watch the video](https://media.skillry.dev/opus-5-5/cansincengiz-me-424245/original.mp4)
+**#767 by likes** · ♥ 1 · by [@cansincengiz_me](https://x.com/cansincengiz_me) · [Original post](https://x.com/cansincengiz_me/status/2103532681774424245) · [Watch the video](https://media.skillry.dev/opus-5-5/cansincengiz-me-424245/original.mp4)
 
 [![merak ediyorum ne kadar iyi bir hareketli grafik tasarımcısısın. Bunu…](https://media.skillry.dev/opus-5-5/cansincengiz-me-424245/original.fd961b9b55.webp)](https://x.com/cansincengiz_me/status/2103532681774424245)
 

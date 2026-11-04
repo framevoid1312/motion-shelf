@@ -1,6 +1,6 @@
 # Analyze http://sprites.ai and build a product promo from our own UI,…
 
-**#475 by likes** · ♥ 12 · by [@AnnaCher___](https://x.com/AnnaCher___) · [Original post](https://x.com/AnnaCher___/status/2103571096549433425) · [Watch the video](https://media.skillry.dev/opus-5-5/annacher-433425/original.mp4)
+**#486 by likes** · ♥ 12 · by [@AnnaCher___](https://x.com/AnnaCher___) · [Original post](https://x.com/AnnaCher___/status/2103571096549433425) · [Watch the video](https://media.skillry.dev/opus-5-5/annacher-433425/original.mp4)
 
 [![Analyze http://sprites.ai and build a product promo from our own UI,…](https://media.skillry.dev/opus-5-5/annacher-433425/original.89dc11ee96.webp)](https://x.com/AnnaCher___/status/2103571096549433425)
 

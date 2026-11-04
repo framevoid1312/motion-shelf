@@ -1,6 +1,6 @@
 # I built Minecraft thanks to Opus 5.5 ( part 2 ) today I added more…
 
-**#353 by likes** · ♥ 54 · by [@kepochnik](https://x.com/kepochnik) · [Original post](https://x.com/kepochnik/status/2103867115044237752) · [Watch the video](https://media.skillry.dev/opus-5-5/kepochnik-237752/original.mp4)
+**#360 by likes** · ♥ 54 · by [@kepochnik](https://x.com/kepochnik) · [Original post](https://x.com/kepochnik/status/2103867115044237752) · [Watch the video](https://media.skillry.dev/opus-5-5/kepochnik-237752/original.mp4)
 
 [![I built Minecraft thanks to Opus 5.5 ( part 2 ) today I added more…](https://media.skillry.dev/opus-5-5/kepochnik-237752/original.d2ad4308b1.webp)](https://x.com/kepochnik/status/2103867115044237752)
 

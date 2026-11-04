@@ -1,6 +1,6 @@
 # Claude Opus 5.5 is stupidly good at games, so I’m putting it on a…
 
-**#695 by likes** · ♥ 2 · by [@anduraio](https://x.com/anduraio) · [Original post](https://x.com/anduraio/status/2103860609712570761) · [Watch the video](https://media.skillry.dev/opus-5-5/anduraio-570761/original.mp4)
+**#712 by likes** · ♥ 2 · by [@anduraio](https://x.com/anduraio) · [Original post](https://x.com/anduraio/status/2103860609712570761) · [Watch the video](https://media.skillry.dev/opus-5-5/anduraio-570761/original.mp4)
 
 [![Claude Opus 5.5 is stupidly good at games, so I’m putting it on a…](https://media.skillry.dev/opus-5-5/anduraio-570761/original.0a8c19ca2d.webp)](https://x.com/anduraio/status/2103860609712570761)
 

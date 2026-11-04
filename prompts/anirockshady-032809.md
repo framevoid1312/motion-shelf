@@ -1,6 +1,6 @@
 # Create a 3D animation of a Path Points in this case ball reaching…
 
-**#755 by likes** · ♥ 1 · by [@anirockshady](https://x.com/anirockshady) · [Original post](https://x.com/anirockshady/status/2103195903012032809) · [Watch the video](https://media.skillry.dev/opus-5-5/anirockshady-032809/original.mp4)
+**#772 by likes** · ♥ 1 · by [@anirockshady](https://x.com/anirockshady) · [Original post](https://x.com/anirockshady/status/2103195903012032809) · [Watch the video](https://media.skillry.dev/opus-5-5/anirockshady-032809/original.mp4)
 
 [![Create a 3D animation of a Path Points in this case ball reaching…](https://media.skillry.dev/opus-5-5/anirockshady-032809/original.c55c54cdbc.webp)](https://x.com/anirockshady/status/2103195903012032809)
 

@@ -1,6 +1,6 @@
 # I have to admit, this blew my mind. I saw people using Opus 5.5 +…
 
-**#494 by likes** · ♥ 10 · by [@georgejimenez98](https://x.com/georgejimenez98) · [Original post](https://x.com/georgejimenez98/status/2103214871785427173) · [Watch the video](https://media.skillry.dev/opus-5-5/georgejimenez98-427173/original.mp4)
+**#505 by likes** · ♥ 10 · by [@georgejimenez98](https://x.com/georgejimenez98) · [Original post](https://x.com/georgejimenez98/status/2103214871785427173) · [Watch the video](https://media.skillry.dev/opus-5-5/georgejimenez98-427173/original.mp4)
 
 [![I have to admit, this blew my mind. I saw people using Opus 5.5 +…](https://media.skillry.dev/opus-5-5/georgejimenez98-427173/original.fa16c6e1b7.webp)](https://x.com/georgejimenez98/status/2103214871785427173)
 

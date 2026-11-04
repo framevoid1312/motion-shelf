@@ -1,6 +1,6 @@
 # 今回は ElevenLabs v4 のお試しで、終電のホームの短いホラー 声は v4 で2人の掛け合いを1回で生成…
 
-**#727 by likes** · ♥ 2 · by [@Mochi_AGI](https://x.com/Mochi_AGI) · [Original post](https://x.com/Mochi_AGI/status/2104757097850421448) · [Watch the video](https://video.twimg.com/amplify_video/2104757003528839168/vid/avc1/720x900/qanPIr845t5oppE9.mp4)
+**#744 by likes** · ♥ 2 · by [@Mochi_AGI](https://x.com/Mochi_AGI) · [Original post](https://x.com/Mochi_AGI/status/2104757097850421448) · [Watch the video](https://video.twimg.com/amplify_video/2104757003528839168/vid/avc1/720x900/qanPIr845t5oppE9.mp4)
 
 [![今回は ElevenLabs v4 のお試しで、終電のホームの短いホラー 声は v4 で2人の掛け合いを1回で生成…](https://media.skillry.dev/opus-5-5/_prompts/mochi-agi-421448/poster.11b273febb.webp)](https://x.com/Mochi_AGI/status/2104757097850421448)
 

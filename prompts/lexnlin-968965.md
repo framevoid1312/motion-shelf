@@ -1,6 +1,6 @@
 # Clawd character animation
 
-**#21 by likes** · ♥ 2,833 · by [@LexnLin](https://x.com/LexnLin) · [Original post](https://x.com/LexnLin/status/2110389810258968965) · [Watch the video](https://video.twimg.com/amplify_video/2110389703232917504/vid/avc1/1280x720/x8ie4J3ilmx97hjr.mp4)
+**#22 by likes** · ♥ 2,833 · by [@LexnLin](https://x.com/LexnLin) · [Original post](https://x.com/LexnLin/status/2110389810258968965) · [Watch the video](https://video.twimg.com/amplify_video/2110389703232917504/vid/avc1/1280x720/x8ie4J3ilmx97hjr.mp4)
 
 [![Clawd character animation](https://pbs.twimg.com/amplify_video_thumb/2110389703232917504/img/6m7l19ZJz0CnOC8A.jpg)](https://x.com/LexnLin/status/2110389810258968965)
 

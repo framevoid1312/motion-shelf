@@ -1,6 +1,6 @@
 # Claude Opus 5.5 is absurdly good at 3D. I reran one of my recent 3D…
 
-**#843 by likes** · ♥ 0 · by [@truenyl](https://x.com/truenyl) · [Original post](https://x.com/truenyl/status/2103086316137447745) · [Watch the video](https://media.skillry.dev/opus-5-5/truenyl-447745/original.mp4)
+**#860 by likes** · ♥ 0 · by [@truenyl](https://x.com/truenyl) · [Original post](https://x.com/truenyl/status/2103086316137447745) · [Watch the video](https://media.skillry.dev/opus-5-5/truenyl-447745/original.mp4)
 
 [![Claude Opus 5.5 is absurdly good at 3D. I reran one of my recent 3D…](https://media.skillry.dev/opus-5-5/truenyl-447745/original.4c323ecff9.webp)](https://x.com/truenyl/status/2103086316137447745)
 

@@ -1,6 +1,6 @@
 # SPEAKER CAROUSEL <setup> Claude is connected directly to my open…
 
-**#264 by likes** · ♥ 211 · by [@johncodunayo](https://x.com/johncodunayo) · [Original post](https://x.com/johncodunayo/status/2105271353993560372) · [Watch the video](https://video.twimg.com/amplify_video/2105270731349037057/vid/avc1/720x720/DL5AgVO_rgHUnF6D.mp4)
+**#270 by likes** · ♥ 211 · by [@johncodunayo](https://x.com/johncodunayo) · [Original post](https://x.com/johncodunayo/status/2105271353993560372) · [Watch the video](https://video.twimg.com/amplify_video/2105270731349037057/vid/avc1/720x720/DL5AgVO_rgHUnF6D.mp4)
 
 [![SPEAKER CAROUSEL <setup> Claude is connected directly to my open…](https://media.skillry.dev/opus-5-5/_prompts/johncodunayo-560372/poster.d53d26d25c.webp)](https://x.com/johncodunayo/status/2105271353993560372)
 

@@ -1,6 +1,6 @@
 # Make a 60 second video out of stick men that seem surprisingly…
 
-**#735 by likes** · ♥ 2 · by [@jasondainter](https://x.com/jasondainter) · [Original post](https://x.com/jasondainter/status/2103455402604028222) · [Watch the video](https://video.twimg.com/amplify_video/2103454863413673984/vid/avc1/720x720/TV7zKXmzcINc8nRM.mp4)
+**#752 by likes** · ♥ 2 · by [@jasondainter](https://x.com/jasondainter) · [Original post](https://x.com/jasondainter/status/2103455402604028222) · [Watch the video](https://video.twimg.com/amplify_video/2103454863413673984/vid/avc1/720x720/TV7zKXmzcINc8nRM.mp4)
 
 [![Make a 60 second video out of stick men that seem surprisingly…](https://media.skillry.dev/opus-5-5/_prompts/jasondainter-028222/poster.77e7977dd4.webp)](https://x.com/jasondainter/status/2103455402604028222)
 

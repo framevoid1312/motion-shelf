@@ -1,6 +1,6 @@
 # Animated welcome screen for the Nova crypto wallet
 
-**#104 by likes** · ♥ 811 · by [@vvarrdi](https://x.com/vvarrdi) · [Original post](https://x.com/vvarrdi/status/2102681647720395115) · [Watch the video](https://video.twimg.com/amplify_video/2102681627671576576/vid/avc1/960x720/UuqlEOn2U06y3pRk.mp4?tag=16)
+**#106 by likes** · ♥ 811 · by [@vvarrdi](https://x.com/vvarrdi) · [Original post](https://x.com/vvarrdi/status/2102681647720395115) · [Watch the video](https://video.twimg.com/amplify_video/2102681627671576576/vid/avc1/960x720/UuqlEOn2U06y3pRk.mp4?tag=16)
 
 [![Animated welcome screen for the Nova crypto wallet](https://pbs.twimg.com/amplify_video_thumb/2102681627671576576/img/ZkpX4FjEVTO17gml.jpg)](https://x.com/vvarrdi/status/2102681647720395115)
 

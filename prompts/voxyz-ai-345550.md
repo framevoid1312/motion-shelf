@@ -1,6 +1,6 @@
 # I asked Opus 5.5 to explain gravitational lensing by building an…
 
-**#124 by likes** · ♥ 682 · by [@Voxyz_ai](https://x.com/Voxyz_ai) · [Original post](https://x.com/Voxyz_ai/status/2103117246860345550) · [Watch the video](https://media.skillry.dev/opus-5-5/voxyz-ai-345550/original.mp4)
+**#126 by likes** · ♥ 682 · by [@Voxyz_ai](https://x.com/Voxyz_ai) · [Original post](https://x.com/Voxyz_ai/status/2103117246860345550) · [Watch the video](https://media.skillry.dev/opus-5-5/voxyz-ai-345550/original.mp4)
 
 [![I asked Opus 5.5 to explain gravitational lensing by building an…](https://media.skillry.dev/opus-5-5/voxyz-ai-345550/original.a3843bd0f9.webp)](https://x.com/Voxyz_ai/status/2103117246860345550)
 

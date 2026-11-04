@@ -1,6 +1,6 @@
 # Claude Sonnet vs Opus self-portrait motion design
 
-**#143 by likes** · ♥ 593 · by [@motion_so](https://x.com/motion_so) · [Original post](https://x.com/motion_so/status/2104981908241486064) · [Watch the video](https://video.twimg.com/amplify_video/2104981694671384576/vid/avc1/1280x720/96POi-ALAuNe3K0J.mp4)
+**#145 by likes** · ♥ 593 · by [@motion_so](https://x.com/motion_so) · [Original post](https://x.com/motion_so/status/2104981908241486064) · [Watch the video](https://video.twimg.com/amplify_video/2104981694671384576/vid/avc1/1280x720/96POi-ALAuNe3K0J.mp4)
 
 [![Claude Sonnet vs Opus self-portrait motion design](https://pbs.twimg.com/amplify_video_thumb/2104981694671384576/img/jsXo47Uptl1I9dp2.jpg)](https://x.com/motion_so/status/2104981908241486064)
 

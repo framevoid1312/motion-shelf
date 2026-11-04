@@ -1,6 +1,6 @@
 # Mongol conquest data visualization comparison
 
-**#185 by likes** · ♥ 395 · by [@YanqingCheng](https://x.com/YanqingCheng) · [Original post](https://x.com/YanqingCheng/status/2102566466121797767) · [Watch the video](https://video.twimg.com/amplify_video/2102566412766109696/vid/avc1/720x1322/746hO0wxd2VJmVlM.mp4)
+**#187 by likes** · ♥ 395 · by [@YanqingCheng](https://x.com/YanqingCheng) · [Original post](https://x.com/YanqingCheng/status/2102566466121797767) · [Watch the video](https://video.twimg.com/amplify_video/2102566412766109696/vid/avc1/720x1322/746hO0wxd2VJmVlM.mp4)
 
 [![Mongol conquest data visualization comparison](https://pbs.twimg.com/amplify_video_thumb/2102566412766109696/img/OgtXxUOlx8vKV1mB.jpg)](https://x.com/YanqingCheng/status/2102566466121797767)
 

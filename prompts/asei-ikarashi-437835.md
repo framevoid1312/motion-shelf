@@ -1,6 +1,6 @@
 # Claude CodeのOpus 5.5とRemotionで動画を作りました🎬…
 
-**#712 by likes** · ♥ 2 · by [@asei_ikarashi](https://x.com/asei_ikarashi) · [Original post](https://x.com/asei_ikarashi/status/2105976102074437835) · [Watch the video](https://media.skillry.dev/opus-5-5/asei-ikarashi-437835/original.mp4)
+**#729 by likes** · ♥ 2 · by [@asei_ikarashi](https://x.com/asei_ikarashi) · [Original post](https://x.com/asei_ikarashi/status/2105976102074437835) · [Watch the video](https://media.skillry.dev/opus-5-5/asei-ikarashi-437835/original.mp4)
 
 [![Claude CodeのOpus 5.5とRemotionで動画を作りました🎬…](https://media.skillry.dev/opus-5-5/asei-ikarashi-437835/original.a79532176b.webp)](https://x.com/asei_ikarashi/status/2105976102074437835)
 

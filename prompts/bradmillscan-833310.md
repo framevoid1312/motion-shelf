@@ -1,6 +1,6 @@
 # Stroke of a Pen: a code-only music video
 
-**#78 by likes** · ♥ 1,018 · by [@bradmillscan](https://x.com/bradmillscan) · [Original post](https://x.com/bradmillscan/status/2103108967194833310) · [Watch the video](https://video.twimg.com/amplify_video/2103107959811133442/vid/avc1/720x1280/mPKMMMgUTep2CTII.mp4)
+**#80 by likes** · ♥ 1,018 · by [@bradmillscan](https://x.com/bradmillscan) · [Original post](https://x.com/bradmillscan/status/2103108967194833310) · [Watch the video](https://video.twimg.com/amplify_video/2103107959811133442/vid/avc1/720x1280/mPKMMMgUTep2CTII.mp4)
 
 [![Stroke of a Pen: a code-only music video](https://pbs.twimg.com/amplify_video_thumb/2103107959811133442/img/eJa0JGD6x2LAq2Re.jpg)](https://x.com/bradmillscan/status/2103108967194833310)
 

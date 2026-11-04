@@ -1,6 +1,6 @@
 # make educational video out of article.
 
-**#473 by likes** · ♥ 12 · by [@henkvaness](https://x.com/henkvaness) · [Original post](https://x.com/henkvaness/status/2103801351993975279) · [Watch the video](https://media.skillry.dev/opus-5-5/henkvaness-975279/original.mp4)
+**#484 by likes** · ♥ 12 · by [@henkvaness](https://x.com/henkvaness) · [Original post](https://x.com/henkvaness/status/2103801351993975279) · [Watch the video](https://media.skillry.dev/opus-5-5/henkvaness-975279/original.mp4)
 
 [![make educational video out of article.](https://media.skillry.dev/opus-5-5/henkvaness-975279/original.b7fb5dee11.webp)](https://x.com/henkvaness/status/2103801351993975279)
 

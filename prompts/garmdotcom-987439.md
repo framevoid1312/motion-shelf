@@ -1,6 +1,6 @@
 # Tried to jump on the explainer video "made entirely with Opus 5.5"…
 
-**#571 by likes** · ♥ 5 · by [@garmdotcom](https://x.com/garmdotcom) · [Original post](https://x.com/garmdotcom/status/2103516101518987439) · [Watch the video](https://media.skillry.dev/opus-5-5/garmdotcom-987439/original.mp4)
+**#583 by likes** · ♥ 5 · by [@garmdotcom](https://x.com/garmdotcom) · [Original post](https://x.com/garmdotcom/status/2103516101518987439) · [Watch the video](https://media.skillry.dev/opus-5-5/garmdotcom-987439/original.mp4)
 
 [![Tried to jump on the explainer video "made entirely with Opus 5.5"…](https://media.skillry.dev/opus-5-5/garmdotcom-987439/r2/original.3df31b50a2.webp)](https://x.com/garmdotcom/status/2103516101518987439)
 

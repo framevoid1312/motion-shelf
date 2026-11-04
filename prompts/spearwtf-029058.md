@@ -1,6 +1,6 @@
 # Create a 30sec pitch video for @chaindotwtf
 
-**#680 by likes** · ♥ 2 · by [@SPEARwtf](https://x.com/SPEARwtf) · [Original post](https://x.com/SPEARwtf/status/2103857153308029058) · [Watch the video](https://media.skillry.dev/opus-5-5/spearwtf-029058/original.mp4)
+**#697 by likes** · ♥ 2 · by [@SPEARwtf](https://x.com/SPEARwtf) · [Original post](https://x.com/SPEARwtf/status/2103857153308029058) · [Watch the video](https://media.skillry.dev/opus-5-5/spearwtf-029058/original.mp4)
 
 [![Create a 30sec pitch video for @chaindotwtf](https://media.skillry.dev/opus-5-5/spearwtf-029058/original.d210e8046f.webp)](https://x.com/SPEARwtf/status/2103857153308029058)
 

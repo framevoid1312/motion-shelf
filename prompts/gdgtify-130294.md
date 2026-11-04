@@ -1,6 +1,6 @@
 # Create a 20.00-second kinetic spoken-word film titled “BUILD THE…
 
-**#564 by likes** · ♥ 6 · by [@Gdgtify](https://x.com/Gdgtify) · [Original post](https://x.com/Gdgtify/status/2105570411870130294) · [Watch the video](https://video.twimg.com/amplify_video/2105494658390392833/vid/avc1/720x720/51N-YiusXAeVSc0v.mp4)
+**#576 by likes** · ♥ 6 · by [@Gdgtify](https://x.com/Gdgtify) · [Original post](https://x.com/Gdgtify/status/2105570411870130294) · [Watch the video](https://video.twimg.com/amplify_video/2105494658390392833/vid/avc1/720x720/51N-YiusXAeVSc0v.mp4)
 
 [![Create a 20.00-second kinetic spoken-word film titled “BUILD THE…](https://media.skillry.dev/opus-5-5/_prompts/gdgtify-130294/poster.912bdca75f.webp)](https://x.com/Gdgtify/status/2105570411870130294)
 
