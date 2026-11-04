@@ -2,17 +2,29 @@
 
 **918 viral animations made by Claude writing code, each with the exact prompt the creator shared, ranked by likes on X.**
 
+Plus [my own films](#made-by-phil), each with its exact prompt and source.
+
 **[▶ Watch them all on the site](https://framevoid1312.github.io/motion-shelf/)**: hover any card to play the video, copy the prompt in one click, filter by prompts, films, styles, skills and blocks.
 
 Every entry here has a playable original video and a prompt you can copy and run. Most videos were made with Claude Opus 5.5 (some with Sonnet 5.5 or Fable 5.5) writing HTML, Canvas, SVG, Three.js, Blender or Remotion code; there is no AI video generator in the picture. Like counts are from the original posts, checked on 3 November 2026.
 
 ## Contents
 
+- [Made by Phil](#made-by-phil)
 - [Top 60](#top-60)
 - [All 918, ranked by likes](#all-ranked-by-likes)
 - [What's on the site besides these](#whats-on-the-site-besides-these)
 - [How entries are chosen](#how-entries-are-chosen)
 - [Credits](#credits)
+
+## Made by Phil
+
+My own films, made with Claude writing code. Each folder has the video, the exact prompt I used and the full source to rebuild it.
+
+<table><tr>
+<td width="50%" valign="top"><a href="phil/a-year-on-the-island"><img src="phil/a-year-on-the-island/poster.jpg" width="100%" alt=""></a><br><b><a href="phil/a-year-on-the-island">A Year on the Island</a></b><br><sub>3 Nov 2026 · Memphis diorama · three.js · 1080p60</sub></td>
+<td width="50%" valign="top"><a href="phil/sigma-swiss-motion"><img src="phil/sigma-swiss-motion/poster.jpg" width="100%" alt=""></a><br><b><a href="phil/sigma-swiss-motion">ς: the letter that only ends</a></b><br><sub>2 Nov 2026 · Swiss motion · canvas · Greek type</sub></td>
+</tr></table>
 
 ## Top 60
 
