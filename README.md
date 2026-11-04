@@ -11,6 +11,7 @@ Every entry here has a playable original video and a prompt you can copy and run
 ## Contents
 
 - [Made by Phil](#made-by-phil)
+- [Motion repos to try](#motion-repos-to-try)
 - [Top 60](#top-60)
 - [All 918, ranked by likes](#all-ranked-by-likes)
 - [What's on the site besides these](#whats-on-the-site-besides-these)
@@ -25,6 +26,22 @@ My own films, made with Claude writing code. Each folder has the video, the exac
 <td width="50%" valign="top"><a href="phil/a-year-on-the-island"><img src="phil/a-year-on-the-island/poster.jpg" width="100%" alt=""></a><br><b><a href="phil/a-year-on-the-island">A Year on the Island</a></b><br><sub>3 Nov 2026 · Memphis diorama · three.js · 1080p60</sub></td>
 <td width="50%" valign="top"><a href="phil/sigma-swiss-motion"><img src="phil/sigma-swiss-motion/poster.jpg" width="100%" alt=""></a><br><b><a href="phil/sigma-swiss-motion">ς: the letter that only ends</a></b><br><sub>2 Nov 2026 · Swiss motion · canvas · Greek type</sub></td>
 </tr></table>
+
+## Motion repos to try
+
+Repos and links for anyone who wants to try them. All MIT-licensed agent skills; star counts as of 4 November 2026. Each one has a card with its demo video on the [site](https://framevoid1312.github.io/motion-shelf/) under **Repos to try**.
+
+| # | Repo | ★ | What it does |
+|---:|---|---:|---|
+| 1 | [**Huashu Art Motion**](https://github.com/alchaincyf/huashu-art-motion) | ~6k | Artistic animations, visual storytelling and explainer videos using code-based rendering. |
+| 2 | [**Earshot**](https://github.com/Leonxlnx/earshot) | ~3.6k | Gives coding agents audio analysis and code-generated sound effects. |
+| 3 | [**Huashu Motion**](https://github.com/alchaincyf/huashu-motion) | ~2.2k | Beat-synced product launch films, motion graphics and browser-editable scenes. |
+| 4 | [**Reanimate**](https://github.com/NiazMorshed2007/reanimate) | ~1k | Recreates web and video animations using frame-by-frame comparisons. |
+| 5 | [**Explainroo**](https://github.com/vincentsch/explainroo) | 782 | Narrated explainer videos with local voice generation and word-level timing. |
+| 6 | [**Rossark Motion**](https://github.com/rossark0/rossark-motion-skill) | 652 | Animates SVGs, characters and illustrations for React Native and SwiftUI. |
+| 7 | [**Video Director**](https://github.com/win4r/video-director) | 282 | Video planning, timeline validation and automated quality checks. |
+| 8 | [**Take One**](https://github.com/talsiach/take-one) | 132 | Turns prompts into videos through a multi-stage creative pipeline. |
+| 9 | [**Argo**](https://github.com/shreyaskarnik/argo) | 96 | Creates product demo videos from Playwright walkthroughs with AI voiceovers. |
 
 ## Top 60
 
