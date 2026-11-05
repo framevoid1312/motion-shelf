@@ -6,9 +6,11 @@ A tiny Memphis-style diorama island on one slow orbit. Each season ripples out f
 
 [![A Year on the Island](poster.jpg)](a-year-on-the-island.mp4)
 
-**[▶ Watch the video](a-year-on-the-island.mp4)** · [Watch it on the site](https://framevoid1312.github.io/motion-shelf/) · Style: [memphis-diorama style](https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/memphis-diorama/STYLE.md)
+**[▶ Watch the video](a-year-on-the-island.mp4)** · [Watch it on the site](https://framevoid1312.github.io/motion-shelf/)  · Style: [memphis-diorama style](https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/memphis-diorama/STYLE.md)
 
 ## Prompt
+
+
 
 ```text
 Study this style: https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/memphis-diorama/STYLE.md

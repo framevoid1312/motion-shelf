@@ -1106,11 +1106,12 @@ The full data is in [`posts.json`](posts.json).
 
 ## Phil's films
 
-Two films made the same way, with the exact prompt and full source to rebuild them, for anyone who wants to try the method.
+Films made the same way, with the exact prompt and full source to rebuild them, for anyone who wants to try the method.
 
 <table><tr>
-<td width="50%" valign="top"><a href="phil/a-year-on-the-island"><img src="phil/a-year-on-the-island/poster.jpg" width="100%" alt=""></a><br><b><a href="phil/a-year-on-the-island">A Year on the Island</a></b><br><sub>3 Nov 2026 · Memphis diorama · three.js · 1080p60</sub></td>
-<td width="50%" valign="top"><a href="phil/sigma-swiss-motion"><img src="phil/sigma-swiss-motion/poster.jpg" width="100%" alt=""></a><br><b><a href="phil/sigma-swiss-motion">ς: the letter that only ends</a></b><br><sub>2 Nov 2026 · Swiss motion · canvas · Greek type</sub></td>
+<td width="33%" valign="top"><a href="phil/reel-2026"><img src="phil/reel-2026/poster.jpg" width="100%" alt=""></a><br><b><a href="phil/reel-2026">REEL 2026</a></b><br><sub>4 Nov 2026 · showreel · Remotion · three.js</sub></td>
+<td width="33%" valign="top"><a href="phil/a-year-on-the-island"><img src="phil/a-year-on-the-island/poster.jpg" width="100%" alt=""></a><br><b><a href="phil/a-year-on-the-island">A Year on the Island</a></b><br><sub>3 Nov 2026 · Memphis diorama · three.js · 1080p60</sub></td>
+<td width="33%" valign="top"><a href="phil/sigma-swiss-motion"><img src="phil/sigma-swiss-motion/poster.jpg" width="100%" alt=""></a><br><b><a href="phil/sigma-swiss-motion">ς: the letter that only ends</a></b><br><sub>2 Nov 2026 · Swiss motion · canvas · Greek type</sub></td>
 </tr></table>
 
 ## Credits

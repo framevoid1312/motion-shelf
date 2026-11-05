@@ -6,9 +6,11 @@ A Swiss-grid type film: 24 Greek letters snap into a specimen sheet, then a blue
 
 [![ς: the letter that only ends](poster.jpg)](sigma-swiss-motion.mp4)
 
-**[▶ Watch the video](sigma-swiss-motion.mp4)** · [Watch it on the site](https://framevoid1312.github.io/motion-shelf/) · Style: [swiss-motion style](https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/swiss-motion/STYLE.md)
+**[▶ Watch the video](sigma-swiss-motion.mp4)** · [Watch it on the site](https://framevoid1312.github.io/motion-shelf/)  · Style: [swiss-motion style](https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/swiss-motion/STYLE.md)
 
 ## Prompt
+
+
 
 ```text
 Learn this style: https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/swiss-motion/STYLE.md
