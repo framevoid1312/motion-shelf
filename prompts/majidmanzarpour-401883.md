@@ -1,6 +1,6 @@
 # Procedural Kaiju Simulation in Three.js
 
-**#299 by likes** · ♥ 170 · by [@majidmanzarpour](https://x.com/majidmanzarpour) · [Original post](https://x.com/majidmanzarpour/status/2102810710791401883) · [Watch the video](https://video.twimg.com/amplify_video/2102810115216674818/vid/avc1/3024x1964/RYxbhWqK18gJy2WY.mp4)
+**#299 by likes** · ♥ 170 · by [@majidmanzarpour](https://x.com/majidmanzarpour) · [Original post](https://x.com/majidmanzarpour/status/2102810710791401883) · [Watch the video](https://video.twimg.com/amplify_video/2102810115216674818/vid/avc1/1108x720/i7Ap7mz0GjK146zK.mp4)
 
 [![Procedural Kaiju Simulation in Three.js](https://pbs.twimg.com/amplify_video_thumb/2102810115216674818/img/gEzXcELbdQvKMw2o.jpg)](https://x.com/majidmanzarpour/status/2102810710791401883)
 
