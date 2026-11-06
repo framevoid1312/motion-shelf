@@ -1,6 +1,6 @@
 # What is going on 🤪 🎲 Dice Corners https://izmaelmag.me/dice-corners/…
 
-**#867 by likes** · ♥ 0 · by [@izmaelmag](https://x.com/izmaelmag) · [Original post](https://x.com/izmaelmag/status/2104070894251282849) · [Watch the video](https://media.skillry.dev/opus-5-5/izmaelmag-282849/original.mp4)
+**#895 by likes** · ♥ 0 · by [@izmaelmag](https://x.com/izmaelmag) · [Original post](https://x.com/izmaelmag/status/2104070894251282849) · [Watch the video](https://media.skillry.dev/opus-5-5/izmaelmag-282849/original.mp4)
 
 [![What is going on 🤪 🎲 Dice Corners https://izmaelmag.me/dice-corners/…](https://media.skillry.dev/opus-5-5/izmaelmag-282849/original.27cd429488.webp)](https://x.com/izmaelmag/status/2104070894251282849)
 

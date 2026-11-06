@@ -1,6 +1,6 @@
 # I asked Opus 5.5 again for an engine you can take apart in the…
 
-**#702 by likes** · ♥ 2 · by [@StefanoStraus](https://x.com/StefanoStraus) · [Original post](https://x.com/StefanoStraus/status/2104236916316971191) · [Watch the video](https://media.skillry.dev/opus-5-5/stefanostraus-971191/original.mp4)
+**#730 by likes** · ♥ 2 · by [@StefanoStraus](https://x.com/StefanoStraus) · [Original post](https://x.com/StefanoStraus/status/2104236916316971191) · [Watch the video](https://media.skillry.dev/opus-5-5/stefanostraus-971191/original.mp4)
 
 [![I asked Opus 5.5 again for an engine you can take apart in the…](https://media.skillry.dev/opus-5-5/stefanostraus-971191/original.f474cd1709.webp)](https://x.com/StefanoStraus/status/2104236916316971191)
 

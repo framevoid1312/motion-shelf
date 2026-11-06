@@ -1,6 +1,6 @@
 # Low-poly 3D horse animation comparison
 
-**#323 by likes** · ♥ 98 · by [@aGim_asf](https://x.com/aGim_asf) · [Original post](https://x.com/aGim_asf/status/2112103012638277944) · [Watch the video](https://video.twimg.com/amplify_video/2112102914458087424/vid/avc1/720x816/KOT91pG4mezbxDpP.mp4)
+**#341 by likes** · ♥ 98 · by [@aGim_asf](https://x.com/aGim_asf) · [Original post](https://x.com/aGim_asf/status/2112103012638277944) · [Watch the video](https://video.twimg.com/amplify_video/2112102914458087424/vid/avc1/720x816/KOT91pG4mezbxDpP.mp4)
 
 [![Low-poly 3D horse animation comparison](https://pbs.twimg.com/amplify_video_thumb/2112102914458087424/img/Uxmqiq-juWcRrUlP.jpg)](https://x.com/aGim_asf/status/2112103012638277944)
 

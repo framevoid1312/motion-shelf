@@ -1,6 +1,6 @@
 # the card should scale in from 30% to 100% scale and it should go from…
 
-**#421 by likes** · ♥ 24 · by [@Khlaseek_dsgner](https://x.com/Khlaseek_dsgner) · [Original post](https://x.com/Khlaseek_dsgner/status/2108167809997877659) · [Watch the video](https://video.twimg.com/amplify_video/2108167351770206208/vid/avc1/720x1278/o5eTZk2r3Kam4-R8.mp4)
+**#449 by likes** · ♥ 24 · by [@Khlaseek_dsgner](https://x.com/Khlaseek_dsgner) · [Original post](https://x.com/Khlaseek_dsgner/status/2108167809997877659) · [Watch the video](https://video.twimg.com/amplify_video/2108167351770206208/vid/avc1/720x1278/o5eTZk2r3Kam4-R8.mp4)
 
 [![the card should scale in from 30% to 100% scale and it should go from…](https://media.skillry.dev/opus-5-5/_prompts/khlaseek-dsgner-877659/poster.1e81ae3ddd.webp)](https://x.com/Khlaseek_dsgner/status/2108167809997877659)
 

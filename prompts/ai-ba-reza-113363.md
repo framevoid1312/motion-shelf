@@ -1,6 +1,6 @@
 # Claude Opus 5.5 یه انیمیشن 3D دیوونه‌کننده ساخته از دیتاسنتر شروع…
 
-**#308 by likes** · ♥ 132 · by [@ai_ba_reza](https://x.com/ai_ba_reza) · [Original post](https://x.com/ai_ba_reza/status/2103792451551113363) · [Watch the video](https://media.skillry.dev/opus-5-5/ai-ba-reza-113363/original.mp4)
+**#324 by likes** · ♥ 132 · by [@ai_ba_reza](https://x.com/ai_ba_reza) · [Original post](https://x.com/ai_ba_reza/status/2103792451551113363) · [Watch the video](https://media.skillry.dev/opus-5-5/ai-ba-reza-113363/original.mp4)
 
 [![Claude Opus 5.5 یه انیمیشن 3D دیوونه‌کننده ساخته از دیتاسنتر شروع…](https://media.skillry.dev/opus-5-5/ai-ba-reza-113363/original.c61a87e9e2.webp)](https://x.com/ai_ba_reza/status/2103792451551113363)
 

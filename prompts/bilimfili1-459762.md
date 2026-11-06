@@ -1,6 +1,6 @@
 # Make a 45–50 second vertical video for my app: a glance inside the…
 
-**#761 by likes** · ♥ 1 · by [@Bilimfili1](https://x.com/Bilimfili1) · [Original post](https://x.com/Bilimfili1/status/2103743617848459762) · [Watch the video](https://media.skillry.dev/opus-5-5/bilimfili1-459762/original.mp4)
+**#789 by likes** · ♥ 1 · by [@Bilimfili1](https://x.com/Bilimfili1) · [Original post](https://x.com/Bilimfili1/status/2103743617848459762) · [Watch the video](https://media.skillry.dev/opus-5-5/bilimfili1-459762/original.mp4)
 
 [![Make a 45–50 second vertical video for my app: a glance inside the…](https://media.skillry.dev/opus-5-5/bilimfili1-459762/original.a1f891890a.webp)](https://x.com/Bilimfili1/status/2103743617848459762)
 

@@ -1,6 +1,6 @@
 # NextCoreのような海外のカッコイいYouTubeチャンネルをオマージュした、タイポグラフィとコードだけで作成する心理学解説動画を作って…
 
-**#531 by likes** · ♥ 8 · by [@nakazakifam](https://x.com/nakazakifam) · [Original post](https://x.com/nakazakifam/status/2107715000227831964) · [Watch the video](https://video.twimg.com/amplify_video/2107713858752114689/vid/avc1/1280x720/7kK7yoIAJwji7BT9.mp4)
+**#559 by likes** · ♥ 8 · by [@nakazakifam](https://x.com/nakazakifam) · [Original post](https://x.com/nakazakifam/status/2107715000227831964) · [Watch the video](https://video.twimg.com/amplify_video/2107713858752114689/vid/avc1/1280x720/7kK7yoIAJwji7BT9.mp4)
 
 [![NextCoreのような海外のカッコイいYouTubeチャンネルをオマージュした、タイポグラフィとコードだけで作成する心理学解説動画を作って…](https://media.skillry.dev/opus-5-5/_prompts/nakazakifam-831964/poster.d02890098b.webp)](https://x.com/nakazakifam/status/2107715000227831964)
 

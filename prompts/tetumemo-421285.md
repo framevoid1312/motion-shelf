@@ -1,6 +1,6 @@
 # Showreel prompt, using memory (Japanese)
 
-**#230 by likes** · ♥ 307 · by [@tetumemo](https://x.com/tetumemo) · [Original post](https://x.com/tetumemo/status/2103407771102421285) · [Watch the video](https://video.twimg.com/amplify_video/2103407737191444481/vid/avc1/1280x720/mYhqK3cYhosi0LNl.mp4)
+**#235 by likes** · ♥ 307 · by [@tetumemo](https://x.com/tetumemo) · [Original post](https://x.com/tetumemo/status/2103407771102421285) · [Watch the video](https://video.twimg.com/amplify_video/2103407737191444481/vid/avc1/1280x720/mYhqK3cYhosi0LNl.mp4)
 
 [![Showreel prompt, using memory (Japanese)](https://pbs.twimg.com/amplify_video_thumb/2103407737191444481/img/1PPWoBYTPYk7YtMo.jpg)](https://x.com/tetumemo/status/2103407771102421285)
 

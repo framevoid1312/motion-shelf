@@ -1,6 +1,6 @@
 # Make a showreel-style motion graphics video for my portfolio website,…
 
-**#540 by likes** · ♥ 7 · by [@wani_shola](https://x.com/wani_shola) · [Original post](https://x.com/wani_shola/status/2103769906638459278) · [Watch the video](https://media.skillry.dev/opus-5-5/wani-shola-459278/original.mp4)
+**#568 by likes** · ♥ 7 · by [@wani_shola](https://x.com/wani_shola) · [Original post](https://x.com/wani_shola/status/2103769906638459278) · [Watch the video](https://media.skillry.dev/opus-5-5/wani-shola-459278/original.mp4)
 
 [![Make a showreel-style motion graphics video for my portfolio website,…](https://media.skillry.dev/opus-5-5/wani-shola-459278/original.ffed3815a3.webp)](https://x.com/wani_shola/status/2103769906638459278)
 

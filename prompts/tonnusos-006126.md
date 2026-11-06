@@ -1,6 +1,6 @@
 # Testing out Opus 5.5 today by letting it work on a Magicka-inspired…
 
-**#588 by likes** · ♥ 5 · by [@tonnusos](https://x.com/tonnusos) · [Original post](https://x.com/tonnusos/status/2104209760388006126) · [Watch the video](https://media.skillry.dev/opus-5-5/tonnusos-006126/original.mp4)
+**#616 by likes** · ♥ 5 · by [@tonnusos](https://x.com/tonnusos) · [Original post](https://x.com/tonnusos/status/2104209760388006126) · [Watch the video](https://media.skillry.dev/opus-5-5/tonnusos-006126/original.mp4)
 
 [![Testing out Opus 5.5 today by letting it work on a Magicka-inspired…](https://media.skillry.dev/opus-5-5/tonnusos-006126/original.34fc397d7a.webp)](https://x.com/tonnusos/status/2104209760388006126)
 

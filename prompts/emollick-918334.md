@@ -1,6 +1,6 @@
 # Same message, remade for a quick-clip audience
 
-**#69 by likes** · ♥ 1,085 · by [@emollick](https://x.com/emollick) · [Original post](https://x.com/emollick/status/2103272686570918334) · [Watch the video](https://video.twimg.com/amplify_video/2103272247418908672/vid/avc1/1280x720/voEQY2_RZx4YkdLZ.mp4)
+**#70 by likes** · ♥ 1,085 · by [@emollick](https://x.com/emollick) · [Original post](https://x.com/emollick/status/2103272686570918334) · [Watch the video](https://video.twimg.com/amplify_video/2103272247418908672/vid/avc1/1280x720/voEQY2_RZx4YkdLZ.mp4)
 
 [![Same message, remade for a quick-clip audience](https://pbs.twimg.com/amplify_video_thumb/2103272247418908672/img/Af9EtBVQ5ZZXOAP8.jpg)](https://x.com/emollick/status/2103272686570918334)
 

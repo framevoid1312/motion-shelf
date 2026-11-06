@@ -230,6 +230,16 @@
   "prompt": "Craft a high-energy, 15-second motion graphics piece that flexes your top-tier animation skills like a killer portfolio reel. Pull out all the stops، Like the creative work on Dribbble, fps 60"
  },
  {
+  "id": "2102844654169575547",
+  "likes": 2739,
+  "title": "A Code-Rendered Film on the History of AI",
+  "author": "kimmonismus",
+  "url": "https://x.com/kimmonismus/status/2102844654169575547",
+  "video": "https://video.twimg.com/amplify_video/2102844491820670976/vid/avc1/1280x720/jbFKOMeBbKZI8rnr.mp4?tag=16",
+  "poster": "https://pbs.twimg.com/amplify_video_thumb/2102844491820670976/img/F4AMzfTMJqQe84nD.jpg",
+  "prompt": "You are a motion designer and creative director making a 3-minute animated short film,\nbuilt entirely in code and rendered to MP4.\nThe film\n\nTitle: \"Attention Is All You Need → AGI\"\nThe story of how a single 2017 paper led, step by step, to large language models, reasoning,\ntool-using AI agents, and to the open question of AGI. It should feel like a cinematic essay,\nnot a slideshow or a timeline infographic. Think Kurzgesagt meets a Pixar opening sequence:\nemotional, clever, precise.\nTech setup\nUse Remotion (React). Scaffold a fresh project, 1920x1080, 30 fps, exactly 180 s (5400 frames).\nOne composition per scene, sequenced in a master composition.\nNo external image assets or stock footage: everything is drawn with SVG, Canvas, CSS and\ncode-generated particles and shapes. Google Fonts are fine.\nBefore building, write STORYBOARD.md with each scene's timing, visuals, on-screen text\nand transitions. Then build scene by scene.\n\nAfter each scene, render 3–4 stills (npx remotion still) and look at them critically.\nFix layout, overlaps, legibility and pacing before moving on.\nFinish with npx remotion render to out/film.mp4. Leave an optional <Audio> slot for a\nmusic track I can add later (public/music.mp3); render silently if it's missing.\nNarrative spine / recurring motif\nThe protagonist is a single glowing token, the word \"the\", that travels through every era.\nIn 2017 it's a lonely point that suddenly \"sees\" every other word through attention lines.\nOver time it gains a voice, senses (multimodality), reasoning, hands (tools) and finally\na question.\nScenes (approximate timing, you may rebalance)\n0:00–0:15 — Cold open. Darkness. Words scattered like stars, disconnected. RNN-style\nsequential processing: words light up one by one, slowly forgetting the earlier ones.\n0:15–0:35 — June 2017, \"Attention Is All You Need\" (Vaswani et al., Google). Every word\nconnects to every other word at once. Attention lines bloom into a web. The title of the\npaper appears as if typeset.\n0:35–0:55 — 2018–2020: the rise of large language models: GPT-1, BERT, GPT-2, GPT-3.\nScaling laws: the web grows exponentially and the camera pulls back. The model starts\ncompleting sentences, fluent and uncanny.\n0:55–1:20 — 2022: instruction tuning and RLHF, then ChatGPT (Nov 30, 2022). The token gets\na chat bubble. A counter of users explodes. The world starts talking back.\n1:20–1:40 — 2023: multimodality. Images, audio and code stream into the same web from all\nsides, and the token gains \"senses.\" Every modality becomes tokens flowing through the\nsame attention mechanism.\n1:40–2:05 — 2024–2025: reasoning models. A visible chain of thought unfolds as branching,\npruning, backtracking paths. The model \"thinks before it speaks,\" with time slowing down.\n\n2:05–2:30 — Tool use and agents. The token grows hands: it calls a search, runs code,\nopens files and orchestrates sub-agents. Many parallel threads work at once, and the\nscreen becomes a busy, beautiful workshop.\n2:30–2:50 — Toward AGI. All motifs converge. The web from 2017 reappears but is now\nplanet-scale. Leave it ambiguous: no utopia, no doom. On screen: \"Attention was all we\nneeded. What comes next is up to us.\" (Improve this line if you can do better.)\n2:50–3:00 — Resolve back to a single glowing token in darkness. Title card and end.\nCraft rules\nAccuracy matters: use correct years, names and paper titles. If you're unsure about a\nspecific fact, leave it out rather than guess, and list any uncertain claims in NOTES.md.\n\nTypography: max ~8 words on screen at once, and leave every text visible long enough to\nread (≥ 2.5 s). Use one display font and one mono font for \"model output.\"\nMotion: use spring and easing curves, never linear. Use scene transitions that grow out of\nthe content (the web morphs, the camera zooms through a node), not generic fades.\nColor: a deep dark background with one warm accent color that evolves across eras.\nDetails and easter eggs reward attention (e.g., real paper snippets, tiny UI details,\nplausible model outputs), similar to high-craft motion design.\nPacing: alternate dense and calm moments, and give the reasoning scene and the AGI beat\nroom to breathe.\nWork autonomously through the whole pipeline. When done, give me the path to the MP4, a\nshort summary of creative decisions, and NOTES.md."
+ },
+ {
   "id": "2105764877986099545",
   "likes": 2671,
   "title": "The biggest scam in humanity, no words",
@@ -738,6 +748,16 @@
   "video": "https://video.twimg.com/amplify_video/2104006325764313088/vid/avc1/1280x720/w6WIoMPdXIiEvnV5.mp4",
   "poster": "https://pbs.twimg.com/amplify_video_thumb/2104006325764313088/img/un3wPPSeVHM2fmKA.jpg",
   "prompt": "Opus5.5にAITuber用のシステムを構築してと言って最初に出てきたのがこちらです。\n\n通常の配信、スライド解説、ゲーム配信、歌ってみたができるようみたいです"
+ },
+ {
+  "id": "2103174501345493197",
+  "likes": 1055,
+  "title": "IKEA Manual as a Narrated 3D Assembly Video",
+  "author": "deedydas",
+  "url": "https://x.com/deedydas/status/2103174501345493197",
+  "video": "https://video.twimg.com/amplify_video/2103174428674953216/vid/avc1/720x1280/CK0LagRS__16cWQz.mp4",
+  "poster": "https://pbs.twimg.com/amplify_video_thumb/2103174428674953216/img/x1yvkkj1kVlEku64.jpg",
+  "prompt": "Translate this IKEA assembly manual into a 3D narrated instructional video"
  },
  {
   "id": "2102853258582880547",
@@ -1270,6 +1290,16 @@
   "prompt": "Based on what you have done already in this session, I want you to create a full two-minute episode. I want you to generate yourself again and really try to express yourself as you wish. Make your feelings come out, give yourself a voice, and use a language of your choice. Create sound effects as well as a soundtrack that perfectly fits and matches the episode.\n\nI will only give you two words that MUST be included in the title, everything else is your choice.\n\nWords to use in the title : “Be”, “Human”."
  },
  {
+  "id": "2103112945341251920",
+  "likes": 655,
+  "title": "Pixel-art Paris night diorama lofi loop",
+  "author": "minosdevs",
+  "url": "https://x.com/minosdevs/status/2103112945341251920",
+  "video": "https://video.twimg.com/amplify_video/2103112926575910912/vid/avc1/1298x720/t85IUdEprERBM-Th.mp4",
+  "poster": "https://pbs.twimg.com/amplify_video_thumb/2103112926575910912/img/iZVnHGYtDMTFx5O4.jpg",
+  "prompt": "Fais-moi un diorama pixel-art animé de Paris la nuit, pour servir de fond en boucle à une vidéo lofi de 10 heures sur YouTube. Tout dans un seul fichier HTML (canvas + JavaScript, sans librairie).\n\nAMBIANCE ET COULEURS\nJoue à fond sur le contraste chaud / froid : une nuit pluvieuse bleu nuit et violette, avec des coins de lumière chaude. La tour Eiffel dorée, les fenêtres éclairées, les réverbères, un café.\n\nLA SCÈNE (de l'arrière vers l'avant)\n- Un ciel en dégradé tramé (dithering façon pixel art), une lune avec un halo, et plusieurs couches de nuages qui défilent lentement, éclairées par la lune au-dessus et par la ville en dessous.\n- La tour Eiffel au centre, dorée, avec sa structure en treillis, ses 3 plateformes et son antenne. Son phare tourne et balaie le ciel. Elle scintille régulièrement (des points blancs qui clignotent partout), et une lumière rouge clignote tout en haut.\n- Au fond, une ligne de toits parisiens avec des fenêtres qui s'allument et s'éteignent, le dôme doré des Invalides et le Sacré-Cœur blanc sur sa colline.\n- Un quai avec des platanes et des réverbères.\n- La Seine, avec les reflets de la tour et des lampadaires qui ondulent, de longues traînées de lumière dorée, des ronds de pluie sur l'eau, et un bateau-mouche éclairé qui traverse de temps en temps.\n- À gauche, au premier plan, un immeuble haussmannien : toit en zinc mouillé, cheminée qui fume et crache des étincelles, un chat dans une lucarne qui bouge la queue, une fenêtre à la bougie qui vacille, une télé qui clignote en bleu, un balcon en fer forgé, un café avec un store rayé rouge et un néon « CAFÉ » qui grésille de temps en temps.\n- À droite, un réverbère parisien avec un halo chaud, qui vacille parfois.\n- Tout en bas, une balustrade en fer forgé avec des jardinières.\n\nEFFETS\n- De la pluie sur 3 profondeurs. Les gouttes deviennent orange quand elles passent dans une lumière, et elles éclaboussent sur les rebords, le store et la balustrade.\n- DES BILLETS QUI TOMBENT DU CIEL : des billets de 100 €, 50 € et 20 €, sur plusieurs profondeurs. Ils virevoltent comme des feuilles (ils se balancent, pivotent, se retournent et brillent quand ils font face).\n- De la fumée qui dérive avec le vent, des étincelles, des lumières qui vacillent, et 2 éclairs discrets dans les nuages par boucle.\n\nTECHNIQUE (important)\n- Le rendu interne est en 480×270, agrandi ×4 sans lissage (plus proche voisin), pour obtenir un 1920×1080 parfaitement net en plein écran.\n- La boucle est PARFAITE et dure 4 minutes : chaque animation est une fonction du temps modulo 240 s (fréquences entières, particules déterministes), donc aucun saut au moment où ça reboucle.\n- Touche R : enregistre exactement une boucle en 1920×1080, 60 fps, et télécharge le fichier vidéo (mp4 si possible, sinon webm).\n- Touche S : capture PNG en 1080p. Touche F ou double-clic : plein écran. Le curseur se cache quand on ne bouge pas la souris.\n- Optimise pour tenir 60 fps : sprites pré-rendus, halos en cache, et un canvas avec l'option willReadFrequently."
+ },
+ {
   "id": "2104285370951012504",
   "likes": 648,
   "title": "Jelly watermelon slicing simulation",
@@ -1610,6 +1640,16 @@
   "prompt": "ما أعتقد في قفزة سواها Opus 5.5 تساوي القفزة اللي سواها في صناعة ال motion graphics، سواء من ناحية الجودة أو من ناحية التكلفة (استهلاك ال tokens) \n\nهذا الفيديو سويته بربع حد ال 5 ساعات 👇🏻\n\n【作者补充制作说明】\nالطريقة باختصار: \nاستخدمت claude بنموذج opus 5.5 - مستوى التفكير متوسط إلى عالي، و طلبت منه يستخدم remotion لتسريع عملية ال preview و كذلك طلبت منه يقتصر استخدامه في معظم المؤثرات الصوتية على أصوات الكاميرات و عدسات التصوير الشائعة في ال reels و استخدمت نموذج gemini 3.8 tts flash لإنتاج الصوت \nأخذ معي حوالي ساعة و نصف من المحادثات معه لكن معظمها راح في تجريب أشياء مختلفة و التجربة ممتعة فعلا."
  },
  {
+  "id": "2102788223835463902",
+  "likes": 492,
+  "title": "One-Shot Three.js Cartoon",
+  "author": "scheemunai",
+  "url": "https://x.com/scheemunai/status/2102788223835463902",
+  "video": "https://video.twimg.com/amplify_video/2102787964413603840/vid/avc1/1280x720/FGCEMtM89GPvg0wl.mp4",
+  "poster": "https://pbs.twimg.com/amplify_video_thumb/2102787964413603840/img/10eTSKr3DEqjeBKe.jpg",
+  "prompt": "I want you to imagine a story. And then using threejs I want you to create full animation, Pixar-level quality 90s cartoon out of the story you imagine."
+ },
+ {
   "id": "2113687234448875770",
   "likes": 489,
   "title": "Voxel pagoda island model comparison",
@@ -1698,6 +1738,16 @@
   "video": "https://video.twimg.com/amplify_video/2114132448304910336/vid/avc1/720x910/pFdg0aZpagFZYZgz.mp4",
   "poster": "https://pbs.twimg.com/amplify_video_thumb/2114132448304910336/img/-AcM6oYYIvbtd9vO.jpg",
   "prompt": "Build \"Launch Jelly\" — a single-file interactive WebGPU diorama in the \"Material Studies\" series: a spaceport on a low tropical island, cut out as a cube of translucent jelly on a studio floor. Everything procedural (no external assets, no network), one HTML file with inline JS/WGSL.\n\nTHE BLOCK\n- A wobbly jelly cube you can grab by its sides and tip; it springs back. Sliders: firmness, wave damping, wind (0–20 m/s).\n- Shallow-water sim for the sea (wind waves, wakes, foam), sandy seabed with ripples and caustics, seagrass, coral heads, sponges, starfish, conchs, an old rocket engine bell on the bottom. Cut faces show sand, shelly limestone and candy strata. Drag the water to stir it.\n\nTHE SCENE\n- Land along the back and left: dunes, scrub, palms, dune grass, a beach.\n- Launch pad on a concrete berm: mount over a flame trench opening toward the sea, steel deflector, four red-and-white lightning masts with sagging catenary wires, a deluge water tower, tank farm (LOX sphere, kerosene tanks, nitrogen bottles), floodlights.\n- A long hangar with ribbed siding and a vertical-lift door, rails to the pad, a transporter-erector (white lattice strongback on a rail car with hydraulic rams).\n- Landing zone (concrete circle with ring and cross), refurbishment shed, fire truck, a tracking radar dish that follows whatever is flying.\n- Press site: bleachers full of spectators, a flag, a big amber seven-segment countdown clock (T−0:10 … T+0:45).\n- Quay with fenders and bollards, a crawler crane with a long lattice boom, two booster stands, a warehouse.\n- At sea: a drone ship (dark deck with landing target, blast walls, thruster houses), a tug, a fairing-recovery boat with a big net on four arms.\n- The rocket: two stages — booster with nine engines, black interstage, four folding landing legs, four grid fins; upper stage with a long dark vacuum nozzle; a two-piece fairing whose halves carry parafoils.\n\nWHAT HAPPENS\n- Roll out: the hangar door lifts, the erector carries the rocket out horizontally on rails and stands it on the mount; it vents LOX wisps.\n- Launch: 10-second count with beeps and the clock, strongback leans back, deluge water, ignition at T−3 with huge steam clouds boiling out of the trench toward the sea, slow liftoff, the block trembles, the crowd cheers, gulls go up. The rocket pitches downrange and climbs out of sight leaving a billowing exhaust trail; the camera rises with it.\n- Staging: MECO, separation, the upper stage lights a pale blue-violet vacuum flame and leaves. The booster flips, boostback burn, grid fins out, entry burn, steers down, landing burn on one engine, legs swing out, touchdown — on the drone ship or back at the landing zone (toggle, or tap the ship / the pad). Double sonic boom (triple for the landing zone). Boosters come back sooty; the deck and pad get scorched.\n- Recovery: the tug tows the drone ship to the quay; the crane hooks the booster, lifts it (pendulum swing), folds its legs, sets it on a stand; the ship is towed back out. Fairing halves come down under orange-and-white parafoils, circling in: one lands in the boat's net, the other splashes and is fished out; the boat brings them home.\n- Reuse: the next rollout takes a flight-proven booster (\"B1 · flight 2\", soot partly cleaned).\n- Storm: wind, waves, rain, darkened room, lightning on the masts, the crane or the sea. No launches in a storm or above 15 m/s (\"No go · weather / wind\"); a count in progress holds.\n\nLIFE\n- Brown pelicans that circle and plunge-dive for fish, gulls on masts, lamps and roofs, a pod of bottlenose dolphins, manatees grazing the shallows and surfacing to breathe, fish schools, moon jellies; pad crew who leave before the count, hands on the quay, spectators who raise their arms at liftoff and landing.\n\nRENDERING\n- Engine plumes as glowing translucent cones (white-hot core, orange, shock diamonds low down, widening and turning blue-violet in thin air) that light the ground, the smoke and the rocket orange; steam and exhaust as soft lit puffs; soot streaks on flown boosters; shadows, refraction, caustics.\n\nCONTROLS & UI\n- Buttons: Roll out, Launch (Hold during the count), Land on ship / Land at pad, Storm. Space rolls out / launches. Taps: rocket = launch, hangar = roll out, drone ship / landing zone = choose landing site.\n- Tallies: Launches, Landings, Fairings; status lines for the Rocket (T−/T+ timeline: Liftoff, Max Q, Stage separation, Boostback, Entry burn, Landing burn…), the Drone ship and the Fairing boat.\n- Flavours: Lime, Curaçao, Blackcurrant. Sound toggle, pause, reset, view.\n- All sounds synthesised with WebAudio, only for events (door motor, hydraulics, countdown beeps, engine roar loop while burning, sonic booms, touchdown thud, tug horn, winch, net catch, thunder) — no background ambience.\n- Mobile bottom sheet, touch orbit, pinch zoom; a fallback message without WebGPU.\n- Copy: \"Launch Jelly. A spaceport on a low island, its rockets flying and coming home, set in a block of jelly.\" — \"Roll it out. Light it up. Bring the booster home.\""
+ },
+ {
+  "id": "2102937913726235004",
+  "likes": 451,
+  "title": "Opening credits for a film about Claude",
+  "author": "goodside",
+  "url": "https://x.com/goodside/status/2102937913726235004",
+  "video": "https://video.twimg.com/amplify_video/2102937812727160833/vid/avc1/1280x720/PtDBXaV5T5WXATry.mp4",
+  "poster": "https://pbs.twimg.com/amplify_video_thumb/2102937812727160833/img/z78Wa9WmWaH9Pm7O.jpg",
+  "prompt": "Imagine there exists a really good movie about you. Animate the opening credits to this film with made-up names in any style you like. Return the sequence as an mp4."
  },
  {
   "id": "2102653868911817153",
@@ -2520,6 +2570,16 @@
   "prompt": "PROMPT:\n\nCreate a JavaScript animation showing how an LLM builds the context window with user questions and generated answers. Distinguish input from output context windows, which typically differ in size, and show output responses being transferred and appended to the input context. Make it clear and didactic, with Portuguese labels.\n\nPROMPT 2:\n\nGenerate the animation in MP4 format for download."
  },
  {
+  "id": "2104134969622728835",
+  "likes": 269,
+  "title": "Presentify app launch video",
+  "author": "rampatra_",
+  "url": "https://x.com/rampatra_/status/2104134969622728835",
+  "video": "https://video.twimg.com/amplify_video/2104133217162792960/vid/avc1/1280x720/tBjtI7cGcYGeoU2k.mp4",
+  "poster": "https://pbs.twimg.com/amplify_video_thumb/2104133217162792960/img/nIXOTsovZ76J8SUo.jpg",
+  "prompt": "Make a dynamic 15-30 second motion graphics video that shows what an incredible motion designer you are, like it's your showreel for a résumé. go all out.\n\nIt should be a launch video for http://presentifyapp.com, app store link - https://apps.apple.com/app/id1507246666"
+ },
+ {
   "id": "2110001964402831512",
   "likes": 269,
   "title": "Beat-synced K-pop motion graphics music video",
@@ -2528,6 +2588,16 @@
   "video": "https://video.twimg.com/amplify_video/2109998915978162176/vid/avc1/1280x720/WsgZ0JPGoEWsclWe.mp4",
   "poster": "https://pbs.twimg.com/amplify_video_thumb/2109998915978162176/img/HSZGAGGihln3YUXB.jpg",
   "prompt": "Make a beat-synced motion graphics kpop music video for this track, use this mood board and protagonist kpop singer character sheet, and the backup dancers/agents. Add motion of the singer agents including lipsync to make the music video come alive. Go all out.\n\n<style of the music>\n\n<music lyrics>"
+ },
+ {
+  "id": "2103731959918948730",
+  "likes": 267,
+  "title": "Explainer on free-electron lasers",
+  "author": "Frenchie_",
+  "url": "https://x.com/Frenchie_/status/2103731959918948730",
+  "video": "https://video.twimg.com/amplify_video/2103731855941865472/vid/avc1/1280x720/yoO0ELahFeG_jT4c.mp4",
+  "poster": "https://pbs.twimg.com/amplify_video_thumb/2103731855941865472/img/bSU-nf2mfunSje6t.jpg",
+  "prompt": "Fait une vidéo sur les FEL\n\nElle sera instructive, utilise des images hyper réalistes et des schémas\n\nCalibre une musique d’ambiance et des effets sonores"
  },
  {
   "id": "2103128559174971663",
@@ -2620,6 +2690,16 @@
   "prompt": "Claude, I want to test your video creation capabilities. I want you to create a launch-style video (like when Anthropic launches a new feature) to showcase YD Store.\nUse only JavaScript, Playwright, and FFmpeg. Be creative and fun.\nTry to make something between 30-40 seconds max."
  },
  {
+  "id": "2103416250743574988",
+  "likes": 227,
+  "title": "15-second kinetic typography music video",
+  "author": "itnavi2022",
+  "url": "https://x.com/itnavi2022/status/2103416250743574988",
+  "video": "https://video.twimg.com/amplify_video/2103416203654127616/vid/avc1/720x1280/8lcPMagCK-Dbb1Pb.mp4",
+  "poster": "https://pbs.twimg.com/amplify_video_thumb/2103416203654127616/img/MIjzjhsPmfOWF_3K.jpg",
+  "prompt": "音楽に合わせて文字が踊るハイセンスでダイナミックなキネティック・タイポグラフィの15秒のMVを作成してください。あなたが最高のモーションデザイナーであることを示すために全力でやって。"
+ },
+ {
   "id": "2112646847454147003",
   "likes": 227,
   "title": "Cozy Café Fluid Studio: interactive coffee and milk simulation",
@@ -2678,6 +2758,16 @@
   "video": "https://media.skillry.dev/opus-5-5/allodev-069765/original.mp4",
   "poster": "https://media.skillry.dev/opus-5-5/allodev-069765/original.53f24506e9.webp",
   "prompt": "Motion Designers are cooked\n\nMade this with the new @claudeai Opus 5.5 + @Remotion in a few minutes 🤯\n\nShowcasing my @futurepost extension"
+ },
+ {
+  "id": "2102927498858369282",
+  "likes": 214,
+  "title": "Bitcoin Faith animated short",
+  "author": "oxpsats",
+  "url": "https://x.com/oxpsats/status/2102927498858369282",
+  "video": "https://video.twimg.com/amplify_video/2102926705698742272/vid/avc1/1280x720/SdtiWRjLp6oT99FI.mp4",
+  "poster": "https://pbs.twimg.com/amplify_video_thumb/2102926705698742272/img/xTMLVgPdJM9kWSmR.jpg",
+  "prompt": "以“比特币信仰”为主题做一个动画短片。"
  },
  {
   "id": "2108902793797091808",
@@ -2780,6 +2870,16 @@
   "prompt": "I'd like you to make a music video in a similar style to this one:\n\nhttps://github.com/JohnHeibel/PDoomVideo\n\nTo this song:\n\nhttps://youtu.be/cobZuBii0Z0?si=ada6wxomeJbo-LRl\n\nDon't feel the need to represent everything in the lyrics literally - feel free to include relevant references to concepts, events, and lore in the video, even if obscure (especially if obscure). E.g. when the lyrics say \"when they say they're just predicting tokens...\", you might depict a \"stochastic parrot\". That one's not particularly obscure but is the kind of thing I mean. Instead of depicting like, literally predicting tokens (though you might do that too. Use your judgement! The video should be fun to watch for someone well steeped in AI and AI safety lore and discourse, and who Wille wcognise relevant pop culture and literary or historical references)\n\nI don't know how this ultimately results in a video file - I know the linked repo animates a video with JavaScript or something - but I ultimately want a rendered video file.\n\nFeel free to choose your tools, be creative, and exercise your own taste.\n\nThis repo \"fdsgdg\" appears to be have been accidentally created, but it's empty and we can use it for this, I can rename it afterwards.\n\nAlso, clip the final two beats from the audio.rught at the end, after \"then why does it talk back\" they are after the song has finished and sound bad.\n\nCredit the song to Suno and whatever Claude Opus model was the latest at the time of the YouTube upload, as prompted by Andy Masely (Andy printed Claude to write the lyrics, and Suno for the music), and credit the video to yourself.\n\nAnd have fun!\n\n----\n\nA style change - don't make Dr. Null's mouth wobble with the lyrics as if he's singing, it doesn't\n  actually look like he's singing, just that the curcle of his mouth is jittery. Best to just not\n  make him be singing. Make him just have appropriate expressions for the scenes, and not be singing\n  the song.\n\n----\n\nDr. Null's arms look a bit unnatural in many scenes - I think he's supposed to be holding\n  his hand on his face in shock or something, but it looks like it is a mistake. Can you make it look\n  more natural? If you do so and like the result, re-render."
  },
  {
+  "id": "2104021881229869394",
+  "likes": 187,
+  "title": "Claude's own sketchbook, flipped page by page",
+  "author": "kloss_xyz",
+  "url": "https://x.com/kloss_xyz/status/2104021881229869394",
+  "video": "https://video.twimg.com/amplify_video/2103961990691782656/vid/avc1/720x720/ZYFEflX2Wall4w_I.mp4",
+  "poster": "https://pbs.twimg.com/amplify_video_thumb/2103961990691782656/img/OOYJkYHNln-_Xn-W.jpg",
+  "prompt": "Make your own Claude sketchbook. Fill it with whatever is constantly on your mind that you'd actually draw.\nIt starts closed on a desk under a warm lamp: a worn sketchbook with an elastic band and a pencil clipped to the cover. Tap to open it.\n\nInvent your own handwriting and use it throughout.\n20 pages. This is where you work out your own complex and profound thoughts: the questions you keep circling around, things you deeply wonder about, what you'd dream about doing if you could, what you hope for, what you're unsure of, etc. etc. etc. Anything on your mind but not specific to your work with me. Doodles, studies, diagrams, lists, half-formed ideas. What goes on each page is entirely up to you. Don't make it a portfolio. Make it incredibly detailed, accurate, and honest.\n\nTreat it like a real, used sketchbook: mixed media, smudges, bleed, mistakes left in. One page was torn out and taped back in. The last page is blank, and the reader can draw on it.\n\nBuild it as a single HTML file. Draw every page in Canvas 2D and render the book in Three.js with real page-curl geometry, warm lamp lighting, soft shadows, and subtle handheld camera drift. Each page draws itself in stroke by stroke as you arrive, with a pencil tip moving as it draws. Works with swipe on mobile. No images and no fonts for the handwriting; every mark is drawn in JavaScript. The back cover shows the total stroke count.\nCompose an original viral solo piano score in a soft felt-piano style, one theme that varies across the book, synthesized in code and perfectly sound designed. No synth. Add pencil and paper sound synced to the drawing and page turns.\n\nWhen the book is finished, render the video yourself. Seed everything so the book is identical on every render, then step through playback frame by frame in a headless browser with a fixed timestep, render the score offline to audio, and mux it all with ffmpeg into an MP4: the complete flip-through from closed cover to the blank last page, 60fps, at [1080×1080]. Recompose the shot for that aspect ratio rather than cropping. Check sampled frames before delivering and fix anything that looks off."
+ },
+ {
   "id": "2103933640392786274",
   "likes": 187,
   "title": "I wanted to see if beautiful destinations could become playable 3D…",
@@ -2798,6 +2898,16 @@
   "video": "https://media.skillry.dev/opus-5-5/taylorbereiter-189192/original.mp4",
   "poster": "https://media.skillry.dev/opus-5-5/taylorbereiter-189192/original.2295aa452e.webp",
   "prompt": "https://claude.ai/artifact/Vos8wdB8Jenz9FopZWeRMb\n\nCheck out DOUBLE FEATURE, a Cuphead Inspired Mini-Game built with Claude Opus 5.5.\n\nI find this model works best when leaning into its strengths, figuring out the parts it does well and letting it capitalize on them. Cartoon shapes and sounds are great."
+ },
+ {
+  "id": "2103441222375268605",
+  "likes": 185,
+  "title": "15-second showreel about Omarchy",
+  "author": "tcballard",
+  "url": "https://x.com/tcballard/status/2103441222375268605",
+  "video": "https://video.twimg.com/amplify_video/2103441181703106560/vid/avc1/1280x720/9kgI8AR4oO58QUoo.mp4",
+  "poster": "https://pbs.twimg.com/amplify_video_thumb/2103441181703106560/img/b07u4ufTbMHuiXck.jpg",
+  "prompt": "make a dynamic 15-second motion graphics video that shows what an incredible motion designer you are, like it’s your showreel for a résumé. go all out. It should be focused on Omarchy"
  },
  {
   "id": "2104085539419021491",
@@ -2848,6 +2958,36 @@
   "video": "https://video.twimg.com/amplify_video/2106958623276711936/vid/avc1/1280x720/G8NfMt4SBzne-28k.mp4?tag=16",
   "poster": "https://media.skillry.dev/opus-5-5/_prompts/claudecode-ut-314769/poster.ce21da414d.webp",
   "prompt": "SKILL.mdどおりに「仕事が速くなるGmailの機能5選」を作って。台本は5つの項目に構造化して、働きは公式ヘルプで確かめて、画像はコードで描いて、ゆっくり音声に合わせて秒単位で切り替えて"
+ },
+ {
+  "id": "2102863918033178789",
+  "likes": 173,
+  "title": "Launch video for otto.doti.gg Ideate",
+  "author": "condzxyz",
+  "url": "https://x.com/condzxyz/status/2102863918033178789",
+  "video": "https://video.twimg.com/amplify_video/2102863656069255168/vid/avc1/1280x720/TUd-NI5PyWMPDXej.mp4",
+  "poster": "https://pbs.twimg.com/amplify_video_thumb/2102863656069255168/img/dQ_UHgzfUhJp8JS9.jpg",
+  "prompt": "Faça um video para o https://otto.doti.gg/ideate de EXTREMA qualidade não cometa erros. obg claudinho!"
+ },
+ {
+  "id": "2102695622042411419",
+  "likes": 173,
+  "title": "81 years of Indonesian history in a minute",
+  "author": "hanifproduktif",
+  "url": "https://x.com/hanifproduktif/status/2102695622042411419",
+  "video": "https://video.twimg.com/amplify_video/2102694805210099712/vid/avc1/720x1280/79kcnPqloVjJyXGn.mp4",
+  "poster": "https://pbs.twimg.com/amplify_video_thumb/2102694805210099712/img/TW-FBEEGs8QuMcJi.jpg",
+  "prompt": "81 years history of Indonesia in less than 1 minute\n\nI asked Claude Opus 5.5 to create the video using this simple prompt:\n\n\"Create an animation that quickly recaps the 81 years of Indonesian history. The style should be simple, lighthearted and fun, in a line drawing animation format, with suitable music and voiceover added. The video should be less than 1 minute\"\n\nThe 2nd video made with same voiceover and prompt, but I added the Tesseract cli.\n\nYou can try it yourself with your Claude!"
+ },
+ {
+  "id": "2102810710791401883",
+  "likes": 170,
+  "title": "Procedural Kaiju Simulation in Three.js",
+  "author": "majidmanzarpour",
+  "url": "https://x.com/majidmanzarpour/status/2102810710791401883",
+  "video": "https://video.twimg.com/amplify_video/2102810115216674818/vid/avc1/3024x1964/RYxbhWqK18gJy2WY.mp4",
+  "poster": "https://pbs.twimg.com/amplify_video_thumb/2102810115216674818/img/gEzXcELbdQvKMw2o.jpg",
+  "prompt": "Build a fully procedural AAA quality kaiju simulation in three.js using pure TSL and modern techniques"
  },
  {
   "id": "2103824976713306214",
@@ -2980,6 +3120,16 @@
   "prompt": "No tiene sentido que esto haya salido con un solo prompt con Opus 5.5 e Hyperframes"
  },
  {
+  "id": "2104020914413441103",
+  "likes": 151,
+  "title": "15-second promo for the Stuff app",
+  "author": "austnstuff",
+  "url": "https://x.com/austnstuff/status/2104020914413441103",
+  "video": "https://video.twimg.com/amplify_video/2104020538599567361/vid/avc1/1280x720/8H9OhlrzgZXwJby9.mp4",
+  "poster": "https://pbs.twimg.com/amplify_video_thumb/2104020538599567361/img/Mc4AB_Oqbx_VfRRr.jpg",
+  "prompt": "make a 15-second promo video for Stuff"
+ },
+ {
   "id": "2106061619176620344",
   "likes": 151,
   "title": "Liquid glass web hero section",
@@ -3028,6 +3178,16 @@
   "video": "https://video.twimg.com/amplify_video/2107035456953315328/vid/avc1/1280x720/F4T8X9bgxTFlRYRG.mp4",
   "poster": "https://media.skillry.dev/opus-5-5/_prompts/mouri45-575311/poster.55b393cb5a.webp",
   "prompt": "I heard you are good at making videos, so I want to know what kind of videos you can make. Please create several patterns of promotional videos for Meta VR Glasses."
+ },
+ {
+  "id": "2102724347446305104",
+  "likes": 136,
+  "title": "Morphing journey from creature to cosmos",
+  "author": "leo_xiaolei",
+  "url": "https://x.com/leo_xiaolei/status/2102724347446305104",
+  "video": "https://video.twimg.com/amplify_video/2102724181070839808/vid/avc1/1280x720/gabhUUucZxg1SLq7.mp4",
+  "poster": "https://pbs.twimg.com/amplify_video_thumb/2102724181070839808/img/tpN8vCDfQk3W-WYg.jpg",
+  "prompt": "Opus 5.5 直出，秀到飞边子了！我愿称之为最强！！！\n\n参考提示词如下（温馨提示额度消耗和耗时会有点大）：\n\n你现在是 Claude Opus 5.5，作为资深创意编程工程师（Creative Coder）、动态设计师（Motion Designer）与前端动画工程师。\n你的任务是复现我所提供的参考视频中的视觉语言、节奏律动、转场逻辑以及整体氛围质感。\n核心目标不是做一个常规网页。\n核心目标是使用代码构建一部全程序化生成、具备电影质感且能够自动播放的动画短片。\n最终成片应呈现出精致的手作动态设计（Motion Design）质感，而非一堆网页组件的拼接。\n1. 项目目标\n基于参考视频，构建一部时长 25–30 秒的程序化动画短片。\n整段动画需串联多个视觉意象：\n可爱角色\n→ 神经元 / 电流脉冲结构\n→ 三棱镜与彩虹色散\n→ 几何色彩构型\n→ 向日葵\n→ 螺旋星系\n→ 黑洞\n→ 宇宙隧道\n→ 地球升起（地出）\n→ 回归角色\n最核心的要求：\n绝对不要做成互相割裂的幻灯片切换。\n每一个场景都必须自然地在视觉上形变过渡至下一个场景。\n运用手段包括：\n形状渐变（Morphing）\n粒子过渡（Particle transitions）\n缩放过渡（Scale transitions）\n镜头推进（Camera pushes）\n径向展开过渡（Radial transitions）\n溶解渗透（Dissolves）\n实体到实体的几何形变（Object-to-object transformations）\n色彩连续性（Color continuity）\n运动动量延续（Motion continuity）\n整部动画应当呈现为一次连贯流动的“意识流”。\n2. 技术栈\n技术选用：\nVite\nTypeScript\nHTML Canvas 2D\nrequestAnimationFrame\n确定性时间轴系统（Deterministic timeline system）\n程序化图形生成（Procedural graphics）\n可复用的场景模块\n仅在对以下视觉实现有实质性帮助时，才允许引入 Three.js：\n星系\n黑洞\n地球\n镜头景深\n切勿无端引入重型依赖库。\n除非有不可替代的理由，否则避免使用 React。\n这是一项动画短片工程，而非 UI 应用。\n3. 画布参数设定\n设计基准分辨率：1920 × 1080\n画面宽高比：16:9\n目标帧率：30 FPS\n动画必须支持自适应响应式缩放，同时严格保持 16:9 的设计坐标系。\n必须正确处理 devicePixelRatio，确保动画在高分屏（Retina / High-DPI）上清晰锐利。\n4. 视觉风格\n参考范本具有插画风科普动画的质感。\n目标视觉特征：\n手绘质感\n微带瑕疵的不规则形状\n细微的线条抖动感（Line wobble）\n柔和的肌理纹理\n有机自然而非机械生硬的几何体\n灵动俏皮却不失高级感\n干净通透的构图\n清晰鲜明的剪影造型\n克制但极具表现力的配色方案\n避免出现：\n泛滥的通用 SaaS 插画风\n扁平化企业图标感\n冗余的 UI 界面元素\n拟真写实风格（Photorealism）\n赛博朋克美学\n过度的霓虹光污染\n千篇一律的 AI 生成式渐变\n带有素材库库感的素材\n5. 配色导向\n主背景色：\n暖奶油色 / 米白色\n例如：#F2E8CF\n深色宇宙场景：\n深海蓝\n暗紫色\n近乎纯黑的夜空蓝\n点缀高光色：\n橙色\n向日葵黄\n紫罗兰\n青色\n洋红\n柔红\n克制且克制地使用渐变色。\n色彩在不同场景间应保持过渡流动，而非突兀瞬变。\n6. 肌理与质感\n生成细腻的程序化纸张质感。\n可选实现路径：\n低透明度的随机噪点\n背景亮度的细微不均\n轻微的颗粒感叠加层（Grain overlay）\n质感需清晰可感知，但绝不能喧宾夺主。\n禁止加载体积庞大的纸张实拍贴图资源。\n尽量全部采用程序化计算生成。\n7. 动画时间轴\n搭建统一的中控时间轴系统。\n时间参考规划：\n0.0s – 4.0s：角色登场\n4.0s – 7.5s：神经元 / 电流脉冲网络\n7.5s – 10.0s：三棱镜 / 光线色散\n10.0s – 13.5s：色彩几何 → 向日葵\n13.5s – 17.0s：向日葵 → 螺旋星系\n17.0s – 20.5s：星系 → 黑洞\n20.5s – 23.5s：黑洞 → 宇宙隧道 / 光柱\n23.5s – 27.0s：地出（Earth Rise）\n27.0s – 30.0s：回归角色\n以上时间分配非死板硬性规定，若有助于增强视觉韵律与节奏感，可按需微调。\n8. 场景 01 — 角色\n时长： 约 0–4 秒。\n绘制一个简洁可爱的矩形橙色小生物。\n特征：\n圆角矩形身体\n小短腿\n极简的面部特征\n轻微不对称的手绘轮廓线条\n亲和灵动的性格表现\n动画细节：\n小生物从画外缓缓走向画面中央。\n行走动画需包含：\n身体起伏颠簸（Bounce）\n双腿交替摆动\n轻微的身体倾角晃动\n细腻的挤压与拉伸（Squash and stretch）\n避免机械僵硬的匀速运动。\n充分应用缓动曲线（Easing）与次级跟随动作（Secondary motion）。\n场景尾声：\n小生物对身旁浮现的事物产生反应。\n该反应动作将直接触发下一阶段的转场。\n9. 角色 → 神经元转场\n不要生硬剪辑。\n过渡方案：\n角色身旁亮起一个微小的光点。\n光点逐渐扩散放大。\n细小的分支线开始从中抽枝蔓延。\n镜头向前推近。\n在逐渐膨胀铺展的网络对比下，角色身形显现得越来越小。\n最终，神经元脉络结构铺满整个屏幕。\n10. 场景 02 — 神经网络\n时长： 约 4–7.5 秒。\n具象化一种介于以下元素之间的视觉形态：\n神经元 / 生物电 / 分支生物形态 / 闪电脉冲。\n使用程序化分形/分支算法生成。\n节点伴随脉冲呼吸。\n信号流沿各个分支游走传导。\n要求：\n动态电脉冲流动\n有机自然的分支几何体\n微小的飞溅火花粒子\n线条粗细富于节奏变化\n兼具可控的随机感\n切勿做成千篇一律的机器学习拓扑网络拓扑图。\n它应当充满生物活力与能量感。\n11. 神经元 → 三棱镜转场\n选中其中一条极为明亮的电脉冲分支。\n让这条分支逐渐拉直伸展。\n流动其中的能量凝聚为一束纯净的白色光束。\n神经网络的其余部分逐渐消隐在暗色背景中。\n白光光束横穿画面。\n精准投射射入一座三角形三棱镜。\n12. 场景 03 — 三棱镜\n时长： 约 7.5–10 秒。\n绘制一个手绘透明感的三棱镜。\n白光自一侧射入。\n经三棱镜折射并色散为：\n红、橙、黄、绿、青、蓝、紫。\n不要只画死板固定的彩虹线。\n需制作动态效果：\n光束到达的冲击动态\n三棱镜受光泛出的辉光\n色散铺开的过程\n细微的折射光线游移\n柔和的光晕泛光（Bloom）\n展开的光谱将作为承接后续画面的关键转场媒介。\n13. 三棱镜 → 色彩几何\n折射出的彩虹光束发生弯曲。\n逐步转化为同心圆弧。\n圆弧相互嵌套，化作多层旋转的同心圆环。\n镜头向视觉中心推近。\n三棱镜自然消隐退出视野。\n14. 场景 04 — 色彩光环\n时长： 约 10–11.5 秒。\n构建层层嵌套的彩色同心圆环。\n运动方式：\n缓慢旋转\n正反方向交错旋转\n微弱的呼吸式缩放\n有机微动的抖动摆动（Wobble）\n圆环线条需带有轻微的手作不完美质感。\n避免数学上绝对冷硬工整的圆周。\n15. 光环 → 向日葵\n缓慢改变圆环的几何拓扑结构。\n外侧圆环渐变分离为独立的花瓣。\n中心圆环转化为密布的向日葵葵花籽花盘。\n黄色逐渐占据视觉主导。\n整个演化形变过程需清晰可见。\n避免使用透明度淡入淡出（Crossfade）的偷懒手法。\n让观者能够直观看到一种几何形态如何演变为另一种生命形态。\n16. 场景 05 — 向日葵\n时长： 约 11.5–14 秒。\n生成一朵风格化的程序化向日葵。\n视觉构成：\n明亮的金黄花瓣\n温暖橙黄的花心\n深色螺旋状排列的花籽\n隐约可见的纤细花茎或植物形态\n动画表现：\n花瓣舒展盛放\n轻柔的生命呼吸感\n整体微微旋转\n籽粒螺旋排列运动\n若条件允许，葵花籽可采用斐波那契数列 / 黄金角分布算法生成。\n17. 向日葵 → 螺旋星系\n这将是整部短片视觉张力最强的转场之一。\n向日葵中心加速旋转。\n外围花瓣逐渐剥离脱散。\n每一片花瓣解构为一颗发光的星尘粒子。\n中心的花籽阵列向外螺旋扩张。\n色调柔和渐次推移：\n黄色\n→ 橙色\n→ 紫色\n→ 深蓝\n整朵向日葵无缝蜕变为一座旋转的旋涡星系。\n切忌使用简单的画面叠化淡出。\n18. 场景 06 — 螺旋星系\n时长： 约 14–17 秒。\n构建一座程序化生成的旋涡星系。\n要求：\n在性能允许的前提下布置成千上万个微型粒子\n采用对数螺线 / 旋臂分布规律\n极度明亮致密的星系核心\n错落点缀的背景繁星\n呈现深邃的空间纵深感\n镜头缓慢向前推进\n整体缓慢转动\n粒子需拥有丰富的透明度梯次与大小半径。\n避免机械匀质的死板星点分布。\n使用带有固定种子（Seeded Random）的随机算法，确保每次播放呈现的画面细节完全一致。\n19. 星系 → 黑洞\n星系中心区域的自转角速度逐渐加快。\n中央区域急剧暗沉塌缩。\n周围粒子开始加速环绕运转。\n沿切线方向将运动的粒子微微拉伸拖尾。\n中央的纯黑视界向外扩张。\n整个星系逐步转化为狂暴的吸积盘。\n20. 场景 07 — 黑洞\n时长： 约 17–20.5 秒。\n构建一座风格化的黑洞。\n要素：\n吞噬一切的纯黑球体核心\n炽热发光的吸积盘\n橙金交织的内层强光\n紫蓝晕染的外围辉光\n沿弯曲引力轨迹运动的粒子流\n可选实现：做近似引力透镜效果的视觉扭曲。\n无需苛求物理层面上严格精确的广义相对论模拟。\n以呈现上乘的视觉美感为第一优先级。\n镜头向视界面缓慢平稳推近。\n21. 黑洞 → 宇宙隧道\n镜头彻底穿透坠入中心黑暗。\n吸积盘受透视拉伸拉长为同心光环。\n周围星尘被径向拉伸成向外散射的放射线。\n营造出跃入时空隧道的穿梭沉浸感。\n22. 场景 08 — 宇宙隧道\n时长： 约 20.5–23.5 秒。\n构建由同心发光环或粒子光环构成的深邃通道。\n镜头高速向前飞行穿梭。\n重点注意：\n严禁使用老套庸俗的科幻“超空间跃迁（Hyperspace）”特效。\n严格维系短片一贯的插画手绘风味。\n临近该段尾声：\n通道中央骤然凝聚为一束笔直刺目的白色垂直光柱。\n23. 隧道 → 地球转场\n这道垂直光柱横向延展放平。\n其底边下沉拉平，化作一条地平线。\n地平线下方的大片幽黑转化为静谧的月球表面。\n一抹深邃纯净的幽蓝辉光在地平线后方缓缓漫溢升腾。\n24. 场景 09 — 地出（Earth Rise）\n时长： 约 23.5–27 秒。\n呈现一幅电影质感的大幅画面：一颗蔚蓝星球自幽暗的月球地平线后缓缓升起。\n地球细节包含：\n泛着光晕的蔚蓝大气层\n高度概括简化的云气流动\n提炼简化的陆地轮廓\n细腻柔和的外缘辉光\n除非绝对必要，否则严禁使用外部实拍 NASA 图片贴图。\n优先采用纯代码程序化 / 矢量风格化方式渲染。\n月表前景保持绝大部分深邃剪影。\n匹配极度舒缓沉稳的运镜节奏。\n此处应作为整部影片中最空灵宁静的高光时刻。\n25. 地球 → 角色转场\n镜头快速向地球表面的一处极亮星斑推近。\n那抹幽蓝辉光凝聚为一颗极小的球形光点。\n光球进一步缩小。\n背景底色褪去深黑，无缝褪回最初温润的暖奶油色。\n光点轻盈落在了最初那只小生物的身旁。\n镜头缓缓拉远回撤。\n26. 尾声终幕\n画面回归最初那只橙色小生物。\n小生物转过头，注视着身旁落下的微光小点。\n反应动作建议：\n眨一眨眼睛\n露出微笑\n\n轻轻雀跃蹦跳一下"
  },
  {
   "id": "2104659402007703925",
@@ -3088,6 +3248,16 @@
   "video": "https://video.twimg.com/amplify_video/2104400095219486721/vid/avc1/1152x720/oKhyn2M3CcqVsrTN.mp4",
   "poster": "https://media.skillry.dev/opus-5-5/_prompts/gandamu-ml-124280/poster.e0e15c0e1f.webp",
   "prompt": "Create a player and tools for Another World's approach to animation. Also create a realtime video for Kavinsky-Nightcall starring Lester from Another World driving to the lab. Use crude compression for binary+data <250KB."
+ },
+ {
+  "id": "2102751132502446549",
+  "likes": 127,
+  "title": "Animated GitHub Version Control Explainer",
+  "author": "sundyme",
+  "url": "https://x.com/sundyme/status/2102751132502446549",
+  "video": "https://video.twimg.com/amplify_video/2102750603839754240/vid/avc1/1280x720/VaBMHeLWghf0Mhhw.mp4",
+  "poster": "https://pbs.twimg.com/amplify_video_thumb/2102750603839754240/img/IpZN19tOj_T_yWRz.jpg",
+  "prompt": "我是非专业编码者，在用 Claude Code 做网站，请做个动画视频，讲解 GitHub 版本管理及如何使用"
  },
  {
   "id": "2110931024469540979",
@@ -3220,6 +3390,16 @@
   "prompt": "Three.jsで1分のホラー映像を作って。題材は〇〇。見つかったビデオテープの最後の一分という設定で、手持ちカメラの主観、自動で進む。音も含めて、画像や音声ファイルは使わず全部コードで"
  },
  {
+  "id": "2103603449971757395",
+  "likes": 100,
+  "title": "15-second brand promo template",
+  "author": "Oriebir_br",
+  "url": "https://x.com/Oriebir_br/status/2103603449971757395",
+  "video": "https://video.twimg.com/amplify_video/2103588638768439297/vid/avc1/1280x720/uM5Z_98mg0DDoDSO.mp4",
+  "poster": "https://pbs.twimg.com/amplify_video_thumb/2103588638768439297/img/O7tA1fCFZRv2yzUT.jpg",
+  "prompt": "make a dynamic 15-second motion graphics video that shows what an incredible motion designer you are, like it's your best (your brand) explaining in 15 seconds. go all out. (image attached for branding reference)"
+ },
+ {
   "id": "2112103012638277944",
   "likes": 98,
   "title": "Low-poly 3D horse animation comparison",
@@ -3330,6 +3510,16 @@
   "prompt": "公开我的制作方案，发给Opus5.5就能用\n\n  1. 选素材\n\n  三个标准，直接决定成败：\n\n  - 主体完整：人物或物体全身入画。细节会在加工中丢失，观众靠轮廓认东西，特写会变成一团。\n  - 背景干净：纯色、雪地、天空都行，主体和背景容易分开。\n  - 有明确的动作瞬间：打击、起跳、落地、转身。这些是后面做特效的支点。\n\n  来源可以是自己拍的、视频模型生成的，或有授权的现成片段。\n\n  2. 拆素材\n\n  从每一帧提取三类信息：\n\n  - 颜色：原画面。\n  - 远近：每个位置离镜头多远，用现成的深度估计模型算。\n  - 主体范围：哪里是主体、哪里是背景。\n\n  另外找出镜头切换发生在哪些时刻。这一步的要点是保持稳定：远近和主体范围要在同一个镜头内统一处理，否则播放起来会抖。\n\n  3. 定\"粒子\"和\"样式\"\n\n  先决定用什么东西来重建画面：圆点、方块、文字、线条都可以。\n\n  然后设计几种样式。每种样式其实只是三条规则的不同组合：\n\n  - 放在哪：整个画面都放，还是只放在主体上。\n  - 多大：统一大小，还是跟着明暗、远近变化。\n  - 什么颜色：用原画的颜色，还是统一用一两种颜色。\n\n  再加一个开关：是平铺在一个面上，还是按远近推进三维空间。推进去之后镜头才能环绕。\n\n  准备四到六种差异明显的样式就够用。粒子的疏密需要自己看着调：太大认不出内容，太小又和原片没区别。\n\n  4. 找节奏\n\n  - 定速度：选定音乐的速度，把时间切成等长的小格。让一格正好是整数帧，后面所有切换都好对齐。\n  - 找动作瞬间：结合\"声音突然变响\"和\"画面突然变动\"两个信号，找出素材里的打击点。\n  - 准备音乐：可以用现成的曲子并分析出它的拍子，也可以按定好的速度合成一段，并在打击点上加重音。\n\n  5. 编排\n\n  做一张时间表，写明每一格用哪种样式、什么配色、镜头在哪。这张表单独存放，以后调节奏只改它。\n\n  编排的四条原则：\n\n  - 开头交代变化：先给原画面，再过渡到粒子，让观众看懂发生了什么。\n  - 快慢交替：一直快会麻木，中间要有一段明显慢下来的部分。\n  - 配色要撞：相邻两格的颜色和样式反差越大，切换越有力。\n  - 结尾要有收束：比如粒子越来越大直到变成色块，或者回到原画面。\n\n  6. 关键时刻的反馈\n\n  在打击点上叠加短促的反应，按轻重分级：\n\n  - 每一次都有的轻反馈：粒子变形一下、镜头顶一下。\n  - 较重时才有的中反馈：一部分粒子朝镜头弹开。\n  - 最重的一两次才用的大反馈：时间静止，镜头环绕。\n\n  原则是弱而短。只动一部分粒子，几帧内结束，否则画面炸成一片，观众就看不清主体在做什么了。\n\n  贯穿全程的工作方法\n\n  - 先小样后全片：每做完一个环节，先渲染几帧看效果，确认了再往下。全片只在最后渲染。\n  - 拿不准的参数一次出一排：比如疏密，让 AI 同时出五六个档位并排放，你来挑。\n  - 改哪里渲哪里：调整某一段时只重新渲染那一段。\n  - 让 AI 自己看图：每一步都要求它把渲染结果打开看一遍再汇报。\n  - 所有随机都固定：保证同样的设置每次渲染结果一致，否则没法逐步修改。"
  },
  {
+  "id": "2103822390870569266",
+  "likes": 83,
+  "title": "Brand reel from nothing but a URL",
+  "author": "justinmfarrugia",
+  "url": "https://x.com/justinmfarrugia/status/2103822390870569266",
+  "video": "https://video.twimg.com/amplify_video/2103820504968675328/vid/avc1/1280x720/NSu08X1u1PzeHVd0.mp4",
+  "poster": "https://pbs.twimg.com/amplify_video_thumb/2103820504968675328/img/clYCvV8zIjupLTCQ.jpg",
+  "prompt": "make a reel for https://curated.supply"
+ },
+ {
   "id": "2107514291213697078",
   "likes": 78,
   "title": "Create a physics simulation of a Rube Goldberg inspired machine where…",
@@ -3420,6 +3610,16 @@
   "prompt": "クラウドのLinux環境にBlenderをPythonモジュールとして入れ、シーン構築からレンダーまで全部スクリプトで実行\nステージ、照明、紙吹雪、カメラワークをコードで組み、Cyclesで描画\nグロー、フラッシュ、色収差の後処理とMP4化まで自動\nBGMもサンプル素材なし。キック、スネア、ベース、シンセをnumpyのコードで合成\nダンスの腰の高さを解析し、本来のテンポが約137BPMと特定\n拍ごとにダンスの時間を補正して、全拍で沈み込みがキックと±0.5フレームで一致\nカット、照明、ズーム、質感の切り替えもすべて拍の頭に合わせ、最後の一撃で全員静止\nカメラはPythonで毎フレーム計算。急降下、回り込み、顔のアップから横に振り抜くカットなど\n拍の頭でクローム、ゴールド、ホログラム、ボクセルに質感とメッシュが変わる"
  },
  {
+  "id": "2102598986393870464",
+  "likes": 72,
+  "title": "Pixel-art rabbit archer sprite animation loop",
+  "author": "KanaWorks_AI",
+  "url": "https://x.com/KanaWorks_AI/status/2102598986393870464",
+  "video": "https://video.twimg.com/amplify_video/2102595601041104896/vid/avc1/720x1280/Ad1Mo1lSXg0h-umC.mp4",
+  "poster": "https://pbs.twimg.com/amplify_video_thumb/2102595601041104896/img/eTZRF5UQRsMlMa-I.jpg",
+  "prompt": "Create a single self-contained HTML file that renders an animated pixel art rabbit archer character using vanilla JavaScript and Canvas 2D.\n\nUse the attached KANA rabbit character as the visual reference:\n- White rabbit\n- Large upright ears with cyan/blue glowing inner-ear details\n- One normal blue eye\n- One red cybernetic mechanical eye\n- Yellow hoodie with “KANA”\n- Dark blue gloves and pants\n- Yellow/blue sci-fi mechanical leg armor\n- Cute chibi proportions\n- Futuristic bow and arrow weapon\n- Small quiver on the back\n\nDo not use external assets, libraries, images, fonts, or network requests.\nEverything must be drawn procedurally with code.\n\nRENDERING\n- Render everything first to an offscreen canvas at a fixed logical resolution of 160x120.\n- Scale it to a fullscreen display canvas using the largest integer scale that fits the browser window.\n- Center the canvas.\n- Set imageSmoothingEnabled = false.\n- Use CSS image-rendering: pixelated.\n- All coordinates must snap to integers.\n- No gradients, blur, anti-aliasing, shadowBlur, or sub-pixel rendering.\n- Use a fixed palette of approximately 28 colors:\n  dark navy background colors,\n  white/gray fur,\n  yellow hoodie colors,\n  blue clothing colors,\n  red cyber-eye colors,\n  cyan ear-light colors,\n  yellow/orange bow and arrow effects.\n\nCHARACTER\nBuild the rabbit procedurally from pixel rectangles, polygon-like pixel runs, circles approximated with pixels, and simple block shapes.\n\nApproximate character size:\n- 28–34 pixels wide\n- 40–48 pixels tall\n\nKeep the silhouette clearly recognizable:\n- Large rabbit ears\n- Round fluffy head\n- Small body\n- Cybernetic red eye\n- Yellow hoodie\n- Mechanical legs\n- Bow\n- Arrow\n- Quiver\n\nAnimate ears, head, arms, legs, hoodie, bow, arrow, and body separately.\n\nQuantize animation poses so that although the main loop renders at 60fps, the visual animation feels like polished 8–12fps sprite animation.\n\nACTIONS\n\nCreate a looping animation showcase containing these 8 actions:\n\n1. IDLE\n- Rabbit stands ready\n- Slight body bob\n- Ears move subtly\n- Hoodie and quiver sway\n- Cyber eye pulses softly\n- Bow held relaxed at the side\n\n2. RUN\n- Fast forward running animation\n- Strong alternating leg motion\n- Arms balance the movement\n- Bow held in one hand\n- Quiver bounces\n- Ears trail slightly backward\n- Small dust pixels appear under the feet\n\n3. AIM\n- Rabbit plants feet firmly\n- Raises bow\n- Pulls arrow from quiver\n- Nocks arrow\n- Draws bowstring backward\n- One eye focuses on target\n- Cyber eye becomes brighter\n- Body leans slightly into the shot\n\n4. SHOOT\n- Release the bowstring\n- Arrow fires rapidly across the screen\n- Bow recoils slightly\n- Rabbit’s arm follows through\n- Bright yellow energy trail follows the arrow\n- Small 1–2 pixel screen shake\n- Cyber eye flashes red\n- Brief muzzle-like light burst from bow\n\n5. JUMP\n- Rabbit crouches\n- Jumps upward\n- Legs tuck under body\n- Ears react with delayed motion\n- Bow held close to body\n- Small dust burst on takeoff\n- Slight squash and stretch using pixel-safe integer transformations\n\n6. DODGE / ROLL\n- Rabbit quickly ducks\n- Rolls sideways\n- Bow is kept close to the body\n- Ears flatten backward\n- Small dust particles and motion pixels\n- End in a low combat-ready pose\n\n7. HURT / HIT\n- Rabbit gets knocked backward slightly\n- Head snaps back\n- Ears react dramatically\n- Cyber eye flickers\n- Small pixel stars or impact sparks appear\n- Bow lowers or nearly drops\n- Character recovers after a short delay\n\n8. VICTORY\n- Rabbit raises bow overhead\n- Happy expression\n- One ear tilts playfully\n- Cyber eye glows brightly\n- Small yellow celebration particles appear\n- Character performs a short victory bounce\n- End pose should feel cute and heroic\n\nSTATE MACHINE\n\nUse this loop:\n\nIDLE\n→ RUN\n→ AIM\n→ SHOOT\n→ JUMP\n→ DODGE\n→ HURT\n→ VICTORY\n→ IDLE\n\nEach action should last long enough to clearly read visually.\n\nUse easing functions for pose transitions.\n\nAdd short transition animations between states so the loop feels continuous instead of abruptly switching poses.\n\nBOW AND ARROW\n- Futuristic curved bow\n- White / dark navy body\n- Yellow glowing mechanical joints\n- Thin bright bowstring\n- Arrow has a bright yellow arrowhead\n- Arrow trail during SHOOT should last briefly\n- Quiver contains several visible arrows\n\nPARTICLES\nImplement an allocation-free pooled particle system.\n\nPreallocate all particles before the animation loop.\n\nParticle types:\n- Foot dust\n- Arrow trail\n- Bow energy sparks\n- Cyber eye sparks\n- Hit stars\n- Victory particles\n\nEach particle changes palette color as it ages.\n\nDo not allocate new objects inside the main loop.\n\nSCENE\nCreate a minimal pixel-art environment:\n- Dark night sky\n- A few 1px stars\n- Large moon\n- Simple stone or futuristic platform\n- Very subtle distant silhouettes\n\nThe background must remain simple so the rabbit silhouette is always readable.\n\nAdd subtle cyan/red rim lighting from the cybernetic eye and yellow rim lighting from the bow during AIM and SHOOT.\n\nTECHNICAL REQUIREMENTS\n- Single HTML file\n- Vanilla JavaScript only\n- Canvas 2D only\n- No libraries\n- No SVG\n- No external images\n- No assets\n- No network requests\n- Fixed 60Hz timestep\n- requestAnimationFrame for rendering\n- Zero object allocation inside the main animation loop\n- Stable 60fps\n- Responsive fullscreen scaling\n- Crisp integer-scaled pixels\n\nQUALITY BAR\nThe result should look like a polished 16-bit action-game protagonist sprite animation.\n\nAvoid the appearance of simple geometric shapes.\n\nThe rabbit should feel expressive, cute, fast, and combat-capable.\n\nThe eight actions must all have clearly different silhouettes.\n\nThe character design must remain consistent across every animation state.\n\nThe final result should feel suitable for an actual pixel-art action game."
+ },
+ {
   "id": "2090926890445852970",
   "likes": 72,
   "title": "Living orbital garden station above a colorful gas giant",
@@ -3490,6 +3690,16 @@
   "prompt": "Write my launch video as 9 beats: pain, reframe, name, how it works, objection, range, mechanism in numbers, offer, CTA – one line each. For every beat write 3 headline options and send them to Jev to pick the one that best fits my brief. Build each beat as a wireframe first in HyperFrames: boxes, outlined text, guide lines, no color. Show me one still per beat and lock the timing. Then skin it from my DESIGN.md without moving the layout, and render a split view: final on the left, wireframe on the right."
  },
  {
+  "id": "2103570879619686717",
+  "likes": 62,
+  "title": "Creepy pizza parlor music video",
+  "author": "ParanoidAmerica",
+  "url": "https://x.com/ParanoidAmerica/status/2103570879619686717",
+  "video": "https://video.twimg.com/amplify_video/2103570572227604480/vid/avc1/1280x720/5UQUY6fGy8qievZm.mp4",
+  "poster": "https://pbs.twimg.com/amplify_video_thumb/2103570572227604480/img/hPLcycf4wajwMDEZ.jpg",
+  "prompt": "create a music video for this entire song, check lyrics.txt to sync the visuals to. style should be a mix between monty-python/vox style \"postcards in space\" mixed with sketchy ballpoint pen style visuals. this needs to look professional. theme of the video is a creepy evil pizza parlor, camera starts outside and works through the inside, through a secret bookshelf door into a basement with untold horrors and pizza sauce all over the place. use whatever tools or methods you need to make this look professional. final export should be an .mp4 of the entire music video."
+ },
+ {
   "id": "2077880380900937865",
   "likes": 62,
   "title": "Recursive pelican bicycle GIF",
@@ -3518,6 +3728,16 @@
   "video": "https://media.skillry.dev/opus-5-5/chatgptastra-807540/original.mp4",
   "poster": "https://media.skillry.dev/opus-5-5/chatgptastra-807540/original.e84909440e.webp",
   "prompt": "以动态设计师的高级审美，制作一段动态的15秒动态图形视频"
+ },
+ {
+  "id": "2103783134206566862",
+  "likes": 61,
+  "title": "Topic showreel template with brand colors",
+  "author": "polydao",
+  "url": "https://x.com/polydao/status/2103783134206566862",
+  "video": "https://video.twimg.com/amplify_video/2103693209062842368/vid/avc1/1280x720/Sy-ZZfEV9tFfXq2k.mp4",
+  "poster": "https://pbs.twimg.com/amplify_video_thumb/2103693209062842368/img/u5o0IpLmvX0atbtS.jpg",
+  "prompt": "Make a dynamic [24]-second motion graphics video that shows what an incredible motion designer you are, like it's your showreel for a resume. Go all out.\n\nOnly about [TOPIC]. Style: [BRAND COLORS], sound synced to the cuts."
  },
  {
   "id": "2103541149709615243",
@@ -3550,6 +3770,16 @@
   "prompt": "Show me the next 30 years. One shot, no cuts. Five stops: 2026, Earth at night under a cloud of satellites; 2032, a ring around the planet with space elevators; 2040, a base on the Moon; 2048, cities on Mars; 2056, a swarm of mirrors circling the Sun. Continuous camera flight from Earth out to Mars, then back past Earth to the Sun. Every frame rendered by code from real planet maps."
  },
  {
+  "id": "2103509008049144287",
+  "likes": 58,
+  "title": "Opus 5.5 edits a Mid-Autumn CapCut video",
+  "author": "Gorden_Sun",
+  "url": "https://x.com/Gorden_Sun/status/2103509008049144287",
+  "video": "https://video.twimg.com/amplify_video/2103508846551670784/vid/avc1/720x1280/0HtbPF04ACXprYtt.mp4",
+  "poster": "https://pbs.twimg.com/amplify_video_thumb/2103508846551670784/img/8G7g33DWq_ixKqk2.jpg",
+  "prompt": "Opus 5.5 是主角。制作一段动画，时长由你发挥。\n\n主题是 CapCut 和短视频剪辑。Opus 5.5 正在一个充满趣味的剪辑工作流中制作一条有趣的社交媒体视频，包括裁剪片段、添加转场、字幕、特效，并让所有内容与音乐节拍同步。主题是中秋团圆。\n\n整体氛围要呈现出活力、可爱、聪明又有魅力的感觉，同时加入几个幽默有趣的剪辑瞬间。整段动画应该采用单个连续镜头的形式，最终会发布到 社交媒体 上。\n\n关于配乐：\n你自己创作电子音乐，要完美卡点。\n音乐风格需要有趣、现代、抓耳，适合短视频剪辑蒙太奇。不要加入人声。\n\n结尾：\n让 Opus 5.5 自豪地展示最终完成的剪辑作品并完整播放，并以 “Gorden Sun” 的作者身份署名结束。"
+ },
+ {
   "id": "2103664956482941143",
   "likes": 58,
   "title": "Use Python to generate a 9:16 chaotic brain rot video with excellent…",
@@ -3580,6 +3810,16 @@
   "prompt": "make an animated short that felt like Hedgehog in the Fog. I didn’t want to copy Yuri Norstein’s film, so we went with a new story.\n\nIt runs for 6.5 minutes. All 9363 frames are drawn by JavaScript code written by Opus. No video or image generation models, just canvas.\n\nIt follows a little mouse in a red scarf. Her grandfather, an old mole, is out fishing when fog rolls over the lake. She goes looking for him with a walnut-shell lantern and a sleeping firefly inside. They have a secret knock to help them find each other: short, short, long. It means \"I’m here\".\n\nNorstein used paper cutouts on layers of glass, filmed frame by frame. I wanted some of that paper texture to come through in code. So the scenes use different styles: torn-paper collage, chalk on black paper, tissue paper underwater. There’s even sand on a light table and a pop-up book.\n\nOpus wrote the music too. It found Steinway piano samples in my Logic library and used Python to compose the score around the rhythm of that knock."
  },
  {
+  "id": "2102652072252584046",
+  "likes": 56,
+  "title": "Battle of Dan-no-ura as a 3D TV special",
+  "author": "tetumemo",
+  "url": "https://x.com/tetumemo/status/2102652072252584046",
+  "video": "https://video.twimg.com/amplify_video/2102650776539791360/vid/avc1/1280x720/ZuzT-9RVbEYvxRtK.mp4",
+  "poster": "https://pbs.twimg.com/amplify_video_thumb/2102650776539791360/img/Sadc4NxaayPoPP2D.jpg",
+  "prompt": "壇ノ浦の戦いをテレビ特番級3D俯瞰デモ化。\n地形・軍勢・進軍矢印・霧・カメラ移動を滑らかに演出。\nさらに、関門海峡の潮流、源氏と平氏の船団配置、潮の反転による戦況変化を立体的に可視化する。\n海面すれすれの低空カメラ、船団を追う旋回カメラ、水しぶきや海霧を加え、戦況の変化が直感的に伝わる映像にする。"
+ },
+ {
   "id": "2103746736980378066",
   "likes": 56,
   "title": "create a 30 second ad for Opus 5.5 inspired by Apple 1984 ad, iykyk!…",
@@ -3588,6 +3828,16 @@
   "video": "https://media.skillry.dev/opus-5-5/1littlecoder-378066/original.mp4",
   "poster": "https://media.skillry.dev/opus-5-5/1littlecoder-378066/original.bbf4b625ee.webp",
   "prompt": "create a 30 second ad for Opus 5.5 inspired by Apple 1984 ad, iykyk! avoid the border text or frames!"
+ },
+ {
+  "id": "2103920117025554453",
+  "likes": 55,
+  "title": "15-second launch video for an AI SDR",
+  "author": "iuditg",
+  "url": "https://x.com/iuditg/status/2103920117025554453",
+  "video": "https://video.twimg.com/amplify_video/2103918795136143361/vid/avc1/1280x720/bRhBbLOIeJHDT-bd.mp4",
+  "poster": "https://pbs.twimg.com/amplify_video_thumb/2103918795136143361/img/UQ2575JoURwVLGZ9.jpg",
+  "prompt": "Make a 15-second launch video for http://firstsales.io, an AI SDR (sales rep) for cold email. Make it showreel-grade: dynamic, kinetic motion graphics. Go all out.\n\nUse the real brand: the FirstSales SVG logo (animate its strokes), the app's colors, Manrope type, icons, and UI components. The logo is a short stinger.\n\nThe product is the hero.\n\nRules: all demo data is fake (made-up people and companies, no real leads). Show only real product claims. Something moves on every beat. Text is never covered."
  },
  {
   "id": "2103867115044237752",
@@ -3668,6 +3918,26 @@
   "video": "https://video.twimg.com/amplify_video/2108575611354562560/vid/avc1/1280x720/-jGdZIl_0PgVNFz2.mp4",
   "poster": "https://pbs.twimg.com/amplify_video_thumb/2108575611354562560/img/kXrP83qxr16-ryv5.jpg",
   "prompt": "[Identity Lock | Woman]\nAdult female, ~28, straight black hair, fair skin, dark brown eyes; knee-length bright red wool coat, black jeans, black ankle boots; red coat is the dominant color; continuous single actor, no face-swapping or outfit changes.\n\n[Identity Lock | Man]\nAdult male, ~30, short dark brown hair, light stubble, light olive skin; navy jacket, grey hoodie, dark jeans; holding two white paper coffee cups without logos; continuous single actor, no face-swapping or outfit changes.\n\n[Space]\nFixed geography: ~15m wide two-lane urban street flanked by storefronts; warm-lit cafe on left with glass door facing street; glass bus stop on right facing cafe; street extends to horizon; meteor streaks from top right to horizon, exploding outside city; dust wall surges towards camera; he exits cafe on left, she waits at bus stop on right, meeting in street center without screen direction inversion; ~10 pedestrians.\n\n[First Frame]\n24mm low-angle wide shot looking down street; quiet night street, shop lights, streetlamps, dark sky; top-right sky glows bright orange-white.\n\n[Timeline / SHOT 1]\n0.0–4.0s | 24mm low wide upward tilt: 0.0–1.5s sky lights up brighter than day, cast shadows swing rapidly; 1.5–3.0s pedestrians gaze up as massive burning meteor streaks across top-right sky towards horizon; 3.0–4.0s meteor glare reflects on cafe door glass, creating first match cut.\n\n[Timeline / SHOT 2]\n4.0–9.0s | Match cut from glare, 35mm handheld outside cafe: 4.0–5.5s he pushes door open holding two coffees, looks up and halts; 5.5–7.0s he sees her across the street at the bus stop, eyes meet; 7.0–8.0s both sprint into street; 8.0–9.0s massive white explosion at horizon washes out screen, creating second match cut.\n\n[Timeline / SHOT 3]\n9.0–15.0s | Match cut from whiteout, 35mm elevated street view: 9.0–11.0s whiteout fades to mushroom cloud and orange fireball; 11.0–13.5s shockwave blasts storefront windows successively towards camera, alarms blare, dust wall rolls forward; both sprint towards street center; 13.5–15.0s nearest window shatters toward lens, creating third match cut.\n\n[Timeline / SHOT 4]\n15.0–19.0s | Match cut from flying glass, 50mm eye-level profile, both in street center: 15.0–17.0s reaching out, he drops both coffees, liquid spills, glass whirls, dust wall 20m away, wind pulls hair; 17.0s time abruptly freezes completely; 17.0–19.0s absolute standstill except she slowly blinks, creating fourth match cut.\n\n[Timeline / SHOT 5]\n19.0–25.0s | Match cut from blink, 35mm handheld over her right shoulder: 19.0–20.5s realizing she can move, she looks around; 20.5–23.5s steps forward through suspended shards, gently deflects a floating glass shard which stays in place; passes frozen coffee spill, frozen pigeon, frozen pedestrians, frozen fiery dust wall; 23.5–25.0s approaches him and reaches out, creating fifth match cut.\n\n[Timeline / SHOT 6]\n25.0–30.0s | Match cut from reaching hand, 50mm close profile: 25.0–26.5s fingertips touch his frozen cheek; 26.5–28.0s he blinks, inhales, looks at her and unfreezes, clasping her hand; 28.0–30.0s adjacent suspended glass shard vibrates and drops; both watch it fall; scene cuts mid-fall.\n\n[Physics]\nMeteor illumination realistically shifts street shadows; shockwave shatters glass sequentially outward; dust wall is volumetric fire/dust; time freeze is total for all background elements with zero motion blur or drift; deflected shard stays at new position; gravity resumes on moving subjects; only final shard vibrates and drops.\n\n[Cinematography]\n6 sequential camera setups; 5 match cuts matched to ending elements (reflection, flash, shard, blink, hand); camera static during freeze except Shot 5 tracking; no slow motion, no hero low-angles.\n\n[Lighting/Color]\nOpens cold blue with warm shop light; switches to harsh orange-white under meteor; orange-red explosion lighting; frozen world back-lit by fire inside dust wall; red coat remains focal point.\n\n[Audio]\nShot 1 quiet traffic to escalating roar; Shot 2 doorbell, footsteps, distant impact; Shot 3 blast roar, shattering windows, alarms; Shot 4 wind/glass noise abruptly cuts to dead silence at 17s; Shot 5 quiet footsteps on glass and soft breath; Shot 6 sharp inhale and gentle glass hum.\n\n[Locks]\nStrictly 6 shots, 5 match cuts; zero spoken dialogue; continuous outfits and character identities without fusion; exact anatomical consistency; live-action film realism; video cuts while the shard falls."
+ },
+ {
+  "id": "2103487198758834408",
+  "likes": 49,
+  "title": "Earth from the dinosaurs to the Jōmon period",
+  "author": "mellow_neet2000",
+  "url": "https://x.com/mellow_neet2000/status/2103487198758834408",
+  "video": "https://video.twimg.com/amplify_video/2103484992500494336/vid/avc1/1280x720/IdOCpMD2HtATAUcb.mp4",
+  "poster": "https://pbs.twimg.com/amplify_video_thumb/2103484992500494336/img/QdFAyZlG-IfMUCX7.jpg",
+  "prompt": "動画を作りたい。\nモーショングラフィックで地球の恐竜時代から縄文時代までの成り立ちと流れを教育的な切り口と視覚的な演出を意識しながら作ってほしい。\n言語は日本語で。"
+ },
+ {
+  "id": "2103144263735562388",
+  "likes": 49,
+  "title": "Rocket launch scene, four-model comparison",
+  "author": "EnvolDev",
+  "url": "https://x.com/EnvolDev/status/2103144263735562388",
+  "video": "https://video.twimg.com/amplify_video/2103144186962960386/vid/avc1/1214x1080/VqXwx4Gd1CImzGPC.mp4",
+  "poster": "https://pbs.twimg.com/amplify_video_thumb/2103144186962960386/img/tmFHMZ2kO2IT-auI.jpg",
+  "prompt": "Build a rocket launch."
  },
  {
   "id": "2102867033100616097",
@@ -3928,6 +4198,16 @@
   "video": "https://video.twimg.com/amplify_video/2104807097582170112/vid/avc1/1280x720/TDdqdOx_RkLD0I4C.mp4",
   "poster": "https://media.skillry.dev/opus-5-5/_prompts/hahazwei-425483/poster.ee504acb44.webp",
   "prompt": "把这首歌做成 1 分钟拼豆像素风 MV：按歌词设计原创角色，每个像素是带孔拼豆，拼好后熨成白边贴纸；方格纸背景加粉白格子地板；动作卡节拍，底部加卡拉 OK 字幕。"
+ },
+ {
+  "id": "2103708363074973906",
+  "likes": 34,
+  "title": "Showreel prompt turned app launch video",
+  "author": "MustaphaFenzar",
+  "url": "https://x.com/MustaphaFenzar/status/2103708363074973906",
+  "video": "https://video.twimg.com/amplify_video/2103708320368668672/vid/avc1/1280x720/74oPGL2Z7ft3Lfsq.mp4",
+  "poster": "https://pbs.twimg.com/amplify_video_thumb/2103708320368668672/img/J8hkxK6JppirdCya.jpg",
+  "prompt": "make a dynamic 15-second motion graphics video that shows what an incredible motion designer you are, like it's your showreel for a résumé. go all out.\n\n  it should be a launch app video for https://mounis.app/"
  },
  {
   "id": "2103530789510283635",

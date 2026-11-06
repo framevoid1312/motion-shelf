@@ -1,6 +1,6 @@
 # Explainer video on JEM self-supervised learning paper
 
-**#141 by likes** · ♥ 613 · by [@iScienceLuvr](https://x.com/iScienceLuvr) · [Original post](https://x.com/iScienceLuvr/status/2114676265093664978) · [Watch the video](https://video.twimg.com/amplify_video/2114675884305350657/vid/avc1/1280x720/_a3na2ieAVArHq8Q.mp4?tag=29)
+**#144 by likes** · ♥ 613 · by [@iScienceLuvr](https://x.com/iScienceLuvr) · [Original post](https://x.com/iScienceLuvr/status/2114676265093664978) · [Watch the video](https://video.twimg.com/amplify_video/2114675884305350657/vid/avc1/1280x720/_a3na2ieAVArHq8Q.mp4?tag=29)
 
 [![Explainer video on JEM self-supervised learning paper](https://pbs.twimg.com/amplify_video_thumb/2114675884305350657/img/0MNjLXVp4fVZyLks.jpg)](https://x.com/iScienceLuvr/status/2114676265093664978)
 

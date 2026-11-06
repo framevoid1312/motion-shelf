@@ -1,6 +1,6 @@
 # Fitters Bible app promo
 
-**#611 by likes** · ♥ 4 · by [@Adamdesgns](https://x.com/Adamdesgns) · [Original post](https://x.com/Adamdesgns/status/2103542756555768014) · [Watch the video](https://video.twimg.com/amplify_video/2103542594726768641/vid/avc1/1920x1080/Zm5GtkxYfF_QCfug.mp4)
+**#639 by likes** · ♥ 4 · by [@Adamdesgns](https://x.com/Adamdesgns) · [Original post](https://x.com/Adamdesgns/status/2103542756555768014) · [Watch the video](https://video.twimg.com/amplify_video/2103542594726768641/vid/avc1/1920x1080/Zm5GtkxYfF_QCfug.mp4)
 
 [![Fitters Bible app promo](https://pbs.twimg.com/amplify_video_thumb/2103542594726768641/img/VGr9HsSu1cUKgt4Y.jpg)](https://x.com/Adamdesgns/status/2103542756555768014)
 

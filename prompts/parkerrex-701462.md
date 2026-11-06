@@ -1,6 +1,6 @@
 # explain a token bucket rate limiter, canvas only, no libraries, every…
 
-**#851 by likes** · ♥ 0 · by [@ParkerRex](https://x.com/ParkerRex) · [Original post](https://x.com/ParkerRex/status/2103206747846701462) · [Watch the video](https://media.skillry.dev/opus-5-5/parkerrex-701462/original.mp4)
+**#879 by likes** · ♥ 0 · by [@ParkerRex](https://x.com/ParkerRex) · [Original post](https://x.com/ParkerRex/status/2103206747846701462) · [Watch the video](https://media.skillry.dev/opus-5-5/parkerrex-701462/original.mp4)
 
 [![explain a token bucket rate limiter, canvas only, no libraries, every…](https://media.skillry.dev/opus-5-5/parkerrex-701462/original.9740e7ff3b.webp)](https://x.com/ParkerRex/status/2103206747846701462)
 

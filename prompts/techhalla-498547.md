@@ -1,6 +1,6 @@
 # You are a world-class motion designer doing a 20.00s kinetic identity…
 
-**#251 by likes** · ♥ 272 · by [@techhalla](https://x.com/techhalla) · [Original post](https://x.com/techhalla/status/2103411244468498547) · [Watch the video](https://media.skillry.dev/opus-5-5/techhalla-498547/original.mp4)
+**#256 by likes** · ♥ 272 · by [@techhalla](https://x.com/techhalla) · [Original post](https://x.com/techhalla/status/2103411244468498547) · [Watch the video](https://media.skillry.dev/opus-5-5/techhalla-498547/original.mp4)
 
 [![You are a world-class motion designer doing a 20.00s kinetic identity…](https://media.skillry.dev/opus-5-5/techhalla-498547/original.fbdb194d58.webp)](https://x.com/techhalla/status/2103411244468498547)
 

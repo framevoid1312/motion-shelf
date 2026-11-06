@@ -1,6 +1,6 @@
 # Plan a launch video. Music, logo, CTA. Modern, founder-like. This is…
 
-**#898 by likes** · ♥ 0 · by [@elkrispis](https://x.com/elkrispis) · [Original post](https://x.com/elkrispis/status/2106701208647872980) · [Watch the video](https://video.twimg.com/amplify_video/2106700527480287232/vid/avc1/1280x720/PfgwQu5zo38SP9ZZ.mp4?tag=14)
+**#926 by likes** · ♥ 0 · by [@elkrispis](https://x.com/elkrispis) · [Original post](https://x.com/elkrispis/status/2106701208647872980) · [Watch the video](https://video.twimg.com/amplify_video/2106700527480287232/vid/avc1/1280x720/PfgwQu5zo38SP9ZZ.mp4?tag=14)
 
 [![Plan a launch video. Music, logo, CTA. Modern, founder-like. This is…](https://media.skillry.dev/opus-5-5/_prompts/elkrispis-872980/poster.ddce039eb7.webp)](https://x.com/elkrispis/status/2106701208647872980)
 

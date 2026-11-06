@@ -1,6 +1,6 @@
 # Zoom journey from a cell to quantum fields
 
-**#52 by likes** · ♥ 1,444 · by [@paraschopra](https://x.com/paraschopra) · [Original post](https://x.com/paraschopra/status/2103099756167991347) · [Watch the video](https://video.twimg.com/amplify_video/2103099663952093184/vid/avc1/1280x720/LA7_zN_va53_gHFt.mp4?tag=16)
+**#53 by likes** · ♥ 1,444 · by [@paraschopra](https://x.com/paraschopra) · [Original post](https://x.com/paraschopra/status/2103099756167991347) · [Watch the video](https://video.twimg.com/amplify_video/2103099663952093184/vid/avc1/1280x720/LA7_zN_va53_gHFt.mp4?tag=16)
 
 [![Zoom journey from a cell to quantum fields](https://pbs.twimg.com/amplify_video_thumb/2103099663952093184/img/PZnzdE6pl5Z2F8wm.jpg)](https://x.com/paraschopra/status/2103099756167991347)
 

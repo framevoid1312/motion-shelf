@@ -1,6 +1,6 @@
 # 哈哈, 别再急着买API, 用 CLIProxyAPI 盘活你的 AI 订阅这篇文章的视频版宣传片来了 全程使用 Opus 5.5 +…
 
-**#798 by likes** · ♥ 1 · by [@0xlangeai](https://x.com/0xlangeai) · [Original post](https://x.com/0xlangeai/status/2106391068367597929) · [Watch the video](https://media.skillry.dev/opus-5-5/0xlangeai-597929/original.mp4)
+**#826 by likes** · ♥ 1 · by [@0xlangeai](https://x.com/0xlangeai) · [Original post](https://x.com/0xlangeai/status/2106391068367597929) · [Watch the video](https://media.skillry.dev/opus-5-5/0xlangeai-597929/original.mp4)
 
 [![哈哈, 别再急着买API, 用 CLIProxyAPI 盘活你的 AI 订阅这篇文章的视频版宣传片来了 全程使用 Opus 5.5 +…](https://media.skillry.dev/opus-5-5/0xlangeai-597929/original.465dba7df9.webp)](https://x.com/0xlangeai/status/2106391068367597929)
 

@@ -1,6 +1,6 @@
 # create best motion graphics explainer of the (your product) with very…
 
-**#467 by likes** · ♥ 14 · by [@sudo_kiran](https://x.com/sudo_kiran) · [Original post](https://x.com/sudo_kiran/status/2103761658745335993) · [Watch the video](https://media.skillry.dev/opus-5-5/sudo-kiran-335993/original.mp4)
+**#495 by likes** · ♥ 14 · by [@sudo_kiran](https://x.com/sudo_kiran) · [Original post](https://x.com/sudo_kiran/status/2103761658745335993) · [Watch the video](https://media.skillry.dev/opus-5-5/sudo-kiran-335993/original.mp4)
 
 [![create best motion graphics explainer of the (your product) with very…](https://media.skillry.dev/opus-5-5/sudo-kiran-335993/original.c03cff47d2.webp)](https://x.com/sudo_kiran/status/2103761658745335993)
 

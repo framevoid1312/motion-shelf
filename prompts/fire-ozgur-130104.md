@@ -1,6 +1,6 @@
 # I want to know how good a graphic designer you are. To prove this to…
 
-**#315 by likes** · ♥ 119 · by [@fire_ozgur](https://x.com/fire_ozgur) · [Original post](https://x.com/fire_ozgur/status/2103459971174130104) · [Watch the video](https://media.skillry.dev/opus-5-5/fire-ozgur-130104/original.mp4)
+**#332 by likes** · ♥ 119 · by [@fire_ozgur](https://x.com/fire_ozgur) · [Original post](https://x.com/fire_ozgur/status/2103459971174130104) · [Watch the video](https://media.skillry.dev/opus-5-5/fire-ozgur-130104/original.mp4)
 
 [![I want to know how good a graphic designer you are. To prove this to…](https://media.skillry.dev/opus-5-5/fire-ozgur-130104/original.9df58f2d55.webp)](https://x.com/fire_ozgur/status/2103459971174130104)
 

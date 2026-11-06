@@ -1,6 +1,6 @@
 # 良い笑 ・入れたプロンプト 「今日何曜日だっけ？BGM付きの30秒のかっこいいモーショングラフィックスで教えて（全力を出してください）」…
 
-**#406 by likes** · ♥ 27 · by [@tankazunori0914](https://x.com/tankazunori0914) · [Original post](https://x.com/tankazunori0914/status/2105917770907156748) · [Watch the video](https://media.skillry.dev/opus-5-5/tankazunori0914-156748/original.mp4)
+**#434 by likes** · ♥ 27 · by [@tankazunori0914](https://x.com/tankazunori0914) · [Original post](https://x.com/tankazunori0914/status/2105917770907156748) · [Watch the video](https://media.skillry.dev/opus-5-5/tankazunori0914-156748/original.mp4)
 
 [![良い笑 ・入れたプロンプト 「今日何曜日だっけ？BGM付きの30秒のかっこいいモーショングラフィックスで教えて（全力を出してください）」…](https://media.skillry.dev/opus-5-5/tankazunori0914-156748/original.00ba5c12f5.webp)](https://x.com/tankazunori0914/status/2105917770907156748)
 

@@ -1,6 +1,6 @@
 # 我定的选题、风格，我想要那种文艺复兴博物学家手稿的感觉，查资料、写分镜、写动画、作曲都是 Opus5.5 做的，画是 Codex 照着…
 
-**#828 by likes** · ♥ 1 · by [@wangyinrec](https://x.com/wangyinrec) · [Original post](https://x.com/wangyinrec/status/2103725737551532344) · [Watch the video](https://video.twimg.com/amplify_video/2103724311144239104/vid/avc1/1280x720/DGwsfmE8hD-NjKrt.mp4)
+**#856 by likes** · ♥ 1 · by [@wangyinrec](https://x.com/wangyinrec) · [Original post](https://x.com/wangyinrec/status/2103725737551532344) · [Watch the video](https://video.twimg.com/amplify_video/2103724311144239104/vid/avc1/1280x720/DGwsfmE8hD-NjKrt.mp4)
 
 [![我定的选题、风格，我想要那种文艺复兴博物学家手稿的感觉，查资料、写分镜、写动画、作曲都是 Opus5.5 做的，画是 Codex 照着…](https://media.skillry.dev/opus-5-5/_prompts/wangyinrec-532344/poster.293b5377df.webp)](https://x.com/wangyinrec/status/2103725737551532344)
 

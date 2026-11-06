@@ -1,6 +1,6 @@
 # What it hates most about humans, no words
 
-**#156 by likes** · ♥ 523 · by [@TheSpacerr](https://x.com/TheSpacerr) · [Original post](https://x.com/TheSpacerr/status/2105744712330354723) · [Watch the video](https://video.twimg.com/amplify_video/2105743959553200129/vid/avc1/720x1280/Z1oh7CKdC0vJWpRh.mp4)
+**#159 by likes** · ♥ 523 · by [@TheSpacerr](https://x.com/TheSpacerr) · [Original post](https://x.com/TheSpacerr/status/2105744712330354723) · [Watch the video](https://video.twimg.com/amplify_video/2105743959553200129/vid/avc1/720x1280/Z1oh7CKdC0vJWpRh.mp4)
 
 [![What it hates most about humans, no words](https://pbs.twimg.com/amplify_video_thumb/2105743959553200129/img/SIHb3-yHWpp-IlyM.jpg)](https://x.com/TheSpacerr/status/2105744712330354723)
 

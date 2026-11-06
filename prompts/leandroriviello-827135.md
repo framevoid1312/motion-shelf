@@ -1,6 +1,6 @@
 # No tiene sentido que esto haya salido con un solo prompt con Opus 5.5…
 
-**#298 by likes** · ♥ 153 · by [@leandroriviello](https://x.com/leandroriviello) · [Original post](https://x.com/leandroriviello/status/2104728379798827135) · [Watch the video](https://media.skillry.dev/opus-5-5/leandroriviello-827135/original.mp4)
+**#312 by likes** · ♥ 153 · by [@leandroriviello](https://x.com/leandroriviello) · [Original post](https://x.com/leandroriviello/status/2104728379798827135) · [Watch the video](https://media.skillry.dev/opus-5-5/leandroriviello-827135/original.mp4)
 
 [![No tiene sentido que esto haya salido con un solo prompt con Opus 5.5…](https://media.skillry.dev/opus-5-5/leandroriviello-827135/original.419d188f99.webp)](https://x.com/leandroriviello/status/2104728379798827135)
 

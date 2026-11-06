@@ -1,6 +1,6 @@
 # Create a 60 second music video in the style of Peter Gabriel's…
 
-**#659 by likes** · ♥ 3 · by [@DavidShulmanFL](https://x.com/DavidShulmanFL) · [Original post](https://x.com/DavidShulmanFL/status/2103336310089842921) · [Watch the video](https://media.skillry.dev/opus-5-5/davidshulmanfl-842921/original.mp4)
+**#687 by likes** · ♥ 3 · by [@DavidShulmanFL](https://x.com/DavidShulmanFL) · [Original post](https://x.com/DavidShulmanFL/status/2103336310089842921) · [Watch the video](https://media.skillry.dev/opus-5-5/davidshulmanfl-842921/original.mp4)
 
 [![Create a 60 second music video in the style of Peter Gabriel's…](https://media.skillry.dev/opus-5-5/davidshulmanfl-842921/original.ac16caae3b.webp)](https://x.com/DavidShulmanFL/status/2103336310089842921)
 

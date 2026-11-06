@@ -1,6 +1,6 @@
 # Opus 5.5 spent 43 million output tokens building 3D PvZ 2: Reflourished
 
-**#477 by likes** · ♥ 13 · by [@HelloVyom](https://x.com/HelloVyom) · [Original post](https://x.com/HelloVyom/status/2104140498344800659) · [Watch the video](https://media.skillry.dev/opus-5-5/hellovyom-800659/original.mp4)
+**#505 by likes** · ♥ 13 · by [@HelloVyom](https://x.com/HelloVyom) · [Original post](https://x.com/HelloVyom/status/2104140498344800659) · [Watch the video](https://media.skillry.dev/opus-5-5/hellovyom-800659/original.mp4)
 
 [![Opus 5.5 spent 43 million output tokens building 3D PvZ 2: Reflourished](https://media.skillry.dev/opus-5-5/hellovyom-800659/original.1530ca29e5.webp)](https://x.com/HelloVyom/status/2104140498344800659)
 

@@ -1,6 +1,6 @@
 # Opus 5.5 is good at 3d motion too apparantely
 
-**#706 by likes** · ♥ 2 · by [@FriskyGGG](https://x.com/FriskyGGG) · [Original post](https://x.com/FriskyGGG/status/2103766565389054427) · [Watch the video](https://media.skillry.dev/opus-5-5/friskyggg-054427/original.mp4)
+**#734 by likes** · ♥ 2 · by [@FriskyGGG](https://x.com/FriskyGGG) · [Original post](https://x.com/FriskyGGG/status/2103766565389054427) · [Watch the video](https://media.skillry.dev/opus-5-5/friskyggg-054427/original.mp4)
 
 [![Opus 5.5 is good at 3d motion too apparantely](https://media.skillry.dev/opus-5-5/friskyggg-054427/original.1ed591fd50.webp)](https://x.com/FriskyGGG/status/2103766565389054427)
 

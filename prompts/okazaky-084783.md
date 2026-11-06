@@ -1,6 +1,6 @@
 # Create a 50-second vertical music video using programmatic rendering…
 
-**#734 by likes** · ♥ 2 · by [@okazaky](https://x.com/okazaky) · [Original post](https://x.com/okazaky/status/2107826563786084783) · [Watch the video](https://video.twimg.com/ext_tw_video/2107826490754977792/pu/vid/avc1/720x1280/UtBQH9_qeVwsDoTF.mp4?tag=12)
+**#762 by likes** · ♥ 2 · by [@okazaky](https://x.com/okazaky) · [Original post](https://x.com/okazaky/status/2107826563786084783) · [Watch the video](https://video.twimg.com/ext_tw_video/2107826490754977792/pu/vid/avc1/720x1280/UtBQH9_qeVwsDoTF.mp4?tag=12)
 
 [![Create a 50-second vertical music video using programmatic rendering…](https://media.skillry.dev/opus-5-5/_prompts/okazaky-084783/poster.a5adec824d.webp)](https://x.com/okazaky/status/2107826563786084783)
 

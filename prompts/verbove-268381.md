@@ -1,6 +1,6 @@
 # <inputs> Ask me for: • my product + URL • 8–12 UI states that tell…
 
-**#260 by likes** · ♥ 242 · by [@verbove](https://x.com/verbove) · [Original post](https://x.com/verbove/status/2103483957266268381) · [Watch the video](https://media.skillry.dev/opus-5-5/verbove-268381/original.mp4)
+**#267 by likes** · ♥ 242 · by [@verbove](https://x.com/verbove) · [Original post](https://x.com/verbove/status/2103483957266268381) · [Watch the video](https://media.skillry.dev/opus-5-5/verbove-268381/original.mp4)
 
 [![<inputs> Ask me for: • my product + URL • 8–12 UI states that tell…](https://media.skillry.dev/opus-5-5/verbove-268381/original.48c597b63b.webp)](https://x.com/verbove/status/2103483957266268381)
 

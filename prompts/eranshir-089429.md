@@ -1,6 +1,6 @@
 # Zero-shot documentary on Jewish history
 
-**#247 by likes** · ♥ 278 · by [@eranshir](https://x.com/eranshir) · [Original post](https://x.com/eranshir/status/2103564391170089429) · [Watch the video](https://video.twimg.com/amplify_video/2103563244606558208/vid/avc1/1280x720/_VtAbOu_EoojgbCz.mp4?tag=29)
+**#252 by likes** · ♥ 278 · by [@eranshir](https://x.com/eranshir) · [Original post](https://x.com/eranshir/status/2103564391170089429) · [Watch the video](https://video.twimg.com/amplify_video/2103563244606558208/vid/avc1/1280x720/_VtAbOu_EoojgbCz.mp4?tag=29)
 
 [![Zero-shot documentary on Jewish history](https://pbs.twimg.com/amplify_video_thumb/2103563244606558208/img/8H0RT2iYBu5XW8g-.jpg)](https://x.com/eranshir/status/2103564391170089429)
 

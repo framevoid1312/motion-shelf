@@ -1,6 +1,6 @@
 # create a 30 second ad for Opus 5.5 inspired by Apple 1984 ad, iykyk!…
 
-**#359 by likes** · ♥ 56 · by [@1littlecoder](https://x.com/1littlecoder) · [Original post](https://x.com/1littlecoder/status/2103746736980378066) · [Watch the video](https://media.skillry.dev/opus-5-5/1littlecoder-378066/original.mp4)
+**#383 by likes** · ♥ 56 · by [@1littlecoder](https://x.com/1littlecoder) · [Original post](https://x.com/1littlecoder/status/2103746736980378066) · [Watch the video](https://media.skillry.dev/opus-5-5/1littlecoder-378066/original.mp4)
 
 [![create a 30 second ad for Opus 5.5 inspired by Apple 1984 ad, iykyk!…](https://media.skillry.dev/opus-5-5/1littlecoder-378066/original.bbf4b625ee.webp)](https://x.com/1littlecoder/status/2103746736980378066)
 

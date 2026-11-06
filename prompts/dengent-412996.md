@@ -1,6 +1,6 @@
 # Cardilife 1.3 をリリースしました。 あわせて紹介動画を作りました（56秒）。 動画は Claude Code（Opus…
 
-**#671 by likes** · ♥ 3 · by [@DengenT](https://x.com/DengenT) · [Original post](https://x.com/DengenT/status/2107425308773412996) · [Watch the video](https://media.skillry.dev/opus-5-5/dengent-412996/original.mp4)
+**#699 by likes** · ♥ 3 · by [@DengenT](https://x.com/DengenT) · [Original post](https://x.com/DengenT/status/2107425308773412996) · [Watch the video](https://media.skillry.dev/opus-5-5/dengent-412996/original.mp4)
 
 [![Cardilife 1.3 をリリースしました。 あわせて紹介動画を作りました（56秒）。 動画は Claude Code（Opus…](https://media.skillry.dev/opus-5-5/dengent-412996/original.9c6528d015.webp)](https://x.com/DengenT/status/2107425308773412996)
 

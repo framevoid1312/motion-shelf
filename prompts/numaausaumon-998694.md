@@ -1,6 +1,6 @@
 # Anatomy of an escalator
 
-**#131 by likes** · ♥ 643 · by [@numaausaumon](https://x.com/numaausaumon) · [Original post](https://x.com/numaausaumon/status/2109943963536998694) · [Watch the video](https://video.twimg.com/amplify_video/2109943675308630016/vid/avc1/870x720/BH-LCSYp0WAzcuiG.mp4)
+**#134 by likes** · ♥ 643 · by [@numaausaumon](https://x.com/numaausaumon) · [Original post](https://x.com/numaausaumon/status/2109943963536998694) · [Watch the video](https://video.twimg.com/amplify_video/2109943675308630016/vid/avc1/870x720/BH-LCSYp0WAzcuiG.mp4)
 
 [![Anatomy of an escalator](https://pbs.twimg.com/amplify_video_thumb/2109943675308630016/img/6wfpdsUklBacJHfX.jpg)](https://x.com/numaausaumon/status/2109943963536998694)
 

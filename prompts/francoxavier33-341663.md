@@ -1,6 +1,6 @@
 # this was 100% opus 5.5. i have a dedicated "studio" repo with all my…
 
-**#570 by likes** · ♥ 6 · by [@francoxavier33](https://x.com/francoxavier33) · [Original post](https://x.com/francoxavier33/status/2103486218323341663) · [Watch the video](https://media.skillry.dev/opus-5-5/francoxavier33-341663/original.mp4)
+**#598 by likes** · ♥ 6 · by [@francoxavier33](https://x.com/francoxavier33) · [Original post](https://x.com/francoxavier33/status/2103486218323341663) · [Watch the video](https://media.skillry.dev/opus-5-5/francoxavier33-341663/original.mp4)
 
 [![this was 100% opus 5.5. i have a dedicated "studio" repo with all my…](https://media.skillry.dev/opus-5-5/francoxavier33-341663/original.5fb257a3d9.webp)](https://x.com/francoxavier33/status/2103486218323341663)
 

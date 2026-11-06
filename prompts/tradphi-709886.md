@@ -1,6 +1,6 @@
 # Mining operations strategy game
 
-**#102 by likes** · ♥ 849 · by [@tradphi](https://x.com/tradphi) · [Original post](https://x.com/tradphi/status/2107022944916709886) · [Watch the video](https://video.twimg.com/amplify_video/2107022376546533377/vid/avc1/1280x720/arf8AZrI5StUYnP4.mp4)
+**#104 by likes** · ♥ 849 · by [@tradphi](https://x.com/tradphi) · [Original post](https://x.com/tradphi/status/2107022944916709886) · [Watch the video](https://video.twimg.com/amplify_video/2107022376546533377/vid/avc1/1280x720/arf8AZrI5StUYnP4.mp4)
 
 [![Mining operations strategy game](https://pbs.twimg.com/amplify_video_thumb/2107022376546533377/img/3-TY-XIOQS9nzm_X.jpg)](https://x.com/tradphi/status/2107022944916709886)
 

@@ -1,0 +1,15 @@
+# Procedural Kaiju Simulation in Three.js
+
+**#299 by likes** · ♥ 170 · by [@majidmanzarpour](https://x.com/majidmanzarpour) · [Original post](https://x.com/majidmanzarpour/status/2102810710791401883) · [Watch the video](https://video.twimg.com/amplify_video/2102810115216674818/vid/avc1/3024x1964/RYxbhWqK18gJy2WY.mp4)
+
+[![Procedural Kaiju Simulation in Three.js](https://pbs.twimg.com/amplify_video_thumb/2102810115216674818/img/gEzXcELbdQvKMw2o.jpg)](https://x.com/majidmanzarpour/status/2102810710791401883)
+
+## Prompt
+
+```text
+Build a fully procedural AAA quality kaiju simulation in three.js using pure TSL and modern techniques
+```
+
+The prompt and video belong to @majidmanzarpour; this page links back to their post.
+
+[← Back to the list](../README.md) · [Watch it on the site](https://framevoid1312.github.io/motion-shelf/)

@@ -1,6 +1,6 @@
 # make a dynamic 15-second motion graphics video promo about gene…
 
-**#699 by likes** · ♥ 2 · by [@madebyjmayala](https://x.com/madebyjmayala) · [Original post](https://x.com/madebyjmayala/status/2103578285892649220) · [Watch the video](https://media.skillry.dev/opus-5-5/madebyjmayala-649220/original.mp4)
+**#727 by likes** · ♥ 2 · by [@madebyjmayala](https://x.com/madebyjmayala) · [Original post](https://x.com/madebyjmayala/status/2103578285892649220) · [Watch the video](https://media.skillry.dev/opus-5-5/madebyjmayala-649220/original.mp4)
 
 [![make a dynamic 15-second motion graphics video promo about gene…](https://media.skillry.dev/opus-5-5/madebyjmayala-649220/original.81ba9f9383.webp)](https://x.com/madebyjmayala/status/2103578285892649220)
 

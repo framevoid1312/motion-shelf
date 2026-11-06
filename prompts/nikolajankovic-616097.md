@@ -1,6 +1,6 @@
 # make a hand-drawn stop-motion animation; story: you're defi saver and…
 
-**#368 by likes** · ♥ 48 · by [@_nikolajankovic](https://x.com/_nikolajankovic) · [Original post](https://x.com/_nikolajankovic/status/2102867033100616097) · [Watch the video](https://media.skillry.dev/opus-5-5/nikolajankovic-616097/original.mp4)
+**#395 by likes** · ♥ 48 · by [@_nikolajankovic](https://x.com/_nikolajankovic) · [Original post](https://x.com/_nikolajankovic/status/2102867033100616097) · [Watch the video](https://media.skillry.dev/opus-5-5/nikolajankovic-616097/original.mp4)
 
 [![make a hand-drawn stop-motion animation; story: you're defi saver and…](https://media.skillry.dev/opus-5-5/nikolajankovic-616097/original.c2731756dd.webp)](https://x.com/_nikolajankovic/status/2102867033100616097)
 

@@ -1,6 +1,6 @@
 # 每次一个新的模型出来呢，大家都让它去画 “鹈鹕骑自行车” 来判断这个模型的空间能力，基本上都是用 HTML、SVG…
 
-**#344 by likes** · ♥ 72 · by [@AxtonLiu](https://x.com/AxtonLiu) · [Original post](https://x.com/AxtonLiu/status/2103119648271290566) · [Watch the video](https://media.skillry.dev/opus-5-5/axtonliu-290566/original.mp4)
+**#364 by likes** · ♥ 72 · by [@AxtonLiu](https://x.com/AxtonLiu) · [Original post](https://x.com/AxtonLiu/status/2103119648271290566) · [Watch the video](https://media.skillry.dev/opus-5-5/axtonliu-290566/original.mp4)
 
 [![每次一个新的模型出来呢，大家都让它去画 “鹈鹕骑自行车” 来判断这个模型的空间能力，基本上都是用 HTML、SVG…](https://media.skillry.dev/opus-5-5/axtonliu-290566/original.421b336345.webp)](https://x.com/AxtonLiu/status/2103119648271290566)
 

@@ -1,6 +1,6 @@
 # Asked claude Opus 5.5 to make an explainer on how a mechanical…
 
-**#497 by likes** · ♥ 11 · by [@iniyanai](https://x.com/iniyanai) · [Original post](https://x.com/iniyanai/status/2103814603100856596) · [Watch the video](https://media.skillry.dev/opus-5-5/iniyanai-856596/original.mp4)
+**#525 by likes** · ♥ 11 · by [@iniyanai](https://x.com/iniyanai) · [Original post](https://x.com/iniyanai/status/2103814603100856596) · [Watch the video](https://media.skillry.dev/opus-5-5/iniyanai-856596/original.mp4)
 
 [![Asked claude Opus 5.5 to make an explainer on how a mechanical…](https://media.skillry.dev/opus-5-5/iniyanai-856596/original.2c3bb7862b.webp)](https://x.com/iniyanai/status/2103814603100856596)
 

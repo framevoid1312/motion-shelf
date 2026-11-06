@@ -1,6 +1,6 @@
 # Little Agent Island: Cozy Interactive AI Agent World
 
-**#379 by likes** · ♥ 43 · by [@kinderlayer](https://x.com/kinderlayer) · [Original post](https://x.com/kinderlayer/status/2108936150681305270) · [Watch the video](https://video.twimg.com/amplify_video/2108936078828752896/vid/avc1/720x758/my-Uh_OdXziSygse.mp4)
+**#406 by likes** · ♥ 43 · by [@kinderlayer](https://x.com/kinderlayer) · [Original post](https://x.com/kinderlayer/status/2108936150681305270) · [Watch the video](https://video.twimg.com/amplify_video/2108936078828752896/vid/avc1/720x758/my-Uh_OdXziSygse.mp4)
 
 [![Little Agent Island: Cozy Interactive AI Agent World](https://pbs.twimg.com/amplify_video_thumb/2108936078828752896/img/t37OnJRZKxiZkeuM.jpg)](https://x.com/kinderlayer/status/2108936150681305270)
 

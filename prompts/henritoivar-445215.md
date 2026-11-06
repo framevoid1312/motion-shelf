@@ -1,6 +1,6 @@
 # Opus 5.5 is an absolute BEAST in creating videos. I am extremely…
 
-**#719 by likes** · ♥ 2 · by [@HenriToivar](https://x.com/HenriToivar) · [Original post](https://x.com/HenriToivar/status/2102832525798445215) · [Watch the video](https://media.skillry.dev/opus-5-5/henritoivar-445215/original.mp4)
+**#747 by likes** · ♥ 2 · by [@HenriToivar](https://x.com/HenriToivar) · [Original post](https://x.com/HenriToivar/status/2102832525798445215) · [Watch the video](https://media.skillry.dev/opus-5-5/henritoivar-445215/original.mp4)
 
 [![Opus 5.5 is an absolute BEAST in creating videos. I am extremely…](https://media.skillry.dev/opus-5-5/henritoivar-445215/original.b7d042a6af.webp)](https://x.com/HenriToivar/status/2102832525798445215)
 

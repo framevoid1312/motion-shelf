@@ -1,6 +1,6 @@
 # Can one developer + 3 AI agents build a GTA-style game? I’m trying.…
 
-**#567 by likes** · ♥ 6 · by [@Alex_Vainshtein](https://x.com/Alex_Vainshtein) · [Original post](https://x.com/Alex_Vainshtein/status/2104197450307195332) · [Watch the video](https://media.skillry.dev/opus-5-5/alex-vainshtein-195332/original.mp4)
+**#595 by likes** · ♥ 6 · by [@Alex_Vainshtein](https://x.com/Alex_Vainshtein) · [Original post](https://x.com/Alex_Vainshtein/status/2104197450307195332) · [Watch the video](https://media.skillry.dev/opus-5-5/alex-vainshtein-195332/original.mp4)
 
 [![Can one developer + 3 AI agents build a GTA-style game? I’m trying.…](https://media.skillry.dev/opus-5-5/alex-vainshtein-195332/original.420b38c250.webp)](https://x.com/Alex_Vainshtein/status/2104197450307195332)
 

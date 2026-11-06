@@ -1,6 +1,6 @@
 # <inputs> Ask me for: 8 to 12 UI states I want the shape to become…
 
-**#495 by likes** · ♥ 11 · by [@demonugc](https://x.com/demonugc) · [Original post](https://x.com/demonugc/status/2103526713208525162) · [Watch the video](https://media.skillry.dev/opus-5-5/demonugc-525162/original.mp4)
+**#523 by likes** · ♥ 11 · by [@demonugc](https://x.com/demonugc) · [Original post](https://x.com/demonugc/status/2103526713208525162) · [Watch the video](https://media.skillry.dev/opus-5-5/demonugc-525162/original.mp4)
 
 [![<inputs> Ask me for: 8 to 12 UI states I want the shape to become…](https://media.skillry.dev/opus-5-5/demonugc-525162/original.eb370273ad.webp)](https://x.com/demonugc/status/2103526713208525162)
 

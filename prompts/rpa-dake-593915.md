@@ -1,6 +1,6 @@
 # Claude Opus 5.5 に Remotion のコードを書かせて、検索の歴史を15秒の年表ムービーにしたら、めちゃくちゃアツい🔥…
 
-**#552 by likes** · ♥ 7 · by [@rpa_dake](https://x.com/rpa_dake) · [Original post](https://x.com/rpa_dake/status/2104466394859593915) · [Watch the video](https://media.skillry.dev/opus-5-5/rpa-dake-593915/original.mp4)
+**#580 by likes** · ♥ 7 · by [@rpa_dake](https://x.com/rpa_dake) · [Original post](https://x.com/rpa_dake/status/2104466394859593915) · [Watch the video](https://media.skillry.dev/opus-5-5/rpa-dake-593915/original.mp4)
 
 [![Claude Opus 5.5 に Remotion のコードを書かせて、検索の歴史を15秒の年表ムービーにしたら、めちゃくちゃアツい🔥…](https://media.skillry.dev/opus-5-5/rpa-dake-593915/original.d46bf667dc.webp)](https://x.com/rpa_dake/status/2104466394859593915)
 

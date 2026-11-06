@@ -1,6 +1,6 @@
 # Opus delegates to Haiku: watercolour character motion short
 
-**#220 by likes** · ♥ 341 · by [@kelanoo](https://x.com/kelanoo) · [Original post](https://x.com/kelanoo/status/2108199183983497433) · [Watch the video](https://video.twimg.com/amplify_video/2108197539115945984/vid/avc1/1280x720/U9Gm2eoFjttZ3Ga1.mp4)
+**#225 by likes** · ♥ 341 · by [@kelanoo](https://x.com/kelanoo) · [Original post](https://x.com/kelanoo/status/2108199183983497433) · [Watch the video](https://video.twimg.com/amplify_video/2108197539115945984/vid/avc1/1280x720/U9Gm2eoFjttZ3Ga1.mp4)
 
 [![Opus delegates to Haiku: watercolour character motion short](https://pbs.twimg.com/amplify_video_thumb/2108197539115945984/img/bVy1AhrjPrY9L3fe.jpg)](https://x.com/kelanoo/status/2108199183983497433)
 

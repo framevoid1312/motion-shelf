@@ -1,6 +1,6 @@
 # Product promo video in two aspect ratios
 
-**#245 by likes** · ♥ 279 · by [@aiwarts](https://x.com/aiwarts) · [Original post](https://x.com/aiwarts/status/2103419586964316483) · [Watch the video](https://video.twimg.com/amplify_video/2103419309624324096/vid/avc1/1280x720/xSmIRuJSplNruYBE.mp4)
+**#250 by likes** · ♥ 279 · by [@aiwarts](https://x.com/aiwarts) · [Original post](https://x.com/aiwarts/status/2103419586964316483) · [Watch the video](https://video.twimg.com/amplify_video/2103419309624324096/vid/avc1/1280x720/xSmIRuJSplNruYBE.mp4)
 
 [![Product promo video in two aspect ratios](https://pbs.twimg.com/amplify_video_thumb/2103419309624324096/img/343uJXWtevtZOm2q.jpg)](https://x.com/aiwarts/status/2103419586964316483)
 

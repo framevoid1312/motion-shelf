@@ -1,6 +1,6 @@
 # <inputs> 向我询问：8 到 12 个我希望形状变成的 UI…
 
-**#821 by likes** · ♥ 1 · by [@niebin_gg](https://x.com/niebin_gg) · [Original post](https://x.com/niebin_gg/status/2104481664898621849) · [Watch the video](https://video.twimg.com/amplify_video/2103272964967804928/vid/avc1/720x720/18beFxJGrO4tjaDQ.mp4)
+**#849 by likes** · ♥ 1 · by [@niebin_gg](https://x.com/niebin_gg) · [Original post](https://x.com/niebin_gg/status/2104481664898621849) · [Watch the video](https://video.twimg.com/amplify_video/2103272964967804928/vid/avc1/720x720/18beFxJGrO4tjaDQ.mp4)
 
 [![<inputs> 向我询问：8 到 12 个我希望形状变成的 UI…](https://media.skillry.dev/opus-5-5/_prompts/niebin-gg-621849/poster.2b07dd470e.webp)](https://x.com/niebin_gg/status/2104481664898621849)
 
