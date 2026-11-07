@@ -1,0 +1,1743 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>02:37 · Rain · 2089</title>
+<style>
+  html,body{margin:0;width:100%;height:100%;background:#000;overflow:hidden}
+  canvas{position:absolute;left:0;top:0;image-rendering:pixelated;image-rendering:crisp-edges}
+  body.idle,body.idle *{cursor:none}
+</style>
+</head>
+<body>
+<canvas id="screen" aria-label="Pixel-art animation: a rooftop hut in the rain at 2:37 AM, 2089"></canvas>
+<script>
+"use strict";
+/* ============================================================================
+   02:37 · 2089 — rooftop in the rain.  Pixel-art lo-fi background loop.
+
+   - Internal framebuffer 640x360, every pixel snapped to a fixed 65-colour
+     palette (ordered 4x4 Bayer dither only where effects blend), then
+     nearest-neighbour upscaled by the largest integer that fits
+     (exactly 3x at 1920x1080).
+   - Every animated element is a pure function of  t mod LOOP.  The scene
+     repeats perfectly every LOOP seconds (record one loop and tile it), and
+     nothing accumulates, so it can run for 10+ hours without drift or growth.
+
+   URL options:  ?loop=240   loop length in seconds (30..3600, default 240)
+                 ?scale=3    force an integer scale
+                 ?t=12.5     freeze on a moment
+   Keys: F or double-click toggles fullscreen.  Cursor hides when idle.
+   window.scene.renderAt(t) renders an exact frame (for frame-by-frame capture).
+   ============================================================================ */
+(() => {
+const QS = new URLSearchParams(location.search);
+const W = 640, H = 360, N = W * H;
+const FLOOR = 304, FH = H - FLOOR;
+const LOOP = Math.min(3600, Math.max(30, Math.round(+QS.get("loop") || 240)));
+const FORCE_SCALE = Math.max(0, Math.floor(+QS.get("scale") || 0));
+const FREEZE = QS.has("t") ? (((+QS.get("t") || 0) % LOOP) + LOOP) % LOOP : null;
+const TAU = Math.PI * 2;
+
+/* ------------------------------------------------------------------ palette */
+const HEX = {
+  k0:"04050c",k1:"080a18",k2:"0c1024",k3:"111631",k4:"161d3f",k5:"1c254e",k6:"222e5e",k7:"2a3a72",k8:"344a88",k9:"41609e",
+  t0:"081a22",t1:"0c2630",t2:"11343e",t3:"17454e",t4:"1e5960",t5:"277274",t6:"349090",t7:"4cb0aa",t8:"74d0c4",t9:"aeeee2",
+  v0:"1a1238",v1:"261848",v2:"33205c",v3:"422872",v4:"55308a",
+  m0:"4a1450",m1:"6c1a6c",m2:"921f86",m3:"bd2c9e",m4:"e84cbc",m5:"ff86d8",m6:"ffc4ee",
+  b0:"5a7cc0",b1:"7c9ed8",b2:"a6c2ec",b3:"d4e4fa",b4:"f4f8ff",
+  w0:"1e1010",w1:"2e1814",w2:"44201a",w3:"5e2c1e",w4:"7c3a22",w5:"9c4c24",w6:"bf6428",w7:"e0842e",w8:"f6a83c",w9:"ffc864",wA:"ffe29c",wB:"fff4d6",
+  r0:"5a1020",r1:"8c1a2c",r2:"c82838",r3:"ff4e4e",r4:"ff8a7a",
+  g0:"0c1e16",g1:"163222",g2:"22482e",g3:"3a6a3a",g4:"6a9a4a",
+  n0:"1a1e2a",n1:"262c3a",n2:"343c4e",n3:"48526a",n4:"646e88",n5:"8a94ac"
+};
+const pack = (r, g, b) => (0xff000000 | (b << 16) | (g << 8) | r) >>> 0;
+const C = {}, RGB = {}, PAL = [];
+for (const k in HEX) {
+  const v = parseInt(HEX[k], 16), r = v >> 16, g = (v >> 8) & 255, b = v & 255;
+  C[k] = pack(r, g, b); RGB[k] = [r, g, b]; PAL.push([r, g, b]);
+}
+// 15-bit colour -> nearest palette colour (perceptual "redmean" metric)
+const NOBLEND = Object.keys(HEX).map(k => k[0] === "g");
+const LUT = new Uint32Array(32768);
+for (let i = 0; i < 32768; i++) {
+  const r = ((i >> 10) & 31) * 8 + 4, g = ((i >> 5) & 31) * 8 + 4, b = (i & 31) * 8 + 4;
+  let best = 0, bd = Infinity;
+  for (let p = 0; p < PAL.length; p++) {
+    if (NOBLEND[p]) continue;
+    const q = PAL[p], rm = (r + q[0]) * 0.5, dr = r - q[0], dg = g - q[1], db = b - q[2];
+    const d = (2 + rm / 256) * dr * dr + 4 * dg * dg + (2 + (255 - rm) / 256) * db * db;
+    if (d < bd) { bd = d; best = p; }
+  }
+  LUT[i] = pack(PAL[best][0], PAL[best][1], PAL[best][2]);
+}
+for (const q of PAL) LUT[((q[0] >> 3) << 10) | ((q[1] >> 3) << 5) | (q[2] >> 3)] = pack(q[0], q[1], q[2]);
+const BAYER = [0, 8, 2, 10, 12, 4, 14, 6, 3, 11, 1, 9, 15, 7, 13, 5];
+const DITH = new Int16Array(16);
+for (let i = 0; i < 16; i++) DITH[i] = Math.round(((BAYER[i] + 0.5) / 16 - 0.5) * 17);
+
+/* ------------------------------------------------------------------ buffers */
+const fb = new Uint32Array(N);      // working colour buffer (packed ABGR)
+const fx = new Uint8Array(N);       // 1 = pixel was blended -> dither on quantize
+const low = document.createElement("canvas"); low.width = W; low.height = H;
+const lctx = low.getContext("2d");
+const imgData = lctx.createImageData(W, H);
+const out32 = new Uint32Array(imgData.data.buffer);
+
+/* --------------------------------------------------------------- primitives */
+let T = fb;
+function px(x, y, c) {
+  x = Math.floor(x); y = Math.floor(y);
+  if (x < 0 || y < 0 || x >= W || y >= H) return;
+  const i = y * W + x; T[i] = c; if (T === fb) fx[i] = 0;
+}
+function rect(x, y, w, h, c) {
+  x = Math.round(x); y = Math.round(y);
+  const x0 = Math.max(0, x), y0 = Math.max(0, y), x1 = Math.min(W, x + w), y1 = Math.min(H, y + h);
+  if (x1 <= x0) return;
+  for (let j = y0; j < y1; j++) { const o = j * W; T.fill(c, o + x0, o + x1); if (T === fb) fx.fill(0, o + x0, o + x1); }
+}
+function hl(x0, x1, y, c) { if (x1 < x0) { const s = x0; x0 = x1; x1 = s; } rect(x0, y, x1 - x0 + 1, 1, c); }
+function vl(x, y0, y1, c) { if (y1 < y0) { const s = y0; y0 = y1; y1 = s; } rect(x, y0, 1, y1 - y0 + 1, c); }
+function linePts(x0, y0, x1, y1, cb) {
+  x0 = Math.round(x0); y0 = Math.round(y0); x1 = Math.round(x1); y1 = Math.round(y1);
+  const dx = Math.abs(x1 - x0), dy = -Math.abs(y1 - y0), sx = x0 < x1 ? 1 : -1, sy = y0 < y1 ? 1 : -1;
+  let e = dx + dy;
+  for (;;) {
+    cb(x0, y0);
+    if (x0 === x1 && y0 === y1) break;
+    const e2 = 2 * e;
+    if (e2 >= dy) { e += dy; x0 += sx; }
+    if (e2 <= dx) { e += dx; y0 += sy; }
+  }
+}
+function line(x0, y0, x1, y1, c) {
+  x0 = Math.round(x0); y0 = Math.round(y0); x1 = Math.round(x1); y1 = Math.round(y1);
+  const dx = Math.abs(x1 - x0), dy = -Math.abs(y1 - y0), sx = x0 < x1 ? 1 : -1, sy = y0 < y1 ? 1 : -1;
+  let e = dx + dy;
+  for (;;) {
+    px(x0, y0, c);
+    if (x0 === x1 && y0 === y1) break;
+    const e2 = 2 * e;
+    if (e2 >= dy) { e += dy; x0 += sx; }
+    if (e2 <= dx) { e += dx; y0 += sy; }
+  }
+}
+function drect(x, y, w, h, c, lvl) {
+  for (let j = y; j < y + h; j++) for (let i = x; i < x + w; i++) if (BAYER[(j & 3) * 4 + (i & 3)] < lvl) px(i, j, c);
+}
+function disc(cx, cy, r, c) { for (let j = -r; j <= r; j++) for (let i = -r; i <= r; i++) if (i * i + j * j <= r * r + r * 0.8) px(cx + i, cy + j, c); }
+function ring(cx, cy, r, c) {
+  let x = r, y = 0, e = 1 - r;
+  while (x >= y) {
+    px(cx + x, cy + y, c); px(cx + y, cy + x, c); px(cx - y, cy + x, c); px(cx - x, cy + y, c);
+    px(cx - x, cy - y, c); px(cx - y, cy - x, c); px(cx + y, cy - x, c); px(cx + x, cy - y, c);
+    y++; if (e < 0) e += 2 * y + 1; else { x--; e += 2 * (y - x) + 1; }
+  }
+}
+function spr(x, y, rows, map) {
+  for (let j = 0; j < rows.length; j++) { const s = rows[j]; for (let i = 0; i < s.length; i++) { const c = map[s[i]]; if (c) px(x + i, y + j, c); } }
+}
+const FONT = {
+  A:"010101111101101",B:"110101110101110",C:"011100100100011",D:"110101101101110",E:"111100110100111",F:"111100110100100",
+  G:"011100101101011",H:"101101111101101",I:"111010010010111",J:"001001001101010",K:"101101110101101",L:"100100100100111",
+  M:"101111111101101",N:"110101101101101",O:"010101101101010",P:"110101110100100",Q:"010101101110011",R:"110101110101101",
+  S:"011100010001110",T:"111010010010010",U:"101101101101111",V:"101101101101010",W:"101101111111101",X:"101101010101101",
+  Y:"101101010010010",Z:"111001010100111","0":"111101101101111","1":"010110010010111","2":"110001010100111",
+  "3":"110001010001110","4":"101101111001001","5":"111100110001110","6":"011100111101111","7":"111001010010010",
+  "8":"111101111101111","9":"111101111001110","-":"000000111000000",".":"000000010000000"," ":"000000000000000",
+  ":":"000010000010000","*":"000101010101000"
+};
+function txt(x, y, s, c, sc = 1) {
+  for (let k = 0; k < s.length; k++) {
+    const g = FONT[s[k]]; if (!g) continue;
+    for (let j = 0; j < 5; j++) for (let i = 0; i < 3; i++) if (g[j * 3 + i] === "1") rect(x + (k * 4 + i) * sc, y + j * sc, sc, sc, c);
+  }
+}
+
+/* -------------------------------------------- blending (always into fb) */
+function addI(i, r, g, b) {
+  const d = fb[i];
+  let R = (d & 255) + r, G = ((d >> 8) & 255) + g, B = ((d >> 16) & 255) + b;
+  R = R > 255 ? 255 : R < 0 ? 0 : R; G = G > 255 ? 255 : G < 0 ? 0 : G; B = B > 255 ? 255 : B < 0 ? 0 : B;
+  fb[i] = (0xff000000 | (B << 16) | (G << 8) | R) >>> 0; fx[i] = 1;
+}
+function addP(x, y, r, g, b) {
+  x = Math.round(x); y = Math.round(y);
+  if (x < 0 || y < 0 || x >= W || y >= H) return;
+  addI(y * W + x, r, g, b);
+}
+function mixI(i, c, a) {
+  const d = fb[i], dr = d & 255, dg = (d >> 8) & 255, db = (d >> 16) & 255;
+  const cr = c & 255, cg = (c >> 8) & 255, cb = (c >> 16) & 255;
+  fb[i] = (0xff000000 | ((db + (cb - db) * a) << 16) | ((dg + (cg - dg) * a) << 8) | (dr + (cr - dr) * a)) >>> 0; fx[i] = 1;
+}
+function mixP(x, y, c, a) {
+  x = Math.round(x); y = Math.round(y);
+  if (x < 0 || y < 0 || x >= W || y >= H || a <= 0) return;
+  mixI(y * W + x, c, a > 1 ? 1 : a);
+}
+function mixC(c0, c1, v) {
+  const r = (c0 & 255) + ((c1 & 255) - (c0 & 255)) * v, g = ((c0 >> 8) & 255) + (((c1 >> 8) & 255) - ((c0 >> 8) & 255)) * v,
+    b = ((c0 >> 16) & 255) + (((c1 >> 16) & 255) - ((c0 >> 16) & 255)) * v;
+  return pack(r | 0, g | 0, b | 0);
+}
+
+/* ------------------------------------------------- time, hashing, noise */
+const kc = p => Math.max(1, Math.round(LOOP / p));                 // whole cycles per loop
+function ph(t, p, o = 0) { const u = t * kc(p) / LOOP + o; return u - Math.floor(u); }
+function osc(t, p, o = 0) { return Math.sin(TAU * ph(t, p, o)); }
+function hash(n) {
+  n |= 0; n = Math.imul(n ^ (n >>> 16), 0x7feb352d); n = Math.imul(n ^ (n >>> 15), 0x846ca68b); n ^= n >>> 16;
+  return (n >>> 0) / 4294967296;
+}
+function h2(a, b) { return hash(Math.imul(a | 0, 0x9E3779B1) ^ Math.imul((b | 0) + 0x632BE5AB, 0x85EBCA77)); }
+function h3(a, b, c) { return hash(Math.imul(a | 0, 0x9E3779B1) ^ Math.imul((b | 0) + 0x632BE5AB, 0x85EBCA77) ^ Math.imul((c | 0) + 0x1B873593, 0xC2B2AE3D)); }
+// Looping noise. Each seed gets its own slot phase, so no two elements change state
+// on the same frame and nothing "pops" when t wraps from LOOP back to 0.
+function vnoise(t, rate, s) {           // smooth, ~rate keys / second
+  const n = Math.max(1, Math.round(LOOP * rate)), u = t * n / LOOP + hash(s ^ 0x5bd1e995), i = Math.floor(u), f = u - i;
+  const a = h2(s, i % n), b = h2(s, (i + 1) % n), e = f * f * (3 - 2 * f);
+  return a + (b - a) * e;
+}
+function snoise(t, rate, s) {           // stepped, ~rate changes / second
+  const n = Math.max(1, Math.round(LOOP * rate));
+  return h2(s, Math.floor(t * n / LOOP + hash(s ^ 0x5bd1e995)) % n);
+}
+function neon(t, s, health) {           // irregular neon flicker, 0..1
+  const hum = 0.86 + 0.14 * vnoise(t, 3.3, s);
+  if (snoise(t, 1.6, s + 1) > health) { const q = snoise(t, 21, s + 2); return q < 0.5 ? 0.05 : hum * (0.55 + 0.45 * q); }
+  if (health < 0.9 && snoise(t, 0.07, s + 3) > 0.8) return snoise(t, 9, s + 4) > 0.8 ? hum * 0.7 : 0.05;
+  return hum;
+}
+function wind(t) { return 0.17 + 0.06 * osc(t, 41) + 0.035 * osc(t, 17, 0.37) + 0.02 * osc(t, 7.3, 0.71); }
+
+function mulberry(a) {
+  return function () {
+    a |= 0; a = (a + 0x6D2B79F5) | 0;
+    let t = Math.imul(a ^ (a >>> 15), 1 | a);
+    t = (t + Math.imul(t ^ (t >>> 7), 61 | t)) ^ t;
+    return ((t ^ (t >>> 14)) >>> 0) / 4294967296;
+  };
+}
+let rnd = mulberry(1);
+const R = (a, b) => a + (b - a) * rnd();
+const RI = (a, b) => Math.floor(a + (b - a + 1) * rnd());
+const pick = arr => arr[Math.floor(rnd() * arr.length)];
+
+function makeNoise(w, h, cell, oct, seed) {      // fBm value noise, tileable in x
+  const out = new Float32Array(w * h); let amp = 1, tot = 0;
+  for (let o = 0; o < oct; o++) {
+    const cs = cell / (1 << o); if (cs < 2) break;
+    const gx = Math.max(1, Math.round(w / cs)), gy = Math.ceil(h / cs) + 2, csx = w / gx;
+    const g = new Float32Array(gx * gy), r = mulberry(seed * 977 + o * 131);
+    for (let i = 0; i < g.length; i++) g[i] = r();
+    for (let y = 0; y < h; y++) {
+      const fyv = y / cs, iy = Math.floor(fyv); let ty = fyv - iy; ty = ty * ty * (3 - 2 * ty);
+      for (let x = 0; x < w; x++) {
+        const fxv = x / csx, ix = Math.floor(fxv); let tx = fxv - ix; tx = tx * tx * (3 - 2 * tx);
+        const x0 = ix % gx, x1 = (ix + 1) % gx;
+        const a = g[iy * gx + x0], b = g[iy * gx + x1], c = g[(iy + 1) * gx + x0], d = g[(iy + 1) * gx + x1];
+        out[y * w + x] += amp * ((a + (b - a) * tx) * (1 - ty) + (c + (d - c) * tx) * ty);
+      }
+    }
+    tot += amp; amp *= 0.5;
+  }
+  for (let i = 0; i < out.length; i++) out[i] /= tot;
+  return out;
+}
+
+/* ---------------------------------------------------------- layers */
+function runsOf(layer) {
+  const r = [];
+  for (let y = 0; y < H; y++) {
+    const o = y * W; let x = 0;
+    while (x < W) {
+      while (x < W && layer[o + x] === 0) x++;
+      if (x >= W) break;
+      const s = x; while (x < W && layer[o + x] !== 0) x++;
+      r.push(o + s, o + x);
+    }
+  }
+  return Int32Array.from(r);
+}
+function blit(L) {
+  const d = L.d, rr = L.r;
+  for (let k = 0; k < rr.length; k += 2) {
+    const s = rr[k], e = rr[k + 1];
+    for (let i = s; i < e; i++) fb[i] = d[i];
+    fx.fill(0, s, e);
+  }
+}
+const layer = d => ({ d, r: runsOf(d) });
+
+/* ---------------------------------------------------------- glow */
+function kRect(x0, y0, x1, y1, rad, inside = 0, sy = 1) {
+  const idx = [], f = [], ry = Math.ceil(rad * sy);
+  for (let y = y0 - ry; y <= y1 + ry; y++) {
+    if (y < 0 || y >= H) continue;
+    for (let x = x0 - rad; x <= x1 + rad; x++) {
+      if (x < 0 || x >= W) continue;
+      const dx = x < x0 ? x0 - x : x > x1 ? x - x1 : 0, dy = (y < y0 ? y0 - y : y > y1 ? y - y1 : 0) / sy;
+      let v;
+      if (dx === 0 && dy === 0) v = inside;
+      else { const d = Math.sqrt(dx * dx + dy * dy) / rad; if (d >= 1) continue; v = (1 - d) * (1 - d); }
+      if (v < 0.012) continue;
+      idx.push(y * W + x); f.push(v);
+    }
+  }
+  return { idx: Int32Array.from(idx), f: Float32Array.from(f) };
+}
+function glowK(k, rgb, I) {
+  if (I <= 0.004) return;
+  const r = rgb[0] * I, g = rgb[1] * I, b = rgb[2] * I, idx = k.idx, f = k.f;
+  for (let n = 0; n < idx.length; n++) { const v = f[n]; addI(idx[n], r * v, g * v, b * v); }
+}
+function glowP(cx, cy, rad, rgb, I, sy = 1) {
+  if (I <= 0.004) return;
+  cx = Math.round(cx); cy = Math.round(cy);
+  const Rx = Math.ceil(rad), Ry = Math.ceil(rad * sy);
+  for (let dy = -Ry; dy <= Ry; dy++) {
+    const y = cy + dy; if (y < 0 || y >= H) continue;
+    const ny = dy / sy;
+    for (let dx = -Rx; dx <= Rx; dx++) {
+      const x = cx + dx; if (x < 0 || x >= W) continue;
+      const d = Math.sqrt(dx * dx + ny * ny) / rad; if (d >= 1) continue;
+      const v = (1 - d) * (1 - d) * I;
+      addI(y * W + x, rgb[0] * v, rgb[1] * v, rgb[2] * v);
+    }
+  }
+}
+
+/* =========================================================================
+   SCENE BUILD — static pixel art, drawn once into layers
+   ========================================================================= */
+const BEACONS = [], FARWIN = [], FANS = [], MIDWIN = [], CORL = [];
+
+/* ---- sky ---- */
+const SKY = new Uint32Array(N);
+(function () {
+  T = SKY;
+  const st = [[0, "k1"], [44, "k2"], [94, "k3"], [134, "k4"], [166, "v0"], [198, "v1"], [228, "v2"], [258, "v3"], [292, "m0"], [360, "m0"]];
+  for (let y = 0; y < H; y++) {
+    let s = 0; while (s < st.length - 2 && y >= st[s + 1][0]) s++;
+    const y0 = st[s][0], y1 = st[s + 1][0], c0 = C[st[s][1]], c1 = C[st[s + 1][1]];
+    let f = (y - y0) / (y1 - y0); f = Math.min(1, Math.max(0, (f - 0.25) / 0.5));
+    for (let x = 0; x < W; x++) T[y * W + x] = (BAYER[(y & 3) * 4 + (x & 3)] + 0.5) / 16 < f ? c1 : c0;
+  }
+})();
+
+/* ---- clouds: low overcast, lit from below by the city ---- */
+const CLOUD_H = 124, CLOUD = new Uint32Array(W * CLOUD_H);
+(function () {
+  const n = makeNoise(W, CLOUD_H + 4, 80, 4, 31);
+  const den = (x, y) => n[y * W + x] + 0.24 * (1 - y / CLOUD_H) - 0.05 - 0.3 * Math.max(0, (y - 80) / 44);
+  for (let y = 0; y < CLOUD_H; y++) for (let x = 0; x < W; x++) {
+    const d = den(x, y); if (d < 0.5) continue;
+    const below = den(x, Math.min(CLOUD_H + 3, y + 4)), bay = (BAYER[(y & 3) * 4 + (x & 3)] + 0.5) / 16;
+    let c;
+    if (below < 0.5 && y > 36 && bay < 0.5) c = C.v1;
+    else if (d > 0.7 + bay * 0.05) c = C.k5;
+    else if (d > 0.58 + bay * 0.05) c = C.k4;
+    else c = bay < (d - 0.5) / 0.08 ? C.k3 : C.k2;
+    CLOUD[y * W + x] = c;
+  }
+})();
+
+/* ---- far skyline 1 (hazy megatowers) ---- */
+const FAR1d = new Uint32Array(N);
+(function () {
+  T = FAR1d; rnd = mulberry(101);
+  let x = 150;
+  while (x < W + 10) {
+    const w = RI(9, 26), cdist = Math.abs(x + w / 2 - 360) / 300;
+    const top = Math.round(R(24, 64) + cdist * R(14, 46));
+    rect(x, top, w, H - top, C.k4); vl(x, top, H - 1, C.k5);
+    if (rnd() < 0.4) { const sw = Math.max(3, w - RI(4, 8)); rect(x + ((w - sw) >> 1), top - RI(3, 9), sw, 10, C.k4); }
+    for (let yy = top + 3; yy < 250; yy += 3) for (let xx = x + 2; xx < x + w - 1; xx += 2)
+      if (rnd() < 0.085) px(xx, yy, pick([C.t3, C.t3, C.t4, C.w4, C.k6, C.v2]));
+    if (rnd() < 0.32) { const ax = x + RI(2, w - 3), ah = RI(4, 13); vl(ax, top - ah - 8, top - 1, C.k4); BEACONS.push({ x: ax, y: top - ah - 9, p: R(1.6, 2.8), o: rnd(), r: 0 }); }
+    x += w + RI(-3, 2);
+  }
+  // the spire
+  const cx = 476;
+  for (let y = 4; y < H; y++) {
+    const hw = y < 30 ? Math.round((y - 4) / 9) : y < 62 ? 3 + Math.round((y - 30) / 10) : 6 + Math.round((y - 62) / 14);
+    rect(cx - hw, y, hw * 2 + 1, 1, C.k4); px(cx - hw, y, C.k6); px(cx + hw, y, C.k3);
+  }
+  for (const ry of [34, 63, 92]) {
+    const rw = ry === 34 ? 9 : ry === 63 ? 13 : 16;
+    hl(cx - rw, cx + rw, ry, C.k6); hl(cx - rw + 1, cx + rw - 1, ry + 1, C.k5);
+    for (let k = cx - rw + 1; k < cx + rw; k += 3) px(k, ry + 1, C.t5);
+  }
+  for (let y = 12; y < 130; y += 4) px(cx, y, y % 8 ? C.t4 : C.t5);
+  BEACONS.push({ x: cx, y: 3, p: 2.0, o: 0, r: 1 });
+})();
+const FAR1 = layer(FAR1d);
+
+/* ---- far skyline 2 ---- */
+const FAR2d = new Uint32Array(N);
+(function () {
+  T = FAR2d; rnd = mulberry(202);
+  let x = 150;
+  while (x < W + 10) {
+    const w = RI(16, 44);
+    const top = (x > 160 && x < 300) ? RI(96, 156) : RI(70, 140);
+    rect(x, top, w, H - top, C.k2); vl(x + w - 1, top, H - 1, C.k3); hl(x, x + w - 1, top, C.k3); vl(x, top, H - 1, C.v0);
+    const rr = rnd();
+    if (rr < 0.28) { const tx = x + RI(2, Math.max(2, w - 8)); rect(tx, top - 5, 6, 5, C.k2); hl(tx, tx + 5, top - 5, C.k3); vl(tx + 1, top - 1, top, C.k1); }
+    else if (rr < 0.48) { const ax = x + RI(1, w - 2), ah = RI(5, 14); vl(ax, top - ah, top, C.k3); BEACONS.push({ x: ax, y: top - ah - 1, p: R(1.5, 3), o: rnd(), r: 0 }); }
+    else if (rr < 0.62 && w > 14) {
+      const bw = Math.min(w - 2, RI(10, 20)), bx = x + 1, by = top - 10;
+      rect(bx, by, bw, 7, C.k1); rect(bx + 1, by + 1, bw - 2, 5, pick([C.m1, C.t3, C.v2, C.w3, C.t4]));
+      vl(bx + 2, by + 7, top - 1, C.k1); vl(bx + bw - 3, by + 7, top - 1, C.k1);
+    }
+    if (rnd() < 0.32) { const sx = rnd() < 0.5 ? x + 1 : x + w - 2, sy = top + RI(2, 8); vl(sx, sy, sy + RI(14, 50), pick([C.m2, C.t5, C.m3, C.t6])); }
+    const dens = R(0.07, 0.24);
+    for (let yy = top + 4; yy < 282; yy += 4) for (let xx = x + 2; xx < x + w - 3; xx += 3) {
+      if (rnd() < dens) {
+        const c = pick([C.w5, C.w6, C.w6, C.w7, C.t4, C.t5, C.k6, C.m1]);
+        px(xx, yy, c); px(xx + 1, yy, c);
+        if (rnd() < 0.2) FARWIN.push({ x: xx, y: yy, s: RI(1, 1e6) });
+      }
+    }
+    x += w + RI(-5, 6);
+  }
+})();
+const FAR2 = layer(FAR2d);
+
+/* ---- elevated railway ---- */
+const VIAd = new Uint32Array(N), VIA2d = new Uint32Array(N);
+(function () {
+  T = VIAd;
+  for (let x = 196; x < W; x += 92) { rect(x, 94, 7, H - 94, C.k3); vl(x, 94, H - 1, C.k5); rect(x - 3, 93, 13, 3, C.k3); hl(x - 3, x + 9, 93, C.k5); }
+  hl(0, W - 1, 86, C.k8); hl(0, W - 1, 87, C.k6); rect(0, 88, W, 4, C.k5); hl(0, W - 1, 92, C.k3); hl(0, W - 1, 93, C.k2);
+  for (let x = 0; x < W; x += 16) vl(x, 88, 91, C.k4);
+  for (let x = 8; x < W; x += 32) px(x, 92, C.t5);
+  T = VIA2d;
+  for (let x = 10; x < W; x += 46) { vl(x, 68, 85, C.k4); hl(x, x + 4, 68, C.k4); }
+  hl(0, W - 1, 69, C.k1);
+})();
+const VIA = layer(VIAd), VIA2 = layer(VIA2d);
+
+/* ---- midground: building A (left), B (centre, behind hut), C (right) ---- */
+const MIDd = new Uint32Array(N);
+function win(x, y, w, h, type) {
+  rect(x - 1, y - 1, w + 2, h + 2, C.k2);
+  hl(x - 2, x + w + 1, y + h + 1, C.k7); hl(x - 2, x + w + 1, y + h + 2, C.k3);
+  if (type === 0) {                                   // dark glass
+    rect(x, y, w, h, C.k3);
+    for (let i = 0; i < h; i++) { const xx = x + w - 3 - i; if (xx >= x) px(xx, y + i, C.k5); if (xx - 2 >= x && !(i & 1)) px(xx - 2, y + i, C.k4); }
+    hl(x, x + w - 1, y, C.k2); vl(x + (w >> 1), y, y + h - 1, C.k2);
+  } else if (type === 1 || type === 2) {              // warm room / blinds
+    rect(x, y, w, h, C.w6); rect(x + 3, y + 2, w - 6, h - 4, C.w7); hl(x, x + w - 1, y, C.w4);
+    if (type === 2) for (let j = y + 1; j < y + h; j += 2) hl(x, x + w - 1, j, C.w4);
+    else {
+      rect(x, y, 3, h, C.w4); vl(x + 1, y + 1, y + h - 1, C.w3); rect(x + w - 3, y, 3, h, C.w4); vl(x + w - 2, y + 1, y + h - 1, C.w3);
+      const q = rnd();
+      if (q < 0.3) { const p0 = x + 5; rect(p0, y + h - 3, 3, 3, C.w2); px(p0 + 1, y + h - 4, C.g1); px(p0, y + h - 5, C.g1); px(p0 + 2, y + h - 5, C.g1); px(p0 + 1, y + h - 6, C.g1); }
+      else if (q < 0.5) { const lx = x + (w >> 1) + 3; vl(lx, y, y + 2, C.w3); px(lx, y + 3, C.wA); }
+      else if (q < 0.65) { hl(x + 4, x + w - 5, y + 6, C.w3); px(x + 5, y + 5, C.r1); px(x + 6, y + 5, C.t3); px(x + 8, y + 4, C.g2); }
+    }
+    vl(x + (w >> 1), y, y + h - 1, C.w3);
+  } else if (type === 3) {                            // cool room (screen light)
+    rect(x, y, w, h, C.t1); rect(x + 3, y + 3, w - 6, h - 5, C.t2); vl(x + (w >> 1), y, y + h - 1, C.k2);
+  } else {                                            // violet neon room
+    rect(x, y, w, h, C.v2); rect(x + 2, y + 2, w - 4, h - 4, C.v3); px(x + 3, y + 3, C.m3); px(x + 4, y + 3, C.m2); vl(x + (w >> 1), y, y + h - 1, C.v1);
+  }
+}
+function acUnit(x, y) {
+  rect(x, y, 12, 10, C.n2); hl(x, x + 11, y, C.n3); vl(x + 11, y, y + 9, C.n1); hl(x, x + 11, y + 9, C.n1);
+  for (let j = -3; j <= 3; j++) for (let i = -3; i <= 3; i++) { const d = i * i + j * j; if (d <= 10) px(x + 5 + i, y + 5 + j, d >= 7 ? C.n1 : C.k1); }
+  vl(x + 10, y + 2, y + 7, C.n1); px(x + 1, y + 10, C.k2); px(x + 10, y + 10, C.k2);
+  FANS.push({ x: x + 5, y: y + 5, r: 2, p: R(1.3, 2.6), o: rnd(), lx: x + 9, ly: y + 1, s: RI(1, 999), big: 0 });
+}
+function vending(x, y) {           // 14 x 22
+  rect(x, y, 14, 22, C.n4); vl(x, y, y + 21, C.n5); vl(x + 13, y, y + 21, C.n3); hl(x, x + 13, y, C.n5);
+  rect(x + 2, y + 2, 10, 11, C.b3);
+  const cans = [C.r2, C.t6, C.w8, C.g4, C.m4, C.b0];
+  for (let j = 0; j < 3; j++) for (let i = 0; i < 5; i++) px(x + 3 + i * 2, y + 4 + j * 3, cans[(i + j * 2) % cans.length]);
+  rect(x + 2, y + 14, 10, 6, C.k3); rect(x + 3, y + 17, 6, 2, C.k1); px(x + 10, y + 15, C.r3);
+}
+// neon tube letters (polylines on a 4x6 grid) and generated glyphs (4x4 grid)
+const NEONF = {
+  H: [[0, 0, 0, 6], [4, 0, 4, 6], [0, 3, 4, 3]],
+  O: [[1, 0, 3, 0], [4, 1, 4, 5], [3, 6, 1, 6], [0, 5, 0, 1], [3, 0, 4, 1], [4, 5, 3, 6], [1, 6, 0, 5], [0, 1, 1, 0]],
+  T: [[0, 0, 4, 0], [2, 0, 2, 6]],
+  E: [[4, 0, 0, 0], [0, 0, 0, 6], [0, 6, 4, 6], [0, 3, 3, 3]],
+  L: [[0, 0, 0, 6], [0, 6, 4, 6]]
+};
+function tube(segs, ox, oy, sc) {
+  const core = new Set();
+  for (const s of segs) linePts(ox + s[0] * sc, oy + s[1] * sc, ox + s[2] * sc, oy + s[3] * sc, (x, y) => core.add(y * W + x));
+  const halo = new Set();
+  for (const i of core) for (const d of [-1, 1, -W, W]) if (!core.has(i + d)) halo.add(i + d);
+  return { core: Int32Array.from(core), halo: Int32Array.from(halo) };
+}
+function genGlyph(r) {
+  const segs = [];
+  if (r() < 0.5) { const c = r() < 0.5 ? 1 : 2; segs.push([c, 0, c, 3]); } else { const rr = r() < 0.5 ? 1 : 2; segs.push([0, rr, 3, rr]); }
+  const n = 2 + Math.floor(r() * 3);
+  for (let i = 0; i < n; i++) {
+    const k = r();
+    if (k < 0.4) { const rr = Math.floor(r() * 4), a = Math.floor(r() * 3), b = a + 1 + Math.floor(r() * (3 - a)); segs.push([a, rr, b, rr]); }
+    else if (k < 0.8) { const cc = Math.floor(r() * 4), a = Math.floor(r() * 3), b = a + 1 + Math.floor(r() * (3 - a)); segs.push([cc, a, cc, b]); }
+    else { const a = Math.floor(r() * 2), b = Math.floor(r() * 2); segs.push(r() < 0.5 ? [a, b, a + 2, b + 2] : [a + 2, b, a, b + 2]); }
+  }
+  return segs;
+}
+const HOTEL = [], GLYPHS = [], SIGN_OUT = [];
+(function () {
+  T = MIDd; rnd = mulberry(303);
+  /* ---------- Building A ---------- */
+  rect(0, 0, 166, 286, C.k4);
+  for (let i = 0; i < 260; i++) px(RI(0, 165), RI(0, 285), C.k3);
+  for (let i = 0; i < 46; i++) { const x = RI(4, 164), y0 = RI(0, 270), l = RI(6, 22); for (let y = y0; y < y0 + l; y++) if ((y + x) & 1) px(x, y, C.k3); }
+  for (const x of [36, 72, 108]) vl(x, 0, 285, C.k3);
+  for (let r = 0; r <= 8; r++) { const y = 4 + 28 * r; hl(0, 165, y, C.k6); hl(0, 165, y + 1, C.k3); }
+  rect(166, 0, 6, 286, C.k2); vl(166, 0, 285, C.k3); vl(171, 0, 285, C.k1);
+  vl(2, 0, 285, C.n1); vl(3, 0, 285, C.n2); for (let y = 14; y < 286; y += 36) hl(1, 5, y, C.n3);
+  const AX = [8, 44, 80, 116];
+  const special = { "2,1": "tv", "6,3": "tv", "1,2": "tog", "3,0": "tog", "4,3": "tog", "5,1": "tog", "7,2": "tog", "3,2": "walk", "6,0": "walk", "5,3": "curt" };
+  for (let r = 0; r < 8; r++) for (let c = 0; c < 4; c++) {
+    const x = AX[c], y = 10 + 28 * r, sp = special[r + "," + c];
+    let type;
+    if (sp === "tv") type = 3; else if (sp) type = 1;
+    else { const q = rnd(); type = q < 0.46 ? 0 : q < 0.72 ? 1 : q < 0.84 ? 2 : q < 0.93 ? 4 : 3; }
+    win(x, y, 20, 14, type);
+    if (sp) MIDWIN.push({ x, y, w: 20, h: 14, mode: sp, s: r * 7 + c * 13 + 5 });
+  }
+  for (const p of [[30, 42], [102, 70], [66, 126], [30, 154], [102, 182], [66, 210]]) acUnit(p[0], p[1]);
+  // vertical neon sign
+  rect(142, 58, 22, 141, C.k1);
+  hl(142, 163, 58, C.k3); hl(142, 163, 198, C.k3); vl(142, 58, 198, C.k3); vl(163, 58, 198, C.k3);
+  rect(139, 62, 3, 3, C.n2); rect(139, 192, 3, 3, C.n2);
+  for (let x = 144; x <= 161; x++) { SIGN_OUT.push(60 * W + x, 196 * W + x); }
+  for (let y = 61; y <= 195; y++) { SIGN_OUT.push(y * W + 144, y * W + 161); }
+  for (const i of SIGN_OUT) T[i] = C.t2;
+  const gr = mulberry(616);
+  for (let g = 0; g < 6; g++) {
+    const tb = tube(genGlyph(gr), 148, 64 + g * 22, 3);
+    GLYPHS.push(tb); for (const i of tb.core) T[i] = C.m0;
+  }
+  rect(147, 200, 9, 6, C.n2); hl(147, 155, 200, C.n3); px(153, 202, C.g3); hl(140, 146, 203, C.k1); vl(151, 206, 215, C.k1);
+  // ramen shop
+  rect(10, 229, 66, 14, C.r0); rect(11, 230, 64, 12, C.r1);
+  txt(16, 232, "RAMEN", C.w9, 2);
+  spr(58, 232, [
+    "..w....w..",
+    "...w..w...",
+    "wwwwwwwwww",
+    ".wwwwwwww.",
+    "..wwwwww..",
+    "...wwww..."], { w: C.w9 });
+  rect(112, 230, 7, 6, C.n2); for (let y = 231; y < 236; y += 2) hl(113, 117, y, C.n1);
+  for (let x = 0; x <= 140; x++) { const c = ((x >> 3) & 1) ? C.r1 : C.r0; vl(x, 244, 249, c); const m = x & 7; if (m > 0 && m < 7) px(x, 250, c); if (m > 1 && m < 6) px(x, 251, c); }
+  hl(0, 140, 244, C.r2);
+  rect(0, 252, 141, 34, C.w6); rect(0, 252, 141, 8, C.w5);
+  for (let x = 6; x < 136; x += 9) { hl(x, x + 6, 256, C.w3); px(x + 1, 255, C.g3); px(x + 3, 255, C.r2); px(x + 5, 255, C.t5); }
+  hl(0, 140, 270, C.w4); rect(0, 271, 141, 15, C.w2); for (let x = 3; x < 141; x += 7) vl(x, 271, 285, C.w1);
+  spr(28, 260, [".kkk.", "kkkkk", "kkkkk", ".kkk.", "kkkkk", "kkkkkk", "kkkkkkk", "kkkkkkk", "kkkkkkk", "kkkkkkk"], { k: C.w1 });
+  spr(52, 259, [".kkk.", "kkkkk", "kkkkk", ".kkk.", "kkkkkk", "kkkkkkk", "kkkkkkk", "kkkkkkk", "kkkkkkk", "kkkkkkk", "kkkkkkk"], { k: C.w1 });
+  for (let x = 96; x < 126; x++) { if ((x - 96) % 8 === 7) continue; vl(x, 252, 262, C.r1); }
+  disc(110, 257, 2, C.w8);
+  for (let x = 32; x < 141; x += 32) vl(x, 252, 285, C.w2);
+  /* ---------- Building B ---------- */
+  rect(290, 133, 258, 153, C.k5);
+  for (let i = 0; i < 300; i++) px(RI(290, 547), RI(135, 285), C.k4);
+  hl(288, 549, 130, C.k8); hl(288, 549, 131, C.k7); rect(288, 132, 262, 2, C.k4);
+  for (let x = 322; x < 548; x += 32) vl(x, 134, 285, C.k4);
+  for (let y = 158; y < 286; y += 26) { hl(290, 547, y, C.k6); hl(290, 547, y + 1, C.k4); }
+  for (const y of [140, 166]) for (let x = 372; x < 538; x += 18) {
+    const q = rnd(); const type = q < 0.42 ? 0 : q < 0.7 ? 1 : q < 0.82 ? 2 : q < 0.92 ? 3 : 4;
+    win(x, y, 11, 10, type);
+    if ((type === 1 || type === 2) && rnd() < 0.4) MIDWIN.push({ x, y, w: 11, h: 10, mode: "tog", s: x * 3 + y });
+  }
+  for (const y of [242, 268]) for (const x of [300, 320, 340]) { const q = rnd(); win(x, y, 12, 10, q < 0.5 ? 0 : q < 0.8 ? 1 : 3); }
+  rect(296, 144, 61, 85, C.n1); rect(298, 147, 57, 79, C.k1);
+  hl(296, 356, 144, C.n3); hl(296, 356, 145, C.n2); hl(296, 356, 227, C.n3); hl(296, 356, 228, C.n2);
+  for (let x = 299; x < 355; x += 4) { px(x, 146, C.t4); px(x, 226, C.t4); }
+  rect(486, 114, 28, 18, C.n1); for (let y = 116; y < 130; y += 3) hl(487, 512, y, C.n2); hl(484, 515, 113, C.n2); rect(490, 110, 20, 3, C.n2); hl(490, 509, 110, C.n3);
+  rect(301, 118, 5, 14, C.n2); vl(301, 118, 131, C.n3); rect(299, 116, 9, 2, C.n3);
+  vl(530, 98, 129, C.k5); hl(526, 534, 104, C.k5); BEACONS.push({ x: 530, y: 97, p: 2.4, o: 0.3, r: 0 });
+  hl(368, 456, 126, C.n1); for (const x of [376, 404, 432, 452]) vl(x, 126, 129, C.n1);
+  for (let i = 0; i < 5; i++) {
+    const tb = tube(NEONF["HOTEL"[i]], 372 + i * 17, 106, 3);
+    HOTEL.push(tb); for (const k of tb.halo) T[k] = C.k2; for (const k of tb.core) T[k] = C.m0;
+  }
+  /* ---------- Building C ---------- */
+  rect(548, 70, 92, 216, C.k4);
+  hl(546, 639, 68, C.k8); hl(546, 639, 69, C.k7); rect(546, 70, 94, 3, C.k3);
+  rect(612, 52, 19, 15, C.t1); hl(612, 630, 52, C.t3); for (let x = 614; x < 630; x += 4) vl(x, 53, 66, C.t0); vl(612, 52, 66, C.t2); rect(614, 67, 2, 2, C.k2); rect(627, 67, 2, 2, C.k2);
+  vl(560, 36, 67, C.k5); hl(556, 564, 44, C.k5); hl(557, 563, 52, C.k5); BEACONS.push({ x: 560, y: 35, p: 2.9, o: 0.6, r: 0 });
+  const LEVELS = [100, 130, 160, 190, 220, 250, 280];
+  for (let li = 0; li < LEVELS.length; li++) {
+    const yS = LEVELS[li], top = yS - 26;
+    rect(552, top, 84, 26, C.k3); hl(552, 635, top, C.k1); hl(552, 635, top + 1, C.k2);
+    const doors = li === 2 ? [618] : li === 0 ? [558, 584] : [558, 584, 610];
+    for (const dx of doors) {
+      rect(dx, yS - 19, 10, 19, C.k2); vl(dx - 1, yS - 20, yS - 1, C.k5); vl(dx + 10, yS - 20, yS - 1, C.k5); hl(dx - 1, dx + 10, yS - 20, C.k5);
+      px(dx + 8, yS - 10, C.t5); rect(dx + 2, yS - 17, 3, 2, C.n3);
+    }
+    for (const lx of [571, 597, 623]) {
+      hl(lx - 1, lx + 1, top + 2, C.n2);
+      if (!(yS > 200 && lx < 606)) CORL.push({ x: lx, y: top + 3, s: 700 + li * 5 + lx, h: (li === 3 && lx === 623) || (li === 1 && lx === 571) ? 0.72 : 0.985 });
+    }
+    if (li === 2) { vending(586, 138); acUnit(562, 139); }
+    if (li === 0) acUnit(612, 80);
+    hl(548, 639, yS - 9, C.k7); hl(548, 639, yS - 8, C.k4);
+    for (let x = 549; x < 640; x += 3) vl(x, yS - 7, yS - 1, C.k5);
+    hl(548, 639, yS, C.k8); rect(548, yS + 1, 92, 2, C.k5); hl(548, 639, yS + 3, C.k2);
+  }
+  rect(548, 70, 4, 216, C.k5); vl(548, 70, 285, C.k6); rect(636, 70, 4, 216, C.k5);
+})();
+const MID = layer(MIDd);
+
+/* ---- hut interior (seen through the window) ---- */
+const HUTINd = new Uint32Array(N);
+(function () {
+  T = HUTINd; rnd = mulberry(404);
+  const LX = 465, LY = 239;
+  for (let y = 228; y <= 274; y++) for (let x = 412; x <= 515; x++) {
+    const dx = (x - LX) / 1.35, dy = y - LY, d = Math.sqrt(dx * dx + dy * dy) + ((BAYER[(y & 3) * 4 + (x & 3)] + 0.5) / 16 * 4 - 2);
+    let c = d < 13 ? C.w8 : d < 25 ? C.w7 : d < 40 ? C.w6 : C.w5;
+    if (d >= 13 && (x - 412) % 6 === 0 && (y & 1)) c = d < 25 ? C.w6 : d < 40 ? C.w5 : C.w4;
+    T[y * W + x] = c;
+  }
+  hl(412, 515, 228, C.w3); hl(412, 515, 229, C.w4);
+  for (let x = 412; x <= 515; x++) px(x, 230, C.w3);
+  // shelf + books + small things
+  hl(413, 444, 241, C.w4); hl(413, 444, 242, C.w2);
+  const books = [C.r1, C.t3, C.k6, C.w3, C.g2, C.m1, C.w2, C.t4, C.r0, C.v2];
+  let bx = 415;
+  for (let i = 0; i < 9; i++) { const bw = RI(1, 2), bh = RI(5, 8), c = books[i % books.length]; rect(bx, 241 - bh, bw, bh, c); bx += bw + (rnd() < 0.25 ? 1 : 0); }
+  px(bx + 1, 238, C.w2); px(bx + 2, 239, C.w2); px(bx + 3, 240, C.w2);
+  rect(434, 238, 5, 3, C.w4); px(435, 237, C.g3); px(437, 236, C.g3); px(436, 235, C.g2); px(434, 236, C.g2); px(438, 237, C.g2);
+  rect(440, 235, 4, 6, C.w2); rect(441, 236, 2, 4, C.t4);
+  // inner sill
+  hl(412, 515, 273, C.w4); hl(412, 515, 274, C.w2);
+  // desk, chair
+  rect(447, 252, 4, 21, C.w1); rect(448, 250, 3, 2, C.w1);
+  hl(452, 515, 262, C.w4); hl(452, 515, 263, C.w2); rect(452, 264, 64, 9, C.w1); hl(452, 515, 264, C.w0);
+  for (let x = 458; x < 516; x += 14) vl(x, 265, 272, C.w2);
+  // poster
+  rect(494, 230, 15, 13, C.w1); rect(495, 231, 13, 11, C.v1);
+  for (let j = -3; j <= 0; j++) for (let i = -3; i <= 3; i++) if (i * i + j * j <= 10) px(501 + i, 237 + j, j < -1 ? C.w8 : C.m3);
+  hl(495, 507, 238, C.t5); hl(496, 506, 240, C.t4);
+  // monitor
+  rect(485, 246, 25, 16, C.k1); rect(486, 247, 23, 13, C.t0); rect(496, 261, 3, 1, C.k1);
+  hl(466, 475, 261, C.n2); hl(466, 475, 260, C.n3);
+  // mug
+  rect(477, 257, 4, 5, C.wA); vl(480, 257, 261, C.w9); px(481, 258, C.wA); px(481, 260, C.wA); hl(477, 480, 257, C.wB);
+  // plant on desk
+  rect(510, 257, 5, 5, C.w3); hl(510, 514, 257, C.w4);
+  spr(507, 248, ["..g.g...", ".gG.Gg..", "gGgGgGg.", ".gGgGg..", "..gGg...", "...g...."], { g: C.g2, G: C.g3 });
+})();
+const HUTIN = layer(HUTINd);
+
+/* ---- foreground: railing, parapet, props, hut ---- */
+const FOREd = new Uint32Array(N);
+function wheel(cx, cy, r) {
+  ring(cx, cy, r, C.n1); ring(cx, cy, r - 1, C.k2);
+  for (let a = 0; a < 6; a++) { const an = a * Math.PI / 3; line(cx, cy, cx + Math.cos(an) * (r - 2), cy + Math.sin(an) * (r - 2), C.k5); }
+  px(cx, cy, C.n3); px(cx - Math.round(r * 0.7), cy - Math.round(r * 0.7), C.k8); px(cx - r + 1, cy - 2, C.k8);
+}
+(function () {
+  T = FOREd; rnd = mulberry(505);
+  // railing
+  for (let x = 4; x < W; x += 30) { rect(x, 262, 2, 22, C.k3); vl(x, 262, 283, C.k6); }
+  hl(0, W - 1, 260, C.k7); hl(0, W - 1, 261, C.k5); hl(0, W - 1, 262, C.k3); hl(0, W - 1, 273, C.k3); hl(0, W - 1, 272, C.k5);
+  for (let x = RI(0, 5); x < W; x += RI(4, 11)) px(x, 260, C.k9);
+  // parapet
+  hl(0, W - 1, 284, C.k8); hl(0, W - 1, 285, C.k7); rect(0, 286, W, 2, C.k5); rect(0, 288, W, 15, C.k4); hl(0, W - 1, 303, C.k2); hl(0, W - 1, 288, C.k3);
+  for (let x = RI(0, 6); x < W; x += RI(3, 9)) px(x, 284, C.k9);
+  for (let r = 0; r < 2; r++) { const y = 289 + r * 7; hl(0, W - 1, y + 6, C.k3); for (let x = (r ? 12 : 0); x < W; x += 24) vl(x, y, y + 6, C.k3); }
+  for (let i = 0; i < 40; i++) { const x = RI(0, W - 1), y0 = 288, l = RI(3, 12); for (let y = y0; y < y0 + l; y++) if ((x + y) & 1) px(x, y, C.k3); }
+  // string-light pole
+  rect(148, 212, 2, 92, C.k5); vl(148, 212, 303, C.k7); rect(146, 210, 6, 2, C.n3); hl(146, 151, 210, C.n4); rect(145, 288, 8, 3, C.n2);
+  // crates
+  for (const [cx, cy, cw] of [[10, 290, 28], [13, 277, 23]]) {
+    rect(cx, cy, cw, 13, C.t2); hl(cx, cx + cw - 1, cy, C.t4); hl(cx, cx + cw - 1, cy + 12, C.t1);
+    for (let x = cx + 3; x < cx + cw - 2; x += 4) vl(x, cy + 2, cy + 10, C.t1);
+    vl(cx, cy, cy + 12, C.t3); vl(cx + cw - 1, cy, cy + 12, C.t1);
+  }
+  rect(22, 271, 3, 6, C.g2); px(23, 270, C.g1); px(22, 269, C.t5);
+  // bicycle
+  wheel(66, 294, 9); wheel(102, 294, 9);
+  line(66, 294, 80, 294, C.r1); line(80, 294, 76, 280, C.r1); line(76, 280, 66, 294, C.r1);
+  line(76, 281, 97, 281, C.r1); line(80, 294, 97, 282, C.r1); line(97, 280, 102, 294, C.r1);
+  line(76, 280, 77, 279, C.r2); hl(73, 79, 278, C.k1); hl(95, 100, 277, C.k1); vl(97, 277, 281, C.k3);
+  px(84, 281, C.r2); px(90, 281, C.r2); px(78, 288, C.b0); px(88, 287, C.b0);
+  // bistro table & chairs
+  hl(220, 252, 279, C.n4); hl(221, 251, 280, C.n3); hl(222, 250, 281, C.n1);
+  rect(235, 282, 2, 20, C.n2); vl(235, 282, 301, C.n3); hl(228, 243, 302, C.n2); hl(229, 242, 303, C.k2);
+  for (const x of [224, 231, 240, 247]) px(x, 279, C.b1);
+  rect(242, 272, 2, 7, C.g2); px(242, 271, C.g3); px(242, 273, C.t5); rect(227, 276, 3, 3, C.n4); px(227, 276, C.b2);
+  for (const [cx, dir] of [[206, 1], [266, -1]]) {
+    const bx = dir > 0 ? cx : cx + 9;
+    vl(bx, 270, 303, C.n2); vl(bx + dir, 270, 289, C.n1);
+    hl(Math.min(cx, cx + 9), Math.max(cx, cx + 9), 289, C.n3); hl(Math.min(cx, cx + 9), Math.max(cx, cx + 9), 290, C.n1);
+    vl(dir > 0 ? cx + 9 : cx, 290, 303, C.n2);
+    hl(Math.min(bx, bx + dir * 3), Math.max(bx, bx + dir * 3), 270, C.n3);
+    px(bx, 274, C.b0);
+  }
+  /* ---------- the hut ---------- */
+  hl(364, 603, 196, C.k9); rect(364, 197, 240, 5, C.k5); rect(364, 202, 240, 2, C.k3);
+  for (let x = 364; x < 604; x++) px(x, 204, (x & 2) ? C.k6 : C.k2);
+  hl(364, 603, 205, C.k2); for (let x = RI(364, 368); x < 604; x += RI(3, 10)) px(x, 196, C.b0);
+  rect(366, 206, 236, 2, C.n2); hl(366, 601, 206, C.n3);
+  for (let x = 372; x <= 595; x++) { const m = (x - 372) % 6; vl(x, 208, 295, m === 0 ? C.t2 : m === 5 ? C.t0 : C.t1); }
+  for (let y = 208; y < 213; y++) for (let x = 372; x <= 595; x++) if (BAYER[(y & 3) * 4 + (x & 3)] < 16 - (y - 208) * 3.4) px(x, y, C.k2);
+  rect(372, 296, 224, 8, C.k3); hl(372, 595, 296, C.k5); hl(372, 595, 303, C.k1);
+  vl(372, 208, 295, C.t3); vl(595, 208, 303, C.k2);
+  for (let i = 0; i < 16; i++) { const x = RI(374, 593), y0 = RI(212, 250), l = RI(6, 30); for (let y = y0; y < y0 + l; y++) if (rnd() < 0.7) px(x, y, rnd() < 0.5 ? C.w2 : C.w1); }
+  for (let i = 0; i < 26; i++) { const x = 372 + RI(0, 37) * 6, y0 = RI(212, 280), l = RI(3, 10); vl(x, y0, y0 + l, C.t3); }
+  for (let x = 375; x < 595; x += 12) { px(x, 214, C.n3); px(x, 290, C.n3); }
+  // warm light spill painted into the metal (window + door lamp) — colour ramps, not additive
+  const WARM1 = new Map([[C.t0, C.w0], [C.t1, C.w1], [C.t2, C.w2], [C.t3, C.w3], [C.k2, C.w0], [C.k3, C.w1], [C.k5, C.w2], [C.n3, C.n4]]);
+  const WARM2 = new Map([[C.t0, C.w1], [C.t1, C.w2], [C.t2, C.w3], [C.t3, C.w4], [C.k2, C.w1], [C.k3, C.w2], [C.k5, C.w3], [C.n3, C.n4]]);
+  for (let y = 206; y <= 303; y++) for (let x = 366; x <= 600; x++) {
+    const i = y * W + x, c = T[i]; if (!WARM1.has(c)) continue;
+    const dx = x < 408 ? 408 - x : x > 519 ? x - 519 : 0, dy = y < 214 ? 214 - y : y > 279 ? y - 279 : 0;
+    const dw = Math.sqrt(dx * dx + dy * dy * 1.3), lw = dw === 0 ? 0 : Math.max(0, 1 - dw / 24);
+    const dd = Math.hypot(x - 551, (y - 236) * 0.8), ld = Math.max(0, 1 - dd / 28) * 0.85;
+    const L = Math.pow(Math.max(lw, ld), 1.25) * 2.2 + ((BAYER[(y & 3) * 4 + (x & 3)] + 0.5) / 16 - 0.5);
+    if (L >= 1.5) T[i] = WARM2.get(c); else if (L >= 0.5) T[i] = WARM1.get(c);
+  }
+  // window frame + glass hole
+  rect(408, 224, 112, 4, C.w2); hl(408, 519, 224, C.w3);
+  rect(408, 228, 4, 47, C.w2); rect(516, 228, 4, 47, C.w2); vl(411, 228, 274, C.w4); vl(516, 228, 274, C.w4);
+  rect(404, 275, 120, 3, C.w3); hl(404, 523, 275, C.w5); hl(404, 523, 278, C.w1);
+  for (let y = 228; y <= 274; y++) for (let x = 412; x <= 515; x++) T[y * W + x] = 0;
+  rect(446, 228, 2, 47, C.w2); vl(447, 228, 274, C.w4); rect(482, 228, 2, 47, C.w2); vl(483, 228, 274, C.w4);
+  // awning
+  for (let x = 402; x <= 525; x++) {
+    const c = ((x - 402) >> 3) & 1 ? C.r1 : C.w2; vl(x, 215, 221, c);
+    const m = (x - 402) & 7; if (m > 0 && m < 7) px(x, 222, c); if (m > 1 && m < 6) px(x, 223, c);
+  }
+  hl(402, 525, 214, C.r2); hl(402, 525, 215, C.r1);
+  line(404, 214, 404, 224, C.n2); line(523, 214, 523, 224, C.n2);
+  // door
+  rect(536, 240, 30, 64, C.n2); rect(538, 242, 26, 62, C.w2); vl(538, 242, 303, C.w3); hl(538, 563, 242, C.w3);
+  rect(541, 270, 20, 30, C.w1); rect(542, 271, 18, 28, C.w2);
+  rect(545, 249, 13, 13, C.w1); rect(546, 250, 11, 11, C.w7); vl(551, 250, 260, C.w1); hl(546, 556, 255, C.w1);
+  rect(547, 251, 3, 3, C.w8); px(553, 252, C.w8);
+  px(560, 274, C.w9); px(560, 275, C.w8); hl(536, 566, 303, C.n1);
+  vl(551, 228, 231, C.n2); hl(548, 554, 232, C.n3); vl(548, 233, 236, C.n1); vl(554, 233, 236, C.n1); hl(549, 553, 237, C.n2);
+  // house number
+  rect(568, 250, 13, 7, C.k1); txt(569, 251, "237", C.t7);
+  // meter box + cable
+  rect(378, 222, 12, 15, C.n2); hl(378, 389, 222, C.n3); vl(389, 222, 236, C.n1); rect(381, 225, 6, 4, C.k1); px(383, 227, C.t6); px(385, 226, C.t5);
+  line(378, 224, 366, 205, C.k1);
+  // AC outdoor unit (fan is animated)
+  rect(376, 281, 30, 23, C.n3); hl(376, 405, 281, C.n4); vl(376, 281, 302, C.n4); vl(405, 281, 303, C.n1); hl(376, 405, 303, C.n1);
+  for (let j = -9; j <= 9; j++) for (let i = -9; i <= 9; i++) { const d = i * i + j * j; if (d <= 85) px(389 + i, 292 + j, d >= 66 ? C.n2 : C.k1); }
+  for (let y = 284; y < 301; y += 2) hl(400, 403, y, C.n2);
+  vl(392, 262, 280, C.w4); vl(394, 266, 280, C.w5); vl(395, 266, 280, C.n4); px(392, 261, C.n2);
+  FANS.push({ x: 389, y: 292, r: 7, p: 1.9, o: 0.2, lx: 402, ly: 284, s: 77, big: 1 });
+  // roof: water tank
+  rect(384, 160, 37, 31, C.t1); vl(384, 160, 190, C.t3); vl(385, 160, 190, C.t2); vl(420, 160, 190, C.k2); vl(419, 160, 190, C.t0);
+  for (let x = 389; x < 418; x += 5) vl(x, 161, 189, C.t0);
+  for (let y = 155; y < 160; y++) { const ins = (160 - y) * 3; hl(384 + ins, 420 - ins, y, y === 155 ? C.t3 : C.t2); }
+  hl(384, 420, 168, C.n3); hl(384, 420, 183, C.n3); hl(384, 420, 169, C.n1); hl(384, 420, 184, C.n1);
+  for (const lx of [387, 396, 408, 417]) vl(lx, 191, 195, C.k2);
+  hl(386, 418, 193, C.k3);
+  for (let y = 162; y < 188; y += 3) px(386, y, C.t4);
+  // satellite dish
+  spr(436, 180, [
+    ".....nn....",
+    "...nnmmn...",
+    "..nmmmmmn..",
+    ".nmmmmmmn..",
+    ".nmmmmmn...",
+    "..nmmmn..o.",
+    "...nnn..o..",
+    "......oo...",
+    ".....o.....",
+    "....kk.....",
+    "....kk.....",
+    "....kk.....",
+    "...kkkk...."], { n: C.n3, m: C.n4, o: C.n2, k: C.k3 });
+  // turbine vent body (vanes animated)
+  rect(519, 191, 9, 5, C.n1); hl(518, 528, 195, C.n2);
+  // exhaust pipe
+  rect(488, 172, 4, 24, C.n2); vl(488, 172, 195, C.n3); vl(491, 172, 195, C.n1); rect(485, 169, 10, 3, C.n3); hl(486, 493, 168, C.n4); hl(485, 494, 171, C.n1);
+  // antenna mast
+  vl(582, 120, 195, C.n2); vl(581, 130, 195, C.k4);
+  hl(576, 588, 128, C.n2); hl(577, 587, 140, C.n2); hl(578, 586, 152, C.n2);
+  line(582, 124, 566, 195, C.k2); line(582, 124, 598, 195, C.k2);
+  // downspout
+  rect(597, 207, 3, 90, C.n2); vl(597, 207, 296, C.n3); vl(599, 207, 296, C.n1);
+  for (let y = 214; y < 296; y += 24) hl(596, 600, y, C.n1);
+  rect(597, 296, 7, 3, C.n2); hl(597, 603, 296, C.n3); hl(597, 603, 298, C.n1);
+  for (let y = 230; y < 290; y += 17) px(598, y, C.w3);
+  // pots
+  rect(524, 294, 10, 10, C.w4); hl(523, 534, 294, C.w5); vl(533, 295, 303, C.w3);
+  rect(574, 290, 18, 14, C.w4); hl(573, 592, 290, C.w5); hl(573, 592, 291, C.w3); vl(591, 292, 303, C.w3); vl(575, 292, 303, C.w5);
+})();
+const FORE = layer(FOREd);
+
+/* ---- floor (wet concrete, puddles) ---- */
+const FLOORd = new Uint32Array(N), RMASK = new Float32Array(W * FH), PUD = new Uint8Array(W * FH);
+const PUDDLES = [[96, 334, 60, 8], [236, 321, 36, 5], [318, 347, 64, 9], [458, 327, 70, 9], [604, 314, 26, 5], [548, 350, 50, 7], [166, 354, 36, 5]];
+const FLOORPIX = [], PUDPIX = [];
+(function () {
+  T = FLOORd;
+  const nz = makeNoise(W, FH + 2, 20, 3, 77);
+  for (let fy = 0; fy < FH; fy++) {
+    const y = FLOOR + fy;
+    for (let x = 0; x < W; x++) {
+      const m = fy * W + x, b = (BAYER[(y & 3) * 4 + (x & 3)] + 0.5) / 16;
+      let c = fy < 5 ? C.k4 : (fy < 24 ? C.k3 : (b < (fy - 24) / 40 ? C.k2 : C.k3));
+      let inP = false;
+      for (const p of PUDDLES) {
+        const ex = (x - p[0]) / p[2], ey = (y - p[1]) / p[3];
+        if (ex * ex + ey * ey + (nz[m] - 0.5) * 0.9 < 1) { inP = true; break; }
+      }
+      if (inP) { c = (x + fy) % 7 === 0 ? C.t0 : C.k1; RMASK[m] = 0.92; PUD[m] = 1; }
+      else RMASK[m] = 0.26 + 0.24 * nz[m];
+      T[y * W + x] = c;
+    }
+  }
+  for (const fy of [3, 8, 15, 25, 39, 53]) for (let x = 0; x < W; x++) { const m = fy * W + x; if (!PUD[m]) { T[(FLOOR + fy) * W + x] = C.k2; RMASK[m] = 0.42; } }
+  for (let i = -10; i <= 26; i++) {
+    const xb = 320 + (i - 8) * 44, xf = 320 + (xb - 320) * 2.4;
+    linePts(xb, FLOOR, xf, H - 1, (x, y) => { if (x < 0 || x >= W || y < FLOOR) return; const m = (y - FLOOR) * W + x; if (!PUD[m]) { T[y * W + x] = C.k2; RMASK[m] = 0.38; } });
+  }
+  const P0 = PUD.slice();
+  for (let fy = 1; fy < FH; fy++) for (let x = 0; x < W; x++) {
+    const m = fy * W + x;
+    if (P0[m] && !P0[m - W]) { T[(FLOOR + fy) * W + x] = C.k6; PUD[m] = 0; RMASK[m] = 0.5; }
+  }
+  rect(318, 336, 13, 4, C.n1); for (let x = 319; x < 331; x += 2) vl(x, 337, 338, C.k0);
+  for (let fy = 3; fy < FH; fy++) for (let x = 0; x < W; x++) { const m = fy * W + x; FLOORPIX.push((FLOOR + fy) * W + x); if (PUD[m] && fy > 2) PUDPIX.push((FLOOR + fy) * W + x); }
+})();
+const FLOORL = layer(FLOORd);
+const FLOORIDX = Int32Array.from(FLOORPIX), PUDIDX = Int32Array.from(PUDPIX);
+
+/* ---- front-most silhouettes (bottom-left plant) ---- */
+const FRONTd = new Uint32Array(N);
+function leafTo(Tt, x0, y0, len, ang, wid, droop, c, rim) {
+  const prev = T; T = Tt;
+  for (let s = 0; s <= len; s += 0.5) {
+    const q = s / len, w = wid * Math.pow(Math.sin(Math.PI * Math.min(1, q * 1.05)), 0.8);
+    const cx = x0 + Math.cos(ang) * s, cy = y0 + Math.sin(ang) * s + droop * q * q;
+    for (let k = -w; k <= w; k += 0.5) px(cx - Math.sin(ang) * k, cy + Math.cos(ang) * k, k < -w + 1 && rim ? rim : c);
+  }
+  T = prev;
+}
+(function () {
+  const L = [[-6, 368, 48, -1.05, 6, 6], [-4, 366, 58, -0.72, 7, 10], [2, 370, 44, -0.4, 6, 8], [-8, 360, 40, -1.35, 5, 4], [6, 372, 36, -0.15, 5, 9]];
+  for (const l of L) leafTo(FRONTd, l[0], l[1], l[2], l[3], l[4], l[5], C.k0, C.t2);
+})();
+const FRONT = layer(FRONTd);
+
+/* ---- glass ---- */
+const GLASS = [], GLASS_REF = [];
+for (let y = 228; y <= 274; y++) for (let x = 412; x <= 515; x++) {
+  if (x === 446 || x === 447 || x === 482 || x === 483) continue;
+  const i = y * W + x; GLASS.push(i);
+  const band = ((x - 412) - (y - 228) * 1.6 + 600) % 74;
+  if (band < 4) GLASS_REF.push(i, 0.1); else if (band > 9 && band < 11) GLASS_REF.push(i, 0.06);
+  else if (y < 231) GLASS_REF.push(i, 0.1);
+}
+const GLASS_REF_A = Float32Array.from(GLASS_REF);
+const DROPS = []; { const r = mulberry(818); for (let i = 0; i < 90; i++) { const x = 412 + Math.floor(r() * 104), y = 229 + Math.floor(r() * 44); if (x === 446 || x === 447 || x === 482 || x === 483) continue; DROPS.push(y * W + x, r() < 0.25 ? 1 : 0); } }
+const DROPA = Int32Array.from(DROPS);
+
+/* ---- glow kernels for static lights ---- */
+const K = {
+  sign: kRect(142, 58, 163, 198, 18),
+  ramen: kRect(10, 229, 75, 242, 14),
+  shop: kRect(0, 252, 140, 285, 10),
+  holo: kRect(298, 147, 354, 225, 12),
+  vend: kRect(586, 138, 599, 159, 16),
+  win: kRect(412, 228, 515, 274, 30),
+  doorwin: kRect(546, 250, 556, 260, 9),
+  hotel: [0, 1, 2, 3, 4].map(i => kRect(372 + i * 17, 106, 384 + i * 17, 124, 11)),
+  corl: CORL.map(l => kRect(l.x - 1, l.y, l.x + 1, l.y, 10, 1, 1.6)),
+  poolWin: (() => {
+    const idx = [], f = [];
+    for (let y = FLOOR + 1; y < FLOOR + 48; y++) {
+      const dy = y - FLOOR - 1, hw = 52 + dy * 0.9;
+      for (let x = 340; x < 590; x++) {
+        const v = Math.pow(1 - dy / 47, 1.6) * Math.min(1, Math.max(0, (hw - Math.abs(x - 463)) / 20));
+        if (v > 0.012) { idx.push(y * W + x); f.push(v); }
+      }
+    }
+    return { idx: Int32Array.from(idx), f: Float32Array.from(f) };
+  })(),
+  poolDoor: kRect(551, FLOOR + 3, 551, FLOOR + 3, 36, 1, 0.28),
+  street: (() => {                      // light rising out of the street canyon between A and B
+    const idx = [], f = [];
+    for (let y = 120; y < 290; y++) for (let x = 166; x < 300; x++) {
+      const v = Math.pow((y - 120) / 170, 2.2) * (0.75 + 0.25 * Math.sin(Math.PI * (x - 166) / 134));
+      if (v > 0.012) { idx.push(y * W + x); f.push(v); }
+    }
+    return { idx: Int32Array.from(idx), f: Float32Array.from(f) };
+  })()
+};
+
+/* ---- fog noise ---- */
+const FOG = makeNoise(W, 160, 80, 4, 909);
+const FOG_HAZE = new Int16Array(H * 2), FOG_LOW = new Int16Array(H * 4);
+for (let y = 0; y < H; y++) {
+  FOG_HAZE[y * 2] = 166; FOG_HAZE[y * 2 + 1] = y < 70 ? 640 : y < 132 ? 552 : 300;
+  FOG_LOW[y * 4] = 0; FOG_LOW[y * 4 + 1] = y >= 196 ? 364 : 640; FOG_LOW[y * 4 + 2] = y >= 196 ? 604 : 640; FOG_LOW[y * 4 + 3] = 640;
+}
+
+/* ---- rain ---- */
+function mkRain(n, l0, l1, v0, v1, yTop, span, amt, seed) {
+  const r = mulberry(seed), d = { n, k: new Int32Array(n), p: new Float64Array(n), len: new Uint8Array(n), amt, yTop, span, seed };
+  for (let i = 0; i < n; i++) {
+    const v = v0 + (v1 - v0) * r();
+    d.k[i] = Math.max(1, Math.round(v * LOOP / span)); d.p[i] = r(); d.len[i] = l0 + Math.floor(r() * (l1 - l0 + 1));
+  }
+  return d;
+}
+const RAIN_FAR = mkRain(380, 2, 4, 140, 190, -10, 400, 22, 501);
+const RAIN_MID = mkRain(210, 5, 8, 270, 340, -20, 420, 44, 502);
+const RAIN_NEAR = mkRain(62, 11, 17, 440, 540, -30, 430, 72, 503);
+
+/* ---- event tables ---- */
+const SPARKS = [];
+{ const r = mulberry(4242); let tt = 6 + r() * 14; while (tt < LOOP - 3) { SPARKS.push({ t: tt, n: 13 + Math.floor(r() * 10), s: Math.floor(r() * 1e6) }); tt += 17 + r() * 36; } }
+const FAR_CARS = [], MID_CARS = [];
+{
+  const r = mulberry(9090);
+  for (let i = 0; i < 10; i++) { const sp = 10 + r() * 16, span = W + 20; FAR_CARS.push({ y: 46 + Math.floor(r() * 22), dir: r() < 0.5 ? 1 : -1, k: Math.max(1, Math.round(LOOP * sp / span)), p: r(), span }); }
+  for (let i = 0; i < 4; i++) { const sp = 34 + r() * 22, span = W + 40; MID_CARS.push({ y: 26 + Math.floor(r() * 22), dir: i & 1 ? 1 : -1, k: Math.max(1, Math.round(LOOP * sp / span)), p: r(), span, s: i }); }
+}
+const DRIPS = [
+  [406, 224, 312, 3.9], [434, 224, 318, 5.6], [458, 224, 326, 4.5], [490, 224, 316, 6.2], [522, 224, 322, 3.4],
+  [367, 208, 307, 2.8], [44, 264, 284, 7.7], [118, 264, 284, 9.4], [196, 264, 284, 6.6], [290, 264, 284, 8.3], [624, 264, 284, 7.1],
+  [221, 282, 306, 5.2], [251, 282, 308, 6.8], [384, 192, 195, 4.9]
+];
+const DRIPS_MID = [[31, 52, 284, 6.4], [103, 80, 284, 8.8], [67, 136, 284, 7.3], [149, 199, 284, 5.9], [563, 101, 284, 9.6]];
+const SURF = [[364, 603, 195], [402, 525, 213], [377, 404, 280], [221, 251, 278], [0, 363, 283], [604, 639, 283], [0, 363, 259], [604, 639, 259], [386, 419, 154], [10, 37, 289], [13, 35, 276]];
+const SMOKES = [
+  { x: 489, y: 166, n: 16, P: 6.5, rise: 11, drift: 6, r0: 1.4, r1: 7, a: 0.62, col: C.n5, wob: 2.5, s: 11, jit: 1 },
+  { x: 303, y: 114, n: 10, P: 7.5, rise: 8, drift: 5, r0: 1, r1: 5.5, a: 0.5, col: C.n4, wob: 2, s: 12, jit: 1 },
+  { x: 115, y: 228, n: 10, P: 5.5, rise: 9, drift: 5, r0: 1, r1: 5.5, a: 0.5, col: C.n5, wob: 2, s: 13, jit: 2 },
+  { x: 232, y: 296, n: 14, P: 10, rise: 13, drift: 7, r0: 4, r1: 17, a: 0.38, col: C.n5, wob: 4, s: 14, jit: 46 }
+];
+const WIRES = [
+  { x0: 171, y0: 24, x1: 660, y1: 6, sag: 44, s: 1 },
+  { x0: 171, y0: 34, x1: 660, y1: 20, sag: 50, s: 2 },
+  { x0: 171, y0: 46, x1: 548, y1: 74, sag: 22, s: 3 },
+  { x0: 171, y0: 140, x1: 290, y1: 138, sag: 9, s: 4 },
+  { x0: 171, y0: 150, x1: 290, y1: 156, sag: 15, s: 5, lan: [0.27, 0.52, 0.77] },
+  { x0: 171, y0: 206, x1: 290, y1: 196, sag: 16, s: 6, th: 1 },
+  { x0: 171, y0: 214, x1: 290, y1: 222, sag: 12, s: 7 }
+];
+const STRANDS = [
+  { x0: 364, y0: 205, x1: 150, y1: 213, sag: 22, n: 15, s: 1 },
+  { x0: 149, y0: 213, x1: -8, y1: 199, sag: 13, n: 11, s: 2 }
+];
+const PLANTS = [
+  [528, 294, 12, -1.9, 2.2, 2, 1], [528, 294, 10, -1.25, 2, 3, 2], [529, 294, 11, -2.4, 2, 2, 3],
+  [583, 290, 24, -1.75, 3.5, 4, 4], [582, 290, 20, -2.35, 3.2, 6, 5], [584, 290, 21, -1.15, 3.2, 6, 6], [583, 290, 15, -1.45, 2.6, 3, 7], [582, 290, 16, -2.0, 2.6, 2, 8]
+];
+const TAXI = [
+  ".......KKKKKKKK.........",
+  ".....kkwwkwwwwkkk.......",
+  "....kkwwwkwwwwwkkk......",
+  "rkkkkkkkkkkkkkkkkkkkkkhh",
+  "rkkkkkkkkkkkkkkkkkkkkkkh",
+  ".kkkkkkkkkkkkkkkkkkkkkk.",
+  "..gg................gg.."
+];
+const TAXI_L = TAXI.map(s => s.split("").reverse().join(""));
+const TAXI_MAP = { K: C.k7, k: C.k4, w: C.w8, h: C.wB, r: C.r3, g: C.t7 };
+const MSG = "SWEET DREAMS * OPEN ALL NIGHT * 2089 * RAIN * ";
+const MSGW = MSG.length * 4, MSGB = new Uint8Array(MSGW * 5);
+for (let k = 0; k < MSG.length; k++) { const g = FONT[MSG[k]]; for (let j = 0; j < 5; j++) for (let i = 0; i < 3; i++) if (g[j * 3 + i] === "1") MSGB[j * MSGW + k * 4 + i] = 1; }
+const VIG = [];
+for (let y = 0; y < H; y++) for (let x = 0; x < W; x++) {
+  const dx = (x - 320) / 320, dy = (y - 180) / 180, d = Math.sqrt(dx * dx * 0.8 + dy * dy * 1.1);
+  const f = 1 - 0.3 * Math.pow(Math.max(0, d - 0.86) / 0.6, 1.6);
+  if (f < 0.985) VIG.push(y * W + x, Math.max(0.6, f));
+}
+const VIGA = Float32Array.from(VIG);
+T = fb;
+
+/* =========================================================================
+   DYNAMIC DRAWING
+   ========================================================================= */
+function drawClouds(t) {
+  const off = Math.floor(ph(t, LOOP, 0.37) * W);
+  for (let y = 0; y < CLOUD_H; y++) {
+    const ro = y * W;
+    for (let x = 166; x < W; x++) { let sx = x + off; if (sx >= W) sx -= W; const c = CLOUD[ro + sx]; if (c) fb[ro + x] = c; }
+  }
+}
+
+function jelly(t) {
+  const cx = 236 + Math.round(osc(t, LOOP) * 7), cy = 40 + Math.round(osc(t, 9.6) * 3);
+  const pulse = osc(t, 4.8), rx = 15 + pulse * 1.5, ry = 10 - pulse;
+  const glitch = snoise(t, 2.5, 901) > 0.93, I = glitch ? 0.35 : 0.72 + 0.28 * vnoise(t, 5, 902);
+  const gx = glitch ? 2 : 0;
+  glowP(cx, cy + 6, 30, RGB.t5, 0.16 * I);
+  for (let y = -Math.ceil(ry); y <= 2; y++) {
+    const sc = ((cy + y) & 1) ? 0.55 : 1;
+    for (let x = -Math.ceil(rx); x <= Math.ceil(rx); x++) {
+      const e = (x * x) / (rx * rx) + (y * y) / (ry * ry); if (e > 1) continue;
+      let a = e > 0.7 ? 0.62 : ((x + y * 3) % 5 === 0 ? 0.32 : 0.16);
+      a *= sc * I;
+      addP(cx + x + gx, cy + y, 60 * a, 200 * a, 190 * a);
+    }
+  }
+  for (let x = -Math.floor(rx); x <= Math.floor(rx); x++) if ((x & 3) !== 0) addP(cx + x + gx, cy + 3, 40 * I, 150 * I, 150 * I);
+  const ph1 = TAU * ph(t, 3.2);
+  for (let k = 0; k < 8; k++) {
+    const bx = cx - 13 + k * 3.7, len = 20 + ((k * 7) % 13);
+    for (let j = 0; j < len; j++) {
+      const xx = bx + Math.sin(j * 0.27 - ph1 + k * 0.9) * (0.8 + j * 0.07);
+      const a = 0.5 * (1 - j / len) * I * (((cy + 4 + j) & 1) ? 0.6 : 1);
+      addP(xx + gx, cy + 4 + j, 50 * a, 190 * a, 180 * a);
+    }
+  }
+  glowP(cx, cy - 3, 6, RGB.m4, 0.35 * I);
+  addP(cx + gx, cy - 3, 120 * I, 60 * I, 120 * I);
+}
+
+function beacons(t, which) {
+  for (let i = 0; i < BEACONS.length; i++) {
+    const b = BEACONS[i]; if (b.r !== which) continue;
+    const q = ph(t, b.p, b.o);
+    if (q < 0.18) {
+      const a = Math.sin(q / 0.18 * Math.PI);
+      if (b.r) { px(b.x, b.y, C.r3); px(b.x, b.y + 1, C.r2); glowP(b.x, b.y, 9, RGB.r3, 0.55 * a); }
+      else { addP(b.x, b.y, 230 * a, 60 * a, 70 * a); if (a > 0.5) { addP(b.x - 1, b.y, 60, 10, 15); addP(b.x + 1, b.y, 60, 10, 15); addP(b.x, b.y - 1, 60, 10, 15); } }
+    }
+  }
+}
+
+function farWindows(t) {
+  for (let i = 0; i < FARWIN.length; i++) {
+    const w = FARWIN[i];
+    if (snoise(t, 1 / 26, w.s) < 0.3) { const k = w.y * W + w.x; if (fb[k] !== C.k2 || true) { fb[k] = C.k2; fb[k + 1] = C.k2; } }
+  }
+}
+
+function farCars(t) {
+  for (let i = 0; i < FAR_CARS.length; i++) {
+    const c = FAR_CARS[i], u = t * c.k / LOOP + c.p, f = u - Math.floor(u);
+    const x = Math.round(c.dir > 0 ? -10 + f * c.span : W + 10 - f * c.span);
+    px(x, c.y, C.k6); px(x - c.dir, c.y, C.k6);
+    addP(x + c.dir, c.y, 200, 190, 150); addP(x - 2 * c.dir, c.y, 180, 40, 50);
+    if (ph(t, 1.3, c.p) < 0.12) addP(x, c.y - 1, 40, 150, 140);
+  }
+}
+function midCars(t) {
+  for (let i = 0; i < MID_CARS.length; i++) {
+    const c = MID_CARS[i], u = t * c.k / LOOP + c.p, f = u - Math.floor(u);
+    const x = Math.round(c.dir > 0 ? -20 + f * c.span : W + 20 - f * c.span), y = c.y + Math.round(osc(t, 2.7 + i * 0.4, i * 0.3) * 0.6);
+    const d = c.dir;
+    hl(x - 3, x + 3, y, C.k4); hl(x - 2, x + 2, y - 1, C.k6); px(x + d, y - 1, C.t6);
+    px(x + 4 * d, y, C.wB); px(x - 4 * d, y, C.r3);
+    addP(x - 1, y + 1, 80, 20, 70); addP(x + 1, y + 1, 80, 20, 70);
+    for (let k = 2; k < 18; k++) { const a = Math.pow(1 - k / 18, 2) * 46, hh = Math.floor(k * 0.16); for (let j = -hh; j <= hh; j++) addP(x + (3 + k) * d, y + j, a, a * 0.95, a * 0.8); }
+    if (ph(t, 1.1, c.p) < 0.1) px(x, y - 2, i & 1 ? C.r3 : C.t8);
+  }
+}
+function taxi(t) {
+  const k = kc(60), u = t * k / LOOP, c = Math.floor(u), f = u - c, dt = f * LOOP / k, v = 46;
+  if (dt * v > W + 80) return;
+  const dir = (c & 1) ? -1 : 1;
+  const x = Math.round(dir > 0 ? -30 + dt * v : W + 6 - dt * v), y = 44 + Math.round(osc(t, 3.3) * 1);
+  for (let kk = 2; kk < 50; kk++) {
+    const a = Math.pow(1 - kk / 50, 1.6) * 60, hh = 1 + Math.floor(kk * 0.2);
+    const hx = dir > 0 ? x + 23 + kk : x - kk;
+    for (let j = -hh; j <= hh + 1; j++) addP(hx, y + 3 + j + Math.floor(kk * 0.12), a, a * 0.96, a * 0.82);
+  }
+  spr(x, y, dir > 0 ? TAXI : TAXI_L, TAXI_MAP);
+  const pul = 0.4 + 0.25 * osc(t, 0.8);
+  glowP(x + 3, y + 7, 5, RGB.t7, pul); glowP(x + 20, y + 7, 5, RGB.t7, pul);
+  if (ph(t, 1.4) < 0.14) { px(x + (dir > 0 ? 8 : 15), y - 1, C.r3); glowP(x + (dir > 0 ? 8 : 15), y - 1, 5, RGB.r3, 0.5); }
+}
+
+function fogBand(t, y0, y1, P1, P2, maxA, c0, c1, segs, stride) {
+  const o1 = Math.floor(ph(t, P1, (P1 * 0.0137) % 1) * W), o2 = Math.floor(ph(t, P2, (P2 * 0.0291 + 0.5) % 1) * W);
+  for (let y = y0; y < y1; y++) {
+    const v = (y - y0) / (y1 - y0), prof = Math.sin(Math.PI * v); if (prof < 0.05) continue;
+    const col = mixC(c0, c1, v), ra = ((y - y0) % 160) * W, rb = ((y - y0 + 53) % 160) * W, A = prof * maxA;
+    for (let s = 0; s < stride; s += 2) {
+      const xa = segs[y * stride + s], xb = segs[y * stride + s + 1];
+      for (let x = xa; x < xb; x++) {
+        let ia = x + o1; if (ia >= W) ia -= W;
+        let ib = x - o2; if (ib < 0) ib += W;
+        let d = FOG[ra + ia] * 0.62 + FOG[rb + ib] * 0.38;
+        d = (d - 0.36) * 2.4; if (d <= 0) continue; if (d > 1) d = 1;
+        mixI(y * W + x, col, d * d * A);
+      }
+    }
+  }
+}
+
+function train(t) {
+  const v = 82, cw = 62, gap = 3, cars = 3, len = cars * cw + (cars - 1) * gap;
+  for (let p = 0; p < 2; p++) {
+    const t0 = (p ? 0.6 : 0.1) * LOOP, dir = p ? -1 : 1, dt = t - t0, dur = (W + len + 140) / v;
+    if (t0 + dur > LOOP) continue;
+    if (dt < 0 || dt > dur) continue;
+    const head = Math.round(dir > 0 ? -60 + dt * v : W + 60 - dt * v);
+    for (let c = 0; c < cars; c++) {
+      const off = c * (cw + gap), x = dir > 0 ? head - off - cw : head + off;
+      const nose = c === 0 ? dir : 0, tail = c === cars - 1 ? -dir : 0, id = p * 10 + c;
+      for (let y = 74; y <= 85; y++) {
+        let a = x, b = x + cw - 1;
+        if (nose > 0 && y < 80) b -= Math.ceil((80 - y) * 0.9); if (nose < 0 && y < 80) a += Math.ceil((80 - y) * 0.9);
+        if (tail > 0 && y < 76) b -= 1; if (tail < 0 && y < 76) a += 1;
+        hl(a, b, y, y === 74 ? C.k8 : y === 75 ? C.k6 : y < 78 ? C.k5 : y < 82 ? C.k4 : y < 84 ? C.k3 : C.k2);
+      }
+      for (let wx = x + 6; wx + 4 < x + cw - 5; wx += 6) {
+        if (Math.abs(wx + 2 - (x + (cw >> 1))) < 3) { vl(wx + 2, 77, 83, C.k3); continue; }
+        const q = h2(id, wx - x), col = q < 0.12 ? C.k3 : q < 0.5 ? C.w7 : q < 0.85 ? C.w8 : C.w9;
+        rect(wx, 78, 4, 3, col);
+        if (col !== C.k3 && h2(id + 50, wx - x) < 0.32) { px(wx + 1, 79, C.w2); px(wx + 1, 80, C.w2); px(wx + 2, 80, C.w2); }
+      }
+      rect(x + 6, 84, 9, 2, C.n1); rect(x + cw - 15, 84, 9, 2, C.n1);
+      if (nose) {
+        const hx = nose > 0 ? x + cw - 1 : x;
+        px(hx, 82, C.wB); px(hx - nose, 82, C.wA);
+        for (let k = 1; k < 56; k++) { const a = Math.pow(1 - k / 56, 1.7) * 70, hh = Math.floor(k * 0.11); for (let j = -hh; j <= hh; j++) addP(hx + nose * k, 82 + j, a, a * 0.97, a * 0.85); }
+      }
+      if (tail) { const hx = tail > 0 ? x + cw - 1 : x; px(hx, 82, C.r3); glowP(hx, 82, 4, RGB.r3, 0.5); }
+      if (c === 1) {
+        const pc = x + (cw >> 1);
+        px(pc - 2, 73, C.n3); px(pc - 1, 72, C.n3); px(pc, 71, C.n3); px(pc + 1, 72, C.n3); px(pc + 2, 73, C.n3); hl(pc - 1, pc + 1, 70, C.n4);
+        if (snoise(t, 5, 300 + p) > 0.86) { px(pc, 69, C.b4); px(pc - 1, 69, C.b2); px(pc + 1, 68, C.b3); glowP(pc, 69, 10, RGB.b2, 0.7); }
+      }
+      for (let wx = x + 6; wx < x + cw - 6; wx += 4) addP(wx, 87, 30, 22, 12);
+    }
+  }
+}
+
+const HX0 = 298, HY0 = 147, HW = 57, HH = 79, HOLO = new Float32Array(HW * HH * 3);
+function hset(x, y, r, g, b) {
+  x = Math.round(x) - HX0; y = Math.round(y) - HY0;
+  if (x < 0 || y < 0 || x >= HW || y >= HH) return;
+  const i = (y * HW + x) * 3;
+  if (r > HOLO[i]) HOLO[i] = r; if (g > HOLO[i + 1]) HOLO[i + 1] = g; if (b > HOLO[i + 2]) HOLO[i + 2] = b;
+}
+function holo(t) {
+  HOLO.fill(0);
+  const glitch = snoise(t, 2.2, 951) > 0.94, I = glitch ? 0.45 : 0.8 + 0.2 * vnoise(t, 5, 952);
+  for (let y = 0; y < HH - 12; y += 8) for (let x = 0; x < HW; x += 2) hset(HX0 + x, HY0 + y, 8, 34, 40);
+  for (let x = 4; x < HW; x += 8) for (let y = 0; y < HH - 12; y += 2) hset(HX0 + x, HY0 + y, 8, 34, 40);
+  const sy = HY0 + Math.floor(ph(t, 3.7, 0.13) * (HH - 12));
+  for (let x = 0; x < HW; x++) hset(HX0 + x, sy, 26, 100, 110);
+  // koi
+  const th = TAU * ph(t, 15, 0.62), wig = TAU * ph(t, 1.1), cx = 326, cy = 180, ax = 16, ay = 22, NS = 28;
+  for (let n = NS; n >= 0; n--) {
+    const s = n / NS, a = th - s * 1.35;
+    let tx = -Math.sin(a) * ax, ty = Math.cos(a) * ay; const tl = Math.hypot(tx, ty); tx /= tl; ty /= tl;
+    const nx = -ty, ny = tx, off = Math.sin(s * 5.5 - wig) * 1.7 * s;
+    const X = cx + Math.cos(a) * ax + nx * off, Y = cy + Math.sin(a) * ay + ny * off;
+    const rad = s < 0.86 ? 0.8 + 3.6 * Math.pow(Math.sin(Math.PI * Math.min(1, (s + 0.1) / 0.96)), 0.7) : 0.7;
+    const spot = (Math.floor(s * 9) % 3 === 1) && s < 0.8;
+    const R2 = Math.ceil(rad);
+    for (let j = -R2; j <= R2; j++) for (let i = -R2; i <= R2; i++) {
+      const d = (i * i + j * j) / (rad * rad + 0.3); if (d > 1) continue;
+      const e = d > 0.55 ? 0.62 : 1;
+      if (spot && d < 0.6) hset(X + i, Y + j, 245 * e, 225 * e, 230 * e); else hset(X + i, Y + j, 225 * e, 70 * e, 175 * e);
+    }
+    if (n === 5) for (let fsd = -1; fsd <= 1; fsd += 2) for (let j = 1; j <= 4; j++) hset(X + nx * fsd * (rad + j) - tx * j * 0.8, Y + ny * fsd * (rad + j) - ty * j * 0.8, 60, 200, 210);
+    if (n === NS) for (let fsd = -1; fsd <= 1; fsd += 2) for (let j = 1; j <= 6; j++) hset(X - tx * j + nx * fsd * j * 0.75 + nx * Math.sin(wig) * 1.3, Y - ty * j + ny * fsd * j * 0.75 + ny * Math.sin(wig) * 1.3, 70 * (1 - j / 8), 210 * (1 - j / 8), 220 * (1 - j / 8));
+    if (n === 1) { hset(X + nx * 1.5, Y + ny * 1.5, 255, 255, 255); hset(X - nx * 1.5, Y - ny * 1.5, 255, 255, 255); }
+  }
+  // bubbles
+  for (let b = 0; b < 5; b++) { const q = ph(t, 4 + b * 0.7, b * 0.21); hset(HX0 + 8 + ((b * 11) % 44), HY0 + HH - 14 - q * 50, 60 * (1 - q), 200 * (1 - q), 200 * (1 - q)); }
+  // marquee
+  for (let x = 0; x < HW; x++) hset(HX0 + x, HY0 + HH - 11, 20, 80, 90);
+  const mo = Math.floor(ph(t, MSGW / 14, 0.29) * MSGW);
+  for (let x = 0; x < HW; x++) { const col = (x + mo) % MSGW; for (let j = 0; j < 5; j++) if (MSGB[j * MSGW + col]) hset(HX0 + x, HY0 + HH - 8 + j, 80, 220, 205); }
+  const gRow = Math.floor(snoise(t, 2.2, 953) * HH);
+  for (let y = 0; y < HH; y++) {
+    const sc = ((y & 1) ? 0.55 : 1) * I, sh = glitch && Math.abs(y - gRow) < 7 ? 3 : 0;
+    for (let x = 0; x < HW; x++) {
+      const i = (y * HW + x) * 3, r = HOLO[i], g = HOLO[i + 1], b = HOLO[i + 2];
+      if (r + g + b < 4) continue;
+      const X = HX0 + x + sh; if (X >= HX0 + HW) continue;
+      addI((HY0 + y) * W + X, r * sc, g * sc, b * sc);
+    }
+  }
+  return I;
+}
+
+function drawWire(w, t) {
+  let py = -9999;
+  const xa = Math.max(0, w.x0), xb = Math.min(W - 1, w.x1);
+  const sg = w.sag * (1 + 0.05 * osc(t, 6.1 + w.s * 0.7, w.s * 0.13));
+  for (let X = xa; X <= xb; X++) {
+    const u = (X - w.x0) / (w.x1 - w.x0), y = Math.round(w.y0 + (w.y1 - w.y0) * u + sg * 4 * u * (1 - u));
+    if (py > -9000 && Math.abs(y - py) > 1) vl(X, py + Math.sign(y - py), y, C.k0);
+    px(X, y, C.k0); if (w.th) px(X, y + 1, C.k1);
+    py = y;
+  }
+  if (w.lan) for (let j = 0; j < w.lan.length; j++) {
+    const u = w.lan[j], X = Math.round(w.x0 + (w.x1 - w.x0) * u), Y = Math.round(w.y0 + (w.y1 - w.y0) * u + sg * 4 * u * (1 - u));
+    const sw = Math.round(osc(t, 3.1 + j * 0.37, j * 0.29) * 1.1 + (wind(t) - 0.17) * 6);
+    line(X, Y + 1, X + sw, Y + 4, C.k0);
+    const lx = X + sw - 2, ly = Y + 5, I = 0.85 + 0.15 * vnoise(t, 7, 40 + j);
+    spr(lx, ly, LANTERN, I > 0.9 ? LANTERN_MAP_HI : LANTERN_MAP_LO);
+    glowP(lx + 2, ly + 3, 10, RGB.r3, 0.42 * I);
+  }
+}
+
+function drawFan(f, t) {
+  const a = TAU * ph(t, f.p, f.o);
+  if (f.big) {
+    for (let b = 0; b < 3; b++) {
+      const an = a + b * TAU / 3;
+      for (let s = 1; s <= f.r; s++) {
+        px(f.x + Math.round(Math.cos(an) * s), f.y + Math.round(Math.sin(an) * s), C.n4);
+        if (s > 2) px(f.x + Math.round(Math.cos(an + 0.32) * s), f.y + Math.round(Math.sin(an + 0.32) * s), C.n3);
+      }
+    }
+    px(f.x, f.y, C.n5);
+    for (let y = f.y - 8; y <= f.y + 8; y += 3) for (let x = f.x - 8; x <= f.x + 8; x++) { const d = (x - f.x) ** 2 + (y - f.y) ** 2; if (d < 64) px(x, y, C.n2); }
+  } else {
+    for (let b = 0; b < 2; b++) { const an = a + b * Math.PI; for (let s = 1; s <= f.r; s++) px(f.x + Math.round(Math.cos(an) * s), f.y + Math.round(Math.sin(an) * s), C.n3); }
+    px(f.x, f.y, C.n4);
+  }
+  px(f.lx, f.ly, ph(t, 2.6, f.s * 0.013) < 0.5 ? C.g4 : C.g1);
+}
+
+function midWindows(t) {
+  for (let i = 0; i < MIDWIN.length; i++) {
+    const m = MIDWIN[i];
+    if (m.mode === "tog") {
+      if (snoise(t, 1 / 34, m.s) < 0.3) { rect(m.x, m.y, m.w, m.h, C.k3); vl(m.x + (m.w >> 1), m.y, m.y + m.h - 1, C.k2); for (let k = 0; k < Math.min(m.w, m.h); k += 2) px(m.x + m.w - 3 - k, m.y + k, C.k5); }
+    } else if (m.mode === "tv") {
+      const q = snoise(t, 6, m.s), c = q < 0.3 ? C.t2 : q < 0.6 ? C.t3 : q < 0.85 ? C.t4 : C.k8;
+      rect(m.x + 1, m.y + 1, m.w - 2, m.h - 2, c);
+      vl(m.x + (m.w >> 1), m.y, m.y + m.h - 1, C.k2);
+      spr(m.x + 4, m.y + m.h - 6, TV_VIEWER, TV_MAP);
+    } else if (m.mode === "walk") {
+      const k = kc(LOOP / 4), u = t * k / LOOP + m.s * 0.137, f = u - Math.floor(u);
+      if (f < 0.12) {
+        const q = f / 0.12, dir = (Math.floor(u) & 1) ? -1 : 1, x = Math.round(dir > 0 ? m.x - 6 + q * (m.w + 10) : m.x + m.w + 4 - q * (m.w + 10));
+        for (let j = 0; j < m.h - 2; j++) for (let ii = 0; ii < 4; ii++) {
+          const X = x + ii, Y = m.y + 2 + j;
+          if (X <= m.x || X >= m.x + m.w - 1) continue;
+          if (j === 0 && (ii === 0 || ii === 3)) continue;
+          if (j === 3 && (ii === 0 || ii === 3)) continue;
+          px(X, Y, C.w2);
+        }
+        vl(m.x + (m.w >> 1), m.y, m.y + m.h - 1, C.w3);
+      }
+    } else if (m.mode === "curt") {
+      const s = Math.round(osc(t, 5.3, 0.2) * 1.2 + (wind(t) - 0.17) * 5);
+      rect(m.x + 3, m.y, Math.max(1, 3 + s), m.h, C.w4); vl(m.x + 3 + Math.max(0, s), m.y + 1, m.y + m.h - 1, C.w3);
+    }
+  }
+}
+
+function signs(t) {
+  // blade sign (building A)
+  let spk = 1;
+  for (let i = 0; i < SPARKS.length; i++) { const d = t - SPARKS[i].t; if (d >= 0 && d < 0.3) spk = (d * 30 | 0) & 1 ? 0.1 : 0.6; }
+  let sum = 0;
+  for (let g = 0; g < GLYPHS.length; g++) {
+    const I = neon(t, 31 + g * 7, g === 4 ? 0.8 : 0.975) * spk; sum += I;
+    if (I < 0.25) continue;
+    const core = GLYPHS[g].core, c = I > 0.6 ? C.m6 : C.m3, hc = I > 0.6 ? C.m3 : C.m1;
+    for (let k = 0; k < core.length; k++) { fb[core[k]] = c; fx[core[k]] = 0; }
+    const halo = GLYPHS[g].halo;
+    for (let k = 0; k < halo.length; k++) { const i = halo[k]; const x = i % W; if (x > 143 && x < 162) mixI(i, hc, 0.6 * I); }
+  }
+  const oI = neon(t, 61, 0.985) * spk;
+  if (oI > 0.25) for (let k = 0; k < SIGN_OUT.length; k++) { fb[SIGN_OUT[k]] = oI > 0.6 ? C.t8 : C.t5; fx[SIGN_OUT[k]] = 0; }
+  glowK(K.sign, RGB.m4, 0.07 * sum + 0.08 * oI);
+  // HOTEL
+  for (let i = 0; i < 5; i++) {
+    const I = neon(t, 120 + i * 9, i === 3 ? 0.78 : i === 1 ? 0.95 : 0.982);
+    if (I < 0.25) continue;
+    const tb = HOTEL[i], c = I > 0.6 ? C.m6 : C.m4, hc = I > 0.6 ? C.m4 : C.m2;
+    for (let k = 0; k < tb.halo.length; k++) { fb[tb.halo[k]] = hc; fx[tb.halo[k]] = 0; }
+    for (let k = 0; k < tb.core.length; k++) { fb[tb.core[k]] = c; fx[tb.core[k]] = 0; }
+    glowK(K.hotel[i], RGB.m4, 0.4 * I);
+  }
+  // ramen lightbox
+  const rI = neon(t, 140, 0.99);
+  glowK(K.ramen, RGB.r3, 0.42 * rI); glowK(K.shop, RGB.w7, 0.22);
+}
+
+function vendingFx(t) {
+  const I = neon(t, 81, 0.96);
+  if (I < 0.3) rect(588, 140, 10, 11, C.b0);
+  else if (I < 0.7) rect(588, 140, 10, 1, C.b2);
+  glowK(K.vend, RGB.b3, 0.38 * I);
+  px(596, 153, ph(t, 1.2) < 0.5 ? C.r3 : C.r1);
+}
+function corridor(t) {
+  for (let i = 0; i < CORL.length; i++) {
+    const l = CORL[i], I = neon(t, l.s, l.h);
+    if (I < 0.25) continue;
+    hl(l.x - 1, l.x + 1, l.y, I > 0.6 ? C.b3 : C.b1); if (I > 0.6) px(l.x, l.y, C.b4);
+    glowK(K.corl[i], RGB.b2, 0.3 * I);
+  }
+}
+
+function sparks(t) {
+  for (let e = 0; e < SPARKS.length; e++) {
+    const ev = SPARKS[e], dt = t - ev.t;
+    if (dt < 0 || dt > 1.3) continue;
+    if (dt < 0.1) glowP(152, 206, 16, RGB.w9, 0.9 * (1 - dt / 0.1));
+    for (let j = 0; j < ev.n; j++) {
+      const vx = (h3(ev.s, j, 1) - 0.5) * 80, vy = -h3(ev.s, j, 2) * 55 - 5, life = 0.35 + h3(ev.s, j, 3) * 0.75, d0 = h3(ev.s, j, 4) * 0.14;
+      const a = dt - d0; if (a < 0 || a > life) continue;
+      const x = 152 + vx * a, y = 206 + vy * a + 115 * a * a, q = a / life;
+      px(x, y, q < 0.25 ? C.wB : q < 0.5 ? C.w9 : q < 0.8 ? C.w7 : C.w5);
+      if (q < 0.45) { const b = a - 0.018; px(152 + vx * b, 206 + vy * b + 115 * b * b, C.w8); }
+    }
+  }
+}
+
+function puff(cx, cy, r, col, a) {
+  cx = Math.round(cx); cy = Math.round(cy);
+  const R2 = Math.ceil(r), rr = r * r;
+  for (let dy = -R2; dy <= R2; dy++) for (let dx = -R2; dx <= R2; dx++) {
+    const d = (dx * dx + dy * dy) / rr; if (d >= 1) continue;
+    mixP(cx + dx, cy + dy, col, a * (1 - d));
+  }
+}
+function smoke(t, e) {
+  const k = kc(e.P), Pr = LOOP / k, w = wind(t) / 0.17;
+  for (let j = 0; j < e.n; j++) {
+    const u = t * k / LOOP + j / e.n, c = Math.floor(u), f = u - c, age = f * Pr;
+    const jx = (h3(e.s, j, c % k) - 0.5) * 2 * e.jit;
+    const y = e.y - e.rise * age * (1 - 0.3 * f);
+    const x = e.x + jx - e.drift * age * w + Math.sin(age * 1.6 + j * 1.7) * e.wob * f;
+    const r = e.r0 + (e.r1 - e.r0) * f, a = e.a * Math.min(1, f * 7) * (1 - f) * (1 - f);
+    if (a > 0.01) puff(x, y, r, e.col, a);
+  }
+}
+
+function drawDrips(t, list, base) {
+  for (let i = 0; i < list.length; i++) {
+    const d = list[i], x = d[0], y0 = d[1], y1 = d[2];
+    const k = kc(d[3]), u = t * k / LOOP + h2(base, i), c = Math.floor(u), f = u - c, cyc = c % k, Pr = LOOP / k, tau = f * Pr;
+    if (h3(base, i, cyc) < 0.2) continue;
+    const fall = Math.sqrt(2 * Math.max(1, y1 - y0) / 520), tForm = Math.max(0.3, Pr - fall - 0.8);
+    if (tau < tForm) {
+      const g = tau / tForm;
+      if (g > 0.25) addP(x, y0, 55 * g, 65 * g, 80 * g);
+      if (g > 0.75) addP(x, y0 + 1, 70, 80, 98);
+    } else if (tau < tForm + fall) {
+      const dt = tau - tForm, y = y0 + 1 + 260 * dt * dt;
+      addP(x, y, 85, 95, 115); addP(x, y - 1, 45, 50, 60); if (dt > 0.12) addP(x, y - 2, 20, 22, 28);
+    } else {
+      const age = tau - tForm - fall;
+      if (age < 0.13) splash(x, y1, age);
+      if (y1 >= FLOOR && PUD[(y1 - FLOOR) * W + x] && age < 0.8) ripple(x, y1, age / 0.8);
+    }
+  }
+}
+function splash(x, y, age) {
+  if (age < 0.045) { addP(x, y - 1, 64, 74, 90); addP(x, y, 40, 46, 56); }
+  else if (age < 0.09) { addP(x - 1, y - 2, 52, 60, 74); addP(x + 1, y - 2, 52, 60, 74); addP(x, y, 22, 26, 32); }
+  else { addP(x - 2, y - 1, 30, 35, 44); addP(x + 2, y - 1, 30, 35, 44); }
+}
+function ripple(cx, cy, q) {
+  const r = 1 + q * 6.5, ry = Math.max(0.6, r * 0.32), a = (1 - q) * (1 - q) * 58, steps = Math.ceil(r * 6) + 4;
+  let lx = -999, ly = -999;
+  for (let s = 0; s < steps; s++) {
+    const an = s / steps * TAU, x = Math.round(cx + Math.cos(an) * r), y = Math.round(cy + Math.sin(an) * ry);
+    if (x === lx && y === ly) continue; lx = x; ly = y;
+    if (x < 0 || x >= W || y < FLOOR || y >= H || !PUD[(y - FLOOR) * W + x]) continue;
+    const k = Math.sin(an) > 0 ? 1 : 0.55;
+    addI(y * W + x, a * 0.7 * k, a * 0.85 * k, a * k);
+  }
+}
+
+function drawRain(d, t, slope, near) {
+  const n = d.n, K2 = d.k, P = d.p, LEN = d.len, amt = d.amt, yTop = d.yTop, span = d.span, seed = d.seed;
+  for (let i = 0; i < n; i++) {
+    const ki = K2[i], u = t * ki / LOOP + P[i], c = Math.floor(u), f = u - c, cyc = c % ki;
+    const y = yTop + f * span, x0 = h3(seed, i, cyc) * (W + 170) - 20, L = LEN[i];
+    let yEnd = 99999;
+    if (near) {
+      const yG = 318 + h3(seed + 9, i, cyc) * 40;
+      if (y >= yG) {
+        const age = (y - yG) / (span * ki / LOOP);
+        if (age < 0.13) splash(Math.round(x0 - slope * (yG - yTop)), Math.round(yG), age);
+        if (y - L > yG) continue;
+        yEnd = yG;
+      }
+    }
+    const yh = Math.floor(y);
+    for (let j = 0; j < L; j++) {
+      const yy = yh - j; if (yy < 0) break; if (yy >= H || yy > yEnd) continue;
+      const xx = Math.round(x0 - slope * (yy - yTop)); if (xx < 0 || xx >= W) continue;
+      const fade = 1 - j / L * 0.75, ii = yy * W + xx, dd = fb[ii], a = amt * fade, br = 0.3 * fade;
+      addI(ii, a * 0.72 + (dd & 255) * br, a * 0.84 + ((dd >> 8) & 255) * br, a + ((dd >> 16) & 255) * br);
+    }
+  }
+}
+
+/* ---- the hut interior: lamp, screen, person, cat ---- */
+const HEAD_R = [
+  "..hhhh...",
+  ".hkkkkk..",
+  "hkkkkkkk.",
+  "hkkkkkkkr",
+  "HHkkkkkkr",
+  "HHkkkkkkkr",
+  "HHkkkkkkr",
+  ".kkkkkkr.",
+  "..kkkkk..",
+  "...kkk..."
+];
+const HEAD_L = [
+  "...hhhh..",
+  "..kkkkkh.",
+  ".ckkkkkkh",
+  "ckkkkkkkh",
+  "ckkkkkkHH",
+  "ckkkkkkHH",
+  ".ckkkkkHH",
+  "..ckkkkk.",
+  "...kkkkk.",
+  "....kkk.."
+];
+const BODY = [
+  "......kkkkk..........",
+  "....kkkkkkkkk........",
+  "...kkkkkkkkkkkl......",
+  "..kkkkkkkkkkkkkk.....",
+  ".kkkkkkkkkkkkkkkk....",
+  ".kkkkkkkkkkkkkkkkk...",
+  "kkkkkkkkkkkkkkkkkkk..",
+  "kkkkkkkkkkkkkkkkkkkk.",
+  "kkkkkkkkkkkk.kkkkkkkk",
+  "kkkkkkkkkkk...kkkkkkk",
+  "kkkkkkkkkkk.....kkkkk",
+  "kkkkkkkkkkk.......kkk",
+  "kkkkkkkkkkk.........."
+];
+const CAT = [
+  "k.....k.",
+  "kk...kk.",
+  "kkkkkkk.",
+  "kekkkek.",
+  "kkkkkkk.",
+  ".kkkkk..",
+  ".kkkkk..",
+  "kkkkkkk.",
+  "kkkkkkkk",
+  "kkkkkkkk",
+  "kkkkkkkk"
+];
+const HEAD_MAP_HI = { h: C.k1, H: C.k1, k: C.w0, r: C.t6, c: C.t3 }, HEAD_MAP_LO = { h: C.k1, H: C.k1, k: C.w0, r: C.t5, c: C.t3 };
+const CAT_MAP_OPEN = { k: C.w0, e: C.t8 }, CAT_MAP_SHUT = { k: C.w0, e: C.w0 };
+const LANTERN = [".nnn.", "rRRRr", "rRwRr", "rRwRr", "rRRRr", ".nnn.", "..t.."];
+const LANTERN_MAP_HI = { n: C.k1, r: C.r1, R: C.r3, w: C.w9, t: C.w5 }, LANTERN_MAP_LO = { n: C.k1, r: C.r1, R: C.r2, w: C.w9, t: C.w5 };
+const TV_VIEWER = [".kk.", "kkkk", "kkkk", "kkkkkkkk", "kkkkkkkk", "kkkkkkkk"], TV_MAP = { k: C.k1 };
+function interior(t, Iint) {
+  // lamp light inside the room
+  const sw = Math.round(osc(t, 7.3) * 1.1);
+  glowP(465 + sw, 241, 24, RGB.w9, 0.2 * Iint);
+  // fairy lights twinkle
+  for (let x = 413, k = 0; x < 515; x += 5, k++) {
+    if (x > 444 && x < 485) continue;
+    const y = 231 + (k & 1), tw = snoise(t, 0.8, 500 + k);
+    px(x, y, tw < 0.2 ? C.w6 : (k % 3 === 0 ? C.wB : C.w9));
+    if (tw >= 0.2) addP(x, y + 1, 30, 18, 6);
+  }
+  // monitor
+  const sI = 0.85 + 0.15 * vnoise(t, 4, 77);
+  rect(486, 247, 23, 13, C.t0);
+  let bsum = 0;
+  for (let b = 0; b < 7; b++) {
+    const v = Math.pow(vnoise(t, 5.5, 100 + b), 1.4) * (0.55 + 0.45 * vnoise(t, 0.6, 200)), h = 1 + Math.floor(v * 7);
+    bsum += h;
+    for (let j = 0; j < h; j++) { const y = 256 - j; px(487 + b * 3, y, j === h - 1 ? C.m4 : j > 4 ? C.t8 : C.t6); px(488 + b * 3, y, j === h - 1 ? C.m4 : j > 4 ? C.t8 : C.t6); }
+  }
+  const pg = Math.floor(ph(t, 150, 0.41) * 19); hl(488, 506, 258, C.t1); if (pg > 0) hl(488, 487 + pg, 258, C.t5);
+  for (let x = 488; x < 507; x += 2) if (h2(9, ((x + Math.floor(ph(t, 12, 0.7) * 40)) % 40)) < 0.6) px(x, 248, C.t4);
+  if (ph(t, 1.0) < 0.5) px(506, 248, C.t8);
+  glowP(497, 254, 14, RGB.t6, 0.16 * sI);
+  // lamp
+  vl(465, 230, 235, C.w1); line(465, 233, 465 + sw, 236, C.w1);
+  const lx = 465 + sw;
+  hl(lx - 2, lx + 2, 236, C.w2); hl(lx - 3, lx + 3, 237, C.w3); hl(lx - 4, lx + 4, 238, C.w3); hl(lx - 4, lx + 4, 239, C.w5);
+  hl(lx - 1, lx + 1, 240, C.wA); px(lx, 240, C.wB);
+  // chair + person
+  const look = ph(t, 47) > 0.62 && ph(t, 47) < 0.78;
+  const br = osc(t, 4.8) > 0.35 ? -1 : 0;
+  const rim = bsum > 24 ? C.t6 : C.t5;
+  for (let j = 0; j < BODY.length; j++) {
+    const row = BODY[j], dy = j < 6 ? br : 0;
+    for (let i = 0; i < row.length; i++) {
+      const ch = row[i]; if (ch === ".") continue;
+      px(449 + i, 249 + j + dy, ch === "l" ? C.w3 : C.w0);
+    }
+  }
+  const typing = !look && vnoise(t, 0.25, 55) > 0.42;
+  if (typing) { const q = snoise(t, 7, 56); px(q < 0.5 ? 468 : 470, 260, C.w1); px(q < 0.5 ? 470 : 467, 261, C.w0); }
+  const head = look ? HEAD_L : HEAD_R;
+  spr(455, 239 + br, head, rim === C.t6 ? HEAD_MAP_HI : HEAD_MAP_LO);
+  if (!look) px(456, 243 + br, C.w2);
+  // cat on the sill
+  const blink = ph(t, 6.3) < 0.025 || ph(t, 11.7, 0.4) < 0.02;
+  spr(418, 262, CAT, blink ? CAT_MAP_SHUT : CAT_MAP_OPEN);
+  if (snoise(t, 0.5, 66) > 0.9) px(418, 262, C.w5);
+  const tail = osc(t, 2.9) + 0.6 * osc(t, 1.3, 0.2), ty = Math.round(tail * 1.2);
+  px(426, 271, C.w0); px(427, 272, C.w0); px(428, 272, C.w0); px(429, 271 + Math.max(-1, Math.min(1, ty)), C.w0); px(430, 270 + ty, C.w0); px(430, 271 + ty, C.w0);
+  // mug steam
+  for (let s = 0; s < 3; s++) {
+    const q = ph(t, 2.4, s / 3), y = 255 - q * 9, x = 478 + Math.sin(q * 5 + s) * 1.3;
+    mixP(x, y, C.wB, 0.42 * (1 - q) * Math.min(1, q * 5));
+  }
+}
+function glass(t) {
+  for (let k = 0; k < GLASS_REF_A.length; k += 2) mixI(GLASS_REF_A[k], C.b1, GLASS_REF_A[k + 1]);
+  for (let k = 0; k < DROPA.length; k += 2) {
+    const i = DROPA[k]; mixI(i, C.wB, 0.32); mixI(i + W, C.k1, 0.22);
+    if (DROPA[k + 1]) { mixI(i + 1, C.wB, 0.22); mixI(i + W + 1, C.k1, 0.18); }
+  }
+  for (let s = 0; s < 8; s++) {
+    const k = kc(5 + s * 0.9), u = t * k / LOOP + s * 0.173, c = Math.floor(u), f = u - c, cyc = c % k;
+    if (f > 0.72) continue;
+    let x = 413 + Math.floor(h3(808, s, cyc) * 101);
+    if (x >= 444 && x <= 449) x = 443; if (x >= 480 && x <= 485) x = 486;
+    const p = f / 0.72, q = p * 5, qi = Math.floor(q), qf = q - qi, e = qf < 0.55 ? 0 : Math.pow((qf - 0.55) / 0.45, 2);
+    const y = Math.round(229 + ((qi + e) / 5) * 44), xo = x + (h3(809, s, cyc * 7 + qi) < 0.3 ? 1 : 0);
+    for (let j = 1; j < Math.min(12, y - 228); j++) mixP(x, y - j, C.b2, 0.2 * (1 - j / 12));
+    mixP(xo, y, C.wB, 0.6); mixP(xo, y + 1, C.k1, 0.3); mixP(xo + 1, y, C.wB, 0.25);
+  }
+}
+
+/* ---- foreground dynamic ---- */
+function stringLights(t) {
+  const wv = wind(t);
+  for (let si = 0; si < STRANDS.length; si++) {
+    const S = STRANDS[si], sg = S.sag * (1 + 0.06 * osc(t, 5.7, S.s * 0.31));
+    const xa = Math.min(S.x0, S.x1), xb = Math.max(S.x0, S.x1);
+    let py = -9999;
+    for (let X = Math.max(0, xa); X <= Math.min(W - 1, xb); X++) {
+      const u = (X - S.x0) / (S.x1 - S.x0), y = Math.round(S.y0 + (S.y1 - S.y0) * u + sg * 4 * u * (1 - u));
+      if (py > -9000 && Math.abs(y - py) > 1) vl(X, py + Math.sign(y - py), y, C.k0);
+      px(X, y, C.k0); py = y;
+    }
+    for (let i = 0; i < S.n; i++) {
+      const u = (i + 0.5) / S.n, X = Math.round(S.x0 + (S.x1 - S.x0) * u), Y = Math.round(S.y0 + (S.y1 - S.y0) * u + sg * 4 * u * (1 - u));
+      if (X < -2 || X > W) continue;
+      const dx = Math.round(osc(t, 2.9 + i * 0.13, i * 0.17 + si) * 0.8 + (wv - 0.17) * 4);
+      const dead = (i * 5 + S.s) % 13 === 4, flaky = (i * 7 + S.s) % 11 === 3;
+      const I = dead ? 0 : flaky ? neon(t, 900 + i + si * 40, 0.86) : 0.92 + 0.08 * vnoise(t, 2, 950 + i);
+      const bx = X + dx, by = Y + 2;
+      px(X, Y + 1, C.k0);
+      if (I < 0.3) { px(bx, by, C.w2); px(bx + 1, by, C.w2); px(bx, by + 1, C.w1); px(bx + 1, by + 1, C.w1); continue; }
+      px(bx, by, C.wB); px(bx + 1, by, C.wA); px(bx, by + 1, C.w9); px(bx + 1, by + 1, C.w8);
+      glowP(bx + 0.5, by + 1, 7, RGB.w8, 0.36 * I);
+    }
+  }
+}
+function plants(t) {
+  const wv = (wind(t) - 0.17) * 0.6;
+  for (let i = 0; i < PLANTS.length; i++) {
+    const p = PLANTS[i], sway = 0.05 * osc(t, 3.3 + i * 0.41, i * 0.23) + wv * 0.4;
+    const x0 = p[0], y0 = p[1], len = p[2], ang = p[3] + sway, wid = p[4], droop = p[5];
+    for (let s = 0; s <= len; s += 0.5) {
+      const q = s / len, w = wid * Math.pow(Math.sin(Math.PI * Math.min(1, q * 1.05)), 0.8);
+      const cx = x0 + Math.cos(ang) * s, cy = y0 + Math.sin(ang) * s + droop * q * q;
+      for (let kk = -w; kk <= w; kk += 0.5) px(cx - Math.sin(ang) * kk, cy + Math.cos(ang) * kk, kk > w - 1 ? C.g1 : kk < -w + 1.2 ? C.g3 : C.g2);
+      if (s > 1) px(cx, cy, C.g1);
+    }
+  }
+}
+function hutDyn(t, Iint, Idoor) {
+  // big AC fan
+  for (let i = 0; i < FANS.length; i++) if (FANS[i].big) drawFan(FANS[i], t);
+  // turbine vent
+  const vo = Math.floor(ph(t, 1.6, 0.55) * 4);
+  for (let x = 520; x <= 526; x++) { const on = ((x + vo) & 3) === 0; vl(x, 186, 190, on ? C.n4 : C.n2); }
+  hl(521, 525, 185, C.n3); px(523, 184, C.n4);
+  // antenna beacon
+  const bq = ph(t, 2.2);
+  if (bq < 0.2) { const a = Math.sin(bq / 0.2 * Math.PI); rect(581, 117, 2, 2, C.r3); glowP(582, 118, 11, RGB.r3, 0.6 * a); } else rect(581, 117, 2, 2, C.r0);
+  // door lamp
+  rect(549, 233, 3, 4, Idoor > 0.6 ? C.wA : C.w7); px(550, 234, Idoor > 0.6 ? C.wB : C.w9);
+  glowP(551, 236, 30, RGB.w9, 0.5 * Idoor);
+  glowK(K.win, RGB.w7, 0.2 * Iint);
+  glowK(K.doorwin, RGB.w7, 0.3 * Iint);
+  plants(t);
+}
+
+function downspout(t) {
+  const M = LOOP * 30, s = Math.floor(t * 30 + 0.5) % M;
+  for (let y = 299; y <= 309; y++) for (let x = 603; x <= 604; x++) {
+    const q = h2(71 + x, ((y - s) % M + M) % M);
+    if (q > 0.25) addP(x, y, q > 0.6 ? 110 : 55, q > 0.6 ? 125 : 65, q > 0.6 ? 150 : 85);
+  }
+  for (let j = 0; j < 4; j++) { const q = h3(72, s, j); addP(599 + Math.floor(q * 10), 307 + Math.floor(h3(73, s, j) * 3), 60, 70, 85); }
+  for (let j = 0; j < 3; j++) ripple(604, 313, ph(t, 1.05, j / 3));
+}
+
+function floorFx(t) {
+  for (let i = 0; i < 70; i++) {
+    const k = kc(0.55 + (i % 7) * 0.11), u = t * k / LOOP + h2(91, i), c = Math.floor(u), f = u - c, cyc = c % k;
+    const age = f * LOOP / k; if (age > 0.13) continue;
+    let x, y;
+    if (i < 46) { const id = FLOORIDX[Math.floor(h3(92, i, cyc) * FLOORIDX.length)]; x = id % W; y = (id / W) | 0; }
+    else { const sf = SURF[Math.floor(h3(93, i, cyc) * SURF.length)]; x = Math.round(sf[0] + h3(94, i, cyc) * (sf[1] - sf[0])); y = sf[2]; }
+    splash(x, y, age);
+  }
+  for (let i = 0; i < 28; i++) {
+    const k = kc(0.9 + (i % 5) * 0.17), u = t * k / LOOP + h2(95, i), c = Math.floor(u), f = u - c, cyc = c % k;
+    const age = f * LOOP / k; if (age > 0.85) continue;
+    const id = PUDIDX[Math.floor(h3(96, i, cyc) * PUDIDX.length)];
+    ripple(id % W, (id / W) | 0, age / 0.85);
+  }
+}
+
+const RS_SH = new Int8Array(FH);
+function reflect(t) {
+  const p1 = TAU * ph(t, 1.9), p2 = TAU * ph(t, 3.1);
+  for (let fy = 0; fy < FH; fy++) {
+    const s = Math.sin(fy * 1.1 + p1) * 0.6 + Math.sin(fy * 0.37 - p2) * 0.55;
+    RS_SH[fy] = fy < 2 ? 0 : Math.round(s);
+  }
+  for (let fy = 0; fy < FH; fy++) {
+    const y = FLOOR + fy, o = y * W, fo = fy * W, sh = RS_SH[fy];
+    const rowP = Math.max(0, FLOOR - 1 - Math.floor(fy * 1.95)) * W;
+    const rowW = Math.max(2, FLOOR - 1 - Math.floor(fy * 1.45)) * W;
+    const fade = 1 - fy / FH * 0.35;
+    for (let x = 0; x < W; x++) {
+      const a = RMASK[fo + x]; if (a <= 0) continue;
+      let sr, sg, sb;
+      if (PUD[fo + x]) {
+        let sx = x + sh; if (sx < 0) sx = 0; else if (sx >= W) sx = W - 1;
+        const c = fb[rowP + sx]; sr = (c & 255) * 0.8; sg = ((c >> 8) & 255) * 0.86; sb = ((c >> 16) & 255) * 0.95;
+      } else {
+        const c0 = fb[rowW + x], c1 = fb[rowW - W + x], c2 = fb[rowW - 2 * W + x];
+        sr = ((c0 & 255) + (c1 & 255) + (c2 & 255)) * 0.24;
+        sg = (((c0 >> 8) & 255) + ((c1 >> 8) & 255) + ((c2 >> 8) & 255)) * 0.26;
+        sb = (((c0 >> 16) & 255) + ((c1 >> 16) & 255) + ((c2 >> 16) & 255)) * 0.29;
+      }
+      const A = a * fade, d = fb[o + x], dr = d & 255, dg = (d >> 8) & 255, db = (d >> 16) & 255;
+      let r = dr * (1 - A * 0.55) + sr * A, g = dg * (1 - A * 0.55) + sg * A, b = db * (1 - A * 0.55) + sb * A;
+      if (r > 255) r = 255; if (g > 255) g = 255; if (b > 255) b = 255;
+      fb[o + x] = (0xff000000 | (b << 16) | (g << 8) | r) >>> 0; fx[o + x] = 1;
+    }
+  }
+}
+
+/* =========================================================================
+   FRAME
+   ========================================================================= */
+function frame(t) {
+  T = fb;
+  fb.set(SKY); fx.fill(0);
+  drawClouds(t);
+  jelly(t);
+  blit(FAR1); beacons(t, 1); beacons(t, 0);
+  farCars(t);
+  fogBand(t, 40, 200, 95, 160, 0.34, C.t2, C.v2, FOG_HAZE, 2);
+  blit(FAR2); farWindows(t);
+  blit(VIA); train(t); blit(VIA2);
+  glowK(K.street, RGB.m3, 0.27 + 0.05 * vnoise(t, 0.4, 990)); glowK(K.street, RGB.t5, 0.1);
+  midCars(t); taxi(t);
+  drawRain(RAIN_FAR, t, wind(t) * 0.85, false);
+  blit(MID);
+  midWindows(t);
+  for (let i = 0; i < FANS.length; i++) if (!FANS[i].big) drawFan(FANS[i], t);
+  signs(t); vendingFx(t); corridor(t);
+  const hI = holo(t); glowK(K.holo, RGB.t6, 0.24 * hI);
+  for (let i = 0; i < WIRES.length; i++) drawWire(WIRES[i], t);
+  sparks(t);
+  smoke(t, SMOKES[1]); smoke(t, SMOKES[2]);
+  drawDrips(t, DRIPS_MID, 600);
+  smoke(t, SMOKES[3]);
+  fogBand(t, 194, 294, 70, 110, 0.3, C.t3, C.v3, FOG_LOW, 4);
+  const slope = wind(t);
+  drawRain(RAIN_MID, t, slope, false);
+  const Iint = 0.88 + 0.08 * vnoise(t, 0.35, 61) + 0.04 * vnoise(t, 9, 62);
+  let Idoor = 0.86 + 0.14 * vnoise(t, 6, 77); if (snoise(t, 1.5, 78) < 0.04) Idoor = 0.4;
+  blit(HUTIN); interior(t, Iint);
+  blit(FORE);
+  glass(t);
+  stringLights(t);
+  smoke(t, SMOKES[0]);
+  hutDyn(t, Iint, Idoor);
+  blit(FLOORL);
+  reflect(t);
+  glowK(K.poolWin, RGB.w7, 0.34 * Iint); glowK(K.poolDoor, RGB.w9, 0.3 * Idoor);
+  floorFx(t);
+  drawDrips(t, DRIPS, 700);
+  downspout(t);
+  blit(FRONT);
+  fogBand(t, 280, 345, 55, 85, 0.13, C.t3, C.k5, FOG_LOW, 4);
+  drawRain(RAIN_NEAR, t, slope * 1.1, true);
+  for (let k = 0; k < VIGA.length; k += 2) {
+    const i = VIGA[k], f = VIGA[k + 1], d = fb[i];
+    fb[i] = (0xff000000 | ((((d >> 16) & 255) * f) << 16) | ((((d >> 8) & 255) * f) << 8) | ((d & 255) * f)) >>> 0; fx[i] = 1;
+  }
+  // palette lock + ordered dither
+  for (let y = 0, i = 0; y < H; y++) {
+    const dr = (y & 3) * 4;
+    for (let x = 0; x < W; x++, i++) {
+      const c = fb[i]; let r = c & 255, g = (c >> 8) & 255, b = (c >> 16) & 255;
+      if (fx[i]) {
+        const d = DITH[dr + (x & 3)];
+        r += d; g += d; b += d;
+        r = r < 0 ? 0 : r > 255 ? 255 : r; g = g < 0 ? 0 : g > 255 ? 255 : g; b = b < 0 ? 0 : b > 255 ? 255 : b;
+      }
+      out32[i] = LUT[((r >> 3) << 10) | ((g >> 3) << 5) | (b >> 3)];
+    }
+  }
+}
+function present() {
+  lctx.putImageData(imgData, 0, 0);
+  sctx.drawImage(low, 0, 0, W * scale, H * scale);
+}
+
+/* =========================================================================
+   DISPLAY
+   ========================================================================= */
+const screen = document.getElementById("screen");
+const sctx = screen.getContext("2d", { alpha: false });
+let scale = 3;
+function fit() {
+  const dpr = window.devicePixelRatio || 1;
+  const pw = Math.round(innerWidth * dpr), phh = Math.round(innerHeight * dpr);
+  scale = FORCE_SCALE || Math.max(1, Math.floor(Math.min(pw / W, phh / H)));
+  const cw = W * scale, ch = H * scale;
+  if (screen.width !== cw) screen.width = cw;
+  if (screen.height !== ch) screen.height = ch;
+  screen.style.width = cw / dpr + "px"; screen.style.height = ch / dpr + "px";
+  screen.style.left = Math.floor((pw - cw) / 2) / dpr + "px"; screen.style.top = Math.floor((phh - ch) / 2) / dpr + "px";
+  sctx.imageSmoothingEnabled = false;
+}
+fit();
+addEventListener("resize", fit);
+function toggleFS() {
+  const d = document, el = d.documentElement;
+  if (!(d.fullscreenElement || d.webkitFullscreenElement)) (el.requestFullscreen || el.webkitRequestFullscreen || (() => {})).call(el);
+  else (d.exitFullscreen || d.webkitExitFullscreen || (() => {})).call(d);
+}
+addEventListener("dblclick", toggleFS);
+addEventListener("keydown", e => { if (e.key === "f" || e.key === "F") toggleFS(); });
+let idleTimer = 0;
+document.body.classList.add("idle");
+addEventListener("mousemove", () => { document.body.classList.remove("idle"); clearTimeout(idleTimer); idleTimer = setTimeout(() => document.body.classList.add("idle"), 1500); });
+
+let last = -1e9;
+function tick(now) {
+  requestAnimationFrame(tick);
+  if (now - last < 1000 / 60 - 3) return;          // hold ~60 fps on high-refresh displays
+  last = now;
+  const t = FREEZE !== null ? FREEZE : (((performance.timeOrigin + now) / 1000) % LOOP);
+  frame(t); present();
+}
+window.scene = { LOOP, renderAt(t) { frame(((t % LOOP) + LOOP) % LOOP); present(); } };
+requestAnimationFrame(tick);
+})();
+</script>
+</body>
+</html>
