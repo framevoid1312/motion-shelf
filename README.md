@@ -18,7 +18,7 @@ Every entry here has a playable original video and a prompt you can copy and run
 
 ## Skills to try
 
-Free agent skills for making motion and video with Claude Code, Codex and other coding agents, most-starred first (star counts checked on 4 November 2026). Each one has a card with its demo on the [site](https://framevoid1312.github.io/motion-shelf/) under **Skills to try**.
+Free agent skills for making motion and video with Claude Code, Codex and other coding agents, most-starred first (star counts checked on 4 November 2026, cinecode on 7 November). Each one has a card with its demo on the [site](https://framevoid1312.github.io/motion-shelf/) under **Skills to try**.
 
 | # | Skill | ★ | What it does | Licence |
 |---:|---|---:|---|---|
@@ -39,12 +39,13 @@ Free agent skills for making motion and video with Claude Code, Codex and other 
 | 15 | [**Claude Motion Design**](https://github.com/howseen-ai/claude-motion-design) | 764 | Motion design in pure code (HTML, Playwright, ffmpeg), no After Effects: launch films, showreels, promos and remakes of a reference video. | MIT |
 | 16 | [**Blender Skills**](https://github.com/EL4CTEO/blender-skills) | 700 | 28 professional Blender 5.2 workflows as agent skills: animation, rigging, lighting, simulation, stylized NPR, rendering and more. | MIT |
 | 17 | [**Rossark Motion**](https://github.com/rossark0/rossark-motion-skill) | 689 | Animates SVGs, characters and illustrations for React Native and SwiftUI. | MIT |
-| 18 | [**AI Promo Video Maker**](https://github.com/liyupi/ai-promo-video-maker) | 437 | Product promo films from a name or URL: researches the product, offers style frames, captures real 4K pages, cuts to the beat and adds narration. | MIT |
-| 19 | [**xilo-opus-video**](https://github.com/Kianzzz/xilo-opus-video) | 366 | Code-made video with three plans and previews first, then a frame-by-frame render: Canvas, WebGL, Three.js, Remotion, HyperFrames or Manim, with a coded score. | MIT |
-| 20 | [**Video Director**](https://github.com/win4r/video-director) | 312 | Video planning, timeline validation and automated quality checks. | MIT |
-| 21 | [**HyperFrames Community Skills**](https://github.com/heygen-com/hyperframes-community-skills) | 249 | Focused community skills for HyperFrames: p5 paint animation, Vox-style explainers, 3D camera captions, day-in-my-life and more. | Apache-2.0 |
-| 22 | [**Take One**](https://github.com/talsiach/take-one) | 172 | Turns prompts into videos through a multi-stage creative pipeline. | MIT |
-| 23 | [**Argo**](https://github.com/shreyaskarnik/argo) | 122 | Creates product demo videos from Playwright walkthroughs with AI voiceovers. | MIT |
+| 18 | [**cinecode**](https://github.com/sarpstar/cinecode) | 626 | Films made in code with you: short films, long YouTube videos, ads, explainers and music videos. A quick one-file mode or a gated three.js film mode, with designed sound and a −14 LUFS MP4. | MIT |
+| 19 | [**AI Promo Video Maker**](https://github.com/liyupi/ai-promo-video-maker) | 437 | Product promo films from a name or URL: researches the product, offers style frames, captures real 4K pages, cuts to the beat and adds narration. | MIT |
+| 20 | [**xilo-opus-video**](https://github.com/Kianzzz/xilo-opus-video) | 366 | Code-made video with three plans and previews first, then a frame-by-frame render: Canvas, WebGL, Three.js, Remotion, HyperFrames or Manim, with a coded score. | MIT |
+| 21 | [**Video Director**](https://github.com/win4r/video-director) | 312 | Video planning, timeline validation and automated quality checks. | MIT |
+| 22 | [**HyperFrames Community Skills**](https://github.com/heygen-com/hyperframes-community-skills) | 249 | Focused community skills for HyperFrames: p5 paint animation, Vox-style explainers, 3D camera captions, day-in-my-life and more. | Apache-2.0 |
+| 23 | [**Take One**](https://github.com/talsiach/take-one) | 172 | Turns prompts into videos through a multi-stage creative pipeline. | MIT |
+| 24 | [**Argo**](https://github.com/shreyaskarnik/argo) | 122 | Creates product demo videos from Playwright walkthroughs with AI voiceovers. | MIT |
 
 ## Top 60
 
