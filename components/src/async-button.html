@@ -1,0 +1,46 @@
+---
+{"name":"Async Action Button","cat":"Buttons & toggles","order":3,
+"desc":"A submit button that collapses into a spinner while it works, then opens into a green 'Sent' with a drawn check, or a red 'Try again' with a shake.",
+"tags":["states","morph","feedback"],
+"prompt":"Build an async action button with four states. Idle: a 200×56 accent pill reading 'Send invite' with a paper-plane icon. Loading: the pill's width animates to a 56px circle (450 ms, expo-out) and the label slides up and out while a white ring spinner slides in. Success: the button widens to 150px, turns green, and shows 'Sent' with a checkmark whose stroke draws in via stroke-dashoffset. Error: widens to 170px, turns red, shows 'Try again' and shakes horizontally for 420 ms. After 1.6 s it returns to idle. All labels are absolutely stacked layers that crossfade with a small vertical slide. Clicks during work are ignored. Announce each state in an aria-live region. Demo loop: success, success, error. Text on the accent must stay readable in both light and dark themes. Single HTML file."}
+---
+<style>
+.ab{position:relative;height:56px;width:200px;border:0;border-radius:999px;background:var(--accent);color:var(--on);font:600 16px var(--fb);cursor:pointer;transition:width .45s var(--out),background .35s;overflow:hidden;box-shadow:0 12px 26px -14px var(--accent)}
+.ab>span{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;gap:8px;white-space:nowrap;transition:opacity .25s,transform .35s var(--out)}
+.ab .sp,.ab .ok,.ab .er{opacity:0;transform:translateY(14px)}
+.ab:not([data-s=idle]) .i{opacity:0;transform:translateY(-14px)}
+.ab[data-s=load]{width:56px;cursor:progress}
+.ab[data-s=load] .sp{opacity:1;transform:none}
+.ab[data-s=ok]{width:150px;background:var(--good);box-shadow:0 12px 26px -14px var(--good)}
+.ab[data-s=ok] .ok{opacity:1;transform:none}
+.ab[data-s=err]{width:170px;background:var(--bad);box-shadow:0 12px 26px -14px var(--bad)}
+.ab[data-s=err] .er{opacity:1;transform:none}
+.sp i{width:22px;height:22px;border-radius:50%;border:2.5px solid color-mix(in oklab,var(--on) 30%,transparent);border-top-color:var(--on);animation:r .7s linear infinite}
+@keyframes r{to{transform:rotate(1turn)}}
+.ok path{stroke-dasharray:24;stroke-dashoffset:24}
+.ab[data-s=ok] .ok path{transition:stroke-dashoffset .45s .2s var(--out);stroke-dashoffset:0}
+.shake{animation:sh .42s}
+@keyframes sh{20%{translate:-7px}40%{translate:6px}60%{translate:-4px}80%{translate:2px}}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+</style>
+<button class="ab" id="ab" data-s="idle">
+  <span class="i"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" aria-hidden="true"><path d="M22 2 11 13M22 2l-7 20-4-9-9-4z"/></svg>Send invite</span>
+  <span class="sp" aria-hidden="true"><i></i></span>
+  <span class="ok" aria-hidden="true"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12.5 9.5 18 20 6.5"/></svg>Sent</span>
+  <span class="er" aria-hidden="true">Try again</span>
+</button>
+<div class="sr" id="sr" aria-live="polite"></div>
+<div class="cap">click to send</div>
+<script>
+const ab=document.getElementById('ab'),sr=document.getElementById('sr');let busy=false,n=0;
+const say={load:'Sending…',ok:'Invite sent',err:'Could not send. Try again.'};
+async function run(fail){
+  if(busy)return;busy=true;
+  ab.dataset.s='load';sr.textContent=say.load;await FC.wait(1300);
+  ab.dataset.s=fail?'err':'ok';sr.textContent=say[ab.dataset.s];
+  if(fail){ab.classList.remove('shake');void ab.offsetWidth;ab.classList.add('shake')}
+  await FC.wait(1600);ab.dataset.s='idle';busy=false;
+}
+ab.addEventListener('click',()=>run(Math.random()<.25));
+FC.demo(async()=>{await run(++n%3===0);await FC.wait(900)});
+</script>

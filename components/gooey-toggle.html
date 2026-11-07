@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Gooey Liquid Toggle · Motion Shelf UI components</title>
+<!-- A switch whose knob stretches like a drop of liquid, leaving a trail that pulls back into it as it lands.
+     From Phil's Motion Shelf: https://github.com/framevoid1312/motion-shelf — free to use. -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&family=Figtree:wght@300..900&family=JetBrains+Mono:wght@400;500;700&display=swap">
+<style>
+:root{--bg:#f6f7fa;--surface:#fff;--ink:#151821;--muted:#5b6172;--line:#d5d9e3;--chip:#e3e7f2;--accent:#2944d6;--on:#fff;--mark:#ffd84d;--good:#14915f;--bad:#d6453d;color-scheme:light;
+--fd:"Big Shoulders Display","Arial Narrow",Impact,sans-serif;--fb:"Figtree",system-ui,-apple-system,"Segoe UI",sans-serif;--fm:"JetBrains Mono",ui-monospace,Consolas,monospace;
+--spring:cubic-bezier(.34,1.56,.64,1);--out:cubic-bezier(.22,1,.36,1)}
+@media (prefers-color-scheme:dark){:root:not([data-theme=light]){--bg:#12141b;--surface:#1c1f2a;--ink:#e8eaf2;--muted:#9aa1b5;--line:#2c3142;--chip:#252a39;--accent:#8ea0ff;--on:#11131a;--mark:#e9c53a;--good:#3ecf8e;--bad:#ff6b61;color-scheme:dark}}
+:root[data-theme=dark]{--bg:#12141b;--surface:#1c1f2a;--ink:#e8eaf2;--muted:#9aa1b5;--line:#2c3142;--chip:#252a39;--accent:#8ea0ff;--on:#11131a;--mark:#e9c53a;--good:#3ecf8e;--bad:#ff6b61;color-scheme:dark}
+*{box-sizing:border-box}
+html,body{height:100%}
+body{margin:0;display:grid;place-items:center;background:var(--bg);color:var(--ink);font:15px/1.5 var(--fb);overflow:hidden;-webkit-font-smoothing:antialiased;-webkit-tap-highlight-color:transparent;transition:background .3s,color .3s}
+button{font:inherit;color:inherit}
+:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
+.cap{position:fixed;left:0;right:0;bottom:14px;text-align:center;font:500 10.5px var(--fm);letter-spacing:.14em;text-transform:uppercase;color:var(--muted);pointer-events:none}
+.fc-paused *,.fc-paused *::before,.fc-paused *::after{animation-play-state:paused!important}
+/* --- gooey-toggle --- */
+.wrap{display:grid;gap:22px;justify-items:center}
+.tg{position:relative;width:132px;height:64px;border:0;padding:0;border-radius:999px;background:var(--line);cursor:pointer;transition:background .5s var(--out);box-shadow:inset 0 2px 6px rgba(0,0,0,.12)}
+.tg[aria-checked=true]{background:var(--accent)}
+.goo{position:absolute;inset:0;filter:url(#goo)}
+.goo i{position:absolute;border-radius:50%;background:#fff}
+.k{top:8px;left:8px;width:48px;height:48px;transition:transform .55s var(--spring)}
+.t1{top:12px;left:12px;width:40px;height:40px;transition:transform .5s .07s var(--out)}
+.t2{top:16px;left:16px;width:32px;height:32px;transition:transform .55s .15s var(--out)}
+.tg[aria-checked=true] .k,.tg[aria-checked=true] .t1,.tg[aria-checked=true] .t2{transform:translateX(68px)}
+.lb{position:relative;height:18px;width:120px;font:500 12px var(--fm);color:var(--muted);text-align:center}
+.lb span{position:absolute;inset:0;transition:opacity .3s,transform .4s var(--out)}
+.lb .on{opacity:0;transform:translateY(8px)}
+.is-on .lb .on{opacity:1;transform:none;color:var(--accent)}
+.is-on .lb .off{opacity:0;transform:translateY(-8px)}
+</style></head><body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true"><filter id="goo"><feGaussianBlur in="SourceGraphic" stdDeviation="6" result="b"/><feColorMatrix in="b" mode="matrix" values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 22 -10" result="g"/><feComposite in="SourceGraphic" in2="g" operator="atop"/></filter></svg>
+<div class="wrap" id="wrap">
+  <button class="tg" id="tg" role="switch" aria-checked="false" aria-label="Liquid mode"><span class="goo" aria-hidden="true"><i class="t2"></i><i class="t1"></i><i class="k"></i></span></button>
+  <div class="lb" aria-hidden="true"><span class="off">liquid: off</span><span class="on">liquid: on</span></div>
+</div>
+<script>
+/* Motion Shelf runtime: autoplay demo when idle, pause when off-screen, theme */
+(function(){
+var q=new URLSearchParams(location.search),de=document.documentElement,th=q.get('theme');
+if(th==='light'||th==='dark')de.dataset.theme=th;
+var FC=window.FC={paused:false,idle:true,reduce:matchMedia('(prefers-reduced-motion: reduce)').matches&&!q.has('demo')};
+var sleep=FC.sleep=function(ms){return new Promise(function(r){setTimeout(r,ms)})};
+var to;FC.touch=function(){FC.idle=false;clearTimeout(to);to=setTimeout(function(){FC.idle=true},6000)};
+['pointerdown','keydown','wheel'].forEach(function(n){addEventListener(n,function(e){if(e.isTrusted)FC.touch()},{passive:true,capture:true})});
+addEventListener('message',function(e){var d=e.data;
+  if(d==='fc:pause'||d==='fc:play'){FC.paused=d==='fc:pause';de.classList.toggle('fc-paused',FC.paused)}
+  else if(d&&d.fcTheme){if(d.fcTheme==='auto')delete de.dataset.theme;else de.dataset.theme=d.fcTheme}});
+FC.gate=async function(){while(FC.paused)await sleep(120)};
+/* wait ms of un-paused time; resolves true if the demo should keep going */
+FC.wait=async function(ms){var left=ms;while(left>0){var s=performance.now();await sleep(Math.min(left,60));if(!FC.paused)left-=performance.now()-s}return FC.idle};
+FC.demo=function(fn){if(FC.reduce)return;(async function(){await FC.wait(450);for(;;){while(FC.paused||!FC.idle)await sleep(250);await fn()}})()};
+FC.raf=function(fn){var last=performance.now(),t=0;function f(n){var dt=Math.min(n-last,64);last=n;if(!FC.paused){t+=dt;fn(t,dt)}requestAnimationFrame(f)}requestAnimationFrame(f)};
+})();
+</script>
+<script>
+const tg=document.getElementById('tg'),wrap=document.getElementById('wrap');
+const set=v=>{tg.setAttribute('aria-checked',v);wrap.classList.toggle('is-on',v)};
+tg.addEventListener('click',()=>set(tg.getAttribute('aria-checked')!=='true'));
+FC.demo(async()=>{set(tg.getAttribute('aria-checked')!=='true');await FC.wait(1400)});
+</script>
+</body></html>

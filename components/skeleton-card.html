@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Skeleton to Content · Motion Shelf UI components</title>
+<!-- A loading card made of shimmering placeholder blocks that hand over to the real content piece by piece, without a single layout jump.
+     From Phil's Motion Shelf: https://github.com/framevoid1312/motion-shelf — free to use. -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&family=Figtree:wght@300..900&family=JetBrains+Mono:wght@400;500;700&display=swap">
+<style>
+:root{--bg:#f6f7fa;--surface:#fff;--ink:#151821;--muted:#5b6172;--line:#d5d9e3;--chip:#e3e7f2;--accent:#2944d6;--on:#fff;--mark:#ffd84d;--good:#14915f;--bad:#d6453d;color-scheme:light;
+--fd:"Big Shoulders Display","Arial Narrow",Impact,sans-serif;--fb:"Figtree",system-ui,-apple-system,"Segoe UI",sans-serif;--fm:"JetBrains Mono",ui-monospace,Consolas,monospace;
+--spring:cubic-bezier(.34,1.56,.64,1);--out:cubic-bezier(.22,1,.36,1)}
+@media (prefers-color-scheme:dark){:root:not([data-theme=light]){--bg:#12141b;--surface:#1c1f2a;--ink:#e8eaf2;--muted:#9aa1b5;--line:#2c3142;--chip:#252a39;--accent:#8ea0ff;--on:#11131a;--mark:#e9c53a;--good:#3ecf8e;--bad:#ff6b61;color-scheme:dark}}
+:root[data-theme=dark]{--bg:#12141b;--surface:#1c1f2a;--ink:#e8eaf2;--muted:#9aa1b5;--line:#2c3142;--chip:#252a39;--accent:#8ea0ff;--on:#11131a;--mark:#e9c53a;--good:#3ecf8e;--bad:#ff6b61;color-scheme:dark}
+*{box-sizing:border-box}
+html,body{height:100%}
+body{margin:0;display:grid;place-items:center;background:var(--bg);color:var(--ink);font:15px/1.5 var(--fb);overflow:hidden;-webkit-font-smoothing:antialiased;-webkit-tap-highlight-color:transparent;transition:background .3s,color .3s}
+button{font:inherit;color:inherit}
+:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
+.cap{position:fixed;left:0;right:0;bottom:14px;text-align:center;font:500 10.5px var(--fm);letter-spacing:.14em;text-transform:uppercase;color:var(--muted);pointer-events:none}
+.fc-paused *,.fc-paused *::before,.fc-paused *::after{animation-play-state:paused!important}
+/* --- skeleton-card --- */
+.wrap{display:grid;gap:14px;justify-items:center}
+.card{width:min(340px,86vw);background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:12px;box-shadow:0 18px 40px -26px rgba(0,0,0,.5)}
+.p{position:relative}
+.p>.sk{position:absolute;inset:0;border-radius:8px;background:var(--chip) linear-gradient(100deg,transparent 30%,color-mix(in oklab,var(--surface) 70%,transparent) 50%,transparent 70%) no-repeat;background-size:60% 100%;background-attachment:fixed;animation:sh 1.3s linear infinite;transition:opacity .35s var(--out)}
+@keyframes sh{from{background-position:-60vw 0}to{background-position:140vw 0}}
+.p>.ct{opacity:0;transform:translateY(4px);transition:opacity .45s var(--out),transform .45s var(--out)}
+.ok .p>.sk{opacity:0}
+.ok .p>.ct{opacity:1;transform:none}
+.media{aspect-ratio:16/9;border-radius:10px}
+.media .ct{position:absolute;inset:0;border-radius:10px;background:radial-gradient(120% 80% at 75% 20%,#ffd84d 0,#ff7a59 30%,#2944d6 75%,#11131a 100%);display:grid;place-items:center}
+.media .ct i{width:46px;height:46px;border-radius:50%;background:rgba(255,255,255,.92);display:grid;place-items:center}
+.who{display:flex;align-items:center;gap:10px;margin:14px 2px 10px}
+.av{width:40px;height:40px;flex:none}
+.av .sk{border-radius:50%}
+.av .ct{width:40px;height:40px;border-radius:50%;background:var(--accent);color:var(--on);display:grid;place-items:center;font:700 14px var(--fb)}
+.nm{display:grid;gap:2px}
+.nm .p{width:max-content}
+.nm b{font-size:14.5px}.nm span{font-size:12.5px;color:var(--muted)}
+.ti{margin:0 2px 6px;width:max-content;max-width:100%}
+.ti .ct{font:800 24px/1.05 var(--fd);text-transform:uppercase}
+.tx{margin:0 2px 4px}
+.tx .ct{font-size:14px;color:var(--muted);line-height:1.45}
+.rl{border:1px solid var(--line);background:var(--surface);border-radius:999px;padding:8px 16px;font:600 13px var(--fb);cursor:pointer}
+</style></head><body>
+<div class="wrap">
+<article class="card" id="card" aria-busy="true" aria-label="Post">
+  <div class="p media"><div class="ct"><i><svg width="16" height="16" viewBox="0 0 24 24" fill="#11131a" aria-hidden="true"><path d="M7 4v16l13-8z"/></svg></i></div><div class="sk"></div></div>
+  <div class="who"><div class="p av"><div class="ct">MK</div><div class="sk"></div></div>
+    <div class="nm"><div class="p"><b class="ct">Mira Kostas</b><div class="sk"></div></div><div class="p"><span class="ct">2 min ago · motion test</span><div class="sk"></div></div></div></div>
+  <div class="p ti"><div class="ct">Liquid type in one take</div><div class="sk"></div></div>
+  <div class="p tx"><div class="ct">Every letter is a spring. No keyframes, just a pointer and a little physics.</div><div class="sk"></div></div>
+</article>
+<button class="rl" id="rl">Reload</button>
+</div>
+<script>
+/* Motion Shelf runtime: autoplay demo when idle, pause when off-screen, theme */
+(function(){
+var q=new URLSearchParams(location.search),de=document.documentElement,th=q.get('theme');
+if(th==='light'||th==='dark')de.dataset.theme=th;
+var FC=window.FC={paused:false,idle:true,reduce:matchMedia('(prefers-reduced-motion: reduce)').matches&&!q.has('demo')};
+var sleep=FC.sleep=function(ms){return new Promise(function(r){setTimeout(r,ms)})};
+var to;FC.touch=function(){FC.idle=false;clearTimeout(to);to=setTimeout(function(){FC.idle=true},6000)};
+['pointerdown','keydown','wheel'].forEach(function(n){addEventListener(n,function(e){if(e.isTrusted)FC.touch()},{passive:true,capture:true})});
+addEventListener('message',function(e){var d=e.data;
+  if(d==='fc:pause'||d==='fc:play'){FC.paused=d==='fc:pause';de.classList.toggle('fc-paused',FC.paused)}
+  else if(d&&d.fcTheme){if(d.fcTheme==='auto')delete de.dataset.theme;else de.dataset.theme=d.fcTheme}});
+FC.gate=async function(){while(FC.paused)await sleep(120)};
+/* wait ms of un-paused time; resolves true if the demo should keep going */
+FC.wait=async function(ms){var left=ms;while(left>0){var s=performance.now();await sleep(Math.min(left,60));if(!FC.paused)left-=performance.now()-s}return FC.idle};
+FC.demo=function(fn){if(FC.reduce)return;(async function(){await FC.wait(450);for(;;){while(FC.paused||!FC.idle)await sleep(250);await fn()}})()};
+FC.raf=function(fn){var last=performance.now(),t=0;function f(n){var dt=Math.min(n-last,64);last=n;if(!FC.paused){t+=dt;fn(t,dt)}requestAnimationFrame(f)}requestAnimationFrame(f)};
+})();
+</script>
+<script>
+const card=document.getElementById('card'),parts=[...card.querySelectorAll('.p')];
+function set(ok){card.setAttribute('aria-busy',!ok);parts.forEach((p,i)=>{p.querySelector('.ct').style.transitionDelay=p.querySelector('.sk').style.transitionDelay=(ok?i*70:0)+'ms'});card.classList.toggle('ok',ok)}
+let busy=false;
+async function reload(){if(busy)return;busy=true;set(false);await FC.wait(1800);set(true);busy=false}
+document.getElementById('rl').addEventListener('click',reload);
+FC.demo(async()=>{await reload();await FC.wait(2600)});
+if(FC.reduce)set(true);
+</script>
+</body></html>

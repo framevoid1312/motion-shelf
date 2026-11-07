@@ -1,0 +1,49 @@
+---
+{"name":"Tilting Value Slider","cat":"Inputs & switches","order":4,
+"desc":"A range slider whose value bubble swings like it's hanging from the thumb: drag fast and it tilts against the motion, then settles.",
+"tags":["slider","physics","drag"],
+"prompt":"Build a custom range slider (0–100) for 'Volume'. A 6px rounded track with an accent fill, a 26px white thumb with a soft shadow that grows on hover/drag, and a value bubble above the thumb (a rounded chip with a small pointer) showing the number. The bubble behaves like it hangs from the thumb: compute the thumb's velocity each frame and tilt the bubble against it (rotate up to ±28°, transform-origin at the bottom), then spring back to upright with a damped spring. The bubble scales up while dragging. Drag with pointer capture anywhere on the track, Left/Right/Home/End keys, role=slider with aria-valuenow. Demo glides the value between random targets with ease-in-out when idle. Light and dark themes. Single HTML file."}
+---
+<style>
+.w{width:min(420px,84vw);display:grid;gap:26px}
+.hd{display:flex;justify-content:space-between;font:600 14px var(--fb)}
+.hd span{font:500 12px var(--fm);color:var(--muted)}
+.sl{position:relative;height:44px;cursor:pointer;touch-action:none;outline:none}
+.tr{position:absolute;left:0;right:0;top:19px;height:6px;border-radius:9px;background:var(--line)}
+.fi{position:absolute;left:0;top:19px;height:6px;border-radius:9px;background:var(--accent)}
+.th{position:absolute;top:22px;width:26px;height:26px;margin:-13px 0 0 -13px;border-radius:50%;background:#fff;box-shadow:0 2px 8px rgba(0,0,0,.28),0 0 0 1px rgba(0,0,0,.06);transition:scale .2s var(--spring)}
+.sl:hover .th,.sl.drag .th{scale:1.15}
+.sl:focus-visible .th{box-shadow:0 0 0 4px color-mix(in oklab,var(--accent) 35%,transparent),0 2px 8px rgba(0,0,0,.28)}
+.bub{position:absolute;bottom:42px;left:0;margin-left:-26px;width:52px;transform-origin:50% 115%;pointer-events:none}
+.bub b{display:block;padding:6px 0;border-radius:9px;background:var(--ink);color:var(--bg);font:700 15px var(--fm);text-align:center;font-variant-numeric:tabular-nums;transition:scale .25s var(--spring);transform-origin:50% 120%}
+.bub b::after{content:"";position:absolute;left:50%;bottom:-5px;margin-left:-6px;border:6px solid transparent;border-bottom:0;border-top-color:var(--ink)}
+.sl.drag .bub b{scale:1.12}
+</style>
+<div class="w">
+  <div class="hd">Volume <span>drag me fast</span></div>
+  <div class="sl" id="sl" role="slider" tabindex="0" aria-label="Volume" aria-valuemin="0" aria-valuemax="100" aria-valuenow="40">
+    <i class="tr"></i><i class="fi" id="fi"></i><div class="bub" id="bub"><b id="val">40</b></div><i class="th" id="th"></i>
+  </div>
+</div>
+<script>
+const sl=document.getElementById('sl'),fi=document.getElementById('fi'),th=document.getElementById('th'),bub=document.getElementById('bub'),val=document.getElementById('val');
+let clock=0,v=40,target=40,ang=0,av=0,prev=40,drag=false,anim=null;
+const setT=x=>{target=Math.max(0,Math.min(100,x));sl.setAttribute('aria-valuenow',Math.round(target))};
+const fromX=x=>{const r=sl.getBoundingClientRect();return (x-r.left)/r.width*100};
+sl.addEventListener('pointerdown',e=>{sl.setPointerCapture(e.pointerId);drag=true;anim=null;sl.classList.add('drag');setT(fromX(e.clientX))});
+sl.addEventListener('pointermove',e=>{if(drag)setT(fromX(e.clientX))});
+['pointerup','pointercancel'].forEach(n=>sl.addEventListener(n,()=>{drag=false;sl.classList.remove('drag')}));
+sl.addEventListener('keydown',e=>{const k={ArrowRight:1,ArrowUp:1,ArrowLeft:-1,ArrowDown:-1}[e.key];anim=null;
+  if(k){e.preventDefault();setT(Math.round(target)+k*(e.shiftKey?10:2))}if(e.key==='Home'){e.preventDefault();setT(0)}if(e.key==='End'){e.preventDefault();setT(100)}});
+FC.raf((t,dt)=>{
+  clock=t;
+  if(anim){const k=Math.min(1,(t-anim.t0)/anim.d),e=k<.5?4*k*k*k:1-Math.pow(-2*k+2,3)/2;setT(anim.a+(anim.b-anim.a)*e);if(k>=1)anim=null}
+  v+=(target-v)*(drag?.6:.25);
+  const w=sl.clientWidth,vel=(v-prev)/Math.max(dt,1)*16;prev=v;
+  const want=Math.max(-28,Math.min(28,-vel*w/100*1.6));
+  av+=(want-ang)*.22;av*=.72;ang+=av;
+  const x=v/100*w;th.style.left=x+'px';fi.style.width=x+'px';
+  bub.style.transform=`translateX(${x}px) rotate(${ang.toFixed(2)}deg)`;val.textContent=Math.round(v);
+});
+FC.demo(async()=>{const b=8+Math.random()*84,d=900+Math.abs(b-target)*14;anim={a:target,b,t0:clock,d};await FC.wait(d+900)});
+</script>

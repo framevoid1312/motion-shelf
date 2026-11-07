@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Countdown Ring · Motion Shelf UI components</title>
+<!-- A ten-second ring timer: the arc drains smoothly, digits roll each second, the last three seconds turn red and pulse, and zero bursts into &#x27;Go&#x27;.
+     From Phil's Motion Shelf: https://github.com/framevoid1312/motion-shelf — free to use. -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&family=Figtree:wght@300..900&family=JetBrains+Mono:wght@400;500;700&display=swap">
+<style>
+:root{--bg:#f6f7fa;--surface:#fff;--ink:#151821;--muted:#5b6172;--line:#d5d9e3;--chip:#e3e7f2;--accent:#2944d6;--on:#fff;--mark:#ffd84d;--good:#14915f;--bad:#d6453d;color-scheme:light;
+--fd:"Big Shoulders Display","Arial Narrow",Impact,sans-serif;--fb:"Figtree",system-ui,-apple-system,"Segoe UI",sans-serif;--fm:"JetBrains Mono",ui-monospace,Consolas,monospace;
+--spring:cubic-bezier(.34,1.56,.64,1);--out:cubic-bezier(.22,1,.36,1)}
+@media (prefers-color-scheme:dark){:root:not([data-theme=light]){--bg:#12141b;--surface:#1c1f2a;--ink:#e8eaf2;--muted:#9aa1b5;--line:#2c3142;--chip:#252a39;--accent:#8ea0ff;--on:#11131a;--mark:#e9c53a;--good:#3ecf8e;--bad:#ff6b61;color-scheme:dark}}
+:root[data-theme=dark]{--bg:#12141b;--surface:#1c1f2a;--ink:#e8eaf2;--muted:#9aa1b5;--line:#2c3142;--chip:#252a39;--accent:#8ea0ff;--on:#11131a;--mark:#e9c53a;--good:#3ecf8e;--bad:#ff6b61;color-scheme:dark}
+*{box-sizing:border-box}
+html,body{height:100%}
+body{margin:0;display:grid;place-items:center;background:var(--bg);color:var(--ink);font:15px/1.5 var(--fb);overflow:hidden;-webkit-font-smoothing:antialiased;-webkit-tap-highlight-color:transparent;transition:background .3s,color .3s}
+button{font:inherit;color:inherit}
+:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
+.cap{position:fixed;left:0;right:0;bottom:14px;text-align:center;font:500 10.5px var(--fm);letter-spacing:.14em;text-transform:uppercase;color:var(--muted);pointer-events:none}
+.fc-paused *,.fc-paused *::before,.fc-paused *::after{animation-play-state:paused!important}
+/* --- countdown-ring --- */
+.tm{position:relative;width:190px;height:190px;border:0;padding:0;background:none;cursor:pointer;border-radius:50%}
+.tm svg{position:absolute;inset:0;transform:rotate(-90deg);overflow:visible}
+.tk{fill:none;stroke:var(--chip);stroke-width:10}
+.ar{fill:none;stroke:var(--accent);stroke-width:10;stroke-linecap:round;transition:stroke .3s}
+.burst{fill:none;stroke:var(--accent);stroke-width:3;opacity:0;transform-origin:center;transform-box:fill-box}
+.lw .ar,.lw .burst{stroke:var(--bad)}
+.num{position:absolute;inset:0;display:grid;place-items:center;overflow:hidden;border-radius:50%;font:800 74px/1 var(--fd);font-variant-numeric:tabular-nums;transition:color .3s}
+.lw .num{color:var(--bad)}
+.num span{position:absolute}
+.lbl{position:absolute;left:0;right:0;bottom:-34px;text-align:center;font:500 11px var(--fm);color:var(--muted);letter-spacing:.12em;text-transform:uppercase}
+</style></head><body>
+<button class="tm" id="tm" role="timer" aria-live="off" aria-label="Countdown, click to restart">
+  <svg viewBox="0 0 190 190" aria-hidden="true"><circle class="tk" cx="95" cy="95" r="70"/><circle class="ar" id="ar" cx="95" cy="95" r="70"/><circle class="burst" id="bu" cx="95" cy="95" r="70"/></svg>
+  <span class="num" id="num" aria-hidden="true"><span>10</span></span>
+  <span class="lbl">click to restart</span>
+</button>
+<span id="sr" style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)" aria-live="polite"></span>
+<script>
+/* Motion Shelf runtime: autoplay demo when idle, pause when off-screen, theme */
+(function(){
+var q=new URLSearchParams(location.search),de=document.documentElement,th=q.get('theme');
+if(th==='light'||th==='dark')de.dataset.theme=th;
+var FC=window.FC={paused:false,idle:true,reduce:matchMedia('(prefers-reduced-motion: reduce)').matches&&!q.has('demo')};
+var sleep=FC.sleep=function(ms){return new Promise(function(r){setTimeout(r,ms)})};
+var to;FC.touch=function(){FC.idle=false;clearTimeout(to);to=setTimeout(function(){FC.idle=true},6000)};
+['pointerdown','keydown','wheel'].forEach(function(n){addEventListener(n,function(e){if(e.isTrusted)FC.touch()},{passive:true,capture:true})});
+addEventListener('message',function(e){var d=e.data;
+  if(d==='fc:pause'||d==='fc:play'){FC.paused=d==='fc:pause';de.classList.toggle('fc-paused',FC.paused)}
+  else if(d&&d.fcTheme){if(d.fcTheme==='auto')delete de.dataset.theme;else de.dataset.theme=d.fcTheme}});
+FC.gate=async function(){while(FC.paused)await sleep(120)};
+/* wait ms of un-paused time; resolves true if the demo should keep going */
+FC.wait=async function(ms){var left=ms;while(left>0){var s=performance.now();await sleep(Math.min(left,60));if(!FC.paused)left-=performance.now()-s}return FC.idle};
+FC.demo=function(fn){if(FC.reduce)return;(async function(){await FC.wait(450);for(;;){while(FC.paused||!FC.idle)await sleep(250);await fn()}})()};
+FC.raf=function(fn){var last=performance.now(),t=0;function f(n){var dt=Math.min(n-last,64);last=n;if(!FC.paused){t+=dt;fn(t,dt)}requestAnimationFrame(f)}requestAnimationFrame(f)};
+})();
+</script>
+<script>
+const tm=document.getElementById('tm'),ar=document.getElementById('ar'),num=document.getElementById('num'),bu=document.getElementById('bu'),sr=document.getElementById('sr');
+const C=2*Math.PI*70,D=10000;ar.style.strokeDasharray=C;
+let start=null,shown=10,goUntil=0,clock=0;
+function roll(txt){const o=num.firstElementChild,n=document.createElement('span');n.textContent=txt;num.append(n);
+  o.animate([{transform:'none',opacity:1},{transform:'translateY(-60%)',opacity:0}],{duration:260,easing:'cubic-bezier(.22,1,.36,1)',fill:'forwards'}).finished.then(()=>o.remove());
+  n.animate([{transform:'translateY(60%)',opacity:0},{transform:'none',opacity:1}],{duration:440,easing:'cubic-bezier(.34,1.56,.64,1)'})}
+function restart(){start=clock;goUntil=0;shown=10;num.innerHTML='<span>10</span>';tm.classList.remove('lw')}
+tm.addEventListener('click',restart);
+FC.raf(t=>{
+  clock=t;if(start===null)start=t;
+  if(goUntil){if(t>goUntil)restart();return}
+  const left=Math.max(0,D-(t-start)),secs=Math.ceil(left/1000);
+  ar.style.strokeDashoffset=(C*(1-left/D)).toFixed(2);
+  if(secs!==shown){shown=secs;tm.classList.toggle('lw',secs<=3);
+    if(secs===0){roll('GO');sr.textContent='Go';num.lastElementChild.animate([{scale:.4},{scale:1.25},{scale:1}],{duration:520,easing:'cubic-bezier(.34,1.56,.64,1)'});
+      bu.animate([{transform:'scale(1)',opacity:.9,strokeWidth:10},{transform:'scale(1.45)',opacity:0,strokeWidth:1}],{duration:800,easing:'cubic-bezier(.22,1,.36,1)'});goUntil=t+1300}
+    else{roll(secs);sr.textContent=secs<=3?String(secs):'';
+      if(secs<=3)ar.animate([{strokeWidth:10},{strokeWidth:15},{strokeWidth:10}],{duration:420,easing:'ease-out'})}}
+});
+</script>
+</body></html>

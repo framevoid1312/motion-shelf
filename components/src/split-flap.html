@@ -1,0 +1,48 @@
+---
+{"name":"Split-Flap Board","cat":"Kinetic type","order":3,
+"desc":"A departures-board word that clatters through the alphabet, flap by flap, until every tile lands. Click to change the status.",
+"tags":["3D flip","WAAPI","retro"],
+"prompt":"Build an airport split-flap display with 8 tiles in a dark rounded housing. Each tile is split into a top and bottom half with a thin seam. To change a character, a tile steps through the character set ' ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789:' one flap at a time: the top flap (showing the old character) rotates down on rotateX from 0 to -90deg with ease-in and darkens, then the bottom flap (showing the new character) swings from 90deg to 0 with ease-out, about 45 ms each. The static top half already shows the next character, the static bottom half shows the old one until the flap lands. Tiles start 40 ms apart, left to right. Cycle through BOARDING, DELAYED, ON TIME, GATE 12, LANDED; click to advance. Bold monospace characters in off-white on charcoal tiles, perspective on each tile, Web Animations API. Single HTML file."}
+---
+<style>
+.b{display:flex;gap:clamp(3px,.8vw,6px);padding:clamp(10px,2.6vw,18px);background:#0b0c10;border-radius:12px;box-shadow:0 24px 50px -24px rgba(0,0,0,.55),inset 0 0 0 1px rgba(255,255,255,.06);cursor:pointer}
+.t{position:relative;width:clamp(26px,9vw,62px);height:clamp(38px,13vw,90px);perspective:320px;font:700 clamp(24px,8.4vw,58px)/1 var(--fm);color:#f3efe3}
+.h{position:absolute;left:0;right:0;height:50%;overflow:hidden;background:#20222b;backface-visibility:hidden}
+.h span{position:absolute;left:0;right:0;height:200%;display:grid;place-items:center}
+.u,.fu{top:0;border-radius:5px 5px 0 0;transform-origin:50% 100%;background:#24262f}
+.d,.fd{bottom:0;border-radius:0 0 5px 5px;transform-origin:50% 0}
+.d span,.fd span{top:-100%}
+.fu,.fd{z-index:2}
+.fd{transform:rotateX(90deg)}
+.t::after{content:"";position:absolute;left:0;right:0;top:calc(50% - .5px);height:1px;background:#07080b;z-index:3}
+.t::before{content:"";position:absolute;left:-2px;right:-2px;top:calc(50% - 3px);height:6px;z-index:4;background:linear-gradient(90deg,#3a3d48 0 3px,transparent 3px calc(100% - 3px),#3a3d48 calc(100% - 3px));border-radius:2px}
+</style>
+<div class="b" id="b" role="button" tabindex="0" aria-live="polite" aria-label="Departures board"></div>
+<div class="cap">click to change status</div>
+<script>
+const C=' ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789:',N=8,b=document.getElementById('b');
+const words=['BOARDING','DELAYED','ON TIME','GATE 12','LANDED'];let wi=-1,busy=false;
+const tiles=[...Array(N)].map(()=>{
+  const t=document.createElement('div');t.className='t';t.setAttribute('aria-hidden','true');
+  t.innerHTML='<div class="h u"><span></span></div><div class="h d"><span></span></div><div class="h fu"><span></span></div><div class="h fd"><span></span></div>';
+  b.append(t);const g=s=>t.querySelector(s);
+  const o={u:g('.u span'),d:g('.d span'),fu:g('.fu span'),fd:g('.fd span'),FU:g('.fu'),FD:g('.fd'),c:' '};
+  o.u.textContent=o.d.textContent=o.fu.textContent=o.fd.textContent=' ';return o});
+async function flip(o,n){
+  o.u.textContent=n;o.fu.textContent=o.c;o.fd.textContent=n;o.d.textContent=o.c;
+  await o.FU.animate([{transform:'rotateX(0)',filter:'brightness(1)'},{transform:'rotateX(-90deg)',filter:'brightness(.55)'}],{duration:45,easing:'ease-in',fill:'forwards'}).finished;
+  await o.FD.animate([{transform:'rotateX(90deg)',filter:'brightness(.6)'},{transform:'rotateX(0)',filter:'brightness(1)'}],{duration:45,easing:'ease-out',fill:'forwards'}).finished;
+  o.d.textContent=n;o.fu.textContent=n;o.c=n;
+  o.FU.getAnimations().forEach(a=>a.cancel());o.FD.getAnimations().forEach(a=>a.cancel());
+}
+async function show(word){
+  if(busy)return;busy=true;word=word.padEnd(N).slice(0,N);b.setAttribute('aria-label','Status: '+word.trim());
+  await Promise.all(tiles.map(async(o,i)=>{await FC.wait(i*40);while(o.c!==word[i]){await FC.gate();await flip(o,C[(C.indexOf(o.c)+1)%C.length])}}));
+  busy=false;
+}
+const next=()=>show(words[wi=(wi+1)%words.length]);
+b.addEventListener('click',next);
+b.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();next()}});
+FC.demo(async()=>{await next();await FC.wait(1800)});
+if(FC.reduce)next();
+</script>

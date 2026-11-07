@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Split-Flap Board · Motion Shelf UI components</title>
+<!-- A departures-board word that clatters through the alphabet, flap by flap, until every tile lands. Click to change the status.
+     From Phil's Motion Shelf: https://github.com/framevoid1312/motion-shelf — free to use. -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&family=Figtree:wght@300..900&family=JetBrains+Mono:wght@400;500;700&display=swap">
+<style>
+:root{--bg:#f6f7fa;--surface:#fff;--ink:#151821;--muted:#5b6172;--line:#d5d9e3;--chip:#e3e7f2;--accent:#2944d6;--on:#fff;--mark:#ffd84d;--good:#14915f;--bad:#d6453d;color-scheme:light;
+--fd:"Big Shoulders Display","Arial Narrow",Impact,sans-serif;--fb:"Figtree",system-ui,-apple-system,"Segoe UI",sans-serif;--fm:"JetBrains Mono",ui-monospace,Consolas,monospace;
+--spring:cubic-bezier(.34,1.56,.64,1);--out:cubic-bezier(.22,1,.36,1)}
+@media (prefers-color-scheme:dark){:root:not([data-theme=light]){--bg:#12141b;--surface:#1c1f2a;--ink:#e8eaf2;--muted:#9aa1b5;--line:#2c3142;--chip:#252a39;--accent:#8ea0ff;--on:#11131a;--mark:#e9c53a;--good:#3ecf8e;--bad:#ff6b61;color-scheme:dark}}
+:root[data-theme=dark]{--bg:#12141b;--surface:#1c1f2a;--ink:#e8eaf2;--muted:#9aa1b5;--line:#2c3142;--chip:#252a39;--accent:#8ea0ff;--on:#11131a;--mark:#e9c53a;--good:#3ecf8e;--bad:#ff6b61;color-scheme:dark}
+*{box-sizing:border-box}
+html,body{height:100%}
+body{margin:0;display:grid;place-items:center;background:var(--bg);color:var(--ink);font:15px/1.5 var(--fb);overflow:hidden;-webkit-font-smoothing:antialiased;-webkit-tap-highlight-color:transparent;transition:background .3s,color .3s}
+button{font:inherit;color:inherit}
+:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
+.cap{position:fixed;left:0;right:0;bottom:14px;text-align:center;font:500 10.5px var(--fm);letter-spacing:.14em;text-transform:uppercase;color:var(--muted);pointer-events:none}
+.fc-paused *,.fc-paused *::before,.fc-paused *::after{animation-play-state:paused!important}
+/* --- split-flap --- */
+.b{display:flex;gap:clamp(3px,.8vw,6px);padding:clamp(10px,2.6vw,18px);background:#0b0c10;border-radius:12px;box-shadow:0 24px 50px -24px rgba(0,0,0,.55),inset 0 0 0 1px rgba(255,255,255,.06);cursor:pointer}
+.t{position:relative;width:clamp(26px,9vw,62px);height:clamp(38px,13vw,90px);perspective:320px;font:700 clamp(24px,8.4vw,58px)/1 var(--fm);color:#f3efe3}
+.h{position:absolute;left:0;right:0;height:50%;overflow:hidden;background:#20222b;backface-visibility:hidden}
+.h span{position:absolute;left:0;right:0;height:200%;display:grid;place-items:center}
+.u,.fu{top:0;border-radius:5px 5px 0 0;transform-origin:50% 100%;background:#24262f}
+.d,.fd{bottom:0;border-radius:0 0 5px 5px;transform-origin:50% 0}
+.d span,.fd span{top:-100%}
+.fu,.fd{z-index:2}
+.fd{transform:rotateX(90deg)}
+.t::after{content:"";position:absolute;left:0;right:0;top:calc(50% - .5px);height:1px;background:#07080b;z-index:3}
+.t::before{content:"";position:absolute;left:-2px;right:-2px;top:calc(50% - 3px);height:6px;z-index:4;background:linear-gradient(90deg,#3a3d48 0 3px,transparent 3px calc(100% - 3px),#3a3d48 calc(100% - 3px));border-radius:2px}
+</style></head><body>
+<div class="b" id="b" role="button" tabindex="0" aria-live="polite" aria-label="Departures board"></div>
+<div class="cap">click to change status</div>
+<script>
+/* Motion Shelf runtime: autoplay demo when idle, pause when off-screen, theme */
+(function(){
+var q=new URLSearchParams(location.search),de=document.documentElement,th=q.get('theme');
+if(th==='light'||th==='dark')de.dataset.theme=th;
+var FC=window.FC={paused:false,idle:true,reduce:matchMedia('(prefers-reduced-motion: reduce)').matches&&!q.has('demo')};
+var sleep=FC.sleep=function(ms){return new Promise(function(r){setTimeout(r,ms)})};
+var to;FC.touch=function(){FC.idle=false;clearTimeout(to);to=setTimeout(function(){FC.idle=true},6000)};
+['pointerdown','keydown','wheel'].forEach(function(n){addEventListener(n,function(e){if(e.isTrusted)FC.touch()},{passive:true,capture:true})});
+addEventListener('message',function(e){var d=e.data;
+  if(d==='fc:pause'||d==='fc:play'){FC.paused=d==='fc:pause';de.classList.toggle('fc-paused',FC.paused)}
+  else if(d&&d.fcTheme){if(d.fcTheme==='auto')delete de.dataset.theme;else de.dataset.theme=d.fcTheme}});
+FC.gate=async function(){while(FC.paused)await sleep(120)};
+/* wait ms of un-paused time; resolves true if the demo should keep going */
+FC.wait=async function(ms){var left=ms;while(left>0){var s=performance.now();await sleep(Math.min(left,60));if(!FC.paused)left-=performance.now()-s}return FC.idle};
+FC.demo=function(fn){if(FC.reduce)return;(async function(){await FC.wait(450);for(;;){while(FC.paused||!FC.idle)await sleep(250);await fn()}})()};
+FC.raf=function(fn){var last=performance.now(),t=0;function f(n){var dt=Math.min(n-last,64);last=n;if(!FC.paused){t+=dt;fn(t,dt)}requestAnimationFrame(f)}requestAnimationFrame(f)};
+})();
+</script>
+<script>
+const C=' ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789:',N=8,b=document.getElementById('b');
+const words=['BOARDING','DELAYED','ON TIME','GATE 12','LANDED'];let wi=-1,busy=false;
+const tiles=[...Array(N)].map(()=>{
+  const t=document.createElement('div');t.className='t';t.setAttribute('aria-hidden','true');
+  t.innerHTML='<div class="h u"><span></span></div><div class="h d"><span></span></div><div class="h fu"><span></span></div><div class="h fd"><span></span></div>';
+  b.append(t);const g=s=>t.querySelector(s);
+  const o={u:g('.u span'),d:g('.d span'),fu:g('.fu span'),fd:g('.fd span'),FU:g('.fu'),FD:g('.fd'),c:' '};
+  o.u.textContent=o.d.textContent=o.fu.textContent=o.fd.textContent=' ';return o});
+async function flip(o,n){
+  o.u.textContent=n;o.fu.textContent=o.c;o.fd.textContent=n;o.d.textContent=o.c;
+  await o.FU.animate([{transform:'rotateX(0)',filter:'brightness(1)'},{transform:'rotateX(-90deg)',filter:'brightness(.55)'}],{duration:45,easing:'ease-in',fill:'forwards'}).finished;
+  await o.FD.animate([{transform:'rotateX(90deg)',filter:'brightness(.6)'},{transform:'rotateX(0)',filter:'brightness(1)'}],{duration:45,easing:'ease-out',fill:'forwards'}).finished;
+  o.d.textContent=n;o.fu.textContent=n;o.c=n;
+  o.FU.getAnimations().forEach(a=>a.cancel());o.FD.getAnimations().forEach(a=>a.cancel());
+}
+async function show(word){
+  if(busy)return;busy=true;word=word.padEnd(N).slice(0,N);b.setAttribute('aria-label','Status: '+word.trim());
+  await Promise.all(tiles.map(async(o,i)=>{await FC.wait(i*40);while(o.c!==word[i]){await FC.gate();await flip(o,C[(C.indexOf(o.c)+1)%C.length])}}));
+  busy=false;
+}
+const next=()=>show(words[wi=(wi+1)%words.length]);
+b.addEventListener('click',next);
+b.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();next()}});
+FC.demo(async()=>{await next();await FC.wait(1800)});
+if(FC.reduce)next();
+</script>
+</body></html>

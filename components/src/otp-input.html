@@ -1,0 +1,57 @@
+---
+{"name":"One-Time Code","cat":"Inputs & switches","order":3,
+"desc":"Six code boxes that pop as digits land, shake red on a wrong code and ripple green, box by box, when it's right. Paste works too.",
+"tags":["form","validation","keyboard"],
+"prompt":"Build a 6-digit one-time-code input: six square boxes with large tabular digits. Typing a digit pops the box (scale 1 → 1.08 → 1) and moves focus to the next; Backspace clears and moves back; arrow keys move; pasting a 6-digit code fills all boxes. The focused box has an accent ring. When all six are filled, verify: the correct code (246810) turns the boxes green one by one with a 60 ms stagger and a small upward hop, then shows 'Verified' with a check; a wrong code turns them red, shakes the row, then clears and refocuses the first box. Use inputmode=numeric, autocomplete=one-time-code, aria-labels per digit and a live region for the result. Show a muted hint 'demo code: 246810'. Demo enters a wrong code, then the right one. Light and dark themes. Single HTML file."}
+---
+<style>
+.w{display:grid;gap:16px;justify-items:center}
+.row{display:flex;gap:clamp(6px,1.6vw,10px)}
+.row input{width:clamp(40px,11vw,56px);height:clamp(52px,14vw,68px);border:1.5px solid var(--line);border-radius:12px;background:var(--surface);color:var(--ink);font:700 clamp(22px,6vw,30px) var(--fm);text-align:center;outline:none;caret-color:var(--accent);transition:border-color .2s,box-shadow .2s,background .3s,color .3s}
+.row input:focus{border-color:var(--accent);box-shadow:0 0 0 4px color-mix(in oklab,var(--accent) 22%,transparent)}
+.row input.g{background:var(--good);border-color:var(--good);color:#fff}
+.row input.r{border-color:var(--bad);color:var(--bad);background:color-mix(in oklab,var(--bad) 8%,var(--surface))}
+.row.shake{animation:sh .42s}
+@keyframes sh{20%{translate:-9px}40%{translate:8px}60%{translate:-5px}80%{translate:2px}}
+.msg{height:22px;font:600 14px var(--fb);display:flex;align-items:center;gap:6px}
+.msg.ok{color:var(--good)}.msg.no{color:var(--bad)}
+.hint{font:500 11.5px var(--fm);color:var(--muted)}
+</style>
+<div class="w">
+  <div class="row" id="row" role="group" aria-label="Verification code"></div>
+  <div class="msg" id="msg" aria-live="polite"></div>
+  <div class="hint">demo code: 246810</div>
+</div>
+<script>
+const row=document.getElementById('row'),msg=document.getElementById('msg'),CODE='246810';let lock=false,gen=0,demoing=false;
+const I=[...Array(6)].map((_,i)=>{const e=document.createElement('input');e.inputMode='numeric';e.autocomplete=i?'off':'one-time-code';e.maxLength=1;e.setAttribute('aria-label','Digit '+(i+1));row.append(e);return e});
+const pop=e=>e.animate([{scale:1},{scale:1.1},{scale:1}],{duration:260,easing:'cubic-bezier(.34,1.56,.64,1)'});
+function put(i,d,focus){I[i].value=d;pop(I[i]);if(focus&&i<5)I[i+1].focus();if(I.every(x=>x.value))verify()}
+async function verify(){
+  if(lock)return;lock=true;const g=gen,v=I.map(x=>x.value).join('');
+  if(v===CODE){for(const e of I){e.classList.add('g');e.animate([{translate:'0 0'},{translate:'0 -6px'},{translate:'0 0'}],{duration:320,easing:'cubic-bezier(.34,1.56,.64,1)'});await FC.wait(60)}
+    msg.className='msg ok';msg.innerHTML='<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5 10 17.5 19 7"/></svg>Verified';
+    await FC.wait(2000);if(g===gen)reset()}
+  else{I.forEach(e=>e.classList.add('r'));row.classList.remove('shake');void row.offsetWidth;row.classList.add('shake');msg.className='msg no';msg.textContent='That code didn’t work';
+    await FC.wait(900);if(g===gen)reset(true)}
+}
+function reset(focus){I.forEach(e=>{e.value='';e.classList.remove('g','r')});if(focus!==true)msg.textContent='';lock=false;if(focus===true&&!FC.idle)I[0].focus()}
+I.forEach((e,i)=>{
+  e.addEventListener('input',()=>{const d=e.value.replace(/\D/g,'');if(d.length>1){paste(d);return}e.value=d;if(d)put(i,d,true)});
+  e.addEventListener('keydown',ev=>{if(ev.key==='Backspace'&&!e.value&&i){I[i-1].value='';I[i-1].focus();ev.preventDefault()}if(ev.key==='ArrowLeft'&&i)I[i-1].focus();if(ev.key==='ArrowRight'&&i<5)I[i+1].focus()});
+  e.addEventListener('paste',ev=>{ev.preventDefault();paste((ev.clipboardData.getData('text')||'').replace(/\D/g,''))});
+  e.addEventListener('focus',()=>e.select());
+});
+/* a real user takes over from the demo: wipe whatever the demo left behind */
+row.addEventListener('pointerdown',e=>{if(e.isTrusted&&(demoing||lock)){gen++;demoing=false;reset();}},true);
+row.addEventListener('keydown',e=>{if(e.isTrusted&&(demoing||lock)&&!/^Tab$/.test(e.key)){gen++;demoing=false;reset();}},true);
+function paste(d){d.slice(0,6).split('').forEach((c,j)=>{I[j].value=c;pop(I[j])});if(d.length>=6)verify();else I[Math.min(d.length,5)].focus()}
+FC.demo(async()=>{
+  demoing=true;
+  for(const code of ['246180',CODE]){
+    for(let i=0;i<6;i++){if(!FC.idle||!demoing)return;I[i].value=code[i];pop(I[i]);await FC.wait(170)}
+    await verify();await FC.wait(500);
+  }
+  demoing=false;await FC.wait(800);
+});
+</script>

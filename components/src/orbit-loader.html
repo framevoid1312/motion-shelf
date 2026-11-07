@@ -1,0 +1,38 @@
+---
+{"name":"Orbital Loader","cat":"Loaders & feedback","order":1,
+"desc":"Three dashed orbits with dots that speed up and coast around a breathing core, with a monospace status line cycling underneath. CSS only.",
+"tags":["CSS only","loader","keyframes"],
+"prompt":"Build a CSS-only orbital loader. Three concentric dashed rings (70, 110 and 150px) in the line color. Ring 1 carries two accent dots, ring 2 carries three yellow dots and spins the opposite way, ring 3 carries one ink dot. Each ring rotates with an ease-in-out cubic-bezier(.65,0,.35,1) so the dots accelerate and coast instead of spinning at constant speed, with durations of 1.6 s, 2.4 s and 3.2 s. In the middle, an accent core that breathes (scale 0.8 ↔ 1 with a soft glow). Under it, a monospace line 'fetching orbital-dots' whose trailing dots animate with steps(). Wrap it in role=status with an aria-label. Respect prefers-reduced-motion by slowing everything to a gentle pulse. Light and dark themes. Single HTML file, no JavaScript."}
+---
+<style>
+.wrap{display:grid;gap:26px;justify-items:center}
+.ld{position:relative;width:170px;height:170px}
+.r{position:absolute;left:50%;top:50%;border-radius:50%;border:1.5px dashed var(--line);animation:spin var(--d) cubic-bezier(.65,0,.35,1) infinite}
+.r1{width:70px;height:70px;margin:-35px;--d:1.6s}
+.r2{width:112px;height:112px;margin:-56px;--d:2.4s;animation-direction:reverse}
+.r3{width:154px;height:154px;margin:-77px;--d:3.2s}
+.r i{position:absolute;left:50%;top:-5px;width:10px;height:10px;margin-left:-5px;border-radius:50%;transform-origin:5px calc(var(--s)/2 + 5px)}
+.r1 i{--s:70px;background:var(--accent)}
+.r2 i{--s:112px;background:var(--mark);width:8px;height:8px;top:-4px;margin-left:-4px;transform-origin:4px calc(var(--s)/2 + 4px)}
+.r3 i{--s:154px;background:var(--ink);width:7px;height:7px;top:-3.5px;margin-left:-3.5px;transform-origin:3.5px calc(var(--s)/2 + 3.5px)}
+.r i:nth-child(2){transform:rotate(180deg)}
+.r2 i:nth-child(2){transform:rotate(120deg)}
+.r2 i:nth-child(3){transform:rotate(240deg)}
+.core{position:absolute;left:50%;top:50%;width:22px;height:22px;margin:-11px;border-radius:50%;background:var(--accent);box-shadow:0 0 0 0 color-mix(in oklab,var(--accent) 45%,transparent);animation:br 1.6s ease-in-out infinite}
+@keyframes spin{to{transform:rotate(1turn)}}
+@keyframes br{0%,100%{transform:scale(.8);box-shadow:0 0 0 0 color-mix(in oklab,var(--accent) 45%,transparent)}50%{transform:scale(1);box-shadow:0 0 0 14px transparent}}
+.tx{font:500 12.5px var(--fm);color:var(--muted)}
+.tx b{font-weight:500;color:var(--ink)}
+.dots::after{content:"";display:inline-block;width:3ch;text-align:left;animation:dt 1.2s steps(4) infinite}
+@keyframes dt{0%{content:""}25%{content:"."}50%{content:".."}75%{content:"..."}}
+@media (prefers-reduced-motion:reduce){.r{animation-duration:12s}.dots::after{animation:none;content:"..."}}
+</style>
+<div class="wrap" role="status" aria-label="Loading">
+  <div class="ld" aria-hidden="true">
+    <div class="r r3"><i></i></div>
+    <div class="r r2"><i></i><i></i><i></i></div>
+    <div class="r r1"><i></i><i></i></div>
+    <b class="core"></b>
+  </div>
+  <div class="tx" aria-hidden="true">fetching <b>orbital-dots</b><span class="dots"></span></div>
+</div>

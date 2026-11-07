@@ -1,0 +1,33 @@
+---
+{"name":"Gooey Liquid Toggle","cat":"Buttons & toggles","order":1,
+"desc":"A switch whose knob stretches like a drop of liquid, leaving a trail that pulls back into it as it lands.",
+"tags":["SVG filter","switch","spring"],
+"prompt":"Build a liquid toggle switch: a 132×64 pill track that is grey when off and accent blue when on. Inside, a white 48px knob plus two smaller trailing blobs (40px and 32px) sit inside a container with an SVG goo filter (feGaussianBlur stdDeviation 6, then a feColorMatrix alpha of 22/-10, composited atop the source), so they merge into one liquid shape. On toggle the knob moves 68px with a springy cubic-bezier(.34,1.56,.64,1) over 550 ms, and the trailing blobs follow with 70 ms and 150 ms delays on an ease-out curve, so the knob stretches into a drop and the tail snaps back into it. Use a real button with role=switch and aria-checked, keyboard and click. Under it, a small monospace status label crossfades between 'liquid: off' and 'liquid: on'. Autoplay toggles every 1.4 s until the user clicks. Light and dark themes. Single HTML file."}
+---
+<style>
+.wrap{display:grid;gap:22px;justify-items:center}
+.tg{position:relative;width:132px;height:64px;border:0;padding:0;border-radius:999px;background:var(--line);cursor:pointer;transition:background .5s var(--out);box-shadow:inset 0 2px 6px rgba(0,0,0,.12)}
+.tg[aria-checked=true]{background:var(--accent)}
+.goo{position:absolute;inset:0;filter:url(#goo)}
+.goo i{position:absolute;border-radius:50%;background:#fff}
+.k{top:8px;left:8px;width:48px;height:48px;transition:transform .55s var(--spring)}
+.t1{top:12px;left:12px;width:40px;height:40px;transition:transform .5s .07s var(--out)}
+.t2{top:16px;left:16px;width:32px;height:32px;transition:transform .55s .15s var(--out)}
+.tg[aria-checked=true] .k,.tg[aria-checked=true] .t1,.tg[aria-checked=true] .t2{transform:translateX(68px)}
+.lb{position:relative;height:18px;width:120px;font:500 12px var(--fm);color:var(--muted);text-align:center}
+.lb span{position:absolute;inset:0;transition:opacity .3s,transform .4s var(--out)}
+.lb .on{opacity:0;transform:translateY(8px)}
+.is-on .lb .on{opacity:1;transform:none;color:var(--accent)}
+.is-on .lb .off{opacity:0;transform:translateY(-8px)}
+</style>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true"><filter id="goo"><feGaussianBlur in="SourceGraphic" stdDeviation="6" result="b"/><feColorMatrix in="b" mode="matrix" values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 22 -10" result="g"/><feComposite in="SourceGraphic" in2="g" operator="atop"/></filter></svg>
+<div class="wrap" id="wrap">
+  <button class="tg" id="tg" role="switch" aria-checked="false" aria-label="Liquid mode"><span class="goo" aria-hidden="true"><i class="t2"></i><i class="t1"></i><i class="k"></i></span></button>
+  <div class="lb" aria-hidden="true"><span class="off">liquid: off</span><span class="on">liquid: on</span></div>
+</div>
+<script>
+const tg=document.getElementById('tg'),wrap=document.getElementById('wrap');
+const set=v=>{tg.setAttribute('aria-checked',v);wrap.classList.toggle('is-on',v)};
+tg.addEventListener('click',()=>set(tg.getAttribute('aria-checked')!=='true'));
+FC.demo(async()=>{set(tg.getAttribute('aria-checked')!=='true');await FC.wait(1400)});
+</script>

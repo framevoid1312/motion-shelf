@@ -1,0 +1,33 @@
+---
+{"name":"Typewriter Loop","cat":"Kinetic type","order":4,
+"desc":"A terminal prompt that types, pauses, deletes and moves on, with a block caret that only blinks when it's idle. Start typing to take over.",
+"tags":["typing","caret","keyboard"],
+"prompt":"Build a typewriter loop in a big monospace font: a muted '>' prompt, then text, then a solid block caret in the accent color. It types each phrase in turn ('type.', 'delete.', 'repeat.', 'ship it.', 'make it move.') with human-feeling jitter (50–130 ms per character, a longer beat after punctuation), holds for 1.4 s, then deletes at double speed and starts the next one. The caret is solid while typing or deleting and blinks with steps(1) only while idle. If the user presses keys, the loop stops and their keystrokes type into the line instead (Backspace deletes, max 18 characters); after 6 s of no input the loop resumes. Announce changes politely to screen readers. Light and dark themes. Single HTML file."}
+---
+<style>
+.tw{font:500 clamp(28px,8.4vw,66px)/1.2 var(--fm);display:flex;align-items:center;gap:.45em;padding:0 6vw;white-space:pre;outline:none}
+.p{color:var(--muted)}
+.c{display:inline-block;width:.56em;height:1.08em;background:var(--accent);vertical-align:-.17em;margin-left:.05em;border-radius:1px}
+.c.blink{animation:bl 1.05s steps(1) infinite}
+@keyframes bl{50%{opacity:0}}
+</style>
+<div class="tw" id="tw" tabindex="0" aria-label="Typewriter, type to take over"><span class="p">&gt;</span><span><span id="t" aria-live="polite"></span><span class="c blink" id="c"></span></span></div>
+<div class="cap">or just start typing</div>
+<script>
+const t=document.getElementById('t'),c=document.getElementById('c'),words=['type.','delete.','repeat.','ship it.','make it move.'];let wi=0;
+const busy=v=>c.classList.toggle('blink',!v);
+FC.demo(async()=>{
+  const w=words[wi++%words.length];busy(true);
+  for(const ch of w){if(!FC.idle)return busy(false);t.textContent+=ch;await FC.wait(/[.,!]/.test(ch)?220:50+Math.random()*80)}
+  busy(false);if(!await FC.wait(1400))return;busy(true);
+  while(t.textContent.length){if(!FC.idle)return busy(false);t.textContent=t.textContent.slice(0,-1);await FC.wait(32+Math.random()*25)}
+  busy(false);await FC.wait(380);
+});
+addEventListener('keydown',e=>{
+  if(e.metaKey||e.ctrlKey||e.altKey)return;
+  if(e.key==='Backspace'){t.textContent=t.textContent.slice(0,-1);e.preventDefault()}
+  else if(e.key.length===1&&t.textContent.length<18){t.textContent+=e.key;e.preventDefault()}
+  else return;
+  busy(true);clearTimeout(window._b);window._b=setTimeout(()=>busy(false),500);
+});
+</script>

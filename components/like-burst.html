@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Like Burst · Motion Shelf UI components</title>
+<!-- A heart that pops, throws a ring and a spray of confetti dots, while the counter rolls to its new number.
+     From Phil's Motion Shelf: https://github.com/framevoid1312/motion-shelf — free to use. -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&family=Figtree:wght@300..900&family=JetBrains+Mono:wght@400;500;700&display=swap">
+<style>
+:root{--bg:#f6f7fa;--surface:#fff;--ink:#151821;--muted:#5b6172;--line:#d5d9e3;--chip:#e3e7f2;--accent:#2944d6;--on:#fff;--mark:#ffd84d;--good:#14915f;--bad:#d6453d;color-scheme:light;
+--fd:"Big Shoulders Display","Arial Narrow",Impact,sans-serif;--fb:"Figtree",system-ui,-apple-system,"Segoe UI",sans-serif;--fm:"JetBrains Mono",ui-monospace,Consolas,monospace;
+--spring:cubic-bezier(.34,1.56,.64,1);--out:cubic-bezier(.22,1,.36,1)}
+@media (prefers-color-scheme:dark){:root:not([data-theme=light]){--bg:#12141b;--surface:#1c1f2a;--ink:#e8eaf2;--muted:#9aa1b5;--line:#2c3142;--chip:#252a39;--accent:#8ea0ff;--on:#11131a;--mark:#e9c53a;--good:#3ecf8e;--bad:#ff6b61;color-scheme:dark}}
+:root[data-theme=dark]{--bg:#12141b;--surface:#1c1f2a;--ink:#e8eaf2;--muted:#9aa1b5;--line:#2c3142;--chip:#252a39;--accent:#8ea0ff;--on:#11131a;--mark:#e9c53a;--good:#3ecf8e;--bad:#ff6b61;color-scheme:dark}
+*{box-sizing:border-box}
+html,body{height:100%}
+body{margin:0;display:grid;place-items:center;background:var(--bg);color:var(--ink);font:15px/1.5 var(--fb);overflow:hidden;-webkit-font-smoothing:antialiased;-webkit-tap-highlight-color:transparent;transition:background .3s,color .3s}
+button{font:inherit;color:inherit}
+:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
+.cap{position:fixed;left:0;right:0;bottom:14px;text-align:center;font:500 10.5px var(--fm);letter-spacing:.14em;text-transform:uppercase;color:var(--muted);pointer-events:none}
+.fc-paused *,.fc-paused *::before,.fc-paused *::after{animation-play-state:paused!important}
+/* --- like-burst --- */
+.lk{display:inline-flex;align-items:center;gap:12px;border:1px solid var(--line);background:var(--surface);border-radius:999px;padding:12px 22px 12px 16px;cursor:pointer;font:600 20px var(--fb);box-shadow:0 10px 24px -16px rgba(0,0,0,.4)}
+.ic{position:relative;width:34px;height:34px;display:grid;place-items:center}
+.ic svg{width:30px;height:30px;overflow:visible}
+.ic path{fill:transparent;stroke:var(--ink);stroke-width:1.8;transition:fill .2s,stroke .2s}
+.lk[aria-pressed=true] .ic path{fill:var(--bad);stroke:var(--bad)}
+.ring{position:absolute;inset:-4px;border-radius:50%;border:2px solid var(--bad);opacity:0;pointer-events:none}
+.dot{position:absolute;left:50%;top:50%;width:7px;height:7px;margin:-3.5px;border-radius:50%;pointer-events:none}
+.n{position:relative;display:inline-block;height:1.3em;min-width:5.2ch;overflow:hidden;font-variant-numeric:tabular-nums;text-align:left}
+.n span{position:absolute;left:0;top:0;line-height:1.3em}
+</style></head><body>
+<button class="lk" id="lk" aria-pressed="false" aria-label="Like, 1,204 likes">
+  <span class="ic" id="ic"><svg viewBox="0 0 24 24" aria-hidden="true"><path id="hp" d="M12 20.5s-7.6-4.6-9.5-9.3C1.1 7.7 3.3 4 7 4c2.1 0 3.6 1.1 5 3 1.4-1.9 2.9-3 5-3 3.7 0 5.9 3.7 4.5 7.2-1.9 4.7-9.5 9.3-9.5 9.3z"/></svg><i class="ring" id="ring"></i></span>
+  <span class="n" id="n" aria-hidden="true"><span>1,204</span></span>
+</button>
+<div class="cap">tap the heart</div>
+<script>
+/* Motion Shelf runtime: autoplay demo when idle, pause when off-screen, theme */
+(function(){
+var q=new URLSearchParams(location.search),de=document.documentElement,th=q.get('theme');
+if(th==='light'||th==='dark')de.dataset.theme=th;
+var FC=window.FC={paused:false,idle:true,reduce:matchMedia('(prefers-reduced-motion: reduce)').matches&&!q.has('demo')};
+var sleep=FC.sleep=function(ms){return new Promise(function(r){setTimeout(r,ms)})};
+var to;FC.touch=function(){FC.idle=false;clearTimeout(to);to=setTimeout(function(){FC.idle=true},6000)};
+['pointerdown','keydown','wheel'].forEach(function(n){addEventListener(n,function(e){if(e.isTrusted)FC.touch()},{passive:true,capture:true})});
+addEventListener('message',function(e){var d=e.data;
+  if(d==='fc:pause'||d==='fc:play'){FC.paused=d==='fc:pause';de.classList.toggle('fc-paused',FC.paused)}
+  else if(d&&d.fcTheme){if(d.fcTheme==='auto')delete de.dataset.theme;else de.dataset.theme=d.fcTheme}});
+FC.gate=async function(){while(FC.paused)await sleep(120)};
+/* wait ms of un-paused time; resolves true if the demo should keep going */
+FC.wait=async function(ms){var left=ms;while(left>0){var s=performance.now();await sleep(Math.min(left,60));if(!FC.paused)left-=performance.now()-s}return FC.idle};
+FC.demo=function(fn){if(FC.reduce)return;(async function(){await FC.wait(450);for(;;){while(FC.paused||!FC.idle)await sleep(250);await fn()}})()};
+FC.raf=function(fn){var last=performance.now(),t=0;function f(n){var dt=Math.min(n-last,64);last=n;if(!FC.paused){t+=dt;fn(t,dt)}requestAnimationFrame(f)}requestAnimationFrame(f)};
+})();
+</script>
+<script>
+const lk=document.getElementById('lk'),ic=document.getElementById('ic'),hp=document.querySelector('.ic svg'),ring=document.getElementById('ring'),nb=document.getElementById('n');
+let count=1204;const E='cubic-bezier(.22,1,.36,1)';
+function roll(v,up){
+  const old=nb.firstElementChild,nw=document.createElement('span');nw.textContent=v.toLocaleString('en');nb.append(nw);
+  old.animate([{transform:'none',opacity:1},{transform:`translateY(${up?-100:100}%)`,opacity:0}],{duration:320,easing:E,fill:'forwards'}).finished.then(()=>old.remove());
+  nw.animate([{transform:`translateY(${up?100:-100}%)`,opacity:0},{transform:'none',opacity:1}],{duration:420,easing:'cubic-bezier(.34,1.56,.64,1)'});
+}
+function toggle(){
+  const on=lk.getAttribute('aria-pressed')!=='true';lk.setAttribute('aria-pressed',on);
+  count+=on?1:-1;roll(count,on);lk.setAttribute('aria-label',`Like, ${count.toLocaleString('en')} likes`);
+  if(on){
+    hp.animate([{transform:'scale(.6)'},{transform:'scale(1.25)',offset:.45},{transform:'scale(1)'}],{duration:520,easing:'cubic-bezier(.34,1.56,.64,1)'});
+    ring.animate([{transform:'scale(.4)',opacity:.9,borderWidth:'6px'},{transform:'scale(1.9)',opacity:0,borderWidth:'1px'}],{duration:560,easing:E});
+    const cols=['var(--bad)','var(--mark)','var(--accent)'];
+    for(let i=0;i<12;i++){const d=document.createElement('i');d.className='dot';d.style.background=cols[i%3];ic.append(d);
+      const a=i/12*Math.PI*2+Math.random()*.3,r=30+Math.random()*16;
+      d.animate([{transform:'translate(0,0) scale(1)',opacity:1},{transform:`translate(${Math.cos(a)*r}px,${Math.sin(a)*r}px) scale(.2)`,opacity:0}],{duration:650+Math.random()*200,easing:E,delay:60}).finished.then(()=>d.remove())}
+  }else hp.animate([{transform:'scale(1)'},{transform:'scale(.82)'},{transform:'scale(1)'}],{duration:260,easing:E});
+}
+lk.addEventListener('click',toggle);
+FC.demo(async()=>{toggle();await FC.wait(1600)});
+</script>
+</body></html>

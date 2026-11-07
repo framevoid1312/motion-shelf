@@ -11,6 +11,7 @@ Every entry here has a playable original video and a prompt you can copy and run
 - [Skills to try](#skills-to-try)
 - [Top 60](#top-60)
 - [All 963, ranked by likes](#all-ranked-by-likes)
+- [UI components](#ui-components)
 - [What's on the site besides these](#whats-on-the-site-besides-these)
 - [How entries are chosen](#how-entries-are-chosen)
 - [Phil's films](#phils-films)
@@ -1118,6 +1119,39 @@ Free agent skills for making motion and video with Claude Code, Codex and other 
 | 961 | 0 | Animate the moonwalk dance. Draw every frame, the character, the… | [@otatechie](https://x.com/otatechie) | [Prompt](prompts/otatechie-035448.md) | [X](https://x.com/otatechie/status/2103257988895035448) |
 | 962 | 0 | Render a fun motion graphic animation using the GSAP animation… | [@RetropunkAI](https://x.com/RetropunkAI) | [Prompt](prompts/retropunkai-060898.md) | [X](https://x.com/RetropunkAI/status/2103237991091060898) |
 | 963 | 0 | # PROJECT: "UNFINISHED" (未完) — The Unfinished Ronin A 90-second,… | [@pradeepXkapoor](https://x.com/pradeepXkapoor) | [Prompt](prompts/pradeepxkapoor-641956.md) | [X](https://x.com/pradeepXkapoor/status/2103176631917641956) |
+
+## UI components
+
+24 live, animated UI pieces: kinetic type, buttons and toggles, inputs and switches, loaders and feedback. Each one is a single self-contained HTML file (no libraries) that autoplays a demo until you touch it, follows light and dark mode, and comes with a prompt you can paste into Claude Design. On the [site](https://framevoid1312.github.io/motion-shelf/#components) they play live in the grid, filter by category and open in a full-screen viewer with the prompt and code. The idea comes from [Forever Components](https://forevercomponents.com); these were made from scratch for the Shelf with Claude and are free to use.
+
+| Component | Category | What it does |
+|---|---|---|
+| [Weight Wave](components/weight-wave.html) | Kinetic type | A word whose letters breathe from hairline to black as a wave rolls through them. Hover it and the crest follows your pointer. |
+| [Scramble Decode](components/scramble-decode.html) | Kinetic type | Words resolve out of random glyphs, letter by letter, like a terminal cracking a code. Click for the next word. |
+| [Split-Flap Board](components/split-flap.html) | Kinetic type | A departures-board word that clatters through the alphabet, flap by flap, until every tile lands. Click to change the status. |
+| [Typewriter Loop](components/typewriter-loop.html) | Kinetic type | A terminal prompt that types, pauses, deletes and moves on, with a block caret that only blinks when it's idle. Start typing to take over. |
+| [Bar Wipe Reveal](components/mask-reveal.html) | Kinetic type | Three lines of a headline revealed by solid colour bars that wipe in, uncover the word and wipe out the other side, staggered line by line. |
+| [Extruded Word](components/extruded-word.html) | Kinetic type | A slab of solid type with a deep extrusion that swings to stay behind the face as the word tilts toward your pointer. |
+| [Gooey Liquid Toggle](components/gooey-toggle.html) | Buttons & toggles | A switch whose knob stretches like a drop of liquid, leaving a trail that pulls back into it as it lands. |
+| [Magnetic Button](components/magnetic-button.html) | Buttons & toggles | A call-to-action that leans toward the pointer as it gets close, its label moving a little further than the button for depth. Clicks ripple from where you pressed. |
+| [Async Action Button](components/async-button.html) | Buttons & toggles | A submit button that collapses into a spinner while it works, then opens into a green 'Sent' with a drawn check, or a red 'Try again' with a shake. |
+| [Like Burst](components/like-burst.html) | Buttons & toggles | A heart that pops, throws a ring and a spray of confetti dots, while the counter rolls to its new number. |
+| [Spring Stepper](components/spring-stepper.html) | Buttons & toggles | A − / + quantity stepper whose digits roll in the direction you count, overshooting slightly, and that shakes when you hit a limit. Hold a button to repeat. |
+| [Hold to Confirm](components/hold-confirm.html) | Buttons & toggles | A destructive button that has to be held down. A red fill sweeps across, inverting the label as it goes, and drains away if you let go early. |
+| [Floating Label Field](components/floating-label.html) | Inputs & switches | An email field whose label lifts and shrinks out of the way, with an underline that draws from the centre and a check that pops in once the address is valid. |
+| [Sliding Segmented Control](components/segmented-control.html) | Inputs & switches | Day / Week / Month / Year tabs with a pill that springs between them, driving a little bar chart that regrows on every switch. |
+| [One-Time Code](components/otp-input.html) | Inputs & switches | Six code boxes that pop as digits land, shake red on a wrong code and ripple green, box by box, when it's right. Paste works too. |
+| [Tilting Value Slider](components/tilt-slider.html) | Inputs & switches | A range slider whose value bubble swings like it's hanging from the thumb: drag fast and it tilts against the motion, then settles. |
+| [Password Strength](components/password-strength.html) | Inputs & switches | A password field with a four-segment meter that fills and changes colour as rules tick off below, each with a drawn check. |
+| [Drawn Checklist](components/checklist-draw.html) | Inputs & switches | Checkboxes that draw their tick with a pen stroke while a line strikes through the task, and a progress bar fills along the top. |
+| [Orbital Loader](components/orbit-loader.html) | Loaders & feedback | Three dashed orbits with dots that speed up and coast around a breathing core, with a monospace status line cycling underneath. CSS only. |
+| [Countdown Ring](components/countdown-ring.html) | Loaders & feedback | A ten-second ring timer: the arc drains smoothly, digits roll each second, the last three seconds turn red and pulse, and zero bursts into 'Go'. |
+| [Stacking Toasts](components/toast-stack.html) | Loaders & feedback | Notifications that pile up as a neat deck, the newest in front. Hover the stack and it fans out into a list; each toast leaves on its own timer. |
+| [Skeleton to Content](components/skeleton-card.html) | Loaders & feedback | A loading card made of shimmering placeholder blocks that hand over to the real content piece by piece, without a single layout jump. |
+| [Copy Command](components/copy-morph.html) | Loaders & feedback | An install command with a copy button whose two-sheet icon folds into a tick, while a 'Copied' tag hops up above it. |
+| [Ringing Bell](components/bell-badge.html) | Loaders & feedback | A notification bell that swings from its hook, clapper lagging behind, as the badge pops and counts up. Click to clear and the badge shrinks away. |
+
+To add one, drop a file in [`components/src`](components/src) and run `python3 tools/build_components.py`; it builds the standalone file and updates the site section.
 
 ## What's on the site besides these
 
