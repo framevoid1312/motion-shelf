@@ -1,0 +1,44 @@
+---
+{"name":"Magnetic Button","cat":"Buttons & toggles","order":2,
+"desc":"A call-to-action that leans toward the pointer as it gets close, its label moving a little further than the button for depth. Clicks ripple from where you pressed.",
+"tags":["pointer","spring","ripple"],
+"prompt":"Build a magnetic CTA button: a large pill 'Get started →' in ink color with background-colored text. Within a 180px radius of the button center, the button translates toward the pointer by 35% of the offset scaled by proximity, and its inner label moves an extra 18% for a parallax feel; both follow with a lerp of 0.15 per frame and spring back to rest when the pointer leaves. On press, scale to 0.96, spawn a circular accent ripple from the exact click point that expands and fades, and swap the label to '✓ On it' for a second. When nobody is interacting, a small demo cursor dot drifts around on a Lissajous path so the effect plays by itself; hide it as soon as a real pointer moves. Light and dark themes. Single HTML file."}
+---
+<style>
+.mb{position:relative;border:0;border-radius:999px;padding:24px 42px;background:var(--ink);color:var(--bg);font:600 19px var(--fb);cursor:pointer;overflow:hidden;will-change:transform;transition:scale .15s;box-shadow:0 14px 30px -14px rgba(0,0,0,.45)}
+.mb:active,.mb.press{scale:.96}
+.mb .lbl{position:relative;z-index:1;display:inline-flex;gap:10px;align-items:center;will-change:transform}
+.rp{position:absolute;border-radius:50%;background:var(--accent);pointer-events:none;width:20px;height:20px;margin:-10px}
+.fake{position:fixed;left:0;top:0;width:16px;height:16px;margin:-8px;border-radius:50%;background:var(--accent);box-shadow:0 0 0 3px color-mix(in oklab,var(--accent) 25%,transparent);opacity:0;pointer-events:none;transition:opacity .35s}
+.fake.on{opacity:.9}
+</style>
+<button class="mb" id="mb"><span class="lbl" id="lbl">Get started <span aria-hidden="true">→</span></span></button>
+<i class="fake" id="fake" aria-hidden="true"></i>
+<div class="cap">bring your pointer close</div>
+<script>
+const mb=document.getElementById('mb'),lbl=document.getElementById('lbl'),fake=document.getElementById('fake');
+let real=null,bx=0,by=0,lx=0,ly=0,lastReal=-1e9;
+addEventListener('pointermove',e=>{if(e.pointerType==='touch')return;real={x:e.clientX,y:e.clientY};lastReal=performance.now();FC.touch()});
+document.addEventListener('pointerleave',()=>real=null);
+function press(x,y){
+  const r=mb.getBoundingClientRect(),rp=document.createElement('i');rp.className='rp';rp.style.left=(x-r.left)+'px';rp.style.top=(y-r.top)+'px';mb.append(rp);
+  const s=Math.hypot(r.width,r.height)/10;
+  rp.animate([{transform:'scale(0)',opacity:.9},{transform:`scale(${s})`,opacity:0}],{duration:700,easing:'cubic-bezier(.22,1,.36,1)'}).finished.then(()=>rp.remove());
+  lbl.innerHTML='✓ On it';clearTimeout(press.t);press.t=setTimeout(()=>lbl.innerHTML='Get started <span aria-hidden="true">→</span>',1100);
+}
+mb.addEventListener('click',e=>press(e.clientX||mb.getBoundingClientRect().left+mb.offsetWidth/2,e.clientY||mb.getBoundingClientRect().top+mb.offsetHeight/2));
+let lastDemoPress=0;
+FC.raf((t)=>{
+  const r=mb.getBoundingClientRect(),cx=r.left+r.width/2-bx,cy=r.top+r.height/2-by;
+  const demo=!real&&FC.idle&&!FC.reduce&&performance.now()-lastReal>1500;
+  let p=real;
+  if(demo){p={x:cx+Math.cos(t/900)*Math.min(230,innerWidth*.38),y:cy+Math.sin(t/640)*Math.min(130,innerHeight*.3)};fake.style.transform=`translate(${p.x}px,${p.y}px)`;
+    if(Math.hypot(p.x-cx,p.y-cy)<40&&t-lastDemoPress>4000){lastDemoPress=t;mb.classList.add('press');setTimeout(()=>mb.classList.remove('press'),160);press(p.x,p.y)}}
+  fake.classList.toggle('on',demo);
+  let tx=0,ty=0,ux=0,uy=0;
+  if(p){const dx=p.x-cx,dy=p.y-cy,d=Math.hypot(dx,dy),R=180;if(d<R){const k=1-d/R;tx=dx*.35*k*1.6;ty=dy*.35*k*1.6;ux=dx*.18*k;uy=dy*.18*k}}
+  bx+=(tx-bx)*.15;by+=(ty-by)*.15;lx+=(ux-lx)*.15;ly+=(uy-ly)*.15;
+  mb.style.transform=`translate(${bx.toFixed(2)}px,${by.toFixed(2)}px)`;
+  lbl.style.transform=`translate(${lx.toFixed(2)}px,${ly.toFixed(2)}px)`;
+});
+</script>

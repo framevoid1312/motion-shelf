@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Stacking Toasts · Motion Shelf UI components</title>
+<!-- Notifications that pile up as a neat deck, the newest in front. Hover the stack and it fans out into a list; each toast leaves on its own timer.
+     From Phil's Motion Shelf: https://github.com/framevoid1312/motion-shelf — free to use. -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&family=Figtree:wght@300..900&family=JetBrains+Mono:wght@400;500;700&display=swap">
+<style>
+:root{--bg:#f6f7fa;--surface:#fff;--ink:#151821;--muted:#5b6172;--line:#d5d9e3;--chip:#e3e7f2;--accent:#2944d6;--on:#fff;--mark:#ffd84d;--good:#14915f;--bad:#d6453d;color-scheme:light;
+--fd:"Big Shoulders Display","Arial Narrow",Impact,sans-serif;--fb:"Figtree",system-ui,-apple-system,"Segoe UI",sans-serif;--fm:"JetBrains Mono",ui-monospace,Consolas,monospace;
+--spring:cubic-bezier(.34,1.56,.64,1);--out:cubic-bezier(.22,1,.36,1)}
+@media (prefers-color-scheme:dark){:root:not([data-theme=light]){--bg:#12141b;--surface:#1c1f2a;--ink:#e8eaf2;--muted:#9aa1b5;--line:#2c3142;--chip:#252a39;--accent:#8ea0ff;--on:#11131a;--mark:#e9c53a;--good:#3ecf8e;--bad:#ff6b61;color-scheme:dark}}
+:root[data-theme=dark]{--bg:#12141b;--surface:#1c1f2a;--ink:#e8eaf2;--muted:#9aa1b5;--line:#2c3142;--chip:#252a39;--accent:#8ea0ff;--on:#11131a;--mark:#e9c53a;--good:#3ecf8e;--bad:#ff6b61;color-scheme:dark}
+*{box-sizing:border-box}
+html,body{height:100%}
+body{margin:0;display:grid;place-items:center;background:var(--bg);color:var(--ink);font:15px/1.5 var(--fb);overflow:hidden;-webkit-font-smoothing:antialiased;-webkit-tap-highlight-color:transparent;transition:background .3s,color .3s}
+button{font:inherit;color:inherit}
+:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
+.cap{position:fixed;left:0;right:0;bottom:14px;text-align:center;font:500 10.5px var(--fm);letter-spacing:.14em;text-transform:uppercase;color:var(--muted);pointer-events:none}
+.fc-paused *,.fc-paused *::before,.fc-paused *::after{animation-play-state:paused!important}
+/* --- toast-stack --- */
+body{place-items:start center}
+.trig{margin-top:12vh;border:1px solid var(--line);background:var(--surface);border-radius:999px;padding:11px 20px;font:600 14px var(--fb);cursor:pointer;box-shadow:0 8px 20px -14px rgba(0,0,0,.4)}
+.trig:active{scale:.97}
+.stack{position:fixed;left:50%;bottom:24px;width:min(320px,90vw);transform:translateX(-50%);height:76px}
+.t{position:absolute;left:0;right:0;bottom:0;display:flex;align-items:center;gap:12px;padding:12px 12px 12px 14px;background:var(--surface);border:1px solid var(--line);border-radius:14px;box-shadow:0 12px 30px -16px rgba(0,0,0,.45);transition:transform .4s cubic-bezier(.22,1,.36,1),opacity .4s;transform-origin:50% 100%}
+.ic{flex:none;width:34px;height:34px;border-radius:50%;display:grid;place-items:center;background:color-mix(in oklab,var(--c) 18%,transparent);color:var(--c)}
+.tt{flex:1;min-width:0;line-height:1.3}
+.tt b{display:block;font-size:14.5px}
+.tt span{font-size:13px;color:var(--muted)}
+.x{flex:none;width:28px;height:28px;border:0;border-radius:7px;background:none;color:var(--muted);cursor:pointer;font-size:15px}
+.x:hover{background:var(--chip);color:var(--ink)}
+</style></head><body>
+<button class="trig" id="trig">Show toast</button>
+<section class="stack" id="stack" aria-live="polite" aria-label="Notifications" tabindex="-1"></section>
+<script>
+/* Motion Shelf runtime: autoplay demo when idle, pause when off-screen, theme */
+(function(){
+var q=new URLSearchParams(location.search),de=document.documentElement,th=q.get('theme');
+if(th==='light'||th==='dark')de.dataset.theme=th;
+var FC=window.FC={paused:false,idle:true,reduce:matchMedia('(prefers-reduced-motion: reduce)').matches&&!q.has('demo')};
+var sleep=FC.sleep=function(ms){return new Promise(function(r){setTimeout(r,ms)})};
+var to;FC.touch=function(){FC.idle=false;clearTimeout(to);to=setTimeout(function(){FC.idle=true},6000)};
+['pointerdown','keydown','wheel'].forEach(function(n){addEventListener(n,function(e){if(e.isTrusted)FC.touch()},{passive:true,capture:true})});
+addEventListener('message',function(e){var d=e.data;
+  if(d==='fc:pause'||d==='fc:play'){FC.paused=d==='fc:pause';de.classList.toggle('fc-paused',FC.paused)}
+  else if(d&&d.fcTheme){if(d.fcTheme==='auto')delete de.dataset.theme;else de.dataset.theme=d.fcTheme}});
+FC.gate=async function(){while(FC.paused)await sleep(120)};
+/* wait ms of un-paused time; resolves true if the demo should keep going */
+FC.wait=async function(ms){var left=ms;while(left>0){var s=performance.now();await sleep(Math.min(left,60));if(!FC.paused)left-=performance.now()-s}return FC.idle};
+FC.demo=function(fn){if(FC.reduce)return;(async function(){await FC.wait(450);for(;;){while(FC.paused||!FC.idle)await sleep(250);await fn()}})()};
+FC.raf=function(fn){var last=performance.now(),t=0;function f(n){var dt=Math.min(n-last,64);last=n;if(!FC.paused){t+=dt;fn(t,dt)}requestAnimationFrame(f)}requestAnimationFrame(f)};
+})();
+</script>
+<script>
+const stack=document.getElementById('stack'),K=[
+ {c:'var(--good)',i:'<path d="M5 12.5 10 17.5 19 7"/>',b:'Render finished',s:'reel-2026.mp4 · 1m 12s'},
+ {c:'var(--accent)',i:'<path d="M12 8v5M12 16.5v.5"/><circle cx="12" cy="12" r="9"/>',b:'New comment',s:'"Love the shot at 0:42"'},
+ {c:'var(--mark)',i:'<path d="M12 16V5M7 10l5-5 5 5M5 19h14"/>',b:'Uploaded 3 files',s:'Moved to /assets/plates'},
+ {c:'var(--good)',i:'<path d="M9 9h10v10H9z"/><path d="M5 15V5h10"/>',b:'Link copied',s:'Share it anywhere'}];
+let ts=[],open=false,k=0;
+function layout(){
+  let y=0;ts.forEach((t,i)=>{
+    const tr=open?`translateY(${-y}px)`:`translateY(${-i*14}px) scale(${1-i*.05})`;
+    t.el.style.transform=t.gone?`translateY(${open?-y:0}px) translateY(40px) scale(.95)`:tr;
+    t.el.style.opacity=t.gone?0:(open||i<3?1:0);t.el.style.zIndex=100-i;
+    t.el.style.pointerEvents=open||i===0?'auto':'none';
+    if(!t.gone)y+=t.el.offsetHeight+10;
+  });
+  stack.style.height=open?(y-10)+'px':'76px';
+}
+function remove(t){if(t.gone)return;t.gone=true;layout();setTimeout(()=>{t.el.remove();ts=ts.filter(x=>x!==t);layout()},400)}
+function push(){
+  const d=K[k++%K.length],el=document.createElement('div');el.className='t';el.setAttribute('role','status');el.style.setProperty('--c',d.c);
+  el.innerHTML=`<span class="ic" aria-hidden="true"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">${d.i}</svg></span><span class="tt"><b>${d.b}</b><span>${d.s}</span></span><button class="x" aria-label="Dismiss">✕</button>`;
+  const t={el,left:4500,gone:false};el.querySelector('.x').addEventListener('click',()=>remove(t));
+  stack.append(el);ts.unshift(t);
+  el.style.transform='translateY(110%)';el.style.opacity=0;el.style.transition='none';el.offsetHeight;el.style.transition='';
+  el.animate([{transform:'translateY(110%)',opacity:0},{transform:'translateY(0)',opacity:1}],{duration:520,easing:'cubic-bezier(.34,1.4,.64,1)'});
+  layout();
+  if(ts.length>6)remove(ts[ts.length-1]);
+}
+document.getElementById('trig').addEventListener('click',push);
+stack.addEventListener('pointerenter',()=>{open=true;layout()});
+stack.addEventListener('pointerleave',()=>{open=false;layout()});
+stack.addEventListener('focusin',()=>{open=true;layout()});
+stack.addEventListener('focusout',e=>{if(!stack.contains(e.relatedTarget)){open=false;layout()}});
+FC.raf((t,dt)=>{if(open)return;ts.forEach(x=>{if(!x.gone&&(x.left-=dt)<=0)remove(x)})});
+FC.demo(async()=>{push();await FC.wait(1500)});
+</script>
+</body></html>

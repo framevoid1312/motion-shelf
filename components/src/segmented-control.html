@@ -1,0 +1,43 @@
+---
+{"name":"Sliding Segmented Control","cat":"Inputs & switches","order":2,
+"desc":"Day / Week / Month / Year tabs with a pill that springs between them, driving a little bar chart that regrows on every switch.",
+"tags":["tabs","spring","chart"],
+"prompt":"Build a segmented control with four options (Day, Week, Month, Year) in a rounded chip-colored track. A surface-colored pill with a soft shadow sits behind the active option and moves by animating left and width with an overshooting spring curve (cubic-bezier(.34,1.56,.64,1), 480 ms). The active label goes to ink color, the rest are muted. Under it, a card with 12 bars whose heights change per option: bars regrow with a 25 ms stagger, and a big total number above them counts to its new value. Use role=tablist/tab with aria-selected, roving tabindex, and Left/Right arrow keys. Demo cycles through options every 1.6 s until the user interacts. Light and dark themes. Single HTML file."}
+---
+<style>
+.w{display:grid;gap:16px;width:min(420px,90vw)}
+.sg{position:relative;display:grid;grid-template-columns:repeat(4,1fr);padding:4px;border-radius:12px;background:var(--chip)}
+.pill{position:absolute;top:4px;bottom:4px;left:4px;border-radius:9px;background:var(--surface);box-shadow:0 2px 10px -3px rgba(0,0,0,.28);transition:left .48s var(--spring),width .48s var(--spring)}
+.sg button{position:relative;border:0;background:none;padding:10px 0;font:600 14.5px var(--fb);color:var(--muted);cursor:pointer;transition:color .25s;border-radius:9px}
+.sg button[aria-selected=true]{color:var(--ink)}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:16px 18px 14px}
+.top{display:flex;justify-content:space-between;align-items:baseline}
+.tot{font:800 40px/1 var(--fd);font-variant-numeric:tabular-nums}
+.lb{font:500 11px var(--fm);color:var(--muted);text-transform:uppercase;letter-spacing:.1em}
+.bars{display:flex;align-items:flex-end;gap:6px;height:110px;margin-top:12px}
+.bars i{flex:1;border-radius:4px 4px 2px 2px;background:var(--accent);opacity:.85;transform-origin:bottom;transition:height .6s var(--spring)}
+.bars i:nth-child(3n){opacity:.55}
+</style>
+<div class="w">
+  <div class="sg" id="sg" role="tablist" aria-label="Range"><i class="pill" id="pill" aria-hidden="true"></i></div>
+  <div class="card" role="tabpanel" id="panel"><div class="top"><span class="tot" id="tot">0</span><span class="lb" id="lb">views · day</span></div><div class="bars" id="bars"></div></div>
+</div>
+<script>
+const opts=['Day','Week','Month','Year'],sg=document.getElementById('sg'),pill=document.getElementById('pill'),bars=document.getElementById('bars'),tot=document.getElementById('tot'),lb=document.getElementById('lb');
+const seed=k=>[...Array(12)].map((_,i)=>20+Math.abs(Math.sin(i*1.7+k*2.3))*70+((i*7+k*13)%11)*1.5);
+const totals=[1284,9310,40122,486900];let idx=0,shown=0;
+const B=[...Array(12)].map(()=>{const i=document.createElement('i');bars.append(i);return i});
+const btns=opts.map((o,i)=>{const b=document.createElement('button');b.role='tab';b.textContent=o;b.id='t'+i;b.setAttribute('aria-controls','panel');b.addEventListener('click',()=>sel(i,true));sg.append(b);return b});
+function place(){const b=btns[idx];pill.style.left=b.offsetLeft+'px';pill.style.width=b.offsetWidth+'px'}
+async function count(to){const from=shown,t0=performance.now(),D=600;for(;;){const k=Math.min(1,(performance.now()-t0)/D),e=1-Math.pow(1-k,3);shown=Math.round(from+(to-from)*e);tot.textContent=shown.toLocaleString('en');if(k>=1)break;await new Promise(r=>requestAnimationFrame(r))}}
+function sel(i,focus){
+  idx=i;btns.forEach((b,j)=>{b.setAttribute('aria-selected',j===i);b.tabIndex=j===i?0:-1});if(focus)btns[i].focus();
+  place();document.getElementById('panel').setAttribute('aria-labelledby','t'+i);lb.textContent='views · '+opts[i].toLowerCase();
+  const h=seed(i);B.forEach((b,j)=>setTimeout(()=>b.style.height=h[j]+'%',j*25));count(totals[i]);
+}
+sg.addEventListener('keydown',e=>{if(e.key==='ArrowRight'){e.preventDefault();sel((idx+1)%4,true)}if(e.key==='ArrowLeft'){e.preventDefault();sel((idx+3)%4,true)}});
+addEventListener('resize',place);
+document.fonts&&document.fonts.ready.then(place);
+sel(0,false);
+FC.demo(async()=>{await FC.wait(1600);if(FC.idle)sel((idx+1)%4,false)});
+</script>

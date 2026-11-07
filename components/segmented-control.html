@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Sliding Segmented Control · Motion Shelf UI components</title>
+<!-- Day / Week / Month / Year tabs with a pill that springs between them, driving a little bar chart that regrows on every switch.
+     From Phil's Motion Shelf: https://github.com/framevoid1312/motion-shelf — free to use. -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&family=Figtree:wght@300..900&family=JetBrains+Mono:wght@400;500;700&display=swap">
+<style>
+:root{--bg:#f6f7fa;--surface:#fff;--ink:#151821;--muted:#5b6172;--line:#d5d9e3;--chip:#e3e7f2;--accent:#2944d6;--on:#fff;--mark:#ffd84d;--good:#14915f;--bad:#d6453d;color-scheme:light;
+--fd:"Big Shoulders Display","Arial Narrow",Impact,sans-serif;--fb:"Figtree",system-ui,-apple-system,"Segoe UI",sans-serif;--fm:"JetBrains Mono",ui-monospace,Consolas,monospace;
+--spring:cubic-bezier(.34,1.56,.64,1);--out:cubic-bezier(.22,1,.36,1)}
+@media (prefers-color-scheme:dark){:root:not([data-theme=light]){--bg:#12141b;--surface:#1c1f2a;--ink:#e8eaf2;--muted:#9aa1b5;--line:#2c3142;--chip:#252a39;--accent:#8ea0ff;--on:#11131a;--mark:#e9c53a;--good:#3ecf8e;--bad:#ff6b61;color-scheme:dark}}
+:root[data-theme=dark]{--bg:#12141b;--surface:#1c1f2a;--ink:#e8eaf2;--muted:#9aa1b5;--line:#2c3142;--chip:#252a39;--accent:#8ea0ff;--on:#11131a;--mark:#e9c53a;--good:#3ecf8e;--bad:#ff6b61;color-scheme:dark}
+*{box-sizing:border-box}
+html,body{height:100%}
+body{margin:0;display:grid;place-items:center;background:var(--bg);color:var(--ink);font:15px/1.5 var(--fb);overflow:hidden;-webkit-font-smoothing:antialiased;-webkit-tap-highlight-color:transparent;transition:background .3s,color .3s}
+button{font:inherit;color:inherit}
+:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
+.cap{position:fixed;left:0;right:0;bottom:14px;text-align:center;font:500 10.5px var(--fm);letter-spacing:.14em;text-transform:uppercase;color:var(--muted);pointer-events:none}
+.fc-paused *,.fc-paused *::before,.fc-paused *::after{animation-play-state:paused!important}
+/* --- segmented-control --- */
+.w{display:grid;gap:16px;width:min(420px,90vw)}
+.sg{position:relative;display:grid;grid-template-columns:repeat(4,1fr);padding:4px;border-radius:12px;background:var(--chip)}
+.pill{position:absolute;top:4px;bottom:4px;left:4px;border-radius:9px;background:var(--surface);box-shadow:0 2px 10px -3px rgba(0,0,0,.28);transition:left .48s var(--spring),width .48s var(--spring)}
+.sg button{position:relative;border:0;background:none;padding:10px 0;font:600 14.5px var(--fb);color:var(--muted);cursor:pointer;transition:color .25s;border-radius:9px}
+.sg button[aria-selected=true]{color:var(--ink)}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:16px 18px 14px}
+.top{display:flex;justify-content:space-between;align-items:baseline}
+.tot{font:800 40px/1 var(--fd);font-variant-numeric:tabular-nums}
+.lb{font:500 11px var(--fm);color:var(--muted);text-transform:uppercase;letter-spacing:.1em}
+.bars{display:flex;align-items:flex-end;gap:6px;height:110px;margin-top:12px}
+.bars i{flex:1;border-radius:4px 4px 2px 2px;background:var(--accent);opacity:.85;transform-origin:bottom;transition:height .6s var(--spring)}
+.bars i:nth-child(3n){opacity:.55}
+</style></head><body>
+<div class="w">
+  <div class="sg" id="sg" role="tablist" aria-label="Range"><i class="pill" id="pill" aria-hidden="true"></i></div>
+  <div class="card" role="tabpanel" id="panel"><div class="top"><span class="tot" id="tot">0</span><span class="lb" id="lb">views · day</span></div><div class="bars" id="bars"></div></div>
+</div>
+<script>
+/* Motion Shelf runtime: autoplay demo when idle, pause when off-screen, theme */
+(function(){
+var q=new URLSearchParams(location.search),de=document.documentElement,th=q.get('theme');
+if(th==='light'||th==='dark')de.dataset.theme=th;
+var FC=window.FC={paused:false,idle:true,reduce:matchMedia('(prefers-reduced-motion: reduce)').matches&&!q.has('demo')};
+var sleep=FC.sleep=function(ms){return new Promise(function(r){setTimeout(r,ms)})};
+var to;FC.touch=function(){FC.idle=false;clearTimeout(to);to=setTimeout(function(){FC.idle=true},6000)};
+['pointerdown','keydown','wheel'].forEach(function(n){addEventListener(n,function(e){if(e.isTrusted)FC.touch()},{passive:true,capture:true})});
+addEventListener('message',function(e){var d=e.data;
+  if(d==='fc:pause'||d==='fc:play'){FC.paused=d==='fc:pause';de.classList.toggle('fc-paused',FC.paused)}
+  else if(d&&d.fcTheme){if(d.fcTheme==='auto')delete de.dataset.theme;else de.dataset.theme=d.fcTheme}});
+FC.gate=async function(){while(FC.paused)await sleep(120)};
+/* wait ms of un-paused time; resolves true if the demo should keep going */
+FC.wait=async function(ms){var left=ms;while(left>0){var s=performance.now();await sleep(Math.min(left,60));if(!FC.paused)left-=performance.now()-s}return FC.idle};
+FC.demo=function(fn){if(FC.reduce)return;(async function(){await FC.wait(450);for(;;){while(FC.paused||!FC.idle)await sleep(250);await fn()}})()};
+FC.raf=function(fn){var last=performance.now(),t=0;function f(n){var dt=Math.min(n-last,64);last=n;if(!FC.paused){t+=dt;fn(t,dt)}requestAnimationFrame(f)}requestAnimationFrame(f)};
+})();
+</script>
+<script>
+const opts=['Day','Week','Month','Year'],sg=document.getElementById('sg'),pill=document.getElementById('pill'),bars=document.getElementById('bars'),tot=document.getElementById('tot'),lb=document.getElementById('lb');
+const seed=k=>[...Array(12)].map((_,i)=>20+Math.abs(Math.sin(i*1.7+k*2.3))*70+((i*7+k*13)%11)*1.5);
+const totals=[1284,9310,40122,486900];let idx=0,shown=0;
+const B=[...Array(12)].map(()=>{const i=document.createElement('i');bars.append(i);return i});
+const btns=opts.map((o,i)=>{const b=document.createElement('button');b.role='tab';b.textContent=o;b.id='t'+i;b.setAttribute('aria-controls','panel');b.addEventListener('click',()=>sel(i,true));sg.append(b);return b});
+function place(){const b=btns[idx];pill.style.left=b.offsetLeft+'px';pill.style.width=b.offsetWidth+'px'}
+async function count(to){const from=shown,t0=performance.now(),D=600;for(;;){const k=Math.min(1,(performance.now()-t0)/D),e=1-Math.pow(1-k,3);shown=Math.round(from+(to-from)*e);tot.textContent=shown.toLocaleString('en');if(k>=1)break;await new Promise(r=>requestAnimationFrame(r))}}
+function sel(i,focus){
+  idx=i;btns.forEach((b,j)=>{b.setAttribute('aria-selected',j===i);b.tabIndex=j===i?0:-1});if(focus)btns[i].focus();
+  place();document.getElementById('panel').setAttribute('aria-labelledby','t'+i);lb.textContent='views · '+opts[i].toLowerCase();
+  const h=seed(i);B.forEach((b,j)=>setTimeout(()=>b.style.height=h[j]+'%',j*25));count(totals[i]);
+}
+sg.addEventListener('keydown',e=>{if(e.key==='ArrowRight'){e.preventDefault();sel((idx+1)%4,true)}if(e.key==='ArrowLeft'){e.preventDefault();sel((idx+3)%4,true)}});
+addEventListener('resize',place);
+document.fonts&&document.fonts.ready.then(place);
+sel(0,false);
+FC.demo(async()=>{await FC.wait(1600);if(FC.idle)sel((idx+1)%4,false)});
+</script>
+</body></html>

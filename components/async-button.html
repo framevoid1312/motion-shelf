@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Async Action Button · Motion Shelf UI components</title>
+<!-- A submit button that collapses into a spinner while it works, then opens into a green &#x27;Sent&#x27; with a drawn check, or a red &#x27;Try again&#x27; with a shake.
+     From Phil's Motion Shelf: https://github.com/framevoid1312/motion-shelf — free to use. -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&family=Figtree:wght@300..900&family=JetBrains+Mono:wght@400;500;700&display=swap">
+<style>
+:root{--bg:#f6f7fa;--surface:#fff;--ink:#151821;--muted:#5b6172;--line:#d5d9e3;--chip:#e3e7f2;--accent:#2944d6;--on:#fff;--mark:#ffd84d;--good:#14915f;--bad:#d6453d;color-scheme:light;
+--fd:"Big Shoulders Display","Arial Narrow",Impact,sans-serif;--fb:"Figtree",system-ui,-apple-system,"Segoe UI",sans-serif;--fm:"JetBrains Mono",ui-monospace,Consolas,monospace;
+--spring:cubic-bezier(.34,1.56,.64,1);--out:cubic-bezier(.22,1,.36,1)}
+@media (prefers-color-scheme:dark){:root:not([data-theme=light]){--bg:#12141b;--surface:#1c1f2a;--ink:#e8eaf2;--muted:#9aa1b5;--line:#2c3142;--chip:#252a39;--accent:#8ea0ff;--on:#11131a;--mark:#e9c53a;--good:#3ecf8e;--bad:#ff6b61;color-scheme:dark}}
+:root[data-theme=dark]{--bg:#12141b;--surface:#1c1f2a;--ink:#e8eaf2;--muted:#9aa1b5;--line:#2c3142;--chip:#252a39;--accent:#8ea0ff;--on:#11131a;--mark:#e9c53a;--good:#3ecf8e;--bad:#ff6b61;color-scheme:dark}
+*{box-sizing:border-box}
+html,body{height:100%}
+body{margin:0;display:grid;place-items:center;background:var(--bg);color:var(--ink);font:15px/1.5 var(--fb);overflow:hidden;-webkit-font-smoothing:antialiased;-webkit-tap-highlight-color:transparent;transition:background .3s,color .3s}
+button{font:inherit;color:inherit}
+:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
+.cap{position:fixed;left:0;right:0;bottom:14px;text-align:center;font:500 10.5px var(--fm);letter-spacing:.14em;text-transform:uppercase;color:var(--muted);pointer-events:none}
+.fc-paused *,.fc-paused *::before,.fc-paused *::after{animation-play-state:paused!important}
+/* --- async-button --- */
+.ab{position:relative;height:56px;width:200px;border:0;border-radius:999px;background:var(--accent);color:var(--on);font:600 16px var(--fb);cursor:pointer;transition:width .45s var(--out),background .35s;overflow:hidden;box-shadow:0 12px 26px -14px var(--accent)}
+.ab>span{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;gap:8px;white-space:nowrap;transition:opacity .25s,transform .35s var(--out)}
+.ab .sp,.ab .ok,.ab .er{opacity:0;transform:translateY(14px)}
+.ab:not([data-s=idle]) .i{opacity:0;transform:translateY(-14px)}
+.ab[data-s=load]{width:56px;cursor:progress}
+.ab[data-s=load] .sp{opacity:1;transform:none}
+.ab[data-s=ok]{width:150px;background:var(--good);box-shadow:0 12px 26px -14px var(--good)}
+.ab[data-s=ok] .ok{opacity:1;transform:none}
+.ab[data-s=err]{width:170px;background:var(--bad);box-shadow:0 12px 26px -14px var(--bad)}
+.ab[data-s=err] .er{opacity:1;transform:none}
+.sp i{width:22px;height:22px;border-radius:50%;border:2.5px solid color-mix(in oklab,var(--on) 30%,transparent);border-top-color:var(--on);animation:r .7s linear infinite}
+@keyframes r{to{transform:rotate(1turn)}}
+.ok path{stroke-dasharray:24;stroke-dashoffset:24}
+.ab[data-s=ok] .ok path{transition:stroke-dashoffset .45s .2s var(--out);stroke-dashoffset:0}
+.shake{animation:sh .42s}
+@keyframes sh{20%{translate:-7px}40%{translate:6px}60%{translate:-4px}80%{translate:2px}}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+</style></head><body>
+<button class="ab" id="ab" data-s="idle">
+  <span class="i"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" aria-hidden="true"><path d="M22 2 11 13M22 2l-7 20-4-9-9-4z"/></svg>Send invite</span>
+  <span class="sp" aria-hidden="true"><i></i></span>
+  <span class="ok" aria-hidden="true"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12.5 9.5 18 20 6.5"/></svg>Sent</span>
+  <span class="er" aria-hidden="true">Try again</span>
+</button>
+<div class="sr" id="sr" aria-live="polite"></div>
+<div class="cap">click to send</div>
+<script>
+/* Motion Shelf runtime: autoplay demo when idle, pause when off-screen, theme */
+(function(){
+var q=new URLSearchParams(location.search),de=document.documentElement,th=q.get('theme');
+if(th==='light'||th==='dark')de.dataset.theme=th;
+var FC=window.FC={paused:false,idle:true,reduce:matchMedia('(prefers-reduced-motion: reduce)').matches&&!q.has('demo')};
+var sleep=FC.sleep=function(ms){return new Promise(function(r){setTimeout(r,ms)})};
+var to;FC.touch=function(){FC.idle=false;clearTimeout(to);to=setTimeout(function(){FC.idle=true},6000)};
+['pointerdown','keydown','wheel'].forEach(function(n){addEventListener(n,function(e){if(e.isTrusted)FC.touch()},{passive:true,capture:true})});
+addEventListener('message',function(e){var d=e.data;
+  if(d==='fc:pause'||d==='fc:play'){FC.paused=d==='fc:pause';de.classList.toggle('fc-paused',FC.paused)}
+  else if(d&&d.fcTheme){if(d.fcTheme==='auto')delete de.dataset.theme;else de.dataset.theme=d.fcTheme}});
+FC.gate=async function(){while(FC.paused)await sleep(120)};
+/* wait ms of un-paused time; resolves true if the demo should keep going */
+FC.wait=async function(ms){var left=ms;while(left>0){var s=performance.now();await sleep(Math.min(left,60));if(!FC.paused)left-=performance.now()-s}return FC.idle};
+FC.demo=function(fn){if(FC.reduce)return;(async function(){await FC.wait(450);for(;;){while(FC.paused||!FC.idle)await sleep(250);await fn()}})()};
+FC.raf=function(fn){var last=performance.now(),t=0;function f(n){var dt=Math.min(n-last,64);last=n;if(!FC.paused){t+=dt;fn(t,dt)}requestAnimationFrame(f)}requestAnimationFrame(f)};
+})();
+</script>
+<script>
+const ab=document.getElementById('ab'),sr=document.getElementById('sr');let busy=false,n=0;
+const say={load:'Sending…',ok:'Invite sent',err:'Could not send. Try again.'};
+async function run(fail){
+  if(busy)return;busy=true;
+  ab.dataset.s='load';sr.textContent=say.load;await FC.wait(1300);
+  ab.dataset.s=fail?'err':'ok';sr.textContent=say[ab.dataset.s];
+  if(fail){ab.classList.remove('shake');void ab.offsetWidth;ab.classList.add('shake')}
+  await FC.wait(1600);ab.dataset.s='idle';busy=false;
+}
+ab.addEventListener('click',()=>run(Math.random()<.25));
+FC.demo(async()=>{await run(++n%3===0);await FC.wait(900)});
+</script>
+</body></html>

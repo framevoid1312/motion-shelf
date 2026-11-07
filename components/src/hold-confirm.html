@@ -1,0 +1,51 @@
+---
+{"name":"Hold to Confirm","cat":"Buttons & toggles","order":6,
+"desc":"A destructive button that has to be held down. A red fill sweeps across, inverting the label as it goes, and drains away if you let go early.",
+"tags":["press & hold","clip-path","destructive"],
+"prompt":"Build a press-and-hold confirm button for a destructive action: an outlined 240×58 pill reading 'Hold to delete' with a trash icon. While pressed (pointer, Space or Enter), a red fill grows left to right over 1.1 s; the label is duplicated inside the fill in white and revealed with clip-path inset so the text inverts exactly at the fill edge. Releasing early drains the fill back at three times the speed. When it reaches 100%, the button settles into a solid red 'Deleted' state with a drawn check, and a slight scale pop, then resets after 1.6 s. Show a small hint below ('press and hold') that changes to 'keep holding…' while held. Demo: one early release, then a full hold. Light and dark themes. Single HTML file."}
+---
+<style>
+.hd{position:relative;width:240px;height:58px;border:1.5px solid var(--line);border-radius:999px;background:var(--surface);cursor:pointer;overflow:hidden;font:600 16px var(--fb);color:var(--ink);touch-action:none;user-select:none;-webkit-user-select:none;transition:border-color .2s,scale .2s}
+.hd:hover{border-color:var(--bad)}
+.hd.held{scale:.98}
+.lay{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;gap:9px}
+.fill{background:var(--bad);color:#fff;clip-path:inset(0 calc(100% - var(--p,0%)) 0 0 round 999px)}
+.done .fill{clip-path:inset(0 0 0 0)}
+.lay.ok{color:#fff;opacity:0;background:var(--bad)}
+.done .lay.ok{opacity:1}
+.ok path{stroke-dasharray:24;stroke-dashoffset:24;transition:stroke-dashoffset .4s .1s var(--out)}
+.done .ok path{stroke-dashoffset:0}
+.hint{margin-top:14px;font:500 12px var(--fm);color:var(--muted);text-align:center;height:16px}
+.wrap{display:grid;justify-items:center}
+</style>
+<div class="wrap">
+<button class="hd" id="hd" aria-describedby="hint">
+  <span class="lay" aria-hidden="true"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 7h16M9 7V4h6v3M6 7l1 13h10l1-13"/></svg>Hold to delete</span>
+  <span class="lay fill" aria-hidden="true"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 7h16M9 7V4h6v3M6 7l1 13h10l1-13"/></svg>Hold to delete</span>
+  <span class="lay ok" aria-hidden="true"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12.5 9.5 18 20 6.5"/></svg>Deleted</span>
+  <span style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)" id="sr">Hold to delete</span>
+</button>
+<div class="hint" id="hint" aria-live="polite">press and hold</div>
+</div>
+<script>
+const hd=document.getElementById('hd'),hint=document.getElementById('hint'),sr=document.getElementById('sr');
+let p=0,held=false,done=false;const DUR=1100;
+function hold(v){if(done)return;held=v;hd.classList.toggle('held',v);hint.textContent=v?'keep holding…':'press and hold'}
+hd.addEventListener('pointerdown',e=>{hd.setPointerCapture(e.pointerId);hold(true)});
+['pointerup','pointercancel','lostpointercapture'].forEach(n=>hd.addEventListener(n,()=>hold(false)));
+hd.addEventListener('keydown',e=>{if((e.key===' '||e.key==='Enter')&&!e.repeat){e.preventDefault();hold(true)}});
+hd.addEventListener('keyup',e=>{if(e.key===' '||e.key==='Enter')hold(false)});
+hd.addEventListener('click',e=>e.preventDefault());
+FC.raf((t,dt)=>{
+  if(done)return;
+  p+=held?dt/DUR:-dt/DUR*3;p=Math.max(0,Math.min(1,p));
+  hd.style.setProperty('--p',(p*100).toFixed(2)+'%');
+  if(p>=1){done=true;held=false;hd.classList.remove('held');hd.classList.add('done');hint.textContent='deleted';sr.textContent='Deleted';
+    hd.animate([{scale:1},{scale:1.05},{scale:1}],{duration:380,easing:'cubic-bezier(.34,1.56,.64,1)'});
+    setTimeout(()=>{hd.classList.remove('done');p=0;done=false;hint.textContent='press and hold';sr.textContent='Hold to delete'},1600)}
+});
+FC.demo(async()=>{
+  hold(true);if(!await FC.wait(520))return hold(false);hold(false);if(!await FC.wait(900))return;
+  hold(true);await FC.wait(1250);hold(false);await FC.wait(2400);
+});
+</script>

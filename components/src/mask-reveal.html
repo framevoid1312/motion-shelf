@@ -1,0 +1,39 @@
+---
+{"name":"Bar Wipe Reveal","cat":"Kinetic type","order":5,
+"desc":"Three lines of a headline revealed by solid colour bars that wipe in, uncover the word and wipe out the other side, staggered line by line.",
+"tags":["reveal","stagger","WAAPI"],
+"prompt":"Build a bar-wipe headline reveal: three stacked uppercase lines (MAKE / THINGS / MOVE) in a heavy condensed display font, left-aligned. Each line has a solid bar the size of the line: bar 1 in the accent blue, bar 2 in a warm yellow, bar 3 in the ink color. Reveal: each bar scales in from the left (scaleX 0→1, 380 ms, expo-out), the word appears underneath at that moment with a small rise, then the bar scales out to the right (transform-origin right, 420 ms). Lines start 140 ms apart. Hide is the mirror image (bars come in from the right, word disappears, bars leave to the left). Loop reveal → hold 1.6 s → hide → pause; click replays. Use the Web Animations API and only transforms and opacity. Light and dark themes. Single HTML file."}
+---
+<style>
+.m{margin:0;font:800 clamp(52px,16.5vw,132px)/.9 var(--fd);text-transform:uppercase;cursor:pointer;user-select:none;padding:20px}
+.l{position:relative;display:block;width:max-content;padding:0 .05em}
+.l b{display:block;font-weight:inherit;opacity:0}
+.l i{position:absolute;inset:.07em 0 .02em;background:var(--accent);transform:scaleX(0);transform-origin:left}
+.l:nth-child(2) i{background:var(--mark)}
+.l:nth-child(3) i{background:var(--ink)}
+</style>
+<h1 class="m" id="m" role="button" tabindex="0" aria-label="Make things move"><span class="l" aria-hidden="true"><b>Make</b><i></i></span><span class="l" aria-hidden="true"><b>things</b><i></i></span><span class="l" aria-hidden="true"><b>move</b><i></i></span></h1>
+<div class="cap">click to replay</div>
+<script>
+const lines=[...document.querySelectorAll('.l')];let shown=false,busy=false;
+const E='cubic-bezier(.16,1,.3,1)';
+async function wipe(show){
+  busy=true;
+  await Promise.all(lines.map(async(l,i)=>{
+    const bar=l.querySelector('i'),word=l.querySelector('b');
+    await FC.wait(i*140);
+    bar.style.transformOrigin=show?'left':'right';
+    await bar.animate([{transform:'scaleX(0)'},{transform:'scaleX(1)'}],{duration:380,easing:E,fill:'forwards'}).finished;
+    word.animate(show?[{opacity:0,transform:'translateY(.12em)'},{opacity:1,transform:'none'}]:[{opacity:1},{opacity:0}],{duration:show?420:120,easing:E,fill:'forwards'});
+    bar.style.transformOrigin=show?'right':'left';
+    await bar.animate([{transform:'scaleX(1)'},{transform:'scaleX(0)'}],{duration:420,easing:E,fill:'forwards'}).finished;
+  }));
+  shown=show;busy=false;
+}
+async function replay(){if(busy)return;if(shown)await wipe(false);await wipe(true)}
+const m=document.getElementById('m');
+m.addEventListener('click',replay);
+m.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();replay()}});
+FC.demo(async()=>{await wipe(true);await FC.wait(1600);await wipe(false);await FC.wait(500)});
+if(FC.reduce)lines.forEach(l=>l.querySelector('b').style.opacity=1);
+</script>

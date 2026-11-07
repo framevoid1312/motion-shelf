@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Ringing Bell · Motion Shelf UI components</title>
+<!-- A notification bell that swings from its hook, clapper lagging behind, as the badge pops and counts up. Click to clear and the badge shrinks away.
+     From Phil's Motion Shelf: https://github.com/framevoid1312/motion-shelf — free to use. -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&family=Figtree:wght@300..900&family=JetBrains+Mono:wght@400;500;700&display=swap">
+<style>
+:root{--bg:#f6f7fa;--surface:#fff;--ink:#151821;--muted:#5b6172;--line:#d5d9e3;--chip:#e3e7f2;--accent:#2944d6;--on:#fff;--mark:#ffd84d;--good:#14915f;--bad:#d6453d;color-scheme:light;
+--fd:"Big Shoulders Display","Arial Narrow",Impact,sans-serif;--fb:"Figtree",system-ui,-apple-system,"Segoe UI",sans-serif;--fm:"JetBrains Mono",ui-monospace,Consolas,monospace;
+--spring:cubic-bezier(.34,1.56,.64,1);--out:cubic-bezier(.22,1,.36,1)}
+@media (prefers-color-scheme:dark){:root:not([data-theme=light]){--bg:#12141b;--surface:#1c1f2a;--ink:#e8eaf2;--muted:#9aa1b5;--line:#2c3142;--chip:#252a39;--accent:#8ea0ff;--on:#11131a;--mark:#e9c53a;--good:#3ecf8e;--bad:#ff6b61;color-scheme:dark}}
+:root[data-theme=dark]{--bg:#12141b;--surface:#1c1f2a;--ink:#e8eaf2;--muted:#9aa1b5;--line:#2c3142;--chip:#252a39;--accent:#8ea0ff;--on:#11131a;--mark:#e9c53a;--good:#3ecf8e;--bad:#ff6b61;color-scheme:dark}
+*{box-sizing:border-box}
+html,body{height:100%}
+body{margin:0;display:grid;place-items:center;background:var(--bg);color:var(--ink);font:15px/1.5 var(--fb);overflow:hidden;-webkit-font-smoothing:antialiased;-webkit-tap-highlight-color:transparent;transition:background .3s,color .3s}
+button{font:inherit;color:inherit}
+:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
+.cap{position:fixed;left:0;right:0;bottom:14px;text-align:center;font:500 10.5px var(--fm);letter-spacing:.14em;text-transform:uppercase;color:var(--muted);pointer-events:none}
+.fc-paused *,.fc-paused *::before,.fc-paused *::after{animation-play-state:paused!important}
+/* --- bell-badge --- */
+.bl{position:relative;width:88px;height:88px;border:1px solid var(--line);border-radius:24px;background:var(--surface);cursor:pointer;display:grid;place-items:center;box-shadow:0 16px 34px -22px rgba(0,0,0,.5)}
+.bl:active{scale:.96}
+.bl svg{width:46px;height:46px;overflow:visible}
+.body{transform-origin:24px 6px;transform-box:view-box}
+.clap{transform-origin:24px 6px;transform-box:view-box}
+.bd{position:absolute;top:12px;right:12px;min-width:24px;height:24px;padding:0 6px;border-radius:999px;background:var(--bad);color:#fff;font:700 13px/24px var(--fm);text-align:center;box-shadow:0 0 0 3px var(--surface);overflow:hidden;transform:scale(0)}
+.bd span{display:block}
+.cap2{margin-top:18px}
+.wrap{display:grid;justify-items:center}
+</style></head><body>
+<div class="wrap">
+<button class="bl" id="bl" aria-label="Notifications">
+  <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+    <g class="clap" id="clap"><path d="M19.5 39a4.6 4.6 0 0 0 9 0"/></g>
+    <g class="body" id="body"><path d="M24 6v2.5"/><path d="M12 33.5V22a12 12 0 0 1 24 0v11.5l3 3H9z" fill="var(--chip)"/></g>
+  </svg>
+  <span class="bd" id="bd" aria-hidden="true"><span>0</span></span>
+</button>
+<div class="cap" style="position:static" >click to clear</div>
+</div>
+<script>
+/* Motion Shelf runtime: autoplay demo when idle, pause when off-screen, theme */
+(function(){
+var q=new URLSearchParams(location.search),de=document.documentElement,th=q.get('theme');
+if(th==='light'||th==='dark')de.dataset.theme=th;
+var FC=window.FC={paused:false,idle:true,reduce:matchMedia('(prefers-reduced-motion: reduce)').matches&&!q.has('demo')};
+var sleep=FC.sleep=function(ms){return new Promise(function(r){setTimeout(r,ms)})};
+var to;FC.touch=function(){FC.idle=false;clearTimeout(to);to=setTimeout(function(){FC.idle=true},6000)};
+['pointerdown','keydown','wheel'].forEach(function(n){addEventListener(n,function(e){if(e.isTrusted)FC.touch()},{passive:true,capture:true})});
+addEventListener('message',function(e){var d=e.data;
+  if(d==='fc:pause'||d==='fc:play'){FC.paused=d==='fc:pause';de.classList.toggle('fc-paused',FC.paused)}
+  else if(d&&d.fcTheme){if(d.fcTheme==='auto')delete de.dataset.theme;else de.dataset.theme=d.fcTheme}});
+FC.gate=async function(){while(FC.paused)await sleep(120)};
+/* wait ms of un-paused time; resolves true if the demo should keep going */
+FC.wait=async function(ms){var left=ms;while(left>0){var s=performance.now();await sleep(Math.min(left,60));if(!FC.paused)left-=performance.now()-s}return FC.idle};
+FC.demo=function(fn){if(FC.reduce)return;(async function(){await FC.wait(450);for(;;){while(FC.paused||!FC.idle)await sleep(250);await fn()}})()};
+FC.raf=function(fn){var last=performance.now(),t=0;function f(n){var dt=Math.min(n-last,64);last=n;if(!FC.paused){t+=dt;fn(t,dt)}requestAnimationFrame(f)}requestAnimationFrame(f)};
+})();
+</script>
+<script>
+const bl=document.getElementById('bl'),body=document.getElementById('body'),clap=document.getElementById('clap'),bd=document.getElementById('bd');let n=0;
+const SP='cubic-bezier(.34,1.56,.64,1)';
+function ring(){
+  body.animate([0,16,-14,10,-6,3,0].map(r=>({transform:`rotate(${r}deg)`})),{duration:800,easing:'ease-out'});
+  clap.animate([0,-10,20,-16,12,-6,0].map(r=>({transform:`rotate(${r}deg)`})),{duration:860,delay:40,easing:'ease-out'});
+  n++;bl.setAttribute('aria-label',`Notifications, ${n} unread`);
+  if(n===1){bd.innerHTML='<span>1</span>';bd.animate([{transform:'scale(0)'},{transform:'scale(1.3)'},{transform:'scale(1)'}],{duration:480,easing:SP,fill:'forwards'})}
+  else{const o=bd.firstElementChild,s=document.createElement('span');s.textContent=n;
+    s.style.position='absolute';s.style.left=0;s.style.right=0;s.style.top=0;bd.append(s);
+    o.animate([{transform:'none'},{transform:'translateY(-100%)'}],{duration:280,easing:'cubic-bezier(.22,1,.36,1)',fill:'forwards'}).finished.then(()=>{o.remove();s.style.position=''});
+    s.animate([{transform:'translateY(100%)'},{transform:'none'}],{duration:420,easing:SP});
+    bd.animate([{transform:'scale(1)'},{transform:'scale(1.25)'},{transform:'scale(1)'}],{duration:380,easing:SP,fill:'forwards'})}
+}
+function clear(){if(!n)return;n=0;bl.setAttribute('aria-label','Notifications');bd.animate([{transform:'scale(1)'},{transform:'scale(0)'}],{duration:260,easing:'cubic-bezier(.5,0,.75,0)',fill:'forwards'})}
+bl.addEventListener('click',clear);
+FC.demo(async()=>{for(let i=0;i<3;i++){if(!await FC.wait(1800))return;ring()}if(!await FC.wait(1800))return;clear();await FC.wait(900)});
+</script>
+</body></html>

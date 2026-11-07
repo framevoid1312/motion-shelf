@@ -1,0 +1,45 @@
+---
+{"name":"Ringing Bell","cat":"Loaders & feedback","order":6,
+"desc":"A notification bell that swings from its hook, clapper lagging behind, as the badge pops and counts up. Click to clear and the badge shrinks away.",
+"tags":["icon","badge","keyframes"],
+"prompt":"Build a notification bell button. The bell is an SVG with the body and the clapper as separate parts. When a notification arrives, the body swings from a pivot at its top (rotate 0 → 16° → −14° → 10° → −6° → 3° → 0 over 800 ms) and the clapper swings the opposite way with a slight delay, so it looks physical. A red badge at the top right pops in (scale 0 → 1.3 → 1, spring) on the first notification and, for later ones, bumps and rolls its number upward. Clicking the bell clears: the badge shrinks to 0 and the aria-label updates ('Notifications, 3 unread' → 'Notifications'). Demo: three arrivals 1.8 s apart, then a clear. Light and dark themes. Single HTML file."}
+---
+<style>
+.bl{position:relative;width:88px;height:88px;border:1px solid var(--line);border-radius:24px;background:var(--surface);cursor:pointer;display:grid;place-items:center;box-shadow:0 16px 34px -22px rgba(0,0,0,.5)}
+.bl:active{scale:.96}
+.bl svg{width:46px;height:46px;overflow:visible}
+.body{transform-origin:24px 6px;transform-box:view-box}
+.clap{transform-origin:24px 6px;transform-box:view-box}
+.bd{position:absolute;top:12px;right:12px;min-width:24px;height:24px;padding:0 6px;border-radius:999px;background:var(--bad);color:#fff;font:700 13px/24px var(--fm);text-align:center;box-shadow:0 0 0 3px var(--surface);overflow:hidden;transform:scale(0)}
+.bd span{display:block}
+.cap2{margin-top:18px}
+.wrap{display:grid;justify-items:center}
+</style>
+<div class="wrap">
+<button class="bl" id="bl" aria-label="Notifications">
+  <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+    <g class="clap" id="clap"><path d="M19.5 39a4.6 4.6 0 0 0 9 0"/></g>
+    <g class="body" id="body"><path d="M24 6v2.5"/><path d="M12 33.5V22a12 12 0 0 1 24 0v11.5l3 3H9z" fill="var(--chip)"/></g>
+  </svg>
+  <span class="bd" id="bd" aria-hidden="true"><span>0</span></span>
+</button>
+<div class="cap" style="position:static" >click to clear</div>
+</div>
+<script>
+const bl=document.getElementById('bl'),body=document.getElementById('body'),clap=document.getElementById('clap'),bd=document.getElementById('bd');let n=0;
+const SP='cubic-bezier(.34,1.56,.64,1)';
+function ring(){
+  body.animate([0,16,-14,10,-6,3,0].map(r=>({transform:`rotate(${r}deg)`})),{duration:800,easing:'ease-out'});
+  clap.animate([0,-10,20,-16,12,-6,0].map(r=>({transform:`rotate(${r}deg)`})),{duration:860,delay:40,easing:'ease-out'});
+  n++;bl.setAttribute('aria-label',`Notifications, ${n} unread`);
+  if(n===1){bd.innerHTML='<span>1</span>';bd.animate([{transform:'scale(0)'},{transform:'scale(1.3)'},{transform:'scale(1)'}],{duration:480,easing:SP,fill:'forwards'})}
+  else{const o=bd.firstElementChild,s=document.createElement('span');s.textContent=n;
+    s.style.position='absolute';s.style.left=0;s.style.right=0;s.style.top=0;bd.append(s);
+    o.animate([{transform:'none'},{transform:'translateY(-100%)'}],{duration:280,easing:'cubic-bezier(.22,1,.36,1)',fill:'forwards'}).finished.then(()=>{o.remove();s.style.position=''});
+    s.animate([{transform:'translateY(100%)'},{transform:'none'}],{duration:420,easing:SP});
+    bd.animate([{transform:'scale(1)'},{transform:'scale(1.25)'},{transform:'scale(1)'}],{duration:380,easing:SP,fill:'forwards'})}
+}
+function clear(){if(!n)return;n=0;bl.setAttribute('aria-label','Notifications');bd.animate([{transform:'scale(1)'},{transform:'scale(0)'}],{duration:260,easing:'cubic-bezier(.5,0,.75,0)',fill:'forwards'})}
+bl.addEventListener('click',clear);
+FC.demo(async()=>{for(let i=0;i<3;i++){if(!await FC.wait(1800))return;ring()}if(!await FC.wait(1800))return;clear();await FC.wait(900)});
+</script>

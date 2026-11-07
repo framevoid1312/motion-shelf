@@ -1,0 +1,48 @@
+---
+{"name":"Spring Stepper","cat":"Buttons & toggles","order":5,
+"desc":"A − / + quantity stepper whose digits roll in the direction you count, overshooting slightly, and that shakes when you hit a limit. Hold a button to repeat.",
+"tags":["counter","spring","hold to repeat"],
+"prompt":"Build a quantity stepper: a rounded group with a '−' button, a large tabular number, and a '+' button. Changing the value rolls the digits: going up, the old number exits upward and the new one enters from below with a springy overshoot (cubic-bezier(.34,1.56,.64,1), 420 ms); going down, the reverse. Range 0–12. At a limit the whole control does a short horizontal shake and the blocked button flashes. Holding a button repeats every 110 ms after a 380 ms delay (pointer and keyboard). Buttons scale to 0.9 on press. Arrow keys work when the control is focused. Expose the value with role=spinbutton and aria-valuenow/min/max. Demo does a random walk of steps. Light and dark themes. Single HTML file."}
+---
+<style>
+.st{display:flex;align-items:center;gap:6px;padding:8px;border-radius:20px;background:var(--surface);border:1px solid var(--line);box-shadow:0 14px 30px -18px rgba(0,0,0,.45)}
+.b{width:58px;height:58px;border:0;border-radius:14px;background:var(--chip);font:500 28px/1 var(--fb);cursor:pointer;transition:scale .12s,background .2s,color .2s;touch-action:manipulation;user-select:none}
+.b:active,.b.pr{scale:.9}
+.b.no{background:color-mix(in oklab,var(--bad) 18%,var(--chip));color:var(--bad)}
+.v{position:relative;width:96px;height:64px;overflow:hidden;font:800 52px/64px var(--fd);text-align:center;font-variant-numeric:tabular-nums;outline:none}
+.v span{position:absolute;inset:0}
+.shake{animation:sh .38s}
+@keyframes sh{20%{translate:-8px}40%{translate:7px}60%{translate:-4px}80%{translate:2px}}
+</style>
+<div class="st" id="st">
+  <button class="b" id="m" aria-label="Decrease">−</button>
+  <div class="v" id="v" role="spinbutton" tabindex="0" aria-valuemin="0" aria-valuemax="12" aria-valuenow="4" aria-label="Quantity"><span>4</span></div>
+  <button class="b" id="p" aria-label="Increase">+</button>
+</div>
+<div class="cap">click or hold</div>
+<script>
+const st=document.getElementById('st'),v=document.getElementById('v'),bm=document.getElementById('m'),bp=document.getElementById('p');
+let val=4;const MIN=0,MAX=12;
+function bump(d){
+  const nv=val+d,btn=d>0?bp:bm;
+  if(nv<MIN||nv>MAX){st.classList.remove('shake');void st.offsetWidth;st.classList.add('shake');btn.classList.add('no');setTimeout(()=>btn.classList.remove('no'),300);return false}
+  val=nv;v.setAttribute('aria-valuenow',val);
+  const old=v.firstElementChild,nw=document.createElement('span');nw.textContent=val;v.append(nw);
+  old.animate([{transform:'none',opacity:1},{transform:`translateY(${d>0?-100:100}%)`,opacity:0}],{duration:260,easing:'cubic-bezier(.22,1,.36,1)',fill:'forwards'}).finished.then(()=>old.remove());
+  nw.animate([{transform:`translateY(${d>0?100:-100}%)`},{transform:'none'}],{duration:420,easing:'cubic-bezier(.34,1.56,.64,1)'});
+  return true;
+}
+function holdable(btn,d){
+  let t1,t2;const stop=()=>{clearTimeout(t1);clearInterval(t2)};
+  btn.addEventListener('pointerdown',e=>{e.preventDefault();bump(d);t1=setTimeout(()=>t2=setInterval(()=>{if(!bump(d))stop()},110),380)});
+  ['pointerup','pointerleave','pointercancel'].forEach(n=>btn.addEventListener(n,stop));
+  btn.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();bump(d)}});
+}
+holdable(bm,-1);holdable(bp,1);
+v.addEventListener('keydown',e=>{if(e.key==='ArrowUp'||e.key==='ArrowRight'){e.preventDefault();bump(1)}if(e.key==='ArrowDown'||e.key==='ArrowLeft'){e.preventDefault();bump(-1)}});
+let dir=1;
+FC.demo(async()=>{
+  if(Math.random()<.3)dir=-dir;const btn=dir>0?bp:bm;btn.classList.add('pr');
+  if(!bump(dir))dir=-dir;await FC.wait(140);btn.classList.remove('pr');await FC.wait(420+Math.random()*300);
+});
+</script>

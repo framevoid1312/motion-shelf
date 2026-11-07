@@ -1,0 +1,57 @@
+---
+{"name":"Stacking Toasts","cat":"Loaders & feedback","order":3,
+"desc":"Notifications that pile up as a neat deck, the newest in front. Hover the stack and it fans out into a list; each toast leaves on its own timer.",
+"tags":["notifications","stack","hover"],
+"prompt":"Build a stacking toast system anchored bottom-center. Each toast is a 320px surface card with an icon in a tinted circle (success green, info blue, upload yellow), a title, a muted line and a close button. New toasts enter from below (translateY 100% → 0, opacity 0 → 1, spring). Collapsed, the stack looks like a deck: toast i sits at translateY(-i·14px) scale(1 - i·0.05), toasts beyond the third fade out. Hovering or focusing the stack expands it into a list where each toast moves up by the cumulative height of the ones in front plus 10px gaps; all positions transition with cubic-bezier(.22,1,.36,1) over 400 ms. Each toast auto-dismisses after 4.5 s (timers pause while expanded) and exits by sliding down and fading. A 'Show toast' button at the top adds one. Use role=status/aria-live=polite. Demo pushes a toast every 1.5 s. Light and dark themes. Single HTML file."}
+---
+<style>
+body{place-items:start center}
+.trig{margin-top:12vh;border:1px solid var(--line);background:var(--surface);border-radius:999px;padding:11px 20px;font:600 14px var(--fb);cursor:pointer;box-shadow:0 8px 20px -14px rgba(0,0,0,.4)}
+.trig:active{scale:.97}
+.stack{position:fixed;left:50%;bottom:24px;width:min(320px,90vw);transform:translateX(-50%);height:76px}
+.t{position:absolute;left:0;right:0;bottom:0;display:flex;align-items:center;gap:12px;padding:12px 12px 12px 14px;background:var(--surface);border:1px solid var(--line);border-radius:14px;box-shadow:0 12px 30px -16px rgba(0,0,0,.45);transition:transform .4s cubic-bezier(.22,1,.36,1),opacity .4s;transform-origin:50% 100%}
+.ic{flex:none;width:34px;height:34px;border-radius:50%;display:grid;place-items:center;background:color-mix(in oklab,var(--c) 18%,transparent);color:var(--c)}
+.tt{flex:1;min-width:0;line-height:1.3}
+.tt b{display:block;font-size:14.5px}
+.tt span{font-size:13px;color:var(--muted)}
+.x{flex:none;width:28px;height:28px;border:0;border-radius:7px;background:none;color:var(--muted);cursor:pointer;font-size:15px}
+.x:hover{background:var(--chip);color:var(--ink)}
+</style>
+<button class="trig" id="trig">Show toast</button>
+<section class="stack" id="stack" aria-live="polite" aria-label="Notifications" tabindex="-1"></section>
+<script>
+const stack=document.getElementById('stack'),K=[
+ {c:'var(--good)',i:'<path d="M5 12.5 10 17.5 19 7"/>',b:'Render finished',s:'reel-2026.mp4 · 1m 12s'},
+ {c:'var(--accent)',i:'<path d="M12 8v5M12 16.5v.5"/><circle cx="12" cy="12" r="9"/>',b:'New comment',s:'"Love the shot at 0:42"'},
+ {c:'var(--mark)',i:'<path d="M12 16V5M7 10l5-5 5 5M5 19h14"/>',b:'Uploaded 3 files',s:'Moved to /assets/plates'},
+ {c:'var(--good)',i:'<path d="M9 9h10v10H9z"/><path d="M5 15V5h10"/>',b:'Link copied',s:'Share it anywhere'}];
+let ts=[],open=false,k=0;
+function layout(){
+  let y=0;ts.forEach((t,i)=>{
+    const tr=open?`translateY(${-y}px)`:`translateY(${-i*14}px) scale(${1-i*.05})`;
+    t.el.style.transform=t.gone?`translateY(${open?-y:0}px) translateY(40px) scale(.95)`:tr;
+    t.el.style.opacity=t.gone?0:(open||i<3?1:0);t.el.style.zIndex=100-i;
+    t.el.style.pointerEvents=open||i===0?'auto':'none';
+    if(!t.gone)y+=t.el.offsetHeight+10;
+  });
+  stack.style.height=open?(y-10)+'px':'76px';
+}
+function remove(t){if(t.gone)return;t.gone=true;layout();setTimeout(()=>{t.el.remove();ts=ts.filter(x=>x!==t);layout()},400)}
+function push(){
+  const d=K[k++%K.length],el=document.createElement('div');el.className='t';el.setAttribute('role','status');el.style.setProperty('--c',d.c);
+  el.innerHTML=`<span class="ic" aria-hidden="true"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">${d.i}</svg></span><span class="tt"><b>${d.b}</b><span>${d.s}</span></span><button class="x" aria-label="Dismiss">✕</button>`;
+  const t={el,left:4500,gone:false};el.querySelector('.x').addEventListener('click',()=>remove(t));
+  stack.append(el);ts.unshift(t);
+  el.style.transform='translateY(110%)';el.style.opacity=0;el.style.transition='none';el.offsetHeight;el.style.transition='';
+  el.animate([{transform:'translateY(110%)',opacity:0},{transform:'translateY(0)',opacity:1}],{duration:520,easing:'cubic-bezier(.34,1.4,.64,1)'});
+  layout();
+  if(ts.length>6)remove(ts[ts.length-1]);
+}
+document.getElementById('trig').addEventListener('click',push);
+stack.addEventListener('pointerenter',()=>{open=true;layout()});
+stack.addEventListener('pointerleave',()=>{open=false;layout()});
+stack.addEventListener('focusin',()=>{open=true;layout()});
+stack.addEventListener('focusout',e=>{if(!stack.contains(e.relatedTarget)){open=false;layout()}});
+FC.raf((t,dt)=>{if(open)return;ts.forEach(x=>{if(!x.gone&&(x.left-=dt)<=0)remove(x)})});
+FC.demo(async()=>{push();await FC.wait(1500)});
+</script>

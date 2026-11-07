@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Extruded Word · Motion Shelf UI components</title>
+<!-- A slab of solid type with a deep extrusion that swings to stay behind the face as the word tilts toward your pointer.
+     From Phil's Motion Shelf: https://github.com/framevoid1312/motion-shelf — free to use. -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&family=Figtree:wght@300..900&family=JetBrains+Mono:wght@400;500;700&display=swap">
+<style>
+:root{--bg:#f6f7fa;--surface:#fff;--ink:#151821;--muted:#5b6172;--line:#d5d9e3;--chip:#e3e7f2;--accent:#2944d6;--on:#fff;--mark:#ffd84d;--good:#14915f;--bad:#d6453d;color-scheme:light;
+--fd:"Big Shoulders Display","Arial Narrow",Impact,sans-serif;--fb:"Figtree",system-ui,-apple-system,"Segoe UI",sans-serif;--fm:"JetBrains Mono",ui-monospace,Consolas,monospace;
+--spring:cubic-bezier(.34,1.56,.64,1);--out:cubic-bezier(.22,1,.36,1)}
+@media (prefers-color-scheme:dark){:root:not([data-theme=light]){--bg:#12141b;--surface:#1c1f2a;--ink:#e8eaf2;--muted:#9aa1b5;--line:#2c3142;--chip:#252a39;--accent:#8ea0ff;--on:#11131a;--mark:#e9c53a;--good:#3ecf8e;--bad:#ff6b61;color-scheme:dark}}
+:root[data-theme=dark]{--bg:#12141b;--surface:#1c1f2a;--ink:#e8eaf2;--muted:#9aa1b5;--line:#2c3142;--chip:#252a39;--accent:#8ea0ff;--on:#11131a;--mark:#e9c53a;--good:#3ecf8e;--bad:#ff6b61;color-scheme:dark}
+*{box-sizing:border-box}
+html,body{height:100%}
+body{margin:0;display:grid;place-items:center;background:var(--bg);color:var(--ink);font:15px/1.5 var(--fb);overflow:hidden;-webkit-font-smoothing:antialiased;-webkit-tap-highlight-color:transparent;transition:background .3s,color .3s}
+button{font:inherit;color:inherit}
+:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
+.cap{position:fixed;left:0;right:0;bottom:14px;text-align:center;font:500 10.5px var(--fm);letter-spacing:.14em;text-transform:uppercase;color:var(--muted);pointer-events:none}
+.fc-paused *,.fc-paused *::before,.fc-paused *::after{animation-play-state:paused!important}
+/* --- extruded-word --- */
+body{perspective:900px}
+.x{margin:0;font:800 clamp(70px,24vw,200px)/1 var(--fd);text-transform:uppercase;color:var(--mark);letter-spacing:.015em;user-select:none;will-change:transform,text-shadow}
+</style></head><body>
+<h1 class="x" id="x">Depth</h1>
+<div class="cap">move your pointer</div>
+<script>
+/* Motion Shelf runtime: autoplay demo when idle, pause when off-screen, theme */
+(function(){
+var q=new URLSearchParams(location.search),de=document.documentElement,th=q.get('theme');
+if(th==='light'||th==='dark')de.dataset.theme=th;
+var FC=window.FC={paused:false,idle:true,reduce:matchMedia('(prefers-reduced-motion: reduce)').matches&&!q.has('demo')};
+var sleep=FC.sleep=function(ms){return new Promise(function(r){setTimeout(r,ms)})};
+var to;FC.touch=function(){FC.idle=false;clearTimeout(to);to=setTimeout(function(){FC.idle=true},6000)};
+['pointerdown','keydown','wheel'].forEach(function(n){addEventListener(n,function(e){if(e.isTrusted)FC.touch()},{passive:true,capture:true})});
+addEventListener('message',function(e){var d=e.data;
+  if(d==='fc:pause'||d==='fc:play'){FC.paused=d==='fc:pause';de.classList.toggle('fc-paused',FC.paused)}
+  else if(d&&d.fcTheme){if(d.fcTheme==='auto')delete de.dataset.theme;else de.dataset.theme=d.fcTheme}});
+FC.gate=async function(){while(FC.paused)await sleep(120)};
+/* wait ms of un-paused time; resolves true if the demo should keep going */
+FC.wait=async function(ms){var left=ms;while(left>0){var s=performance.now();await sleep(Math.min(left,60));if(!FC.paused)left-=performance.now()-s}return FC.idle};
+FC.demo=function(fn){if(FC.reduce)return;(async function(){await FC.wait(450);for(;;){while(FC.paused||!FC.idle)await sleep(250);await fn()}})()};
+FC.raf=function(fn){var last=performance.now(),t=0;function f(n){var dt=Math.min(n-last,64);last=n;if(!FC.paused){t+=dt;fn(t,dt)}requestAnimationFrame(f)}requestAnimationFrame(f)};
+})();
+</script>
+<script>
+const x=document.getElementById('x');let rx=0,ry=0,tx=null,ty=null;
+addEventListener('pointermove',e=>{tx=(e.clientY/innerHeight-.5)*-36;ty=(e.clientX/innerWidth-.5)*36;FC.touch()});
+document.addEventListener('pointerleave',()=>{tx=ty=null});
+const N=18;
+FC.raf(t=>{
+  const gx=tx??Math.sin(t/1700)*12,gy=ty??Math.sin(t/1100)*16;
+  rx+=(gx-rx)*.08;ry+=(gy-ry)*.08;
+  x.style.transform=`rotateX(${rx.toFixed(2)}deg) rotateY(${ry.toFixed(2)}deg)`;
+  const dx=-ry*.09,dy=rx*.09+.55,s=[];
+  for(let i=1;i<=N;i++)s.push(`${(dx*i).toFixed(2)}px ${(dy*i).toFixed(2)}px 0 color-mix(in oklab,var(--accent) ${100-i*3.4}%,#000)`);
+  s.push(`${(dx*N*1.4).toFixed(1)}px ${(dy*N*1.4+8).toFixed(1)}px 26px rgba(0,0,0,.35)`);
+  x.style.textShadow=s.join(',');
+});
+</script>
+</body></html>

@@ -1,0 +1,45 @@
+---
+{"name":"Floating Label Field","cat":"Inputs & switches","order":1,
+"desc":"An email field whose label lifts and shrinks out of the way, with an underline that draws from the centre and a check that pops in once the address is valid.",
+"tags":["form","validation","CSS only states"],
+"prompt":"Build a floating-label email field. The label sits inside the empty field like a placeholder; on focus or when filled it moves up and scales to 0.78 (transform only, 250 ms ease-out) and takes the accent color. A 2px accent underline draws outward from the center (scaleX 0→1) on focus over a neutral 1px base line. When the value is a valid email a green check icon pops in on the right with a spring scale; if the field is left non-empty and invalid, the underline and label turn red and a helper line below swaps from 'We'll never share it.' to 'That doesn't look like an email.' with a short slide. Use :placeholder-shown with placeholder=' ' so the float works without JS; JS only handles validity classes. Demo types 'phil@studio' then completes to 'phil@studio.dev' letter by letter, then clears. Light and dark themes. Single HTML file."}
+---
+<style>
+.f{width:min(360px,86vw)}
+.fl{position:relative;display:block;padding-top:18px}
+.fl input{width:100%;border:0;border-bottom:1px solid var(--line);background:transparent;color:var(--ink);font:500 20px var(--fb);padding:10px 34px 10px 0;outline:none;border-radius:0}
+.lab{position:absolute;left:0;top:28px;font:500 18px var(--fb);color:var(--muted);transform-origin:left top;transition:transform .25s var(--out),color .2s;pointer-events:none}
+.fl:focus-within .lab,.fl.on .lab,.fl input:not(:placeholder-shown)~.lab{transform:translateY(-24px) scale(.78);color:var(--accent)}
+.ln{position:absolute;left:0;right:0;bottom:0;height:2px;background:var(--accent);transform:scaleX(0);transition:transform .45s var(--out),background .2s}
+.fl:focus-within .ln,.fl.on .ln{transform:scaleX(1)}
+.ok{position:absolute;right:2px;bottom:12px;width:24px;height:24px;border-radius:50%;background:var(--good);display:grid;place-items:center;transform:scale(0);transition:transform .4s var(--spring)}
+.fl.valid .ok{transform:scale(1)}
+.fl.bad .ln{background:var(--bad);transform:scaleX(1)}
+.fl.bad .lab{color:var(--bad)}
+.hint{position:relative;height:20px;margin:10px 0 0;font-size:13.5px;color:var(--muted);overflow:hidden}
+.hint span{position:absolute;inset:0;transition:transform .35s var(--out),opacity .25s}
+.hint .e{color:var(--bad);transform:translateY(100%);opacity:0}
+.f.err .hint .n{transform:translateY(-100%);opacity:0}
+.f.err .hint .e{transform:none;opacity:1}
+</style>
+<form class="f" id="f" onsubmit="return false" novalidate>
+  <label class="fl" id="fl"><input id="in" type="email" placeholder=" " autocomplete="off" spellcheck="false" aria-describedby="hint"><span class="lab">Email address</span><i class="ln"></i>
+    <span class="ok" aria-hidden="true"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5 10 17.5 19 7"/></svg></span></label>
+  <p class="hint" id="hint" aria-live="polite"><span class="n">We'll never share it.</span><span class="e">That doesn't look like an email.</span></p>
+</form>
+<script>
+const f=document.getElementById('f'),fl=document.getElementById('fl'),inp=document.getElementById('in');
+const ok=v=>/^[^\s@]+@[^\s@]+\.[a-z]{2,}$/i.test(v);
+function check(blur){const v=inp.value;fl.classList.toggle('valid',ok(v));const bad=v&&!ok(v)&&(blur||f.classList.contains('err'));fl.classList.toggle('bad',!!bad);f.classList.toggle('err',!!bad)}
+inp.addEventListener('input',()=>check(false));inp.addEventListener('blur',()=>check(true));
+FC.demo(async()=>{
+  if(document.activeElement===inp)return FC.wait(1000);
+  fl.classList.add('on');if(!await FC.wait(500))return fl.classList.remove('on');
+  for(const ch of 'phil@studio'){inp.value+=ch;check(false);if(!await FC.wait(70+Math.random()*60))return}
+  fl.classList.remove('on');check(true);if(!await FC.wait(1400))return;fl.classList.add('on');
+  for(const ch of '.dev'){inp.value+=ch;check(false);if(!await FC.wait(110))return}
+  if(!await FC.wait(1700))return;
+  while(inp.value){inp.value=inp.value.slice(0,-1);check(false);await FC.wait(22)}
+  fl.classList.remove('on');check(false);await FC.wait(900);
+});
+</script>

@@ -1,0 +1,38 @@
+---
+{"name":"Scramble Decode","cat":"Kinetic type","order":2,
+"desc":"Words resolve out of random glyphs, letter by letter, like a terminal cracking a code. Click for the next word.",
+"tags":["text effect","monospace","click"],
+"prompt":"Make a 'scramble decode' text effect in a monospace font (JetBrains Mono), large and centered. The word cycles through DECODE, SIGNAL, PAYLOAD, UNLOCK, RUNTIME. To change word, each character position starts scrambling at a staggered frame (about 3 frames apart, left to right, with a little randomness), shows random glyphs from A–Z, 0–9 and symbols like #%&*+=<>/ for 10–24 frames at ~30 fps, then locks to the target letter. Scrambling glyphs are in the accent color, about a third of them dimmed; locked letters are in the ink color. Pad words to equal length so the layout never jumps. Click or press Enter to decode the next word, and autoplay every ~1.7 s otherwise. Expose the final word with aria-label. Light and dark themes. Single HTML file."}
+---
+<style>
+.s{font:500 clamp(30px,9.5vw,76px)/1 var(--fm);letter-spacing:.06em;white-space:pre;cursor:pointer;user-select:none;padding:20px}
+.s i{font-style:normal;color:var(--accent)}
+.s i.d{opacity:.45}
+</style>
+<div class="s" id="s" role="button" tabindex="0" aria-label="DECODE">DECODE</div>
+<div class="cap">click to decode</div>
+<script>
+const el=document.getElementById('s'),G='ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789#%&*+=<>/',words=['DECODE','SIGNAL','PAYLOAD','UNLOCK','RUNTIME'];
+const esc=c=>c==='<'?'&lt;':c==='>'?'&gt;':c==='&'?'&amp;':c;
+let wi=0,cur=words[0],busy=false;
+async function decode(to){
+  if(busy)return;busy=true;el.setAttribute('aria-label',to);
+  const n=Math.max(cur.length,to.length),from=cur.padEnd(n),tgt=to.padEnd(n);
+  const st=[...Array(n)].map((_,i)=>i*3+(Math.random()*5|0)),en=st.map(s=>s+10+(Math.random()*14|0));
+  for(let f=0;;f++){
+    let h='',done=true;
+    for(let i=0;i<n;i++){
+      if(f<st[i]){h+=esc(from[i]);done=false}
+      else if(f<en[i]){h+='<i'+(Math.random()<.33?' class="d"':'')+'>'+esc(G[Math.random()*G.length|0])+'</i>';done=false}
+      else h+=esc(tgt[i]);
+    }
+    el.innerHTML=h;if(done)break;
+    await FC.wait(33);
+  }
+  cur=to;busy=false;
+}
+const next=()=>decode(words[wi=(wi+1)%words.length]);
+el.addEventListener('click',next);
+el.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();next()}});
+FC.demo(async()=>{await next();await FC.wait(1700)});
+</script>

@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Tilting Value Slider · Motion Shelf UI components</title>
+<!-- A range slider whose value bubble swings like it&#x27;s hanging from the thumb: drag fast and it tilts against the motion, then settles.
+     From Phil's Motion Shelf: https://github.com/framevoid1312/motion-shelf — free to use. -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&family=Figtree:wght@300..900&family=JetBrains+Mono:wght@400;500;700&display=swap">
+<style>
+:root{--bg:#f6f7fa;--surface:#fff;--ink:#151821;--muted:#5b6172;--line:#d5d9e3;--chip:#e3e7f2;--accent:#2944d6;--on:#fff;--mark:#ffd84d;--good:#14915f;--bad:#d6453d;color-scheme:light;
+--fd:"Big Shoulders Display","Arial Narrow",Impact,sans-serif;--fb:"Figtree",system-ui,-apple-system,"Segoe UI",sans-serif;--fm:"JetBrains Mono",ui-monospace,Consolas,monospace;
+--spring:cubic-bezier(.34,1.56,.64,1);--out:cubic-bezier(.22,1,.36,1)}
+@media (prefers-color-scheme:dark){:root:not([data-theme=light]){--bg:#12141b;--surface:#1c1f2a;--ink:#e8eaf2;--muted:#9aa1b5;--line:#2c3142;--chip:#252a39;--accent:#8ea0ff;--on:#11131a;--mark:#e9c53a;--good:#3ecf8e;--bad:#ff6b61;color-scheme:dark}}
+:root[data-theme=dark]{--bg:#12141b;--surface:#1c1f2a;--ink:#e8eaf2;--muted:#9aa1b5;--line:#2c3142;--chip:#252a39;--accent:#8ea0ff;--on:#11131a;--mark:#e9c53a;--good:#3ecf8e;--bad:#ff6b61;color-scheme:dark}
+*{box-sizing:border-box}
+html,body{height:100%}
+body{margin:0;display:grid;place-items:center;background:var(--bg);color:var(--ink);font:15px/1.5 var(--fb);overflow:hidden;-webkit-font-smoothing:antialiased;-webkit-tap-highlight-color:transparent;transition:background .3s,color .3s}
+button{font:inherit;color:inherit}
+:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
+.cap{position:fixed;left:0;right:0;bottom:14px;text-align:center;font:500 10.5px var(--fm);letter-spacing:.14em;text-transform:uppercase;color:var(--muted);pointer-events:none}
+.fc-paused *,.fc-paused *::before,.fc-paused *::after{animation-play-state:paused!important}
+/* --- tilt-slider --- */
+.w{width:min(420px,84vw);display:grid;gap:26px}
+.hd{display:flex;justify-content:space-between;font:600 14px var(--fb)}
+.hd span{font:500 12px var(--fm);color:var(--muted)}
+.sl{position:relative;height:44px;cursor:pointer;touch-action:none;outline:none}
+.tr{position:absolute;left:0;right:0;top:19px;height:6px;border-radius:9px;background:var(--line)}
+.fi{position:absolute;left:0;top:19px;height:6px;border-radius:9px;background:var(--accent)}
+.th{position:absolute;top:22px;width:26px;height:26px;margin:-13px 0 0 -13px;border-radius:50%;background:#fff;box-shadow:0 2px 8px rgba(0,0,0,.28),0 0 0 1px rgba(0,0,0,.06);transition:scale .2s var(--spring)}
+.sl:hover .th,.sl.drag .th{scale:1.15}
+.sl:focus-visible .th{box-shadow:0 0 0 4px color-mix(in oklab,var(--accent) 35%,transparent),0 2px 8px rgba(0,0,0,.28)}
+.bub{position:absolute;bottom:42px;left:0;margin-left:-26px;width:52px;transform-origin:50% 115%;pointer-events:none}
+.bub b{display:block;padding:6px 0;border-radius:9px;background:var(--ink);color:var(--bg);font:700 15px var(--fm);text-align:center;font-variant-numeric:tabular-nums;transition:scale .25s var(--spring);transform-origin:50% 120%}
+.bub b::after{content:"";position:absolute;left:50%;bottom:-5px;margin-left:-6px;border:6px solid transparent;border-bottom:0;border-top-color:var(--ink)}
+.sl.drag .bub b{scale:1.12}
+</style></head><body>
+<div class="w">
+  <div class="hd">Volume <span>drag me fast</span></div>
+  <div class="sl" id="sl" role="slider" tabindex="0" aria-label="Volume" aria-valuemin="0" aria-valuemax="100" aria-valuenow="40">
+    <i class="tr"></i><i class="fi" id="fi"></i><div class="bub" id="bub"><b id="val">40</b></div><i class="th" id="th"></i>
+  </div>
+</div>
+<script>
+/* Motion Shelf runtime: autoplay demo when idle, pause when off-screen, theme */
+(function(){
+var q=new URLSearchParams(location.search),de=document.documentElement,th=q.get('theme');
+if(th==='light'||th==='dark')de.dataset.theme=th;
+var FC=window.FC={paused:false,idle:true,reduce:matchMedia('(prefers-reduced-motion: reduce)').matches&&!q.has('demo')};
+var sleep=FC.sleep=function(ms){return new Promise(function(r){setTimeout(r,ms)})};
+var to;FC.touch=function(){FC.idle=false;clearTimeout(to);to=setTimeout(function(){FC.idle=true},6000)};
+['pointerdown','keydown','wheel'].forEach(function(n){addEventListener(n,function(e){if(e.isTrusted)FC.touch()},{passive:true,capture:true})});
+addEventListener('message',function(e){var d=e.data;
+  if(d==='fc:pause'||d==='fc:play'){FC.paused=d==='fc:pause';de.classList.toggle('fc-paused',FC.paused)}
+  else if(d&&d.fcTheme){if(d.fcTheme==='auto')delete de.dataset.theme;else de.dataset.theme=d.fcTheme}});
+FC.gate=async function(){while(FC.paused)await sleep(120)};
+/* wait ms of un-paused time; resolves true if the demo should keep going */
+FC.wait=async function(ms){var left=ms;while(left>0){var s=performance.now();await sleep(Math.min(left,60));if(!FC.paused)left-=performance.now()-s}return FC.idle};
+FC.demo=function(fn){if(FC.reduce)return;(async function(){await FC.wait(450);for(;;){while(FC.paused||!FC.idle)await sleep(250);await fn()}})()};
+FC.raf=function(fn){var last=performance.now(),t=0;function f(n){var dt=Math.min(n-last,64);last=n;if(!FC.paused){t+=dt;fn(t,dt)}requestAnimationFrame(f)}requestAnimationFrame(f)};
+})();
+</script>
+<script>
+const sl=document.getElementById('sl'),fi=document.getElementById('fi'),th=document.getElementById('th'),bub=document.getElementById('bub'),val=document.getElementById('val');
+let clock=0,v=40,target=40,ang=0,av=0,prev=40,drag=false,anim=null;
+const setT=x=>{target=Math.max(0,Math.min(100,x));sl.setAttribute('aria-valuenow',Math.round(target))};
+const fromX=x=>{const r=sl.getBoundingClientRect();return (x-r.left)/r.width*100};
+sl.addEventListener('pointerdown',e=>{sl.setPointerCapture(e.pointerId);drag=true;anim=null;sl.classList.add('drag');setT(fromX(e.clientX))});
+sl.addEventListener('pointermove',e=>{if(drag)setT(fromX(e.clientX))});
+['pointerup','pointercancel'].forEach(n=>sl.addEventListener(n,()=>{drag=false;sl.classList.remove('drag')}));
+sl.addEventListener('keydown',e=>{const k={ArrowRight:1,ArrowUp:1,ArrowLeft:-1,ArrowDown:-1}[e.key];anim=null;
+  if(k){e.preventDefault();setT(Math.round(target)+k*(e.shiftKey?10:2))}if(e.key==='Home'){e.preventDefault();setT(0)}if(e.key==='End'){e.preventDefault();setT(100)}});
+FC.raf((t,dt)=>{
+  clock=t;
+  if(anim){const k=Math.min(1,(t-anim.t0)/anim.d),e=k<.5?4*k*k*k:1-Math.pow(-2*k+2,3)/2;setT(anim.a+(anim.b-anim.a)*e);if(k>=1)anim=null}
+  v+=(target-v)*(drag?.6:.25);
+  const w=sl.clientWidth,vel=(v-prev)/Math.max(dt,1)*16;prev=v;
+  const want=Math.max(-28,Math.min(28,-vel*w/100*1.6));
+  av+=(want-ang)*.22;av*=.72;ang+=av;
+  const x=v/100*w;th.style.left=x+'px';fi.style.width=x+'px';
+  bub.style.transform=`translateX(${x}px) rotate(${ang.toFixed(2)}deg)`;val.textContent=Math.round(v);
+});
+FC.demo(async()=>{const b=8+Math.random()*84,d=900+Math.abs(b-target)*14;anim={a:target,b,t0:clock,d};await FC.wait(d+900)});
+</script>
+</body></html>

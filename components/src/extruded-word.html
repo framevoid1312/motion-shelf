@@ -1,0 +1,27 @@
+---
+{"name":"Extruded Word","cat":"Kinetic type","order":6,
+"desc":"A slab of solid type with a deep extrusion that swings to stay behind the face as the word tilts toward your pointer.",
+"tags":["3D","text-shadow","pointer"],
+"prompt":"Make a 3D extruded word: DEPTH in a heavy condensed display font, very large, face in a warm yellow. Build the extrusion from ~18 stacked text-shadows, each 1 step further back, colored from the accent blue fading toward black (color-mix in oklab), plus one soft blurred shadow at the end. The word tilts with rotateX/rotateY (max ±18°) toward the pointer, easing at 0.08 per frame; with no pointer it drifts on a slow Lissajous path. Recompute the shadow offsets every frame from the tilt so the extrusion always sits on the far side of the face, as if it were a real block of type. Perspective 900px on the page. Light and dark themes. Single HTML file, no libraries."}
+---
+<style>
+body{perspective:900px}
+.x{margin:0;font:800 clamp(70px,24vw,200px)/1 var(--fd);text-transform:uppercase;color:var(--mark);letter-spacing:.015em;user-select:none;will-change:transform,text-shadow}
+</style>
+<h1 class="x" id="x">Depth</h1>
+<div class="cap">move your pointer</div>
+<script>
+const x=document.getElementById('x');let rx=0,ry=0,tx=null,ty=null;
+addEventListener('pointermove',e=>{tx=(e.clientY/innerHeight-.5)*-36;ty=(e.clientX/innerWidth-.5)*36;FC.touch()});
+document.addEventListener('pointerleave',()=>{tx=ty=null});
+const N=18;
+FC.raf(t=>{
+  const gx=tx??Math.sin(t/1700)*12,gy=ty??Math.sin(t/1100)*16;
+  rx+=(gx-rx)*.08;ry+=(gy-ry)*.08;
+  x.style.transform=`rotateX(${rx.toFixed(2)}deg) rotateY(${ry.toFixed(2)}deg)`;
+  const dx=-ry*.09,dy=rx*.09+.55,s=[];
+  for(let i=1;i<=N;i++)s.push(`${(dx*i).toFixed(2)}px ${(dy*i).toFixed(2)}px 0 color-mix(in oklab,var(--accent) ${100-i*3.4}%,#000)`);
+  s.push(`${(dx*N*1.4).toFixed(1)}px ${(dy*N*1.4+8).toFixed(1)}px 26px rgba(0,0,0,.35)`);
+  x.style.textShadow=s.join(',');
+});
+</script>
