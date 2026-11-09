@@ -1,6 +1,6 @@
 # AjustaCV Pro pricing promo
 
-**#234 by likes** · ♥ 307 · by [@thayto_dev](https://x.com/thayto_dev) · [Original post](https://x.com/thayto_dev/status/2104200591278739735) · [Watch the video](https://video.twimg.com/amplify_video/2104200527491870720/vid/avc1/1920x1080/LTEjo5rcCgbNWMcx.mp4)
+**#240 by likes** · ♥ 307 · by [@thayto_dev](https://x.com/thayto_dev) · [Original post](https://x.com/thayto_dev/status/2104200591278739735) · [Watch the video](https://video.twimg.com/amplify_video/2104200527491870720/vid/avc1/1920x1080/LTEjo5rcCgbNWMcx.mp4)
 
 [![AjustaCV Pro pricing promo](https://pbs.twimg.com/amplify_video_thumb/2104200527491870720/img/mCucp5pu1P51FLjB.jpg)](https://x.com/thayto_dev/status/2104200591278739735)
 

@@ -1,6 +1,6 @@
 # Opus 5.5 building a website for a drink brand. -It generated all the…
 
-**#594 by likes** · ♥ 6 · by [@per_simmons_](https://x.com/per_simmons_) · [Original post](https://x.com/per_simmons_/status/2103208157308944727) · [Watch the video](https://media.skillry.dev/opus-5-5/per-simmons-944727/original.mp4)
+**#605 by likes** · ♥ 6 · by [@per_simmons_](https://x.com/per_simmons_) · [Original post](https://x.com/per_simmons_/status/2103208157308944727) · [Watch the video](https://media.skillry.dev/opus-5-5/per-simmons-944727/original.mp4)
 
 [![Opus 5.5 building a website for a drink brand. -It generated all the…](https://media.skillry.dev/opus-5-5/per-simmons-944727/original.1caf9a7fe5.webp)](https://x.com/per_simmons_/status/2103208157308944727)
 

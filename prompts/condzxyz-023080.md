@@ -1,6 +1,6 @@
 # Talking-head video edited into a motion-graphics cut
 
-**#103 by likes** · ♥ 863 · by [@condzxyz](https://x.com/condzxyz) · [Original post](https://x.com/condzxyz/status/2109454493415023080) · [Watch the video](https://video.twimg.com/amplify_video/2109454288376225792/vid/avc1/1280x720/FpHQQI8A3xeegH-F.mp4)
+**#104 by likes** · ♥ 863 · by [@condzxyz](https://x.com/condzxyz) · [Original post](https://x.com/condzxyz/status/2109454493415023080) · [Watch the video](https://video.twimg.com/amplify_video/2109454288376225792/vid/avc1/1280x720/FpHQQI8A3xeegH-F.mp4)
 
 [![Talking-head video edited into a motion-graphics cut](https://pbs.twimg.com/amplify_video_thumb/2109454288376225792/img/uYyRLTja6RVow6os.jpg)](https://x.com/condzxyz/status/2109454493415023080)
 

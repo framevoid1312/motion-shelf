@@ -1,6 +1,6 @@
 # An AI streamer system, first try
 
-**#75 by likes** · ♥ 1,058 · by [@manaimovie](https://x.com/manaimovie) · [Original post](https://x.com/manaimovie/status/2104008163561451923) · [Watch the video](https://video.twimg.com/amplify_video/2104006325764313088/vid/avc1/1280x720/w6WIoMPdXIiEvnV5.mp4)
+**#76 by likes** · ♥ 1,058 · by [@manaimovie](https://x.com/manaimovie) · [Original post](https://x.com/manaimovie/status/2104008163561451923) · [Watch the video](https://video.twimg.com/amplify_video/2104006325764313088/vid/avc1/1280x720/w6WIoMPdXIiEvnV5.mp4)
 
 [![An AI streamer system, first try](https://pbs.twimg.com/amplify_video_thumb/2104006325764313088/img/un3wPPSeVHM2fmKA.jpg)](https://x.com/manaimovie/status/2104008163561451923)
 

@@ -1,6 +1,6 @@
 # I thought the Opus 5.5 design posts were all jokes. They're not. It's…
 
-**#534 by likes** · ♥ 10 · by [@KingOKings](https://x.com/KingOKings) · [Original post](https://x.com/KingOKings/status/2103874453687992769) · [Watch the video](https://media.skillry.dev/opus-5-5/kingokings-992769/original.mp4)
+**#545 by likes** · ♥ 10 · by [@KingOKings](https://x.com/KingOKings) · [Original post](https://x.com/KingOKings/status/2103874453687992769) · [Watch the video](https://media.skillry.dev/opus-5-5/kingokings-992769/original.mp4)
 
 [![I thought the Opus 5.5 design posts were all jokes. They're not. It's…](https://media.skillry.dev/opus-5-5/kingokings-992769/original.3f17f27fb6.webp)](https://x.com/KingOKings/status/2103874453687992769)
 

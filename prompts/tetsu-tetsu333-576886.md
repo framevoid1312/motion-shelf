@@ -1,6 +1,6 @@
 # Opus 5.5×Gemini 3.8 Flash TTSやばい 新作SEOツール「コトサーチ」のリリース動画を、ほぼ自動で作ってくれた。…
 
-**#663 by likes** · ♥ 4 · by [@tetsu_tetsu333](https://x.com/tetsu_tetsu333) · [Original post](https://x.com/tetsu_tetsu333/status/2106177888265576886) · [Watch the video](https://media.skillry.dev/opus-5-5/tetsu-tetsu333-576886/original.mp4)
+**#674 by likes** · ♥ 4 · by [@tetsu_tetsu333](https://x.com/tetsu_tetsu333) · [Original post](https://x.com/tetsu_tetsu333/status/2106177888265576886) · [Watch the video](https://media.skillry.dev/opus-5-5/tetsu-tetsu333-576886/original.mp4)
 
 [![Opus 5.5×Gemini 3.8 Flash TTSやばい 新作SEOツール「コトサーチ」のリリース動画を、ほぼ自動で作ってくれた。…](https://media.skillry.dev/opus-5-5/tetsu-tetsu333-576886/original.450ccb9120.webp)](https://x.com/tetsu_tetsu333/status/2106177888265576886)
 

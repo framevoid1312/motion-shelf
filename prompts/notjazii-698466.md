@@ -1,6 +1,6 @@
 # Japanese fantasy-city pixel animation: GPT, Sonnet, Opus and Astra comparison
 
-**#200 by likes** · ♥ 381 · by [@notjazii](https://x.com/notjazii) · [Original post](https://x.com/notjazii/status/2105033612093698466) · [Watch the video](https://video.twimg.com/amplify_video/2105032268490366976/vid/avc1/1280x720/j58IrqCtnfcA6ojP.mp4)
+**#205 by likes** · ♥ 381 · by [@notjazii](https://x.com/notjazii) · [Original post](https://x.com/notjazii/status/2105033612093698466) · [Watch the video](https://video.twimg.com/amplify_video/2105032268490366976/vid/avc1/1280x720/j58IrqCtnfcA6ojP.mp4)
 
 [![Japanese fantasy-city pixel animation: GPT, Sonnet, Opus and Astra comparison](https://pbs.twimg.com/amplify_video_thumb/2105032268490366976/img/jObQw3-X_HUTGD6S.jpg)](https://x.com/notjazii/status/2105033612093698466)
 

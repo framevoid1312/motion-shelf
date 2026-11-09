@@ -1,6 +1,6 @@
 # Make a game like Romance of the Three Kingdoms III with a retro,…
 
-**#874 by likes** · ♥ 0 · by [@opener_ai](https://x.com/opener_ai) · [Original post](https://x.com/opener_ai/status/2103437714695843891) · [Watch the video](https://media.skillry.dev/opus-5-5/opener-ai-843891/original.mp4)
+**#886 by likes** · ♥ 0 · by [@opener_ai](https://x.com/opener_ai) · [Original post](https://x.com/opener_ai/status/2103437714695843891) · [Watch the video](https://media.skillry.dev/opus-5-5/opener-ai-843891/original.mp4)
 
 [![Make a game like Romance of the Three Kingdoms III with a retro,…](https://media.skillry.dev/opus-5-5/opener-ai-843891/original.9c2378e71b.webp)](https://x.com/opener_ai/status/2103437714695843891)
 

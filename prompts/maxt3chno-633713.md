@@ -1,6 +1,6 @@
 # First-Person 3D Procedural Arms and Dynamic Grip Rigging in Three.js
 
-**#357 by likes** · ♥ 74 · by [@maxt3chno](https://x.com/maxt3chno) · [Original post](https://x.com/maxt3chno/status/2108637690698633713) · [Watch the video](https://video.twimg.com/amplify_video/2108637537623306240/vid/avc1/1300x720/FEdLB3rfRzTtkFb6.mp4)
+**#368 by likes** · ♥ 74 · by [@maxt3chno](https://x.com/maxt3chno) · [Original post](https://x.com/maxt3chno/status/2108637690698633713) · [Watch the video](https://video.twimg.com/amplify_video/2108637537623306240/vid/avc1/1300x720/FEdLB3rfRzTtkFb6.mp4)
 
 [![First-Person 3D Procedural Arms and Dynamic Grip Rigging in Three.js](https://pbs.twimg.com/amplify_video_thumb/2108637537623306240/img/6gyEvbBEcN9yycsd.jpg)](https://x.com/maxt3chno/status/2108637690698633713)
 

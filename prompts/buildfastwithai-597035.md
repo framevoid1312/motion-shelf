@@ -1,6 +1,6 @@
 # Implement code to be able to navigate in a pagoda in 3D.
 
-**#645 by likes** · ♥ 4 · by [@BuildFastWithAI](https://x.com/BuildFastWithAI) · [Original post](https://x.com/BuildFastWithAI/status/2103483174957597035) · [Watch the video](https://media.skillry.dev/opus-5-5/buildfastwithai-597035/original.mp4)
+**#656 by likes** · ♥ 4 · by [@BuildFastWithAI](https://x.com/BuildFastWithAI) · [Original post](https://x.com/BuildFastWithAI/status/2103483174957597035) · [Watch the video](https://media.skillry.dev/opus-5-5/buildfastwithai-597035/original.mp4)
 
 [![Implement code to be able to navigate in a pagoda in 3D.](https://media.skillry.dev/opus-5-5/buildfastwithai-597035/original.6257b702b3.webp)](https://x.com/BuildFastWithAI/status/2103483174957597035)
 

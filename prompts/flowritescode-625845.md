@@ -1,6 +1,6 @@
 # LaunchBuddy product film with animated screenshot components
 
-**#295 by likes** · ♥ 181 · by [@FloWritesCode](https://x.com/FloWritesCode) · [Original post](https://x.com/FloWritesCode/status/2105268326381625845) · [Watch the video](https://video.twimg.com/amplify_video/2105268138371686400/vid/avc1/1280x720/xUHgUyuJx6FqLC76.mp4)
+**#306 by likes** · ♥ 181 · by [@FloWritesCode](https://x.com/FloWritesCode) · [Original post](https://x.com/FloWritesCode/status/2105268326381625845) · [Watch the video](https://video.twimg.com/amplify_video/2105268138371686400/vid/avc1/1280x720/xUHgUyuJx6FqLC76.mp4)
 
 [![LaunchBuddy product film with animated screenshot components](https://pbs.twimg.com/amplify_video_thumb/2105268138371686400/img/WZlxIeg6MsjK7npw.jpg)](https://x.com/FloWritesCode/status/2105268326381625845)
 

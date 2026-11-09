@@ -1,6 +1,6 @@
 # Rebuild Type 1 diabetes in one HTML file, from the whole body down to…
 
-**#511 by likes** · ♥ 13 · by [@CurieuxExplorer](https://x.com/CurieuxExplorer) · [Original post](https://x.com/CurieuxExplorer/status/2103373314354016717) · [Watch the video](https://video.twimg.com/amplify_video/2103372322401038336/vid/avc1/1632x720/cTHMKLD1aO0pg7ud.mp4)
+**#522 by likes** · ♥ 13 · by [@CurieuxExplorer](https://x.com/CurieuxExplorer) · [Original post](https://x.com/CurieuxExplorer/status/2103373314354016717) · [Watch the video](https://video.twimg.com/amplify_video/2103372322401038336/vid/avc1/1632x720/cTHMKLD1aO0pg7ud.mp4)
 
 [![Rebuild Type 1 diabetes in one HTML file, from the whole body down to…](https://media.skillry.dev/opus-5-5/_prompts/curieuxexplorer-016717/poster.ca1450ad52.webp)](https://x.com/CurieuxExplorer/status/2103373314354016717)
 

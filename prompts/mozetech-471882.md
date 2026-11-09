@@ -1,6 +1,6 @@
 # Opus 5.5 just one-shot this entire pixel-art game. Oh, and the…
 
-**#503 by likes** · ♥ 13 · by [@MozeTech](https://x.com/MozeTech) · [Original post](https://x.com/MozeTech/status/2102913506815471882) · [Watch the video](https://media.skillry.dev/opus-5-5/mozetech-471882/original.mp4)
+**#514 by likes** · ♥ 13 · by [@MozeTech](https://x.com/MozeTech) · [Original post](https://x.com/MozeTech/status/2102913506815471882) · [Watch the video](https://media.skillry.dev/opus-5-5/mozetech-471882/original.mp4)
 
 [![Opus 5.5 just one-shot this entire pixel-art game. Oh, and the…](https://media.skillry.dev/opus-5-5/mozetech-471882/original.9e4feb7be1.webp)](https://x.com/MozeTech/status/2102913506815471882)
 

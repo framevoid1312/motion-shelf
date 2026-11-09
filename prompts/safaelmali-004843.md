@@ -1,6 +1,6 @@
 # Claude Opus 5.5 made this launch video for https://dualsense.studio…
 
-**#623 by likes** · ♥ 5 · by [@SafaElmali](https://x.com/SafaElmali) · [Original post](https://x.com/SafaElmali/status/2102749298673004843) · [Watch the video](https://media.skillry.dev/opus-5-5/safaelmali-004843/original.mp4)
+**#634 by likes** · ♥ 5 · by [@SafaElmali](https://x.com/SafaElmali) · [Original post](https://x.com/SafaElmali/status/2102749298673004843) · [Watch the video](https://media.skillry.dev/opus-5-5/safaelmali-004843/original.mp4)
 
 [![Claude Opus 5.5 made this launch video for https://dualsense.studio…](https://media.skillry.dev/opus-5-5/safaelmali-004843/original.1d98c8d524.webp)](https://x.com/SafaElmali/status/2102749298673004843)
 

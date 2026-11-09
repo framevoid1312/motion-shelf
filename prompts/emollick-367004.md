@@ -1,6 +1,6 @@
 # An otter on a plane using wifi
 
-**#106 by likes** · ♥ 827 · by [@emollick](https://x.com/emollick) · [Original post](https://x.com/emollick/status/2112656453685367004) · [Watch the video](https://video.twimg.com/amplify_video/2112655781908885504/vid/avc1/1280x720/s3UKBPJmuhToOYxS.mp4)
+**#107 by likes** · ♥ 827 · by [@emollick](https://x.com/emollick) · [Original post](https://x.com/emollick/status/2112656453685367004) · [Watch the video](https://video.twimg.com/amplify_video/2112655781908885504/vid/avc1/1280x720/s3UKBPJmuhToOYxS.mp4)
 
 [![An otter on a plane using wifi](https://pbs.twimg.com/amplify_video_thumb/2112655781908885504/img/h9k8sbyhep7dKfVB.jpg)](https://x.com/emollick/status/2112656453685367004)
 

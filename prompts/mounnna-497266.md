@@ -1,6 +1,6 @@
 # Create a motion design video of a slow-reveal transition. Draw the…
 
-**#726 by likes** · ♥ 2 · by [@Mounnna](https://x.com/Mounnna) · [Original post](https://x.com/Mounnna/status/2103802871934497266) · [Watch the video](https://media.skillry.dev/opus-5-5/mounnna-497266/original.mp4)
+**#737 by likes** · ♥ 2 · by [@Mounnna](https://x.com/Mounnna) · [Original post](https://x.com/Mounnna/status/2103802871934497266) · [Watch the video](https://media.skillry.dev/opus-5-5/mounnna-497266/original.mp4)
 
 [![Create a motion design video of a slow-reveal transition. Draw the…](https://media.skillry.dev/opus-5-5/mounnna-497266/original.ce992e530a.webp)](https://x.com/Mounnna/status/2103802871934497266)
 

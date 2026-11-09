@@ -1,6 +1,6 @@
 # このプロダクトを紹介する、ダイナミックな15秒のモーショングラフィックス動画を作成してください。ポートフォリオ用のショーリールのようにあなた…
 
-**#720 by likes** · ♥ 3 · by [@FumiyaMizuguchi](https://x.com/FumiyaMizuguchi) · [Original post](https://x.com/FumiyaMizuguchi/status/2103431573752500632) · [Watch the video](https://video.twimg.com/amplify_video/2103424790522691584/vid/avc1/1280x720/7v71NDT6MqAVK7SI.mp4)
+**#731 by likes** · ♥ 3 · by [@FumiyaMizuguchi](https://x.com/FumiyaMizuguchi) · [Original post](https://x.com/FumiyaMizuguchi/status/2103431573752500632) · [Watch the video](https://video.twimg.com/amplify_video/2103424790522691584/vid/avc1/1280x720/7v71NDT6MqAVK7SI.mp4)
 
 [![このプロダクトを紹介する、ダイナミックな15秒のモーショングラフィックス動画を作成してください。ポートフォリオ用のショーリールのようにあなた…](https://media.skillry.dev/opus-5-5/_prompts/fumiyamizuguchi-500632/poster.1a623630d7.webp)](https://x.com/FumiyaMizuguchi/status/2103431573752500632)
 

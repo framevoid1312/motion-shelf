@@ -1,6 +1,6 @@
 # Create a 20.00-second kinetic typography film titled “ESCAPE THE…
 
-**#630 by likes** · ♥ 5 · by [@Gdgtify](https://x.com/Gdgtify) · [Original post](https://x.com/Gdgtify/status/2105669567036989608) · [Watch the video](https://video.twimg.com/amplify_video/2105125811946770432/vid/avc1/720x720/LFxr9ghk51jsb6Fk.mp4)
+**#641 by likes** · ♥ 5 · by [@Gdgtify](https://x.com/Gdgtify) · [Original post](https://x.com/Gdgtify/status/2105669567036989608) · [Watch the video](https://video.twimg.com/amplify_video/2105125811946770432/vid/avc1/720x720/LFxr9ghk51jsb6Fk.mp4)
 
 [![Create a 20.00-second kinetic typography film titled “ESCAPE THE…](https://media.skillry.dev/opus-5-5/_prompts/gdgtify-989608/poster.094984c36d.webp)](https://x.com/Gdgtify/status/2105669567036989608)
 

@@ -1,6 +1,6 @@
 # ✨审美绝了！Opus 5.5 用 Three.js 把宫崎骏《红猪》经典空战复刻出来了！ 只给了这一句prompt: 「用 web3D…
 
-**#355 by likes** · ♥ 75 · by [@NFT_Chen](https://x.com/NFT_Chen) · [Original post](https://x.com/NFT_Chen/status/2103882415299350878) · [Watch the video](https://media.skillry.dev/opus-5-5/nft-chen-350878/original.mp4)
+**#366 by likes** · ♥ 75 · by [@NFT_Chen](https://x.com/NFT_Chen) · [Original post](https://x.com/NFT_Chen/status/2103882415299350878) · [Watch the video](https://media.skillry.dev/opus-5-5/nft-chen-350878/original.mp4)
 
 [![✨审美绝了！Opus 5.5 用 Three.js 把宫崎骏《红猪》经典空战复刻出来了！ 只给了这一句prompt: 「用 web3D…](https://media.skillry.dev/opus-5-5/nft-chen-350878/original.f856902000.webp)](https://x.com/NFT_Chen/status/2103882415299350878)
 

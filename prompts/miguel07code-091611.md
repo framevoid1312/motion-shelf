@@ -1,6 +1,6 @@
 # fourier series were hard to learn back in university (2 years ago)…
 
-**#446 by likes** · ♥ 24 · by [@Miguel07Code](https://x.com/Miguel07Code) · [Original post](https://x.com/Miguel07Code/status/2103626582896091611) · [Watch the video](https://media.skillry.dev/opus-5-5/miguel07code-091611/original.mp4)
+**#457 by likes** · ♥ 24 · by [@Miguel07Code](https://x.com/Miguel07Code) · [Original post](https://x.com/Miguel07Code/status/2103626582896091611) · [Watch the video](https://media.skillry.dev/opus-5-5/miguel07code-091611/original.mp4)
 
 [![fourier series were hard to learn back in university (2 years ago)…](https://media.skillry.dev/opus-5-5/miguel07code-091611/original.3b02d95627.webp)](https://x.com/Miguel07Code/status/2103626582896091611)
 

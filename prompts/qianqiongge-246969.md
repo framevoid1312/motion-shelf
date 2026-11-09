@@ -1,6 +1,6 @@
 # 请在当前项目做一支 15 秒的产品使用说明视频，使用 Remotion，竖版 1080×1920、30fps、共 450 帧。只用…
 
-**#933 by likes** · ♥ 0 · by [@qianqiongge](https://x.com/qianqiongge) · [Original post](https://x.com/qianqiongge/status/2105902139902246969) · [Watch the video](https://video.twimg.com/amplify_video/2105901924541464576/vid/avc1/1152x720/g5QhH4dU0OusaLkM.mp4)
+**#945 by likes** · ♥ 0 · by [@qianqiongge](https://x.com/qianqiongge) · [Original post](https://x.com/qianqiongge/status/2105902139902246969) · [Watch the video](https://video.twimg.com/amplify_video/2105901924541464576/vid/avc1/1152x720/g5QhH4dU0OusaLkM.mp4)
 
 [![请在当前项目做一支 15 秒的产品使用说明视频，使用 Remotion，竖版 1080×1920、30fps、共 450 帧。只用…](https://media.skillry.dev/opus-5-5/_prompts/qianqiongge-246969/poster.32f18ca94d.webp)](https://x.com/qianqiongge/status/2105902139902246969)
 

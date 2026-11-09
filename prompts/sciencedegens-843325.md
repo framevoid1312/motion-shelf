@@ -1,6 +1,6 @@
 # 趁着今天有空回看和分析了一下整个视频 审美在线的Opus 5.5确实顶 @claudeai 3D渲染器像素风…
 
-**#817 by likes** · ♥ 1 · by [@sciencedegens](https://x.com/sciencedegens) · [Original post](https://x.com/sciencedegens/status/2104114814536843325) · [Watch the video](https://media.skillry.dev/opus-5-5/sciencedegens-843325/original.mp4)
+**#828 by likes** · ♥ 1 · by [@sciencedegens](https://x.com/sciencedegens) · [Original post](https://x.com/sciencedegens/status/2104114814536843325) · [Watch the video](https://media.skillry.dev/opus-5-5/sciencedegens-843325/original.mp4)
 
 [![趁着今天有空回看和分析了一下整个视频 审美在线的Opus 5.5确实顶 @claudeai 3D渲染器像素风…](https://media.skillry.dev/opus-5-5/sciencedegens-843325/original.abafb28cc5.webp)](https://x.com/sciencedegens/status/2104114814536843325)
 

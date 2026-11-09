@@ -1,6 +1,6 @@
 # Opus 5.5 + Gemini for the music + @Remotion for the skill About 30min…
 
-**#825 by likes** · ♥ 1 · by [@SeanTiffonnet](https://x.com/SeanTiffonnet) · [Original post](https://x.com/SeanTiffonnet/status/2102518598736675262) · [Watch the video](https://media.skillry.dev/opus-5-5/seantiffonnet-675262/original.mp4)
+**#836 by likes** · ♥ 1 · by [@SeanTiffonnet](https://x.com/SeanTiffonnet) · [Original post](https://x.com/SeanTiffonnet/status/2102518598736675262) · [Watch the video](https://media.skillry.dev/opus-5-5/seantiffonnet-675262/original.mp4)
 
 [![Opus 5.5 + Gemini for the music + @Remotion for the skill About 30min…](https://media.skillry.dev/opus-5-5/seantiffonnet-675262/original.a924f4c28d.webp)](https://x.com/SeanTiffonnet/status/2102518598736675262)
 

@@ -1,6 +1,6 @@
 # make a samurai dude in only javascript and have him doing a routine…
 
-**#590 by likes** · ♥ 6 · by [@chrisjdimarco](https://x.com/chrisjdimarco) · [Original post](https://x.com/chrisjdimarco/status/2103232192847524106) · [Watch the video](https://media.skillry.dev/opus-5-5/chrisjdimarco-524106/original.mp4)
+**#601 by likes** · ♥ 6 · by [@chrisjdimarco](https://x.com/chrisjdimarco) · [Original post](https://x.com/chrisjdimarco/status/2103232192847524106) · [Watch the video](https://media.skillry.dev/opus-5-5/chrisjdimarco-524106/original.mp4)
 
 [![make a samurai dude in only javascript and have him doing a routine…](https://media.skillry.dev/opus-5-5/chrisjdimarco-524106/original.42b3d42411.webp)](https://x.com/chrisjdimarco/status/2103232192847524106)
 

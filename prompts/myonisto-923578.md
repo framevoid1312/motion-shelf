@@ -1,6 +1,6 @@
 # Claude Opus 5.5 just one-shotted an entire 3D virtual studio in…
 
-**#732 by likes** · ♥ 2 · by [@myonisto](https://x.com/myonisto) · [Original post](https://x.com/myonisto/status/2103082459503923578) · [Watch the video](https://media.skillry.dev/opus-5-5/myonisto-923578/original.mp4)
+**#743 by likes** · ♥ 2 · by [@myonisto](https://x.com/myonisto) · [Original post](https://x.com/myonisto/status/2103082459503923578) · [Watch the video](https://media.skillry.dev/opus-5-5/myonisto-923578/original.mp4)
 
 [![Claude Opus 5.5 just one-shotted an entire 3D virtual studio in…](https://media.skillry.dev/opus-5-5/myonisto-923578/original.40f2d71663.webp)](https://x.com/myonisto/status/2103082459503923578)
 

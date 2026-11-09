@@ -1,6 +1,6 @@
 # 用Claude Opus 5.5 做的小动画！故事叫《他的糖葫芦》⬇️…
 
-**#634 by likes** · ♥ 5 · by [@Jamee_now](https://x.com/Jamee_now) · [Original post](https://x.com/Jamee_now/status/2104782293558583635) · [Watch the video](https://video.twimg.com/amplify_video/2104781770092838912/vid/avc1/1280x720/tM84vuXnH-ag17uz.mp4)
+**#645 by likes** · ♥ 5 · by [@Jamee_now](https://x.com/Jamee_now) · [Original post](https://x.com/Jamee_now/status/2104782293558583635) · [Watch the video](https://video.twimg.com/amplify_video/2104781770092838912/vid/avc1/1280x720/tM84vuXnH-ag17uz.mp4)
 
 [![用Claude Opus 5.5 做的小动画！故事叫《他的糖葫芦》⬇️…](https://media.skillry.dev/opus-5-5/_prompts/jamee-now-583635/poster.86a121e5b5.webp)](https://x.com/Jamee_now/status/2104782293558583635)
 

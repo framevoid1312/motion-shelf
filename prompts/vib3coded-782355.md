@@ -1,6 +1,6 @@
 # Interactive squishy jelly whale
 
-**#83 by likes** · ♥ 998 · by [@vib3coded](https://x.com/vib3coded) · [Original post](https://x.com/vib3coded/status/2114674922802782355) · [Watch the video](https://video.twimg.com/amplify_video/2114674840137306112/vid/avc1/1152x720/PsEvPqOOrjpeFPpL.mp4?tag=29)
+**#84 by likes** · ♥ 998 · by [@vib3coded](https://x.com/vib3coded) · [Original post](https://x.com/vib3coded/status/2114674922802782355) · [Watch the video](https://video.twimg.com/amplify_video/2114674840137306112/vid/avc1/1152x720/PsEvPqOOrjpeFPpL.mp4?tag=29)
 
 [![Interactive squishy jelly whale](https://pbs.twimg.com/amplify_video_thumb/2114674840137306112/img/puq2l2jtHYeTeiJb.jpg)](https://x.com/vib3coded/status/2114674922802782355)
 

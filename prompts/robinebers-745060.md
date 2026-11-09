@@ -1,6 +1,6 @@
 # Zoomable app architecture canvas
 
-**#46 by likes** · ♥ 1,654 · by [@robinebers](https://x.com/robinebers) · [Original post](https://x.com/robinebers/status/2105309987983745060) · [Watch the video](https://video.twimg.com/amplify_video/2105308444328923136/vid/avc1/1112x720/LaV4e4bAjxhdppFA.mp4?tag=29)
+**#47 by likes** · ♥ 1,654 · by [@robinebers](https://x.com/robinebers) · [Original post](https://x.com/robinebers/status/2105309987983745060) · [Watch the video](https://video.twimg.com/amplify_video/2105308444328923136/vid/avc1/1112x720/LaV4e4bAjxhdppFA.mp4?tag=29)
 
 [![Zoomable app architecture canvas](https://pbs.twimg.com/amplify_video_thumb/2105308444328923136/img/Rk6dkc6EKloRRob0.jpg)](https://x.com/robinebers/status/2105309987983745060)
 

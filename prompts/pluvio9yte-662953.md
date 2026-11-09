@@ -1,6 +1,6 @@
 # 公开我的制作方案，发给Opus5.5就能用 1. 选素材 三个标准，直接决定成败： -…
 
-**#351 by likes** · ♥ 84 · by [@Pluvio9yte](https://x.com/Pluvio9yte) · [Original post](https://x.com/Pluvio9yte/status/2107087191738662953) · [Watch the video](https://video.twimg.com/amplify_video/2107086618645680128/vid/avc1/1280x720/bz6D26ORBYsLHlQc.mp4)
+**#362 by likes** · ♥ 84 · by [@Pluvio9yte](https://x.com/Pluvio9yte) · [Original post](https://x.com/Pluvio9yte/status/2107087191738662953) · [Watch the video](https://video.twimg.com/amplify_video/2107086618645680128/vid/avc1/1280x720/bz6D26ORBYsLHlQc.mp4)
 
 [![公开我的制作方案，发给Opus5.5就能用 1. 选素材 三个标准，直接决定成败： -…](https://media.skillry.dev/opus-5-5/_prompts/pluvio9yte-662953/poster.338ede46a5.webp)](https://x.com/Pluvio9yte/status/2107087191738662953)
 

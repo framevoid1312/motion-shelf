@@ -1,6 +1,6 @@
 # Opus 5.5 edits a Mid-Autumn CapCut video
 
-**#378 by likes** · ♥ 58 · by [@Gorden_Sun](https://x.com/Gorden_Sun) · [Original post](https://x.com/Gorden_Sun/status/2103509008049144287) · [Watch the video](https://video.twimg.com/amplify_video/2103508846551670784/vid/avc1/720x1280/0HtbPF04ACXprYtt.mp4)
+**#389 by likes** · ♥ 58 · by [@Gorden_Sun](https://x.com/Gorden_Sun) · [Original post](https://x.com/Gorden_Sun/status/2103509008049144287) · [Watch the video](https://video.twimg.com/amplify_video/2103508846551670784/vid/avc1/720x1280/0HtbPF04ACXprYtt.mp4)
 
 [![Opus 5.5 edits a Mid-Autumn CapCut video](https://pbs.twimg.com/amplify_video_thumb/2103508846551670784/img/8G7g33DWq_ixKqk2.jpg)](https://x.com/Gorden_Sun/status/2103509008049144287)
 

@@ -1,6 +1,6 @@
 # HOLY SHIT MOMENT with Opus 5.5 😱 I really wanted to play Super Mario…
 
-**#496 by likes** · ♥ 14 · by [@JaneLoic](https://x.com/JaneLoic) · [Original post](https://x.com/JaneLoic/status/2103023141823905802) · [Watch the video](https://media.skillry.dev/opus-5-5/janeloic-905802/original.mp4)
+**#507 by likes** · ♥ 14 · by [@JaneLoic](https://x.com/JaneLoic) · [Original post](https://x.com/JaneLoic/status/2103023141823905802) · [Watch the video](https://media.skillry.dev/opus-5-5/janeloic-905802/original.mp4)
 
 [![HOLY SHIT MOMENT with Opus 5.5 😱 I really wanted to play Super Mario…](https://media.skillry.dev/opus-5-5/janeloic-905802/original.63ee835ce2.webp)](https://x.com/JaneLoic/status/2103023141823905802)
 

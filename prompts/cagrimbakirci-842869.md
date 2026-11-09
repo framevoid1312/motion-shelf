@@ -1,6 +1,6 @@
 # Opus 5.5 is truly insane. It one-shotted this explainer of how…
 
-**#317 by likes** · ♥ 141 · by [@cagrimbakirci](https://x.com/cagrimbakirci) · [Original post](https://x.com/cagrimbakirci/status/2104011756397842869) · [Watch the video](https://video.twimg.com/amplify_video/2104011341828653056/vid/avc1/1280x720/9unz29nqB9vfmC1F.mp4)
+**#328 by likes** · ♥ 141 · by [@cagrimbakirci](https://x.com/cagrimbakirci) · [Original post](https://x.com/cagrimbakirci/status/2104011756397842869) · [Watch the video](https://video.twimg.com/amplify_video/2104011341828653056/vid/avc1/1280x720/9unz29nqB9vfmC1F.mp4)
 
 [![Opus 5.5 is truly insane. It one-shotted this explainer of how…](https://media.skillry.dev/opus-5-5/_prompts/cagrimbakirci-842869/poster.d596e5af5c.webp)](https://x.com/cagrimbakirci/status/2104011756397842869)
 

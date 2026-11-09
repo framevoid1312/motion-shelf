@@ -1,6 +1,6 @@
 # Adopt the role of an expert motion designer. Build a 30-second…
 
-**#206 by likes** · ♥ 371 · by [@alex_prompter](https://x.com/alex_prompter) · [Original post](https://x.com/alex_prompter/status/2103499977632997524) · [Watch the video](https://media.skillry.dev/opus-5-5/alex-prompter-997524/original.mp4)
+**#211 by likes** · ♥ 371 · by [@alex_prompter](https://x.com/alex_prompter) · [Original post](https://x.com/alex_prompter/status/2103499977632997524) · [Watch the video](https://media.skillry.dev/opus-5-5/alex-prompter-997524/original.mp4)
 
 [![Adopt the role of an expert motion designer. Build a 30-second…](https://media.skillry.dev/opus-5-5/alex-prompter-997524/original.16e8d0a42e.webp)](https://x.com/alex_prompter/status/2103499977632997524)
 

@@ -1,6 +1,6 @@
 # Jumping on the Claude Code + Hyperframe bandwagon. I made this intro…
 
-**#695 by likes** · ♥ 3 · by [@itsahmedharoon](https://x.com/itsahmedharoon) · [Original post](https://x.com/itsahmedharoon/status/2103986344414544194) · [Watch the video](https://media.skillry.dev/opus-5-5/itsahmedharoon-544194/original.mp4)
+**#706 by likes** · ♥ 3 · by [@itsahmedharoon](https://x.com/itsahmedharoon) · [Original post](https://x.com/itsahmedharoon/status/2103986344414544194) · [Watch the video](https://media.skillry.dev/opus-5-5/itsahmedharoon-544194/original.mp4)
 
 [![Jumping on the Claude Code + Hyperframe bandwagon. I made this intro…](https://media.skillry.dev/opus-5-5/itsahmedharoon-544194/original.4fb3bbf4c7.webp)](https://x.com/itsahmedharoon/status/2103986344414544194)
 

@@ -1,6 +1,6 @@
 # I made this game with Claude Opus 5.5 + ChatGPT Astra 6 for some…
 
-**#814 by likes** · ♥ 1 · by [@waseemkhalo](https://x.com/waseemkhalo) · [Original post](https://x.com/waseemkhalo/status/2104018205580636267) · [Watch the video](https://media.skillry.dev/opus-5-5/waseemkhalo-636267/original.mp4)
+**#825 by likes** · ♥ 1 · by [@waseemkhalo](https://x.com/waseemkhalo) · [Original post](https://x.com/waseemkhalo/status/2104018205580636267) · [Watch the video](https://media.skillry.dev/opus-5-5/waseemkhalo-636267/original.mp4)
 
 [![I made this game with Claude Opus 5.5 + ChatGPT Astra 6 for some…](https://media.skillry.dev/opus-5-5/waseemkhalo-636267/original.f78d963448.webp)](https://x.com/waseemkhalo/status/2104018205580636267)
 

@@ -1,6 +1,6 @@
 # Polymarket Election Odds Explainer Video via HyperFrames
 
-**#240 by likes** · ♥ 298 · by [@condzxyz](https://x.com/condzxyz) · [Original post](https://x.com/condzxyz/status/2107594959666728991) · [Watch the video](https://video.twimg.com/amplify_video/2107594507000725504/vid/avc1/1280x720/R47XvXQ6wHAouqKQ.mp4)
+**#246 by likes** · ♥ 298 · by [@condzxyz](https://x.com/condzxyz) · [Original post](https://x.com/condzxyz/status/2107594959666728991) · [Watch the video](https://video.twimg.com/amplify_video/2107594507000725504/vid/avc1/1280x720/R47XvXQ6wHAouqKQ.mp4)
 
 [![Polymarket Election Odds Explainer Video via HyperFrames](https://pbs.twimg.com/amplify_video_thumb/2107594507000725504/img/SPGZCCMnE2PQz7xY.jpg)](https://x.com/condzxyz/status/2107594959666728991)
 

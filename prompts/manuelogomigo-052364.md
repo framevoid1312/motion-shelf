@@ -1,6 +1,6 @@
 # make a dynamic 15-second motion graphics video that shows what an…
 
-**#571 by likes** · ♥ 7 · by [@manuelogomigo](https://x.com/manuelogomigo) · [Original post](https://x.com/manuelogomigo/status/2103614667038052364) · [Watch the video](https://media.skillry.dev/opus-5-5/manuelogomigo-052364/original.mp4)
+**#582 by likes** · ♥ 7 · by [@manuelogomigo](https://x.com/manuelogomigo) · [Original post](https://x.com/manuelogomigo/status/2103614667038052364) · [Watch the video](https://media.skillry.dev/opus-5-5/manuelogomigo-052364/original.mp4)
 
 [![make a dynamic 15-second motion graphics video that shows what an…](https://media.skillry.dev/opus-5-5/manuelogomigo-052364/original.83bcca4a5b.webp)](https://x.com/manuelogomigo/status/2103614667038052364)
 

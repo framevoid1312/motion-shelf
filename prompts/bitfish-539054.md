@@ -1,6 +1,6 @@
 # 输入如下：魔鬼控制人类最简单的方法,就是让人保持漂流状态。98% 的人,终其一生都在漂流。" —— 拿破仑·希尔《智胜恶魔》…
 
-**#390 by likes** · ♥ 52 · by [@bitfish](https://x.com/bitfish) · [Original post](https://x.com/bitfish/status/2103670987879539054) · [Watch the video](https://video.twimg.com/amplify_video/2103646688296783872/vid/avc1/1280x720/iMT4HOny4CFyUe2k.mp4)
+**#401 by likes** · ♥ 52 · by [@bitfish](https://x.com/bitfish) · [Original post](https://x.com/bitfish/status/2103670987879539054) · [Watch the video](https://video.twimg.com/amplify_video/2103646688296783872/vid/avc1/1280x720/iMT4HOny4CFyUe2k.mp4)
 
 [![输入如下：魔鬼控制人类最简单的方法,就是让人保持漂流状态。98% 的人,终其一生都在漂流。" —— 拿破仑·希尔《智胜恶魔》…](https://media.skillry.dev/opus-5-5/_prompts/bitfish-539054/poster.6929990c6f.webp)](https://x.com/bitfish/status/2103670987879539054)
 

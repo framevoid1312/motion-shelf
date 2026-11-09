@@ -1,6 +1,6 @@
 # Animated robot story across 12 art styles
 
-**#125 by likes** · ♥ 695 · by [@pradeepXkapoor](https://x.com/pradeepXkapoor) · [Original post](https://x.com/pradeepXkapoor/status/2103099194693271874) · [Watch the video](https://video.twimg.com/amplify_video/2103099085012209664/vid/avc1/1280x720/TEEDWG4NVS0RjKYQ.mp4?tag=29)
+**#127 by likes** · ♥ 695 · by [@pradeepXkapoor](https://x.com/pradeepXkapoor) · [Original post](https://x.com/pradeepXkapoor/status/2103099194693271874) · [Watch the video](https://video.twimg.com/amplify_video/2103099085012209664/vid/avc1/1280x720/TEEDWG4NVS0RjKYQ.mp4?tag=29)
 
 [![Animated robot story across 12 art styles](https://pbs.twimg.com/amplify_video_thumb/2103099085012209664/img/tnymrQzt03CZbhBI.jpg)](https://x.com/pradeepXkapoor/status/2103099194693271874)
 

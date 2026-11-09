@@ -1,6 +1,6 @@
 # 想自己试，开工简报的骨架： 1. 先给 3 个风格帧、10 秒样片、30 秒配乐试听，等我选 2. 上屏文字只用我给的文案表 3.…
 
-**#848 by likes** · ♥ 1 · by [@thinkszyg](https://x.com/thinkszyg) · [Original post](https://x.com/thinkszyg/status/2104525558050886066) · [Watch the video](https://video.twimg.com/amplify_video/2104525355499626496/vid/avc1/1280x720/u3Ndb7ly3zo7Gu0Y.mp4)
+**#859 by likes** · ♥ 1 · by [@thinkszyg](https://x.com/thinkszyg) · [Original post](https://x.com/thinkszyg/status/2104525558050886066) · [Watch the video](https://video.twimg.com/amplify_video/2104525355499626496/vid/avc1/1280x720/u3Ndb7ly3zo7Gu0Y.mp4)
 
 [![想自己试，开工简报的骨架： 1. 先给 3 个风格帧、10 秒样片、30 秒配乐试听，等我选 2. 上屏文字只用我给的文案表 3.…](https://media.skillry.dev/opus-5-5/_prompts/thinkszyg-886066/poster.8e978ae026.webp)](https://x.com/thinkszyg/status/2104525558050886066)
 

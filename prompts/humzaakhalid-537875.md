@@ -1,6 +1,6 @@
 # Opus 5.5 on Max effort (Sound On): "A 24-second AI In Public motion…
 
-**#386 by likes** · ♥ 53 · by [@humzaakhalid](https://x.com/humzaakhalid) · [Original post](https://x.com/humzaakhalid/status/2106640261623537875) · [Watch the video](https://media.skillry.dev/opus-5-5/humzaakhalid-537875/original.mp4)
+**#397 by likes** · ♥ 53 · by [@humzaakhalid](https://x.com/humzaakhalid) · [Original post](https://x.com/humzaakhalid/status/2106640261623537875) · [Watch the video](https://media.skillry.dev/opus-5-5/humzaakhalid-537875/original.mp4)
 
 [![Opus 5.5 on Max effort (Sound On): "A 24-second AI In Public motion…](https://media.skillry.dev/opus-5-5/humzaakhalid-537875/original.c0f48993ac.webp)](https://x.com/humzaakhalid/status/2106640261623537875)
 
