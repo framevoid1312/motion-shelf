@@ -1,6 +1,6 @@
 # Pixel-art rabbit archer sprite animation loop
 
-**#382 by popularity** · ♥ 72 · by [@KanaWorks_AI](https://x.com/KanaWorks_AI) · [Original post](https://x.com/KanaWorks_AI/status/2102598986393870464) · [Watch the video](https://video.twimg.com/amplify_video/2102595601041104896/vid/avc1/720x1280/Ad1Mo1lSXg0h-umC.mp4)
+**#376 by popularity** · ♥ 72 · by [@KanaWorks_AI](https://x.com/KanaWorks_AI) · [Original post](https://x.com/KanaWorks_AI/status/2102598986393870464) · [Watch the video](https://video.twimg.com/amplify_video/2102595601041104896/vid/avc1/720x1280/Ad1Mo1lSXg0h-umC.mp4)
 
 [![Pixel-art rabbit archer sprite animation loop](https://pbs.twimg.com/amplify_video_thumb/2102595601041104896/img/eTZRF5UQRsMlMa-I.jpg)](https://x.com/KanaWorks_AI/status/2102598986393870464)
 

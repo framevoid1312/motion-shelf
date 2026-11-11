@@ -1,6 +1,6 @@
 # 「Opus 5.5なら数分でできる」は本当か。 記事の冒頭に置く30秒の動画を、Remotionで作りました。…
 
-**#593 by popularity** · ♥ 7 · by [@FalconG_J](https://x.com/FalconG_J) · [Original post](https://x.com/FalconG_J/status/2105033204319277506) · [Watch the video](https://media.skillry.dev/opus-5-5/falcong-j-277506/original.mp4)
+**#585 by popularity** · ♥ 7 · by [@FalconG_J](https://x.com/FalconG_J) · [Original post](https://x.com/FalconG_J/status/2105033204319277506) · [Watch the video](https://media.skillry.dev/opus-5-5/falcong-j-277506/original.mp4)
 
 [![「Opus 5.5なら数分でできる」は本当か。 記事の冒頭に置く30秒の動画を、Remotionで作りました。…](https://media.skillry.dev/opus-5-5/falcong-j-277506/original.0f99810270.webp)](https://x.com/FalconG_J/status/2105033204319277506)
 

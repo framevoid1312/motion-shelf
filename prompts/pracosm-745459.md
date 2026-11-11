@@ -1,6 +1,6 @@
 # Two walkable Indian cities on tiny planets
 
-**#32 by popularity** · ♥ 2,527 · 248,762 views · by [@pracosm](https://x.com/pracosm) · [Original post](https://x.com/pracosm/status/2103387804281745459) · [Watch the video](https://video.twimg.com/amplify_video/2103386719295053824/vid/avc1/1146x720/fqsNYem8r5I1A65d.mp4)
+**#31 by popularity** · ♥ 2,527 · 248,762 views · by [@pracosm](https://x.com/pracosm) · [Original post](https://x.com/pracosm/status/2103387804281745459) · [Watch the video](https://video.twimg.com/amplify_video/2103386719295053824/vid/avc1/1146x720/fqsNYem8r5I1A65d.mp4)
 
 [![Two walkable Indian cities on tiny planets](https://pbs.twimg.com/amplify_video_thumb/2103386719295053824/img/tttYo-aMxYNt9gNH.jpg)](https://x.com/pracosm/status/2103387804281745459)
 

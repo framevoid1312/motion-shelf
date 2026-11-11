@@ -1,6 +1,6 @@
 # Brand animation from a logo
 
-**#67 by popularity** · ♥ 1,524 · 129,656 views · by [@dimentary](https://x.com/dimentary) · [Original post](https://x.com/dimentary/status/2104094838035820607) · [Watch the video](https://video.twimg.com/amplify_video/2104094782410854400/vid/avc1/1280x720/qo0CqU_y0ftzxrAY.mp4)
+**#66 by popularity** · ♥ 1,524 · 129,656 views · by [@dimentary](https://x.com/dimentary) · [Original post](https://x.com/dimentary/status/2104094838035820607) · [Watch the video](https://video.twimg.com/amplify_video/2104094782410854400/vid/avc1/1280x720/qo0CqU_y0ftzxrAY.mp4)
 
 [![Brand animation from a logo](https://pbs.twimg.com/amplify_video_thumb/2104094782410854400/img/_DOMXUsu6CyY-nbw.jpg)](https://x.com/dimentary/status/2104094838035820607)
 

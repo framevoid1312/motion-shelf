@@ -1,6 +1,6 @@
 # Rebuild my Claude Code setup around this tree: 1. Look in…
 
-**#249 by popularity** · ♥ 290 · by [@imryven](https://x.com/imryven) · [Original post](https://x.com/imryven/status/2105719735438495965) · [Watch the video](https://video.twimg.com/amplify_video/2105718703442538496/vid/avc1/720x900/TfsPaYdDTYdrsW4o.mp4)
+**#244 by popularity** · ♥ 290 · by [@imryven](https://x.com/imryven) · [Original post](https://x.com/imryven/status/2105719735438495965) · [Watch the video](https://video.twimg.com/amplify_video/2105718703442538496/vid/avc1/720x900/TfsPaYdDTYdrsW4o.mp4)
 
 [![Rebuild my Claude Code setup around this tree: 1. Look in…](https://media.skillry.dev/opus-5-5/_prompts/imryven-495965/poster.4b4e7c2ce0.webp)](https://x.com/imryven/status/2105719735438495965)
 

@@ -1,6 +1,6 @@
 # 30-second motion promo for Kody
 
-**#230 by popularity** · ♥ 295 · 35,041 views · by [@kentcdodds](https://x.com/kentcdodds) · [Original post](https://x.com/kentcdodds/status/2103638102333858193) · [Watch the video](https://video.twimg.com/amplify_video/2103637004932313088/vid/avc1/1280x720/i8HNxHj8xVDMtlrq.mp4?tag=29)
+**#226 by popularity** · ♥ 295 · 35,041 views · by [@kentcdodds](https://x.com/kentcdodds) · [Original post](https://x.com/kentcdodds/status/2103638102333858193) · [Watch the video](https://video.twimg.com/amplify_video/2103637004932313088/vid/avc1/1280x720/i8HNxHj8xVDMtlrq.mp4?tag=29)
 
 [![30-second motion promo for Kody](https://pbs.twimg.com/media/HTGewiSbkAAYD0o.jpg)](https://x.com/kentcdodds/status/2103638102333858193)
 

@@ -1,6 +1,6 @@
 # Build an interactive explainer on how QR codes hold and repair a…
 
-**#613 by popularity** · ♥ 6 · by [@eyadnour](https://x.com/eyadnour) · [Original post](https://x.com/eyadnour/status/2108314868189172216) · [Watch the video](https://media.skillry.dev/opus-5-5/eyadnour-172216/original.mp4)
+**#605 by popularity** · ♥ 6 · by [@eyadnour](https://x.com/eyadnour) · [Original post](https://x.com/eyadnour/status/2108314868189172216) · [Watch the video](https://media.skillry.dev/opus-5-5/eyadnour-172216/original.mp4)
 
 [![Build an interactive explainer on how QR codes hold and repair a…](https://media.skillry.dev/opus-5-5/eyadnour-172216/original.60391589f2.webp)](https://x.com/eyadnour/status/2108314868189172216)
 

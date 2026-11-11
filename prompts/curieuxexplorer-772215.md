@@ -1,6 +1,6 @@
 # This is Dope! Claude Opus 5.5 is on fire 🔥 One prompt → a 30s…
 
-**#515 by popularity** · ♥ 13 · by [@CurieuxExplorer](https://x.com/CurieuxExplorer) · [Original post](https://x.com/CurieuxExplorer/status/2103714595659772215) · [Watch the video](https://media.skillry.dev/opus-5-5/curieuxexplorer-772215/original.mp4)
+**#507 by popularity** · ♥ 13 · by [@CurieuxExplorer](https://x.com/CurieuxExplorer) · [Original post](https://x.com/CurieuxExplorer/status/2103714595659772215) · [Watch the video](https://media.skillry.dev/opus-5-5/curieuxexplorer-772215/original.mp4)
 
 [![This is Dope! Claude Opus 5.5 is on fire 🔥 One prompt → a 30s…](https://media.skillry.dev/opus-5-5/curieuxexplorer-772215/original.48e84ca07c.webp)](https://x.com/CurieuxExplorer/status/2103714595659772215)
 

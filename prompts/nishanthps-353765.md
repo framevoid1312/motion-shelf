@@ -1,6 +1,6 @@
 # How volcanoes work, for kids
 
-**#173 by popularity** · ♥ 586 · 36,119 views · by [@nishanthps](https://x.com/nishanthps) · [Original post](https://x.com/nishanthps/status/2103272493658353765) · [Watch the video](https://video.twimg.com/amplify_video/2103272088333402112/vid/avc1/1280x720/R_gwYRiPW0Ukz1Nl.mp4)
+**#171 by popularity** · ♥ 586 · 36,119 views · by [@nishanthps](https://x.com/nishanthps) · [Original post](https://x.com/nishanthps/status/2103272493658353765) · [Watch the video](https://video.twimg.com/amplify_video/2103272088333402112/vid/avc1/1280x720/R_gwYRiPW0Ukz1Nl.mp4)
 
 [![How volcanoes work, for kids](https://pbs.twimg.com/amplify_video_thumb/2103272088333402112/img/fMgedIBikgiiqypS.jpg)](https://x.com/nishanthps/status/2103272493658353765)
 

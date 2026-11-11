@@ -1,6 +1,6 @@
 # pixel art boomerang render of the history of LLMs. then RSI. then it…
 
-**#683 by popularity** · ♥ 4 · by [@PluginPlay__](https://x.com/PluginPlay__) · [Original post](https://x.com/PluginPlay__/status/2103910844677472343) · [Watch the video](https://video.twimg.com/amplify_video/2103907563083288576/vid/avc1/1280x720/tL0A9cSdYxgA5h2Q.mp4)
+**#675 by popularity** · ♥ 4 · by [@PluginPlay__](https://x.com/PluginPlay__) · [Original post](https://x.com/PluginPlay__/status/2103910844677472343) · [Watch the video](https://video.twimg.com/amplify_video/2103907563083288576/vid/avc1/1280x720/tL0A9cSdYxgA5h2Q.mp4)
 
 [![pixel art boomerang render of the history of LLMs. then RSI. then it…](https://media.skillry.dev/opus-5-5/_prompts/pluginplay-472343/poster.327ef11ede.webp)](https://x.com/PluginPlay__/status/2103910844677472343)
 

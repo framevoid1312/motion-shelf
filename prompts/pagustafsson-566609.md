@@ -1,6 +1,6 @@
 # Create a real-time Krakatoa volcano animation 🌋 in one HTML file…
 
-**#594 by popularity** · ♥ 7 · by [@pagustafsson](https://x.com/pagustafsson) · [Original post](https://x.com/pagustafsson/status/2108936279081566609) · [Watch the video](https://video.twimg.com/amplify_video/2108933591019274240/vid/avc1/930x720/9V1qCN-SCXTXpKZh.mp4)
+**#586 by popularity** · ♥ 7 · by [@pagustafsson](https://x.com/pagustafsson) · [Original post](https://x.com/pagustafsson/status/2108936279081566609) · [Watch the video](https://video.twimg.com/amplify_video/2108933591019274240/vid/avc1/930x720/9V1qCN-SCXTXpKZh.mp4)
 
 [![Create a real-time Krakatoa volcano animation 🌋 in one HTML file…](https://media.skillry.dev/opus-5-5/_prompts/pagustafsson-566609/poster.28b3518668.webp)](https://x.com/pagustafsson/status/2108936279081566609)
 

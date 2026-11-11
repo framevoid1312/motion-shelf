@@ -1,6 +1,6 @@
 # TypingMind product intro motion video
 
-**#58 by popularity** · ♥ 1,039 · 197,562 views · by [@tdinh_me](https://x.com/tdinh_me) · [Original post](https://x.com/tdinh_me/status/2103703135902740699) · [Watch the video](https://video.twimg.com/amplify_video/2103702920181272576/vid/avc1/1280x720/T57EG8SYimS8H1TE.mp4)
+**#57 by popularity** · ♥ 1,039 · 197,562 views · by [@tdinh_me](https://x.com/tdinh_me) · [Original post](https://x.com/tdinh_me/status/2103703135902740699) · [Watch the video](https://video.twimg.com/amplify_video/2103702920181272576/vid/avc1/1280x720/T57EG8SYimS8H1TE.mp4)
 
 [![TypingMind product intro motion video](https://pbs.twimg.com/amplify_video_thumb/2103702920181272576/img/0Mcdvuag4dj0FvlB.jpg)](https://x.com/tdinh_me/status/2103703135902740699)
 

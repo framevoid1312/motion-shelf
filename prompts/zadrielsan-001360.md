@@ -1,6 +1,6 @@
 # Three-body gravitational simulation
 
-**#46 by popularity** · ♥ 389 · 346,265 views · by [@zAdrielsan](https://x.com/zAdrielsan) · [Original post](https://x.com/zAdrielsan/status/2105822678519001360) · [Watch the video](https://video.twimg.com/amplify_video/2105821738743267328/vid/avc1/1226x720/DrXW9SLV6Cw2He81.mp4?tag=14)
+**#45 by popularity** · ♥ 389 · 346,265 views · by [@zAdrielsan](https://x.com/zAdrielsan) · [Original post](https://x.com/zAdrielsan/status/2105822678519001360) · [Watch the video](https://video.twimg.com/amplify_video/2105821738743267328/vid/avc1/1226x720/DrXW9SLV6Cw2He81.mp4?tag=14)
 
 [![Three-body gravitational simulation](https://pbs.twimg.com/amplify_video_thumb/2105821738743267328/img/QHPQGu2BCTYGJhoj.jpg)](https://x.com/zAdrielsan/status/2105822678519001360)
 

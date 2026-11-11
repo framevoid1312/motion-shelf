@@ -1,6 +1,6 @@
 # Gummy octopus physics comparison
 
-**#80 by popularity** · ♥ 767 · 149,435 views · by [@vib3coded](https://x.com/vib3coded) · [Original post](https://x.com/vib3coded/status/2104466170275324190) · [Watch the video](https://video.twimg.com/amplify_video/2104466054894309376/vid/avc1/720x960/Qoovr2fW860NPtu9.mp4)
+**#79 by popularity** · ♥ 767 · 149,435 views · by [@vib3coded](https://x.com/vib3coded) · [Original post](https://x.com/vib3coded/status/2104466170275324190) · [Watch the video](https://video.twimg.com/amplify_video/2104466054894309376/vid/avc1/720x960/Qoovr2fW860NPtu9.mp4)
 
 [![Gummy octopus physics comparison](https://pbs.twimg.com/amplify_video_thumb/2104466054894309376/img/I2f2bWLJTie4uJYc.jpg)](https://x.com/vib3coded/status/2104466170275324190)
 

@@ -1,6 +1,6 @@
 # Technology hype video synced to a song
 
-**#41 by popularity** · ♥ 1,078 · 304,836 views · by [@dirtman](https://x.com/dirtman) · [Original post](https://x.com/dirtman/status/2103686605517287620) · [Watch the video](https://video.twimg.com/amplify_video/2103685951096758272/vid/avc1/1280x720/52_aQ-JUrYDWXzpL.mp4)
+**#40 by popularity** · ♥ 1,078 · 304,836 views · by [@dirtman](https://x.com/dirtman) · [Original post](https://x.com/dirtman/status/2103686605517287620) · [Watch the video](https://video.twimg.com/amplify_video/2103685951096758272/vid/avc1/1280x720/52_aQ-JUrYDWXzpL.mp4)
 
 [![Technology hype video synced to a song](https://pbs.twimg.com/amplify_video_thumb/2103685951096758272/img/FPOcF7DM3Q12H_Vz.jpg)](https://x.com/dirtman/status/2103686605517287620)
 

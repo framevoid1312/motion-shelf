@@ -1,6 +1,6 @@
 # Make an animation showing how fried chicken is made in Three.js.…
 
-**#614 by popularity** · ♥ 6 · by [@llama3dstudio](https://x.com/llama3dstudio) · [Original post](https://x.com/llama3dstudio/status/2107504609207918962) · [Watch the video](https://video.twimg.com/amplify_video/2107503566101356544/vid/avc1/1454x720/SJqgyc6JGKlEA6sc.mp4)
+**#606 by popularity** · ♥ 6 · by [@llama3dstudio](https://x.com/llama3dstudio) · [Original post](https://x.com/llama3dstudio/status/2107504609207918962) · [Watch the video](https://video.twimg.com/amplify_video/2107503566101356544/vid/avc1/1454x720/SJqgyc6JGKlEA6sc.mp4)
 
 [![Make an animation showing how fried chicken is made in Three.js.…](https://media.skillry.dev/opus-5-5/_prompts/llama3dstudio-918962/poster.0aeba57316.webp)](https://x.com/llama3dstudio/status/2107504609207918962)
 

@@ -1,6 +1,6 @@
 # Using HyperFrames, make a hype teaser for the product in this post -…
 
-**#398 by popularity** · ♥ 43 · 6,827 views · by [@jake11moran](https://x.com/jake11moran) · [Original post](https://x.com/jake11moran/status/2103237884564414633) · [Watch the video](https://media.skillry.dev/opus-5-5/jake11moran-414633/original.mp4)
+**#392 by popularity** · ♥ 43 · 6,827 views · by [@jake11moran](https://x.com/jake11moran) · [Original post](https://x.com/jake11moran/status/2103237884564414633) · [Watch the video](https://media.skillry.dev/opus-5-5/jake11moran-414633/original.mp4)
 
 [![Using HyperFrames, make a hype teaser for the product in this post -…](https://media.skillry.dev/opus-5-5/jake11moran-414633/original.7f1e44af8c.webp)](https://x.com/jake11moran/status/2103237884564414633)
 

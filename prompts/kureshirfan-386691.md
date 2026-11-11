@@ -1,6 +1,6 @@
 # I asked Claude Opus 5.5 to explain the earthquake physics as an…
 
-**#897 by popularity** · ♥ 0 · by [@kureshirfan](https://x.com/kureshirfan) · [Original post](https://x.com/kureshirfan/status/2103788564840386691) · [Watch the video](https://media.skillry.dev/opus-5-5/kureshirfan-386691/original.mp4)
+**#888 by popularity** · ♥ 0 · by [@kureshirfan](https://x.com/kureshirfan) · [Original post](https://x.com/kureshirfan/status/2103788564840386691) · [Watch the video](https://media.skillry.dev/opus-5-5/kureshirfan-386691/original.mp4)
 
 [![I asked Claude Opus 5.5 to explain the earthquake physics as an…](https://media.skillry.dev/opus-5-5/kureshirfan-386691/original.269e976435.webp)](https://x.com/kureshirfan/status/2103788564840386691)
 

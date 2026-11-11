@@ -1,6 +1,6 @@
 # I asked opus 5.5 in @agnt_gg for the most realistic fire it could…
 
-**#495 by popularity** · ♥ 16 · by [@NathanWilbanks_](https://x.com/NathanWilbanks_) · [Original post](https://x.com/NathanWilbanks_/status/2103881538592981110) · [Watch the video](https://media.skillry.dev/opus-5-5/nathanwilbanks-981110/original.mp4)
+**#488 by popularity** · ♥ 16 · by [@NathanWilbanks_](https://x.com/NathanWilbanks_) · [Original post](https://x.com/NathanWilbanks_/status/2103881538592981110) · [Watch the video](https://media.skillry.dev/opus-5-5/nathanwilbanks-981110/original.mp4)
 
 [![I asked opus 5.5 in @agnt_gg for the most realistic fire it could…](https://media.skillry.dev/opus-5-5/nathanwilbanks-981110/original.5401acd5a9.webp)](https://x.com/NathanWilbanks_/status/2103881538592981110)
 

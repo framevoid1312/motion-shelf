@@ -1,6 +1,6 @@
 # Three.js Tesla-Style Electric Motor 40-Second Educational 3D Animation
 
-**#42 by popularity** · ♥ 2,123 · 193,361 views · by [@rubenssoto_ai](https://x.com/rubenssoto_ai) · [Original post](https://x.com/rubenssoto_ai/status/2110065587279798719) · [Watch the video](https://video.twimg.com/amplify_video/2110065442639228928/vid/avc1/720x810/cqdWgifLPtzrpuBY.mp4)
+**#41 by popularity** · ♥ 2,123 · 193,361 views · by [@rubenssoto_ai](https://x.com/rubenssoto_ai) · [Original post](https://x.com/rubenssoto_ai/status/2110065587279798719) · [Watch the video](https://video.twimg.com/amplify_video/2110065442639228928/vid/avc1/720x810/cqdWgifLPtzrpuBY.mp4)
 
 [![Three.js Tesla-Style Electric Motor 40-Second Educational 3D Animation](https://pbs.twimg.com/amplify_video_thumb/2110065442639228928/img/4e4zETqvMxZMmGnU.jpg)](https://x.com/rubenssoto_ai/status/2110065587279798719)
 

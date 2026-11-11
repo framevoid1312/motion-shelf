@@ -1,6 +1,6 @@
 # make a dynamic 20-second motion graphics video that shows what an…
 
-**#394 by popularity** · ♥ 58 · by [@monokern](https://x.com/monokern) · [Original post](https://x.com/monokern/status/2103563538828832979) · [Watch the video](https://media.skillry.dev/opus-5-5/monokern-832979/original.mp4)
+**#388 by popularity** · ♥ 58 · by [@monokern](https://x.com/monokern) · [Original post](https://x.com/monokern/status/2103563538828832979) · [Watch the video](https://media.skillry.dev/opus-5-5/monokern-832979/original.mp4)
 
 [![make a dynamic 20-second motion graphics video that shows what an…](https://media.skillry.dev/opus-5-5/monokern-832979/original.a67fabae15.webp)](https://x.com/monokern/status/2103563538828832979)
 

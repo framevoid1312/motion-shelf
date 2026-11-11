@@ -1,6 +1,6 @@
 # Build a microscope that dives from a fingertip down to atoms: 1× to…
 
-**#497 by popularity** · ♥ 16 · by [@CurieuxExplorer](https://x.com/CurieuxExplorer) · [Original post](https://x.com/CurieuxExplorer/status/2104108154506408141) · [Watch the video](https://video.twimg.com/amplify_video/2104107623478169600/vid/avc1/1534x720/-A5l18mwN9groGhk.mp4)
+**#490 by popularity** · ♥ 16 · by [@CurieuxExplorer](https://x.com/CurieuxExplorer) · [Original post](https://x.com/CurieuxExplorer/status/2104108154506408141) · [Watch the video](https://video.twimg.com/amplify_video/2104107623478169600/vid/avc1/1534x720/-A5l18mwN9groGhk.mp4)
 
 [![Build a microscope that dives from a fingertip down to atoms: 1× to…](https://media.skillry.dev/opus-5-5/_prompts/curieuxexplorer-408141/poster.40b940c542.webp)](https://x.com/CurieuxExplorer/status/2104108154506408141)
 

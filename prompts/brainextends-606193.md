@@ -1,6 +1,6 @@
 # Create a complete, polished Spotify-themed motion graphics video from…
 
-**#416 by popularity** · ♥ 44 · by [@brainextends](https://x.com/brainextends) · [Original post](https://x.com/brainextends/status/2103801834930606193) · [Watch the video](https://media.skillry.dev/opus-5-5/brainextends-606193/original.mp4)
+**#410 by popularity** · ♥ 44 · by [@brainextends](https://x.com/brainextends) · [Original post](https://x.com/brainextends/status/2103801834930606193) · [Watch the video](https://media.skillry.dev/opus-5-5/brainextends-606193/original.mp4)
 
 [![Create a complete, polished Spotify-themed motion graphics video from…](https://media.skillry.dev/opus-5-5/brainextends-606193/original.f7353b2aa2.webp)](https://x.com/brainextends/status/2103801834930606193)
 

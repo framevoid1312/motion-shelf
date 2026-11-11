@@ -1,6 +1,6 @@
 # make a dynamic 10-second motion graphics video that shows who are you…
 
-**#874 by popularity** · ♥ 0 · by [@souravbhar871](https://x.com/souravbhar871) · [Original post](https://x.com/souravbhar871/status/2103711849703477361) · [Watch the video](https://media.skillry.dev/opus-5-5/souravbhar871-477361/original.mp4)
+**#865 by popularity** · ♥ 0 · by [@souravbhar871](https://x.com/souravbhar871) · [Original post](https://x.com/souravbhar871/status/2103711849703477361) · [Watch the video](https://media.skillry.dev/opus-5-5/souravbhar871-477361/original.mp4)
 
 [![make a dynamic 10-second motion graphics video that shows who are you…](https://media.skillry.dev/opus-5-5/souravbhar871-477361/original.b33abc19ad.webp)](https://x.com/souravbhar871/status/2103711849703477361)
 

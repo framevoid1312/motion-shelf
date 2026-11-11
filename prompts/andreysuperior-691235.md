@@ -1,6 +1,6 @@
 # Foldable phone rebuilt part by part in code
 
-**#287 by popularity** · ♥ 272 · 14,995 views · by [@andreysuperior](https://x.com/andreysuperior) · [Original post](https://x.com/andreysuperior/status/2113644365876691235) · [Watch the video](https://video.twimg.com/amplify_video/2113643970878222336/vid/avc1/916x720/_NRt2KXCoof7VJoH.mp4?tag=29)
+**#282 by popularity** · ♥ 272 · 14,995 views · by [@andreysuperior](https://x.com/andreysuperior) · [Original post](https://x.com/andreysuperior/status/2113644365876691235) · [Watch the video](https://video.twimg.com/amplify_video/2113643970878222336/vid/avc1/916x720/_NRt2KXCoof7VJoH.mp4?tag=29)
 
 [![Foldable phone rebuilt part by part in code](https://pbs.twimg.com/amplify_video_thumb/2113643970878222336/img/9goOr7OLRWj1SVyF.jpg)](https://x.com/andreysuperior/status/2113644365876691235)
 

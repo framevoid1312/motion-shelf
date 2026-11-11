@@ -1,6 +1,6 @@
 # I didn't believe it but this was 100% Opus 5.5 Max, in 8h15 min. Gave…
 
-**#908 by popularity** · ♥ 0 · by [@vince_builds](https://x.com/vince_builds) · [Original post](https://x.com/vince_builds/status/2104257989100355650) · [Watch the video](https://media.skillry.dev/opus-5-5/vince-builds-355650/original.mp4)
+**#899 by popularity** · ♥ 0 · by [@vince_builds](https://x.com/vince_builds) · [Original post](https://x.com/vince_builds/status/2104257989100355650) · [Watch the video](https://media.skillry.dev/opus-5-5/vince-builds-355650/original.mp4)
 
 [![I didn't believe it but this was 100% Opus 5.5 Max, in 8h15 min. Gave…](https://media.skillry.dev/opus-5-5/vince-builds-355650/original.5fb99e109d.webp)](https://x.com/vince_builds/status/2104257989100355650)
 

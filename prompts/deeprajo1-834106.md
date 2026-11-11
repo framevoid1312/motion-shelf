@@ -1,6 +1,6 @@
 # What if learning Python felt more like playing a game than studying?…
 
-**#752 by popularity** · ♥ 2 · by [@deeprajO1](https://x.com/deeprajO1) · [Original post](https://x.com/deeprajO1/status/2103938972426834106) · [Watch the video](https://media.skillry.dev/opus-5-5/deeprajo1-834106/original.mp4)
+**#744 by popularity** · ♥ 2 · by [@deeprajO1](https://x.com/deeprajO1) · [Original post](https://x.com/deeprajO1/status/2103938972426834106) · [Watch the video](https://media.skillry.dev/opus-5-5/deeprajo1-834106/original.mp4)
 
 [![What if learning Python felt more like playing a game than studying?…](https://media.skillry.dev/opus-5-5/deeprajo1-834106/original.75323ab657.webp)](https://x.com/deeprajO1/status/2103938972426834106)
 

@@ -1,6 +1,6 @@
 # @claudeai I was jealous of the Opus 5.5 video demos, so I linked the…
 
-**#916 by popularity** · ♥ 0 · by [@tycenjm](https://x.com/tycenjm) · [Original post](https://x.com/tycenjm/status/2103024522589098014) · [Watch the video](https://media.skillry.dev/opus-5-5/tycenjm-098014/original.mp4)
+**#907 by popularity** · ♥ 0 · by [@tycenjm](https://x.com/tycenjm) · [Original post](https://x.com/tycenjm/status/2103024522589098014) · [Watch the video](https://media.skillry.dev/opus-5-5/tycenjm-098014/original.mp4)
 
 [![@claudeai I was jealous of the Opus 5.5 video demos, so I linked the…](https://media.skillry.dev/opus-5-5/tycenjm-098014/original.238da22a07.webp)](https://x.com/tycenjm/status/2103024522589098014)
 

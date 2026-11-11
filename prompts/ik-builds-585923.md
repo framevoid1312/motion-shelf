@@ -1,6 +1,6 @@
 # I WAS QUOTED $3000 FOR THIS!!! So I asked Opus 5.5 (medium) to create…
 
-**#607 by popularity** · ♥ 6 · by [@ik_builds](https://x.com/ik_builds) · [Original post](https://x.com/ik_builds/status/2103890476885585923) · [Watch the video](https://media.skillry.dev/opus-5-5/ik-builds-585923/original.mp4)
+**#599 by popularity** · ♥ 6 · by [@ik_builds](https://x.com/ik_builds) · [Original post](https://x.com/ik_builds/status/2103890476885585923) · [Watch the video](https://media.skillry.dev/opus-5-5/ik-builds-585923/original.mp4)
 
 [![I WAS QUOTED $3000 FOR THIS!!! So I asked Opus 5.5 (medium) to create…](https://media.skillry.dev/opus-5-5/ik-builds-585923/original.2f8b88fadc.webp)](https://x.com/ik_builds/status/2103890476885585923)
 

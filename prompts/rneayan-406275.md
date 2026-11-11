@@ -1,6 +1,6 @@
 # Make Motiongraphic about my studio with Oscilloscope style
 
-**#888 by popularity** · ♥ 0 · by [@rneayan](https://x.com/rneayan) · [Original post](https://x.com/rneayan/status/2103401461837406275) · [Watch the video](https://media.skillry.dev/opus-5-5/rneayan-406275/original.mp4)
+**#879 by popularity** · ♥ 0 · by [@rneayan](https://x.com/rneayan) · [Original post](https://x.com/rneayan/status/2103401461837406275) · [Watch the video](https://media.skillry.dev/opus-5-5/rneayan-406275/original.mp4)
 
 [![Make Motiongraphic about my studio with Oscilloscope style](https://media.skillry.dev/opus-5-5/rneayan-406275/original.638434f1dc.webp)](https://x.com/rneayan/status/2103401461837406275)
 

@@ -1,6 +1,6 @@
 # build me a 30s drawing style animated clip about submitting a product…
 
-**#700 by popularity** · ♥ 3 · by [@mattbean](https://x.com/mattbean) · [Original post](https://x.com/mattbean/status/2103146389412917572) · [Watch the video](https://media.skillry.dev/opus-5-5/mattbean-917572/original.mp4)
+**#692 by popularity** · ♥ 3 · by [@mattbean](https://x.com/mattbean) · [Original post](https://x.com/mattbean/status/2103146389412917572) · [Watch the video](https://media.skillry.dev/opus-5-5/mattbean-917572/original.mp4)
 
 [![build me a 30s drawing style animated clip about submitting a product…](https://media.skillry.dev/opus-5-5/mattbean-917572/original.a121758d74.webp)](https://x.com/mattbean/status/2103146389412917572)
 

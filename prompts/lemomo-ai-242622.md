@@ -1,6 +1,6 @@
 # Whiteboard skill tutorial
 
-**#475 by popularity** · ♥ 19 · by [@lemomo_ai](https://x.com/lemomo_ai) · [Original post](https://x.com/lemomo_ai/status/2104070024575242622) · [Watch the video](https://video.twimg.com/amplify_video/2104056361764216832/vid/avc1/1920x1080/y6Ft48snH_vjdovx.mp4)
+**#469 by popularity** · ♥ 19 · by [@lemomo_ai](https://x.com/lemomo_ai) · [Original post](https://x.com/lemomo_ai/status/2104070024575242622) · [Watch the video](https://video.twimg.com/amplify_video/2104056361764216832/vid/avc1/1920x1080/y6Ft48snH_vjdovx.mp4)
 
 [![Whiteboard skill tutorial](https://pbs.twimg.com/amplify_video_thumb/2104056361764216832/img/-M4LLJ0IjWLnB2g4.jpg)](https://x.com/lemomo_ai/status/2104070024575242622)
 

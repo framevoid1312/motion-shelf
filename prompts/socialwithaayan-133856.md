@@ -1,6 +1,6 @@
 # Drone-style cliff camera work without a drone
 
-**#164 by popularity** · ♥ 358 · 70,543 views · by [@socialwithaayan](https://x.com/socialwithaayan) · [Original post](https://x.com/socialwithaayan/status/2111448458079133856) · [Watch the video](https://video.twimg.com/amplify_video/2111448401590243328/vid/avc1/720x960/l60nojLfjIrk6G37.mp4?tag=16)
+**#162 by popularity** · ♥ 358 · 70,543 views · by [@socialwithaayan](https://x.com/socialwithaayan) · [Original post](https://x.com/socialwithaayan/status/2111448458079133856) · [Watch the video](https://video.twimg.com/amplify_video/2111448401590243328/vid/avc1/720x960/l60nojLfjIrk6G37.mp4?tag=16)
 
 [![Drone-style cliff camera work without a drone](https://pbs.twimg.com/amplify_video_thumb/2111448401590243328/img/5QneOdiOr7QxsZLg.jpg)](https://x.com/socialwithaayan/status/2111448458079133856)
 

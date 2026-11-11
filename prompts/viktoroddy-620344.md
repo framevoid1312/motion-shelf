@@ -1,6 +1,6 @@
 # Liquid glass web hero section
 
-**#326 by popularity** · ♥ 151 · 13,392 views · by [@viktoroddy](https://x.com/viktoroddy) · [Original post](https://x.com/viktoroddy/status/2106061619176620344) · [Watch the video](https://video.twimg.com/amplify_video/2105931350943637504/vid/avc1/1108x720/l_eBhOyDKX36NHsR.mp4?tag=29)
+**#321 by popularity** · ♥ 151 · 13,392 views · by [@viktoroddy](https://x.com/viktoroddy) · [Original post](https://x.com/viktoroddy/status/2106061619176620344) · [Watch the video](https://video.twimg.com/amplify_video/2105931350943637504/vid/avc1/1108x720/l_eBhOyDKX36NHsR.mp4?tag=29)
 
 [![Liquid glass web hero section](https://pbs.twimg.com/amplify_video_thumb/2105931350943637504/img/arhgwlUjJrwvXT6T.jpg)](https://x.com/viktoroddy/status/2106061619176620344)
 

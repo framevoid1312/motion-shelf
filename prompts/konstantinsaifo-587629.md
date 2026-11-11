@@ -1,6 +1,6 @@
 # I asked Claude Opus 5.5 to explain how a fusion reactor works by…
 
-**#234 by popularity** · ♥ 319 · by [@konstantinsaifo](https://x.com/konstantinsaifo) · [Original post](https://x.com/konstantinsaifo/status/2104216976801587629) · [Watch the video](https://media.skillry.dev/opus-5-5/konstantinsaifo-587629/original.mp4)
+**#230 by popularity** · ♥ 319 · by [@konstantinsaifo](https://x.com/konstantinsaifo) · [Original post](https://x.com/konstantinsaifo/status/2104216976801587629) · [Watch the video](https://media.skillry.dev/opus-5-5/konstantinsaifo-587629/original.mp4)
 
 [![I asked Claude Opus 5.5 to explain how a fusion reactor works by…](https://media.skillry.dev/opus-5-5/konstantinsaifo-587629/original.0fec7489d9.webp)](https://x.com/konstantinsaifo/status/2104216976801587629)
 

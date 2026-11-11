@@ -1,6 +1,6 @@
 # The biggest scam in humanity, no words
 
-**#26 by popularity** · ♥ 2,671 · 441,959 views · by [@ivanainai](https://x.com/ivanainai) · [Original post](https://x.com/ivanainai/status/2105764877986099545) · [Watch the video](https://video.twimg.com/amplify_video/2105764806594535425/vid/avc1/1380x620/wCCVLbbxdDjRqW0D.mp4)
+**#25 by popularity** · ♥ 2,671 · 441,959 views · by [@ivanainai](https://x.com/ivanainai) · [Original post](https://x.com/ivanainai/status/2105764877986099545) · [Watch the video](https://video.twimg.com/amplify_video/2105764806594535425/vid/avc1/1380x620/wCCVLbbxdDjRqW0D.mp4)
 
 [![The biggest scam in humanity, no words](https://pbs.twimg.com/amplify_video_thumb/2105764806594535425/img/wcjfZbmz__yzk4BI.jpg)](https://x.com/ivanainai/status/2105764877986099545)
 
