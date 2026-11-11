@@ -2,19 +2,22 @@
 <html lang="en"><head><meta charset="utf-8"><meta name="referrer" content="no-referrer"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Motion Looting · Phil's Motion Shelf</title>
 <meta name="description" content="Free motion skills for coding agents, and real prompts with the videos they made.">
-<meta name="theme-color" content="#161617">
+<meta name="theme-color" content="#050505">
+<link rel="preload" href="fonts/nectar-hard.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="fonts/monaspace-xenon.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="fonts/monaspace-argon.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="icon" href="favicon.png">
-<style>/* Motion Looting. Colours: oldworld.nvim (dgox16). Type: Monaspace Xenon for titles and buttons, Monaspace Argon for text and labels (GitHub Next, SIL OFL). */
+<style>/* Motion Looting. Colours: black, off-white and acid lime. Type: Monaspace Xenon for titles and buttons, Monaspace Argon for text and labels (GitHub Next, SIL OFL). */
 @font-face{font-family:"Monaspace Xenon";src:url(fonts/monaspace-xenon.woff2) format("woff2");font-weight:300 800;font-style:normal;font-display:swap}
 @font-face{font-family:"Monaspace Argon";src:url(fonts/monaspace-argon.woff2) format("woff2");font-weight:300 800;font-style:normal;font-display:swap}
 
+@font-face{font-family:"Nectar Hard";src:url(fonts/nectar-hard.woff2) format("woff2");font-display:swap}
 :root{
-  --bg:#161617;--bg-dark:#131314;--surface:#1b1b1c;--raise:#27272a;--chip:#2a2a2c;--line:#313134;--line2:#444448;--sel:#3b3b3e;
-  --ink:#c9c7cd;--sub1:#b4b1ba;--muted:#9f9ca6;--faint:#8b8693;--dim:#6c6874;
-  --red:#ea83a5;--green:#90b99f;--yellow:#e6b99d;--purple:#aca1cf;--magenta:#e29eca;--orange:#f5a191;--blue:#92a2d5;--cyan:#85b5ba;
-  --accent:var(--purple);--hue:var(--yellow);--on-hue:#161617;
+  --bg:#050505;--bg-dark:#000000;--surface:#0e0f0e;--raise:#1a1b1a;--chip:#1c1d1c;--line:#262826;--line2:#3a3d3a;--sel:#3d5c00;
+  --ink:#e5ebed;--sub1:#c3c9cb;--muted:#9aa0a2;--faint:#7d8385;--dim:#555a5c;
+  --lime:#a4ff00;
+  --red:var(--lime);--green:var(--lime);--yellow:var(--lime);--purple:var(--lime);--magenta:var(--lime);--orange:var(--lime);--blue:var(--lime);--cyan:var(--lime);
+  --accent:var(--lime);--hue:var(--yellow);--on-hue:#050505;
   --fd:"Monaspace Xenon",ui-monospace,"SF Mono",Menlo,Consolas,monospace;
   --fb:"Monaspace Argon",ui-monospace,"SF Mono",Menlo,Consolas,monospace;
   --fm:"Monaspace Argon",ui-monospace,"SF Mono",Menlo,Consolas,monospace;
@@ -163,10 +166,13 @@ footer{border-top:1px solid var(--line);padding-top:16px;padding-bottom:32px;col
 .area>.sec:first-child .sh{border-top:0;padding-top:0}
 
 /* title: plain Xenon with the bottle logo beside it */
-h1{display:flex;align-items:center;gap:.22em;font:800 clamp(40px,8.4vw,104px)/1 var(--fd);letter-spacing:-.04em;margin:0}
+h1{display:flex;align-items:center;gap:.22em;font:400 clamp(44px,10vw,128px)/1 "Nectar Hard",var(--fd);letter-spacing:0;margin:0}
 h1 .logo{height:1.3em;width:auto;flex:none;margin-top:-.12em}
 h1 span{color:var(--orange)}
 .lede .tag{display:block;margin-top:8px;font:600 14px var(--fd);color:var(--orange)}
+h1{font-size:clamp(40px,8.2vw,112px);line-height:1.12;padding-top:.12em}
+h1 div{white-space:nowrap}
+@media (max-width:700px){h1{font-size:clamp(40px,14vw,84px)}h1 div{white-space:normal}}
 </style></head><body>
 <header class="pad"><p class="kick"><b>~/motion-shelf</b> <span>&middot;</span> free motion for coding agents <span>&middot;</span> made by Phil</p>
 <h1><img class="logo" src="logo.png" alt="" width="435" height="839"><div>motion <span>looting</span></div></h1>
