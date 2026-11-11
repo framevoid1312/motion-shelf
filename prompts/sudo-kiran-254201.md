@@ -1,6 +1,6 @@
 # make a dynamic 30-seconds motion graphic video about the distilbook…
 
-**#655 by likes** · ♥ 4 · by [@sudo_kiran](https://x.com/sudo_kiran) · [Original post](https://x.com/sudo_kiran/status/2103486573476254201) · [Watch the video](https://media.skillry.dev/opus-5-5/sudo-kiran-254201/original.mp4)
+**#655 by popularity** · ♥ 4 · by [@sudo_kiran](https://x.com/sudo_kiran) · [Original post](https://x.com/sudo_kiran/status/2103486573476254201) · [Watch the video](https://media.skillry.dev/opus-5-5/sudo-kiran-254201/original.mp4)
 
 [![make a dynamic 30-seconds motion graphic video about the distilbook…](https://media.skillry.dev/opus-5-5/sudo-kiran-254201/original.478ab227d6.webp)](https://x.com/sudo_kiran/status/2103486573476254201)
 

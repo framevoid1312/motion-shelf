@@ -1,6 +1,6 @@
 # A video explaining recursion, where every explanation about recursion…
 
-**#154 by likes** · ♥ 559 · by [@emollick](https://x.com/emollick) · [Original post](https://x.com/emollick/status/2103688362960019567) · [Watch the video](https://media.skillry.dev/opus-5-5/emollick-019567/original.mp4)
+**#146 by popularity** · ♥ 559 · 71,471 views · by [@emollick](https://x.com/emollick) · [Original post](https://x.com/emollick/status/2103688362960019567) · [Watch the video](https://media.skillry.dev/opus-5-5/emollick-019567/original.mp4)
 
 [![A video explaining recursion, where every explanation about recursion…](https://media.skillry.dev/opus-5-5/emollick-019567/original.70fbf894e4.webp)](https://x.com/emollick/status/2103688362960019567)
 

@@ -1,6 +1,6 @@
 # Pixel-art Halloween diorama, a 10-hour lofi loop
 
-**#108 by likes** · ♥ 826 · by [@zer0point_eth](https://x.com/zer0point_eth) · [Original post](https://x.com/zer0point_eth/status/2116832762912973220) · [Watch the video](https://www.sandbase.ai/lab/media/x/opus-5-5/2116832762912973220/video.mp4)
+**#133 by popularity** · ♥ 826 · 60,493 views · by [@zer0point_eth](https://x.com/zer0point_eth) · [Original post](https://x.com/zer0point_eth/status/2116832762912973220) · [Watch the video](https://www.sandbase.ai/lab/media/x/opus-5-5/2116832762912973220/video.mp4)
 
 [![Pixel-art Halloween diorama, a 10-hour lofi loop](https://www.sandbase.ai/lab/media/x/opus-5-5/2116832762912973220/poster.jpg)](https://x.com/zer0point_eth/status/2116832762912973220)
 

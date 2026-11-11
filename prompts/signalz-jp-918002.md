@@ -1,6 +1,6 @@
 # エディトリアル風。Opus 【作者补充制作说明】 Opus5.5で、Remotion+ElevenLabs(BGM)+ Gemini…
 
-**#912 by likes** · ♥ 0 · by [@signalz_jp](https://x.com/signalz_jp) · [Original post](https://x.com/signalz_jp/status/2104022166471918002) · [Watch the video](https://media.skillry.dev/opus-5-5/signalz-jp-918002/original.mp4)
+**#911 by popularity** · ♥ 0 · by [@signalz_jp](https://x.com/signalz_jp) · [Original post](https://x.com/signalz_jp/status/2104022166471918002) · [Watch the video](https://media.skillry.dev/opus-5-5/signalz-jp-918002/original.mp4)
 
 [![エディトリアル風。Opus 【作者补充制作说明】 Opus5.5で、Remotion+ElevenLabs(BGM)+ Gemini…](https://media.skillry.dev/opus-5-5/signalz-jp-918002/original.3f118f6bd2.webp)](https://x.com/signalz_jp/status/2104022166471918002)
 

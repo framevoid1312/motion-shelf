@@ -1,6 +1,6 @@
 # Interactive Web Experience 'Mid-Sentence' Built by Claude Opus 5.5
 
-**#284 by likes** · ♥ 213 · by [@chetaslua](https://x.com/chetaslua) · [Original post](https://x.com/chetaslua/status/2108902793797091808) · [Watch the video](https://video.twimg.com/amplify_video/2108902282276548608/vid/avc1/1280x720/oY_NKKa67jVIACn6.mp4)
+**#290 by popularity** · ♥ 213 · 20,447 views · by [@chetaslua](https://x.com/chetaslua) · [Original post](https://x.com/chetaslua/status/2108902793797091808) · [Watch the video](https://video.twimg.com/amplify_video/2108902282276548608/vid/avc1/1280x720/oY_NKKa67jVIACn6.mp4)
 
 [![Interactive Web Experience 'Mid-Sentence' Built by Claude Opus 5.5](https://pbs.twimg.com/amplify_video_thumb/2108902282276548608/img/oWvnAlECaG4nuYaF.jpg)](https://x.com/chetaslua/status/2108902793797091808)
 

@@ -1,6 +1,6 @@
 # I had to play along and see what kind of remotion video Claude Opus…
 
-**#631 by likes** · ♥ 5 · by [@DustinDavis](https://x.com/DustinDavis) · [Original post](https://x.com/DustinDavis/status/2104075537228644806) · [Watch the video](https://media.skillry.dev/opus-5-5/dustindavis-644806/original.mp4)
+**#631 by popularity** · ♥ 5 · by [@DustinDavis](https://x.com/DustinDavis) · [Original post](https://x.com/DustinDavis/status/2104075537228644806) · [Watch the video](https://media.skillry.dev/opus-5-5/dustindavis-644806/original.mp4)
 
 [![I had to play along and see what kind of remotion video Claude Opus…](https://media.skillry.dev/opus-5-5/dustindavis-644806/original.075d0b52e6.webp)](https://x.com/DustinDavis/status/2104075537228644806)
 

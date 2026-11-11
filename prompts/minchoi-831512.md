@@ -1,6 +1,6 @@
 # Beat-synced K-pop motion graphics music video
 
-**#265 by likes** · ♥ 269 · by [@minchoi](https://x.com/minchoi) · [Original post](https://x.com/minchoi/status/2110001964402831512) · [Watch the video](https://video.twimg.com/amplify_video/2109998915978162176/vid/avc1/1280x720/WsgZ0JPGoEWsclWe.mp4)
+**#252 by popularity** · ♥ 269 · 30,745 views · by [@minchoi](https://x.com/minchoi) · [Original post](https://x.com/minchoi/status/2110001964402831512) · [Watch the video](https://video.twimg.com/amplify_video/2109998915978162176/vid/avc1/1280x720/WsgZ0JPGoEWsclWe.mp4)
 
 [![Beat-synced K-pop motion graphics music video](https://pbs.twimg.com/amplify_video_thumb/2109998915978162176/img/HSZGAGGihln3YUXB.jpg)](https://x.com/minchoi/status/2110001964402831512)
 

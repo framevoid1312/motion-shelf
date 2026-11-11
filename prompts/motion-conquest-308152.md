@@ -1,6 +1,6 @@
 # Apple Liquid Glass style UI motion showcase
 
-**#38 by likes** · ♥ 2,034 · by [@motion_conquest](https://x.com/motion_conquest) · [Original post](https://x.com/motion_conquest/status/2103510103622308152) · [Watch the video](https://video.twimg.com/amplify_video/2103509946549862400/vid/avc1/720x720/t3_zHMb5n3k-kQgl.mp4?tag=29)
+**#47 by popularity** · ♥ 2,034 · 176,847 views · by [@motion_conquest](https://x.com/motion_conquest) · [Original post](https://x.com/motion_conquest/status/2103510103622308152) · [Watch the video](https://video.twimg.com/amplify_video/2103509946549862400/vid/avc1/720x720/t3_zHMb5n3k-kQgl.mp4?tag=29)
 
 [![Apple Liquid Glass style UI motion showcase](https://pbs.twimg.com/amplify_video_thumb/2103509946549862400/img/1ZjYDT6xXaZPDJKS.jpg)](https://x.com/motion_conquest/status/2103510103622308152)
 

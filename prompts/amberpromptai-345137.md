@@ -1,6 +1,6 @@
 # Tried Opus 5.5 to explain the Mid-Autumn Festival 🌕 From ancient…
 
-**#663 by likes** · ♥ 4 · by [@AmberPromptai](https://x.com/AmberPromptai) · [Original post](https://x.com/AmberPromptai/status/2103793821012345137) · [Watch the video](https://media.skillry.dev/opus-5-5/amberpromptai-345137/original.mp4)
+**#663 by popularity** · ♥ 4 · by [@AmberPromptai](https://x.com/AmberPromptai) · [Original post](https://x.com/AmberPromptai/status/2103793821012345137) · [Watch the video](https://media.skillry.dev/opus-5-5/amberpromptai-345137/original.mp4)
 
 [![Tried Opus 5.5 to explain the Mid-Autumn Festival 🌕 From ancient…](https://media.skillry.dev/opus-5-5/amberpromptai-345137/original.e6e83e9405.webp)](https://x.com/AmberPromptai/status/2103793821012345137)
 

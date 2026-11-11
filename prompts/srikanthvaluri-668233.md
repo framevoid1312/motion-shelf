@@ -1,6 +1,6 @@
 # Four-model video prompt comparison
 
-**#274 by likes** · ♥ 234 · by [@srikanthvaluri](https://x.com/srikanthvaluri) · [Original post](https://x.com/srikanthvaluri/status/2105278940906668233) · [Watch the video](https://video.twimg.com/amplify_video/2105277612558004225/vid/avc1/1280x720/Oyq_57I3HhrwIWOf.mp4)
+**#223 by popularity** · ♥ 234 · 43,829 views · by [@srikanthvaluri](https://x.com/srikanthvaluri) · [Original post](https://x.com/srikanthvaluri/status/2105278940906668233) · [Watch the video](https://video.twimg.com/amplify_video/2105277612558004225/vid/avc1/1280x720/Oyq_57I3HhrwIWOf.mp4)
 
 [![Four-model video prompt comparison](https://pbs.twimg.com/amplify_video_thumb/2105277612558004225/img/j0HP_bwE3zKVdsea.jpg)](https://x.com/srikanthvaluri/status/2105278940906668233)
 

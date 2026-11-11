@@ -1,6 +1,6 @@
 # Create a 1-on-1 card game like Hearthstone. Just make it. As best you…
 
-**#693 by likes** · ♥ 3 · by [@aisongman](https://x.com/aisongman) · [Original post](https://x.com/aisongman/status/2103763192971461057) · [Watch the video](https://media.skillry.dev/opus-5-5/aisongman-461057/original.mp4)
+**#693 by popularity** · ♥ 3 · by [@aisongman](https://x.com/aisongman) · [Original post](https://x.com/aisongman/status/2103763192971461057) · [Watch the video](https://media.skillry.dev/opus-5-5/aisongman-461057/original.mp4)
 
 [![Create a 1-on-1 card game like Hearthstone. Just make it. As best you…](https://media.skillry.dev/opus-5-5/aisongman-461057/original.b99a1a425c.webp)](https://x.com/aisongman/status/2103763192971461057)
 

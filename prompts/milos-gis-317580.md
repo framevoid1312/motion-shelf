@@ -1,6 +1,6 @@
 # Create a video of Portland, OR's bus service on a random Tuesday!…
 
-**#2 by likes** · ♥ 20,509 · by [@milos_gis](https://x.com/milos_gis) · [Original post](https://x.com/milos_gis/status/2103751211040317580) · [Watch the video](https://video.twimg.com/amplify_video/2103751033193193472/vid/avc1/720x900/PTB3lx32IDAhaBa5.mp4)
+**#3 by popularity** · ♥ 20,509 · by [@milos_gis](https://x.com/milos_gis) · [Original post](https://x.com/milos_gis/status/2103751211040317580) · [Watch the video](https://video.twimg.com/amplify_video/2103751033193193472/vid/avc1/720x900/PTB3lx32IDAhaBa5.mp4)
 
 [![Create a video of Portland, OR's bus service on a random Tuesday!…](https://media.skillry.dev/opus-5-5/_prompts/milos-gis-317580/poster.49671e7853.webp)](https://x.com/milos_gis/status/2103751211040317580)
 

@@ -1,6 +1,6 @@
 # Please do not reference any previous memories or skills. I've been…
 
-**#796 by likes** · ♥ 1 · by [@nolkeeg](https://x.com/nolkeeg) · [Original post](https://x.com/nolkeeg/status/2103841917603635633) · [Watch the video](https://media.skillry.dev/opus-5-5/nolkeeg-635633/original.mp4)
+**#797 by popularity** · ♥ 1 · by [@nolkeeg](https://x.com/nolkeeg) · [Original post](https://x.com/nolkeeg/status/2103841917603635633) · [Watch the video](https://media.skillry.dev/opus-5-5/nolkeeg-635633/original.mp4)
 
 [![Please do not reference any previous memories or skills. I've been…](https://media.skillry.dev/opus-5-5/nolkeeg-635633/original.8a27593d3a.webp)](https://x.com/nolkeeg/status/2103841917603635633)
 

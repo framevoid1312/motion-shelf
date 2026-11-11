@@ -1,6 +1,6 @@
 # Claude's own sketchbook, flipped page by page
 
-**#299 by likes** · ♥ 187 · by [@kloss_xyz](https://x.com/kloss_xyz) · [Original post](https://x.com/kloss_xyz/status/2104021881229869394) · [Watch the video](https://video.twimg.com/amplify_video/2103961990691782656/vid/avc1/720x720/ZYFEflX2Wall4w_I.mp4)
+**#296 by popularity** · ♥ 187 · by [@kloss_xyz](https://x.com/kloss_xyz) · [Original post](https://x.com/kloss_xyz/status/2104021881229869394) · [Watch the video](https://video.twimg.com/amplify_video/2103961990691782656/vid/avc1/720x720/ZYFEflX2Wall4w_I.mp4)
 
 [![Claude's own sketchbook, flipped page by page](https://pbs.twimg.com/amplify_video_thumb/2103961990691782656/img/OOYJkYHNln-_Xn-W.jpg)](https://x.com/kloss_xyz/status/2104021881229869394)
 

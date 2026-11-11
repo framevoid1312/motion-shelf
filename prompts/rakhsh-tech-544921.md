@@ -1,6 +1,6 @@
 # Claude Opus 5.5…
 
-**#701 by likes** · ♥ 3 · by [@Rakhsh_Tech](https://x.com/Rakhsh_Tech) · [Original post](https://x.com/Rakhsh_Tech/status/2104144532644544921) · [Watch the video](https://media.skillry.dev/opus-5-5/rakhsh-tech-544921/original.mp4)
+**#701 by popularity** · ♥ 3 · by [@Rakhsh_Tech](https://x.com/Rakhsh_Tech) · [Original post](https://x.com/Rakhsh_Tech/status/2104144532644544921) · [Watch the video](https://media.skillry.dev/opus-5-5/rakhsh-tech-544921/original.mp4)
 
 [![Claude Opus 5.5…](https://media.skillry.dev/opus-5-5/rakhsh-tech-544921/original.6b83d6b15f.webp)](https://x.com/Rakhsh_Tech/status/2104144532644544921)
 

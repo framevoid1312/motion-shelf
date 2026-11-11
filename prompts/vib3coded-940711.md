@@ -1,6 +1,6 @@
 # WebGPU Plush Marlin Interactive Study
 
-**#341 by likes** · ♥ 124 · by [@vib3coded](https://x.com/vib3coded) · [Original post](https://x.com/vib3coded/status/2108850731750940711) · [Watch the video](https://video.twimg.com/amplify_video/2108850565274804225/vid/avc1/720x910/YtEQ5NCqeNy_ddB-.mp4)
+**#342 by popularity** · ♥ 124 · by [@vib3coded](https://x.com/vib3coded) · [Original post](https://x.com/vib3coded/status/2108850731750940711) · [Watch the video](https://video.twimg.com/amplify_video/2108850565274804225/vid/avc1/720x910/YtEQ5NCqeNy_ddB-.mp4)
 
 [![WebGPU Plush Marlin Interactive Study](https://pbs.twimg.com/amplify_video_thumb/2108850565274804225/img/hk-90kzXl0_VznJf.jpg)](https://x.com/vib3coded/status/2108850731750940711)
 

@@ -1,6 +1,6 @@
 # A rigged creature that runs and pounces, in Blender
 
-**#236 by likes** · ♥ 321 · by [@theparuchh](https://x.com/theparuchh) · [Original post](https://x.com/theparuchh/status/2115508738891063617) · [Watch the video](https://video.twimg.com/amplify_video/2115507091410423808/vid/avc1/1280x720/mgLWwv2ovTegebSr.mp4)
+**#263 by popularity** · ♥ 321 · 19,715 views · by [@theparuchh](https://x.com/theparuchh) · [Original post](https://x.com/theparuchh/status/2115508738891063617) · [Watch the video](https://video.twimg.com/amplify_video/2115507091410423808/vid/avc1/1280x720/mgLWwv2ovTegebSr.mp4)
 
 [![A rigged creature that runs and pounces, in Blender](https://pbs.twimg.com/amplify_video_thumb/2115507091410423808/img/-3xdetGjUSLCKRAd.jpg)](https://x.com/theparuchh/status/2115508738891063617)
 

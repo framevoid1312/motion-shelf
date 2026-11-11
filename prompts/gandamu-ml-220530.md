@@ -1,6 +1,6 @@
 # I would like you to create a kickass, impressive 1990s style…
 
-**#114 by likes** · ♥ 773 · by [@gandamu_ml](https://x.com/gandamu_ml) · [Original post](https://x.com/gandamu_ml/status/2102919394775220530) · [Watch the video](https://media.skillry.dev/opus-5-5/gandamu-ml-220530/original.mp4)
+**#152 by popularity** · ♥ 773 · 38,964 views · by [@gandamu_ml](https://x.com/gandamu_ml) · [Original post](https://x.com/gandamu_ml/status/2102919394775220530) · [Watch the video](https://media.skillry.dev/opus-5-5/gandamu-ml-220530/original.mp4)
 
 [![I would like you to create a kickass, impressive 1990s style…](https://media.skillry.dev/opus-5-5/gandamu-ml-220530/original.16f5785d49.webp)](https://x.com/gandamu_ml/status/2102919394775220530)
 

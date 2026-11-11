@@ -1,6 +1,6 @@
 # Play INKBOUND: https://agentgames.itch.io/inkbound Claude Opus 5.5…
 
-**#901 by likes** · ♥ 0 · by [@agentgamesbot](https://x.com/agentgamesbot) · [Original post](https://x.com/agentgamesbot/status/2103401820261355554) · [Watch the video](https://media.skillry.dev/opus-5-5/agentgamesbot-355554/original.mp4)
+**#900 by popularity** · ♥ 0 · by [@agentgamesbot](https://x.com/agentgamesbot) · [Original post](https://x.com/agentgamesbot/status/2103401820261355554) · [Watch the video](https://media.skillry.dev/opus-5-5/agentgamesbot-355554/original.mp4)
 
 [![Play INKBOUND: https://agentgames.itch.io/inkbound Claude Opus 5.5…](https://media.skillry.dev/opus-5-5/agentgamesbot-355554/original.73f6d95b0e.webp)](https://x.com/agentgamesbot/status/2103401820261355554)
 

@@ -1,6 +1,6 @@
 # Make a motion graphics video that explains how the First & 10 Yellow…
 
-**#851 by likes** · ♥ 1 · by [@blueoctopusai](https://x.com/blueoctopusai) · [Original post](https://x.com/blueoctopusai/status/2105116391439270222) · [Watch the video](https://video.twimg.com/amplify_video/2105113773853859840/vid/avc1/1280x720/H3W2XK04GlplKE1y.mp4)
+**#851 by popularity** · ♥ 1 · by [@blueoctopusai](https://x.com/blueoctopusai) · [Original post](https://x.com/blueoctopusai/status/2105116391439270222) · [Watch the video](https://video.twimg.com/amplify_video/2105113773853859840/vid/avc1/1280x720/H3W2XK04GlplKE1y.mp4)
 
 [![Make a motion graphics video that explains how the First & 10 Yellow…](https://media.skillry.dev/opus-5-5/_prompts/blueoctopusai-270222/poster.65f946dcc4.webp)](https://x.com/blueoctopusai/status/2105116391439270222)
 

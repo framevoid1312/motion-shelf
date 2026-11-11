@@ -1,6 +1,6 @@
 # Animated GitHub Version Control Explainer
 
-**#337 by likes** · ♥ 127 · by [@sundyme](https://x.com/sundyme) · [Original post](https://x.com/sundyme/status/2102751132502446549) · [Watch the video](https://video.twimg.com/amplify_video/2102750603839754240/vid/avc1/1280x720/VaBMHeLWghf0Mhhw.mp4)
+**#346 by popularity** · ♥ 127 · 10,038 views · by [@sundyme](https://x.com/sundyme) · [Original post](https://x.com/sundyme/status/2102751132502446549) · [Watch the video](https://video.twimg.com/amplify_video/2102750603839754240/vid/avc1/1280x720/VaBMHeLWghf0Mhhw.mp4)
 
 [![Animated GitHub Version Control Explainer](https://pbs.twimg.com/amplify_video_thumb/2102750603839754240/img/IpZN19tOj_T_yWRz.jpg)](https://x.com/sundyme/status/2102751132502446549)
 

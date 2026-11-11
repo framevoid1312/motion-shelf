@@ -1,6 +1,6 @@
 # Swedish stamp designs in JavaScript
 
-**#173 by likes** · ♥ 476 · by [@ermanmalak](https://x.com/ermanmalak) · [Original post](https://x.com/ermanmalak/status/2109297440021201074) · [Watch the video](https://video.twimg.com/amplify_video/2109297417355137025/vid/avc1/720x720/4Z9UrRdFhpi6ER9b.mp4?tag=16)
+**#240 by popularity** · ♥ 476 · 12,624 views · by [@ermanmalak](https://x.com/ermanmalak) · [Original post](https://x.com/ermanmalak/status/2109297440021201074) · [Watch the video](https://video.twimg.com/amplify_video/2109297417355137025/vid/avc1/720x720/4Z9UrRdFhpi6ER9b.mp4?tag=16)
 
 [![Swedish stamp designs in JavaScript](https://pbs.twimg.com/amplify_video_thumb/2109297417355137025/img/BM0eJg9q5k1vTWAz.jpg)](https://x.com/ermanmalak/status/2109297440021201074)
 

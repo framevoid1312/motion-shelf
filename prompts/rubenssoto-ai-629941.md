@@ -1,6 +1,6 @@
 # Electric motor 3D animation comparison
 
-**#102 by likes** · ♥ 869 · by [@rubenssoto_ai](https://x.com/rubenssoto_ai) · [Original post](https://x.com/rubenssoto_ai/status/2111513156589629941) · [Watch the video](https://video.twimg.com/amplify_video/2111513090248310784/vid/avc1/720x916/1ZliP8Hrct-6nFt_.mp4?tag=29)
+**#124 by popularity** · ♥ 869 · 65,079 views · by [@rubenssoto_ai](https://x.com/rubenssoto_ai) · [Original post](https://x.com/rubenssoto_ai/status/2111513156589629941) · [Watch the video](https://video.twimg.com/amplify_video/2111513090248310784/vid/avc1/720x916/1ZliP8Hrct-6nFt_.mp4?tag=29)
 
 [![Electric motor 3D animation comparison](https://pbs.twimg.com/amplify_video_thumb/2111513090248310784/img/M1iqXKLysMP8Gscp.jpg)](https://x.com/rubenssoto_ai/status/2111513156589629941)
 

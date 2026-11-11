@@ -1,6 +1,6 @@
 # Surveillance-style subject analysis loop
 
-**#193 by likes** · ♥ 402 · by [@aimikoda](https://x.com/aimikoda) · [Original post](https://x.com/aimikoda/status/2112590477144797190) · [Watch the video](https://video.twimg.com/amplify_video/2112590196453642241/vid/avc1/720x1440/K3nueXw85CTmTlJr.mp4?tag=29)
+**#237 by popularity** · ♥ 402 · 21,940 views · by [@aimikoda](https://x.com/aimikoda) · [Original post](https://x.com/aimikoda/status/2112590477144797190) · [Watch the video](https://video.twimg.com/amplify_video/2112590196453642241/vid/avc1/720x1440/K3nueXw85CTmTlJr.mp4?tag=29)
 
 [![Surveillance-style subject analysis loop](https://pbs.twimg.com/amplify_video_thumb/2112590196453642241/img/k-6y-GwIevo_-OL2.jpg)](https://x.com/aimikoda/status/2112590477144797190)
 

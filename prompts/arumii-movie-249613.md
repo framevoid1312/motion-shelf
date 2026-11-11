@@ -1,6 +1,6 @@
 # Opus5.5と最近流行りのHyperFramesで、 CMの最後に出てそうな架空の企業ロゴ作ってみたけどこんなことが出来るんだね…！
 
-**#611 by likes** · ♥ 6 · by [@arumii_movie](https://x.com/arumii_movie) · [Original post](https://x.com/arumii_movie/status/2107737607908249613) · [Watch the video](https://media.skillry.dev/opus-5-5/arumii-movie-249613/original.mp4)
+**#611 by popularity** · ♥ 6 · by [@arumii_movie](https://x.com/arumii_movie) · [Original post](https://x.com/arumii_movie/status/2107737607908249613) · [Watch the video](https://media.skillry.dev/opus-5-5/arumii-movie-249613/original.mp4)
 
 [![Opus5.5と最近流行りのHyperFramesで、 CMの最後に出てそうな架空の企業ロゴ作ってみたけどこんなことが出来るんだね…！](https://media.skillry.dev/opus-5-5/arumii-movie-249613/original.ff7b025cd4.webp)](https://x.com/arumii_movie/status/2107737607908249613)
 

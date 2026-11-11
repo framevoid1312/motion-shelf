@@ -1,6 +1,6 @@
 # Showreel prompt turned app launch video
 
-**#432 by likes** · ♥ 34 · by [@MustaphaFenzar](https://x.com/MustaphaFenzar) · [Original post](https://x.com/MustaphaFenzar/status/2103708363074973906) · [Watch the video](https://video.twimg.com/amplify_video/2103708320368668672/vid/avc1/1280x720/74oPGL2Z7ft3Lfsq.mp4)
+**#396 by popularity** · ♥ 34 · 7,809 views · by [@MustaphaFenzar](https://x.com/MustaphaFenzar) · [Original post](https://x.com/MustaphaFenzar/status/2103708363074973906) · [Watch the video](https://video.twimg.com/amplify_video/2103708320368668672/vid/avc1/1280x720/74oPGL2Z7ft3Lfsq.mp4)
 
 [![Showreel prompt turned app launch video](https://pbs.twimg.com/amplify_video_thumb/2103708320368668672/img/J8hkxK6JppirdCya.jpg)](https://x.com/MustaphaFenzar/status/2103708363074973906)
 

@@ -1,6 +1,6 @@
 # Build me a jet engine in interactive 3D, from intake to exhaust, in…
 
-**#640 by likes** · ♥ 5 · by [@aichrislee](https://x.com/aichrislee) · [Original post](https://x.com/aichrislee/status/2106535528149479847) · [Watch the video](https://video.twimg.com/ext_tw_video/2106535291490078720/pu/vid/avc1/1280x720/F0S2-OkdzLIEQ46R.mp4?tag=12)
+**#640 by popularity** · ♥ 5 · by [@aichrislee](https://x.com/aichrislee) · [Original post](https://x.com/aichrislee/status/2106535528149479847) · [Watch the video](https://video.twimg.com/ext_tw_video/2106535291490078720/pu/vid/avc1/1280x720/F0S2-OkdzLIEQ46R.mp4?tag=12)
 
 [![Build me a jet engine in interactive 3D, from intake to exhaust, in…](https://media.skillry.dev/opus-5-5/_prompts/aichrislee-479847/poster.9b9d3b295d.webp)](https://x.com/aichrislee/status/2106535528149479847)
 

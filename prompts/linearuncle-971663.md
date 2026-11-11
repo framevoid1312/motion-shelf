@@ -1,6 +1,6 @@
 # 请用Manim给我制作一个导数概念学习的视频，要求通俗易懂，并且有例子，引人思考。配音使用edge-tts
 
-**#267 by likes** · ♥ 260 · by [@LinearUncle](https://x.com/LinearUncle) · [Original post](https://x.com/LinearUncle/status/2103128559174971663) · [Watch the video](https://media.skillry.dev/opus-5-5/linearuncle-971663/original.mp4)
+**#267 by popularity** · ♥ 260 · 23,477 views · by [@LinearUncle](https://x.com/LinearUncle) · [Original post](https://x.com/LinearUncle/status/2103128559174971663) · [Watch the video](https://media.skillry.dev/opus-5-5/linearuncle-971663/original.mp4)
 
 [![请用Manim给我制作一个导数概念学习的视频，要求通俗易懂，并且有例子，引人思考。配音使用edge-tts](https://media.skillry.dev/opus-5-5/linearuncle-971663/original.090384a0ec.webp)](https://x.com/LinearUncle/status/2103128559174971663)
 

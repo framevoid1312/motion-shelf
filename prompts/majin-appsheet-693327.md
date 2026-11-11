@@ -1,6 +1,6 @@
 # 流行ってることは一回試しとくマン。 Claude Code（Opus…
 
-**#217 by likes** · ♥ 360 · by [@Majin_AppSheet](https://x.com/Majin_AppSheet) · [Original post](https://x.com/Majin_AppSheet/status/2103497319899693327) · [Watch the video](https://media.skillry.dev/opus-5-5/majin-appsheet-693327/original.mp4)
+**#213 by popularity** · ♥ 360 · 36,980 views · by [@Majin_AppSheet](https://x.com/Majin_AppSheet) · [Original post](https://x.com/Majin_AppSheet/status/2103497319899693327) · [Watch the video](https://media.skillry.dev/opus-5-5/majin-appsheet-693327/original.mp4)
 
 [![流行ってることは一回試しとくマン。 Claude Code（Opus…](https://media.skillry.dev/opus-5-5/majin-appsheet-693327/original.43d46d4e8a.webp)](https://x.com/Majin_AppSheet/status/2103497319899693327)
 

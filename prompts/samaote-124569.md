@@ -1,6 +1,6 @@
 # make a dynamic lyrics motion graphics video based on the attached…
 
-**#883 by likes** · ♥ 0 · by [@samaote](https://x.com/samaote) · [Original post](https://x.com/samaote/status/2103510974796124569) · [Watch the video](https://media.skillry.dev/opus-5-5/samaote-124569/original.mp4)
+**#882 by popularity** · ♥ 0 · by [@samaote](https://x.com/samaote) · [Original post](https://x.com/samaote/status/2103510974796124569) · [Watch the video](https://media.skillry.dev/opus-5-5/samaote-124569/original.mp4)
 
 [![make a dynamic lyrics motion graphics video based on the attached…](https://media.skillry.dev/opus-5-5/samaote-124569/original.16a8bcaaa0.webp)](https://x.com/samaote/status/2103510974796124569)
 

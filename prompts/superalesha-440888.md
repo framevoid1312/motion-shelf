@@ -1,6 +1,6 @@
 # History of the Claude models in pure JS
 
-**#65 by likes** · ♥ 1,194 · by [@superalesha](https://x.com/superalesha) · [Original post](https://x.com/superalesha/status/2102463796149440888) · [Watch the video](https://video.twimg.com/amplify_video/2102463260083814400/vid/avc1/1280x720/tZkdj2xx4jyeHXec.mp4)
+**#100 by popularity** · ♥ 1,194 · 71,556 views · by [@superalesha](https://x.com/superalesha) · [Original post](https://x.com/superalesha/status/2102463796149440888) · [Watch the video](https://video.twimg.com/amplify_video/2102463260083814400/vid/avc1/1280x720/tZkdj2xx4jyeHXec.mp4)
 
 [![History of the Claude models in pure JS](https://pbs.twimg.com/amplify_video_thumb/2102463260083814400/img/FOxC8GQzTnxDnw8F.jpg)](https://x.com/superalesha/status/2102463796149440888)
 

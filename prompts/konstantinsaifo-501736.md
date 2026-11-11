@@ -1,6 +1,6 @@
 # I asked Claude Opus 5.5 to explain how a rocket engine works by…
 
-**#9 by likes** · ♥ 8,380 · by [@konstantinsaifo](https://x.com/konstantinsaifo) · [Original post](https://x.com/konstantinsaifo/status/2104094723887501736) · [Watch the video](https://media.skillry.dev/opus-5-5/konstantinsaifo-501736/original.mp4)
+**#9 by popularity** · ♥ 8,380 · 1,183,026 views · by [@konstantinsaifo](https://x.com/konstantinsaifo) · [Original post](https://x.com/konstantinsaifo/status/2104094723887501736) · [Watch the video](https://media.skillry.dev/opus-5-5/konstantinsaifo-501736/original.mp4)
 
 [![I asked Claude Opus 5.5 to explain how a rocket engine works by…](https://media.skillry.dev/opus-5-5/konstantinsaifo-501736/original.732cb71569.webp)](https://x.com/konstantinsaifo/status/2104094723887501736)
 

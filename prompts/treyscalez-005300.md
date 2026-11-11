@@ -1,6 +1,6 @@
 # Vertical cartoon short built in three.js
 
-**#172 by likes** · ♥ 480 · by [@treyscalez](https://x.com/treyscalez) · [Original post](https://x.com/treyscalez/status/2118357912624005300) · [Watch the video](https://www.sandbase.ai/lab/media/x/opus-5-5/2118357912624005300/video.mp4)
+**#171 by popularity** · ♥ 480 · 53,683 views · by [@treyscalez](https://x.com/treyscalez) · [Original post](https://x.com/treyscalez/status/2118357912624005300) · [Watch the video](https://www.sandbase.ai/lab/media/x/opus-5-5/2118357912624005300/video.mp4)
 
 [![Vertical cartoon short built in three.js](https://www.sandbase.ai/lab/media/x/opus-5-5/2118357912624005300/poster.jpg)](https://x.com/treyscalez/status/2118357912624005300)
 

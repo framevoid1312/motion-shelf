@@ -1,6 +1,6 @@
 # Gave Claude Opus 5.5 one reference video. It came back with a full…
 
-**#766 by likes** · ♥ 2 · by [@Sonali_Sahu_09](https://x.com/Sonali_Sahu_09) · [Original post](https://x.com/Sonali_Sahu_09/status/2106265463378350200) · [Watch the video](https://media.skillry.dev/opus-5-5/sonali-sahu-09-350200/original.mp4)
+**#766 by popularity** · ♥ 2 · by [@Sonali_Sahu_09](https://x.com/Sonali_Sahu_09) · [Original post](https://x.com/Sonali_Sahu_09/status/2106265463378350200) · [Watch the video](https://media.skillry.dev/opus-5-5/sonali-sahu-09-350200/original.mp4)
 
 [![Gave Claude Opus 5.5 one reference video. It came back with a full…](https://media.skillry.dev/opus-5-5/sonali-sahu-09-350200/original.abb2b77eed.webp)](https://x.com/Sonali_Sahu_09/status/2106265463378350200)
 

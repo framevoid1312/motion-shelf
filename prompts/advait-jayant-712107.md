@@ -1,6 +1,6 @@
 # make a 20-second motion graphics manifesto for DreamFort:…
 
-**#526 by likes** · ♥ 12 · by [@advait_jayant](https://x.com/advait_jayant) · [Original post](https://x.com/advait_jayant/status/2103565104243712107) · [Watch the video](https://media.skillry.dev/opus-5-5/advait-jayant-712107/original.mp4)
+**#526 by popularity** · ♥ 12 · by [@advait_jayant](https://x.com/advait_jayant) · [Original post](https://x.com/advait_jayant/status/2103565104243712107) · [Watch the video](https://media.skillry.dev/opus-5-5/advait-jayant-712107/original.mp4)
 
 [![make a 20-second motion graphics manifesto for DreamFort:…](https://media.skillry.dev/opus-5-5/advait-jayant-712107/original.472a46d88f.webp)](https://x.com/advait_jayant/status/2103565104243712107)
 

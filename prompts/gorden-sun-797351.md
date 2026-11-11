@@ -1,6 +1,6 @@
 # 卡点的3D球体下坠的动画视频：对标专业的Blender做的效果，音乐是多首经典的纯音乐，场景按音乐切换，3D球体下坠时在3D场景的物件中弹跳…
 
-**#377 by likes** · ♥ 70 · by [@Gorden_Sun](https://x.com/Gorden_Sun) · [Original post](https://x.com/Gorden_Sun/status/2105302007896797351) · [Watch the video](https://video.twimg.com/amplify_video/2105301541041352704/vid/avc1/1280x720/L1TNDK7fFdUrDXFC.mp4)
+**#385 by popularity** · ♥ 70 · by [@Gorden_Sun](https://x.com/Gorden_Sun) · [Original post](https://x.com/Gorden_Sun/status/2105302007896797351) · [Watch the video](https://video.twimg.com/amplify_video/2105301541041352704/vid/avc1/1280x720/L1TNDK7fFdUrDXFC.mp4)
 
 [![卡点的3D球体下坠的动画视频：对标专业的Blender做的效果，音乐是多首经典的纯音乐，场景按音乐切换，3D球体下坠时在3D场景的物件中弹跳…](https://media.skillry.dev/opus-5-5/_prompts/gorden-sun-797351/poster.5c67922dd0.webp)](https://x.com/Gorden_Sun/status/2105302007896797351)
 

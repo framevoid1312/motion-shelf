@@ -1,6 +1,6 @@
 # A cow that runs
 
-**#1 by likes** · ♥ 24,823 · by [@AIMind_Ai](https://x.com/AIMind_Ai) · [Original post](https://x.com/AIMind_Ai/status/2107435499686154557) · [Watch the video](https://video.twimg.com/amplify_video/2107435237265305600/vid/avc1/720x900/_sHXUcPylB8y400M.mp4)
+**#5 by popularity** · ♥ 24,823 · 1,380,015 views · by [@AIMind_Ai](https://x.com/AIMind_Ai) · [Original post](https://x.com/AIMind_Ai/status/2107435499686154557) · [Watch the video](https://video.twimg.com/amplify_video/2107435237265305600/vid/avc1/720x900/_sHXUcPylB8y400M.mp4)
 
 [![A cow that runs](https://pbs.twimg.com/amplify_video_thumb/2107435237265305600/img/jvFc3op0U3-f_HCs.jpg)](https://x.com/AIMind_Ai/status/2107435499686154557)
 

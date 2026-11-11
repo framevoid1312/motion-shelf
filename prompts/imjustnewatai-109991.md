@@ -1,6 +1,6 @@
 # 3D Rube Goldberg machine
 
-**#120 by likes** · ♥ 726 · by [@imjustnewatai](https://x.com/imjustnewatai) · [Original post](https://x.com/imjustnewatai/status/2105889407056109991) · [Watch the video](https://video.twimg.com/amplify_video/2105889292841029633/vid/avc1/1280x720/j9OyM1SXZ0Qv8-Vm.mp4)
+**#151 by popularity** · ♥ 726 · 44,383 views · by [@imjustnewatai](https://x.com/imjustnewatai) · [Original post](https://x.com/imjustnewatai/status/2105889407056109991) · [Watch the video](https://video.twimg.com/amplify_video/2105889292841029633/vid/avc1/1280x720/j9OyM1SXZ0Qv8-Vm.mp4)
 
 [![3D Rube Goldberg machine](https://pbs.twimg.com/amplify_video_thumb/2105889292841029633/img/iz68iBAHIRdyp316.jpg)](https://x.com/imjustnewatai/status/2105889407056109991)
 

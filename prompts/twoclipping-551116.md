@@ -1,6 +1,6 @@
 # <inputs> Ask me for: my product's name (one lowercase word), a 4-word…
 
-**#415 by likes** · ♥ 44 · by [@twoclipping](https://x.com/twoclipping) · [Original post](https://x.com/twoclipping/status/2106101258834551116) · [Watch the video](https://video.twimg.com/amplify_video/2106100402835869696/vid/avc1/720x720/ehZWP4I0aXfW9rzu.mp4)
+**#418 by popularity** · ♥ 44 · by [@twoclipping](https://x.com/twoclipping) · [Original post](https://x.com/twoclipping/status/2106101258834551116) · [Watch the video](https://video.twimg.com/amplify_video/2106100402835869696/vid/avc1/720x720/ehZWP4I0aXfW9rzu.mp4)
 
 [![<inputs> Ask me for: my product's name (one lowercase word), a 4-word…](https://media.skillry.dev/opus-5-5/_prompts/twoclipping-551116/poster.00b0fd629c.webp)](https://x.com/twoclipping/status/2106101258834551116)
 

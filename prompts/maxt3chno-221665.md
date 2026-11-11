@@ -1,6 +1,6 @@
 # Rigged 3D shark with swim and bite animations
 
-**#345 by likes** · ♥ 117 · by [@maxt3chno](https://x.com/maxt3chno) · [Original post](https://x.com/maxt3chno/status/2113934291818221665) · [Watch the video](https://video.twimg.com/amplify_video/2113934210998185984/vid/avc1/1200x720/6__XcW73o4_kA1jZ.mp4?tag=29)
+**#360 by popularity** · ♥ 117 · 6,897 views · by [@maxt3chno](https://x.com/maxt3chno) · [Original post](https://x.com/maxt3chno/status/2113934291818221665) · [Watch the video](https://video.twimg.com/amplify_video/2113934210998185984/vid/avc1/1200x720/6__XcW73o4_kA1jZ.mp4?tag=29)
 
 [![Rigged 3D shark with swim and bite animations](https://pbs.twimg.com/amplify_video_thumb/2113934210998185984/img/rm7-OKn_ZorgvJAO.jpg)](https://x.com/maxt3chno/status/2113934291818221665)
 

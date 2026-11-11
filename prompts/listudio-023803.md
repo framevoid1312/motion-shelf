@@ -1,6 +1,6 @@
 # Investigate my project GenVizu: https://t.co/5RaGMqn7rF Create a…
 
-**#860 by likes** · ♥ 1 · by [@listudio](https://x.com/listudio) · [Original post](https://x.com/listudio/status/2104431418114023803) · [Watch the video](https://video.twimg.com/amplify_video/2104430754860310528/vid/avc1/1280x720/1eBoXL4hzUyEfO6y.mp4)
+**#860 by popularity** · ♥ 1 · by [@listudio](https://x.com/listudio) · [Original post](https://x.com/listudio/status/2104431418114023803) · [Watch the video](https://video.twimg.com/amplify_video/2104430754860310528/vid/avc1/1280x720/1eBoXL4hzUyEfO6y.mp4)
 
 [![Investigate my project GenVizu: https://t.co/5RaGMqn7rF Create a…](https://media.skillry.dev/opus-5-5/_prompts/listudio-023803/poster.59d5bd2ff6.webp)](https://x.com/listudio/status/2104431418114023803)
 

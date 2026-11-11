@@ -1,6 +1,6 @@
 # Menu-scanning taste-matching app demo
 
-**#204 by likes** · ♥ 381 · by [@Lovable](https://x.com/Lovable) · [Original post](https://x.com/Lovable/status/2112191630266761382) · [Watch the video](https://video.twimg.com/amplify_video/2112191437299503104/vid/avc1/720x822/tpbDTllv_MrNoip_.mp4?tag=29)
+**#208 by popularity** · ♥ 381 · 38,100 views · by [@Lovable](https://x.com/Lovable) · [Original post](https://x.com/Lovable/status/2112191630266761382) · [Watch the video](https://video.twimg.com/amplify_video/2112191437299503104/vid/avc1/720x822/tpbDTllv_MrNoip_.mp4?tag=29)
 
 [![Menu-scanning taste-matching app demo](https://pbs.twimg.com/amplify_video_thumb/2112191437299503104/img/x8wqOfDn-x1b2sAp.jpg)](https://x.com/Lovable/status/2112191630266761382)
 

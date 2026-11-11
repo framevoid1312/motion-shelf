@@ -1,6 +1,6 @@
 # Claude Opus 5.5 on our AI coding benchmark: build a fully autonomous…
 
-**#897 by likes** · ♥ 0 · by [@StephanFerraro](https://x.com/StephanFerraro) · [Original post](https://x.com/StephanFerraro/status/2103020274107224281) · [Watch the video](https://media.skillry.dev/opus-5-5/stephanferraro-224281/original.mp4)
+**#896 by popularity** · ♥ 0 · by [@StephanFerraro](https://x.com/StephanFerraro) · [Original post](https://x.com/StephanFerraro/status/2103020274107224281) · [Watch the video](https://media.skillry.dev/opus-5-5/stephanferraro-224281/original.mp4)
 
 [![Claude Opus 5.5 on our AI coding benchmark: build a fully autonomous…](https://media.skillry.dev/opus-5-5/stephanferraro-224281/original.b20679d1cb.webp)](https://x.com/StephanFerraro/status/2103020274107224281)
 

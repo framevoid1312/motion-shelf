@@ -1,6 +1,6 @@
 # Voxel pagoda island model comparison
 
-**#169 by likes** · ♥ 489 · by [@adxtyahq](https://x.com/adxtyahq) · [Original post](https://x.com/adxtyahq/status/2113687234448875770) · [Watch the video](https://video.twimg.com/amplify_video/2113686585690746880/vid/avc1/1280x720/3LXWYSLgbui_e9M4.mp4?tag=29)
+**#203 by popularity** · ♥ 489 · 29,721 views · by [@adxtyahq](https://x.com/adxtyahq) · [Original post](https://x.com/adxtyahq/status/2113687234448875770) · [Watch the video](https://video.twimg.com/amplify_video/2113686585690746880/vid/avc1/1280x720/3LXWYSLgbui_e9M4.mp4?tag=29)
 
 [![Voxel pagoda island model comparison](https://pbs.twimg.com/amplify_video_thumb/2113686585690746880/img/QS7Bhj2sKrFQ6e6v.jpg)](https://x.com/adxtyahq/status/2113687234448875770)
 

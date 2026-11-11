@@ -1,6 +1,6 @@
 # 2076: a world after humanity
 
-**#93 by likes** · ♥ 940 · by [@Hesamation](https://x.com/Hesamation) · [Original post](https://x.com/Hesamation/status/2103457566978162901) · [Watch the video](https://video.twimg.com/amplify_video/2103457419443437568/vid/avc1/720x900/e4PPV_VI9NghzRv4.mp4)
+**#109 by popularity** · ♥ 940 · 88,087 views · by [@Hesamation](https://x.com/Hesamation) · [Original post](https://x.com/Hesamation/status/2103457566978162901) · [Watch the video](https://video.twimg.com/amplify_video/2103457419443437568/vid/avc1/720x900/e4PPV_VI9NghzRv4.mp4)
 
 [![2076: a world after humanity](https://pbs.twimg.com/amplify_video_thumb/2103457419443437568/img/EQbIUnd2aEJqUksO.jpg)](https://x.com/Hesamation/status/2103457566978162901)
 

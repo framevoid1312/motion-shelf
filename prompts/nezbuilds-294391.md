@@ -1,6 +1,6 @@
 # <inputs> Ask me for: 8 to 12 UI states I want the shape to become…
 
-**#600 by likes** · ♥ 6 · by [@nezbuilds](https://x.com/nezbuilds) · [Original post](https://x.com/nezbuilds/status/2103487427365294391) · [Watch the video](https://media.skillry.dev/opus-5-5/nezbuilds-294391/original.mp4)
+**#600 by popularity** · ♥ 6 · by [@nezbuilds](https://x.com/nezbuilds) · [Original post](https://x.com/nezbuilds/status/2103487427365294391) · [Watch the video](https://media.skillry.dev/opus-5-5/nezbuilds-294391/original.mp4)
 
 [![<inputs> Ask me for: 8 to 12 UI states I want the shape to become…](https://media.skillry.dev/opus-5-5/nezbuilds-294391/original.2ea16dc1f9.webp)](https://x.com/nezbuilds/status/2103487427365294391)
 

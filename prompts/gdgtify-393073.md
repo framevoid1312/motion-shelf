@@ -1,6 +1,6 @@
 # Create a kinetic mathematical proof titled “THERE IS NO LAST PRIME.”…
 
-**#720 by likes** · ♥ 3 · by [@Gdgtify](https://x.com/Gdgtify) · [Original post](https://x.com/Gdgtify/status/2107054188836393073) · [Watch the video](https://video.twimg.com/amplify_video/2107038601468932096/vid/avc1/720x720/W_h-oWy3i_pv-bsU.mp4)
+**#720 by popularity** · ♥ 3 · by [@Gdgtify](https://x.com/Gdgtify) · [Original post](https://x.com/Gdgtify/status/2107054188836393073) · [Watch the video](https://video.twimg.com/amplify_video/2107038601468932096/vid/avc1/720x720/W_h-oWy3i_pv-bsU.mp4)
 
 [![Create a kinetic mathematical proof titled “THERE IS NO LAST PRIME.”…](https://media.skillry.dev/opus-5-5/_prompts/gdgtify-393073/poster.1b91bbb81b.webp)](https://x.com/Gdgtify/status/2107054188836393073)
 

@@ -1,6 +1,6 @@
 # Sonnet self-launch film: cinematic typography and capability visualization
 
-**#160 by likes** · ♥ 537 · by [@AbhinavXJ](https://x.com/AbhinavXJ) · [Original post](https://x.com/AbhinavXJ/status/2104805179401068964) · [Watch the video](https://video.twimg.com/amplify_video/2104804649891176448/vid/avc1/1280x720/2IlXcbMTiM98OxCt.mp4)
+**#187 by popularity** · ♥ 537 · 33,714 views · by [@AbhinavXJ](https://x.com/AbhinavXJ) · [Original post](https://x.com/AbhinavXJ/status/2104805179401068964) · [Watch the video](https://video.twimg.com/amplify_video/2104804649891176448/vid/avc1/1280x720/2IlXcbMTiM98OxCt.mp4)
 
 [![Sonnet self-launch film: cinematic typography and capability visualization](https://pbs.twimg.com/amplify_video_thumb/2104804649891176448/img/7u_SAWHvGjds23Vr.jpg)](https://x.com/AbhinavXJ/status/2104805179401068964)
 

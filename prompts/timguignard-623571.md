@@ -1,6 +1,6 @@
 # Just tested Claude Opus 5.5 with Hyperframes. One prompt (also…
 
-**#908 by likes** · ♥ 0 · by [@TimGuignard](https://x.com/TimGuignard) · [Original post](https://x.com/TimGuignard/status/2104515756159623571) · [Watch the video](https://media.skillry.dev/opus-5-5/timguignard-623571/original.mp4)
+**#907 by popularity** · ♥ 0 · by [@TimGuignard](https://x.com/TimGuignard) · [Original post](https://x.com/TimGuignard/status/2104515756159623571) · [Watch the video](https://media.skillry.dev/opus-5-5/timguignard-623571/original.mp4)
 
 [![Just tested Claude Opus 5.5 with Hyperframes. One prompt (also…](https://media.skillry.dev/opus-5-5/timguignard-623571/original.c6c98a78c9.webp)](https://x.com/TimGuignard/status/2104515756159623571)
 

@@ -1,6 +1,6 @@
 # Golden hour Japanese temple 3D scene
 
-**#99 by likes** · ♥ 900 · by [@LexnLin](https://x.com/LexnLin) · [Original post](https://x.com/LexnLin/status/2110657641831956870) · [Watch the video](https://video.twimg.com/amplify_video/2110642835955318784/vid/avc1/1280x720/xYu4tcJ7o2UINkvP.mp4)
+**#137 by popularity** · ♥ 900 · 45,977 views · by [@LexnLin](https://x.com/LexnLin) · [Original post](https://x.com/LexnLin/status/2110657641831956870) · [Watch the video](https://video.twimg.com/amplify_video/2110642835955318784/vid/avc1/1280x720/xYu4tcJ7o2UINkvP.mp4)
 
 [![Golden hour Japanese temple 3D scene](https://pbs.twimg.com/amplify_video_thumb/2110642835955318784/img/AarSkr4QOesHPDS_.jpg)](https://x.com/LexnLin/status/2110657641831956870)
 

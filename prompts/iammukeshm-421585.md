@@ -1,6 +1,6 @@
 # Claude Opus 5.5 is incredible. I gave it a pretty simple task: Create…
 
-**#452 by likes** · ♥ 25 · by [@iammukeshm](https://x.com/iammukeshm) · [Original post](https://x.com/iammukeshm/status/2103511739585421585) · [Watch the video](https://media.skillry.dev/opus-5-5/iammukeshm-421585/original.mp4)
+**#452 by popularity** · ♥ 25 · by [@iammukeshm](https://x.com/iammukeshm) · [Original post](https://x.com/iammukeshm/status/2103511739585421585) · [Watch the video](https://media.skillry.dev/opus-5-5/iammukeshm-421585/original.mp4)
 
 [![Claude Opus 5.5 is incredible. I gave it a pretty simple task: Create…](https://media.skillry.dev/opus-5-5/iammukeshm-421585/original.3b913a2506.webp)](https://x.com/iammukeshm/status/2103511739585421585)
 

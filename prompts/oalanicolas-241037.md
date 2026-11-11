@@ -1,6 +1,6 @@
 # History of humanity in doodles, scored by era
 
-**#289 by likes** · ♥ 203 · by [@oalanicolas](https://x.com/oalanicolas) · [Original post](https://x.com/oalanicolas/status/2107958931230241037) · [Watch the video](https://video.twimg.com/amplify_video/2107956735025500160/vid/avc1/1280x720/yMH9HFBZxVa6Ii2W.mp4?tag=29)
+**#323 by popularity** · ♥ 203 · 9,882 views · by [@oalanicolas](https://x.com/oalanicolas) · [Original post](https://x.com/oalanicolas/status/2107958931230241037) · [Watch the video](https://video.twimg.com/amplify_video/2107956735025500160/vid/avc1/1280x720/yMH9HFBZxVa6Ii2W.mp4?tag=29)
 
 [![History of humanity in doodles, scored by era](https://pbs.twimg.com/amplify_video_thumb/2107956735025500160/img/-P_YJ25lEZwgL6z1.jpg)](https://x.com/oalanicolas/status/2107958931230241037)
 

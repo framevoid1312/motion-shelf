@@ -1,6 +1,6 @@
 # Spear fishing browser game
 
-**#142 by likes** · ♥ 622 · by [@nachat_dayo](https://x.com/nachat_dayo) · [Original post](https://x.com/nachat_dayo/status/2102773498037023140) · [Watch the video](https://video.twimg.com/amplify_video/2102773165420331009/vid/avc1/1280x720/DDkzdh8FLFgVrB-A.mp4?tag=14)
+**#111 by popularity** · ♥ 622 · 117,968 views · by [@nachat_dayo](https://x.com/nachat_dayo) · [Original post](https://x.com/nachat_dayo/status/2102773498037023140) · [Watch the video](https://video.twimg.com/amplify_video/2102773165420331009/vid/avc1/1280x720/DDkzdh8FLFgVrB-A.mp4?tag=14)
 
 [![Spear fishing browser game](https://pbs.twimg.com/amplify_video_thumb/2102773165420331009/img/imY1rCvKML0OZfNt.jpg)](https://x.com/nachat_dayo/status/2102773498037023140)
 

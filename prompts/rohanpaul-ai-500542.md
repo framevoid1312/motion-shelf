@@ -1,6 +1,6 @@
 # Create a video essay from Paul Graham's essay How to do great work…
 
-**#573 by likes** · ♥ 8 · by [@rohanpaul_ai](https://x.com/rohanpaul_ai) · [Original post](https://x.com/rohanpaul_ai/status/2104352205176500542) · [Watch the video](https://video.twimg.com/amplify_video/2104352100499202048/vid/avc1/1280x720/aE9Ljzr20gcVV60u.mp4)
+**#573 by popularity** · ♥ 8 · by [@rohanpaul_ai](https://x.com/rohanpaul_ai) · [Original post](https://x.com/rohanpaul_ai/status/2104352205176500542) · [Watch the video](https://video.twimg.com/amplify_video/2104352100499202048/vid/avc1/1280x720/aE9Ljzr20gcVV60u.mp4)
 
 [![Create a video essay from Paul Graham's essay How to do great work…](https://media.skillry.dev/opus-5-5/_prompts/rohanpaul-ai-500542/poster.0420c6538e.webp)](https://x.com/rohanpaul_ai/status/2104352205176500542)
 

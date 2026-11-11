@@ -1,6 +1,6 @@
 # <inputs> Ask me for: a one-word brand name for the wordmark (a verb…
 
-**#32 by likes** · ♥ 2,193 · by [@twoclipping](https://x.com/twoclipping) · [Original post](https://x.com/twoclipping/status/2103835273813496100) · [Watch the video](https://media.skillry.dev/opus-5-5/twoclipping-496100/original.mp4)
+**#49 by popularity** · ♥ 2,193 · 143,460 views · by [@twoclipping](https://x.com/twoclipping) · [Original post](https://x.com/twoclipping/status/2103835273813496100) · [Watch the video](https://media.skillry.dev/opus-5-5/twoclipping-496100/original.mp4)
 
 [![<inputs> Ask me for: a one-word brand name for the wordmark (a verb…](https://media.skillry.dev/opus-5-5/twoclipping-496100/original.8f1c352eca.webp)](https://x.com/twoclipping/status/2103835273813496100)
 

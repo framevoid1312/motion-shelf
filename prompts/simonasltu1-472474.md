@@ -1,6 +1,6 @@
 # Post-biological consciousness, an interactive art piece
 
-**#291 by likes** · ♥ 197 · by [@SimonasLTU1](https://x.com/SimonasLTU1) · [Original post](https://x.com/SimonasLTU1/status/2107110129363472474) · [Watch the video](https://media.clawshelf.com/ai-videos/opus-5.5/simonasltu1-472474/video.mp4)
+**#198 by popularity** · ♥ 197 · 61,500 views · by [@SimonasLTU1](https://x.com/SimonasLTU1) · [Original post](https://x.com/SimonasLTU1/status/2107110129363472474) · [Watch the video](https://media.clawshelf.com/ai-videos/opus-5.5/simonasltu1-472474/video.mp4)
 
 [![Post-biological consciousness, an interactive art piece](https://media.clawshelf.com/ai-videos/opus-5.5/simonasltu1-472474/poster.jpg)](https://x.com/SimonasLTU1/status/2107110129363472474)
 

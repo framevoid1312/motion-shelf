@@ -1,6 +1,6 @@
 # Civilization from day one to now
 
-**#191 by likes** · ♥ 422 · by [@ziwenxu_](https://x.com/ziwenxu_) · [Original post](https://x.com/ziwenxu_/status/2105983571848741045) · [Watch the video](https://video.twimg.com/amplify_video/2105974025167982592/vid/avc1/1280x720/tF6K0opiR41DL0Q4.mp4)
+**#186 by popularity** · ♥ 422 · 45,436 views · by [@ziwenxu_](https://x.com/ziwenxu_) · [Original post](https://x.com/ziwenxu_/status/2105983571848741045) · [Watch the video](https://video.twimg.com/amplify_video/2105974025167982592/vid/avc1/1280x720/tF6K0opiR41DL0Q4.mp4)
 
 [![Civilization from day one to now](https://pbs.twimg.com/amplify_video_thumb/2105974025167982592/img/FOfKC5764KT75uQi.jpg)](https://x.com/ziwenxu_/status/2105983571848741045)
 

@@ -1,6 +1,6 @@
 # A Code-Rendered Film on the History of AI
 
-**#25 by likes** · ♥ 2,739 · by [@kimmonismus](https://x.com/kimmonismus) · [Original post](https://x.com/kimmonismus/status/2102844654169575547) · [Watch the video](https://video.twimg.com/amplify_video/2102844491820670976/vid/avc1/1280x720/jbFKOMeBbKZI8rnr.mp4?tag=16)
+**#34 by popularity** · ♥ 2,739 · 207,132 views · by [@kimmonismus](https://x.com/kimmonismus) · [Original post](https://x.com/kimmonismus/status/2102844654169575547) · [Watch the video](https://video.twimg.com/amplify_video/2102844491820670976/vid/avc1/1280x720/jbFKOMeBbKZI8rnr.mp4?tag=16)
 
 [![A Code-Rendered Film on the History of AI](https://pbs.twimg.com/amplify_video_thumb/2102844491820670976/img/F4AMzfTMJqQe84nD.jpg)](https://x.com/kimmonismus/status/2102844654169575547)
 

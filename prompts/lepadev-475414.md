@@ -1,6 +1,6 @@
 # make a modern slick and punchy video for a modern startup that works…
 
-**#603 by likes** · ♥ 6 · by [@lepadev](https://x.com/lepadev) · [Original post](https://x.com/lepadev/status/2103101681806475414) · [Watch the video](https://media.skillry.dev/opus-5-5/lepadev-475414/original.mp4)
+**#603 by popularity** · ♥ 6 · by [@lepadev](https://x.com/lepadev) · [Original post](https://x.com/lepadev/status/2103101681806475414) · [Watch the video](https://media.skillry.dev/opus-5-5/lepadev-475414/original.mp4)
 
 [![make a modern slick and punchy video for a modern startup that works…](https://media.skillry.dev/opus-5-5/lepadev-475414/original.6f8489c595.webp)](https://x.com/lepadev/status/2103101681806475414)
 
