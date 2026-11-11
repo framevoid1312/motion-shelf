@@ -2,7 +2,7 @@
 
 **974 viral animations made by Claude writing code, each with the exact prompt the creator shared, ranked by likes on X.**
 
-**[▶ Watch them all on the site](https://framevoid1312.github.io/motion-shelf/)**: hover any card to play the video, copy the prompt in one click, filter by prompts, films, styles, skills and blocks.
+**[▶ Watch them all on the site](https://framevoid1312.github.io/motion-shelf/)**: it has two tabs. **Videos**: hover any card to play it and copy its prompt in one click. **Skills**: agent skills, skill files, style prompts and HyperFrames blocks as a plain list, each with its demo one click away.
 
 Every entry here has a playable original video and a prompt you can copy and run. Most videos were made with Claude Opus 5.5 (some with Sonnet 5.5 or Fable 5.5) writing HTML, Canvas, SVG, Three.js, Blender or Remotion code; there is no AI video generator in the picture. Like counts are from the original posts, checked between 3 and 8 November 2026; a dash means the count wasn't available.
 
@@ -18,7 +18,7 @@ Every entry here has a playable original video and a prompt you can copy and run
 
 ## Skills to try
 
-Free agent skills for making motion and video with Claude Code, Codex and other coding agents, most-starred first (star counts checked on 9 November 2026). Each one has a card with its demo on the [site](https://framevoid1312.github.io/motion-shelf/) under **Skills to try**.
+Free agent skills for making motion and video with Claude Code, Codex and other coding agents, most-starred first (star counts checked on 9 November 2026). Each one has a card with its demo on the [site](https://framevoid1312.github.io/motion-shelf/#skills) under **Skills → Skills to try**.
 
 | # | Skill | ★ | What it does | Licence |
 |---:|---|---:|---|---|
@@ -1148,7 +1148,7 @@ Free agent skills for making motion and video with Claude Code, Codex and other 
 
 ## What's on the site besides these
 
-The [site](https://framevoid1312.github.io/motion-shelf/) also collects tools for making this kind of video: 66 film styles with their style prompts and demo films from [lemo-opuscar](https://github.com/lemomo-ai/lemo-opuscar), 15 motion-design style films from [mg-styles-15](https://github.com/Vincentwei1021/mg-styles-15), agent skills from [Animate](https://github.com/cth9191/animate), [anidoodle](https://github.com/alexgreensh/anidoodle), [HyperFrames](https://github.com/heygen-com/hyperframes), [Remotion](https://github.com/remotion-dev/skills), [iart-ai](https://github.com/iart-ai/motion-skills) and more, and 456 HyperFrames blocks.
+The [site](https://framevoid1312.github.io/motion-shelf/) also collects, in its Videos and Skills tabs: 66 film styles with their style prompts and demo films from [lemo-opuscar](https://github.com/lemomo-ai/lemo-opuscar), 15 motion-design style films from [mg-styles-15](https://github.com/Vincentwei1021/mg-styles-15), agent skills from [Animate](https://github.com/cth9191/animate), [anidoodle](https://github.com/alexgreensh/anidoodle), [HyperFrames](https://github.com/heygen-com/hyperframes), [Remotion](https://github.com/remotion-dev/skills), [iart-ai](https://github.com/iart-ai/motion-skills) and more, and 456 HyperFrames blocks.
 
 ## How entries are chosen
 
