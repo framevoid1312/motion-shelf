@@ -61,6 +61,7 @@ Free agent skills for making motion and video with Claude Code, Codex and other 
 | 37 | [**Awesome Showreels**](https://github.com/awesomezun/awesome-showreels) | 7 | A showreel about anything, styled by its own material: give it a repo, a paper, a brand or an idea and it designs, scores and renders the reel. 89 example projects, from Swiss grid to riso zine. | MIT |
 | 38 | [**Motion Reel**](https://github.com/Aries-Spring/motion-reel) | 6 | Showreels, launch films and lyric videos from code: real brand assets, a measured beat grid, a shot list you sign off, three critique rounds on contact sheets, a synthesized score and a -14 LUFS master. No API keys. | MIT |
 | 39 | [**Renoise Motion Skills**](https://github.com/chessunyan/renoise-motion-skills) | 6 | One style per skill, starting with Pixel Blocks: an 8-bit piece drawn on a 320×180 framebuffer at 12 poses a second, locked to the beat with synthesized chiptune sounds. | MIT |
+| 40 | [**Motion Clone**](phil/motion-clone) | new | Rebuilds a motion-graphics clip as editable code layers: per-frame measured timing, traced glyphs, matched type, a reference-vs-rebuild check and a frame-exact render. Method adapted from [MotionClone](https://github.com/blixvip/MotionClone). No API keys. | MIT |
 
 ## Top 60
 
