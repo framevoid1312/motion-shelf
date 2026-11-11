@@ -8470,16 +8470,6 @@
   "prompt": "Reproduce and analyze Clawd Moves In from the living-screencast demo source.\nInspect the current commit, locks, STYLE.md, DEMO.md, CREDITS, core APIs,\nand demo/build.sh. Read the author MP4 and actual local files first.\n\nKeep it an attributed unofficial fan-film"
  },
  {
-  "id": "2106605246235762929",
-  "likes": 1,
-  "title": "「蜘蛛の糸の漫画を作成しています。 https://t.co/8DlK2EPeo0 それを元にモーションコミックの作成してください。…",
-  "author": "Kaiyu_AI",
-  "url": "https://x.com/Kaiyu_AI/status/2106605246235762929",
-  "video": "https://video.twimg.com/amplify_video/2106603881904197632/vid/avc1/1280x720/nXUpvfwKs3-79eRq.mp4",
-  "poster": "https://media.skillry.dev/opus-5-5/_prompts/kaiyu-ai-762929/poster.7203f01eca.webp",
-  "prompt": "「蜘蛛の糸の漫画を作成しています。\nhttps://t.co/8DlK2EPeo0\nそれを元にモーションコミックの作成してください。\nただし、差分の画像生成はCodex CLIを使用するように。また、Gemini APIを使って良いのはGemini 3.8 Flash TTSとTTS Lite、BGM用のLyria 3.5のみとし、Tire1なので1分間あたりや1日あたりの制限に引っかからないようにすること。\n糸を垂らす演出とか糸から登る演出とかはただ画像を切り取るのではなく、実際に垂らす動画演出のようにしてください。」"
- },
- {
   "id": "2106458692669657175",
   "likes": 1,
   "title": "Made a short film about faith. One unbroken line draws the whole…",

@@ -1,6 +1,6 @@
 # Create a 15-second motion graphics video for barber shop recruitment.…
 
-**#866 by likes** · ♥ 1 · by [@egawa_AI_design](https://x.com/egawa_AI_design) · [Original post](https://x.com/egawa_AI_design/status/2103760245764092323) · [Watch the video](https://video.twimg.com/ext_tw_video/2103759949805539329/pu/vid/avc1/1280x720/Z00HtR9lRwpx8a-u.mp4?tag=12)
+**#865 by likes** · ♥ 1 · by [@egawa_AI_design](https://x.com/egawa_AI_design) · [Original post](https://x.com/egawa_AI_design/status/2103760245764092323) · [Watch the video](https://video.twimg.com/ext_tw_video/2103759949805539329/pu/vid/avc1/1280x720/Z00HtR9lRwpx8a-u.mp4?tag=12)
 
 [![Create a 15-second motion graphics video for barber shop recruitment.…](https://media.skillry.dev/opus-5-5/_prompts/egawa-ai-design-092323/poster.773467dcef.webp)](https://x.com/egawa_AI_design/status/2103760245764092323)
 
