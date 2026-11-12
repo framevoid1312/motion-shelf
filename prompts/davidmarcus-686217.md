@@ -1,8 +1,8 @@
-# make a punchy and modern short video for social that promotes…
+# Punchy social promo with sound
 
 **#253 by popularity** · ♥ 284 · 26,071 views · by [@davidmarcus](https://x.com/davidmarcus) · [Original post](https://x.com/davidmarcus/status/2103275618045686217) · [Watch the video](https://media.skillry.dev/opus-5-5/davidmarcus-686217/original.mp4)
 
-[![make a punchy and modern short video for social that promotes…](https://media.skillry.dev/opus-5-5/davidmarcus-686217/original.318b3a6172.webp)](https://x.com/davidmarcus/status/2103275618045686217)
+[![Punchy social promo with sound](https://media.skillry.dev/opus-5-5/davidmarcus-686217/original.318b3a6172.webp)](https://x.com/davidmarcus/status/2103275618045686217)
 
 ## Prompt
 

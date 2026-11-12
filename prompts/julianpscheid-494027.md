@@ -1,8 +1,8 @@
-# I want you to create a highly professional SaaS product promotion…
+# SaaS product promotion video
 
 **#568 by popularity** · ♥ 8 · by [@JulianPscheid](https://x.com/JulianPscheid) · [Original post](https://x.com/JulianPscheid/status/2103197385283494027) · [Watch the video](https://video.twimg.com/amplify_video/2103197283877892096/vid/avc1/1280x720/g4kStjNeRGX0xm6O.mp4)
 
-[![I want you to create a highly professional SaaS product promotion…](https://media.skillry.dev/opus-5-5/_prompts/julianpscheid-494027/poster.840399d801.webp)](https://x.com/JulianPscheid/status/2103197385283494027)
+[![SaaS product promotion video](https://media.skillry.dev/opus-5-5/_prompts/julianpscheid-494027/poster.840399d801.webp)](https://x.com/JulianPscheid/status/2103197385283494027)
 
 ## Prompt
 

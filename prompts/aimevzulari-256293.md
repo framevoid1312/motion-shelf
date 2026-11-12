@@ -1,8 +1,8 @@
-# Bu herhangi bir görüntü üretim modeli kullanmadan, yaratıcı olarak…
+# Galileo 1638 in Canvas 2D
 
 **#126 by popularity** · ♥ 688 · 77,151 views · by [@AIMevzulari](https://x.com/AIMevzulari) · [Original post](https://x.com/AIMevzulari/status/2106052083040256293) · [Watch the video](https://video.twimg.com/amplify_video/2106050684600639488/vid/avc1/1280x720/plsXRmm0UaCQmrZg.mp4)
 
-[![Bu herhangi bir görüntü üretim modeli kullanmadan, yaratıcı olarak…](https://media.skillry.dev/opus-5-5/_prompts/aimevzulari-256293/poster.a15f4aeeae.webp)](https://x.com/AIMevzulari/status/2106052083040256293)
+[![Galileo 1638 in Canvas 2D](https://media.skillry.dev/opus-5-5/_prompts/aimevzulari-256293/poster.a15f4aeeae.webp)](https://x.com/AIMevzulari/status/2106052083040256293)
 
 ## Prompt
 

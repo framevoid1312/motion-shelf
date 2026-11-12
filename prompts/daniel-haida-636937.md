@@ -1,8 +1,8 @@
-# claude code (opus 5.5) made the product film for taxtello, my…
+# Product film for a bookkeeping app
 
 **#502 by popularity** · ♥ 14 · by [@daniel_haida](https://x.com/daniel_haida) · [Original post](https://x.com/daniel_haida/status/2104139720829636937) · [Watch the video](https://media.skillry.dev/opus-5-5/daniel-haida-636937/original.mp4)
 
-[![claude code (opus 5.5) made the product film for taxtello, my…](https://media.skillry.dev/opus-5-5/daniel-haida-636937/original.965223fcbc.webp)](https://x.com/daniel_haida/status/2104139720829636937)
+[![Product film for a bookkeeping app](https://media.skillry.dev/opus-5-5/daniel-haida-636937/original.965223fcbc.webp)](https://x.com/daniel_haida/status/2104139720829636937)
 
 ## Prompt
 

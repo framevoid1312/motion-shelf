@@ -1,8 +1,8 @@
-# Create a video using Rust + SVG via fframes where every frame is a…
+# Rust + SVG film where every frame is a function
 
 **#468 by popularity** · ♥ 20 · by [@BuildFastWithAI](https://x.com/BuildFastWithAI) · [Original post](https://x.com/BuildFastWithAI/status/2108403445304844291) · [Watch the video](https://video.twimg.com/amplify_video/2108402948451823616/vid/avc1/1280x720/ZwF3fiZquZLprrxy.mp4)
 
-[![Create a video using Rust + SVG via fframes where every frame is a…](https://media.skillry.dev/opus-5-5/_prompts/buildfastwithai-844291/poster.46cac31dda.webp)](https://x.com/BuildFastWithAI/status/2108403445304844291)
+[![Rust + SVG film where every frame is a function](https://media.skillry.dev/opus-5-5/_prompts/buildfastwithai-844291/poster.46cac31dda.webp)](https://x.com/BuildFastWithAI/status/2108403445304844291)
 
 ## Prompt
 

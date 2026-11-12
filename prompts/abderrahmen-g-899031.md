@@ -1,8 +1,8 @@
-# You are a professional videographer. Create me a high-definition,…
+# Playful video with matching sounds
 
 **#613 by popularity** · ♥ 5 · by [@abderrahmen_g](https://x.com/abderrahmen_g) · [Original post](https://x.com/abderrahmen_g/status/2103103836541899031) · [Watch the video](https://media.skillry.dev/opus-5-5/abderrahmen-g-899031/original.mp4)
 
-[![You are a professional videographer. Create me a high-definition,…](https://media.skillry.dev/opus-5-5/abderrahmen-g-899031/original.4d7a4c3aa6.webp)](https://x.com/abderrahmen_g/status/2103103836541899031)
+[![Playful video with matching sounds](https://media.skillry.dev/opus-5-5/abderrahmen-g-899031/original.4d7a4c3aa6.webp)](https://x.com/abderrahmen_g/status/2103103836541899031)
 
 ## Prompt
 

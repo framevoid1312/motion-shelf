@@ -1,8 +1,8 @@
-# Make an animated clip about Tented's image gen capabilities where…
+# Clip about branded image requests
 
 **#653 by popularity** · ♥ 4 · by [@justincooperman](https://x.com/justincooperman) · [Original post](https://x.com/justincooperman/status/2103201167367188876) · [Watch the video](https://media.skillry.dev/opus-5-5/justincooperman-188876/original.mp4)
 
-[![Make an animated clip about Tented's image gen capabilities where…](https://media.skillry.dev/opus-5-5/justincooperman-188876/original.dcfb25fdfe.webp)](https://x.com/justincooperman/status/2103201167367188876)
+[![Clip about branded image requests](https://media.skillry.dev/opus-5-5/justincooperman-188876/original.dcfb25fdfe.webp)](https://x.com/justincooperman/status/2103201167367188876)
 
 ## Prompt
 

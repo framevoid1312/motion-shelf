@@ -1,8 +1,8 @@
-# Make a dynamic motion graphics video that shows what an incredible…
+# Platform showcase, all out
 
 **#684 by popularity** · ♥ 3 · by [@rammanq](https://x.com/rammanq) · [Original post](https://x.com/rammanq/status/2103788796022034553) · [Watch the video](https://media.skillry.dev/opus-5-5/rammanq-034553/original.mp4)
 
-[![Make a dynamic motion graphics video that shows what an incredible…](https://media.skillry.dev/opus-5-5/rammanq-034553/original.80d3f7e5fd.webp)](https://x.com/rammanq/status/2103788796022034553)
+[![Platform showcase, all out](https://media.skillry.dev/opus-5-5/rammanq-034553/original.80d3f7e5fd.webp)](https://x.com/rammanq/status/2103788796022034553)
 
 ## Prompt
 

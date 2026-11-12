@@ -1,8 +1,8 @@
-# 设计个动画，介绍本项目的各项特性，像是专业的产品介绍宣传片，最后要生成 16:9 的mp4 视频
+# Product feature promo in 16:9
 
 **#465 by popularity** · ♥ 21 · by [@ezshine](https://x.com/ezshine) · [Original post](https://x.com/ezshine/status/2103501705698750731) · [Watch the video](https://media.skillry.dev/opus-5-5/ezshine-750731/original.mp4)
 
-[![设计个动画，介绍本项目的各项特性，像是专业的产品介绍宣传片，最后要生成 16:9 的mp4 视频](https://media.skillry.dev/opus-5-5/ezshine-750731/original.c74c7581aa.webp)](https://x.com/ezshine/status/2103501705698750731)
+[![Product feature promo in 16:9](https://media.skillry.dev/opus-5-5/ezshine-750731/original.c74c7581aa.webp)](https://x.com/ezshine/status/2103501705698750731)
 
 ## Prompt
 

@@ -1,8 +1,8 @@
-# Build the latest FrankenManim version on my Mac and then use it to…
+# 3b1b-style explainer with Manim
 
 **#707 by popularity** · ♥ 3 · by [@_eleanorina](https://x.com/_eleanorina) · [Original post](https://x.com/_eleanorina/status/2107841006909653042) · [Watch the video](https://video.twimg.com/amplify_video/2107805948936884224/vid/avc1/1280x720/E6j7BWXopQ0ibcgo.mp4)
 
-[![Build the latest FrankenManim version on my Mac and then use it to…](https://media.skillry.dev/opus-5-5/_prompts/eleanorina-653042/poster.f980b4bf63.webp)](https://x.com/_eleanorina/status/2107841006909653042)
+[![3b1b-style explainer with Manim](https://media.skillry.dev/opus-5-5/_prompts/eleanorina-653042/poster.f980b4bf63.webp)](https://x.com/_eleanorina/status/2107841006909653042)
 
 ## Prompt
 

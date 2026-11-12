@@ -1,8 +1,8 @@
-# Here is my life timeline. Turn it into a [45]-second motion graphics…
+# A life timeline in 45 seconds
 
 **#848 by popularity** · ♥ 1 · by [@niirajrshah](https://x.com/niirajrshah) · [Original post](https://x.com/niirajrshah/status/2104551261270163739) · [Watch the video](https://video.twimg.com/amplify_video/2104550078161764352/vid/avc1/720x1280/itV7E-ViCsM9Lmu9.mp4?tag=14)
 
-[![Here is my life timeline. Turn it into a \[45\]-second motion graphics…](https://media.skillry.dev/opus-5-5/_prompts/niirajrshah-163739/poster.37de8eddef.webp)](https://x.com/niirajrshah/status/2104551261270163739)
+[![A life timeline in 45 seconds](https://media.skillry.dev/opus-5-5/_prompts/niirajrshah-163739/poster.37de8eddef.webp)](https://x.com/niirajrshah/status/2104551261270163739)
 
 ## Prompt
 

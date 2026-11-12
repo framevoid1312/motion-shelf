@@ -1,8 +1,8 @@
-# Create and render a 15-second motion graphics video introducing…
+# 15-second developer-tool launch film
 
 **#444 by popularity** · ♥ 25 · by [@HowDevelop](https://x.com/HowDevelop) · [Original post](https://x.com/HowDevelop/status/2103840883812733090) · [Watch the video](https://media.skillry.dev/opus-5-5/howdevelop-733090/original.mp4)
 
-[![Create and render a 15-second motion graphics video introducing…](https://media.skillry.dev/opus-5-5/howdevelop-733090/original.c156b8a720.webp)](https://x.com/HowDevelop/status/2103840883812733090)
+[![15-second developer-tool launch film](https://media.skillry.dev/opus-5-5/howdevelop-733090/original.c156b8a720.webp)](https://x.com/HowDevelop/status/2103840883812733090)
 
 ## Prompt
 

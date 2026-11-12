@@ -1,8 +1,8 @@
-# You're a world-class motion designer, and this is your 15-second…
+# 15-second résumé reel
 
 **#555 by popularity** · ♥ 8 · by [@reflex_cloud](https://x.com/reflex_cloud) · [Original post](https://x.com/reflex_cloud/status/2103552840027304046) · [Watch the video](https://media.skillry.dev/opus-5-5/reflex-cloud-304046/original.mp4)
 
-[![You're a world-class motion designer, and this is your 15-second…](https://media.skillry.dev/opus-5-5/reflex-cloud-304046/original.fe1e9ca92c.webp)](https://x.com/reflex_cloud/status/2103552840027304046)
+[![15-second résumé reel](https://media.skillry.dev/opus-5-5/reflex-cloud-304046/original.fe1e9ca92c.webp)](https://x.com/reflex_cloud/status/2103552840027304046)
 
 ## Prompt
 

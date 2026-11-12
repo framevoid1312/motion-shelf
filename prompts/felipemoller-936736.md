@@ -1,8 +1,8 @@
-# Use apenas: JavaScript, Playwright e FFmpeg. Faça um vídeo moderno,…
+# Product video with JavaScript and Playwright
 
 **#789 by popularity** · ♥ 1 · by [@felipemoller](https://x.com/felipemoller) · [Original post](https://x.com/felipemoller/status/2103846311149936736) · [Watch the video](https://media.skillry.dev/opus-5-5/felipemoller-936736/original.mp4)
 
-[![Use apenas: JavaScript, Playwright e FFmpeg. Faça um vídeo moderno,…](https://media.skillry.dev/opus-5-5/felipemoller-936736/original.f7148272e5.webp)](https://x.com/felipemoller/status/2103846311149936736)
+[![Product video with JavaScript and Playwright](https://media.skillry.dev/opus-5-5/felipemoller-936736/original.f7148272e5.webp)](https://x.com/felipemoller/status/2103846311149936736)
 
 ## Prompt
 

@@ -1,8 +1,8 @@
-# Build 5 completely different scroll-based sections, decide the…
+# Five scroll-based sections
 
 **#520 by popularity** · ♥ 12 · by [@ercankeskinx](https://x.com/ercankeskinx) · [Original post](https://x.com/ercankeskinx/status/2102995443818897906) · [Watch the video](https://media.skillry.dev/opus-5-5/ercankeskinx-897906/original.mp4)
 
-[![Build 5 completely different scroll-based sections, decide the…](https://media.skillry.dev/opus-5-5/ercankeskinx-897906/original.137653def6.webp)](https://x.com/ercankeskinx/status/2102995443818897906)
+[![Five scroll-based sections](https://media.skillry.dev/opus-5-5/ercankeskinx-897906/original.137653def6.webp)](https://x.com/ercankeskinx/status/2102995443818897906)
 
 ## Prompt
 

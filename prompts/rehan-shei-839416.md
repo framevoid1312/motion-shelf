@@ -1,8 +1,8 @@
-# I turned this into a full game with unity cli + opus 5.5, also opus…
+# Game demo video cut by Opus
 
 **#221 by popularity** · ♥ 343 · 32,152 views · by [@rehan_shei](https://x.com/rehan_shei) · [Original post](https://x.com/rehan_shei/status/2103755997533839416) · [Watch the video](https://media.skillry.dev/opus-5-5/rehan-shei-839416/original.mp4)
 
-[![I turned this into a full game with unity cli + opus 5.5, also opus…](https://media.skillry.dev/opus-5-5/rehan-shei-839416/original.d0ea3d8c6a.webp)](https://x.com/rehan_shei/status/2103755997533839416)
+[![Game demo video cut by Opus](https://media.skillry.dev/opus-5-5/rehan-shei-839416/original.d0ea3d8c6a.webp)](https://x.com/rehan_shei/status/2103755997533839416)
 
 ## Prompt
 

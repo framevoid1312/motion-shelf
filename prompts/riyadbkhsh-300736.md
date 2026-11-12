@@ -1,8 +1,8 @@
-# Make a launch video for my side project. No After Effects. No stock…
+# Side-project launch video, code only
 
 **#671 by popularity** · ♥ 4 · by [@riyadbkhsh](https://x.com/riyadbkhsh) · [Original post](https://x.com/riyadbkhsh/status/2106467130963300736) · [Watch the video](https://video.twimg.com/amplify_video/2106465415715012608/vid/avc1/1280x720/bsNAZalyBFSKYssR.mp4)
 
-[![Make a launch video for my side project. No After Effects. No stock…](https://media.skillry.dev/opus-5-5/_prompts/riyadbkhsh-300736/poster.122e4b7e26.webp)](https://x.com/riyadbkhsh/status/2106467130963300736)
+[![Side-project launch video, code only](https://media.skillry.dev/opus-5-5/_prompts/riyadbkhsh-300736/poster.122e4b7e26.webp)](https://x.com/riyadbkhsh/status/2106467130963300736)
 
 ## Prompt
 

@@ -1,8 +1,8 @@
-# Show me the next 30 years. One shot, no cuts. Five stops: 2026, Earth…
+# The next 30 years in one shot
 
 **#387 by popularity** · ♥ 59 · by [@theSethian](https://x.com/theSethian) · [Original post](https://x.com/theSethian/status/2106447666519384517) · [Watch the video](https://media.skillry.dev/opus-5-5/thesethian-384517/original.mp4)
 
-[![Show me the next 30 years. One shot, no cuts. Five stops: 2026, Earth…](https://media.skillry.dev/opus-5-5/thesethian-384517/original.e19ffa8626.webp)](https://x.com/theSethian/status/2106447666519384517)
+[![The next 30 years in one shot](https://media.skillry.dev/opus-5-5/thesethian-384517/original.e19ffa8626.webp)](https://x.com/theSethian/status/2106447666519384517)
 
 ## Prompt
 

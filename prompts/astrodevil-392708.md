@@ -1,8 +1,8 @@
-# make a dynamic 15-second motion graphics video that shows what an…
+# 15-second studio case-study film
 
 **#576 by popularity** · ♥ 7 · by [@Astrodevil_](https://x.com/Astrodevil_) · [Original post](https://x.com/Astrodevil_/status/2103600734017392708) · [Watch the video](https://media.skillry.dev/opus-5-5/astrodevil-392708/original.mp4)
 
-[![make a dynamic 15-second motion graphics video that shows what an…](https://media.skillry.dev/opus-5-5/astrodevil-392708/original.678a3c3117.webp)](https://x.com/Astrodevil_/status/2103600734017392708)
+[![15-second studio case-study film](https://media.skillry.dev/opus-5-5/astrodevil-392708/original.678a3c3117.webp)](https://x.com/Astrodevil_/status/2103600734017392708)
 
 ## Prompt
 

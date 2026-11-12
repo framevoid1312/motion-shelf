@@ -1,8 +1,8 @@
-# Claude Opus 5.5 built this game from a single prompt - a mythic…
+# Mythic action game from one prompt
 
 **#661 by popularity** · ♥ 4 · by [@mayuresh_empire](https://x.com/mayuresh_empire) · [Original post](https://x.com/mayuresh_empire/status/2104207365008687553) · [Watch the video](https://media.skillry.dev/opus-5-5/mayuresh-empire-687553/original.mp4)
 
-[![Claude Opus 5.5 built this game from a single prompt - a mythic…](https://media.skillry.dev/opus-5-5/mayuresh-empire-687553/original.a67c686d3f.webp)](https://x.com/mayuresh_empire/status/2104207365008687553)
+[![Mythic action game from one prompt](https://media.skillry.dev/opus-5-5/mayuresh-empire-687553/original.a67c686d3f.webp)](https://x.com/mayuresh_empire/status/2104207365008687553)
 
 ## Prompt
 

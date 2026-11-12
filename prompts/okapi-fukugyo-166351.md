@@ -1,8 +1,8 @@
-# <inputs>…
+# Shape that morphs through UI states
 
 **#553 by popularity** · ♥ 9 · by [@okapi_fukugyo](https://x.com/okapi_fukugyo) · [Original post](https://x.com/okapi_fukugyo/status/2103586082336166351) · [Watch the video](https://video.twimg.com/amplify_video/2103586045086543872/vid/avc1/720x720/dDPwZDLm6OWki5la.mp4)
 
-[![<inputs>…](https://media.skillry.dev/opus-5-5/_prompts/okapi-fukugyo-166351/poster.34c9248f5d.webp)](https://x.com/okapi_fukugyo/status/2103586082336166351)
+[![Shape that morphs through UI states](https://media.skillry.dev/opus-5-5/_prompts/okapi-fukugyo-166351/poster.34c9248f5d.webp)](https://x.com/okapi_fukugyo/status/2103586082336166351)
 
 ## Prompt
 

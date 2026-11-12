@@ -1,8 +1,8 @@
-# Opus 5.5 just one-shotted this explainer video for @sherwoodagent 🔥…
+# One-shot explainer from app components
 
 **#504 by popularity** · ♥ 14 · by [@imthatcarlos](https://x.com/imthatcarlos) · [Original post](https://x.com/imthatcarlos/status/2102849219388133592) · [Watch the video](https://media.skillry.dev/opus-5-5/imthatcarlos-133592/original.mp4)
 
-[![Opus 5.5 just one-shotted this explainer video for @sherwoodagent 🔥…](https://media.skillry.dev/opus-5-5/imthatcarlos-133592/original.1e792e53b6.webp)](https://x.com/imthatcarlos/status/2102849219388133592)
+[![One-shot explainer from app components](https://media.skillry.dev/opus-5-5/imthatcarlos-133592/original.1e792e53b6.webp)](https://x.com/imthatcarlos/status/2102849219388133592)
 
 ## Prompt
 

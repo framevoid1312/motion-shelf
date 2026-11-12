@@ -1,8 +1,8 @@
-# Create a 3D animation of a Path Points in this case ball reaching…
+# Ball along a wave, crest to trough
 
 **#803 by popularity** · ♥ 1 · by [@anirockshady](https://x.com/anirockshady) · [Original post](https://x.com/anirockshady/status/2103195903012032809) · [Watch the video](https://media.skillry.dev/opus-5-5/anirockshady-032809/original.mp4)
 
-[![Create a 3D animation of a Path Points in this case ball reaching…](https://media.skillry.dev/opus-5-5/anirockshady-032809/original.c55c54cdbc.webp)](https://x.com/anirockshady/status/2103195903012032809)
+[![Ball along a wave, crest to trough](https://media.skillry.dev/opus-5-5/anirockshady-032809/original.c55c54cdbc.webp)](https://x.com/anirockshady/status/2103195903012032809)
 
 ## Prompt
 

@@ -1,8 +1,8 @@
-# Build a fully working 1857 Napoleon load field cannon in 3D using…
+# 1857 Napoleon field cannon in WebGPU
 
 **#245 by popularity** · ♥ 362 · 21,761 views · by [@thebuggeddev](https://x.com/thebuggeddev) · [Original post](https://x.com/thebuggeddev/status/2107449104926482912) · [Watch the video](https://media.skillry.dev/opus-5-5/thebuggeddev-482912/original.mp4)
 
-[![Build a fully working 1857 Napoleon load field cannon in 3D using…](https://media.skillry.dev/opus-5-5/thebuggeddev-482912/original.192a687052.webp)](https://x.com/thebuggeddev/status/2107449104926482912)
+[![1857 Napoleon field cannon in WebGPU](https://media.skillry.dev/opus-5-5/thebuggeddev-482912/original.192a687052.webp)](https://x.com/thebuggeddev/status/2107449104926482912)
 
 ## Prompt
 

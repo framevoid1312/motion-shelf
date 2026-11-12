@@ -1,8 +1,8 @@
-# 「もしかしてロボットアニメみたいな3機の乗り物が変形合体してロボットになるシーンもアニメ風3D CGで作れますか。」ってClaude…
+# Three vehicles combine into a robot
 
 **#658 by popularity** · ♥ 4 · by [@allforbigfire](https://x.com/allforbigfire) · [Original post](https://x.com/allforbigfire/status/2104193522715029657) · [Watch the video](https://media.skillry.dev/opus-5-5/allforbigfire-029657/original.mp4)
 
-[![「もしかしてロボットアニメみたいな3機の乗り物が変形合体してロボットになるシーンもアニメ風3D CGで作れますか。」ってClaude…](https://media.skillry.dev/opus-5-5/allforbigfire-029657/original.7c37feaf29.webp)](https://x.com/allforbigfire/status/2104193522715029657)
+[![Three vehicles combine into a robot](https://media.skillry.dev/opus-5-5/allforbigfire-029657/original.7c37feaf29.webp)](https://x.com/allforbigfire/status/2104193522715029657)
 
 ## Prompt
 

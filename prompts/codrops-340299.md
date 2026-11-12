@@ -1,8 +1,8 @@
-# Everyone is sharing what Opus 5.5 can build this week, and it made us…
+# What do we make when making is easy
 
 **#453 by popularity** · ♥ 24 · by [@codrops](https://x.com/codrops) · [Original post](https://x.com/codrops/status/2104217304611340299) · [Watch the video](https://media.skillry.dev/opus-5-5/codrops-340299/original.mp4)
 
-[![Everyone is sharing what Opus 5.5 can build this week, and it made us…](https://media.skillry.dev/opus-5-5/codrops-340299/original.f3a89ace78.webp)](https://x.com/codrops/status/2104217304611340299)
+[![What do we make when making is easy](https://media.skillry.dev/opus-5-5/codrops-340299/original.f3a89ace78.webp)](https://x.com/codrops/status/2104217304611340299)
 
 ## Prompt
 

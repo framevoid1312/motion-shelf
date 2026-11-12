@@ -1,8 +1,8 @@
-# Claude Opus 5.5 just created this merch launch video for BridgeMind…
+# Merch launch video in Remotion
 
 **#157 by popularity** · ♥ 557 · by [@bridgemindai](https://x.com/bridgemindai) · [Original post](https://x.com/bridgemindai/status/2102462889160286423) · [Watch the video](https://media.skillry.dev/opus-5-5/bridgemindai-286423/original.mp4)
 
-[![Claude Opus 5.5 just created this merch launch video for BridgeMind…](https://media.skillry.dev/opus-5-5/bridgemindai-286423/original.efad0877d7.webp)](https://x.com/bridgemindai/status/2102462889160286423)
+[![Merch launch video in Remotion](https://media.skillry.dev/opus-5-5/bridgemindai-286423/original.efad0877d7.webp)](https://x.com/bridgemindai/status/2102462889160286423)
 
 ## Prompt
 

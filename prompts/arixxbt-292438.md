@@ -1,8 +1,8 @@
-# Create an interactive zen garden simulation in a single HTML file.…
+# Interactive zen garden
 
 **#440 by popularity** · ♥ 27 · by [@arixxbt](https://x.com/arixxbt) · [Original post](https://x.com/arixxbt/status/2108541814718292438) · [Watch the video](https://video.twimg.com/amplify_video/2108541492151140352/vid/avc1/720x900/CrPJmrdbPG8r0JN9.mp4)
 
-[![Create an interactive zen garden simulation in a single HTML file.…](https://media.skillry.dev/opus-5-5/_prompts/arixxbt-292438/poster.4d4b7ac6c5.webp)](https://x.com/arixxbt/status/2108541814718292438)
+[![Interactive zen garden](https://media.skillry.dev/opus-5-5/_prompts/arixxbt-292438/poster.4d4b7ac6c5.webp)](https://x.com/arixxbt/status/2108541814718292438)
 
 ## Prompt
 

@@ -1,8 +1,8 @@
-# Study how this https://experiments.cloudjoi.com works and use…
+# Product showcase in Remotion
 
 **#793 by popularity** · ♥ 1 · by [@lester_tyy](https://x.com/lester_tyy) · [Original post](https://x.com/lester_tyy/status/2103733819568480587) · [Watch the video](https://media.skillry.dev/opus-5-5/lester-tyy-480587/original.mp4)
 
-[![Study how this https://experiments.cloudjoi.com works and use…](https://media.skillry.dev/opus-5-5/lester-tyy-480587/original.b80fa83043.webp)](https://x.com/lester_tyy/status/2103733819568480587)
+[![Product showcase in Remotion](https://media.skillry.dev/opus-5-5/lester-tyy-480587/original.b80fa83043.webp)](https://x.com/lester_tyy/status/2103733819568480587)
 
 ## Prompt
 

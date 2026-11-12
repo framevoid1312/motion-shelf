@@ -1,8 +1,8 @@
-# build mobile app animated splash screen creation for ...
+# Animated mobile splash screen
 
 **#805 by popularity** · ♥ 1 · by [@modaalbuilder](https://x.com/modaalbuilder) · [Original post](https://x.com/modaalbuilder/status/2103053680945868989) · [Watch the video](https://media.skillry.dev/opus-5-5/modaalbuilder-868989/original.mp4)
 
-[![build mobile app animated splash screen creation for ...](https://media.skillry.dev/opus-5-5/modaalbuilder-868989/original.63d9d72143.webp)](https://x.com/modaalbuilder/status/2103053680945868989)
+[![Animated mobile splash screen](https://media.skillry.dev/opus-5-5/modaalbuilder-868989/original.63d9d72143.webp)](https://x.com/modaalbuilder/status/2103053680945868989)
 
 ## Prompt
 

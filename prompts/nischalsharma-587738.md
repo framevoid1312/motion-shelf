@@ -1,8 +1,8 @@
-# Make an 80 second square animated film as a single HTML file, using…
+# 80-second WebGL2 animated film
 
 **#722 by popularity** · ♥ 3 · by [@nischalsharma_](https://x.com/nischalsharma_) · [Original post](https://x.com/nischalsharma_/status/2103484041718587738) · [Watch the video](https://video.twimg.com/amplify_video/2103479876930183168/vid/avc1/720x720/3FO8YKLT4DR_5g9A.mp4)
 
-[![Make an 80 second square animated film as a single HTML file, using…](https://media.skillry.dev/opus-5-5/_prompts/nischalsharma-587738/poster.9e49ddf9af.webp)](https://x.com/nischalsharma_/status/2103484041718587738)
+[![80-second WebGL2 animated film](https://media.skillry.dev/opus-5-5/_prompts/nischalsharma-587738/poster.9e49ddf9af.webp)](https://x.com/nischalsharma_/status/2103484041718587738)
 
 ## Prompt
 

@@ -1,8 +1,8 @@
-# can you search for the picture of Mona Lisa, then replicate it using…
+# Mona Lisa painted in JS Paint
 
 **#308 by popularity** · ♥ 159 · by [@ehsanik](https://x.com/ehsanik) · [Original post](https://x.com/ehsanik/status/2102885216692162993) · [Watch the video](https://media.skillry.dev/opus-5-5/ehsanik-162993/original.mp4)
 
-[![can you search for the picture of Mona Lisa, then replicate it using…](https://media.skillry.dev/opus-5-5/ehsanik-162993/original.b977c58ac1.webp)](https://x.com/ehsanik/status/2102885216692162993)
+[![Mona Lisa painted in JS Paint](https://media.skillry.dev/opus-5-5/ehsanik-162993/original.b977c58ac1.webp)](https://x.com/ehsanik/status/2102885216692162993)
 
 ## Prompt
 

@@ -1,8 +1,8 @@
-# Opus 5.5 + Remotion 🤓
+# Remotion piece
 
 **#665 by popularity** · ♥ 4 · by [@xamfonos_](https://x.com/xamfonos_) · [Original post](https://x.com/xamfonos_/status/2107809209593004331) · [Watch the video](https://media.skillry.dev/opus-5-5/xamfonos-004331/original.mp4)
 
-[![Opus 5.5 + Remotion 🤓](https://media.skillry.dev/opus-5-5/xamfonos-004331/original.c5fa68db7f.webp)](https://x.com/xamfonos_/status/2107809209593004331)
+[![Remotion piece](https://media.skillry.dev/opus-5-5/xamfonos-004331/original.c5fa68db7f.webp)](https://x.com/xamfonos_/status/2107809209593004331)
 
 ## Prompt
 

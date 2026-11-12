@@ -1,8 +1,8 @@
-# make a dynamic 20-second motion graphics and animation video that…
+# 20-second motion and animation showreel
 
 **#649 by popularity** · ♥ 4 · by [@loicRambo](https://x.com/loicRambo) · [Original post](https://x.com/loicRambo/status/2103428454355980558) · [Watch the video](https://media.skillry.dev/opus-5-5/loicrambo-980558/original.mp4)
 
-[![make a dynamic 20-second motion graphics and animation video that…](https://media.skillry.dev/opus-5-5/loicrambo-980558/original.4b344cccdb.webp)](https://x.com/loicRambo/status/2103428454355980558)
+[![20-second motion and animation showreel](https://media.skillry.dev/opus-5-5/loicrambo-980558/original.4b344cccdb.webp)](https://x.com/loicRambo/status/2103428454355980558)
 
 ## Prompt
 

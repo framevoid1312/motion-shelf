@@ -1,8 +1,8 @@
-# Create a visually stunning 60-second video explaining how an…
+# How an earthquake happens, in 60 seconds
 
 **#431 by popularity** · ♥ 30 · by [@egeberkina](https://x.com/egeberkina) · [Original post](https://x.com/egeberkina/status/2105029713445949521) · [Watch the video](https://video.twimg.com/amplify_video/2105029494004240384/vid/avc1/1280x720/lVpV3D1FFDw-UAFJ.mp4)
 
-[![Create a visually stunning 60-second video explaining how an…](https://media.skillry.dev/opus-5-5/_prompts/egeberkina-949521/poster.f016176a05.webp)](https://x.com/egeberkina/status/2105029713445949521)
+[![How an earthquake happens, in 60 seconds](https://media.skillry.dev/opus-5-5/_prompts/egeberkina-949521/poster.f016176a05.webp)](https://x.com/egeberkina/status/2105029713445949521)
 
 ## Prompt
 

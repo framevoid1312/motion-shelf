@@ -1,8 +1,8 @@
-# make this motion graphics music video for our Weather Gnome app,…
+# Music video for a weather app
 
 **#948 by popularity** · ♥ 0 · by [@RiverRoadLabs](https://x.com/RiverRoadLabs) · [Original post](https://x.com/RiverRoadLabs/status/2104388651287269620) · [Watch the video](https://video.twimg.com/amplify_video/2104388603065389056/vid/avc1/720x1280/68QviT0Ppc6eZOxK.mp4)
 
-[![make this motion graphics music video for our Weather Gnome app,…](https://media.skillry.dev/opus-5-5/_prompts/riverroadlabs-269620/poster.490a5b68d8.webp)](https://x.com/RiverRoadLabs/status/2104388651287269620)
+[![Music video for a weather app](https://media.skillry.dev/opus-5-5/_prompts/riverroadlabs-269620/poster.490a5b68d8.webp)](https://x.com/RiverRoadLabs/status/2104388651287269620)
 
 ## Prompt
 

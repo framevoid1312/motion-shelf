@@ -1,8 +1,8 @@
-# make a dynamic 20-second motion graphics video for fundmycompute that…
+# 20-second platform overview
 
 **#638 by popularity** · ♥ 5 · by [@JayScambler](https://x.com/JayScambler) · [Original post](https://x.com/JayScambler/status/2104634653491495095) · [Watch the video](https://video.twimg.com/amplify_video/2104620291393462274/vid/avc1/1280x720/hbtZYuAj_VgR5Qh1.mp4)
 
-[![make a dynamic 20-second motion graphics video for fundmycompute that…](https://media.skillry.dev/opus-5-5/_prompts/jayscambler-495095/poster.e7ea18a7d1.webp)](https://x.com/JayScambler/status/2104634653491495095)
+[![20-second platform overview](https://media.skillry.dev/opus-5-5/_prompts/jayscambler-495095/poster.e7ea18a7d1.webp)](https://x.com/JayScambler/status/2104634653491495095)
 
 ## Prompt
 

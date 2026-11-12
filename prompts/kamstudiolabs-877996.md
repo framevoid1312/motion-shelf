@@ -1,8 +1,8 @@
-# Make a 90-second animated short film about a bug that doesn't want to…
+# A bug that doesn't want to be fixed
 
 **#579 by popularity** · ♥ 7 · by [@KamStudioLabs](https://x.com/KamStudioLabs) · [Original post](https://x.com/KamStudioLabs/status/2102903173161877996) · [Watch the video](https://media.skillry.dev/opus-5-5/kamstudiolabs-877996/original.mp4)
 
-[![Make a 90-second animated short film about a bug that doesn't want to…](https://media.skillry.dev/opus-5-5/kamstudiolabs-877996/original.adf06de1b4.webp)](https://x.com/KamStudioLabs/status/2102903173161877996)
+[![A bug that doesn't want to be fixed](https://media.skillry.dev/opus-5-5/kamstudiolabs-877996/original.adf06de1b4.webp)](https://x.com/KamStudioLabs/status/2102903173161877996)
 
 ## Prompt
 

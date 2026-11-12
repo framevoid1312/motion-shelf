@@ -1,8 +1,8 @@
-# cooked up this teaser for lernok with opus 5.5 and remotion!
+# Teaser cut with Remotion
 
 **#604 by popularity** · ♥ 6 · by [@nehalmax](https://x.com/nehalmax) · [Original post](https://x.com/nehalmax/status/2105939128705802479) · [Watch the video](https://media.skillry.dev/opus-5-5/nehalmax-802479/original.mp4)
 
-[![cooked up this teaser for lernok with opus 5.5 and remotion!](https://media.skillry.dev/opus-5-5/nehalmax-802479/original.64766d55fc.webp)](https://x.com/nehalmax/status/2105939128705802479)
+[![Teaser cut with Remotion](https://media.skillry.dev/opus-5-5/nehalmax-802479/original.64766d55fc.webp)](https://x.com/nehalmax/status/2105939128705802479)
 
 ## Prompt
 

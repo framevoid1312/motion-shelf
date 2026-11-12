@@ -1,8 +1,8 @@
-# A live WebGL ink painting in the style of Qi Baishi, with paper…
+# Live WebGL ink painting
 
 **#715 by popularity** · ♥ 3 · by [@YouWareAI](https://x.com/YouWareAI) · [Original post](https://x.com/YouWareAI/status/2105656935622259061) · [Watch the video](https://video.twimg.com/amplify_video/2105655712865222657/vid/avc1/1280x720/vaGduYoacfatlWto.mp4)
 
-[![A live WebGL ink painting in the style of Qi Baishi, with paper…](https://media.skillry.dev/opus-5-5/_prompts/youwareai-259061/poster.0d663ec2c2.webp)](https://x.com/YouWareAI/status/2105656935622259061)
+[![Live WebGL ink painting](https://media.skillry.dev/opus-5-5/_prompts/youwareai-259061/poster.0d663ec2c2.webp)](https://x.com/YouWareAI/status/2105656935622259061)
 
 ## Prompt
 

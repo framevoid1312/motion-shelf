@@ -1,8 +1,8 @@
-# Tried the Remotion skill in Claude Code (Opus 5.5 xhigh) for fun.…
+# First-try promo with the Remotion skill
 
 **#824 by popularity** · ♥ 1 · by [@proanaliteg](https://x.com/proanaliteg) · [Original post](https://x.com/proanaliteg/status/2103895246593458642) · [Watch the video](https://media.skillry.dev/opus-5-5/proanaliteg-458642/original.mp4)
 
-[![Tried the Remotion skill in Claude Code (Opus 5.5 xhigh) for fun.…](https://media.skillry.dev/opus-5-5/proanaliteg-458642/original.2683db3024.webp)](https://x.com/proanaliteg/status/2103895246593458642)
+[![First-try promo with the Remotion skill](https://media.skillry.dev/opus-5-5/proanaliteg-458642/original.2683db3024.webp)](https://x.com/proanaliteg/status/2103895246593458642)
 
 ## Prompt
 

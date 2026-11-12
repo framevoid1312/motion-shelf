@@ -1,8 +1,8 @@
-# ①remotion + three.jsを使って…
+# 30-second CM for a typing game
 
 **#405 by popularity** · ♥ 48 · by [@Typingmusou](https://x.com/Typingmusou) · [Original post](https://x.com/Typingmusou/status/2103452241848160705) · [Watch the video](https://video.twimg.com/amplify_video/2103404130308169728/vid/avc1/1280x720/QexH8Ru6jCKIgfAo.mp4)
 
-[![①remotion + three.jsを使って…](https://media.skillry.dev/opus-5-5/_prompts/typingmusou-160705/poster.827d3ed465.webp)](https://x.com/Typingmusou/status/2103452241848160705)
+[![30-second CM for a typing game](https://media.skillry.dev/opus-5-5/_prompts/typingmusou-160705/poster.827d3ed465.webp)](https://x.com/Typingmusou/status/2103452241848160705)
 
 ## Prompt
 

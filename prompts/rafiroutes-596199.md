@@ -1,8 +1,8 @@
-# Implement all scenes, interactions/camera motions, and shader effects…
+# Scenes, cameras and shaders in Three.js
 
 **#920 by popularity** · ♥ 0 · by [@rafiroutes](https://x.com/rafiroutes) · [Original post](https://x.com/rafiroutes/status/2107465888622596199) · [Watch the video](https://video.twimg.com/amplify_video/2107465852987838464/vid/avc1/1280x720/NlDvh6wBOXTJx04I.mp4)
 
-[![Implement all scenes, interactions/camera motions, and shader effects…](https://media.skillry.dev/opus-5-5/_prompts/rafiroutes-596199/poster.3d754542f2.webp)](https://x.com/rafiroutes/status/2107465888622596199)
+[![Scenes, cameras and shaders in Three.js](https://media.skillry.dev/opus-5-5/_prompts/rafiroutes-596199/poster.3d754542f2.webp)](https://x.com/rafiroutes/status/2107465888622596199)
 
 ## Prompt
 

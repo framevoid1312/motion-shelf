@@ -1,8 +1,8 @@
-# Create a motion design video of a slow-reveal transition. Draw the…
+# Wireframe-to-solid logo reveal
 
 **#729 by popularity** · ♥ 2 · by [@Mounnna](https://x.com/Mounnna) · [Original post](https://x.com/Mounnna/status/2103802871934497266) · [Watch the video](https://media.skillry.dev/opus-5-5/mounnna-497266/original.mp4)
 
-[![Create a motion design video of a slow-reveal transition. Draw the…](https://media.skillry.dev/opus-5-5/mounnna-497266/original.ce992e530a.webp)](https://x.com/Mounnna/status/2103802871934497266)
+[![Wireframe-to-solid logo reveal](https://media.skillry.dev/opus-5-5/mounnna-497266/original.ce992e530a.webp)](https://x.com/Mounnna/status/2103802871934497266)
 
 ## Prompt
 

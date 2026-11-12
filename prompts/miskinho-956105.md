@@ -1,8 +1,8 @@
-# make 1 dynamic 15-second motion graphics video that shows what an…
+# 15-second motion designer showreel
 
 **#644 by popularity** · ♥ 4 · by [@miskinho_](https://x.com/miskinho_) · [Original post](https://x.com/miskinho_/status/2103847584531956105) · [Watch the video](https://media.skillry.dev/opus-5-5/miskinho-956105/original.mp4)
 
-[![make 1 dynamic 15-second motion graphics video that shows what an…](https://media.skillry.dev/opus-5-5/miskinho-956105/original.9177868dec.webp)](https://x.com/miskinho_/status/2103847584531956105)
+[![15-second motion designer showreel](https://media.skillry.dev/opus-5-5/miskinho-956105/original.9177868dec.webp)](https://x.com/miskinho_/status/2103847584531956105)
 
 ## Prompt
 

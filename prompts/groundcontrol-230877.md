@@ -1,8 +1,8 @@
-# All right, this is an empty repo. Make me a 3-minute animated…
+# Three-minute animated visualization of Japan
 
 **#610 by popularity** · ♥ 5 · by [@GroundControl](https://x.com/GroundControl) · [Original post](https://x.com/GroundControl/status/2103678647777230877) · [Watch the video](https://media.skillry.dev/opus-5-5/groundcontrol-230877/original.mp4)
 
-[![All right, this is an empty repo. Make me a 3-minute animated…](https://media.skillry.dev/opus-5-5/groundcontrol-230877/original.360975f3b3.webp)](https://x.com/GroundControl/status/2103678647777230877)
+[![Three-minute animated visualization of Japan](https://media.skillry.dev/opus-5-5/groundcontrol-230877/original.360975f3b3.webp)](https://x.com/GroundControl/status/2103678647777230877)
 
 ## Prompt
 

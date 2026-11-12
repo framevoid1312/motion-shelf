@@ -1,8 +1,8 @@
-# opus5.5有点强，我让它自由选题做交互页面和视频，…
+# Tengwang Pavilion on Mid-Autumn night
 
 **#615 by popularity** · ♥ 5 · by [@DemitiyaGeekzen](https://x.com/DemitiyaGeekzen) · [Original post](https://x.com/DemitiyaGeekzen/status/2103517910274818523) · [Watch the video](https://media.skillry.dev/opus-5-5/demitiyageekzen-818523/original.mp4)
 
-[![opus5.5有点强，我让它自由选题做交互页面和视频，…](https://media.skillry.dev/opus-5-5/demitiyageekzen-818523/original.98a29178a6.webp)](https://x.com/DemitiyaGeekzen/status/2103517910274818523)
+[![Tengwang Pavilion on Mid-Autumn night](https://media.skillry.dev/opus-5-5/demitiyageekzen-818523/original.98a29178a6.webp)](https://x.com/DemitiyaGeekzen/status/2103517910274818523)
 
 ## Prompt
 

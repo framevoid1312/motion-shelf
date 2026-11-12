@@ -1,8 +1,8 @@
-# I asked Opus 5.5 to generate a realistic 3D model of the Taj Mahal…
+# 3D Taj Mahal in one HTML file
 
 **#559 by popularity** · ♥ 8 · by [@CurieuxExplorer](https://x.com/CurieuxExplorer) · [Original post](https://x.com/CurieuxExplorer/status/2103038625483272483) · [Watch the video](https://media.skillry.dev/opus-5-5/curieuxexplorer-272483/original.mp4)
 
-[![I asked Opus 5.5 to generate a realistic 3D model of the Taj Mahal…](https://media.skillry.dev/opus-5-5/curieuxexplorer-272483/original.7984edea63.webp)](https://x.com/CurieuxExplorer/status/2103038625483272483)
+[![3D Taj Mahal in one HTML file](https://media.skillry.dev/opus-5-5/curieuxexplorer-272483/original.7984edea63.webp)](https://x.com/CurieuxExplorer/status/2103038625483272483)
 
 ## Prompt
 

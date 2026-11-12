@@ -1,8 +1,8 @@
-# make a 10 sec video on whatever you know about me
+# 10 seconds on what you know about me
 
 **#575 by popularity** · ♥ 7 · by [@Madhav_XO](https://x.com/Madhav_XO) · [Original post](https://x.com/Madhav_XO/status/2103605007396524440) · [Watch the video](https://media.skillry.dev/opus-5-5/madhav-xo-524440/original.mp4)
 
-[![make a 10 sec video on whatever you know about me](https://media.skillry.dev/opus-5-5/madhav-xo-524440/original.7ed7b09262.webp)](https://x.com/Madhav_XO/status/2103605007396524440)
+[![10 seconds on what you know about me](https://media.skillry.dev/opus-5-5/madhav-xo-524440/original.7ed7b09262.webp)](https://x.com/Madhav_XO/status/2103605007396524440)
 
 ## Prompt
 

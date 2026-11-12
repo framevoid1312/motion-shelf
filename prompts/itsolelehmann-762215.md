@@ -1,8 +1,8 @@
-# 4 seasons passing outside a train window, a cozy carriage, a cup of…
+# Four seasons from a train window
 
 **#270 by popularity** · ♥ 276 · 19,862 views · by [@itsolelehmann](https://x.com/itsolelehmann) · [Original post](https://x.com/itsolelehmann/status/2103124033365762215) · [Watch the video](https://media.skillry.dev/opus-5-5/itsolelehmann-762215/original.mp4)
 
-[![4 seasons passing outside a train window, a cozy carriage, a cup of…](https://media.skillry.dev/opus-5-5/itsolelehmann-762215/original.5af36203cb.webp)](https://x.com/itsolelehmann/status/2103124033365762215)
+[![Four seasons from a train window](https://media.skillry.dev/opus-5-5/itsolelehmann-762215/original.5af36203cb.webp)](https://x.com/itsolelehmann/status/2103124033365762215)
 
 ## Prompt
 

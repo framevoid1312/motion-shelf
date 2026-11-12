@@ -1,8 +1,8 @@
-# This whole video is AI-generated. Claude Opus 5.5 wrote the code, the…
+# Code, motion and music in Remotion
 
 **#909 by popularity** · ♥ 0 · by [@apoorvjain25](https://x.com/apoorvjain25) · [Original post](https://x.com/apoorvjain25/status/2107157871356150112) · [Watch the video](https://media.skillry.dev/opus-5-5/apoorvjain25-150112/original.mp4)
 
-[![This whole video is AI-generated. Claude Opus 5.5 wrote the code, the…](https://media.skillry.dev/opus-5-5/apoorvjain25-150112/original.02c64ac212.webp)](https://x.com/apoorvjain25/status/2107157871356150112)
+[![Code, motion and music in Remotion](https://media.skillry.dev/opus-5-5/apoorvjain25-150112/original.02c64ac212.webp)](https://x.com/apoorvjain25/status/2107157871356150112)
 
 ## Prompt
 

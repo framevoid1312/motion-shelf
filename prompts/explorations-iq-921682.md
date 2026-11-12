@@ -1,8 +1,8 @@
-# Opus 5.5 generated this simulation of molecular orbitals in about ~20…
+# Molecular orbitals simulation
 
 **#810 by popularity** · ♥ 1 · by [@explorations_iq](https://x.com/explorations_iq) · [Original post](https://x.com/explorations_iq/status/2103317768669921682) · [Watch the video](https://media.skillry.dev/opus-5-5/explorations-iq-921682/original.mp4)
 
-[![Opus 5.5 generated this simulation of molecular orbitals in about ~20…](https://media.skillry.dev/opus-5-5/explorations-iq-921682/original.adb6559d62.webp)](https://x.com/explorations_iq/status/2103317768669921682)
+[![Molecular orbitals simulation](https://media.skillry.dev/opus-5-5/explorations-iq-921682/original.adb6559d62.webp)](https://x.com/explorations_iq/status/2103317768669921682)
 
 ## Prompt
 

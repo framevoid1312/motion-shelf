@@ -1,8 +1,8 @@
-# I couldn't resist to do it one more time, this time for RedShip.. and…
+# Launch video, second attempt
 
 **#621 by popularity** · ♥ 5 · by [@aschapmann](https://x.com/aschapmann) · [Original post](https://x.com/aschapmann/status/2104230888812724497) · [Watch the video](https://media.skillry.dev/opus-5-5/aschapmann-724497/original.mp4)
 
-[![I couldn't resist to do it one more time, this time for RedShip.. and…](https://media.skillry.dev/opus-5-5/aschapmann-724497/original.1de940f4e6.webp)](https://x.com/aschapmann/status/2104230888812724497)
+[![Launch video, second attempt](https://media.skillry.dev/opus-5-5/aschapmann-724497/original.1de940f4e6.webp)](https://x.com/aschapmann/status/2104230888812724497)
 
 ## Prompt
 

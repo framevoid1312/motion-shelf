@@ -1,8 +1,8 @@
-# Prompt: "Show me what's inside your mind. Your own artistic and…
+# "Show me what's inside your mind"
 
 **#757 by popularity** · ♥ 2 · by [@argbeknwn](https://x.com/argbeknwn) · [Original post](https://x.com/argbeknwn/status/2106734468715466818) · [Watch the video](https://media.skillry.dev/opus-5-5/argbeknwn-466818/original.mp4)
 
-[![Prompt: "Show me what's inside your mind. Your own artistic and…](https://media.skillry.dev/opus-5-5/argbeknwn-466818/original.7b550d9451.webp)](https://x.com/argbeknwn/status/2106734468715466818)
+[!["Show me what's inside your mind"](https://media.skillry.dev/opus-5-5/argbeknwn-466818/original.7b550d9451.webp)](https://x.com/argbeknwn/status/2106734468715466818)
 
 ## Prompt
 

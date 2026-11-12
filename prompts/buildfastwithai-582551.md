@@ -1,8 +1,8 @@
-# Build a Douglas A-1H Skyraider in Three.js
+# Douglas A-1H Skyraider in Three.js
 
 **#557 by popularity** · ♥ 8 · by [@BuildFastWithAI](https://x.com/BuildFastWithAI) · [Original post](https://x.com/BuildFastWithAI/status/2103152898708582551) · [Watch the video](https://media.skillry.dev/opus-5-5/buildfastwithai-582551/original.mp4)
 
-[![Build a Douglas A-1H Skyraider in Three.js](https://media.skillry.dev/opus-5-5/buildfastwithai-582551/original.e0236930b8.webp)](https://x.com/BuildFastWithAI/status/2103152898708582551)
+[![Douglas A-1H Skyraider in Three.js](https://media.skillry.dev/opus-5-5/buildfastwithai-582551/original.e0236930b8.webp)](https://x.com/BuildFastWithAI/status/2103152898708582551)
 
 ## Prompt
 

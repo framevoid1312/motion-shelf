@@ -1,8 +1,8 @@
-# Build me a human heart in interactive 3D, in one HTML file with…
+# Interactive 3D human heart
 
 **#704 by popularity** · ♥ 3 · by [@aichrislee](https://x.com/aichrislee) · [Original post](https://x.com/aichrislee/status/2107985027254378670) · [Watch the video](https://media.skillry.dev/opus-5-5/aichrislee-378670/original.mp4)
 
-[![Build me a human heart in interactive 3D, in one HTML file with…](https://media.skillry.dev/opus-5-5/aichrislee-378670/original.1bee6e2595.webp)](https://x.com/aichrislee/status/2107985027254378670)
+[![Interactive 3D human heart](https://media.skillry.dev/opus-5-5/aichrislee-378670/original.1bee6e2595.webp)](https://x.com/aichrislee/status/2107985027254378670)
 
 ## Prompt
 

@@ -1,8 +1,8 @@
-# Create a motion graphics video that feels like the centerpiece of a…
+# Showreel centerpiece as a résumé
 
 **#459 by popularity** · ♥ 23 · by [@samuel_spitz](https://x.com/samuel_spitz) · [Original post](https://x.com/samuel_spitz/status/2103544855276503053) · [Watch the video](https://media.skillry.dev/opus-5-5/samuel-spitz-503053/original.mp4)
 
-[![Create a motion graphics video that feels like the centerpiece of a…](https://media.skillry.dev/opus-5-5/samuel-spitz-503053/original.6b368c2158.webp)](https://x.com/samuel_spitz/status/2103544855276503053)
+[![Showreel centerpiece as a résumé](https://media.skillry.dev/opus-5-5/samuel-spitz-503053/original.6b368c2158.webp)](https://x.com/samuel_spitz/status/2103544855276503053)
 
 ## Prompt
 

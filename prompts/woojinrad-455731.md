@@ -1,8 +1,8 @@
-# Read the attached article and make a 25-second animated explainer…
+# Colored-pencil explainer from an article
 
 **#480 by popularity** · ♥ 18 · by [@woojinrad](https://x.com/woojinrad) · [Original post](https://x.com/woojinrad/status/2106083299462455731) · [Watch the video](https://video.twimg.com/amplify_video/2106082690361352192/vid/avc1/720x900/roiTD1gOcKr9DE13.mp4)
 
-[![Read the attached article and make a 25-second animated explainer…](https://media.skillry.dev/opus-5-5/_prompts/woojinrad-455731/poster.2170caa017.webp)](https://x.com/woojinrad/status/2106083299462455731)
+[![Colored-pencil explainer from an article](https://media.skillry.dev/opus-5-5/_prompts/woojinrad-455731/poster.2170caa017.webp)](https://x.com/woojinrad/status/2106083299462455731)
 
 ## Prompt
 

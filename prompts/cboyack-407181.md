@@ -1,8 +1,8 @@
-# Asked Opus 5.5 (max) to create a 15-second video about why we need to…
+# 15-second Remotion opinion piece
 
 **#354 by popularity** · ♥ 115 · 7,112 views · by [@cboyack](https://x.com/cboyack) · [Original post](https://x.com/cboyack/status/2103617085402407181) · [Watch the video](https://media.skillry.dev/opus-5-5/cboyack-407181/original.mp4)
 
-[![Asked Opus 5.5 (max) to create a 15-second video about why we need to…](https://media.skillry.dev/opus-5-5/cboyack-407181/original.eee80ed319.webp)](https://x.com/cboyack/status/2103617085402407181)
+[![15-second Remotion opinion piece](https://media.skillry.dev/opus-5-5/cboyack-407181/original.eee80ed319.webp)](https://x.com/cboyack/status/2103617085402407181)
 
 ## Prompt
 

@@ -1,8 +1,8 @@
-# Create an animation of building instructions for a real LEGO model of…
+# Brick-model building instructions, animated
 
 **#783 by popularity** · ♥ 2 · by [@SammmAing](https://x.com/SammmAing) · [Original post](https://x.com/SammmAing/status/2103280356371702076) · [Watch the video](https://video.twimg.com/amplify_video/2103278050209144832/vid/avc1/1280x720/hJb4wGme3sGRTX7-.mp4)
 
-[![Create an animation of building instructions for a real LEGO model of…](https://media.skillry.dev/opus-5-5/_prompts/sammmaing-702076/poster.ce75e0d2d2.webp)](https://x.com/SammmAing/status/2103280356371702076)
+[![Brick-model building instructions, animated](https://media.skillry.dev/opus-5-5/_prompts/sammmaing-702076/poster.ce75e0d2d2.webp)](https://x.com/SammmAing/status/2103280356371702076)
 
 ## Prompt
 

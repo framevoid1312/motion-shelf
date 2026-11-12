@@ -1,8 +1,8 @@
-# Analyze my frontend project, use the actual components from the…
+# Product video from real components
 
 **#779 by popularity** · ♥ 2 · by [@FractaDev](https://x.com/FractaDev) · [Original post](https://x.com/FractaDev/status/2103941789744861266) · [Watch the video](https://video.twimg.com/amplify_video/2103941541286834176/vid/avc1/1280x720/lqHMjkq51KcHPV7y.mp4)
 
-[![Analyze my frontend project, use the actual components from the…](https://media.skillry.dev/opus-5-5/_prompts/fractadev-861266/poster.a65d512591.webp)](https://x.com/FractaDev/status/2103941789744861266)
+[![Product video from real components](https://media.skillry.dev/opus-5-5/_prompts/fractadev-861266/poster.a65d512591.webp)](https://x.com/FractaDev/status/2103941789744861266)
 
 ## Prompt
 

@@ -1,8 +1,8 @@
-# make about my studio with Risograph style
+# Studio film in Risograph style
 
 **#731 by popularity** · ♥ 2 · by [@rneayan](https://x.com/rneayan) · [Original post](https://x.com/rneayan/status/2103401006281441493) · [Watch the video](https://media.skillry.dev/opus-5-5/rneayan-441493/original.mp4)
 
-[![make about my studio with Risograph style](https://media.skillry.dev/opus-5-5/rneayan-441493/original.334013836e.webp)](https://x.com/rneayan/status/2103401006281441493)
+[![Studio film in Risograph style](https://media.skillry.dev/opus-5-5/rneayan-441493/original.334013836e.webp)](https://x.com/rneayan/status/2103401006281441493)
 
 ## Prompt
 

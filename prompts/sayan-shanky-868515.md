@@ -1,8 +1,8 @@
-# show me what goes on inside an AI data centre.
+# Inside an AI data centre
 
 **#417 by popularity** · ♥ 41 · by [@Sayan_shanky](https://x.com/Sayan_shanky) · [Original post](https://x.com/Sayan_shanky/status/2103736579449868515) · [Watch the video](https://media.skillry.dev/opus-5-5/sayan-shanky-868515/original.mp4)
 
-[![show me what goes on inside an AI data centre.](https://media.skillry.dev/opus-5-5/sayan-shanky-868515/original.e5ba676ea2.webp)](https://x.com/Sayan_shanky/status/2103736579449868515)
+[![Inside an AI data centre](https://media.skillry.dev/opus-5-5/sayan-shanky-868515/original.e5ba676ea2.webp)](https://x.com/Sayan_shanky/status/2103736579449868515)
 
 ## Prompt
 

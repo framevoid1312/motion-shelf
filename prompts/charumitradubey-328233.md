@@ -1,8 +1,8 @@
-# Create a motion graphics video for SuperLaunch. Include: → What…
+# Launch video in black and neon green
 
 **#531 by popularity** · ♥ 11 · by [@CharuMitraDubey](https://x.com/CharuMitraDubey) · [Original post](https://x.com/CharuMitraDubey/status/2103956360803328233) · [Watch the video](https://video.twimg.com/amplify_video/2103955965980860416/vid/avc1/1280x720/9abtbjSHM6G4bCtv.mp4)
 
-[![Create a motion graphics video for SuperLaunch. Include: → What…](https://media.skillry.dev/opus-5-5/_prompts/charumitradubey-328233/poster.0a7fd450d2.webp)](https://x.com/CharuMitraDubey/status/2103956360803328233)
+[![Launch video in black and neon green](https://media.skillry.dev/opus-5-5/_prompts/charumitradubey-328233/poster.0a7fd450d2.webp)](https://x.com/CharuMitraDubey/status/2103956360803328233)
 
 ## Prompt
 

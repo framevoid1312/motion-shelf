@@ -1,8 +1,8 @@
-# I want you to create a highly professional SaaS product launch video.…
+# SaaS product launch video
 
 **#471 by popularity** · ♥ 19 · by [@techyoutbe](https://x.com/techyoutbe) · [Original post](https://x.com/techyoutbe/status/2103465227807588678) · [Watch the video](https://media.skillry.dev/opus-5-5/techyoutbe-588678/original.mp4)
 
-[![I want you to create a highly professional SaaS product launch video.…](https://media.skillry.dev/opus-5-5/techyoutbe-588678/original.6bbd2b7bae.webp)](https://x.com/techyoutbe/status/2103465227807588678)
+[![SaaS product launch video](https://media.skillry.dev/opus-5-5/techyoutbe-588678/original.6bbd2b7bae.webp)](https://x.com/techyoutbe/status/2103465227807588678)
 
 ## Prompt
 

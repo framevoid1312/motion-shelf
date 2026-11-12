@@ -1,8 +1,8 @@
-# I want you to create a highly professional SaaS product launch video.…
+# SaaS product launch video
 
 **#360 by popularity** · ♥ 86 · by [@gouthamjay8](https://x.com/gouthamjay8) · [Original post](https://x.com/gouthamjay8/status/2103816261339910269) · [Watch the video](https://media.skillry.dev/opus-5-5/gouthamjay8-910269/original.mp4)
 
-[![I want you to create a highly professional SaaS product launch video.…](https://media.skillry.dev/opus-5-5/gouthamjay8-910269/original.0ca013001b.webp)](https://x.com/gouthamjay8/status/2103816261339910269)
+[![SaaS product launch video](https://media.skillry.dev/opus-5-5/gouthamjay8-910269/original.0ca013001b.webp)](https://x.com/gouthamjay8/status/2103816261339910269)
 
 ## Prompt
 

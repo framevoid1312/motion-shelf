@@ -1,8 +1,8 @@
-# 以动态设计师的高级审美，制作一段动态的15秒动态图形视频
+# 15-second showreel with a designer's eye
 
 **#368 by popularity** · ♥ 62 · 9,269 views · by [@ChatGptAstra](https://x.com/ChatGptAstra) · [Original post](https://x.com/ChatGptAstra/status/2103834787647807540) · [Watch the video](https://media.skillry.dev/opus-5-5/chatgptastra-807540/original.mp4)
 
-[![以动态设计师的高级审美，制作一段动态的15秒动态图形视频](https://media.skillry.dev/opus-5-5/chatgptastra-807540/original.e84909440e.webp)](https://x.com/ChatGptAstra/status/2103834787647807540)
+[![15-second showreel with a designer's eye](https://media.skillry.dev/opus-5-5/chatgptastra-807540/original.e84909440e.webp)](https://x.com/ChatGptAstra/status/2103834787647807540)
 
 ## Prompt
 

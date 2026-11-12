@@ -1,8 +1,8 @@
-# Use Python to generate a 9:16 chaotic brain rot video with excellent…
+# 9:16 brain-rot video in Python
 
 **#381 by popularity** · ♥ 58 · 7,218 views · by [@kloss_xyz](https://x.com/kloss_xyz) · [Original post](https://x.com/kloss_xyz/status/2103664956482941143) · [Watch the video](https://media.skillry.dev/opus-5-5/kloss-xyz-941143/original.mp4)
 
-[![Use Python to generate a 9:16 chaotic brain rot video with excellent…](https://media.skillry.dev/opus-5-5/kloss-xyz-941143/original.c77fc2a47b.webp)](https://x.com/kloss_xyz/status/2103664956482941143)
+[![9:16 brain-rot video in Python](https://media.skillry.dev/opus-5-5/kloss-xyz-941143/original.c77fc2a47b.webp)](https://x.com/kloss_xyz/status/2103664956482941143)
 
 ## Prompt
 

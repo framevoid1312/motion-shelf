@@ -1,8 +1,8 @@
-# 把这首歌做成 1 分钟拼豆像素风…
+# One-minute fuse-bead pixel music video
 
 **#426 by popularity** · ♥ 35 · by [@hahazwei](https://x.com/hahazwei) · [Original post](https://x.com/hahazwei/status/2104809910152425483) · [Watch the video](https://video.twimg.com/amplify_video/2104807097582170112/vid/avc1/1280x720/TDdqdOx_RkLD0I4C.mp4)
 
-[![把这首歌做成 1 分钟拼豆像素风…](https://media.skillry.dev/opus-5-5/_prompts/hahazwei-425483/poster.ee504acb44.webp)](https://x.com/hahazwei/status/2104809910152425483)
+[![One-minute fuse-bead pixel music video](https://media.skillry.dev/opus-5-5/_prompts/hahazwei-425483/poster.ee504acb44.webp)](https://x.com/hahazwei/status/2104809910152425483)
 
 ## Prompt
 

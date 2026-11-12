@@ -1,8 +1,8 @@
-# Code-driven animation: an HTML/JS page where every frame is…
+# Code-driven animation, frame by frame
 
 **#688 by popularity** · ♥ 3 · by [@xelandre__](https://x.com/xelandre__) · [Original post](https://x.com/xelandre__/status/2103473030160687413) · [Watch the video](https://media.skillry.dev/opus-5-5/xelandre-687413/original.mp4)
 
-[![Code-driven animation: an HTML/JS page where every frame is…](https://media.skillry.dev/opus-5-5/xelandre-687413/original.cf7ca87baf.webp)](https://x.com/xelandre__/status/2103473030160687413)
+[![Code-driven animation, frame by frame](https://media.skillry.dev/opus-5-5/xelandre-687413/original.cf7ca87baf.webp)](https://x.com/xelandre__/status/2103473030160687413)
 
 ## Prompt
 

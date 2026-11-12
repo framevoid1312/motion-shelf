@@ -1,8 +1,8 @@
-# Made this small video for a linkedin post with Opus 5.5 + Remotion…
+# Small LinkedIn video from two screenshots
 
 **#622 by popularity** · ♥ 5 · by [@itsyashf](https://x.com/itsyashf) · [Original post](https://x.com/itsyashf/status/2104227261142692347) · [Watch the video](https://media.skillry.dev/opus-5-5/itsyashf-692347/original.mp4)
 
-[![Made this small video for a linkedin post with Opus 5.5 + Remotion…](https://media.skillry.dev/opus-5-5/itsyashf-692347/original.58a10ad462.webp)](https://x.com/itsyashf/status/2104227261142692347)
+[![Small LinkedIn video from two screenshots](https://media.skillry.dev/opus-5-5/itsyashf-692347/original.58a10ad462.webp)](https://x.com/itsyashf/status/2104227261142692347)
 
 ## Prompt
 

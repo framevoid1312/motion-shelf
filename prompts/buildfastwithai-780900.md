@@ -1,8 +1,8 @@
-# generate a creative mp4 video on indian civilisation with music and…
+# Indian civilisation with music and sound
 
 **#720 by popularity** · ♥ 3 · by [@BuildFastWithAI](https://x.com/BuildFastWithAI) · [Original post](https://x.com/BuildFastWithAI/status/2104451249269780900) · [Watch the video](https://video.twimg.com/amplify_video/2104447506201600000/vid/avc1/1280x720/cl-4ZiBQTh1azHo2.mp4)
 
-[![generate a creative mp4 video on indian civilisation with music and…](https://media.skillry.dev/opus-5-5/_prompts/buildfastwithai-780900/poster.0a73a868f7.webp)](https://x.com/BuildFastWithAI/status/2104451249269780900)
+[![Indian civilisation with music and sound](https://media.skillry.dev/opus-5-5/_prompts/buildfastwithai-780900/poster.0a73a868f7.webp)](https://x.com/BuildFastWithAI/status/2104451249269780900)
 
 ## Prompt
 

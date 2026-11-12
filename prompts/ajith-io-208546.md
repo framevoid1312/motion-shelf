@@ -1,8 +1,8 @@
-# Research Distilbook.Make a dynamic 40-second motion graphics video on…
+# 40-second Distilbook showreel
 
 **#113 by popularity** · ♥ 640 · 109,866 views · by [@ajith_io](https://x.com/ajith_io) · [Original post](https://x.com/ajith_io/status/2103469807375208546) · [Watch the video](https://media.skillry.dev/opus-5-5/ajith-io-208546/original.mp4)
 
-[![Research Distilbook.Make a dynamic 40-second motion graphics video on…](https://media.skillry.dev/opus-5-5/ajith-io-208546/original.e545567a26.webp)](https://x.com/ajith_io/status/2103469807375208546)
+[![40-second Distilbook showreel](https://media.skillry.dev/opus-5-5/ajith-io-208546/original.e545567a26.webp)](https://x.com/ajith_io/status/2103469807375208546)
 
 ## Prompt
 

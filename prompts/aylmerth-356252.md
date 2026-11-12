@@ -1,8 +1,8 @@
-# I made this with a two sentence prompt using Opus 5.5 and Remotion.
+# Two-sentence Remotion video
 
 **#415 by popularity** · ♥ 43 · by [@AylmerTH](https://x.com/AylmerTH) · [Original post](https://x.com/AylmerTH/status/2105346401878356252) · [Watch the video](https://media.skillry.dev/opus-5-5/aylmerth-356252/original.mp4)
 
-[![I made this with a two sentence prompt using Opus 5.5 and Remotion.](https://media.skillry.dev/opus-5-5/aylmerth-356252/original.22dec1597f.webp)](https://x.com/AylmerTH/status/2105346401878356252)
+[![Two-sentence Remotion video](https://media.skillry.dev/opus-5-5/aylmerth-356252/original.22dec1597f.webp)](https://x.com/AylmerTH/status/2105346401878356252)
 
 ## Prompt
 

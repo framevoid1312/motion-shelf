@@ -1,8 +1,8 @@
-# Make a dynamic 15-second motion graphics video that shows why [your…
+# 15-second "best at what it does" promo
 
 **#787 by popularity** · ♥ 1 · by [@Ishaaqahamed](https://x.com/Ishaaqahamed) · [Original post](https://x.com/Ishaaqahamed/status/2103837917538107563) · [Watch the video](https://media.skillry.dev/opus-5-5/ishaaqahamed-107563/original.mp4)
 
-[![Make a dynamic 15-second motion graphics video that shows why \[your…](https://media.skillry.dev/opus-5-5/ishaaqahamed-107563/original.56f7461a25.webp)](https://x.com/Ishaaqahamed/status/2103837917538107563)
+[![15-second "best at what it does" promo](https://media.skillry.dev/opus-5-5/ishaaqahamed-107563/original.56f7461a25.webp)](https://x.com/Ishaaqahamed/status/2103837917538107563)
 
 ## Prompt
 

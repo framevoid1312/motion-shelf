@@ -1,8 +1,8 @@
-# make a dynamic 15-second motion graphics video that shows what an…
+# 15-second showreel for a website
 
 **#290 by popularity** · ♥ 86 · 29,664 views · by [@melvynx](https://x.com/melvynx) · [Original post](https://x.com/melvynx/status/2103714680577638493) · [Watch the video](https://media.skillry.dev/opus-5-5/melvynx-638493/original.mp4)
 
-[![make a dynamic 15-second motion graphics video that shows what an…](https://media.skillry.dev/opus-5-5/melvynx-638493/original.93566e677b.webp)](https://x.com/melvynx/status/2103714680577638493)
+[![15-second showreel for a website](https://media.skillry.dev/opus-5-5/melvynx-638493/original.93566e677b.webp)](https://x.com/melvynx/status/2103714680577638493)
 
 ## Prompt
 

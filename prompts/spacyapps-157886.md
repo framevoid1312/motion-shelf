@@ -1,8 +1,8 @@
-# Build "Jelly Dice": a single self-contained HTML file (all JS/CSS…
+# Jelly Dice: soft-body gummy dice
 
 **#627 by popularity** · ♥ 5 · by [@SpacyApps](https://x.com/SpacyApps) · [Original post](https://x.com/SpacyApps/status/2105833401127157886) · [Watch the video](https://media.skillry.dev/opus-5-5/spacyapps-157886/original.mp4)
 
-[![Build "Jelly Dice": a single self-contained HTML file (all JS/CSS…](https://media.skillry.dev/opus-5-5/spacyapps-157886/original.70264f9059.webp)](https://x.com/SpacyApps/status/2105833401127157886)
+[![Jelly Dice: soft-body gummy dice](https://media.skillry.dev/opus-5-5/spacyapps-157886/original.70264f9059.webp)](https://x.com/SpacyApps/status/2105833401127157886)
 
 ## Prompt
 

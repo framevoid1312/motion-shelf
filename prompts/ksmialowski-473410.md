@@ -1,8 +1,8 @@
-# Rok temu próbowałem zrobić grę 3D z Opusem 4.1 - zrzut ekranu, jak to…
+# 3D game, one year later
 
 **#740 by popularity** · ♥ 2 · by [@ksmialowski](https://x.com/ksmialowski) · [Original post](https://x.com/ksmialowski/status/2104103109358473410) · [Watch the video](https://media.skillry.dev/opus-5-5/ksmialowski-473410/original.mp4)
 
-[![Rok temu próbowałem zrobić grę 3D z Opusem 4.1 - zrzut ekranu, jak to…](https://media.skillry.dev/opus-5-5/ksmialowski-473410/original.66cbf5e78b.webp)](https://x.com/ksmialowski/status/2104103109358473410)
+[![3D game, one year later](https://media.skillry.dev/opus-5-5/ksmialowski-473410/original.66cbf5e78b.webp)](https://x.com/ksmialowski/status/2104103109358473410)
 
 ## Prompt
 

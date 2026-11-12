@@ -1,8 +1,8 @@
-# you are a pro motion designer. analyze my portfolio and make a ~30…
+# 30-second video from a portfolio
 
 **#643 by popularity** · ♥ 4 · by [@heyiammallik](https://x.com/heyiammallik) · [Original post](https://x.com/heyiammallik/status/2103837803587293397) · [Watch the video](https://media.skillry.dev/opus-5-5/heyiammallik-293397/original.mp4)
 
-[![you are a pro motion designer. analyze my portfolio and make a ~30…](https://media.skillry.dev/opus-5-5/heyiammallik-293397/original.7068f7995f.webp)](https://x.com/heyiammallik/status/2103837803587293397)
+[![30-second video from a portfolio](https://media.skillry.dev/opus-5-5/heyiammallik-293397/original.7068f7995f.webp)](https://x.com/heyiammallik/status/2103837803587293397)
 
 ## Prompt
 

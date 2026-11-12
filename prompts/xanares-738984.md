@@ -1,8 +1,8 @@
-# Make a 37-second demoscene tech demo for the track…
+# 37-second demoscene tech demo
 
 **#714 by popularity** · ♥ 3 · by [@Xanares](https://x.com/Xanares) · [Original post](https://x.com/Xanares/status/2105770390924738984) · [Watch the video](https://video.twimg.com/amplify_video/2105764181311901696/vid/avc1/1280x720/0_Hsf_sGmwUQ3ek3.mp4)
 
-[![Make a 37-second demoscene tech demo for the track…](https://media.skillry.dev/opus-5-5/_prompts/xanares-738984/poster.fb819706a8.webp)](https://x.com/Xanares/status/2105770390924738984)
+[![37-second demoscene tech demo](https://media.skillry.dev/opus-5-5/_prompts/xanares-738984/poster.fb819706a8.webp)](https://x.com/Xanares/status/2105770390924738984)
 
 ## Prompt
 

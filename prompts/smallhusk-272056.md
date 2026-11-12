@@ -1,8 +1,8 @@
-# A procedurally-generated game in infinite stranded space colonies…
+# Procedural game in stranded space colonies
 
 **#660 by popularity** · ♥ 4 · by [@smallhusk](https://x.com/smallhusk) · [Original post](https://x.com/smallhusk/status/2104046074600272056) · [Watch the video](https://media.skillry.dev/opus-5-5/smallhusk-272056/original.mp4)
 
-[![A procedurally-generated game in infinite stranded space colonies…](https://media.skillry.dev/opus-5-5/smallhusk-272056/original.f92b69226b.webp)](https://x.com/smallhusk/status/2104046074600272056)
+[![Procedural game in stranded space colonies](https://media.skillry.dev/opus-5-5/smallhusk-272056/original.f92b69226b.webp)](https://x.com/smallhusk/status/2104046074600272056)
 
 ## Prompt
 

@@ -1,8 +1,8 @@
-# make a video that could go viral.
+# A video that could go viral
 
 **#786 by popularity** · ♥ 1 · 116 views · by [@kantamk](https://x.com/kantamk) · [Original post](https://x.com/kantamk/status/2103148907228176511) · [Watch the video](https://media.skillry.dev/opus-5-5/kantamk-176511/original.mp4)
 
-[![make a video that could go viral.](https://media.skillry.dev/opus-5-5/kantamk-176511/original.853e2fdde1.webp)](https://x.com/kantamk/status/2103148907228176511)
+[![A video that could go viral](https://media.skillry.dev/opus-5-5/kantamk-176511/original.853e2fdde1.webp)](https://x.com/kantamk/status/2103148907228176511)
 
 ## Prompt
 

@@ -1,8 +1,8 @@
-# 見た人の脳汁がドバドバでてトランス状態に陥るようなサイケデリック・ポップ・パンクなVJ風のモーショングラフィックス動画を作り、その動画と完全…
+# Psychedelic VJ motion with a techno track
 
 **#567 by popularity** · ♥ 8 · by [@yama_kiyo](https://x.com/yama_kiyo) · [Original post](https://x.com/yama_kiyo/status/2103740786177134910) · [Watch the video](https://video.twimg.com/amplify_video/2103740245879689216/vid/avc1/1280x720/I0h63rQoIt9WH7p9.mp4)
 
-[![見た人の脳汁がドバドバでてトランス状態に陥るようなサイケデリック・ポップ・パンクなVJ風のモーショングラフィックス動画を作り、その動画と完全…](https://media.skillry.dev/opus-5-5/_prompts/yama-kiyo-134910/poster.b270c9b6dd.webp)](https://x.com/yama_kiyo/status/2103740786177134910)
+[![Psychedelic VJ motion with a techno track](https://media.skillry.dev/opus-5-5/_prompts/yama-kiyo-134910/poster.b270c9b6dd.webp)](https://x.com/yama_kiyo/status/2103740786177134910)
 
 ## Prompt
 
