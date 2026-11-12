@@ -1,0 +1,5 @@
+node_modules
+out
+public/*.wav
+score/node_modules
+score/score_raw.wav

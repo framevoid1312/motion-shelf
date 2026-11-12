@@ -1,0 +1,24 @@
+{
+  "name": "lockup-in-motion",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Lockup in Motion — minimal mono asset reel, Remotion, 120 BPM, 1080x1080",
+  "scripts": {
+    "dev": "remotion studio",
+    "render": "remotion render BrutalistReel out/reel-30fps.mp4",
+    "render:60": "remotion render BrutalistReel60 out/reel-60fps.mp4",
+    "still": "remotion still BrutalistReel out/frame.png --frame=420",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.538",
+    "@remotion/google-fonts": "4.0.538",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "remotion": "4.0.538"
+  },
+  "devDependencies": {
+    "@types/react": "^19.0.0",
+    "typescript": "^5.6.0"
+  }
+}

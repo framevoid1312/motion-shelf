@@ -1166,12 +1166,13 @@ The full data is in [`posts.json`](posts.json).
 Films made the same way, with the exact prompt and full source to rebuild them, for anyone who wants to try the method.
 
 <table><tr>
-<td width="16%" valign="top"><a href="phil/snow-1999"><img src="phil/snow-1999/poster.jpg" width="100%" alt=""></a><br><b><a href="phil/snow-1999">03:14 · Snow · 1999</a></b><br><sub>9 Nov 2026 · pixel art · canvas · seamless loop</sub></td>
-<td width="16%" valign="top"><a href="phil/rain-2089"><img src="phil/rain-2089/poster.jpg" width="100%" alt=""></a><br><b><a href="phil/rain-2089">02:37 · Rain · 2089</a></b><br><sub>5 Nov 2026 · pixel art · canvas · lo-fi loop</sub></td>
-<td width="16%" valign="top"><a href="phil/reel-2026"><img src="phil/reel-2026/poster.jpg" width="100%" alt=""></a><br><b><a href="phil/reel-2026">REEL 2026</a></b><br><sub>4 Nov 2026 · showreel · Remotion · three.js</sub></td>
-<td width="16%" valign="top"><a href="phil/a-year-on-the-island"><img src="phil/a-year-on-the-island/poster.jpg" width="100%" alt=""></a><br><b><a href="phil/a-year-on-the-island">A Year on the Island</a></b><br><sub>3 Nov 2026 · Memphis diorama · three.js · 1080p60</sub></td>
-<td width="16%" valign="top"><a href="phil/sigma-swiss-motion"><img src="phil/sigma-swiss-motion/poster.jpg" width="100%" alt=""></a><br><b><a href="phil/sigma-swiss-motion">ς: the letter that only ends</a></b><br><sub>2 Nov 2026 · Swiss motion · canvas · Greek type</sub></td>
-<td width="16%" valign="top"><a href="phil/pixel-quest"><img src="phil/pixel-quest/poster.jpg" width="100%" alt=""></a><br><b><a href="phil/pixel-quest">PIXEL QUEST · 像素冒险</a></b><br><sub>25 Oct 2026 · pixel art · 8-bit · chiptune</sub></td>
+<td width="14%" valign="top"><a href="phil/snow-1999"><img src="phil/snow-1999/poster.jpg" width="100%" alt=""></a><br><b><a href="phil/snow-1999">03:14 · Snow · 1999</a></b><br><sub>9 Nov 2026 · pixel art · canvas · seamless loop</sub></td>
+<td width="14%" valign="top"><a href="phil/rain-2089"><img src="phil/rain-2089/poster.jpg" width="100%" alt=""></a><br><b><a href="phil/rain-2089">02:37 · Rain · 2089</a></b><br><sub>5 Nov 2026 · pixel art · canvas · lo-fi loop</sub></td>
+<td width="14%" valign="top"><a href="phil/reel-2026"><img src="phil/reel-2026/poster.jpg" width="100%" alt=""></a><br><b><a href="phil/reel-2026">REEL 2026</a></b><br><sub>4 Nov 2026 · showreel · Remotion · three.js</sub></td>
+<td width="14%" valign="top"><a href="phil/a-year-on-the-island"><img src="phil/a-year-on-the-island/poster.jpg" width="100%" alt=""></a><br><b><a href="phil/a-year-on-the-island">A Year on the Island</a></b><br><sub>3 Nov 2026 · Memphis diorama · three.js · 1080p60</sub></td>
+<td width="14%" valign="top"><a href="phil/sigma-swiss-motion"><img src="phil/sigma-swiss-motion/poster.jpg" width="100%" alt=""></a><br><b><a href="phil/sigma-swiss-motion">ς: the letter that only ends</a></b><br><sub>2 Nov 2026 · Swiss motion · canvas · Greek type</sub></td>
+<td width="14%" valign="top"><a href="phil/lockup-in-motion"><img src="phil/lockup-in-motion/poster.jpg" width="100%" alt=""></a><br><b><a href="phil/lockup-in-motion">LOCKUP IN MOTION</a></b><br><sub>31 Oct 2026 · Swiss brutalism · Remotion · After Effects</sub></td>
+<td width="14%" valign="top"><a href="phil/pixel-quest"><img src="phil/pixel-quest/poster.jpg" width="100%" alt=""></a><br><b><a href="phil/pixel-quest">PIXEL QUEST · 像素冒险</a></b><br><sub>25 Oct 2026 · pixel art · 8-bit · chiptune</sub></td>
 </tr></table>
 
 ## Credits
