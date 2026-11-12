@@ -1,8 +1,8 @@
-# <inputs> Ask me for: my product's name (nightshift) (one lowercase…
+# Shape that morphs through UI states
 
 **#302 by popularity** · ♥ 190 · 15,016 views · by [@twoclipping](https://x.com/twoclipping) · [Original post](https://x.com/twoclipping/status/2105927781678747965) · [Watch the video](https://video.twimg.com/amplify_video/2105927334729502720/vid/avc1/720x720/On5jQwkcTA0mbKKg.mp4)
 
-[![<inputs> Ask me for: my product's name (nightshift) (one lowercase…](https://media.skillry.dev/opus-5-5/_prompts/twoclipping-747965/poster.d593c7a846.webp)](https://x.com/twoclipping/status/2105927781678747965)
+[![Shape that morphs through UI states](https://media.skillry.dev/opus-5-5/_prompts/twoclipping-747965/poster.d593c7a846.webp)](https://x.com/twoclipping/status/2105927781678747965)
 
 ## Prompt
 

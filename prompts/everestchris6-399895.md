@@ -1,8 +1,8 @@
-# <role> you design and build motion videos entirely in code, with gsap…
+# Shape that morphs through UI states
 
 **#85 by popularity** · ♥ 1,062 · by [@everestchris6](https://x.com/everestchris6) · [Original post](https://x.com/everestchris6/status/2104965415164399895) · [Watch the video](https://video.twimg.com/amplify_video/2104965023546449920/vid/avc1/1280x720/CmEdn5UztgGzLRTB.mp4)
 
-[![<role> you design and build motion videos entirely in code, with gsap…](https://media.skillry.dev/opus-5-5/_prompts/everestchris6-399895/poster.d351346a82.webp)](https://x.com/everestchris6/status/2104965415164399895)
+[![Shape that morphs through UI states](https://media.skillry.dev/opus-5-5/_prompts/everestchris6-399895/poster.d351346a82.webp)](https://x.com/everestchris6/status/2104965415164399895)
 
 ## Prompt
 

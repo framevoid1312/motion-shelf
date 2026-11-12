@@ -1,8 +1,8 @@
-# <role> You are a pixel animator and game feel designer who also…
+# Shape that morphs through UI states
 
 **#151 by popularity** · ♥ 580 · by [@gkxspace](https://x.com/gkxspace) · [Original post](https://x.com/gkxspace/status/2105260627937923139) · [Watch the video](https://video.twimg.com/amplify_video/2103847608553005056/vid/avc1/1280x720/vYZionW6aNc9iH2-.mp4)
 
-[![<role> You are a pixel animator and game feel designer who also…](https://media.skillry.dev/opus-5-5/_prompts/gkxspace-923139/poster.36dd7565cc.webp)](https://x.com/gkxspace/status/2105260627937923139)
+[![Shape that morphs through UI states](https://media.skillry.dev/opus-5-5/_prompts/gkxspace-923139/poster.36dd7565cc.webp)](https://x.com/gkxspace/status/2105260627937923139)
 
 ## Prompt
 

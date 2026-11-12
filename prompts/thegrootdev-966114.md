@@ -1,8 +1,8 @@
-# <inputs> Ask me for: my featured Pokémon or starter trio, 8–12…
+# Shape that morphs through UI states
 
 **#799 by popularity** · ♥ 1 · by [@TheGrootDev](https://x.com/TheGrootDev) · [Original post](https://x.com/TheGrootDev/status/2103516567824966114) · [Watch the video](https://media.skillry.dev/opus-5-5/thegrootdev-966114/original.mp4)
 
-[![<inputs> Ask me for: my featured Pokémon or starter trio, 8–12…](https://media.skillry.dev/opus-5-5/thegrootdev-966114/original.6feef7fc7c.webp)](https://x.com/TheGrootDev/status/2103516567824966114)
+[![Shape that morphs through UI states](https://media.skillry.dev/opus-5-5/thegrootdev-966114/original.6feef7fc7c.webp)](https://x.com/TheGrootDev/status/2103516567824966114)
 
 ## Prompt
 

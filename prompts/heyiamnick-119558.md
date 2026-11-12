@@ -1,8 +1,8 @@
-# <direction> Build a 30-second looping motion design showreel that…
+# Shape that morphs through UI states
 
 **#435 by popularity** · ♥ 29 · by [@heyiamnick](https://x.com/heyiamnick) · [Original post](https://x.com/heyiamnick/status/2109174851412119558) · [Watch the video](https://media.skillry.dev/opus-5-5/heyiamnick-119558/original.mp4)
 
-[![<direction> Build a 30-second looping motion design showreel that…](https://media.skillry.dev/opus-5-5/heyiamnick-119558/original.9d470f3eab.webp)](https://x.com/heyiamnick/status/2109174851412119558)
+[![Shape that morphs through UI states](https://media.skillry.dev/opus-5-5/heyiamnick-119558/original.9d470f3eab.webp)](https://x.com/heyiamnick/status/2109174851412119558)
 
 ## Prompt
 

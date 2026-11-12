@@ -1,8 +1,8 @@
-# <inputs> Ask me for: • my product + URL • 8–12 UI states that tell…
+# Shape that morphs through UI states
 
 **#267 by popularity** · ♥ 242 · by [@verbove](https://x.com/verbove) · [Original post](https://x.com/verbove/status/2103483957266268381) · [Watch the video](https://media.skillry.dev/opus-5-5/verbove-268381/original.mp4)
 
-[![<inputs> Ask me for: • my product + URL • 8–12 UI states that tell…](https://media.skillry.dev/opus-5-5/verbove-268381/original.48c597b63b.webp)](https://x.com/verbove/status/2103483957266268381)
+[![Shape that morphs through UI states](https://media.skillry.dev/opus-5-5/verbove-268381/original.48c597b63b.webp)](https://x.com/verbove/status/2103483957266268381)
 
 ## Prompt
 

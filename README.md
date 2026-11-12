@@ -80,7 +80,7 @@ Free agent skills for making motion and video with Claude Code, Codex and other 
 <tr>
 <td width="33%" valign="top"><a href="prompts/aimind-ai-154557.md"><img src="https://pbs.twimg.com/amplify_video_thumb/2107435237265305600/img/jvFc3op0U3-f_HCs.jpg" width="100%" alt=""></a><br><b>#4 · ♥ 24,823</b><br><a href="prompts/aimind-ai-154557.md">A cow that runs</a><br><sub><a href="https://x.com/AIMind_Ai/status/2107435499686154557">@AIMind_Ai</a></sub></td>
 <td width="33%" valign="top"><a href="prompts/shneural-962130.md"><img src="https://pbs.twimg.com/amplify_video_thumb/2103149570440024064/img/QKgvRP_unggJVH6M.jpg" width="100%" alt=""></a><br><b>#5 · ♥ 6,830</b><br><a href="prompts/shneural-962130.md">Bold kinetic type showreel</a><br><sub><a href="https://x.com/shneural/status/2103151003272962130">@shneural</a></sub></td>
-<td width="33%" valign="top"><a href="prompts/twoclipping-402193.md"><img src="https://media.skillry.dev/opus-5-5/twoclipping-402193/original.9c664f011f.webp" width="100%" alt=""></a><br><b>#6 · ♥ 12,765</b><br><a href="prompts/twoclipping-402193.md"><inputs> Ask me for: 8 to 12 UI states I want the shape to become…</a><br><sub><a href="https://x.com/twoclipping/status/2103273003555402193">@twoclipping</a></sub></td>
+<td width="33%" valign="top"><a href="prompts/twoclipping-402193.md"><img src="https://media.skillry.dev/opus-5-5/twoclipping-402193/original.9c664f011f.webp" width="100%" alt=""></a><br><b>#6 · ♥ 12,765</b><br><a href="prompts/twoclipping-402193.md">Shape that morphs through UI states</a><br><sub><a href="https://x.com/twoclipping/status/2103273003555402193">@twoclipping</a></sub></td>
 </tr>
 <tr>
 <td width="33%" valign="top"><a href="prompts/achxvi-963545.md"><img src="https://pbs.twimg.com/amplify_video_thumb/2103918273414791168/img/4nc-LE_FerctutUy.jpg" width="100%" alt=""></a><br><b>#7 · ♥ 9,177</b><br><a href="prompts/achxvi-963545.md">Unspecified animation made in 15 minutes</a><br><sub><a href="https://x.com/achxvi/status/2103918792845963545">@achxvi</a></sub></td>
@@ -150,7 +150,7 @@ Free agent skills for making motion and video with Claude Code, Codex and other 
 <tr>
 <td width="33%" valign="top"><a href="prompts/motion-conquest-308152.md"><img src="https://pbs.twimg.com/amplify_video_thumb/2103509946549862400/img/1ZjYDT6xXaZPDJKS.jpg" width="100%" alt=""></a><br><b>#46 · ♥ 2,034</b><br><a href="prompts/motion-conquest-308152.md">Apple Liquid Glass style UI motion showcase</a><br><sub><a href="https://x.com/motion_conquest/status/2103510103622308152">@motion_conquest</a></sub></td>
 <td width="33%" valign="top"><a href="prompts/leodavincs3-643203.md"><img src="https://media.clawshelf.com/ai-videos/opus-5.5/leodavincs3-643203/poster.jpg" width="100%" alt=""></a><br><b>#47 · ♥ 564</b><br><a href="prompts/leodavincs3-643203.md">15-second motion showreel (prompt in Turkish)</a><br><sub><a href="https://x.com/leodavincs3/status/2103425994610643203">@leodavincs3</a></sub></td>
-<td width="33%" valign="top"><a href="prompts/twoclipping-496100.md"><img src="https://media.skillry.dev/opus-5-5/twoclipping-496100/original.8f1c352eca.webp" width="100%" alt=""></a><br><b>#48 · ♥ 2,193</b><br><a href="prompts/twoclipping-496100.md"><inputs> Ask me for: a one-word brand name for the wordmark (a verb…</a><br><sub><a href="https://x.com/twoclipping/status/2103835273813496100">@twoclipping</a></sub></td>
+<td width="33%" valign="top"><a href="prompts/twoclipping-496100.md"><img src="https://media.skillry.dev/opus-5-5/twoclipping-496100/original.8f1c352eca.webp" width="100%" alt=""></a><br><b>#48 · ♥ 2,193</b><br><a href="prompts/twoclipping-496100.md">Shape that morphs through UI states</a><br><sub><a href="https://x.com/twoclipping/status/2103835273813496100">@twoclipping</a></sub></td>
 </tr>
 <tr>
 <td width="33%" valign="top"><a href="prompts/magnific-964879.md"><img src="https://pbs.twimg.com/amplify_video_thumb/2104587439746732033/img/0A6euAblO7l0csep.jpg" width="100%" alt=""></a><br><b>#49 · ♥ 1,592</b><br><a href="prompts/magnific-964879.md">Character builder with sliders demo</a><br><sub><a href="https://x.com/magnific/status/2104587476014964879">@magnific</a></sub></td>
@@ -183,7 +183,7 @@ Free agent skills for making motion and video with Claude Code, Codex and other 
 | 3 | 17,248 | 2,314,133 | Claude motion designer showreel | [@stephanlivera](https://x.com/stephanlivera) | [Prompt](prompts/stephanlivera-470926.md) | [X](https://x.com/stephanlivera/status/2103315922098470926) |
 | 4 | 24,823 | 1,380,015 | A cow that runs | [@AIMind_Ai](https://x.com/AIMind_Ai) | [Prompt](prompts/aimind-ai-154557.md) | [X](https://x.com/AIMind_Ai/status/2107435499686154557) |
 | 5 | 6,830 | 1,904,494 | Bold kinetic type showreel | [@shneural](https://x.com/shneural) | [Prompt](prompts/shneural-962130.md) | [X](https://x.com/shneural/status/2103151003272962130) |
-| 6 | 12,765 | 1,181,518 | <inputs> Ask me for: 8 to 12 UI states I want the shape to become… | [@twoclipping](https://x.com/twoclipping) | [Prompt](prompts/twoclipping-402193.md) | [X](https://x.com/twoclipping/status/2103273003555402193) |
+| 6 | 12,765 | 1,181,518 | Shape that morphs through UI states | [@twoclipping](https://x.com/twoclipping) | [Prompt](prompts/twoclipping-402193.md) | [X](https://x.com/twoclipping/status/2103273003555402193) |
 | 7 | 9,177 | 1,145,220 | Unspecified animation made in 15 minutes | [@achxvi](https://x.com/achxvi) | [Prompt](prompts/achxvi-963545.md) | [X](https://x.com/achxvi/status/2103918792845963545) |
 | 8 | 8,380 | 1,183,026 | Interactive Raptor 3 rocket engine | [@konstantinsaifo](https://x.com/konstantinsaifo) | [Prompt](prompts/konstantinsaifo-501736.md) | [X](https://x.com/konstantinsaifo/status/2104094723887501736) |
 | 9 | 3,538 | 1,288,903 | Dystopian AI short film (11 min) | [@Skoorbkaz](https://x.com/Skoorbkaz) | [Prompt](prompts/skoorbkaz-941441.md) | [X](https://x.com/Skoorbkaz/status/2113392757548941441) |
@@ -225,7 +225,7 @@ Free agent skills for making motion and video with Claude Code, Codex and other 
 | 45 | 389 | 346,265 | Three-body gravitational simulation | [@zAdrielsan](https://x.com/zAdrielsan) | [Prompt](prompts/zadrielsan-001360.md) | [X](https://x.com/zAdrielsan/status/2105822678519001360) |
 | 46 | 2,034 | 176,847 | Apple Liquid Glass style UI motion showcase | [@motion_conquest](https://x.com/motion_conquest) | [Prompt](prompts/motion-conquest-308152.md) | [X](https://x.com/motion_conquest/status/2103510103622308152) |
 | 47 | 564 | 316,819 | 15-second motion showreel (prompt in Turkish) | [@leodavincs3](https://x.com/leodavincs3) | [Prompt](prompts/leodavincs3-643203.md) | [X](https://x.com/leodavincs3/status/2103425994610643203) |
-| 48 | 2,193 | 143,460 | <inputs> Ask me for: a one-word brand name for the wordmark (a verb… | [@twoclipping](https://x.com/twoclipping) | [Prompt](prompts/twoclipping-496100.md) | [X](https://x.com/twoclipping/status/2103835273813496100) |
+| 48 | 2,193 | 143,460 | Shape that morphs through UI states | [@twoclipping](https://x.com/twoclipping) | [Prompt](prompts/twoclipping-496100.md) | [X](https://x.com/twoclipping/status/2103835273813496100) |
 | 49 | 1,592 | 203,282 | Character builder with sliders demo | [@magnific](https://x.com/magnific) | [Prompt](prompts/magnific-964879.md) | [X](https://x.com/magnific/status/2104587476014964879) |
 | 50 | 1,654 | 191,184 | Zoomable app architecture canvas | [@robinebers](https://x.com/robinebers) | [Prompt](prompts/robinebers-745060.md) | [X](https://x.com/robinebers/status/2105309987983745060) |
 | 51 | 1,083 | 245,766 | Pixel character dodging meteors on a rainbow space track | [@riku720720](https://x.com/riku720720) | [Prompt](prompts/riku720720-063144.md) | [X](https://x.com/riku720720/status/2102515055116063144) |
@@ -262,7 +262,7 @@ Free agent skills for making motion and video with Claude Code, Codex and other 
 | 82 | 1,444 | 73,292 | Zoom journey from a cell to quantum fields | [@paraschopra](https://x.com/paraschopra) | [Prompt](prompts/paraschopra-991347.md) | [X](https://x.com/paraschopra/status/2103099756167991347) |
 | 83 | 714 | 145,862 | App redesign plus an over-the-top demo | [@anshuc](https://x.com/anshuc) | [Prompt](prompts/anshuc-084824.md) | [X](https://x.com/anshuc/status/2103598854801084824) |
 | 84 | 902 | 122,332 | Code-only three.js temple at dusk | [@leo_xiaolei](https://x.com/leo_xiaolei) | [Prompt](prompts/leo-xiaolei-556038.md) | [X](https://x.com/leo_xiaolei/status/2112545748944556038) |
-| 85 | 1,062 | — | <role> you design and build motion videos entirely in code, with gsap… | [@everestchris6](https://x.com/everestchris6) | [Prompt](prompts/everestchris6-399895.md) | [X](https://x.com/everestchris6/status/2104965415164399895) |
+| 85 | 1,062 | — | Shape that morphs through UI states | [@everestchris6](https://x.com/everestchris6) | [Prompt](prompts/everestchris6-399895.md) | [X](https://x.com/everestchris6/status/2104965415164399895) |
 | 86 | 873 | 125,084 | Itsukushima Shrine 3D scene | [@Ayu_AI_0912](https://x.com/Ayu_AI_0912) | [Prompt](prompts/ayu-ai-0912-216515.md) | [X](https://x.com/Ayu_AI_0912/status/2103737014508216515) |
 | 87 | 1,085 | 102,422 | Same message, remade for a quick-clip audience | [@emollick](https://x.com/emollick) | [Prompt](prompts/emollick-918334.md) | [X](https://x.com/emollick/status/2103272686570918334) |
 | 88 | 875 | 119,978 | Oktoberfest-themed animation | [@cherry_mx_reds](https://x.com/cherry_mx_reds) | [Prompt](prompts/cherry-mx-reds-475855.md) | [X](https://x.com/cherry_mx_reds/status/2102493303388475855) |
@@ -305,7 +305,7 @@ Free agent skills for making motion and video with Claude Code, Codex and other 
 | 125 | 695 | 76,725 | Animated robot story across 12 art styles | [@pradeepXkapoor](https://x.com/pradeepXkapoor) | [Prompt](prompts/pradeepxkapoor-271874.md) | [X](https://x.com/pradeepXkapoor/status/2103099194693271874) |
 | 126 | 688 | 77,151 | Galileo 1638 in Canvas 2D | [@AIMevzulari](https://x.com/AIMevzulari) | [Prompt](prompts/aimevzulari-256293.md) | [X](https://x.com/AIMevzulari/status/2106052083040256293) |
 | 127 | 827 | 62,229 | An otter on a plane using wifi | [@emollick](https://x.com/emollick) | [Prompt](prompts/emollick-367004.md) | [X](https://x.com/emollick/status/2112656453685367004) |
-| 128 | 721 | — | <inputs> Ask me for: the one question a user asks my product and its… | [@twoclipping](https://x.com/twoclipping) | [Prompt](prompts/twoclipping-762046.md) | [X](https://x.com/twoclipping/status/2104674464868762046) |
+| 128 | 721 | — | Shape that morphs through UI states | [@twoclipping](https://x.com/twoclipping) | [Prompt](prompts/twoclipping-762046.md) | [X](https://x.com/twoclipping/status/2104674464868762046) |
 | 129 | 624 | 81,680 | Proton collision in the LHC, in Blender | [@superalesha](https://x.com/superalesha) | [Prompt](prompts/superalesha-774104.md) | [X](https://x.com/superalesha/status/2102779758408774104) |
 | 130 | 443 | 99,722 | SaaS product launch video | [@moritzkremb](https://x.com/moritzkremb) | [Prompt](prompts/moritzkremb-466494.md) | [X](https://x.com/moritzkremb/status/2103066071838466494) |
 | 131 | 826 | 60,493 | Pixel-art Halloween diorama, a 10-hour lofi loop | [@zer0point_eth](https://x.com/zer0point_eth) | [Prompt](prompts/zer0point-eth-973220.md) | [X](https://x.com/zer0point_eth/status/2116832762912973220) |
@@ -328,8 +328,8 @@ Free agent skills for making motion and video with Claude Code, Codex and other 
 | 148 | 808 | 37,304 | Anime Opening Video Edit via Python and FFmpeg | [@aimikoda](https://x.com/aimikoda) | [Prompt](prompts/aimikoda-404869.md) | [X](https://x.com/aimikoda/status/2110119492076404869) |
 | 149 | 726 | 44,383 | 3D Rube Goldberg machine | [@imjustnewatai](https://x.com/imjustnewatai) | [Prompt](prompts/imjustnewatai-109991.md) | [X](https://x.com/imjustnewatai/status/2105889407056109991) |
 | 150 | 773 | 38,964 | 1990s demoscene demo with an S3M track | [@gandamu_ml](https://x.com/gandamu_ml) | [Prompt](prompts/gandamu-ml-220530.md) | [X](https://x.com/gandamu_ml/status/2102919394775220530) |
-| 151 | 580 | — | <role> You are a pixel animator and game feel designer who also… | [@gkxspace](https://x.com/gkxspace) | [Prompt](prompts/gkxspace-923139.md) | [X](https://x.com/gkxspace/status/2105260627937923139) |
-| 152 | 617 | 54,096 | <inputs> Ask me for: the product name and a one-line promise, 3 to 5… | [@twoclipping](https://x.com/twoclipping) | [Prompt](prompts/twoclipping-000267.md) | [X](https://x.com/twoclipping/status/2102554209166000267) |
+| 151 | 580 | — | Shape that morphs through UI states | [@gkxspace](https://x.com/gkxspace) | [Prompt](prompts/gkxspace-923139.md) | [X](https://x.com/gkxspace/status/2105260627937923139) |
+| 152 | 617 | 54,096 | Shape that morphs through UI states | [@twoclipping](https://x.com/twoclipping) | [Prompt](prompts/twoclipping-000267.md) | [X](https://x.com/twoclipping/status/2102554209166000267) |
 | 153 | 358 | 78,945 | Jelly physics simulation improvement comparison | [@vib3coded](https://x.com/vib3coded) | [Prompt](prompts/vib3coded-313953.md) | [X](https://x.com/vib3coded/status/2103822857155313953) |
 | 154 | 629 | 51,078 | Stickman survival thriller | [@finnardley](https://x.com/finnardley) | [Prompt](prompts/finnardley-770351.md) | [X](https://x.com/finnardley/status/2115786060231770351) |
 | 155 | 356 | 77,891 | 250 years of U.S. history in sand | [@Michaelzsguo](https://x.com/Michaelzsguo) | [Prompt](prompts/michaelzsguo-782312.md) | [X](https://x.com/Michaelzsguo/status/2102592355165782312) |
@@ -429,7 +429,7 @@ Free agent skills for making motion and video with Claude Code, Codex and other 
 | 249 | 367 | 20,765 | Promo for a 3D-printed PCB enclosure | [@VectorCrossProd](https://x.com/VectorCrossProd) | [Prompt](prompts/vectorcrossprod-436573.md) | [X](https://x.com/VectorCrossProd/status/2104093497561436573) |
 | 250 | 322 | 24,536 | Slow-reveal logo assembly | [@tdinh_me](https://x.com/tdinh_me) | [Prompt](prompts/tdinh-me-301409.md) | [X](https://x.com/tdinh_me/status/2103704250329301409) |
 | 251 | 379 | 18,519 | A cozy little game at dusk | [@keydol123](https://x.com/keydol123) | [Prompt](prompts/keydol123-709796.md) | [X](https://x.com/keydol123/status/2109314447508709796) |
-| 252 | 277 | — | <inputs> Ask me for: 8 to 12 UI states I want the shape to become… | [@__morse](https://x.com/__morse) | [Prompt](prompts/morse-369333.md) | [X](https://x.com/__morse/status/2103485566570369333) |
+| 252 | 277 | — | Shape that morphs through UI states | [@__morse](https://x.com/__morse) | [Prompt](prompts/morse-369333.md) | [X](https://x.com/__morse/status/2103485566570369333) |
 | 253 | 284 | 26,071 | Punchy social promo with sound | [@davidmarcus](https://x.com/davidmarcus) | [Prompt](prompts/davidmarcus-686217.md) | [X](https://x.com/davidmarcus/status/2103275618045686217) |
 | 254 | 271 | — | LLM Context Window Animated Explainer | [@joaoli13](https://x.com/joaoli13) | [Prompt](prompts/joaoli13-891137.md) | [X](https://x.com/joaoli13/status/2102805376466891137) |
 | 255 | 400 | 13,963 | A transmission from a future AI | [@VoidStateKate](https://x.com/VoidStateKate) | [Prompt](prompts/voidstatekate-303245.md) | [X](https://x.com/VoidStateKate/status/2103308194852303245) |
@@ -444,7 +444,7 @@ Free agent skills for making motion and video with Claude Code, Codex and other 
 | 264 | 329 | 16,220 | Ground-opening 3D scene animation | [@viktoroddy](https://x.com/viktoroddy) | [Prompt](prompts/viktoroddy-821651.md) | [X](https://x.com/viktoroddy/status/2109984169845821651) |
 | 265 | 294 | 19,675 | AI-composed Baroque trio sonata | [@aug5thmusic](https://x.com/aug5thmusic) | [Prompt](prompts/aug5thmusic-752493.md) | [X](https://x.com/aug5thmusic/status/2103549625076752493) |
 | 266 | 356 | 13,365 | Offshore jelly cube diorama comparison | [@vib3coded](https://x.com/vib3coded) | [Prompt](prompts/vib3coded-253853.md) | [X](https://x.com/vib3coded/status/2113401221910253853) |
-| 267 | 242 | — | <inputs> Ask me for: • my product + URL • 8–12 UI states that tell… | [@verbove](https://x.com/verbove) | [Prompt](prompts/verbove-268381.md) | [X](https://x.com/verbove/status/2103483957266268381) |
+| 267 | 242 | — | Shape that morphs through UI states | [@verbove](https://x.com/verbove) | [Prompt](prompts/verbove-268381.md) | [X](https://x.com/verbove/status/2103483957266268381) |
 | 268 | 305 | 17,642 | Recreating a video in HTML/CSS/SVG/JS | [@DavidKPiano](https://x.com/DavidKPiano) | [Prompt](prompts/davidkpiano-566323.md) | [X](https://x.com/DavidKPiano/status/2103555549929566323) |
 | 269 | 370 | 10,741 | Pixel-art 3D football yard simulation with kids and dog | [@N1njaCodex](https://x.com/N1njaCodex) | [Prompt](prompts/n1njacodex-627200.md) | [X](https://x.com/N1njaCodex/status/2113037013326627200) |
 | 270 | 276 | 19,862 | Four seasons from a train window | [@itsolelehmann](https://x.com/itsolelehmann) | [Prompt](prompts/itsolelehmann-762215.md) | [X](https://x.com/itsolelehmann/status/2103124033365762215) |
@@ -479,9 +479,9 @@ Free agent skills for making motion and video with Claude Code, Codex and other 
 | 299 | 173 | — | Launch video for otto.doti.gg Ideate | [@condzxyz](https://x.com/condzxyz) | [Prompt](prompts/condzxyz-178789.md) | [X](https://x.com/condzxyz/status/2102863918033178789) |
 | 300 | 173 | — | 81 years of Indonesian history in a minute | [@hanifproduktif](https://x.com/hanifproduktif) | [Prompt](prompts/hanifproduktif-411419.md) | [X](https://x.com/hanifproduktif/status/2102695622042411419) |
 | 301 | 136 | 20,782 | Morphing journey from creature to cosmos | [@leo_xiaolei](https://x.com/leo_xiaolei) | [Prompt](prompts/leo-xiaolei-305104.md) | [X](https://x.com/leo_xiaolei/status/2102724347446305104) |
-| 302 | 190 | 15,016 | <inputs> Ask me for: my product's name (nightshift) (one lowercase… | [@twoclipping](https://x.com/twoclipping) | [Prompt](prompts/twoclipping-747965.md) | [X](https://x.com/twoclipping/status/2105927781678747965) |
+| 302 | 190 | 15,016 | Shape that morphs through UI states | [@twoclipping](https://x.com/twoclipping) | [Prompt](prompts/twoclipping-747965.md) | [X](https://x.com/twoclipping/status/2105927781678747965) |
 | 303 | 170 | — | Animation to go with an X post | [@daniel_mac8](https://x.com/daniel_mac8) | [Prompt](prompts/daniel-mac8-306214.md) | [X](https://x.com/daniel_mac8/status/2103824976713306214) |
-| 304 | 193 | 13,239 | <inputs> Ask me for: a voiceover or song with a spoken line (the… | [@twoclipping](https://x.com/twoclipping) | [Prompt](prompts/twoclipping-041659.md) | [X](https://x.com/twoclipping/status/2107822293653041659) |
+| 304 | 193 | 13,239 | Shape that morphs through UI states | [@twoclipping](https://x.com/twoclipping) | [Prompt](prompts/twoclipping-041659.md) | [X](https://x.com/twoclipping/status/2107822293653041659) |
 | 305 | 135 | 19,002 | Explainer video of 9 football rules | [@lukasersil](https://x.com/lukasersil) | [Prompt](prompts/lukasersil-501283.md) | [X](https://x.com/lukasersil/status/2105922894924501283) |
 | 306 | 161 | — | Can't Print the Proof I gave Opus 5.5 total creative freedom to… | [@bradmillscan](https://x.com/bradmillscan) | [Prompt](prompts/bradmillscan-839974.md) | [X](https://x.com/bradmillscan/status/2104048013362839974) |
 | 307 | 159 | — | 40-second Distilbook showreel | [@itisRazak](https://x.com/itisRazak) | [Prompt](prompts/itisrazak-332386.md) | [X](https://x.com/itisRazak/status/2103517930424332386) |
@@ -589,7 +589,7 @@ Free agent skills for making motion and video with Claude Code, Codex and other 
 | 409 | 45 | — | 1. LPを9つの場面に分解して縦型動画の構成に。コピーは一字一句そのままWebフォントで組み直し、ロゴはSVGで描き直し。 2.… | [@ponzponz15](https://x.com/ponzponz15) | [Prompt](prompts/ponzponz15-145882.md) | [X](https://x.com/ponzponz15/status/2106307182019145882) |
 | 410 | 44 | — | Music-app motion graphics from a brief | [@brainextends](https://x.com/brainextends) | [Prompt](prompts/brainextends-606193.md) | [X](https://x.com/brainextends/status/2103801834930606193) |
 | 411 | 44 | — | 30-second F1 pit stop in Three.js | [@rubenssoto_ai](https://x.com/rubenssoto_ai) | [Prompt](prompts/rubenssoto-ai-802657.md) | [X](https://x.com/rubenssoto_ai/status/2108512810774802657) |
-| 412 | 44 | — | <inputs> Ask me for: my product's name (one lowercase word), a 4-word… | [@twoclipping](https://x.com/twoclipping) | [Prompt](prompts/twoclipping-551116.md) | [X](https://x.com/twoclipping/status/2106101258834551116) |
+| 412 | 44 | — | Shape that morphs through UI states | [@twoclipping](https://x.com/twoclipping) | [Prompt](prompts/twoclipping-551116.md) | [X](https://x.com/twoclipping/status/2106101258834551116) |
 | 413 | 44 | — | جربت Motion بـ Claude Opus 5.5 Headless chrome Canvas API (Assets… | [@X7mdNet](https://x.com/X7mdNet) | [Prompt](prompts/x7mdnet-157811.md) | [X](https://x.com/X7mdNet/status/2105177788043157811) |
 | 414 | 43 | — | Little Agent Island: Cozy Interactive AI Agent World | [@kinderlayer](https://x.com/kinderlayer) | [Prompt](prompts/kinderlayer-305270.md) | [X](https://x.com/kinderlayer/status/2108936150681305270) |
 | 415 | 43 | — | Two-sentence Remotion video | [@AylmerTH](https://x.com/AylmerTH) | [Prompt](prompts/aylmerth-356252.md) | [X](https://x.com/AylmerTH/status/2105346401878356252) |
@@ -602,7 +602,7 @@ Free agent skills for making motion and video with Claude Code, Codex and other 
 | 422 | 38 | — | Miniature fantasy world in WebGPU | [@mdaman010](https://x.com/mdaman010) | [Prompt](prompts/mdaman010-610173.md) | [X](https://x.com/mdaman010/status/2107888264904610173) |
 | 423 | 38 | — | 30-second product explainer | [@sudo_kiran](https://x.com/sudo_kiran) | [Prompt](prompts/sudo-kiran-670892.md) | [X](https://x.com/sudo_kiran/status/2104846546768670892) |
 | 424 | 37 | — | This year's Nobel prizes, explained | [@KeWai386772](https://x.com/KeWai386772) | [Prompt](prompts/kewai386772-262769.md) | [X](https://x.com/KeWai386772/status/2108143449841262769) |
-| 425 | 37 | — | <inputs> Ask me for: a one-word product name for the wordmark, one… | [@0xnicc0](https://x.com/0xnicc0) | [Prompt](prompts/0xnicc0-516612.md) | [X](https://x.com/0xnicc0/status/2107217691505516612) |
+| 425 | 37 | — | Shape that morphs through UI states | [@0xnicc0](https://x.com/0xnicc0) | [Prompt](prompts/0xnicc0-516612.md) | [X](https://x.com/0xnicc0/status/2107217691505516612) |
 | 426 | 35 | — | One-minute fuse-bead pixel music video | [@hahazwei](https://x.com/hahazwei) | [Prompt](prompts/hahazwei-425483.md) | [X](https://x.com/hahazwei/status/2104809910152425483) |
 | 427 | 42 | 2,691 | 10-second "who are you" self-portrait | [@1littlecoder](https://x.com/1littlecoder) | [Prompt](prompts/1littlecoder-914649.md) | [X](https://x.com/1littlecoder/status/2103587706999914649) |
 | 428 | 33 | — | Four motion videos in three days | [@colecornelll](https://x.com/colecornelll) | [Prompt](prompts/colecornelll-047465.md) | [X](https://x.com/colecornelll/status/2105751866051047465) |
@@ -612,13 +612,13 @@ Free agent skills for making motion and video with Claude Code, Codex and other 
 | 432 | 30 | — | # あなたの役割 あなたは一流の映像演出家（モーションデザイナー）です。… | [@tanabe_fragm](https://x.com/tanabe_fragm) | [Prompt](prompts/tanabe-fragm-706979.md) | [X](https://x.com/tanabe_fragm/status/2103802156675706979) |
 | 433 | 30 | — | Every frame is a pure function of time | [@yankis0x](https://x.com/yankis0x) | [Prompt](prompts/yankis0x-174321.md) | [X](https://x.com/yankis0x/status/2103502194578174321) |
 | 434 | 29 | — | 20-second feature launch video | [@RatheeJaisal](https://x.com/RatheeJaisal) | [Prompt](prompts/ratheejaisal-154698.md) | [X](https://x.com/RatheeJaisal/status/2103774864742154698) |
-| 435 | 29 | — | <direction> Build a 30-second looping motion design showreel that… | [@heyiamnick](https://x.com/heyiamnick) | [Prompt](prompts/heyiamnick-119558.md) | [X](https://x.com/heyiamnick/status/2109174851412119558) |
+| 435 | 29 | — | Shape that morphs through UI states | [@heyiamnick](https://x.com/heyiamnick) | [Prompt](prompts/heyiamnick-119558.md) | [X](https://x.com/heyiamnick/status/2109174851412119558) |
 | 436 | 28 | — | Browser automation skill launch | [@hqmank](https://x.com/hqmank) | [Prompt](prompts/hqmank-241156.md) | [X](https://x.com/hqmank/status/2103831140033241156) |
 | 437 | 28 | — | 太离谱了，一共3步，Opus 5.5给我整了个“模拟火车”出来。 1. 让ChatGPT生成韶山8各个视角的图； 2.… | [@akokoi1](https://x.com/akokoi1) | [Prompt](prompts/akokoi1-469188.md) | [X](https://x.com/akokoi1/status/2104222017696469188) |
 | 438 | 28 | — | Three.js game after hours of rework | [@BrenBuilds](https://x.com/BrenBuilds) | [Prompt](prompts/brenbuilds-386902.md) | [X](https://x.com/BrenBuilds/status/2104199715076386902) |
 | 439 | 27 | — | 良い笑 ・入れたプロンプト 「今日何曜日だっけ？BGM付きの30秒のかっこいいモーショングラフィックスで教えて（全力を出してください）」… | [@tankazunori0914](https://x.com/tankazunori0914) | [Prompt](prompts/tankazunori0914-156748.md) | [X](https://x.com/tankazunori0914/status/2105917770907156748) |
 | 440 | 27 | — | Interactive zen garden | [@arixxbt](https://x.com/arixxbt) | [Prompt](prompts/arixxbt-292438.md) | [X](https://x.com/arixxbt/status/2108541814718292438) |
-| 441 | 27 | — | <inputs> Ask me for: a brand name, its logo (SVG or high-res PNG),… | [@notdwd](https://x.com/notdwd) | [Prompt](prompts/notdwd-998633.md) | [X](https://x.com/notdwd/status/2103995183255998633) |
+| 441 | 27 | — | Shape that morphs through UI states | [@notdwd](https://x.com/notdwd) | [Prompt](prompts/notdwd-998633.md) | [X](https://x.com/notdwd/status/2103995183255998633) |
 | 442 | 26 | — | Launch video about leaving LinkedIn | [@MaxHirsch13](https://x.com/MaxHirsch13) | [Prompt](prompts/maxhirsch13-600983.md) | [X](https://x.com/MaxHirsch13/status/2107985883949600983) |
 | 443 | 26 | — | 所有技术栈也都让 opus5.5 自己列出来！ Remotion 负责画面，Python 负责配乐，最后由 Remotion 调… | [@aiwarts](https://x.com/aiwarts) | [Prompt](prompts/aiwarts-428866.md) | [X](https://x.com/aiwarts/status/2103419817034428866) |
 | 444 | 25 | — | 15-second developer-tool launch film | [@HowDevelop](https://x.com/HowDevelop) | [Prompt](prompts/howdevelop-733090.md) | [X](https://x.com/HowDevelop/status/2103840883812733090) |
@@ -637,7 +637,7 @@ Free agent skills for making motion and video with Claude Code, Codex and other 
 | 457 | 18 | 2,932 | 30-second event video for a fox chase | [@DaveRogenmoser](https://x.com/DaveRogenmoser) | [Prompt](prompts/daverogenmoser-899271.md) | [X](https://x.com/DaveRogenmoser/status/2103249424075899271) |
 | 458 | 23 | — | Trading terminal that grows from a dot | [@dale_vaz](https://x.com/dale_vaz) | [Prompt](prompts/dale-vaz-879074.md) | [X](https://x.com/dale_vaz/status/2103290592679879074) |
 | 459 | 23 | — | Showreel centerpiece as a résumé | [@samuel_spitz](https://x.com/samuel_spitz) | [Prompt](prompts/samuel-spitz-503053.md) | [X](https://x.com/samuel_spitz/status/2103544855276503053) |
-| 460 | 23 | — | <inputs> Ask me for: the product name and a one-line promise, 3 to 5… | [@RaphaelAubryy](https://x.com/RaphaelAubryy) | [Prompt](prompts/raphaelaubryy-687877.md) | [X](https://x.com/RaphaelAubryy/status/2103413596822687877) |
+| 460 | 23 | — | Shape that morphs through UI states | [@RaphaelAubryy](https://x.com/RaphaelAubryy) | [Prompt](prompts/raphaelaubryy-687877.md) | [X](https://x.com/RaphaelAubryy/status/2103413596822687877) |
 | 461 | 23 | — | Claude Opus 5.5 just built me a mini temple run style game it… | [@itsjdraven](https://x.com/itsjdraven) | [Prompt](prompts/itsjdraven-557760.md) | [X](https://x.com/itsjdraven/status/2104059393222557760) |
 | 462 | 22 | — | "Show me what a motion designer you are" | [@zheke](https://x.com/zheke) | [Prompt](prompts/zheke-622583.md) | [X](https://x.com/zheke/status/2103418664854622583) |
 | 463 | 22 | — | Recipe motion graphic for a cocktail | [@Sarut0biSasuke](https://x.com/Sarut0biSasuke) | [Prompt](prompts/sarut0bisasuke-069973.md) | [X](https://x.com/Sarut0biSasuke/status/2103418429248069973) |
@@ -660,7 +660,7 @@ Free agent skills for making motion and video with Claude Code, Codex and other 
 | 480 | 18 | — | Colored-pencil explainer from an article | [@woojinrad](https://x.com/woojinrad) | [Prompt](prompts/woojinrad-455731.md) | [X](https://x.com/woojinrad/status/2106083299462455731) |
 | 481 | 17 | — | Moroccan politics since independence | [@TrigLyceee](https://x.com/TrigLyceee) | [Prompt](prompts/triglyceee-161719.md) | [X](https://x.com/TrigLyceee/status/2103804459986161719) |
 | 482 | 17 | — | Weekend game-making with Opus 5.5 | [@mrblock](https://x.com/mrblock) | [Prompt](prompts/mrblock-096062.md) | [X](https://x.com/mrblock/status/2103492984474096062) |
-| 483 | 17 | — | <inputs> Give me: * canvas color * shape color * accent color * shape… | [@flxrnc](https://x.com/flxrnc) | [Prompt](prompts/flxrnc-251921.md) | [X](https://x.com/flxrnc/status/2108242454105251921) |
+| 483 | 17 | — | Shape that morphs through UI states | [@flxrnc](https://x.com/flxrnc) | [Prompt](prompts/flxrnc-251921.md) | [X](https://x.com/flxrnc/status/2108242454105251921) |
 | 484 | 17 | — | 3D pixel-art pelican on a bicycle | [@SadAlbert10](https://x.com/SadAlbert10) | [Prompt](prompts/sadalbert10-856416.md) | [X](https://x.com/SadAlbert10/status/2106789700807856416) |
 | 485 | 17 | — | "The Last Piano" crayon short | [@kopert0x](https://x.com/kopert0x) | [Prompt](prompts/kopert0x-098349.md) | [X](https://x.com/kopert0x/status/2104961082880098349) |
 | 486 | 16 | — | 15-second showreel for an infra company | [@onewaysidewalks](https://x.com/onewaysidewalks) | [Prompt](prompts/onewaysidewalks-440008.md) | [X](https://x.com/onewaysidewalks/status/2103500011581440008) |
@@ -703,14 +703,14 @@ Free agent skills for making motion and video with Claude Code, Codex and other 
 | 523 | 12 | — | Ad made with Remotion and a concept | [@localjulius](https://x.com/localjulius) | [Prompt](prompts/localjulius-625706.md) | [X](https://x.com/localjulius/status/2102725361922625706) |
 | 524 | 12 | — | Claude opus 5.5 made this whole motion graphic, score included It… | [@Dheepanratnam](https://x.com/Dheepanratnam) | [Prompt](prompts/dheepanratnam-706454.md) | [X](https://x.com/Dheepanratnam/status/2107568904075706454) |
 | 525 | 12 | — | Short video with auto narration and SFX | [@ayumi_t820](https://x.com/ayumi_t820) | [Prompt](prompts/ayumi-t820-871023.md) | [X](https://x.com/ayumi_t820/status/2104807505297871023) |
-| 526 | 11 | — | <inputs> Ask me for: 8 to 12 UI states I want the shape to become… | [@demonugc](https://x.com/demonugc) | [Prompt](prompts/demonugc-525162.md) | [X](https://x.com/demonugc/status/2103526713208525162) |
+| 526 | 11 | — | Shape that morphs through UI states | [@demonugc](https://x.com/demonugc) | [Prompt](prompts/demonugc-525162.md) | [X](https://x.com/demonugc/status/2103526713208525162) |
 | 527 | 11 | — | LLM progress this year, charted | [@nummanali](https://x.com/nummanali) | [Prompt](prompts/nummanali-340931.md) | [X](https://x.com/nummanali/status/2103565570310340931) |
 | 528 | 11 | — | How a mechanical keyboard works | [@iniyanai](https://x.com/iniyanai) | [Prompt](prompts/iniyanai-856596.md) | [X](https://x.com/iniyanai/status/2103814603100856596) |
 | 529 | 11 | — | HyperFrames one-shot | [@Soumymaheshwri](https://x.com/Soumymaheshwri) | [Prompt](prompts/soumymaheshwri-825921.md) | [X](https://x.com/Soumymaheshwri/status/2107520392302825921) |
 | 530 | 11 | — | Opus 5.5 is INSANE !!🫣 i just made a full product launch film for… | [@LeowenAI](https://x.com/LeowenAI) | [Prompt](prompts/leowenai-125931.md) | [X](https://x.com/LeowenAI/status/2106666146456125931) |
 | 531 | 11 | — | Launch video in black and neon green | [@CharuMitraDubey](https://x.com/CharuMitraDubey) | [Prompt](prompts/charumitradubey-328233.md) | [X](https://x.com/CharuMitraDubey/status/2103956360803328233) |
 | 532 | 8 | 1,246 | 140 BPM UK dubstep visual | [@Rames_Jusso](https://x.com/Rames_Jusso) | [Prompt](prompts/rames-jusso-776559.md) | [X](https://x.com/Rames_Jusso/status/2103200703598776559) |
-| 533 | 10 | — | <inputs> Ask me for: 8 to 12 UI states I want the shape to become… | [@hiCallMeChai](https://x.com/hiCallMeChai) | [Prompt](prompts/hicallmechai-878304.md) | [X](https://x.com/hiCallMeChai/status/2103600312296878304) |
+| 533 | 10 | — | Shape that morphs through UI states | [@hiCallMeChai](https://x.com/hiCallMeChai) | [Prompt](prompts/hicallmechai-878304.md) | [X](https://x.com/hiCallMeChai/status/2103600312296878304) |
 | 534 | 10 | — | "Build the Floor" kinetic spoken word | [@Gdgtify](https://x.com/Gdgtify) | [Prompt](prompts/gdgtify-929495.md) | [X](https://x.com/Gdgtify/status/2103458245213929495) |
 | 535 | 10 | — | SaaS launch video for a slide tool | [@techtactician](https://x.com/techtactician) | [Prompt](prompts/techtactician-144474.md) | [X](https://x.com/techtactician/status/2103219463508144474) |
 | 536 | 10 | — | Top-down arcade racing game | [@_nieGRAMotny_](https://x.com/_nieGRAMotny_) | [Prompt](prompts/niegramotny-197521.md) | [X](https://x.com/_nieGRAMotny_/status/2103128800909197521) |
@@ -769,7 +769,7 @@ Free agent skills for making motion and video with Claude Code, Codex and other 
 | 589 | 7 | — | Post turned into a Canvas video with sound | [@oxpsats](https://x.com/oxpsats) | [Prompt](prompts/oxpsats-182908.md) | [X](https://x.com/oxpsats/status/2104462072344182908) |
 | 590 | 7 | — | Dancing character showreel | [@_topi_003](https://x.com/_topi_003) | [Prompt](prompts/topi-003-055288.md) | [X](https://x.com/_topi_003/status/2104088986969055288) |
 | 591 | 6 | — | 15-second website showreel | [@andginja](https://x.com/andginja) | [Prompt](prompts/andginja-618685.md) | [X](https://x.com/andginja/status/2103492000733618685) |
-| 592 | 6 | — | <inputs> Ask me for: 8 to 12 UI states I want the shape to become… | [@nezbuilds](https://x.com/nezbuilds) | [Prompt](prompts/nezbuilds-294391.md) | [X](https://x.com/nezbuilds/status/2103487427365294391) |
+| 592 | 6 | — | Shape that morphs through UI states | [@nezbuilds](https://x.com/nezbuilds) | [Prompt](prompts/nezbuilds-294391.md) | [X](https://x.com/nezbuilds/status/2103487427365294391) |
 | 593 | 6 | — | Samurai routine in pure JavaScript | [@chrisjdimarco](https://x.com/chrisjdimarco) | [Prompt](prompts/chrisjdimarco-524106.md) | [X](https://x.com/chrisjdimarco/status/2103232192847524106) |
 | 594 | 6 | — | The same piece with a crypto twist | [@0xEvinho](https://x.com/0xEvinho) | [Prompt](prompts/0xevinho-436195.md) | [X](https://x.com/0xEvinho/status/2103212966703436195) |
 | 595 | 6 | — | Punchy inference promo, no libraries | [@lepadev](https://x.com/lepadev) | [Prompt](prompts/lepadev-475414.md) | [X](https://x.com/lepadev/status/2103101681806475414) |
@@ -866,7 +866,7 @@ Free agent skills for making motion and video with Claude Code, Codex and other 
 | 686 | 3 | — | 60-second motion designer showreel | [@chrisjdimarco](https://x.com/chrisjdimarco) | [Prompt](prompts/chrisjdimarco-808196.md) | [X](https://x.com/chrisjdimarco/status/2103606498928808196) |
 | 687 | 3 | — | SaaS product launch video | [@LeanZubrezki](https://x.com/LeanZubrezki) | [Prompt](prompts/leanzubrezki-766171.md) | [X](https://x.com/LeanZubrezki/status/2103502063950766171) |
 | 688 | 3 | — | Code-driven animation, frame by frame | [@xelandre__](https://x.com/xelandre__) | [Prompt](prompts/xelandre-687413.md) | [X](https://x.com/xelandre__/status/2103473030160687413) |
-| 689 | 3 | — | <inputs> Ask me for: 8 to 12 UI states I want the shape to become… | [@sanjeevn72](https://x.com/sanjeevn72) | [Prompt](prompts/sanjeevn72-457691.md) | [X](https://x.com/sanjeevn72/status/2103456358125457691) |
+| 689 | 3 | — | Shape that morphs through UI states | [@sanjeevn72](https://x.com/sanjeevn72) | [Prompt](prompts/sanjeevn72-457691.md) | [X](https://x.com/sanjeevn72/status/2103456358125457691) |
 | 690 | 3 | — | 60-second stop-motion-style music video | [@DavidShulmanFL](https://x.com/DavidShulmanFL) | [Prompt](prompts/davidshulmanfl-842921.md) | [X](https://x.com/DavidShulmanFL/status/2103336310089842921) |
 | 691 | 3 | — | A brief history, animated with GSAP | [@RetropunkAI](https://x.com/RetropunkAI) | [Prompt](prompts/retropunkai-277590.md) | [X](https://x.com/RetropunkAI/status/2103237989065277590) |
 | 692 | 3 | — | 30-second drawn clip about a product submission | [@mattbean](https://x.com/mattbean) | [Prompt](prompts/mattbean-917572.md) | [X](https://x.com/mattbean/status/2103146389412917572) |
@@ -973,10 +973,10 @@ Free agent skills for making motion and video with Claude Code, Codex and other 
 | 793 | 1 | — | Product showcase in Remotion | [@lester_tyy](https://x.com/lester_tyy) | [Prompt](prompts/lester-tyy-480587.md) | [X](https://x.com/lester_tyy/status/2103733819568480587) |
 | 794 | 1 | — | Poster breaking out of its frame | [@sahilvermaai](https://x.com/sahilvermaai) | [Prompt](prompts/sahilvermaai-189237.md) | [X](https://x.com/sahilvermaai/status/2103725292095189237) |
 | 795 | 1 | — | Multiplayer shooter with proximity chat | [@Ved_CJ](https://x.com/Ved_CJ) | [Prompt](prompts/ved-cj-066575.md) | [X](https://x.com/Ved_CJ/status/2103708392930066575) |
-| 796 | 1 | — | <inputs> Ask me for: 8 to 12 UI states I want the shape to become… | [@dzhohola](https://x.com/dzhohola) | [Prompt](prompts/dzhohola-249003.md) | [X](https://x.com/dzhohola/status/2103605737595249003) |
+| 796 | 1 | — | Shape that morphs through UI states | [@dzhohola](https://x.com/dzhohola) | [Prompt](prompts/dzhohola-249003.md) | [X](https://x.com/dzhohola/status/2103605737595249003) |
 | 797 | 1 | — | 15-second motion reel | [@ghinaiya_nirmal](https://x.com/ghinaiya_nirmal) | [Prompt](prompts/ghinaiya-nirmal-308943.md) | [X](https://x.com/ghinaiya_nirmal/status/2103540656182308943) |
 | 798 | 1 | — | 15-second graphic designer test | [@cansincengiz_me](https://x.com/cansincengiz_me) | [Prompt](prompts/cansincengiz-me-424245.md) | [X](https://x.com/cansincengiz_me/status/2103532681774424245) |
-| 799 | 1 | — | <inputs> Ask me for: my featured Pokémon or starter trio, 8–12… | [@TheGrootDev](https://x.com/TheGrootDev) | [Prompt](prompts/thegrootdev-966114.md) | [X](https://x.com/TheGrootDev/status/2103516567824966114) |
+| 799 | 1 | — | Shape that morphs through UI states | [@TheGrootDev](https://x.com/TheGrootDev) | [Prompt](prompts/thegrootdev-966114.md) | [X](https://x.com/TheGrootDev/status/2103516567824966114) |
 | 800 | 1 | — | Android app launch video | [@mehul4795](https://x.com/mehul4795) | [Prompt](prompts/mehul4795-417532.md) | [X](https://x.com/mehul4795/status/2103420457110417532) |
 | 801 | 1 | — | Whimsical hand-drawn collage with audio | [@TomAndrieu96707](https://x.com/TomAndrieu96707) | [Prompt](prompts/tomandrieu96707-875264.md) | [X](https://x.com/TomAndrieu96707/status/2103411144899875264) |
 | 802 | 1 | — | SaaS product launch video | [@drrickio](https://x.com/drrickio) | [Prompt](prompts/drrickio-009558.md) | [X](https://x.com/drrickio/status/2103333836130009558) |

@@ -1,8 +1,8 @@
-# <inputs> Ask me for: 8 to 12 UI states I want the shape to become…
+# Shape that morphs through UI states
 
 **#533 by popularity** · ♥ 10 · by [@hiCallMeChai](https://x.com/hiCallMeChai) · [Original post](https://x.com/hiCallMeChai/status/2103600312296878304) · [Watch the video](https://media.skillry.dev/opus-5-5/hicallmechai-878304/original.mp4)
 
-[![<inputs> Ask me for: 8 to 12 UI states I want the shape to become…](https://media.skillry.dev/opus-5-5/hicallmechai-878304/original.3f1783296a.webp)](https://x.com/hiCallMeChai/status/2103600312296878304)
+[![Shape that morphs through UI states](https://media.skillry.dev/opus-5-5/hicallmechai-878304/original.3f1783296a.webp)](https://x.com/hiCallMeChai/status/2103600312296878304)
 
 ## Prompt
 

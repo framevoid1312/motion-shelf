@@ -1,8 +1,8 @@
-# <inputs> Ask me for: a voiceover or song with a spoken line (the…
+# Shape that morphs through UI states
 
 **#304 by popularity** · ♥ 193 · 13,239 views · by [@twoclipping](https://x.com/twoclipping) · [Original post](https://x.com/twoclipping/status/2107822293653041659) · [Watch the video](https://video.twimg.com/amplify_video/2107822027188924416/vid/avc1/960x720/-QzAUt4AmBMIIfJA.mp4)
 
-[![<inputs> Ask me for: a voiceover or song with a spoken line (the…](https://media.skillry.dev/opus-5-5/_prompts/twoclipping-041659/poster.f24f7e19ba.webp)](https://x.com/twoclipping/status/2107822293653041659)
+[![Shape that morphs through UI states](https://media.skillry.dev/opus-5-5/_prompts/twoclipping-041659/poster.f24f7e19ba.webp)](https://x.com/twoclipping/status/2107822293653041659)
 
 ## Prompt
 
