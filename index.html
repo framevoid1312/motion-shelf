@@ -181,6 +181,12 @@ h1 .m3d:hover{transform:rotate(-6deg) scale(1.08)}
 @media (min-width:701px){h1{font-size:clamp(40px,6.9vw,100px)}}
 h1 .m3d{height:1.15em;margin:-.1em 0 0 .05em}
 @media (max-width:700px){h1 .m3d{height:1.5em;margin:0 0 0 auto}}
+/* title centred, three quarters of its earlier size */
+header{justify-items:center;text-align:center}
+h1{justify-content:center}
+@media (min-width:701px){h1{font-size:clamp(30px,5.2vw,75px)}}
+@media (max-width:700px){h1{font-size:clamp(26px,8.6vw,63px);justify-content:center}h1 .m3d{margin:0 0 0 .1em}}
+@media (max-width:700px){h1 div{flex:0 1 auto}h1 .m3d{margin:0 0 0 .1em!important}}
 </style></head><body>
 <header class="pad"><p class="kick"><b>~/motion-shelf</b> <span>&middot;</span> free motion for coding agents <span>&middot;</span> made by Phil</p>
 <h1><img class="logo" src="logo.png" alt="" width="435" height="839"><div>motion <span>looting</span></div><img class="m3d" src="molotov-3d.png" alt="" width="340" height="640"></h1>
