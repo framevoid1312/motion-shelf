@@ -1,6 +1,6 @@
 # 35 art styles from one prompt
 
-**#35 by popularity** · ♥ 2,105 · 252,376 views · by [@Voxyz_ai](https://x.com/Voxyz_ai) · [Original post](https://x.com/Voxyz_ai/status/2109690569563746755) · [Watch the video](https://video.twimg.com/amplify_video/2109078077003456512/vid/avc1/1920x1080/o81_5f4xbdN1uzdv.mp4)
+**#47 by popularity** · ♥ 2,105 · 252,376 views · by [@Voxyz_ai](https://x.com/Voxyz_ai) · [Original post](https://x.com/Voxyz_ai/status/2109690569563746755) · [Watch the video](https://video.twimg.com/amplify_video/2109078077003456512/vid/avc1/1920x1080/o81_5f4xbdN1uzdv.mp4)
 
 [![35 art styles from one prompt](https://pbs.twimg.com/amplify_video_thumb/2109078077003456512/img/u4yy5FaE-4_ZST-e.jpg)](https://x.com/Voxyz_ai/status/2109690569563746755)
 

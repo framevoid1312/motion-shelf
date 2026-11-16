@@ -1,6 +1,6 @@
 # Samurai routine in pure JavaScript
 
-**#624 by popularity** · ♥ 6 · by [@chrisjdimarco](https://x.com/chrisjdimarco) · [Original post](https://x.com/chrisjdimarco/status/2103232192847524106) · [Watch the video](https://media.skillry.dev/opus-5-5/chrisjdimarco-524106/original.mp4)
+**#1498 by popularity** · ♥ 6 · by [@chrisjdimarco](https://x.com/chrisjdimarco) · [Original post](https://x.com/chrisjdimarco/status/2103232192847524106) · [Watch the video](https://media.skillry.dev/opus-5-5/chrisjdimarco-524106/original.mp4)
 
 [![Samurai routine in pure JavaScript](https://media.skillry.dev/opus-5-5/chrisjdimarco-524106/original.42b3d42411.webp)](https://x.com/chrisjdimarco/status/2103232192847524106)
 

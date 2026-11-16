@@ -1,6 +1,6 @@
 # Bomb-maze arcade remake
 
-**#577 by popularity** · ♥ 9 · by [@happycapyai](https://x.com/happycapyai) · [Original post](https://x.com/happycapyai/status/2103057174855634965) · [Watch the video](https://media.skillry.dev/opus-5-5/happycapyai-634965/original.mp4)
+**#1451 by popularity** · ♥ 9 · by [@happycapyai](https://x.com/happycapyai) · [Original post](https://x.com/happycapyai/status/2103057174855634965) · [Watch the video](https://media.skillry.dev/opus-5-5/happycapyai-634965/original.mp4)
 
 [![Bomb-maze arcade remake](https://media.skillry.dev/opus-5-5/happycapyai-634965/original.46d4b5a115.webp)](https://x.com/happycapyai/status/2103057174855634965)
 

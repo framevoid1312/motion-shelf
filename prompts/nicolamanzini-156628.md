@@ -1,6 +1,6 @@
 # Fishbowl with refraction in GLSL
 
-**#382 by popularity** · ♥ 102 · 9,700 views · by [@NicolaManzini](https://x.com/NicolaManzini) · [Original post](https://x.com/NicolaManzini/status/2103499771206156628) · [Watch the video](https://media.skillry.dev/opus-5-5/nicolamanzini-156628/original.mp4)
+**#728 by popularity** · ♥ 102 · 9,700 views · by [@NicolaManzini](https://x.com/NicolaManzini) · [Original post](https://x.com/NicolaManzini/status/2103499771206156628) · [Watch the video](https://media.skillry.dev/opus-5-5/nicolamanzini-156628/original.mp4)
 
 [![Fishbowl with refraction in GLSL](https://media.skillry.dev/opus-5-5/nicolamanzini-156628/original.586c93d39d.webp)](https://x.com/NicolaManzini/status/2103499771206156628)
 

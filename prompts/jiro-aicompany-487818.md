@@ -1,6 +1,6 @@
 # "Top five" short, built from a skill
 
-**#952 by popularity** · ♥ 0 · by [@jiro_aicompany](https://x.com/jiro_aicompany) · [Original post](https://x.com/jiro_aicompany/status/2107316487715487818) · [Watch the video](https://video.twimg.com/amplify_video/2107316446795792385/vid/avc1/1280x720/Y8hZkVy0c417Cda0.mp4?tag=16)
+**#1827 by popularity** · ♥ 0 · by [@jiro_aicompany](https://x.com/jiro_aicompany) · [Original post](https://x.com/jiro_aicompany/status/2107316487715487818) · [Watch the video](https://video.twimg.com/amplify_video/2107316446795792385/vid/avc1/1280x720/Y8hZkVy0c417Cda0.mp4?tag=16)
 
 [!["Top five" short, built from a skill](https://media.skillry.dev/opus-5-5/_prompts/jiro-aicompany-487818/poster.83a920ce54.webp)](https://x.com/jiro_aicompany/status/2107316487715487818)
 

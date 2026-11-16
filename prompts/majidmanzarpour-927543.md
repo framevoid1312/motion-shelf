@@ -1,6 +1,6 @@
 # Pixel-art wizard casting a spell
 
-**#24 by popularity** · ♥ 2,571 · 461,180 views · by [@majidmanzarpour](https://x.com/majidmanzarpour) · [Original post](https://x.com/majidmanzarpour/status/2102476258948927543) · [Watch the video](https://media.skillry.dev/opus-5-5/majidmanzarpour-927543/original.mp4)
+**#30 by popularity** · ♥ 2,571 · 461,180 views · by [@majidmanzarpour](https://x.com/majidmanzarpour) · [Original post](https://x.com/majidmanzarpour/status/2102476258948927543) · [Watch the video](https://media.skillry.dev/opus-5-5/majidmanzarpour-927543/original.mp4)
 
 [![Pixel-art wizard casting a spell](https://media.skillry.dev/opus-5-5/majidmanzarpour-927543/original.f5bc33c897.webp)](https://x.com/majidmanzarpour/status/2102476258948927543)
 

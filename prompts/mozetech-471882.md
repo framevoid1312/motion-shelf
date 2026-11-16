@@ -1,6 +1,6 @@
 # Pixel-art game from three sentences
 
-**#537 by popularity** · ♥ 13 · by [@MozeTech](https://x.com/MozeTech) · [Original post](https://x.com/MozeTech/status/2102913506815471882) · [Watch the video](https://media.skillry.dev/opus-5-5/mozetech-471882/original.mp4)
+**#1410 by popularity** · ♥ 13 · by [@MozeTech](https://x.com/MozeTech) · [Original post](https://x.com/MozeTech/status/2102913506815471882) · [Watch the video](https://media.skillry.dev/opus-5-5/mozetech-471882/original.mp4)
 
 [![Pixel-art game from three sentences](https://media.skillry.dev/opus-5-5/mozetech-471882/original.9e4feb7be1.webp)](https://x.com/MozeTech/status/2102913506815471882)
 

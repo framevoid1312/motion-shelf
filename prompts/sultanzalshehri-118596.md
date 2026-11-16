@@ -1,6 +1,6 @@
 # Inflation explained in paper cut-out
 
-**#284 by popularity** · ♥ 265 · 22,763 views · by [@SultanZAlshehri](https://x.com/SultanZAlshehri) · [Original post](https://x.com/SultanZAlshehri/status/2104662349718118596) · [Watch the video](https://video.twimg.com/amplify_video/2104662031848640513/vid/avc1/1080x1920/H6oOPO2xo2TXxXNN.mp4)
+**#431 by popularity** · ♥ 265 · 22,763 views · by [@SultanZAlshehri](https://x.com/SultanZAlshehri) · [Original post](https://x.com/SultanZAlshehri/status/2104662349718118596) · [Watch the video](https://video.twimg.com/amplify_video/2104662031848640513/vid/avc1/1080x1920/H6oOPO2xo2TXxXNN.mp4)
 
 [![Inflation explained in paper cut-out](https://pbs.twimg.com/amplify_video_thumb/2104662031848640513/img/_grLDgGBCDuKyZhq.jpg)](https://x.com/SultanZAlshehri/status/2104662349718118596)
 

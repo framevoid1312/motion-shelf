@@ -1,6 +1,6 @@
 # Blacksmith mannequin, heavy hammer strikes
 
-**#312 by popularity** · ♥ 279 · 11,040 views · by [@maxt3chno](https://x.com/maxt3chno) · [Original post](https://x.com/maxt3chno/status/2119384176793153579) · [Watch the video](https://video.twimg.com/amplify_video/2119384035025711104/vid/avc1/2304x1440/G4wJto3MrYU-bsRW.mp4)
+**#494 by popularity** · ♥ 279 · 11,040 views · by [@maxt3chno](https://x.com/maxt3chno) · [Original post](https://x.com/maxt3chno/status/2119384176793153579) · [Watch the video](https://video.twimg.com/amplify_video/2119384035025711104/vid/avc1/2304x1440/G4wJto3MrYU-bsRW.mp4)
 
 [![Blacksmith mannequin, heavy hammer strikes](https://pbs.twimg.com/amplify_video_thumb/2119384035025711104/img/KA6eFd1dhCP10vrm.jpg)](https://x.com/maxt3chno/status/2119384176793153579)
 

@@ -1,6 +1,6 @@
 # Sacred geometry and cymatics eye candy
 
-**#800 by popularity** · ♥ 2 · by [@generussai](https://x.com/generussai) · [Original post](https://x.com/generussai/status/2105921281673904308) · [Watch the video](https://video.twimg.com/amplify_video/2105910102125600768/vid/avc1/1280x720/c41zXbI3_1jiz6Um.mp4)
+**#1675 by popularity** · ♥ 2 · by [@generussai](https://x.com/generussai) · [Original post](https://x.com/generussai/status/2105921281673904308) · [Watch the video](https://video.twimg.com/amplify_video/2105910102125600768/vid/avc1/1280x720/c41zXbI3_1jiz6Um.mp4)
 
 [![Sacred geometry and cymatics eye candy](https://media.skillry.dev/opus-5-5/_prompts/generussai-904308/poster.56dcde8d00.webp)](https://x.com/generussai/status/2105921281673904308)
 

@@ -1,6 +1,6 @@
 # Earthquake physics, animated
 
-**#919 by popularity** · ♥ 0 · by [@kureshirfan](https://x.com/kureshirfan) · [Original post](https://x.com/kureshirfan/status/2103788564840386691) · [Watch the video](https://media.skillry.dev/opus-5-5/kureshirfan-386691/original.mp4)
+**#1794 by popularity** · ♥ 0 · by [@kureshirfan](https://x.com/kureshirfan) · [Original post](https://x.com/kureshirfan/status/2103788564840386691) · [Watch the video](https://media.skillry.dev/opus-5-5/kureshirfan-386691/original.mp4)
 
 [![Earthquake physics, animated](https://media.skillry.dev/opus-5-5/kureshirfan-386691/original.269e976435.webp)](https://x.com/kureshirfan/status/2103788564840386691)
 

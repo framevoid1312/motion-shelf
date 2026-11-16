@@ -1,6 +1,6 @@
 # Claude doing homework, brushstroke style
 
-**#290 by popularity** · ♥ 290 · 18,869 views · by [@other__reality](https://x.com/other__reality) · [Original post](https://x.com/other__reality/status/2102860128680845789) · [Watch the video](https://video.twimg.com/tweet_video/HS7X6DUa4AAX2Jn.mp4)
+**#437 by popularity** · ♥ 290 · 18,869 views · by [@other__reality](https://x.com/other__reality) · [Original post](https://x.com/other__reality/status/2102860128680845789) · [Watch the video](https://video.twimg.com/tweet_video/HS7X6DUa4AAX2Jn.mp4)
 
 [![Claude doing homework, brushstroke style](https://pbs.twimg.com/tweet_video_thumb/HS7X6DUa4AAX2Jn.jpg)](https://x.com/other__reality/status/2102860128680845789)
 

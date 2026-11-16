@@ -1,6 +1,6 @@
 # How QR codes hold and repair a message
 
-**#636 by popularity** · ♥ 6 · by [@eyadnour](https://x.com/eyadnour) · [Original post](https://x.com/eyadnour/status/2108314868189172216) · [Watch the video](https://media.skillry.dev/opus-5-5/eyadnour-172216/original.mp4)
+**#1510 by popularity** · ♥ 6 · by [@eyadnour](https://x.com/eyadnour) · [Original post](https://x.com/eyadnour/status/2108314868189172216) · [Watch the video](https://media.skillry.dev/opus-5-5/eyadnour-172216/original.mp4)
 
 [![How QR codes hold and repair a message](https://media.skillry.dev/opus-5-5/eyadnour-172216/original.60391589f2.webp)](https://x.com/eyadnour/status/2108314868189172216)
 

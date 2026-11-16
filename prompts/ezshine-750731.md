@@ -1,6 +1,6 @@
 # Product feature promo in 16:9
 
-**#496 by popularity** · ♥ 21 · by [@ezshine](https://x.com/ezshine) · [Original post](https://x.com/ezshine/status/2103501705698750731) · [Watch the video](https://media.skillry.dev/opus-5-5/ezshine-750731/original.mp4)
+**#1263 by popularity** · ♥ 21 · by [@ezshine](https://x.com/ezshine) · [Original post](https://x.com/ezshine/status/2103501705698750731) · [Watch the video](https://media.skillry.dev/opus-5-5/ezshine-750731/original.mp4)
 
 [![Product feature promo in 16:9](https://media.skillry.dev/opus-5-5/ezshine-750731/original.c74c7581aa.webp)](https://x.com/ezshine/status/2103501705698750731)
 

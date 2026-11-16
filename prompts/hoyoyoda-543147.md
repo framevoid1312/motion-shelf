@@ -1,6 +1,6 @@
 # Chuseok pixel animation
 
-**#574 by popularity** · ♥ 9 · by [@hoyoyoda](https://x.com/hoyoyoda) · [Original post](https://x.com/hoyoyoda/status/2103400046922543147) · [Watch the video](https://media.skillry.dev/opus-5-5/hoyoyoda-543147/original.mp4)
+**#1448 by popularity** · ♥ 9 · by [@hoyoyoda](https://x.com/hoyoyoda) · [Original post](https://x.com/hoyoyoda/status/2103400046922543147) · [Watch the video](https://media.skillry.dev/opus-5-5/hoyoyoda-543147/original.mp4)
 
 [![Chuseok pixel animation](https://media.skillry.dev/opus-5-5/hoyoyoda-543147/original.73e5ffdbd2.webp)](https://x.com/hoyoyoda/status/2103400046922543147)
 

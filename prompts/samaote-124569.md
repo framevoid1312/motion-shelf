@@ -1,6 +1,6 @@
 # Lyric motion graphics synced to music
 
-**#904 by popularity** · ♥ 0 · by [@samaote](https://x.com/samaote) · [Original post](https://x.com/samaote/status/2103510974796124569) · [Watch the video](https://media.skillry.dev/opus-5-5/samaote-124569/original.mp4)
+**#1779 by popularity** · ♥ 0 · by [@samaote](https://x.com/samaote) · [Original post](https://x.com/samaote/status/2103510974796124569) · [Watch the video](https://media.skillry.dev/opus-5-5/samaote-124569/original.mp4)
 
 [![Lyric motion graphics synced to music](https://media.skillry.dev/opus-5-5/samaote-124569/original.16a8bcaaa0.webp)](https://x.com/samaote/status/2103510974796124569)
 

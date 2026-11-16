@@ -1,6 +1,6 @@
 # Small LinkedIn video from two screenshots
 
-**#653 by popularity** · ♥ 5 · by [@itsyashf](https://x.com/itsyashf) · [Original post](https://x.com/itsyashf/status/2104227261142692347) · [Watch the video](https://media.skillry.dev/opus-5-5/itsyashf-692347/original.mp4)
+**#1527 by popularity** · ♥ 5 · by [@itsyashf](https://x.com/itsyashf) · [Original post](https://x.com/itsyashf/status/2104227261142692347) · [Watch the video](https://media.skillry.dev/opus-5-5/itsyashf-692347/original.mp4)
 
 [![Small LinkedIn video from two screenshots](https://media.skillry.dev/opus-5-5/itsyashf-692347/original.58a10ad462.webp)](https://x.com/itsyashf/status/2104227261142692347)
 

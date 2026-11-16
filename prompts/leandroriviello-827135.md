@@ -1,6 +1,6 @@
 # One-prompt HyperFrames video
 
-**#342 by popularity** · ♥ 153 · by [@leandroriviello](https://x.com/leandroriviello) · [Original post](https://x.com/leandroriviello/status/2104728379798827135) · [Watch the video](https://media.skillry.dev/opus-5-5/leandroriviello-827135/original.mp4)
+**#574 by popularity** · ♥ 153 · by [@leandroriviello](https://x.com/leandroriviello) · [Original post](https://x.com/leandroriviello/status/2104728379798827135) · [Watch the video](https://media.skillry.dev/opus-5-5/leandroriviello-827135/original.mp4)
 
 [![One-prompt HyperFrames video](https://media.skillry.dev/opus-5-5/leandroriviello-827135/original.419d188f99.webp)](https://x.com/leandroriviello/status/2104728379798827135)
 

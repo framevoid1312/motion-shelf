@@ -1,6 +1,6 @@
 # A house visualized from its floor plan
 
-**#649 by popularity** · ♥ 5 · by [@aayush4soni](https://x.com/aayush4soni) · [Original post](https://x.com/aayush4soni/status/2104181266459644283) · [Watch the video](https://media.skillry.dev/opus-5-5/aayush4soni-644283/original.mp4)
+**#1523 by popularity** · ♥ 5 · by [@aayush4soni](https://x.com/aayush4soni) · [Original post](https://x.com/aayush4soni/status/2104181266459644283) · [Watch the video](https://media.skillry.dev/opus-5-5/aayush4soni-644283/original.mp4)
 
 [![A house visualized from its floor plan](https://media.skillry.dev/opus-5-5/aayush4soni-644283/original.0f89f331fa.webp)](https://x.com/aayush4soni/status/2104181266459644283)
 

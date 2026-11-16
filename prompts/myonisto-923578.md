@@ -1,6 +1,6 @@
 # 3D virtual studio in Blender
 
-**#766 by popularity** · ♥ 2 · by [@myonisto](https://x.com/myonisto) · [Original post](https://x.com/myonisto/status/2103082459503923578) · [Watch the video](https://media.skillry.dev/opus-5-5/myonisto-923578/original.mp4)
+**#1640 by popularity** · ♥ 2 · by [@myonisto](https://x.com/myonisto) · [Original post](https://x.com/myonisto/status/2103082459503923578) · [Watch the video](https://media.skillry.dev/opus-5-5/myonisto-923578/original.mp4)
 
 [![3D virtual studio in Blender](https://media.skillry.dev/opus-5-5/myonisto-923578/original.40f2d71663.webp)](https://x.com/myonisto/status/2103082459503923578)
 

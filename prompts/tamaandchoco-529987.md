@@ -1,6 +1,6 @@
 # Gacha reveal, tuned for dopamine
 
-**#217 by popularity** · ♥ 354 · 42,061 views · by [@tamaandchoco](https://x.com/tamaandchoco) · [Original post](https://x.com/tamaandchoco/status/2120077392794529987) · [Watch the video](https://video.twimg.com/amplify_video/2120077333906563073/vid/avc1/1080x1288/bA0cUgHMdvrLFKvG.mp4)
+**#307 by popularity** · ♥ 354 · 42,061 views · by [@tamaandchoco](https://x.com/tamaandchoco) · [Original post](https://x.com/tamaandchoco/status/2120077392794529987) · [Watch the video](https://video.twimg.com/amplify_video/2120077333906563073/vid/avc1/1080x1288/bA0cUgHMdvrLFKvG.mp4)
 
 [![Gacha reveal, tuned for dopamine](https://pbs.twimg.com/amplify_video_thumb/2120077333906563073/img/J1J_J58OANmTKhWT.jpg)](https://x.com/tamaandchoco/status/2120077392794529987)
 

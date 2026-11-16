@@ -1,6 +1,6 @@
 # UX decisions explained in animation
 
-**#40 by popularity** · ♥ 2,086 · 209,898 views · by [@moguzbulbul](https://x.com/moguzbulbul) · [Original post](https://x.com/moguzbulbul/status/2104206095313215591) · [Watch the video](https://media.skillry.dev/opus-5-5/moguzbulbul-215591/original.mp4)
+**#54 by popularity** · ♥ 2,086 · 209,898 views · by [@moguzbulbul](https://x.com/moguzbulbul) · [Original post](https://x.com/moguzbulbul/status/2104206095313215591) · [Watch the video](https://media.skillry.dev/opus-5-5/moguzbulbul-215591/original.mp4)
 
 [![UX decisions explained in animation](https://media.skillry.dev/opus-5-5/moguzbulbul-215591/original.eba9995641.webp)](https://x.com/moguzbulbul/status/2104206095313215591)
 

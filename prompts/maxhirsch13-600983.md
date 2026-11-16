@@ -1,6 +1,6 @@
 # Launch video about leaving LinkedIn
 
-**#473 by popularity** · ♥ 26 · by [@MaxHirsch13](https://x.com/MaxHirsch13) · [Original post](https://x.com/MaxHirsch13/status/2107985883949600983) · [Watch the video](https://media.skillry.dev/opus-5-5/maxhirsch13-600983/original.mp4)
+**#1181 by popularity** · ♥ 26 · by [@MaxHirsch13](https://x.com/MaxHirsch13) · [Original post](https://x.com/MaxHirsch13/status/2107985883949600983) · [Watch the video](https://media.skillry.dev/opus-5-5/maxhirsch13-600983/original.mp4)
 
 [![Launch video about leaving LinkedIn](https://media.skillry.dev/opus-5-5/maxhirsch13-600983/original.add91f835f.webp)](https://x.com/MaxHirsch13/status/2107985883949600983)
 

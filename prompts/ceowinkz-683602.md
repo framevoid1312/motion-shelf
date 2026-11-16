@@ -1,6 +1,6 @@
 # 15-second wholesale pitch
 
-**#898 by popularity** · ♥ 0 · by [@ceowinkz](https://x.com/ceowinkz) · [Original post](https://x.com/ceowinkz/status/2103647124126683602) · [Watch the video](https://media.skillry.dev/opus-5-5/ceowinkz-683602/original.mp4)
+**#1773 by popularity** · ♥ 0 · by [@ceowinkz](https://x.com/ceowinkz) · [Original post](https://x.com/ceowinkz/status/2103647124126683602) · [Watch the video](https://media.skillry.dev/opus-5-5/ceowinkz-683602/original.mp4)
 
 [![15-second wholesale pitch](https://media.skillry.dev/opus-5-5/ceowinkz-683602/original.7107053c99.webp)](https://x.com/ceowinkz/status/2103647124126683602)
 

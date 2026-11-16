@@ -1,6 +1,6 @@
 # Trading terminal that grows from a dot
 
-**#489 by popularity** · ♥ 23 · by [@dale_vaz](https://x.com/dale_vaz) · [Original post](https://x.com/dale_vaz/status/2103290592679879074) · [Watch the video](https://media.skillry.dev/opus-5-5/dale-vaz-879074/original.mp4)
+**#1232 by popularity** · ♥ 23 · by [@dale_vaz](https://x.com/dale_vaz) · [Original post](https://x.com/dale_vaz/status/2103290592679879074) · [Watch the video](https://media.skillry.dev/opus-5-5/dale-vaz-879074/original.mp4)
 
 [![Trading terminal that grows from a dot](https://media.skillry.dev/opus-5-5/dale-vaz-879074/original.155c6e80d4.webp)](https://x.com/dale_vaz/status/2103290592679879074)
 

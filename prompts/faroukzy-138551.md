@@ -1,6 +1,6 @@
 # Four-minute animated short
 
-**#681 by popularity** · ♥ 4 · by [@faroukzy](https://x.com/faroukzy) · [Original post](https://x.com/faroukzy/status/2103387771180138551) · [Watch the video](https://media.skillry.dev/opus-5-5/faroukzy-138551/original.mp4)
+**#1555 by popularity** · ♥ 4 · by [@faroukzy](https://x.com/faroukzy) · [Original post](https://x.com/faroukzy/status/2103387771180138551) · [Watch the video](https://media.skillry.dev/opus-5-5/faroukzy-138551/original.mp4)
 
 [![Four-minute animated short](https://media.skillry.dev/opus-5-5/faroukzy-138551/original.a6bb373c62.webp)](https://x.com/faroukzy/status/2103387771180138551)
 

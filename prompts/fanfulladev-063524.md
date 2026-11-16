@@ -1,6 +1,6 @@
 # Mascot fight animation with sound
 
-**#639 by popularity** · ♥ 6 · by [@Fanfulladev](https://x.com/Fanfulladev) · [Original post](https://x.com/Fanfulladev/status/2102479018784063524) · [Watch the video](https://video.twimg.com/amplify_video/2102478756669468672/vid/avc1/1080x720/rnPBp59ntfdZ7D_M.mp4)
+**#1513 by popularity** · ♥ 6 · by [@Fanfulladev](https://x.com/Fanfulladev) · [Original post](https://x.com/Fanfulladev/status/2102479018784063524) · [Watch the video](https://video.twimg.com/amplify_video/2102478756669468672/vid/avc1/1080x720/rnPBp59ntfdZ7D_M.mp4)
 
 [![Mascot fight animation with sound](https://media.skillry.dev/opus-5-5/_prompts/fanfulladev-063524/poster.750c1e0d71.webp)](https://x.com/Fanfulladev/status/2102479018784063524)
 

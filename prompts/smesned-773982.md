@@ -1,6 +1,6 @@
 # Arabic kinetic-type promo template
 
-**#292 by popularity** · ♥ 296 · 17,934 views · by [@smesned](https://x.com/smesned) · [Original post](https://x.com/smesned/status/2104635107990773982) · [Watch the video](https://video.twimg.com/amplify_video/2104635017821372416/vid/avc1/1080x1920/GGt-WD4EA8FOIxaO.mp4)
+**#439 by popularity** · ♥ 296 · 17,934 views · by [@smesned](https://x.com/smesned) · [Original post](https://x.com/smesned/status/2104635107990773982) · [Watch the video](https://video.twimg.com/amplify_video/2104635017821372416/vid/avc1/1080x1920/GGt-WD4EA8FOIxaO.mp4)
 
 [![Arabic kinetic-type promo template](https://pbs.twimg.com/media/HTUqZdwW0AEPWCQ.jpg)](https://x.com/smesned/status/2104635107990773982)
 

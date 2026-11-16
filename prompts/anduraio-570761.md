@@ -1,6 +1,6 @@
 # Ten browser games in a streak
 
-**#774 by popularity** · ♥ 2 · by [@anduraio](https://x.com/anduraio) · [Original post](https://x.com/anduraio/status/2103860609712570761) · [Watch the video](https://media.skillry.dev/opus-5-5/anduraio-570761/original.mp4)
+**#1648 by popularity** · ♥ 2 · by [@anduraio](https://x.com/anduraio) · [Original post](https://x.com/anduraio/status/2103860609712570761) · [Watch the video](https://media.skillry.dev/opus-5-5/anduraio-570761/original.mp4)
 
 [![Ten browser games in a streak](https://media.skillry.dev/opus-5-5/anduraio-570761/original.0a8c19ca2d.webp)](https://x.com/anduraio/status/2103860609712570761)
 
