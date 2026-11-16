@@ -77,7 +77,7 @@ Free agent skills for making motion and video with Claude Code, Codex and other 
 
 <table>
 <tr>
-<td width="33%" valign="top"><a href="prompts/anabology-491441.md"><img src="https://media.skillry.dev/opus-5-5/anabology-491441/original.be0a03ecf7.webp" width="100%" alt=""></a><br><b>#1 · ♥ 16,504</b><br><a href="prompts/anabology-491441.md">I've included an MP4 file and an original link to a video that is…</a><br><sub><a href="https://x.com/anabology/status/2103534482930491441">@anabology</a></sub></td>
+<td width="33%" valign="top"><a href="prompts/anabology-491441.md"><img src="https://media.skillry.dev/opus-5-5/anabology-491441/original.be0a03ecf7.webp" width="100%" alt=""></a><br><b>#1 · ♥ 16,504</b><br><a href="prompts/anabology-491441.md">"Claude Pop" music video, remade</a><br><sub><a href="https://x.com/anabology/status/2103534482930491441">@anabology</a></sub></td>
 <td width="33%" valign="top"><a href="prompts/ryansael-654847.md"><img src="https://pbs.twimg.com/amplify_video_thumb/2102589341197619200/img/yc_23PO0WRs63QWw.jpg" width="100%" alt=""></a><br><b>#2 · ♥ 16,344</b><br><a href="prompts/ryansael-654847.md">Interactive camera focus lens lab</a><br><sub><a href="https://x.com/RyanSael/status/2102591147927654847">@RyanSael</a></sub></td>
 <td width="33%" valign="top"><a href="prompts/milos-gis-317580.md"><img src="https://media.skillry.dev/opus-5-5/_prompts/milos-gis-317580/poster.49671e7853.webp" width="100%" alt=""></a><br><b>#3 · ♥ 20,509</b><br><a href="prompts/milos-gis-317580.md">Portland bus service on a random Tuesday</a><br><sub><a href="https://x.com/milos_gis/status/2103751211040317580">@milos_gis</a></sub></td>
 </tr>
@@ -182,7 +182,7 @@ Free agent skills for making motion and video with Claude Code, Codex and other 
 
 | # | ♥ Likes | Views | Video | Creator | Prompt | Post |
 |---:|---:|---:|---|---|---|---|
-| 1 | 16,504 | 20,189,187 | I've included an MP4 file and an original link to a video that is… | [@anabology](https://x.com/anabology) | [Prompt](prompts/anabology-491441.md) | [X](https://x.com/anabology/status/2103534482930491441) |
+| 1 | 16,504 | 20,189,187 | "Claude Pop" music video, remade | [@anabology](https://x.com/anabology) | [Prompt](prompts/anabology-491441.md) | [X](https://x.com/anabology/status/2103534482930491441) |
 | 2 | 16,344 | 3,567,237 | Interactive camera focus lens lab | [@RyanSael](https://x.com/RyanSael) | [Prompt](prompts/ryansael-654847.md) | [X](https://x.com/RyanSael/status/2102591147927654847) |
 | 3 | 20,509 | — | Portland bus service on a random Tuesday | [@milos_gis](https://x.com/milos_gis) | [Prompt](prompts/milos-gis-317580.md) | [X](https://x.com/milos_gis/status/2103751211040317580) |
 | 4 | 17,248 | 2,314,133 | Claude motion designer showreel | [@stephanlivera](https://x.com/stephanlivera) | [Prompt](prompts/stephanlivera-470926.md) | [X](https://x.com/stephanlivera/status/2103315922098470926) |
@@ -558,7 +558,7 @@ Free agent skills for making motion and video with Claude Code, Codex and other 
 | 374 | 301 | — | Shadow-puppet and isometric shorts set | [@NFT_Chen](https://x.com/NFT_Chen) | [Prompt](prompts/nft-chen-068069.md) | [X](https://x.com/NFT_Chen/status/2107653056771068069) |
 | 375 | 194 | 40,636 | Redesigned budgeting app interface in Wise-style design language | [@jaimintf](https://x.com/jaimintf) | [Prompt](prompts/jaimintf-080623.md) | [X](https://x.com/jaimintf/status/2102465969155080623) |
 | 376 | 303 | 29,640 | Slick product video from a codebase | [@shribuilds](https://x.com/shribuilds) | [Prompt](prompts/shribuilds-689364.md) | [X](https://x.com/shribuilds/status/2102827288190689364) |
-| 377 | 298 | — | Polymarket Election Odds Explainer Video via HyperFrames | [@condzxyz](https://x.com/condzxyz) | [Prompt](prompts/condzxyz-728991.md) | [X](https://x.com/condzxyz/status/2107594959666728991) |
+| 377 | 298 | — | Election odds explainer in HyperFrames | [@condzxyz](https://x.com/condzxyz) | [Prompt](prompts/condzxyz-728991.md) | [X](https://x.com/condzxyz/status/2107594959666728991) |
 | 378 | 298 | — | Debris-flow riverbed visualization | [@kisaka_ki](https://x.com/kisaka_ki) | [Prompt](prompts/kisaka-ki-859326.md) | [X](https://x.com/kisaka_ki/status/2107054815255859326) |
 | 379 | 155 | 43,913 | Browser-based jelly watermelon you can cut into pieces | [@vib3coded](https://x.com/vib3coded) | [Prompt](prompts/vib3coded-029473.md) | [X](https://x.com/vib3coded/status/2106056420131029473) |
 | 380 | 409 | 18,453 | Overly excited 30-second self-introduction video | [@goodside](https://x.com/goodside) | [Prompt](prompts/goodside-721540.md) | [X](https://x.com/goodside/status/2103122885560721540) |
@@ -1550,7 +1550,7 @@ Free agent skills for making motion and video with Claude Code, Codex and other 
 | 1366 | 22 | 1,008 | Interactive strawberry cake with soft-body wobble, slicing, and | [@ImaStudio_ai](https://x.com/ImaStudio_ai) | [Prompt](prompts/imastudio-ai-303238.md) | [X](https://x.com/ImaStudio_ai/status/2104514806443303238) |
 | 1367 | 16 | — | 15-second showreel for an infra company | [@onewaysidewalks](https://x.com/onewaysidewalks) | [Prompt](prompts/onewaysidewalks-440008.md) | [X](https://x.com/onewaysidewalks/status/2103500011581440008) |
 | 1368 | 16 | — | # OBLT E-bike Header A full-viewport, dark, cinematic e-bike product… | [@iamtanzil_](https://x.com/iamtanzil_) | [Prompt](prompts/iamtanzil-120030.md) | [X](https://x.com/iamtanzil_/status/2103459843831120030) |
-| 1369 | 16 | — | Create a high energy launch video, showing live stats from the… | [@deifosv](https://x.com/deifosv) | [Prompt](prompts/deifosv-786581.md) | [X](https://x.com/deifosv/status/2103197522382786581) |
+| 1369 | 16 | — | High-energy launch video with live stats | [@deifosv](https://x.com/deifosv) | [Prompt](prompts/deifosv-786581.md) | [X](https://x.com/deifosv/status/2103197522382786581) |
 | 1370 | 16 | — | Realistic fire as a GPU fluid sim | [@NathanWilbanks_](https://x.com/NathanWilbanks_) | [Prompt](prompts/nathanwilbanks-981110.md) | [X](https://x.com/NathanWilbanks_/status/2103881538592981110) |
 | 1371 | 16 | — | Fitting a bed: 3,932 positions tested | [@goofyninjaaa](https://x.com/goofyninjaaa) | [Prompt](prompts/goofyninjaaa-315331.md) | [X](https://x.com/goofyninjaaa/status/2103540288136315331) |
 | 1372 | 16 | — | Microscope from fingertip to atoms | [@CurieuxExplorer](https://x.com/CurieuxExplorer) | [Prompt](prompts/curieuxexplorer-408141.md) | [X](https://x.com/CurieuxExplorer/status/2104108154506408141) |
@@ -1590,7 +1590,7 @@ Free agent skills for making motion and video with Claude Code, Codex and other 
 | 1406 | 21 | 568 | Historical comedy story about Usain Bolt saving Pompeii | [@noclipepe](https://x.com/noclipepe) | [Prompt](prompts/noclipepe-429800.md) | [X](https://x.com/noclipepe/status/2118393756680429800) |
 | 1407 | 21 | 551 | Playable lighthouse storm game with bot testing across screen sizes | [@r1VeN2k](https://x.com/r1VeN2k) | [Prompt](prompts/r1ven2k-792948.md) | [X](https://x.com/r1VeN2k/status/2120885546620792948) |
 | 1408 | 13 | — | Badge unlock screen from a Figma frame | [@BThreeAgency](https://x.com/BThreeAgency) | [Prompt](prompts/bthreeagency-827092.md) | [X](https://x.com/BThreeAgency/status/2103739079745827092) |
-| 1409 | 13 | — | I want you to independently do an end-to-end complete pass on making… | [@anjmaxx](https://x.com/anjmaxx) | [Prompt](prompts/anjmaxx-459455.md) | [X](https://x.com/anjmaxx/status/2103173729656459455) |
+| 1409 | 13 | — | 20-second story-led music video | [@anjmaxx](https://x.com/anjmaxx) | [Prompt](prompts/anjmaxx-459455.md) | [X](https://x.com/anjmaxx/status/2103173729656459455) |
 | 1410 | 13 | — | Pixel-art game from three sentences | [@MozeTech](https://x.com/MozeTech) | [Prompt](prompts/mozetech-471882.md) | [X](https://x.com/MozeTech/status/2102913506815471882) |
 | 1411 | 13 | — | This is Dope! Claude Opus 5.5 is on fire 🔥 One prompt → a 30s… | [@CurieuxExplorer](https://x.com/CurieuxExplorer) | [Prompt](prompts/curieuxexplorer-772215.md) | [X](https://x.com/CurieuxExplorer/status/2103714595659772215) |
 | 1412 | 13 | — | 3D tower-defence remake | [@HelloVyom](https://x.com/HelloVyom) | [Prompt](prompts/hellovyom-800659.md) | [X](https://x.com/HelloVyom/status/2104140498344800659) |
@@ -1851,7 +1851,7 @@ Free agent skills for making motion and video with Claude Code, Codex and other 
 | 1667 | 2 | — | High-end teaser from page components | [@UtsavChopra30](https://x.com/UtsavChopra30) | [Prompt](prompts/utsavchopra30-560359.md) | [X](https://x.com/UtsavChopra30/status/2108510252404560359) |
 | 1668 | 2 | — | Five-minute 3D engineering explainer | [@chang_](https://x.com/chang_) | [Prompt](prompts/chang-200908.md) | [X](https://x.com/chang_/status/2108458503367200908) |
 | 1669 | 2 | — | Two-minute history of AI | [@btcup99](https://x.com/btcup99) | [Prompt](prompts/btcup99-311469.md) | [X](https://x.com/btcup99/status/2108152460523311469) |
-| 1670 | 2 | — | Create a 50-second vertical music video using programmatic rendering… | [@okazaky](https://x.com/okazaky) | [Prompt](prompts/okazaky-084783.md) | [X](https://x.com/okazaky/status/2107826563786084783) |
+| 1670 | 2 | — | 50-second vertical music video in Three.js | [@okazaky](https://x.com/okazaky) | [Prompt](prompts/okazaky-084783.md) | [X](https://x.com/okazaky/status/2107826563786084783) |
 | 1671 | 2 | — | Interactive 3D V8 engine | [@aichrislee](https://x.com/aichrislee) | [Prompt](prompts/aichrislee-922082.md) | [X](https://x.com/aichrislee/status/2107260223907922082) |
 | 1672 | 2 | — | Endless zoom, drawn in code | [@AiDinzeo](https://x.com/AiDinzeo) | [Prompt](prompts/aidinzeo-708182.md) | [X](https://x.com/AiDinzeo/status/2107126979841708182) |
 | 1673 | 2 | — | Complete music video in JavaScript | [@thewevr](https://x.com/thewevr) | [Prompt](prompts/thewevr-681887.md) | [X](https://x.com/thewevr/status/2106774417732681887) |

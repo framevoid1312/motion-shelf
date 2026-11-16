@@ -1,8 +1,8 @@
-# I want you to independently do an end-to-end complete pass on making…
+# 20-second story-led music video
 
 **#1409 by popularity** · ♥ 13 · by [@anjmaxx](https://x.com/anjmaxx) · [Original post](https://x.com/anjmaxx/status/2103173729656459455) · [Watch the video](https://media.skillry.dev/opus-5-5/anjmaxx-459455/original.mp4)
 
-[![I want you to independently do an end-to-end complete pass on making…](https://media.skillry.dev/opus-5-5/anjmaxx-459455/original.7ad28c81ea.webp)](https://x.com/anjmaxx/status/2103173729656459455)
+[![20-second story-led music video](https://media.skillry.dev/opus-5-5/anjmaxx-459455/original.7ad28c81ea.webp)](https://x.com/anjmaxx/status/2103173729656459455)
 
 ## Prompt
 

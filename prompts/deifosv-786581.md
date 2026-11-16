@@ -1,8 +1,8 @@
-# Create a high energy launch video, showing live stats from the…
+# High-energy launch video with live stats
 
 **#1369 by popularity** · ♥ 16 · by [@deifosv](https://x.com/deifosv) · [Original post](https://x.com/deifosv/status/2103197522382786581) · [Watch the video](https://media.skillry.dev/opus-5-5/deifosv-786581/original.mp4)
 
-[![Create a high energy launch video, showing live stats from the…](https://media.skillry.dev/opus-5-5/deifosv-786581/original.ab881a1c69.webp)](https://x.com/deifosv/status/2103197522382786581)
+[![High-energy launch video with live stats](https://media.skillry.dev/opus-5-5/deifosv-786581/original.ab881a1c69.webp)](https://x.com/deifosv/status/2103197522382786581)
 
 ## Prompt
 

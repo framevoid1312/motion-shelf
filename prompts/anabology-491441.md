@@ -1,8 +1,8 @@
-# I've included an MP4 file and an original link to a video that is…
+# "Claude Pop" music video, remade
 
 **#1 by popularity** · ♥ 16,504 · 20,189,187 views · by [@anabology](https://x.com/anabology) · [Original post](https://x.com/anabology/status/2103534482930491441) · [Watch the video](https://media.skillry.dev/opus-5-5/anabology-491441/original.mp4)
 
-[![I've included an MP4 file and an original link to a video that is…](https://media.skillry.dev/opus-5-5/anabology-491441/original.be0a03ecf7.webp)](https://x.com/anabology/status/2103534482930491441)
+[!["Claude Pop" music video, remade](https://media.skillry.dev/opus-5-5/anabology-491441/original.be0a03ecf7.webp)](https://x.com/anabology/status/2103534482930491441)
 
 ## Prompt
 
