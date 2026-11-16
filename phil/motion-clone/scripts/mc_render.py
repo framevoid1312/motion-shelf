@@ -1,7 +1,5 @@
 #!/usr/bin/env python3
-"""mc_render.py WORKDIR [--compare side|stack] [--crf 18]
-Frame-exact render of rebuild/ to rebuild.mp4 (source audio muxed), plus an
-optional synced reference|rebuild comparison video."""
+"""mc_render.py WORKDIR [--compare side|stack] [--crf 18]"""
 import argparse, json, subprocess
 from pathlib import Path
 from playwright.sync_api import sync_playwright

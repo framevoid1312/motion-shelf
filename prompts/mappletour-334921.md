@@ -1,6 +1,6 @@
 # Flashy game PV, cut to the beat
 
-**#746 by popularity** · ♥ 2 · by [@mappletour](https://x.com/mappletour) · [Original post](https://x.com/mappletour/status/2104206756482334921) · [Watch the video](https://media.skillry.dev/opus-5-5/mappletour-334921/original.mp4)
+**#777 by popularity** · ♥ 2 · by [@mappletour](https://x.com/mappletour) · [Original post](https://x.com/mappletour/status/2104206756482334921) · [Watch the video](https://media.skillry.dev/opus-5-5/mappletour-334921/original.mp4)
 
 [![Flashy game PV, cut to the beat](https://media.skillry.dev/opus-5-5/mappletour-334921/original.0bb6633b54.webp)](https://x.com/mappletour/status/2104206756482334921)
 

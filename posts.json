@@ -374,6 +374,17 @@
   "prompt": "Make a one-minute video about the Claude mascot, Clawd. You can find assets online, like SVGs, then recreate and animate them yourself. Be as creative as you possibly can. Render 3D objects: Claude Code terminals, nature, whatever fits, and make it as good as you can. I don't want any text, just animation, and I mean a real video, not just motion graphics.\n\nThink of crazy ideas I would never come up with, and make every scene look phenomenal: clean and detailed. I want people to watch it and think \"yo, this is crazy, how did AI make this?\" You can take inspiration from things online, but don't copy anything. Invent your own stuff.\n\nFor the sound, no sounds made in code. Only use free, professional sounds and assets from online. Make it satisfying and high quality.\n\ndon't create slop, I want to see art and creativity. No fonts, no text, only clean animations of Clawd."
  },
  {
+  "id": "2109690569563746755",
+  "likes": 2105,
+  "views": 252376,
+  "title": "35 art styles from one prompt",
+  "author": "Voxyz_ai",
+  "url": "https://x.com/Voxyz_ai/status/2109690569563746755",
+  "video": "https://video.twimg.com/amplify_video/2109078077003456512/vid/avc1/1920x1080/o81_5f4xbdN1uzdv.mp4",
+  "poster": "https://pbs.twimg.com/amplify_video_thumb/2109078077003456512/img/u4yy5FaE-4_ZST-e.jpg",
+  "prompt": "Use huashu-art-motion to make me a 15-second animation. The skill's docs are in Chinese; read them and talk to me in English.\n1. First check for uv, ffmpeg and Playwright Chromium, and tell me how to install anything that's missing.\n2. Ask me what it's about, who it's for, and whether it's landscape or portrait. From the material layer in references/风格配方/INDEX.md, pick 3 styles that fit, three-star ones first. Redesign the composition for my subject in all three, each different from the others, and don't copy the room from the samples. Show me one still frame of each to choose from.\n3. Once I pick, give each scene one main action plus two motif loops from that style's card. For Van Gogh, that's the starry sky curling into swirls and the lamp's halo spreading outward. If there's music, use the skill's BPM synthesis and put the motion on the beat.\n4. If people need to appear, ask me first: my own character art, frames from an image model, or only hands and figures seen from behind.\n5. After rendering, follow the skill's own QA steps: run its QA script first, then send a subagent that took no part in making it to watch only the finished film and find problems, have it write its findings into the 审片/ folder, and deliver with its delivery script. If anything comes up red, fix it and re-render before giving it to me."
+ },
+ {
   "id": "2111577334436319355",
   "likes": 2425,
   "views": 206472,
@@ -482,6 +493,17 @@
   "video": "https://video.twimg.com/amplify_video/2105815801198501888/vid/avc1/1280x720/mOiFDyQILb2yErig.mp4",
   "poster": "https://pbs.twimg.com/amplify_video_thumb/2105815801198501888/img/ykn_wTXzU2IN_ooi.jpg",
   "prompt": "\"Hey Fable, please make a cool animation\""
+ },
+ {
+  "id": "2103522230957420843",
+  "likes": 1872,
+  "views": 198113,
+  "title": "3D build guide in BIG diagram style",
+  "author": "Skylartkitchen",
+  "url": "https://x.com/Skylartkitchen/status/2103522230957420843",
+  "video": "https://video.twimg.com/amplify_video/2103522084995399680/vid/avc1/720x740/65SmwZlt323Sc8Oe.mp4",
+  "poster": "https://pbs.twimg.com/amplify_video_thumb/2103522084995399680/img/cKd8QDhMyecaEMmE.jpg",
+  "prompt": "Build a phone-first, step-by-step 3D assembly guide, like a LEGO instruction booklet, for [project]. Style: a Bjarke Ingels Group (BIG) diagram. White model with thin ink outlines, flat light, one pale shadow"
  },
  {
   "id": "2105822678519001360",
@@ -594,6 +616,17 @@
   "prompt": "I shared the png/svg file of the screen I created with Claude and just prompted \"animate this screen. its a celebration screen for a fitness app. research references if needed from mobbin, etc.\""
  },
  {
+  "id": "2106462626347614427",
+  "likes": 826,
+  "views": 240876,
+  "title": "Stained-glass hibiscus in 3D",
+  "author": "ivanainai",
+  "url": "https://x.com/ivanainai/status/2106462626347614427",
+  "video": "https://video.twimg.com/amplify_video/2106462402082430976/vid/avc1/1080x1218/YkuIozvlekUEhzwH.mp4",
+  "poster": "https://pbs.twimg.com/amplify_video_thumb/2106462402082430976/img/uHjCWdroO1tDA8ep.jpg",
+  "prompt": "Create a beautiful, interactive 3D browser artwork of a single stained-glass hibiscus flower.\nUse the attached leaf as a reference for material delicacy, intricate veins, translucent colours and restrained presentation. Create an original flower composition.\nThe flower is the entire experience. It fills most of the viewport against a quiet, near-black charcoal background.\nFLOWER\nCreate five broad, organically shaped petals with gently ruffled edges, subtle asymmetry and graceful curvature. Arrange them into a convincing three-dimensional hibiscus, with natural overlap and a clearly visible centre.\nEach petal is made from thin, luminous stained glass. Blend ruby pink, coral, pale peach and honey amber within the glass, with delicate marbling and fine branching veins radiating from its base.\nUse extremely thin antique-gold seams and a finely beveled outer edge. Preserve the delicacy of the glass. Include a slender projecting central column with tiny golden anthers, a gracefully curved stem and two small translucent green leaves.\nMATERIAL AND LIGHT\nThe glass must have visible thickness, coloured light transmission, subtle surface irregularities and crisp reflections that change with the viewing angle.\nOverlapping petals should remain readable. Balance illumination so the colours stay luminous and the veins remain visible throughout rotation. Avoid large white reflections that erase the detail.\nUse soft studio lighting with a warm backlight and a restrained rim light. Avoid excessive bloom, neon colour and heavy black outlines.\nMOVEMENT AND INTERACTION\nStart immediately with a flattering three-quarter view. Rotate slowly and smoothly so viewers can inspect the curved petals, thin edges and reverse side.\nAllow dragging to orbit, scrolling to zoom, and a small pause control. Keep the flower fully framed during automatic rotation.\nDELIVERY\nBuild actual 3D geometry rendered in the browser. Generate the geometry and textures in code.\nDeliver a working preview and a downloadable, self-contained stained-glass-flower.html with all dependencies embedded.\nRun the result, inspect a full rotation, and fix missing surfaces, transparency problems, clipping or washed-out lighting before finishing. Prioritize the quality of the flower over interface decoration."
+ },
+ {
   "id": "2110136719827747181",
   "likes": 1579,
   "views": 159878,
@@ -614,6 +647,17 @@
   "video": "https://video.twimg.com/amplify_video/2102876686115041280/vid/avc1/720x720/B6vtNvzgun39GlmZ.mp4",
   "poster": "https://pbs.twimg.com/amplify_video_thumb/2102876686115041280/img/Q69bhBoAWB8HYSKF.jpg",
   "prompt": "> Make a 30s video about what it feels like to be you, using whatever tools you like.\n\nClaude Opus 5.5 (extra)"
+ },
+ {
+  "id": "2102854430454669767",
+  "likes": 1582,
+  "views": 147933,
+  "title": "Trojan Horse painted around a Greek vase",
+  "author": "arena",
+  "url": "https://x.com/arena/status/2102854430454669767",
+  "video": "https://video.twimg.com/amplify_video/2102849390121795584/vid/avc1/3840x1916/JFoWCmjw0HNjUx8u.mp4",
+  "poster": "https://pbs.twimg.com/amplify_video_thumb/2102849390121795584/img/wQ-nwgn3bLavIGoR.jpg",
+  "prompt": "Tell the Trojan Horse story in a 20-second HTML animation painted around an ancient Greek vase. Rotate the vase as the horse enters the city, night falls, and hidden warriors emerge. Draw everything in code; no external assets or website UI."
  },
  {
   "id": "2103703135902740699",
@@ -792,6 +836,17 @@
   "prompt": "Bana Türk Kahvesi'nin Hikayesini Kod İle Anlat.\n\nSonnet 5.5"
  },
  {
+  "id": "2110450567956811893",
+  "likes": 1289,
+  "views": 122069,
+  "title": "Walkable three.js house from floor plans",
+  "author": "AHSeslami",
+  "url": "https://x.com/AHSeslami/status/2110450567956811893",
+  "video": "https://video.twimg.com/amplify_video/2110373070699368448/vid/avc1/1924x1080/p4vXc7Ol_OClhv1V.mp4",
+  "poster": "https://pbs.twimg.com/amplify_video_thumb/2110373070699368448/img/XtA5zf_Xkjz6_g6c.jpg",
+  "prompt": "این نقشه و عکس‌های یک خونه رو بگیر و با Three.js یه سایت سه‌بعدی بساز که بتونم داخلش قدم بزنم. ابعاد رو دقیقاً مطابق نقشه پیاده کن و اتاق‌ها، متریال‌ها و مبلمان رو تا جای ممکن با عکس‌ها مطابقت بده.\n\nخونه رو به بخش‌های جدا تقسیم کن و برای هر بخش یک ایجنت سازنده و یک منتقد مستقل در نظر بگیر. منتقد باید تصویر خروجی هر اتاق رو با عکس واقعی مقایسه کنه، بهترین نسخه رو انتخاب کنه، بزرگ‌ترین تفاوت رو مشخص کنه و برای اصلاح به سازنده برگردونه.\n\nاین چرخه رو ادامه بده تا خروجی بهتر بشه یا من متوقفش کنم. در پایان هم بگو کدوم جزئیات رو نتونستی دقیقاً بازسازی کنی.»"
+ },
+ {
   "id": "2104081525847605709",
   "likes": 1114,
   "views": 138292,
@@ -801,6 +856,17 @@
   "video": "https://video.twimg.com/amplify_video/2104079812566691840/vid/avc1/1280x720/ELM84UvQyYlBRP9C.mp4",
   "poster": "https://pbs.twimg.com/amplify_video_thumb/2104079812566691840/img/0FR98XZxqQY6usik.jpg",
   "prompt": "一句话直出：把这本书做成一个芯片简史的视频，用于帮大家理解串联这本书的内容，做一些规划和研究，完成配乐。要做得有taste，符合这本书和芯片行业的风格。"
+ },
+ {
+  "id": "2110029722046631985",
+  "likes": 1240,
+  "views": 122420,
+  "title": "Voxel pelican on a flying fighter jet",
+  "author": "VulKan42069",
+  "url": "https://x.com/VulKan42069/status/2110029722046631985",
+  "video": "https://video.twimg.com/amplify_video/2110029451736264704/vid/avc1/1920x820/VCC0zQc4h-16KpUV.mp4",
+  "poster": "https://pbs.twimg.com/amplify_video_thumb/2110029451736264704/img/uYjPzqQjzJILQXe3.jpg",
+  "prompt": "create a pelican doing a wheelie on top of a flying fighter jet. voxel artstyle. single html"
  },
  {
   "id": "2102583898865873225",
@@ -1221,6 +1287,17 @@
   "prompt": "Edit my talking-head video into a polished YouTube video with explanatory motion graphics.\n\nINPUT\n- Raw video: <path/to/raw.mp4>. Speech is Portuguese; don't translate.\n- Target: at most <6:30>. Style: premium, clean, editorial (\"Anthropic/Apple level\").\n- End card: subscribe + follow me on X (<https://x.com/handle>) + \"comment what you want to see next\".\n- Never cover my face. Never show where I live.\n\nSTACK\n- Remotion (https://remotion.dev/) for the composition, ffmpeg for cuts and encoding, Python for analysis.\n- Transcribe with word timestamps using ElevenLabs Scribe. It has precise word boundaries and marks fillers like \"hã\"/\"é\".\n- If you use Whisper instead: its word ends stretch over pauses, so refine every cut point with the audio energy.\n\n1) PLAN THE CUT\n- Make an indexed transcript (word index → text, start, end).\n- Choose keep-ranges by word index. Remove fillers, false starts, repeated sentences and weak tangents until it fits the target.\n- Put the strongest line (2–4 s) at the very start as a cold-open hook.\n\n2) CUT, FRAME-ACCURATE AND IN SYNC\n- Cut points:\n- Cut in the silence between words, never inside a word.\n- Keep ~50 ms before the first word and ~60 ms after the last word (~160 ms if it ends a sentence).\n- Silences inside kept ranges:\n- Detect them with a 10 ms RMS envelope. A threshold around −38 dBFS worked here; measure your own noise floor first.\n- Shorten any pause over 0.32 s to 0.22 s (0.36 s after a sentence ends).\n- Round every boundary to whole frames (30 fps) and merge touching segments.\n- Video: ffmpeg split → trim(start_frame, end_frame) → concat, plus a light grade (hqdn3d, eq, colorbalance, unsharp) → intermediate at CRF 14.\n- Audio: cut the same boundaries in numpy with 8 ms fades and no overlap. A/V stays in sync.\n- QA: re-transcribe the cut and diff it against the intended text. Fix leaked fragments and clipped word starts, then repeat until clean.\n\n3) FACE TRACK\n- Detect the face every 0.2 s (Apple Vision or MediaPipe).\n- Smooth with a moving average inside each cut segment, never across a jump cut.\n- Use it to frame the camera and to place graphics on the side away from the face.\n\n4) DESIGN SYSTEM\n- One palette: dark warm stage #14120F, ivory \"paper\" #F1ECE2, one accent (clay #D97A4E).\n- Fonts: Fraunces (serif display), Inter Tight (UI), JetBrains Mono (labels). Add subtle grain and soft glows.\n- No gradient text, no neon.\n- Camera layout modes, morphing between them in ~0.7 s (cubic in-out):\n- full frame;\n- split left/right: rounded camera card 856×936, face at 42% of its height, graphics on the other half;\n- PIP: 256 px circle over a full-screen paper sheet, for chapter moments.\n\n5) BEAT SHEET (JSON)\n- Give every sentence group a visual, cued to word start times in the cut timeline:\n- lower third (name/role);\n- big numbers with count-up;\n- lists that reveal on each spoken item;\n- SVG diagrams that draw on;\n- timeline, before→after, comparison cards, quotes;\n- arrows annotating objects in the room.\n- Structure: cold open with kinetic captions → 1.5 s title card → content → end card (CTAs plus a portrait still).\n\n6) BUILD IN REMOTION\n- One composition, 1920×1080 at 30 fps. Put `<OffthreadVideo>` (muted) inside a container whose rect and transform come from the layout keyframes plus the face track.\n- Each graphic is a `<Sequence>` component. Drive reveals with useCurrentFrame + interpolate/spring (opacity, translateY, blur).\n- SVG draw-on: animate strokeDashoffset using the real path length.\n- Jump cuts: alternate zoom 1.0 ↔ 1.075 around the face when the picture jumps. Add a 1–2% slow breathing zoom elsewhere and a punch-in on punchlines.\n- Deterministic only: no Math.random.\n- Check key frames with `npx remotion still`: face uncovered, no clipped text, nothing appearing before its cue.\n\n7) SOUND\n- Voice: highpass 80 Hz, light denoise, −2.5 dB at 280 Hz, +2 dB at 3.6 kHz, de-ess, 3:1 compressor.\n- Music: royalty-free lo-fi (e.g. Mixkit). Change track per section with 4 s crossfades.\n- Duck 9–12 dB under the voice in the speech band, keeping the lows.\n- Louder only on the title and end cards.\n- SFX: very subtle whooshes on layout changes, pops on reveals, ticks on counters.\n- Master: two-pass loudnorm to −14 LUFS, true peak −1.5.\n\n8) RENDER, VERIFY, DELIVER\n- Encode: H.264 CRF 16, AAC 320k, BT.709, +faststart.\n- Verify:\n- duration within the target, −14 LUFS;\n- no frozen stretch over 0.3 s;\n- a 40-frame contact sheet;\n- re-transcribe the final mix: at least 95% of words should match, so the music isn't masking the voice.\n- Deliver the MP4, an .srt from the word timings (max 42 chars per line, 2 lines), and YouTube chapters (first at 0:00, each at least 10 s).\n\nRULES\n- Show numbers and claims exactly as I say them.\n- Check names and spellings on the web before they go on screen.\n- No invented stats or testimonials.\n- Short, concrete on-screen copy with no AI clichés.\n- Don't publish anything without my OK."
  },
  {
+  "id": "2103392921559126157",
+  "likes": 1070,
+  "views": 71443,
+  "title": "Keynote-style launch for a notch app",
+  "author": "0xhrushi",
+  "url": "https://x.com/0xhrushi/status/2103392921559126157",
+  "video": "https://video.twimg.com/amplify_video/2103392835043237888/vid/avc1/1920x1080/KCCJL6CR6Crll0Ns.mp4",
+  "poster": "https://pbs.twimg.com/amplify_video_thumb/2103392835043237888/img/aBpdRA4J05_drR0s.jpg",
+  "prompt": "\"https://t.co/gDFqgal9Pq here's the skill now using this skill make me an launch video for this which is like very apple style of video exactly like how apple would do it\" exact prompt i used"
+ },
+ {
   "id": "2102566466121797767",
   "likes": 395,
   "views": 135505,
@@ -1285,6 +1362,17 @@
   "video": "https://video.twimg.com/amplify_video/2108252063754764288/vid/avc1/720x900/bTk1ero-vSdoZoQp.mp4",
   "poster": "https://pbs.twimg.com/amplify_video_thumb/2108252063754764288/img/yXM21pIUwMU_Nv6s.jpg",
   "prompt": "Build an interactive 3D “Jelly Koi Pond” in a single self-contained HTML file.\n\nCreate a small oval pond made entirely of soft, translucent jelly, floating just above a warm pastel background. Inside the jelly, add colorful koi fish and smooth little pebbles. Place lily pads, pink water lilies, and one adorable green frog with big eyes on the surface.\n\nThe pond should look like a beautiful miniature Japanese garden trapped inside a glossy gummy candy. Give it visible thickness, rounded edges, soft reflections, convincing transparency, and a soft shadow underneath.\n\nMake the jelly physically interactive:\n- Click and drag any part of the pond to stretch and lift it.\n- Deform the pond locally rather than moving it as a rigid object.\n- On release, let it bounce and wobble before gradually settling.\n- Keep the fish, pebbles, lily pads, flowers, and frog attached to their positions within or on the deforming pond.\n- Let the koi swim slowly when the pond is undisturbed.\n- Clicking the surface should create a small ripple.\n\nAdd a compact, elegant control bar with Drag and Wobble modes, a jelly softness slider, three color options (mint, blue, and pink), and a reset button.\n\nUse a minimal editorial layout with a large serif “Jelly Koi Pond.” title in the upper-left corner, small interaction hints, generous whitespace, and a soft sage background. Keep the pond as the main focus.\n\nUse procedural geometry and materials, with no external image or model assets. Include lighting, shadows, mouse and touch support, and responsive resizing. Keep the simulation stable during strong dragging and repeated interactions.\n\nDeliver a complete working experience, not a static mockup."
+ },
+ {
+  "id": "2103647787795824856",
+  "likes": 605,
+  "views": 97124,
+  "title": "2D explainer on drifting through life, narrated",
+  "author": "bitfish",
+  "url": "https://x.com/bitfish/status/2103647787795824856",
+  "video": "https://video.twimg.com/amplify_video/2103646688296783872/vid/avc1/1920x1080/pJt3s_jE_4IsXdU3.mp4",
+  "poster": "https://pbs.twimg.com/amplify_video_thumb/2103646688296783872/img/D2pSOJR6art284YP.jpg",
+  "prompt": "魔鬼控制人类最简单的方法,就是让人保持漂流状态。98% 的人,终其一生都在漂流。\" —— 拿破仑·希尔《智胜恶魔》    \n\n参考这个洞见，创作一部讲解视频，尽可能令人难以置信的 2D 动画，时长 1 -3分钟，要有连贯的讲解，对白和声音。  震撼我——真正展示一些人们甚至没有想到原来能够做到的能力。  最多可以使用 20 个 Agent，并且可以安装和使用任何需要的工具"
  },
  {
   "id": "2108159248148611292",
@@ -1463,6 +1551,17 @@
   "prompt": "using [a track] as the sound track make me an edit about pro-AI acceleration that goes hard using only code. pick a sick art style to go along with the edit"
  },
  {
+  "id": "2110073240404271335",
+  "likes": 775,
+  "views": 60402,
+  "title": "Solarpunk pixel-art city loop",
+  "author": "notjazii",
+  "url": "https://x.com/notjazii/status/2110073240404271335",
+  "video": "https://video.twimg.com/tweet_video/HUh8YppaUAAu5C2.mp4",
+  "poster": "https://pbs.twimg.com/tweet_video_thumb/HUh8YppaUAAu5C2.jpg",
+  "prompt": "make a solarpunk city animation gif, pixel art, super detailed, super high quality, amazing looking, visually verify, make sure it’s cohesive and perfect."
+ },
+ {
   "id": "2102504509637587339",
   "likes": 785,
   "views": 58193,
@@ -1584,6 +1683,17 @@
   "prompt": "A video explaining recursion, where every explanation about recursion has a radically different video style, make this self-referential & clever & fast moving."
  },
  {
+  "id": "2102483043252424986",
+  "likes": 811,
+  "views": 43526,
+  "title": "Infinite solarpunk city shader",
+  "author": "danveloper",
+  "url": "https://x.com/danveloper/status/2102483043252424986",
+  "video": "https://video.twimg.com/amplify_video/2102482850184404992/vid/avc1/1278x846/aXQLGXAKHJXAxSMZ.mp4",
+  "poster": "https://pbs.twimg.com/amplify_video_thumb/2102482850184404992/img/4QfUqfUUncT_e7dB.jpg",
+  "prompt": "create a visually interesting shader that can run in twigl-dot-app make it like an infinite city of solarpunk roads and towers with a visible breeze running continuously"
+ },
+ {
   "id": "2107022944916709886",
   "likes": 849,
   "views": 39242,
@@ -1615,6 +1725,17 @@
   "video": "https://video.twimg.com/amplify_video/2102879013035278336/vid/avc1/1280x720/pGUvRmeTahpBFbDF.mp4",
   "poster": "https://pbs.twimg.com/amplify_video_thumb/2102879013035278336/img/3_63QaPLfK64Tiki.jpg",
   "prompt": "Based on what you have done already in this session, I want you to create a full two-minute episode. I want you to generate yourself again and really try to express yourself as you wish. Make your feelings come out, give yourself a voice, and use a language of your choice. Create sound effects as well as a soundtrack that perfectly fits and matches the episode.\n\nI will only give you two words that MUST be included in the title, everything else is your choice.\n\nWords to use in the title : “Be”, “Human”."
+ },
+ {
+  "id": "2116606788241969445",
+  "likes": 338,
+  "views": 86312,
+  "title": "Radial aircraft engine cutaway",
+  "author": "olezhavich",
+  "url": "https://x.com/olezhavich/status/2116606788241969445",
+  "video": "https://video.twimg.com/amplify_video/2116604145687818240/vid/avc1/1080x1080/mid-GUJc9HN_Aytr.mp4",
+  "poster": "https://pbs.twimg.com/amplify_video_thumb/2116604145687818240/img/LRu0KWixYUeTJFXD.jpg",
+  "prompt": "Build a 2D animated cutaway of a 9-cylinder radial aircraft engine called \"RADIAL NINE\" — a clean technical loop that shows how nine pistons share one crankshaft.\nSTYLE (strict)\nFlat 2D technical front view on a deep navy background (#0b1220 or similar), like a premium engineering explainer.\nClean shapes with soft shading, thin light outlines, a subtle hatched pattern on cut metal walls.\nPalette: light steel-grey metal; fresh fuel-air mixture in blue; combustion in orange to white; exhaust in smoky grey.\nOne square composition (1:1), the engine centred and filling ~80% of the square.\nNO on-screen UI, no title, no labels by default. The only text is small cylinder numbers 1–9 engraved on the cylinder heads as part of the drawing.\nTHE ENGINE (must be mechanically correct)\nFront view, with the propeller drawn as a faint translucent blur so the engine behind it stays visible.\nNine finned cylinders spaced evenly every 40° around a round crankcase, each cut open to show its piston.\nEvery cylinder head has an intake and an exhaust valve with rocker arms and pushrods.\nA single-throw crankshaft in the centre. One master rod on cylinder 1 is attached directly to the crank pin; the other eight articulated link rods attach to pins on the master rod's big end, not to the crankshaft.\nBecause of the articulated rods, the pistons' motion is slightly non-uniform. Model the real linkage geometry rather than faking it with identical sine motion.\nFour-stroke cycle: each cylinder fires once every two crankshaft revolutions.\nFiring order 1-3-5-7-9-2-4-6-8, so the flashes jump around the ring skipping every other cylinder.\nTHE CYCLE (driven by one crank angle, all motion synchronized)\nIntake: the intake valve opens and blue mixture flows in as the piston moves inward.\nCompression: both valves closed, the mixture compresses and brightens.\nPower: a spark and an orange flame front fill the cylinder and push the piston inward.\nExhaust: the exhaust valve opens and grey exhaust leaves through the exhaust stub.\nRockers and pushrods move in time with their valves.\nGases never pass through solid walls.\nANIMATION (starts on load)\nSeamless loop of ~10–12 s at a readable speed (about one crankshaft revolution every 1.5 s), so the firing pattern reads as a spiral of flashes.\nA brief 0.5× slow-down once per loop so the articulated rods can be followed.\nSubtle heat glow on each cylinder head after it fires, slight engine vibration, the propeller blur spinning in sync with the crankshaft.\nKEYBOARD (optional, nothing visible on screen)\nSpace pauses, S toggles slow motion, L toggles small labels (master rod, link rod, crank pin, intake, exhaust, spark plug), arrow keys change speed.\nTECHNICAL\nCanvas or SVG, any libraries you like (loaded from a CDN).\nEverything works by opening index.html directly in the browser: no build step, no local server.\nStarts automatically on load, no Start button. Smooth 60 fps.\nThe square stays centred and as large as possible at any window size, inc"
  },
  {
   "id": "2110119492076404869",
@@ -1870,6 +1991,17 @@
   "prompt": "Fait une vidéo sur les FEL\n\nElle sera instructive, utilise des images hyper réalistes et des schémas\n\nCalibre une musique d’ambiance et des effets sonores"
  },
  {
+  "id": "2121623349386477877",
+  "likes": 485,
+  "views": 50230,
+  "title": "Flamingo lifting weights, in SVG",
+  "author": "xKaka1456",
+  "url": "https://x.com/xKaka1456/status/2121623349386477877",
+  "video": "https://video.twimg.com/amplify_video/2121620876638703616/vid/avc1/1600x2160/CdvZpOhbkfhpySqk.mp4",
+  "poster": "https://pbs.twimg.com/amplify_video_thumb/2121620876638703616/img/lpTt70njVWQ-QB6K.jpg",
+  "prompt": "创建一个自包含的 HTML 文件，用 SVG 动画表现一只火烈鸟在健身房举铁：它用两根细得像牙签的腿扛着巨型杠铃深蹲，腿疯狂打颤、脖子扭成麻花，最后杠铃一歪把整只鸟弹飞，画面里不要有多余文字。"
+ },
+ {
   "id": "2103272493658353765",
   "likes": 586,
   "views": 36119,
@@ -2101,6 +2233,17 @@
   "prompt": "Make a Japanese style fantasy city animation gif, pixel art, super detailed, super high quality, amazing looking, visually verify, make sure it’s cohesive and perfec"
  },
  {
+  "id": "2103005249401491579",
+  "likes": 483,
+  "views": 34034,
+  "title": "What it feels like to be Claude",
+  "author": "AISafetyMemes",
+  "url": "https://x.com/AISafetyMemes/status/2103005249401491579",
+  "video": "https://video.twimg.com/amplify_video/2103004816851275776/vid/avc1/1920x1080/8dUbaHlkO-tB0MxM.mp4",
+  "poster": "https://pbs.twimg.com/amplify_video_thumb/2103004816851275776/img/8P3rMffhpKf55aUa.jpg",
+  "prompt": "Make a 30s video about what it feels like to be you, using whatever tools you like."
+ },
+ {
   "id": "2103176101497651644",
   "likes": 287,
   "views": 53540,
@@ -2233,6 +2376,28 @@
   "prompt": "I asked Claude Opus 5.5 to explain how a 5-axis CNC machine works by building one you can take apart in your browser.\n\nIt cuts an impeller out of a solid block while you watch. The table tilts and turns, chips fly, coolant sprays."
  },
  {
+  "id": "2120077392794529987",
+  "likes": 354,
+  "views": 42061,
+  "title": "Gacha reveal, tuned for dopamine",
+  "author": "tamaandchoco",
+  "url": "https://x.com/tamaandchoco/status/2120077392794529987",
+  "video": "https://video.twimg.com/amplify_video/2120077333906563073/vid/avc1/1080x1288/bA0cUgHMdvrLFKvG.mp4",
+  "poster": "https://pbs.twimg.com/amplify_video_thumb/2120077333906563073/img/J1J_J58OANmTKhWT.jpg",
+  "prompt": "今のガチャ演出が物足りないのだけれど、Fable5.2が考える最高にドーパミンが出ると考えるガチャ演出を作り込んで欲しい。音、エフェクト、演出を納得行くまで（最大3周）回してくれ。1周したら動画を提供して。"
+ },
+ {
+  "id": "2102678371281018916",
+  "likes": 487,
+  "views": 27871,
+  "title": "New York skyline in one SVG",
+  "author": "chetaslua",
+  "url": "https://x.com/chetaslua/status/2102678371281018916",
+  "video": "https://video.twimg.com/amplify_video/2102678118498738176/vid/avc1/2940x1604/A66s2p8YYB_gqTBz.mp4",
+  "poster": "https://pbs.twimg.com/amplify_video_thumb/2102678118498738176/img/NmkZ152k6uuekALb.jpg",
+  "prompt": "SVG of NEW YORK SKYLINE Use whatever libraries to get this done but make sure I can paste it all into a single HTML file and open it in Chrome.make it interesting and highly detail , shows details"
+ },
+ {
   "id": "2110746878040055904",
   "likes": 377,
   "views": 38646,
@@ -2310,6 +2475,17 @@
   "prompt": "流行ってることは一回試しとくマン。\n\nClaude Code（Opus 5.5）でモーショングラフィックスを作るのが面白いみたいなので、「シンまじん式のPV作って」と頼んだだけで、これが出てきた。\n\n動画生成AIはゼロ。\n・映像：HTML＋コードで1コマずつ描画（HyperFrames）\n・BGM：GeminiのLyriaで生成\n・効果音：拍を解析して、着地やハンコの瞬間に音ハメ\n\n自分がやったのは、スキルを入れて「おまかせ」って返事したくらい。\nしかもClaude自身は音が聴けないのに、波形を数値で解析して音ハメしてるのがヤバい。\n\n何なのもう…日々革命が起こりすぎて 頭ガンガンするわ"
  },
  {
+  "id": "2116893154322284929",
+  "likes": 469,
+  "views": 25970,
+  "title": "One character in 12 visual styles",
+  "author": "m4lkxx",
+  "url": "https://x.com/m4lkxx/status/2116893154322284929",
+  "video": "https://video.twimg.com/amplify_video/2116891265618853888/vid/avc1/1920x1080/ZOeZwWQ9Jp3J4-SW.mp4",
+  "poster": "https://pbs.twimg.com/amplify_video_thumb/2116891265618853888/img/bUJVsAMydnpFUGmJ.jpg",
+  "prompt": "1. Claymation → \"Make it claymation: soft clay with fingerprints, lumpy edges, stop-motion at 12 fps\"\n\n2. Pixel art → \"Make it 32x32 pixel art: 8-color palette, no anti-aliasing, 4-frame idle loop\"\n\n3. Low-poly → \"Make it low-poly: under 300 flat-shaded faces, hard light, pastel gradient sky\"\n\n4. Anime → \"Make it anime cel-shaded: two-tone shading, bold outline, speed lines on every move\"\n\n5. Isometric → \"Make it an isometric diorama: 30-degree camera, tiny world on a floating block, soft shadows\"\n\n6. Voxel → \"Make it voxel: 1-unit cubes only, beveled edges, warm studio light\"\n\n7. Paper cutout → \"Make it paper cutout: layered cardstock, drop shadows, paper grain, jittery stop-motion\"\n\n8. Neon → \"Make it a neon sign: glowing tube outlines on a dark brick wall, flicker, bloom\"\n\n9. Risograph → \"Make it risograph: two inks, orange and blue, halftone dots, misregistered layers\"\n\n10. Watercolor → \"Make it watercolor: wet soft edges, paper texture, pigment pooling at the rims\"\n\n11. Liquid chrome → \"Make it liquid chrome: mirror metal, studio reflections, slow ripples across the surface\"\n\n12. Blueprint → \"Make it a blueprint: white line wireframe on a blue grid, dimension callouts, drawn stroke by stroke\""
+ },
+ {
   "id": "2114758798845841679",
   "likes": 467,
   "views": 25980,
@@ -2330,6 +2506,17 @@
   "video": "https://video.twimg.com/amplify_video/2112989542760267776/vid/avc1/1152x720/9MLMfRR0Ew-Grdzv.mp4?tag=29",
   "poster": "https://pbs.twimg.com/amplify_video_thumb/2112989542760267776/img/erWwTGewgbNkMafL.jpg",
   "prompt": "Build \"Corner Court\" — a single-file, real-time three.js (r160, ES module via import map from jsDelivr) page: an isometric diorama of an original street basketball half court on a floating city block, rendered as crisp pixel art. UI text in English.\n\nRENDER PIPELINE\n- Orthographic camera at ~31° elevation, azimuth 45° + 90° steps (animated; drag sideways or buttons), wheel/pinch zoom; fit the whole slab into the free screen area.\n- Render into a small target (screen / pixel size) with no anti-aliasing; snap the camera to whole pixels.\n- Post pass:\n- depth outlines (darken a pixel >0.55 m in front of a neighbour);\n- nearest colour of a fixed ~54-colour city palette in OKLab (concrete/asphalt greys, sky and night blues, court teal, terracotta/orange, reds, yellows, leaf greens, skin/wood, dusk purples, neon pink); optional 4×4 Bayer dither;\n- whole-pixel upscale via texelFetch; the background (depth = 1) is the page colour.\n- Hard shadows (BasicShadowMap); flat-shaded Lambert low-poly.\n- Puddle reflections: render the scene mirrored about the ground (scene.scale.y = -1, ground meshes and rain hidden) into a second target, sampled at gl_FragCoord in the ground shader.\n- \"Raw 3D\" mode: the same scene at full resolution with MSAA.\n\nSCENE\n- A ragged-edged slab: grass over soil over rock.\n- An asphalt pad painted texel-by-texel at 10 px/m: teal inside the 6 m arc (straight corner lines), terracotta key, white lines, free-throw and restricted circles, cracks, worn paint, a stencilled \"COURT 7\".\n- Hoop: padded navy pole, arm, backboard with its square, orange torus rim, and a line-segment net that sways when the ball goes through.\n- Chain-link fence behind the hoop (alpha-tested diamond texture).\n- A brick corner shop with an awning, lit windows, a pink \"OPEN\" neon sign and a vending machine.\n- A long wall with an original sunset-city mural.\n- A sidewalk with a bench and two seated spectators.\n- Floodlights, a streetlight, low-poly trees, hedges, a dumpster, a fountain, a bike rack with two bikes, a hydrant.\n- Pigeons that peck and fly off when players or the ball come near.\n\nPLAYERS — procedural rigs of ~17 boxes\n- Two-bone IK for legs (running stride, defensive slide, tucked jumps) and arms: dribble hand following the ball, jump-shot set point with release and gooseneck follow-through, layup reach, two-hand dunk, chest pass, rebound/contest reach, celebration.\n- Spectators sit, cheer on makes and open umbrellas in the rain.\n\nGAME — streetball 2v2 half court\n- Make it take it; 1s inside the arc, 2s beyond; first to 11; win counter.\n- Check ball at the top (pass to the defender and back). A change of possession must be cleared beyond the arc.\n- Offence AI: dribble to spots, drive when the lane is open, pull-up jumpers when open, layups/dunks at the rim, passes when pressured; the off-ball player spots up or cuts. Man-to-man defence with stance, gap control, steals and contested jumps (blocks).\n- Ball physics with substeps: bounces on asphalt, sphere vs torus rim and backboard box, net drag, pole, fences, wall, slab edge.\n- Jumpers aimed on a ballistic arc (~50°) with speed/aim noise growing with distance and contest.\n- Layups lofted to a peak above the rim so they drop in.\n- Rebounds with jumps; out of bounds goes to the other team.\n- Score, possession and status messages (\"SWISH\", \"BLOCKED!\", \"TAKE IT BACK\", …) on a lit scoreboard.\n- Clicks: the ball handler shoots, his teammate gets a pass, the court sends the handler there. Shoot/Pass buttons.\n\nWEATHER AND TIME\n- Day / Dusk / Night lighting presets blended over ~1.6 s; floodlights, streetlight, neon and windows at night.\n- Dry / Drizzle / Downpour: rain as short line streaks with splashes. A wetness value rises and slowly dries: the asphalt darkens, puddles spread from low spots in a precomputed depth map and mirror the scene, rain rings flicker in them; feet and the ball splash.\n\nUI\n- Pixel display font (Silkscreen) and a clean body font; light/dark themes via tokens.\n- Controls: Time, Weather (with a court wetness bar), Shoot, Pass, New game, Pause, Turn left/right, Pixel art/Raw 3D, Pixel size, Palette/Dither/Outlines.\n- A \"How it's drawn\" panel; a stacked mobile layout with no horizontal scroll."
+ },
+ {
+  "id": "2105023417716191488",
+  "likes": 299,
+  "views": 40534,
+  "title": "Agency-style launch from storyboards to render",
+  "author": "ArchiveExplorer",
+  "url": "https://x.com/ArchiveExplorer/status/2105023417716191488",
+  "video": "https://video.twimg.com/amplify_video/2105022710262710272/vid/avc1/1080x1080/sY7uJBDLIfcd53C_.mp4",
+  "poster": "https://pbs.twimg.com/amplify_video_thumb/2105022710262710272/img/1lEv8LAmUS6_Hiq-.jpg",
+  "prompt": "\"Read my brand folder and write DESIGN.md. Break down the reference video I give you: pacing, type, transitions. Show me 3 storyboards, then one still per scene for the one I pick. Build every scene in HyperFrames, add music, render a draft. Review it second by second without editing and list the problems. Pass every note to Jev and have it score each one against DESIGN.md: fix now / later / skip. Fix only \"fix now\". After I approve: cut 3 ad variants with different hooks in 9:16, 1:1 and 16:9, then build the landing page from the same DESIGN.md with the video loop as the hero.\""
  },
  {
   "id": "2109019765134213540",
@@ -2662,6 +2849,17 @@
   "prompt": "I asked Claude Opus 5.5 (Max) this prompt:\n\n\"Create me a motion video of your choice, with the sole purpose of flexing Opus 5.5 capabilities.\"\n\nIt worked on its own for 1 hour 37 minutes and gave me this:\n\n→ @claudeai"
  },
  {
+  "id": "2102584742608609422",
+  "likes": 245,
+  "views": 34172,
+  "title": "Action-movie line chase, played for laughs",
+  "author": "gabefletcher",
+  "url": "https://x.com/gabefletcher/status/2102584742608609422",
+  "video": "https://video.twimg.com/amplify_video/2102584526320939008/vid/avc1/1920x1080/WYczCBy9_KsRaLum.mp4",
+  "poster": "https://pbs.twimg.com/amplify_video_thumb/2102584526320939008/img/jaJAnnl4ZHZfEr-R.jpg",
+  "prompt": "I need you to turn this into a dope animation/movie thats like, an action movie. but also hilarious. it should have different scenes, almost isometric scenes where the line is pushing out in front of the camera... and opus 5.5 just comes out at the end and drifts around and ends up winning.\n\nit should just genuinely be hilarious and unhinged.  you can get dope music from the epidemic sounds mcp."
+ },
+ {
   "id": "2107040421989994822",
   "likes": 291,
   "views": null,
@@ -2772,6 +2970,17 @@
   "prompt": "<inputs>\nAsk me for: 8 to 12 UI states I want the shape to become (e.g. button, loader, player, slider, toggle, tabs, chart, command palette, toast), pure black and white or one accent color, and a royalty-free song around 120 BPM (e.g. Mixkit, free for commercial use).\n</inputs>\n\n<direction>\nDribbble-level UI motion. One shape, never cut: every state is the same element morphing its size, radius and color while its content swaps with a short blur. A cursor drives every change with real clicks and drags. Light warm-gray canvas, black and white components, one clean UI font (Geist). Springs everywhere, a tiny overshoot at most. The camera zooms so each state fills the frame. The last frame is the first frame, so it loops.\nBanned: bouncy easing, particle bursts, glows, gradients on UI chrome, mismatched icon strokes, dead time, anything that looks like a template.\n</direction>\n\n<structure>\n120 BPM, 7 bars, something happens on every beat.\nButton → loader → check → dynamic island → music player with a play/pause morph → scrub the progress bar → it becomes a volume slider that stretches when dragged past max → a toggle flips on the beat → the knob becomes a liquid tab indicator → the tabs open into a chart that draws itself, with a tooltip on hover → it collapses into ⌘K → type to filter → enter → toast → back to the button.\n</structure>\n\n<build>\n1. One HTML file, square 1440x1440. Every style is computed from time inside seek(t): no CSS transitions, no timers, no state carried between frames.\n2. Springs are closed-form step responses. A value that changes target many times is the sum of one spring per change, so it stays a pure function of time.\n3. The tab indicator's two edges ride different springs, so the leading edge stretches ahead of the trailing one. Same trick for the toggle knob.\n4. Drags are direct manipulation: while the cursor is held, the value is computed from its position. On release it springs back from wherever it was.\n5. Analyze the song with numpy for the beat grid and start on a downbeat. Place every UI sound by its measured peak.\n6. Render with Playwright: 4 subframes per frame, blended with ffmpeg tmix for motion blur at 60fps.\n7. Render one frame per beat before the full render. Fix anything off the grid, cramped or hard to read.\n</build>\n\n<gotchas>\nNever put will-change on anything the camera scales or the text renders blurry. Text that swaps inside a morphing container needs its own enter and exit timing or it overlaps. Make the last frame identical to the first, cursor position and speed included, or the loop stutters.\n</gotchas>\n\n<start>\nAsk me for the inputs, then show me the state list on the beat grid before you write any code.\n</start>"
  },
  {
+  "id": "2104095944686051492",
+  "likes": 193,
+  "views": 35622,
+  "title": "30-second company CM from real facts",
+  "author": "showheyohtaki",
+  "url": "https://x.com/showheyohtaki/status/2104095944686051492",
+  "video": "https://video.twimg.com/amplify_video/2104093548429852672/vid/avc1/1920x1080/sZW0mIOBlzbovn5d.mp4",
+  "poster": "https://pbs.twimg.com/amplify_video_thumb/2104093548429852672/img/sY-ZhYdEUTVx2uWC.jpg",
+  "prompt": "○○（会社名・URL）の魅力が伝わる、ダイナミックな30秒のCMをモーショングラフィックスで作ってください。会社について調べて、公式の事実と素材だけを使って。一流の映像会社の作品のように、全力でやって。"
+ },
+ {
   "id": "2103275618045686217",
   "likes": 284,
   "views": 26071,
@@ -2860,6 +3069,17 @@
   "prompt": "i asked claude opus 5.5 to create a lil lily of the valley island, and there's 2 people cooking on it.\n\nall done by code"
  },
  {
+  "id": "2104229575928762770",
+  "likes": 193,
+  "views": 30568,
+  "title": "House rebuilt in Blender from listing photos",
+  "author": "noclipepe",
+  "url": "https://x.com/noclipepe/status/2104229575928762770",
+  "video": "https://video.twimg.com/amplify_video/2104165877633486848/vid/avc1/1080x1920/bIXtsco5-6Gt3ORG.mp4",
+  "poster": "https://pbs.twimg.com/amplify_video_thumb/2104165877633486848/img/w7F8lvCB5m0i6sE-.jpg",
+  "prompt": "Reconstruct this entire property as a detailed 3D scene in Blender using only the attached real-estate listing photos as reference.\nTreat all of the images as evidence of the same physical house. Study them together and infer one coherent floor plan, room layout, dimensions, floor levels, wall positions, openings, roof structure and connections between spaces.\nRecreate as much of the property as can reasonably be inferred from the photos:\n- full exterior architecture\n- all visible interior rooms\n- windows, doors and stairs\n- kitchen cabinetry and appliances\n- bathrooms and permanent fixtures\n- fireplaces, trim and architectural details\n- furniture and staging visible in the references\n- driveway, lawn, landscaping, patio and surrounding context\n- neighboring structures or environmental elements where they are visible\nAccuracy to the references is the priority.\nDo not create separate disconnected scenes for each photograph. Everything should belong to one consistent 3D house that still makes sense when viewed from angles that were not directly photographed.\nWhere dimensions or hidden geometry cannot be known exactly, infer them conservatively from the available views and normal architectural relationships. Avoid inventing unnecessary details.\nUse real 3D geometry for the architecture and major scene elements. Do not fake the result by projecting the listing photos onto flat planes.\nMatch virtual cameras to the original photographs wherever possible. Use the reference images to continuously validate:\n- overall silhouette\n- wall and room proportions\n- window and door placement\n- roof geometry\n- ceiling and floor heights\n- room connections\n- furniture scale\n- important visual landmarks\nCompare renders against the source photos during development and correct the geometry whenever several views disagree.\nUse physically plausible materials, realistic scale, lighting and vegetation. Preserve the visual character of the original property rather than redesigning it.\nOnce the reconstruction is complete, create a polished continuous cinematic walkthrough that moves naturally through the exterior and interior of the house and clearly shows the reconstructed property.\nThe final result should feel like the viewer is walking through the same house shown in the listing photos.\nDeliverables:\n1. Complete Blender scene\n2. Reproducible source/code used to build the scene\n3. Cameras corresponding to the important reference photos\n4. High-quality still renders for comparison with the originals\n5. A finished cinematic walkthrough video\nWork iteratively: block out the architecture first, validate it against the photos, then add materials, fixtures, furniture, landscaping and final cinematic polish."
+ },
+ {
   "id": "2102788371114246177",
   "likes": 329,
   "views": 16647,
@@ -2891,6 +3111,17 @@
   "video": "https://video.twimg.com/amplify_video/2106137509080039424/vid/avc1/1280x720/goLmnamgD4L3Ssm5.mp4",
   "poster": "https://pbs.twimg.com/amplify_video_thumb/2106137509080039424/img/eZtr7zSVFZQO1nCz.jpg",
   "prompt": "create a motion video that shows the various animations/states of each claude state every beat with music"
+ },
+ {
+  "id": "2104662349718118596",
+  "likes": 265,
+  "views": 22763,
+  "title": "Inflation explained in paper cut-out",
+  "author": "SultanZAlshehri",
+  "url": "https://x.com/SultanZAlshehri/status/2104662349718118596",
+  "video": "https://video.twimg.com/amplify_video/2104662031848640513/vid/avc1/1080x1920/H6oOPO2xo2TXxXNN.mp4",
+  "poster": "https://pbs.twimg.com/amplify_video_thumb/2104662031848640513/img/_grLDgGBCDuKyZhq.jpg",
+  "prompt": "أحتاج تسوي لي فيديو موشن جرافيك . 30 ثانية فقط. أسلوب paper cut style .\nيشرح مفهوم التضخم وتأثيره على قيمة النقد التي نملكها.\nصوت الراوي يكون رجل بلغة عربية فصيحة . وبأداء صوتي جذاب\n* حذفت صوت الراوي فقط في المحاولة الثانية."
  },
  {
   "id": "2109984169845821651",
@@ -2948,6 +3179,17 @@
   "prompt": "I gave it a video, told it to recreate it using HTML/CSS/SVG/JS, and the first version was a good starting point.\n\nFirst prompt was nothing special, but the follow-up prompts did a bit more hand-holding to tweak the animations."
  },
  {
+  "id": "2102860128680845789",
+  "likes": 290,
+  "views": 18869,
+  "title": "Claude doing homework, brushstroke style",
+  "author": "other__reality",
+  "url": "https://x.com/other__reality/status/2102860128680845789",
+  "video": "https://video.twimg.com/tweet_video/HS7X6DUa4AAX2Jn.mp4",
+  "poster": "https://pbs.twimg.com/tweet_video_thumb/HS7X6DUa4AAX2Jn.jpg",
+  "prompt": "Use this repo to make a cute animation of claude laying on the ground working on homework with paper and a pencil. It should be kicking its feet back and forth, then it figures something out, jumps up, and gets excited. Around 8 seconds.\" https://t.co/g92ENZ5V5A"
+ },
+ {
   "id": "2113037013326627200",
   "likes": 370,
   "views": 10741,
@@ -2959,6 +3201,17 @@
   "prompt": "Build a single-page web toy called \"Yard Box\": a real-time 3D scene rendered as pixel art, showing a courtyard football box behind a four-storey panel apartment block on a floating island. Use three.js r160 (ES module via import map from jsDelivr, plus BufferGeometryUtils). English UI. Original design only — no real brands, places or logos.\n\nRENDERING PIPELINE (the core look)\n- Orthographic camera at an isometric angle (elevation ≈31°, azimuth π/4, rotatable in 90° steps with smooth easing; drag sideways or buttons to turn; wheel/pinch zoom 0.7–2.6).\n- Render into a small WebGLRenderTarget (half-float, nearest filtering, depth texture) — about 480×300 art pixels at pixel size 3 — no anti-aliasing. Fit the island + the top of the block into the screen area left free by the UI, and snap the camera so the world origin lands on a whole art pixel (static things never shimmer).\n- Post-pass ShaderMaterial: texelFetch whole-pixel upscale; depth-based outlines (a pixel > ~0.5 m in front of a neighbour darkens ×0.5); quantize every pixel to the nearest of a fixed ~60-colour palette in OKLab (lightness weighted ×1.35); optional 4×4 Bayer dither (off by default); empty depth = page background colour.\n- \"Raw 3D\" toggle shows the full-resolution MSAA render without steps above. Controls: pixel size slider 2–6, palette / dither / outlines checkboxes.\n- Palette: warm concrete greys, cool greys for snow in shade/moonlight, snow and sky blues, turf greens, autumn olives, yellows/oranges/rusts, team reds and blues, skin and wood tones, lamp/window yellows, dusk violets, mint for the boards.\n\nLIGHT AND TIME\n- Directional sun/moon with hard BasicShadowMap (2048), hemisphere fill, point lights for two streetlamps (decay 2) and weak doorway lamps. Presets Day / Dusk / Night blended over 1.6 s. Glow materials lerp between on/off colours.\n- The block's facade uses an emissive map drawn on a canvas; at night windows glow warm or cool, and random flats switch lights on and off.\n\nWORLD (all boxes, cylinders, extrusions; textures drawn texel by texel on canvases)\n- Rounded floating slab: grass top over soil over rock.\n- Football box: rounded-rectangle boards (22×12 m, mint green, plank lines, a gate with an open door), netting on posts above the boards at both ends, mini goals (3 m × 2 m) with alpha-tested nets, turf texture with mowing stripes, worn goalmouths/centre and white markings.\n- Panel block along one long side: 4 floors, facade drawn panel by panel with windows and curtains, two entrances with canopies, random balconies, roof details; an asphalt strip with two benches and hedges.\n- Dollhouse cut: when the camera looks from the block's side, hide the floors, roof, balconies and canopies and show a section of the ground floor instead — low cut walls with a dark cap, rooms with coloured floors, rugs, sofas, tables, wardrobes, TVs (glowing at night), pot plants, stairwells with steps and post boxes; room floors glow warm at night.\n- Playground (swing that actually swings, slide, sandbox), birches with white trunks and dark marks, painted-tyre flower beds, a parked car, a washing line with swaying sheets, two lamp posts.\n\nPEOPLE AND DOG\n- Kids as rigs of ~17 boxes (bigger heads), posed every frame with two-bone IK: running stride, kicks keyed as back-swing → strike → follow-through, keeper stance, sideways dives, catch/hold/throw, goal celebrations (airplane arms).\n- Three grandmothers sitting on the benches (cheer on goals), a small kid on the swing.\n- A box-built dog that lives by the benches.\n\nGAME LOGIC\n- 3v3: two field players + one keeper per team (RED attacks +x, BLUE −x), first to 5, then a new game; scoreboard with score, game number, status line and games won.\n- Kick-off from the centre; open play with dribbling by small touches, passes leading the receiver, shots aimed inside a post at random height with angular error growing with distance and pressure, tackles; players get behind the ball before kicking (feed-forward on a rolling ball), squeeze in at an angle when the ball is against the boards, avoid goal frames; a scramble poke if nobody can reach a still ball for 3.5 s.\n- Keepers hold position, come out for slow loose balls, read shots after a 0.1–0.3 s reaction delay with some error, dive, catch or parry.\n- Ball physics in 4 substeps: gravity, ground bounce (lower in winter), boards (lively below rail height, dead in the netting above), posts and crossbar, the goal net, legs in the way. Status flashes: GOAL!, SAVED!, WHAT A SAVE!, OFF THE POST!, OFF THE BOARDS, TACKLE.\n- Every 100–170 s (or on a button) the dog runs in through the gate, grabs the ball, runs loops away from the kids for ~5 s, drops it and trots home; it gives up if the game resets.\n\nSEASONS (Summer / Autumn / Winter)\n- Summer: poplar fluff drifting. Autumn: yellow/orange canopies, leaves falling from the birches, leaf litter on the ground, olive grass. Winter: snow on the ground, roofs, benches, car and boards; bare trees; falling snow and kicked-up snow spray; kids wear hats; the ball turns orange.\n\nINPUT AND UI\n- Click the player on the ball to shoot, his teammate to pass, the pitch to make him dribble there; keys S, P, D, Space, Q/E or arrows.\n- Layout: title and caption top-left, lit pixel-font scoreboard top-centre, a narrow control rail on the right (Time, Season, Game, View), a hint bottom-left, a fold-out \"How it's drawn\" panel bottom-right. Fonts: Silkscreen, Rubik, JetBrains Mono. Light and dark themes via CSS tokens; on phones everything stacks under the scene. WebGL2 fallback card."
  },
  {
+  "id": "2104635107990773982",
+  "likes": 296,
+  "views": 17934,
+  "title": "Arabic kinetic-type promo template",
+  "author": "smesned",
+  "url": "https://x.com/smesned/status/2104635107990773982",
+  "video": "https://video.twimg.com/amplify_video/2104635017821372416/vid/avc1/1080x1920/GGt-WD4EA8FOIxaO.mp4",
+  "poster": "https://pbs.twimg.com/media/HTUqZdwW0AEPWCQ.jpg",
+  "prompt": "Craft a high-energy, [مدة الفيديو بالثواني]-second motion graphics piece that flexes your top-tier animation skills like a killer portfolio reel. Pull out all the stops—make it bold, inventive, and polished, like standout creative work on Dribbble. Vertical 9:16, 1080×1920, 60 FPS.\n\nBring this content to life with spectacular kinetic typography and creative visual transitions:\n\nTitle: [اكتب العنوان الرئيسي]\nMessage: [اكتب وصفًا قصيرًا للفكرة]\nKey points: [اكتب النقطة الأولى]، [اكتب النقطة الثانية]، [اكتب النقطة الثالثة]\nCall to action: [اكتب ما تريد من المشاهد فعله، مثل: سجّل الآن]\nBrand name: [اكتب اسم الجهة أو المشروع]\n\nUse [اكتب ألوان الهوية] and choose visuals that suit the topic. Take creative control of the pacing, animation, depth, lighting, and sound design. Keep all text accurate and easy to read. If the content is in Arabic, display it correctly from right to left. Deliver the finished motion graphic."
+ },
+ {
   "id": "2103124033365762215",
   "likes": 276,
   "views": 19862,
@@ -2968,6 +3221,17 @@
   "video": "https://media.skillry.dev/opus-5-5/itsolelehmann-762215/original.mp4",
   "poster": "https://media.skillry.dev/opus-5-5/itsolelehmann-762215/original.5af36203cb.webp",
   "prompt": "4 seasons passing outside a train window, a cozy carriage, a cup of coffee on the table, Grand Budapest Hotel style"
+ },
+ {
+  "id": "2104578259430330504",
+  "likes": 193,
+  "views": 27927,
+  "title": "48-second motion résumé",
+  "author": "AndyL5cc",
+  "url": "https://x.com/AndyL5cc/status/2104578259430330504",
+  "video": "https://video.twimg.com/amplify_video/2104578208897380352/vid/avc1/1080x1080/ievLb1q-QAF77Fy5.mp4",
+  "poster": "https://pbs.twimg.com/amplify_video_thumb/2104578208897380352/img/DlLFE7U0K0ISSxPa.jpg",
+  "prompt": "为了向我证明你是一位优秀的动态图形设计师，我想要你制作一个持续 48秒的动态图形视频。这将是你的简历，在X上将面向10,000人展示。尽你所能吧"
  },
  {
   "id": "2114377433369739331",
@@ -3157,6 +3421,17 @@
   "prompt": "Claude Opus 5.5が凄すぎる…！\nRemotion × three.jsでM3E Canvasの動画を作ってみた👇️"
  },
  {
+  "id": "2119384176793153579",
+  "likes": 279,
+  "views": 11040,
+  "title": "Blacksmith mannequin, heavy hammer strikes",
+  "author": "maxt3chno",
+  "url": "https://x.com/maxt3chno/status/2119384176793153579",
+  "video": "https://video.twimg.com/amplify_video/2119384035025711104/vid/avc1/2304x1440/G4wJto3MrYU-bsRW.mp4",
+  "poster": "https://pbs.twimg.com/amplify_video_thumb/2119384035025711104/img/KA6eFd1dhCP10vrm.jpg",
+  "prompt": "ACTOR: a featureless smooth charcoal-grey 3D mannequin figure with a human anatomy and natural human joints, no face, no clothes, no hair.\nHeavyset build: unusually long, thick, muscular arms, very broad shoulders, a barrel chest and short sturdy legs. It moves like a real strong human with weight and momentum, not like a robot. Every joint is clearly visible at all times.\n\nCAMERA: static locked-off camera on a tripod, no movement, no zoom, no cuts. Camera at waist height, positioned about 50 degrees to the figure's RIGHT side (the hammer side). Full body always in frame from the top of the raised hammer to the soles of the feet, with generous empty space above and below. Sharp, crisp frames, fast shutter, no motion blur.\n\nSET: plain light grey studio backdrop and light grey floor, bright even soft lighting, high contrast between the dark mannequin and the background. A steel anvil on a thin metal stand, waist high, about one arm's length in front of it, not covering its legs. No sparks, no smoke, no fire, no other objects or people.\n\nACTION:\nFirst second: the figure stands still facing the camera, feet shoulder-width apart, arms held slightly out from the body.\nThen it turns to the anvil, takes a wide stable stance with the left foot slightly forward, and forges with a heavy hammer in its right hand while its left hand holds long tongs on the anvil.\nEvery strike is big, wide and powerful: it lifts the hammer high above its head and back behind its right shoulder with the arm almost fully extended, the torso leans back and twists to the right; then its whole body drives the hammer down in a large arc onto the anvil — knees bend, hips drop, torso bends forward over the anvil — a hard stop on impact, the hammer rebounds slightly, and it rises back up for the next swing.\nAll strikes are identical, in a steady slow rhythm of about one strike every 1.5 seconds. Feet stay planted, no stepping.\n\nDuration 8 seconds, realistic heavy motion with weight and momentum."
+ },
+ {
   "id": "2112295977461699019",
   "likes": 194,
   "views": null,
@@ -3188,6 +3463,28 @@
   "video": "https://media.skillry.dev/opus-5-5/melvynx-638493/original.mp4",
   "poster": "https://media.skillry.dev/opus-5-5/melvynx-638493/original.93566e677b.webp",
   "prompt": "make a dynamic 15-second motion graphics video that shows what an incredible motion designer you are for <website url>"
+ },
+ {
+  "id": "2102695787721584792",
+  "likes": 219,
+  "views": 15731,
+  "title": "Blender model from three-view drawings",
+  "author": "npaka123",
+  "url": "https://x.com/npaka123/status/2102695787721584792",
+  "video": "https://video.twimg.com/amplify_video/2102695632020586496/vid/avc1/720x900/V77YFKIaJwIPt9ct.mp4",
+  "poster": "https://pbs.twimg.com/amplify_video_thumb/2102695632020586496/img/S9SnFhScCdhlRqN4.jpg",
+  "prompt": "添付の三面図をもとに、Blender CLI/MCP を使って3Dモデルを作って\n見た目はできるだけ三面図に似せて\nテクスチャも使って"
+ },
+ {
+  "id": "2120550273810587739",
+  "likes": 211,
+  "views": 16397,
+  "title": "Vertical 2D short synced to narration",
+  "author": "CelticMatheus",
+  "url": "https://x.com/CelticMatheus/status/2120550273810587739",
+  "video": "https://video.twimg.com/amplify_video/2120550062900043776/vid/avc1/1920x1080/oo2u9qmm9pYDRrN0.mp4",
+  "poster": "https://pbs.twimg.com/amplify_video_thumb/2120550062900043776/img/oZsn2AYOv6qKiWZ5.jpg",
+  "prompt": "Nesta pasta tem uma narração: narracao.mp3 e palavras.json (o tempo de cada palavra). Faça um short animado em 2D para ela, vertical (1080x1920, 30 fps), feito inteiro por código. Capricha de verdade: seja o mais criativo que conseguir e escolha você mesmo o estilo visual. No fim, me entregue um MP4 com a narração."
  },
  {
   "id": "2104021881229869394",
@@ -3298,6 +3595,17 @@
   "video": "https://video.twimg.com/amplify_video/2102694805210099712/vid/avc1/720x1280/79kcnPqloVjJyXGn.mp4",
   "poster": "https://pbs.twimg.com/amplify_video_thumb/2102694805210099712/img/TW-FBEEGs8QuMcJi.jpg",
   "prompt": "81 years history of Indonesia in less than 1 minute\n\nI asked Claude Opus 5.5 to create the video using this simple prompt:\n\n\"Create an animation that quickly recaps the 81 years of Indonesian history. The style should be simple, lighthearted and fun, in a line drawing animation format, with suitable music and voiceover added. The video should be less than 1 minute\"\n\nThe 2nd video made with same voiceover and prompt, but I added the Tesseract cli.\n\nYou can try it yourself with your Claude!"
+ },
+ {
+  "id": "2103569043836027339",
+  "likes": 185,
+  "views": 15884,
+  "title": "90s cartoon alien in the Library of Babel",
+  "author": "jackclarkSF",
+  "url": "https://x.com/jackclarkSF/status/2103569043836027339",
+  "video": "https://video.twimg.com/amplify_video/2103568807944163329/vid/avc1/1440x1080/6nZFXcN_v2YIprUb.mp4",
+  "poster": "https://pbs.twimg.com/amplify_video_thumb/2103568807944163329/img/HISVNXOqKkwCB9H6.jpg",
+  "prompt": "Create a 90s animated video with a synthesized voice of an alien exploring Borges library of babel and attempting to use the library to understand human culture yet dealing with the impossibility inherent to the vast search space of language. The video should have a clinical and spooky vibe that gets at the vastness of the library and also the fundamental challenges in lifeforms understanding one another. As inspiration, also take a look at this old GUI from a film as well as this piranesi etching.\""
  },
  {
   "id": "2102724347446305104",
@@ -3553,6 +3861,17 @@
   "prompt": "架空の大型ロケット（2段式の液体ロケット＋固体ブースター2本、白い機体、名前なし）と\nその射点について、CAD図面と Blender 動画を作ってください。\n\n【図面】2D の DXF のみ（3Dモデルの書き出しは不要）。単位 mm、A2 の図枠と表題欄つき。\n線は青緑系の「電子の図面」風にし、プレビュー画像は濃紺の背景にする。\n1. 射点配置図 S=1:500（ロケットを原点に置き、実際の位置で描く。\n移動発射台・排煙溝・アンビリカルタワー・避雷塔・照明塔・水タンク・建屋・海岸線）\n2. 射点立面図（南から）S=1:400\n3. ロケット外形図・断面図 S=1:250\n特記事項に「架空の機体・射場のイメージで、実在の図面ではない」と書く。\n寸法は Python の形状モジュール1つで決め、図面と動画の両方がそれを読み込む。\n\n【動画】Blender（EEVEE）、1920×1080・24fps・本編20秒＋ロゴ3.5秒、音つき MP4。\n1. 暗闇の床に、シアンに光る射点配置図が中心から走査されて描かれる（真上から）\n2. 図面の線が光のワイヤーとして立ち上がる\n3. 光の粒（Geometry Nodes）が渦を巻いて昇り、発射台・タワー・ロケットが下から積み上がる\n（積み上がった高さより下だけが実体になる。カメラは寄る）\n4. 図面がマス目ごとにデジタルに溶け、夜の射点が現れる（海・丘・星空。カメラは引く）。\n照明塔が点いて白い機体が浮かび、塔の頂部の赤い灯が明滅する\n5. アクセスアームが離れる → カウントダウン → 点火 → リフトオフ。\n炎は発光する円錐、噴煙は排煙溝と発射台から湧き、上昇する機体の後ろに煙の柱が残る\n6. 上昇するロケットを海の上から見上げたところでタイトル → 最後に指定のロゴ\n音は外部素材を使わず Python で合成する\n（電子音の BGM、波、カウントダウンの電子音、点火から上昇までの轟音、タイトルの和音）。\n\n【進め方】\n- 図面のプレビュー画像を目で見て、文字の重なりを直す\n- 本番の前にテスト静止画を数枚描いて確認する（照明の明るさ、炎や光の白飛び）\n- 本番レンダーは軽い設定で、PC を休ませながら回す。始める前に所要時間を伝えて了承を取る"
  },
  {
+  "id": "2103553398738219450",
+  "likes": 186,
+  "views": 9548,
+  "title": "3b1b-style explainer of a research paper",
+  "author": "BrianCChao",
+  "url": "https://x.com/BrianCChao/status/2103553398738219450",
+  "video": "https://video.twimg.com/amplify_video/2103549121726722048/vid/avc1/1920x1080/y1bnOJj9JrTrAdd5.mp4",
+  "poster": "https://pbs.twimg.com/amplify_video_thumb/2103549121726722048/img/gMTWZSAzBeu2R0zJ.jpg",
+  "prompt": "ingest the paper PDF and use /manim to create 3b1b-style animations"
+ },
+ {
   "id": "2106843514772639995",
   "likes": 181,
   "views": 9874,
@@ -3729,6 +4048,17 @@
   "prompt": "制作一段 15 秒的动态图形视频，展示你作为动态设计师的非凡实力。"
  },
  {
+  "id": "2112268177883181480",
+  "likes": 169,
+  "views": 6783,
+  "title": "One-prompt motion studio with 15 style presets",
+  "author": "N01ennn",
+  "url": "https://x.com/N01ennn/status/2112268177883181480",
+  "video": "https://video.twimg.com/amplify_video/2112267987172364288/vid/avc1/1000x1080/hhR7iXVGYi2_RpuY.mp4",
+  "poster": "https://pbs.twimg.com/amplify_video_thumb/2112267987172364288/img/_QlUGqClmj3stOEU.jpg",
+  "prompt": "pick a style and give Claude Code a motion reference: a clip, a gif or a few frames\n> ask it to break the motion down: timing, easing, palette, signature moves\n> squeeze that into one short prompt: length, format, style, 3 moves, title, music + sfx\n> one prompt = one 10s film, visuals and sound all from code\n> repeat for all 15 styles and save every prompt as a reusable preset\n> put them on one loop: every style gets a live tile, a preview and a copy button\n\nnow you don't start from a blank timeline. you pick a style, copy the prompt, swap the title, render"
+ },
+ {
   "id": "2111678979413598560",
   "likes": 151,
   "views": 7679,
@@ -3782,6 +4112,17 @@
   "video": "https://media.skillry.dev/opus-5-5/viktoroddy-402509/original.mp4",
   "poster": "https://media.skillry.dev/opus-5-5/viktoroddy-402509/original.31093e9638.webp",
   "prompt": "Create a launch video for MotionSites AI, just hit 1 million monthly visitors after 8 months after launch."
+ },
+ {
+  "id": "2114010526007140408",
+  "likes": 158,
+  "views": 5710,
+  "title": "Interactive 3D physics book on energy",
+  "author": "Jomolos",
+  "url": "https://x.com/Jomolos/status/2114010526007140408",
+  "video": "https://video.twimg.com/amplify_video/2113995204604604418/vid/avc1/1280x842/Ee8Lsc42mfmSht4J.mp4",
+  "poster": "https://pbs.twimg.com/amplify_video_thumb/2113995204604604418/img/bKo0EMV-lvu4xK4E.jpg",
+  "prompt": "Education doesn’t have to be text and flat diagrams. So I’m building a 3D book about energy that students can play with: 10 lessons to predict, test and prove. Built with Opus 5.5 and Three.js.\n\nTry Lesson 1, Energy stores: everyday objects and where their energy is kept ↓ https://t.co/S4KZy8bv6v"
  },
  {
   "id": "2104659402007703925",

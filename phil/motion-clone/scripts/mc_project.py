@@ -1,14 +1,12 @@
 #!/usr/bin/env python3
-"""mc_project.py WORKDIR [--no-audio]
-Merge WORKDIR/scene-XX/layers.json into WORKDIR/rebuild/ (editable HTML project:
-project.json + renderer.js + index.html, HyperFrames/GSAP-compatible)."""
+"""mc_project.py WORKDIR [--no-audio]  — merge scene layers into WORKDIR/rebuild/"""
 import argparse, json, re, shutil, subprocess, sys
 from pathlib import Path
 SAFE = {'color','background','backgroundColor','backgroundImage','backgroundSize','backgroundPosition','backgroundRepeat',
  'border','borderTop','borderRight','borderBottom','borderLeft','borderRadius','boxShadow','textShadow','fontFamily','fontSize',
  'fontWeight','fontStyle','textAlign','lineHeight','letterSpacing','whiteSpace','transformOrigin','filter','clipPath','maskImage',
  'fill','stroke','strokeWidth','strokeLinecap','strokeLinejoin','strokeDasharray','strokeDashoffset','opacity','padding','overflow',
- 'display','alignItems','justifyContent','mixBlendMode','textTransform','backdropFilter','WebkitBackgroundClip','WebkitTextFillColor'}
+ 'display','alignItems','justifyContent','mixBlendMode','textTransform','backdropFilter','WebkitBackgroundClip','WebkitTextFillColor','fontStretch','fontVariationSettings','outline','outlineOffset'}
 KINDS = {'text','rect','ellipse','path','group'}
 def check(scene, si, s0, s1):
     errs=[]; seen={}
@@ -63,5 +61,5 @@ if m['audio'] and not a.no_audio:
 <script>buildProject();</script></body></html>''')
 (R/'package.json').write_text(json.dumps({'private':True,'dependencies':{'hyperframes':'0.8.33','gsap':'3.14.2'},
  'scripts':{'sync':'node sync-project.cjs','preview':'npm run sync && hyperframes preview','render':'npm run sync && hyperframes render --quality high --output output.mp4'}}, indent=2))
-(R/'README.md').write_text('# Editable motion rebuild\n\nEdit `project.json` (layers: id, kind text|rect|ellipse|path|group, parent, text, path, style, start, end, frames[t,x,y,w,h,opacity,rotation,reveal,ease]).\nRun `node sync-project.cjs`, then open index.html (`?t=2.5` freezes a time, `?play` plays) or `npm i && npm run render` with HyperFrames.\n\n'+'\n'.join('- '+n for n in notes)+'\n')
+(R/'README.md').write_text('# Editable motion rebuild\n\nEdit `project.json`, run `node sync-project.cjs`, then open index.html (`?t=2.5` freezes, `?play` plays) or `npm i && npm run render` (HyperFrames).\n\n'+'\n'.join('- '+n for n in notes)+'\n')
 print(f'{len(layers)} layers -> {R}')

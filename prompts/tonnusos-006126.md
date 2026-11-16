@@ -1,6 +1,6 @@
 # Spell-casting action game
 
-**#619 by popularity** · ♥ 5 · by [@tonnusos](https://x.com/tonnusos) · [Original post](https://x.com/tonnusos/status/2104209760388006126) · [Watch the video](https://media.skillry.dev/opus-5-5/tonnusos-006126/original.mp4)
+**#650 by popularity** · ♥ 5 · by [@tonnusos](https://x.com/tonnusos) · [Original post](https://x.com/tonnusos/status/2104209760388006126) · [Watch the video](https://media.skillry.dev/opus-5-5/tonnusos-006126/original.mp4)
 
 [![Spell-casting action game](https://media.skillry.dev/opus-5-5/tonnusos-006126/original.34fc397d7a.webp)](https://x.com/tonnusos/status/2104209760388006126)
 

@@ -1,6 +1,6 @@
 # Moroccan politics since independence
 
-**#481 by popularity** · ♥ 17 · by [@TrigLyceee](https://x.com/TrigLyceee) · [Original post](https://x.com/TrigLyceee/status/2103804459986161719) · [Watch the video](https://media.skillry.dev/opus-5-5/triglyceee-161719/original.mp4)
+**#512 by popularity** · ♥ 17 · by [@TrigLyceee](https://x.com/TrigLyceee) · [Original post](https://x.com/TrigLyceee/status/2103804459986161719) · [Watch the video](https://media.skillry.dev/opus-5-5/triglyceee-161719/original.mp4)
 
 [![Moroccan politics since independence](https://media.skillry.dev/opus-5-5/triglyceee-161719/original.cb9a4b70ca.webp)](https://x.com/TrigLyceee/status/2103804459986161719)
 

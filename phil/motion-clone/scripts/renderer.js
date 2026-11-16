@@ -20,7 +20,7 @@ function draw(t){for(const [el,l] of items){const on=t>=l.start&&t<l.end;el.styl
  Object.assign(el.style,{left:v('x')+'px',top:v('y')+'px',width:(g?base.w:w)+'px',height:(g?base.h:h)+'px',
   opacity:v('opacity')*Number(l.style.opacity??1),transformOrigin:g?'0 0':(l.style.transformOrigin||'center'),
   transform:'rotate('+v('rotation')+'deg)'+(g?' scale('+(w/base.w)+','+(h/base.h)+')':'')});
- if(l.kind==='text'){const r=v('reveal');el.textContent=r>=1?l.text:l.text.slice(0,Math.ceil(l.text.length*r));}
+ if(l.kind==='text'){let s=l.text;if(l.texts){for(const [tt,ss] of l.texts){if(tt<=t)s=ss;else break;}}const r=v('reveal');const o=r>=1?s:s.slice(0,Math.floor(s.length*r+1e-4));if(el.__t!==o){el.textContent=o;el.__t=o;}}
 }}
 window.drawFrame=draw;draw(0);
 const qs=new URLSearchParams(location.search);if(qs.has('t'))draw(+qs.get('t'));

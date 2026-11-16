@@ -1,6 +1,8 @@
 # Motion Clone
 
-An agent skill that rebuilds a reference motion-graphics clip as an **editable code project**: HTML layers with keyframes, GSAP/HyperFrames-compatible. It then compares the rebuild with the original frame by frame and renders it out, along with a side-by-side REFERENCE | REBUILD video.
+An agent skill that rebuilds a reference motion-graphics clip as an **editable code project** (HTML layers with keyframes, GSAP/HyperFrames-compatible) or as an **After Effects project** with named, editable layers. It compares the rebuild with the original frame by frame and renders a side-by-side REFERENCE | REBUILD video.
+
+Updated 16 Nov 2026: an After Effects export, a route for illustrated films (constructed shapes, exact colours, riso texture) and a list of rules learned from rejected clones and logo animations.
 
 The agent does the looking itself, so there are no accounts or API keys. It scans every frame for cuts and motion, samples the frames that matter, and measures geometry, colours and timing with code. Type is matched to installed fonts and solid glyphs are traced into vector paths. A bounded fix loop is scored with RGB-SSIM.
 
@@ -11,7 +13,7 @@ https://github.com/framevoid1312/motion-shelf/raw/main/phil/motion-clone/motion-
 | File | |
 |---|---|
 | [`SKILL.md`](SKILL.md) | The skill, self-contained (tool scripts embedded) |
-| [`scripts/`](scripts) | The same five tools as separate files: scan, project builder, renderer, compare, render |
+| [`scripts/`](scripts) | The same tools as separate files: scan, project builder, renderer, compare, render, After Effects builder (`mc_ae.py`), arc fitting and riso rendering for illustrated films |
 | [`demo/project/`](demo/project) | The demo's editable project. Open `index.html?play` in a browser, or `npm i && npm run render` with HyperFrames |
 | [`demo/author.py`](demo/author.py) | The generator that wrote the demo's layers from the measurements |
 

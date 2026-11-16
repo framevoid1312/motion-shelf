@@ -1,6 +1,6 @@
 # Annecy as a playable 3D boat journey
 
-**#332 by popularity** · ♥ 187 · 7,274 views · by [@techartist_](https://x.com/techartist_) · [Original post](https://x.com/techartist_/status/2103933640392786274) · [Watch the video](https://media.skillry.dev/opus-5-5/techartist-786274/original.mp4)
+**#361 by popularity** · ♥ 187 · 7,274 views · by [@techartist_](https://x.com/techartist_) · [Original post](https://x.com/techartist_/status/2103933640392786274) · [Watch the video](https://media.skillry.dev/opus-5-5/techartist-786274/original.mp4)
 
 [![Annecy as a playable 3D boat journey](https://media.skillry.dev/opus-5-5/techartist-786274/original.701c9b781e.webp)](https://x.com/techartist_/status/2103933640392786274)
 

@@ -1,6 +1,6 @@
 # Five Gmail features, built from a skill
 
-**#293 by popularity** · ♥ 176 · 19,788 views · by [@ClaudeCode_UT](https://x.com/ClaudeCode_UT) · [Original post](https://x.com/ClaudeCode_UT/status/2106958663525314769) · [Watch the video](https://video.twimg.com/amplify_video/2106958623276711936/vid/avc1/1280x720/G8NfMt4SBzne-28k.mp4?tag=16)
+**#320 by popularity** · ♥ 176 · 19,788 views · by [@ClaudeCode_UT](https://x.com/ClaudeCode_UT) · [Original post](https://x.com/ClaudeCode_UT/status/2106958663525314769) · [Watch the video](https://video.twimg.com/amplify_video/2106958623276711936/vid/avc1/1280x720/G8NfMt4SBzne-28k.mp4?tag=16)
 
 [![Five Gmail features, built from a skill](https://media.skillry.dev/opus-5-5/_prompts/claudecode-ut-314769/poster.ce21da414d.webp)](https://x.com/ClaudeCode_UT/status/2106958663525314769)
 

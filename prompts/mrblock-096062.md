@@ -1,6 +1,6 @@
 # Weekend game-making with Opus 5.5
 
-**#482 by popularity** · ♥ 17 · by [@mrblock](https://x.com/mrblock) · [Original post](https://x.com/mrblock/status/2103492984474096062) · [Watch the video](https://media.skillry.dev/opus-5-5/mrblock-096062/original.mp4)
+**#513 by popularity** · ♥ 17 · by [@mrblock](https://x.com/mrblock) · [Original post](https://x.com/mrblock/status/2103492984474096062) · [Watch the video](https://media.skillry.dev/opus-5-5/mrblock-096062/original.mp4)
 
 [![Weekend game-making with Opus 5.5](https://media.skillry.dev/opus-5-5/mrblock-096062/original.95806622a9.webp)](https://x.com/mrblock/status/2103492984474096062)
 

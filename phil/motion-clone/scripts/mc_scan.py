@@ -1,7 +1,5 @@
 #!/usr/bin/env python3
-"""mc_scan.py SOURCE WORKDIR [--budget 192|384] [--scene 6]
-Normalize the reference, scan every frame for motion/cuts, split into scenes
-(boundaries snapped to cuts) and export the frames Claude should look at."""
+"""mc_scan.py SOURCE WORKDIR [--budget 192|384] [--scene 6]"""
 import argparse, json, math, subprocess, sys
 from pathlib import Path
 import cv2, numpy as np
@@ -26,8 +24,6 @@ subprocess.run(['ffmpeg','-y','-v','error','-i',a.source,'-map','0:v:0','-map','
   '-r',str(fps),'-fps_mode','cfr','-c:v','libx264','-preset','veryfast','-crf','16','-pix_fmt','yuv420p',
   '-c:a','aac','-movflags','+faststart',str(src)], check=True)
 meta = probe(src)
-
-# 1. scan every frame at 160px; record change score and hard "visual jumps" (cuts/flashes)
 cap = cv2.VideoCapture(str(src)); prev=None; changes=[]; jumps=[]; i=0
 while True:
     ok, f = cap.read()
@@ -38,7 +34,6 @@ while True:
         if sc > .22 and float((d.mean(axis=2) > .12).mean()) > .60: jumps.append(i)
     prev = s; i += 1
 cap.release(); count = i; fps = meta['fps']
-# 2. global sample set: even spread + jump neighbours + highest-change frames
 budget = a.budget
 k = min(budget//2, max(16, math.ceil(meta['duration']*(6 if budget > 192 else 4))))
 samples = {round(j*(count-1)/max(1,k-1)) for j in range(k)}
@@ -49,7 +44,6 @@ for sc, n in sorted(changes, reverse=True):
 for sc, n in sorted(changes, reverse=True):
     if sc < .012 or len(samples) >= budget: break
     if all(abs(n-x) > 2 for x in samples): samples.add(n)
-# 3. scenes of ~N s, end snapped to a late cut inside the window
 width = max(1, round(a.scene*fps)); scenes=[]; st=0
 while st < count:
     en = min(count, st+width)
@@ -57,7 +51,6 @@ while st < count:
         near = [n for n in jumps if st+width*.65 <= n <= en]
         if near: en = max(near)
     scenes.append((st, en)); st = en
-# 4. per-scene picks: endpoints, jumps (+/-1), then spread
 def pick(st, en, limit):
     limit = min(limit, en-st); sel = {st} | ({en-1} if limit > 1 else set())
     js = [n for n in jumps if st <= n < en]

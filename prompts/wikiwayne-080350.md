@@ -1,6 +1,6 @@
 # Looping claymation desk scene, rebuilt
 
-**#670 by popularity** · ♥ 4 · by [@wikiwayne](https://x.com/wikiwayne) · [Original post](https://x.com/wikiwayne/status/2108025937212080350) · [Watch the video](https://video.twimg.com/amplify_video/2108025892870000640/vid/avc1/1280x720/OBMftfl1x0fMT_nA.mp4)
+**#701 by popularity** · ♥ 4 · by [@wikiwayne](https://x.com/wikiwayne) · [Original post](https://x.com/wikiwayne/status/2108025937212080350) · [Watch the video](https://video.twimg.com/amplify_video/2108025892870000640/vid/avc1/1280x720/OBMftfl1x0fMT_nA.mp4)
 
 [![Looping claymation desk scene, rebuilt](https://media.skillry.dev/opus-5-5/_prompts/wikiwayne-080350/poster.e5ccf6c2a8.webp)](https://x.com/wikiwayne/status/2108025937212080350)
 

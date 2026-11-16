@@ -1,13 +1,11 @@
 #!/usr/bin/env python3
-"""mc_compare.py WORKDIR [--scenes 0,2] [--tag preview]
-Draw the rebuild at the scene's sampled frames, score RGB-SSIM against the
-reference, write side-by-side sheets (scene-XX/<tag>.jpg) and print scores."""
+"""mc_compare.py WORKDIR [--scenes 0,2] [--tag preview]"""
 import argparse, io, json
 from pathlib import Path
 import cv2, numpy as np
 from PIL import Image, ImageDraw
 from playwright.sync_api import sync_playwright
-def ssim(a, b):
+def ssim(a, b):  # per RGB channel: grayscale can score a wrong palette as perfect
     a=a.astype(np.float32); b=b.astype(np.float32); G=lambda x: cv2.GaussianBlur(x,(11,11),1.5)
     u,v=G(a),G(b); aa=G(a*a)-u*u; bb=G(b*b)-v*v; ab=G(a*b)-u*v
     return float((((2*u*v+6.5025)*(2*ab+58.5225))/((u*u+v*v+6.5025)*(aa+bb+58.5225))).mean())

@@ -1,6 +1,6 @@
 # 20-second email tool promo
 
-**#682 by popularity** · ♥ 3 · by [@KmAsiff](https://x.com/KmAsiff) · [Original post](https://x.com/KmAsiff/status/2103810247131549880) · [Watch the video](https://media.skillry.dev/opus-5-5/kmasiff-549880/original.mp4)
+**#713 by popularity** · ♥ 3 · by [@KmAsiff](https://x.com/KmAsiff) · [Original post](https://x.com/KmAsiff/status/2103810247131549880) · [Watch the video](https://media.skillry.dev/opus-5-5/kmasiff-549880/original.mp4)
 
 [![20-second email tool promo](https://media.skillry.dev/opus-5-5/kmasiff-549880/original.cedac90f16.webp)](https://x.com/KmAsiff/status/2103810247131549880)
 
