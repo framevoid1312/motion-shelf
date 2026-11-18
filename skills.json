@@ -1,5 +1,169 @@
 [
  {
+  "kind": "blender to seedance",
+  "name": "Blender MCP",
+  "what": "The bridge: connects Claude to a running Blender so it can model, light, animate and render a scene from a conversation. Install this first.",
+  "tags": [
+   "MIT",
+   "ahujasid/blender-mcp"
+  ],
+  "links": {
+   "On GitHub": "https://github.com/ahujasid/blender-mcp"
+  }
+ },
+ {
+  "kind": "blender to seedance",
+  "name": "Claude Blender Skills",
+  "what": "Realistic Blender animations as skills, each the full workflow and real scripts behind one of the author’s YouTube shots: an FPV drone through a night forest, a car film, a clay-to-final render.",
+  "tags": [
+   "MIT",
+   "mromidev/claude-blender-skills"
+  ],
+  "links": {
+   "On GitHub": "https://github.com/mromidev/claude-blender-skills",
+   "SKILL.md": "https://github.com/mromidev/claude-blender-skills/blob/main/skills/blender-film/SKILL.md"
+  }
+ },
+ {
+  "kind": "blender to seedance",
+  "name": "Blender Education Video",
+  "what": "Fact-checked cinematic explainers built in Blender: brief, research, shot design, build, narration and a 4K render. Demos include the inside of an NVIDIA H100 and blood flow through a heart.",
+  "tags": [
+   "MIT",
+   "sunxiayi/make-blender-education-video-skill"
+  ],
+  "links": {
+   "On GitHub": "https://github.com/sunxiayi/make-blender-education-video-skill",
+   "SKILL.md": "https://github.com/sunxiayi/make-blender-education-video-skill/blob/main/skills/make-blender-education-video/SKILL.md"
+  }
+ },
+ {
+  "kind": "blender to seedance",
+  "name": "Mixamo LLM Mocap",
+  "what": "Turns any locked-camera video, filmed or AI-generated, into clean keyframes on a Mixamo character in Blender, for one performer or two fighting. No mocap suit.",
+  "tags": [
+   "MIT",
+   "squall01337/mixamo-llm-mocap"
+  ],
+  "links": {
+   "On GitHub": "https://github.com/squall01337/mixamo-llm-mocap"
+  }
+ },
+ {
+  "kind": "blender to seedance",
+  "name": "make-short",
+  "what": "Animated Shorts with 2D cartoon characters in a 3D Blender world, voice, captions and sound, then scored by a fresh critic agent that tells you what to fix.",
+  "tags": [
+   "MIT",
+   "nocodehack/make-short"
+  ],
+  "links": {
+   "On GitHub": "https://github.com/nocodehack/make-short",
+   "SKILL.md": "https://github.com/nocodehack/make-short/blob/master/SKILL.md"
+  }
+ },
+ {
+  "kind": "blender to seedance",
+  "name": "Toon Studio",
+  "what": "An idea or your own script in, a 9:16 cartoon short out, built and rendered in Blender by Claude Code with ready-made sets, props and crowds.",
+  "tags": [
+   "MIT",
+   "BetaVersionHQ/beta-version-toon-studio"
+  ],
+  "links": {
+   "On GitHub": "https://github.com/BetaVersionHQ/beta-version-toon-studio",
+   "SKILL.md": "https://github.com/BetaVersionHQ/beta-version-toon-studio/blob/main/skill/SKILL.md"
+  }
+ },
+ {
+  "kind": "blender to seedance",
+  "name": "Blox Studio",
+  "what": "The same idea-to-short pipeline in a blocky 3D look, with PBR textures and a 9:16 Blender render.",
+  "tags": [
+   "MIT",
+   "BetaVersionHQ/beta-version-blox-studio"
+  ],
+  "links": {
+   "On GitHub": "https://github.com/BetaVersionHQ/beta-version-blox-studio",
+   "SKILL.md": "https://github.com/BetaVersionHQ/beta-version-blox-studio/blob/main/skill/SKILL.md"
+  }
+ },
+ {
+  "kind": "blender to seedance",
+  "name": "Molecular Animation",
+  "what": "Scientific protein and molecule films in Blender 5.2 from real PDB, mmCIF or AlphaFold structures: scripted scenes, takes and labelled MP4s with posters.",
+  "tags": [
+   "Apache-2.0",
+   "AmadeusBio-ai/Molecular_Animation"
+  ],
+  "links": {
+   "On GitHub": "https://github.com/AmadeusBio-ai/Molecular_Animation",
+   "SKILL.md": "https://github.com/AmadeusBio-ai/Molecular_Animation/blob/main/.claude/skills/new-film/SKILL.md"
+  }
+ },
+ {
+  "kind": "blender to seedance",
+  "name": "Music Videos Made with Claude",
+  "what": "Full music videos rendered from code by Claude agents, including a Blender tabletop miniature, with every plan, engine and scene needed to render them again.",
+  "tags": [
+   "MIT",
+   "IdkwhatImD0ing/claude-music-videos"
+  ],
+  "links": {
+   "On GitHub": "https://github.com/IdkwhatImD0ing/claude-music-videos"
+  }
+ },
+ {
+  "kind": "blender to seedance",
+  "name": "Renku Studio",
+  "what": "A local film studio you direct through Claude Code or Codex: screenplay, cast, locations, shot plans, Blender previs and generated footage kept in one project.",
+  "tags": [
+   "AGPL-3.0",
+   "GoRenku/studio"
+  ],
+  "links": {
+   "On GitHub": "https://github.com/GoRenku/studio"
+  }
+ },
+ {
+  "kind": "blender to seedance",
+  "name": "Zack D Films Generator",
+  "what": "Topic in, 3D animated short out in the Zack D Films style: a curiosity-loop script, character sheets, 3D keyframes, then AI video for the motion.",
+  "tags": [
+   "no licence stated",
+   "Anil-matcha/zack-d-films-ai-video-generator"
+  ],
+  "links": {
+   "On GitHub": "https://github.com/Anil-matcha/zack-d-films-ai-video-generator"
+  }
+ },
+ {
+  "kind": "blender to seedance",
+  "name": "Seedance 2.0 Skill OS",
+  "what": "Turns an idea into a directed Seedance prompt: shot planning, binding references to roles, camera language, style, and continuing from a take you accepted.",
+  "tags": [
+   "MIT",
+   "Emily2040/seedance-2.0"
+  ],
+  "links": {
+   "On GitHub": "https://github.com/Emily2040/seedance-2.0",
+   "SKILL.md": "https://github.com/Emily2040/seedance-2.0/blob/main/SKILL.md"
+  }
+ },
+ {
+  "kind": "blender to seedance",
+  "name": "Seedance 2.0 Prompt Writing",
+  "what": "Prompt-writing skill for Seedance 2.0: input limits, @ reference syntax, camera language, prompt patterns and templates for ads, dramas, music videos and lessons.",
+  "tags": [
+   "MIT",
+   "dexhunter/seedance2-skill"
+  ],
+  "links": {
+   "On GitHub": "https://github.com/dexhunter/seedance2-skill",
+   "SKILL.md": "https://github.com/dexhunter/seedance2-skill/blob/main/SKILL.md"
+  }
+ },
+ {
   "kind": "skill repo",
   "name": "OpenMontage",
   "what": "Turns a coding agent into a full video studio: research, script, assets, editing and final composition through 12 production pipelines and hundreds of agent skills.",
