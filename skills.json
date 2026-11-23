@@ -164,6 +164,606 @@
   }
  },
  {
+  "kind": "ui motion",
+  "name": "Thinking sphere",
+  "what": "A dot sphere that breathes while the AI thinks, then bursts into the answer. Drag to spin it.",
+  "tags": [
+   "AI",
+   "Loader",
+   "DesignBookmark"
+  ],
+  "links": {
+   "Try it live": "https://designbookmark.com/motion#db-thinking-sphere",
+   "Code": "https://designbookmark.com/motion-src/thinking-sphere/index.html"
+  },
+  "prompt": "Add the \"Thinking sphere\" animated component to my project.\n\nHow it should look and move: https://designbookmark.com/motion#db-thinking-sphere\nCode: https://designbookmark.com/motion-src/thinking-sphere/index.html, with the CSS and JS files next to it and the shared springs in https://designbookmark.com/motion-src/shared/ (tokens.css, base.css, motion.js). It is plain HTML, CSS and JavaScript with no dependencies.\n\n1. Read those files first, then look at my project.\n2. Rebuild the component with what my project already uses (React, Vue, Svelte, SwiftUI or plain HTML). Keep the springs: the same stiffness and damping values from tokens.css, so it moves the same way.\n3. Use my colors, fonts and corner radius, and write real text for my product in place of the demo text.\n4. If I did not say where it goes, ask me before you add it to a page.\n5. Run the project, check that it works, then tell me in simple words where to see it."
+ },
+ {
+  "kind": "ui motion",
+  "name": "Cookie bite",
+  "what": "A cookie banner that takes a bite out of itself when you accept.",
+  "tags": [
+   "Overlays",
+   "Consent",
+   "DesignBookmark"
+  ],
+  "links": {
+   "Try it live": "https://designbookmark.com/motion#db-cookie-bite",
+   "Code": "https://designbookmark.com/motion-src/cookie-bite/index.html"
+  },
+  "prompt": "Add the \"Cookie bite\" animated component to my project.\n\nHow it should look and move: https://designbookmark.com/motion#db-cookie-bite\nCode: https://designbookmark.com/motion-src/cookie-bite/index.html, with the CSS and JS files next to it and the shared springs in https://designbookmark.com/motion-src/shared/ (tokens.css, base.css, motion.js). It is plain HTML, CSS and JavaScript with no dependencies.\n\n1. Read those files first, then look at my project.\n2. Rebuild the component with what my project already uses (React, Vue, Svelte, SwiftUI or plain HTML). Keep the springs: the same stiffness and damping values from tokens.css, so it moves the same way.\n3. Use my colors, fonts and corner radius, and write real text for my product in place of the demo text.\n4. If I did not say where it goes, ask me before you add it to a page.\n5. Run the project, check that it works, then tell me in simple words where to see it."
+ },
+ {
+  "kind": "ui motion",
+  "name": "Storage meter",
+  "what": "A storage bar whose segments spring apart and reflow as you free space.",
+  "tags": [
+   "Cards",
+   "Storage",
+   "DesignBookmark"
+  ],
+  "links": {
+   "Try it live": "https://designbookmark.com/motion#db-storage-meter",
+   "Code": "https://designbookmark.com/motion-src/storage-meter/index.html"
+  },
+  "prompt": "Add the \"Storage meter\" animated component to my project.\n\nHow it should look and move: https://designbookmark.com/motion#db-storage-meter\nCode: https://designbookmark.com/motion-src/storage-meter/index.html, with the CSS and JS files next to it and the shared springs in https://designbookmark.com/motion-src/shared/ (tokens.css, base.css, motion.js). It is plain HTML, CSS and JavaScript with no dependencies.\n\n1. Read those files first, then look at my project.\n2. Rebuild the component with what my project already uses (React, Vue, Svelte, SwiftUI or plain HTML). Keep the springs: the same stiffness and damping values from tokens.css, so it moves the same way.\n3. Use my colors, fonts and corner radius, and write real text for my product in place of the demo text.\n4. If I did not say where it goes, ask me before you add it to a page.\n5. Run the project, check that it works, then tell me in simple words where to see it."
+ },
+ {
+  "kind": "ui motion",
+  "name": "Mention picker",
+  "what": "Type @ and a people list springs open under the caret.",
+  "tags": [
+   "Inputs",
+   "Mention",
+   "DesignBookmark"
+  ],
+  "links": {
+   "Try it live": "https://designbookmark.com/motion#db-mention-picker",
+   "Code": "https://designbookmark.com/motion-src/mention-picker/index.html"
+  },
+  "prompt": "Add the \"Mention picker\" animated component to my project.\n\nHow it should look and move: https://designbookmark.com/motion#db-mention-picker\nCode: https://designbookmark.com/motion-src/mention-picker/index.html, with the CSS and JS files next to it and the shared springs in https://designbookmark.com/motion-src/shared/ (tokens.css, base.css, motion.js). It is plain HTML, CSS and JavaScript with no dependencies.\n\n1. Read those files first, then look at my project.\n2. Rebuild the component with what my project already uses (React, Vue, Svelte, SwiftUI or plain HTML). Keep the springs: the same stiffness and damping values from tokens.css, so it moves the same way.\n3. Use my colors, fonts and corner radius, and write real text for my product in place of the demo text.\n4. If I did not say where it goes, ask me before you add it to a page.\n5. Run the project, check that it works, then tell me in simple words where to see it."
+ },
+ {
+  "kind": "ui motion",
+  "name": "Invite people",
+  "what": "Add an email and its avatar drops into the stack with a bounce.",
+  "tags": [
+   "Inputs",
+   "Invite",
+   "DesignBookmark"
+  ],
+  "links": {
+   "Try it live": "https://designbookmark.com/motion#db-invite-people",
+   "Code": "https://designbookmark.com/motion-src/invite-people/index.html"
+  },
+  "prompt": "Add the \"Invite people\" animated component to my project.\n\nHow it should look and move: https://designbookmark.com/motion#db-invite-people\nCode: https://designbookmark.com/motion-src/invite-people/index.html, with the CSS and JS files next to it and the shared springs in https://designbookmark.com/motion-src/shared/ (tokens.css, base.css, motion.js). It is plain HTML, CSS and JavaScript with no dependencies.\n\n1. Read those files first, then look at my project.\n2. Rebuild the component with what my project already uses (React, Vue, Svelte, SwiftUI or plain HTML). Keep the springs: the same stiffness and damping values from tokens.css, so it moves the same way.\n3. Use my colors, fonts and corner radius, and write real text for my product in place of the demo text.\n4. If I did not say where it goes, ask me before you add it to a page.\n5. Run the project, check that it works, then tell me in simple words where to see it."
+ },
+ {
+  "kind": "ui motion",
+  "name": "Focus mode",
+  "what": "Turn on Focus and the notification cards fold away into a pill.",
+  "tags": [
+   "Notifications",
+   "Focus",
+   "DesignBookmark"
+  ],
+  "links": {
+   "Try it live": "https://designbookmark.com/motion#db-focus-mode",
+   "Code": "https://designbookmark.com/motion-src/focus-mode/index.html"
+  },
+  "prompt": "Add the \"Focus mode\" animated component to my project.\n\nHow it should look and move: https://designbookmark.com/motion#db-focus-mode\nCode: https://designbookmark.com/motion-src/focus-mode/index.html, with the CSS and JS files next to it and the shared springs in https://designbookmark.com/motion-src/shared/ (tokens.css, base.css, motion.js). It is plain HTML, CSS and JavaScript with no dependencies.\n\n1. Read those files first, then look at my project.\n2. Rebuild the component with what my project already uses (React, Vue, Svelte, SwiftUI or plain HTML). Keep the springs: the same stiffness and damping values from tokens.css, so it moves the same way.\n3. Use my colors, fonts and corner radius, and write real text for my product in place of the demo text.\n4. If I did not say where it goes, ask me before you add it to a page.\n5. Run the project, check that it works, then tell me in simple words where to see it."
+ },
+ {
+  "kind": "ui motion",
+  "name": "Plan switch",
+  "what": "Monthly / yearly toggle where the price rolls digit by digit.",
+  "tags": [
+   "Cards",
+   "Pricing",
+   "DesignBookmark"
+  ],
+  "links": {
+   "Try it live": "https://designbookmark.com/motion#db-plan-switch",
+   "Code": "https://designbookmark.com/motion-src/plan-switch/index.html"
+  },
+  "prompt": "Add the \"Plan switch\" animated component to my project.\n\nHow it should look and move: https://designbookmark.com/motion#db-plan-switch\nCode: https://designbookmark.com/motion-src/plan-switch/index.html, with the CSS and JS files next to it and the shared springs in https://designbookmark.com/motion-src/shared/ (tokens.css, base.css, motion.js). It is plain HTML, CSS and JavaScript with no dependencies.\n\n1. Read those files first, then look at my project.\n2. Rebuild the component with what my project already uses (React, Vue, Svelte, SwiftUI or plain HTML). Keep the springs: the same stiffness and damping values from tokens.css, so it moves the same way.\n3. Use my colors, fonts and corner radius, and write real text for my product in place of the demo text.\n4. If I did not say where it goes, ask me before you add it to a page.\n5. Run the project, check that it works, then tell me in simple words where to see it."
+ },
+ {
+  "kind": "ui motion",
+  "name": "Pull cord",
+  "what": "Pull the lamp cord to switch the whole page between light and dark.",
+  "tags": [
+   "Buttons",
+   "Switch",
+   "DesignBookmark"
+  ],
+  "links": {
+   "Try it live": "https://designbookmark.com/motion#db-pull-cord",
+   "Code": "https://designbookmark.com/motion-src/pull-cord/index.html"
+  },
+  "prompt": "Add the \"Pull cord\" animated component to my project.\n\nHow it should look and move: https://designbookmark.com/motion#db-pull-cord\nCode: https://designbookmark.com/motion-src/pull-cord/index.html, with the CSS and JS files next to it and the shared springs in https://designbookmark.com/motion-src/shared/ (tokens.css, base.css, motion.js). It is plain HTML, CSS and JavaScript with no dependencies.\n\n1. Read those files first, then look at my project.\n2. Rebuild the component with what my project already uses (React, Vue, Svelte, SwiftUI or plain HTML). Keep the springs: the same stiffness and damping values from tokens.css, so it moves the same way.\n3. Use my colors, fonts and corner radius, and write real text for my product in place of the demo text.\n4. If I did not say where it goes, ask me before you add it to a page.\n5. Run the project, check that it works, then tell me in simple words where to see it."
+ },
+ {
+  "kind": "ui motion",
+  "name": "Morph tooltip",
+  "what": "One tooltip that morphs in size and position as you move along a toolbar.",
+  "tags": [
+   "Overlay",
+   "Tooltip",
+   "DesignBookmark"
+  ],
+  "links": {
+   "Try it live": "https://designbookmark.com/motion#db-morph-tooltip",
+   "Code": "https://designbookmark.com/motion-src/morph-tooltip/index.html"
+  },
+  "prompt": "Add the \"Morph tooltip\" animated component to my project.\n\nHow it should look and move: https://designbookmark.com/motion#db-morph-tooltip\nCode: https://designbookmark.com/motion-src/morph-tooltip/index.html, with the CSS and JS files next to it and the shared springs in https://designbookmark.com/motion-src/shared/ (tokens.css, base.css, motion.js). It is plain HTML, CSS and JavaScript with no dependencies.\n\n1. Read those files first, then look at my project.\n2. Rebuild the component with what my project already uses (React, Vue, Svelte, SwiftUI or plain HTML). Keep the springs: the same stiffness and damping values from tokens.css, so it moves the same way.\n3. Use my colors, fonts and corner radius, and write real text for my product in place of the demo text.\n4. If I did not say where it goes, ask me before you add it to a page.\n5. Run the project, check that it works, then tell me in simple words where to see it."
+ },
+ {
+  "kind": "ui motion",
+  "name": "Spring dropdown",
+  "what": "A status dropdown that springs open and squashes as it settles.",
+  "tags": [
+   "Inputs",
+   "Dropdown",
+   "DesignBookmark"
+  ],
+  "links": {
+   "Try it live": "https://designbookmark.com/motion#db-spring-dropdown",
+   "Code": "https://designbookmark.com/motion-src/spring-dropdown/index.html"
+  },
+  "prompt": "Add the \"Spring dropdown\" animated component to my project.\n\nHow it should look and move: https://designbookmark.com/motion#db-spring-dropdown\nCode: https://designbookmark.com/motion-src/spring-dropdown/index.html, with the CSS and JS files next to it and the shared springs in https://designbookmark.com/motion-src/shared/ (tokens.css, base.css, motion.js). It is plain HTML, CSS and JavaScript with no dependencies.\n\n1. Read those files first, then look at my project.\n2. Rebuild the component with what my project already uses (React, Vue, Svelte, SwiftUI or plain HTML). Keep the springs: the same stiffness and damping values from tokens.css, so it moves the same way.\n3. Use my colors, fonts and corner radius, and write real text for my product in place of the demo text.\n4. If I did not say where it goes, ask me before you add it to a page.\n5. Run the project, check that it works, then tell me in simple words where to see it."
+ },
+ {
+  "kind": "ui motion",
+  "name": "File drop",
+  "what": "Drop a file: the zone turns into a progress ring, then a check.",
+  "tags": [
+   "Inputs",
+   "Upload",
+   "DesignBookmark"
+  ],
+  "links": {
+   "Try it live": "https://designbookmark.com/motion#db-file-drop",
+   "Code": "https://designbookmark.com/motion-src/file-drop/index.html"
+  },
+  "prompt": "Add the \"File drop\" animated component to my project.\n\nHow it should look and move: https://designbookmark.com/motion#db-file-drop\nCode: https://designbookmark.com/motion-src/file-drop/index.html, with the CSS and JS files next to it and the shared springs in https://designbookmark.com/motion-src/shared/ (tokens.css, base.css, motion.js). It is plain HTML, CSS and JavaScript with no dependencies.\n\n1. Read those files first, then look at my project.\n2. Rebuild the component with what my project already uses (React, Vue, Svelte, SwiftUI or plain HTML). Keep the springs: the same stiffness and damping values from tokens.css, so it moves the same way.\n3. Use my colors, fonts and corner radius, and write real text for my product in place of the demo text.\n4. If I did not say where it goes, ask me before you add it to a page.\n5. Run the project, check that it works, then tell me in simple words where to see it."
+ },
+ {
+  "kind": "ui motion",
+  "name": "Morph island",
+  "what": "A Dynamic-Island-style pill that morphs between states.",
+  "tags": [
+   "Morph",
+   "",
+   "DesignBookmark"
+  ],
+  "links": {
+   "Try it live": "https://designbookmark.com/motion#db-morph-island",
+   "Code": "https://designbookmark.com/motion-src/morph-island/index.html"
+  },
+  "prompt": "Add the \"Morph island\" animated component to my project.\n\nHow it should look and move: https://designbookmark.com/motion#db-morph-island\nCode: https://designbookmark.com/motion-src/morph-island/index.html, with the CSS and JS files next to it and the shared springs in https://designbookmark.com/motion-src/shared/ (tokens.css, base.css, motion.js). It is plain HTML, CSS and JavaScript with no dependencies.\n\n1. Read those files first, then look at my project.\n2. Rebuild the component with what my project already uses (React, Vue, Svelte, SwiftUI or plain HTML). Keep the springs: the same stiffness and damping values from tokens.css, so it moves the same way.\n3. Use my colors, fonts and corner radius, and write real text for my product in place of the demo text.\n4. If I did not say where it goes, ask me before you add it to a page.\n5. Run the project, check that it works, then tell me in simple words where to see it."
+ },
+ {
+  "kind": "ui motion",
+  "name": "Goo menu",
+  "what": "A plus button that splits into gooey bubbles of actions.",
+  "tags": [
+   "Morph",
+   "Drag",
+   "DesignBookmark"
+  ],
+  "links": {
+   "Try it live": "https://designbookmark.com/motion#db-goo-menu",
+   "Code": "https://designbookmark.com/motion-src/goo-menu/index.html"
+  },
+  "prompt": "Add the \"Goo menu\" animated component to my project.\n\nHow it should look and move: https://designbookmark.com/motion#db-goo-menu\nCode: https://designbookmark.com/motion-src/goo-menu/index.html, with the CSS and JS files next to it and the shared springs in https://designbookmark.com/motion-src/shared/ (tokens.css, base.css, motion.js). It is plain HTML, CSS and JavaScript with no dependencies.\n\n1. Read those files first, then look at my project.\n2. Rebuild the component with what my project already uses (React, Vue, Svelte, SwiftUI or plain HTML). Keep the springs: the same stiffness and damping values from tokens.css, so it moves the same way.\n3. Use my colors, fonts and corner radius, and write real text for my product in place of the demo text.\n4. If I did not say where it goes, ask me before you add it to a page.\n5. Run the project, check that it works, then tell me in simple words where to see it."
+ },
+ {
+  "kind": "ui motion",
+  "name": "Jelly slider",
+  "what": "A slider thumb that stretches like jelly and pops a value bubble.",
+  "tags": [
+   "Drag",
+   "Elastic",
+   "DesignBookmark"
+  ],
+  "links": {
+   "Try it live": "https://designbookmark.com/motion#db-jelly-slider",
+   "Code": "https://designbookmark.com/motion-src/jelly-slider/index.html"
+  },
+  "prompt": "Add the \"Jelly slider\" animated component to my project.\n\nHow it should look and move: https://designbookmark.com/motion#db-jelly-slider\nCode: https://designbookmark.com/motion-src/jelly-slider/index.html, with the CSS and JS files next to it and the shared springs in https://designbookmark.com/motion-src/shared/ (tokens.css, base.css, motion.js). It is plain HTML, CSS and JavaScript with no dependencies.\n\n1. Read those files first, then look at my project.\n2. Rebuild the component with what my project already uses (React, Vue, Svelte, SwiftUI or plain HTML). Keep the springs: the same stiffness and damping values from tokens.css, so it moves the same way.\n3. Use my colors, fonts and corner radius, and write real text for my product in place of the demo text.\n4. If I did not say where it goes, ask me before you add it to a page.\n5. Run the project, check that it works, then tell me in simple words where to see it."
+ },
+ {
+  "kind": "ui motion",
+  "name": "Swipe deck",
+  "what": "Tinder-style card stack you fling away with spring physics.",
+  "tags": [
+   "Swipe",
+   "Drag",
+   "DesignBookmark"
+  ],
+  "links": {
+   "Try it live": "https://designbookmark.com/motion#db-swipe-deck",
+   "Code": "https://designbookmark.com/motion-src/swipe-deck/index.html"
+  },
+  "prompt": "Add the \"Swipe deck\" animated component to my project.\n\nHow it should look and move: https://designbookmark.com/motion#db-swipe-deck\nCode: https://designbookmark.com/motion-src/swipe-deck/index.html, with the CSS and JS files next to it and the shared springs in https://designbookmark.com/motion-src/shared/ (tokens.css, base.css, motion.js). It is plain HTML, CSS and JavaScript with no dependencies.\n\n1. Read those files first, then look at my project.\n2. Rebuild the component with what my project already uses (React, Vue, Svelte, SwiftUI or plain HTML). Keep the springs: the same stiffness and damping values from tokens.css, so it moves the same way.\n3. Use my colors, fonts and corner radius, and write real text for my product in place of the demo text.\n4. If I did not say where it goes, ask me before you add it to a page.\n5. Run the project, check that it works, then tell me in simple words where to see it."
+ },
+ {
+  "kind": "ui motion",
+  "name": "Springy input",
+  "what": "A text field that wobbles and glows as you type and submit.",
+  "tags": [
+   "Type",
+   "Morph",
+   "DesignBookmark"
+  ],
+  "links": {
+   "Try it live": "https://designbookmark.com/motion#db-springy-input",
+   "Code": "https://designbookmark.com/motion-src/springy-input/index.html"
+  },
+  "prompt": "Add the \"Springy input\" animated component to my project.\n\nHow it should look and move: https://designbookmark.com/motion#db-springy-input\nCode: https://designbookmark.com/motion-src/springy-input/index.html, with the CSS and JS files next to it and the shared springs in https://designbookmark.com/motion-src/shared/ (tokens.css, base.css, motion.js). It is plain HTML, CSS and JavaScript with no dependencies.\n\n1. Read those files first, then look at my project.\n2. Rebuild the component with what my project already uses (React, Vue, Svelte, SwiftUI or plain HTML). Keep the springs: the same stiffness and damping values from tokens.css, so it moves the same way.\n3. Use my colors, fonts and corner radius, and write real text for my product in place of the demo text.\n4. If I did not say where it goes, ask me before you add it to a page.\n5. Run the project, check that it works, then tell me in simple words where to see it."
+ },
+ {
+  "kind": "ui motion",
+  "name": "Rubber dock",
+  "what": "A tab dock that stretches like rubber while it opens a dashboard.",
+  "tags": [
+   "Morph",
+   "Elastic",
+   "DesignBookmark"
+  ],
+  "links": {
+   "Try it live": "https://designbookmark.com/motion#db-rubber-dock",
+   "Code": "https://designbookmark.com/motion-src/rubber-dock/index.html"
+  },
+  "prompt": "Add the \"Rubber dock\" animated component to my project.\n\nHow it should look and move: https://designbookmark.com/motion#db-rubber-dock\nCode: https://designbookmark.com/motion-src/rubber-dock/index.html, with the CSS and JS files next to it and the shared springs in https://designbookmark.com/motion-src/shared/ (tokens.css, base.css, motion.js). It is plain HTML, CSS and JavaScript with no dependencies.\n\n1. Read those files first, then look at my project.\n2. Rebuild the component with what my project already uses (React, Vue, Svelte, SwiftUI or plain HTML). Keep the springs: the same stiffness and damping values from tokens.css, so it moves the same way.\n3. Use my colors, fonts and corner radius, and write real text for my product in place of the demo text.\n4. If I did not say where it goes, ask me before you add it to a page.\n5. Run the project, check that it works, then tell me in simple words where to see it."
+ },
+ {
+  "kind": "ui motion",
+  "name": "Parallax ticket",
+  "what": "An event ticket that tilts in 3D and flips to its QR code.",
+  "tags": [
+   "Parallax",
+   "Reveal",
+   "DesignBookmark"
+  ],
+  "links": {
+   "Try it live": "https://designbookmark.com/motion#db-parallax-ticket",
+   "Code": "https://designbookmark.com/motion-src/parallax-ticket/index.html"
+  },
+  "prompt": "Add the \"Parallax ticket\" animated component to my project.\n\nHow it should look and move: https://designbookmark.com/motion#db-parallax-ticket\nCode: https://designbookmark.com/motion-src/parallax-ticket/index.html, with the CSS and JS files next to it and the shared springs in https://designbookmark.com/motion-src/shared/ (tokens.css, base.css, motion.js). It is plain HTML, CSS and JavaScript with no dependencies.\n\n1. Read those files first, then look at my project.\n2. Rebuild the component with what my project already uses (React, Vue, Svelte, SwiftUI or plain HTML). Keep the springs: the same stiffness and damping values from tokens.css, so it moves the same way.\n3. Use my colors, fonts and corner radius, and write real text for my product in place of the demo text.\n4. If I did not say where it goes, ask me before you add it to a page.\n5. Run the project, check that it works, then tell me in simple words where to see it."
+ },
+ {
+  "kind": "ui motion",
+  "name": "Pull to refresh",
+  "what": "An inbox list you pull down; it stretches, then springs back with new mail.",
+  "tags": [
+   "Scroll",
+   "Elastic",
+   "DesignBookmark"
+  ],
+  "links": {
+   "Try it live": "https://designbookmark.com/motion#db-pull-refresh",
+   "Code": "https://designbookmark.com/motion-src/pull-refresh/index.html"
+  },
+  "prompt": "Add the \"Pull to refresh\" animated component to my project.\n\nHow it should look and move: https://designbookmark.com/motion#db-pull-refresh\nCode: https://designbookmark.com/motion-src/pull-refresh/index.html, with the CSS and JS files next to it and the shared springs in https://designbookmark.com/motion-src/shared/ (tokens.css, base.css, motion.js). It is plain HTML, CSS and JavaScript with no dependencies.\n\n1. Read those files first, then look at my project.\n2. Rebuild the component with what my project already uses (React, Vue, Svelte, SwiftUI or plain HTML). Keep the springs: the same stiffness and damping values from tokens.css, so it moves the same way.\n3. Use my colors, fonts and corner radius, and write real text for my product in place of the demo text.\n4. If I did not say where it goes, ask me before you add it to a page.\n5. Run the project, check that it works, then tell me in simple words where to see it."
+ },
+ {
+  "kind": "ui motion",
+  "name": "Word roll",
+  "what": "A headline whose last word rolls through a list like a slot machine.",
+  "tags": [
+   "Text",
+   "Roll",
+   "DesignBookmark"
+  ],
+  "links": {
+   "Try it live": "https://designbookmark.com/motion#db-word-roll",
+   "Code": "https://designbookmark.com/motion-src/word-roll/index.html"
+  },
+  "prompt": "Add the \"Word roll\" animated component to my project.\n\nHow it should look and move: https://designbookmark.com/motion#db-word-roll\nCode: https://designbookmark.com/motion-src/word-roll/index.html, with the CSS and JS files next to it and the shared springs in https://designbookmark.com/motion-src/shared/ (tokens.css, base.css, motion.js). It is plain HTML, CSS and JavaScript with no dependencies.\n\n1. Read those files first, then look at my project.\n2. Rebuild the component with what my project already uses (React, Vue, Svelte, SwiftUI or plain HTML). Keep the springs: the same stiffness and damping values from tokens.css, so it moves the same way.\n3. Use my colors, fonts and corner radius, and write real text for my product in place of the demo text.\n4. If I did not say where it goes, ask me before you add it to a page.\n5. Run the project, check that it works, then tell me in simple words where to see it."
+ },
+ {
+  "kind": "ui motion",
+  "name": "Weight wave",
+  "what": "Hover across a line of text and a wave of font weight follows you.",
+  "tags": [
+   "Text",
+   "Hover",
+   "DesignBookmark"
+  ],
+  "links": {
+   "Try it live": "https://designbookmark.com/motion#db-weight-wave",
+   "Code": "https://designbookmark.com/motion-src/weight-wave/index.html"
+  },
+  "prompt": "Add the \"Weight wave\" animated component to my project.\n\nHow it should look and move: https://designbookmark.com/motion#db-weight-wave\nCode: https://designbookmark.com/motion-src/weight-wave/index.html, with the CSS and JS files next to it and the shared springs in https://designbookmark.com/motion-src/shared/ (tokens.css, base.css, motion.js). It is plain HTML, CSS and JavaScript with no dependencies.\n\n1. Read those files first, then look at my project.\n2. Rebuild the component with what my project already uses (React, Vue, Svelte, SwiftUI or plain HTML). Keep the springs: the same stiffness and damping values from tokens.css, so it moves the same way.\n3. Use my colors, fonts and corner radius, and write real text for my product in place of the demo text.\n4. If I did not say where it goes, ask me before you add it to a page.\n5. Run the project, check that it works, then tell me in simple words where to see it."
+ },
+ {
+  "kind": "ui motion",
+  "name": "Goo morph",
+  "what": "Words that melt into each other through a gooey blur.",
+  "tags": [
+   "Text",
+   "Melt",
+   "DesignBookmark"
+  ],
+  "links": {
+   "Try it live": "https://designbookmark.com/motion#db-goo-morph",
+   "Code": "https://designbookmark.com/motion-src/goo-morph/index.html"
+  },
+  "prompt": "Add the \"Goo morph\" animated component to my project.\n\nHow it should look and move: https://designbookmark.com/motion#db-goo-morph\nCode: https://designbookmark.com/motion-src/goo-morph/index.html, with the CSS and JS files next to it and the shared springs in https://designbookmark.com/motion-src/shared/ (tokens.css, base.css, motion.js). It is plain HTML, CSS and JavaScript with no dependencies.\n\n1. Read those files first, then look at my project.\n2. Rebuild the component with what my project already uses (React, Vue, Svelte, SwiftUI or plain HTML). Keep the springs: the same stiffness and damping values from tokens.css, so it moves the same way.\n3. Use my colors, fonts and corner radius, and write real text for my product in place of the demo text.\n4. If I did not say where it goes, ask me before you add it to a page.\n5. Run the project, check that it works, then tell me in simple words where to see it."
+ },
+ {
+  "kind": "ui motion",
+  "name": "Scramble text",
+  "what": "Monospace text that decodes from random glyphs into the line.",
+  "tags": [
+   "Text",
+   "Decode",
+   "DesignBookmark"
+  ],
+  "links": {
+   "Try it live": "https://designbookmark.com/motion#db-scramble-text",
+   "Code": "https://designbookmark.com/motion-src/scramble-text/index.html"
+  },
+  "prompt": "Add the \"Scramble text\" animated component to my project.\n\nHow it should look and move: https://designbookmark.com/motion#db-scramble-text\nCode: https://designbookmark.com/motion-src/scramble-text/index.html, with the CSS and JS files next to it and the shared springs in https://designbookmark.com/motion-src/shared/ (tokens.css, base.css, motion.js). It is plain HTML, CSS and JavaScript with no dependencies.\n\n1. Read those files first, then look at my project.\n2. Rebuild the component with what my project already uses (React, Vue, Svelte, SwiftUI or plain HTML). Keep the springs: the same stiffness and damping values from tokens.css, so it moves the same way.\n3. Use my colors, fonts and corner radius, and write real text for my product in place of the demo text.\n4. If I did not say where it goes, ask me before you add it to a page.\n5. Run the project, check that it works, then tell me in simple words where to see it."
+ },
+ {
+  "kind": "ui motion",
+  "name": "Read along",
+  "what": "A highlight that moves word by word, like karaoke for reading.",
+  "tags": [
+   "Text",
+   "Read",
+   "DesignBookmark"
+  ],
+  "links": {
+   "Try it live": "https://designbookmark.com/motion#db-read-along",
+   "Code": "https://designbookmark.com/motion-src/read-along/index.html"
+  },
+  "prompt": "Add the \"Read along\" animated component to my project.\n\nHow it should look and move: https://designbookmark.com/motion#db-read-along\nCode: https://designbookmark.com/motion-src/read-along/index.html, with the CSS and JS files next to it and the shared springs in https://designbookmark.com/motion-src/shared/ (tokens.css, base.css, motion.js). It is plain HTML, CSS and JavaScript with no dependencies.\n\n1. Read those files first, then look at my project.\n2. Rebuild the component with what my project already uses (React, Vue, Svelte, SwiftUI or plain HTML). Keep the springs: the same stiffness and damping values from tokens.css, so it moves the same way.\n3. Use my colors, fonts and corner radius, and write real text for my product in place of the demo text.\n4. If I did not say where it goes, ask me before you add it to a page.\n5. Run the project, check that it works, then tell me in simple words where to see it."
+ },
+ {
+  "kind": "ui motion",
+  "name": "Roll links",
+  "what": "Nav links whose letters roll up on hover.",
+  "tags": [
+   "Text",
+   "Hover",
+   "DesignBookmark"
+  ],
+  "links": {
+   "Try it live": "https://designbookmark.com/motion#db-roll-links",
+   "Code": "https://designbookmark.com/motion-src/roll-links/index.html"
+  },
+  "prompt": "Add the \"Roll links\" animated component to my project.\n\nHow it should look and move: https://designbookmark.com/motion#db-roll-links\nCode: https://designbookmark.com/motion-src/roll-links/index.html, with the CSS and JS files next to it and the shared springs in https://designbookmark.com/motion-src/shared/ (tokens.css, base.css, motion.js). It is plain HTML, CSS and JavaScript with no dependencies.\n\n1. Read those files first, then look at my project.\n2. Rebuild the component with what my project already uses (React, Vue, Svelte, SwiftUI or plain HTML). Keep the springs: the same stiffness and damping values from tokens.css, so it moves the same way.\n3. Use my colors, fonts and corner radius, and write real text for my product in place of the demo text.\n4. If I did not say where it goes, ask me before you add it to a page.\n5. Run the project, check that it works, then tell me in simple words where to see it."
+ },
+ {
+  "kind": "ui motion",
+  "name": "Prompt box",
+  "what": "An AI prompt bar that shows Thinking, then a Stop state.",
+  "tags": [
+   "AI",
+   "Prompt",
+   "DesignBookmark"
+  ],
+  "links": {
+   "Try it live": "https://designbookmark.com/motion#db-prompt-box",
+   "Code": "https://designbookmark.com/motion-src/prompt-box/index.html"
+  },
+  "prompt": "Add the \"Prompt box\" animated component to my project.\n\nHow it should look and move: https://designbookmark.com/motion#db-prompt-box\nCode: https://designbookmark.com/motion-src/prompt-box/index.html, with the CSS and JS files next to it and the shared springs in https://designbookmark.com/motion-src/shared/ (tokens.css, base.css, motion.js). It is plain HTML, CSS and JavaScript with no dependencies.\n\n1. Read those files first, then look at my project.\n2. Rebuild the component with what my project already uses (React, Vue, Svelte, SwiftUI or plain HTML). Keep the springs: the same stiffness and damping values from tokens.css, so it moves the same way.\n3. Use my colors, fonts and corner radius, and write real text for my product in place of the demo text.\n4. If I did not say where it goes, ask me before you add it to a page.\n5. Run the project, check that it works, then tell me in simple words where to see it."
+ },
+ {
+  "kind": "ui motion",
+  "name": "Streaming reply",
+  "what": "A chat answer that streams in word by word with a soft fade.",
+  "tags": [
+   "AI",
+   "Stream",
+   "DesignBookmark"
+  ],
+  "links": {
+   "Try it live": "https://designbookmark.com/motion#db-streaming-reply",
+   "Code": "https://designbookmark.com/motion-src/streaming-reply/index.html"
+  },
+  "prompt": "Add the \"Streaming reply\" animated component to my project.\n\nHow it should look and move: https://designbookmark.com/motion#db-streaming-reply\nCode: https://designbookmark.com/motion-src/streaming-reply/index.html, with the CSS and JS files next to it and the shared springs in https://designbookmark.com/motion-src/shared/ (tokens.css, base.css, motion.js). It is plain HTML, CSS and JavaScript with no dependencies.\n\n1. Read those files first, then look at my project.\n2. Rebuild the component with what my project already uses (React, Vue, Svelte, SwiftUI or plain HTML). Keep the springs: the same stiffness and damping values from tokens.css, so it moves the same way.\n3. Use my colors, fonts and corner radius, and write real text for my product in place of the demo text.\n4. If I did not say where it goes, ask me before you add it to a page.\n5. Run the project, check that it works, then tell me in simple words where to see it."
+ },
+ {
+  "kind": "ui motion",
+  "name": "Ghost suggestion",
+  "what": "Grey AI autocomplete text you accept with Tab.",
+  "tags": [
+   "AI",
+   "Suggest",
+   "DesignBookmark"
+  ],
+  "links": {
+   "Try it live": "https://designbookmark.com/motion#db-ghost-suggestion",
+   "Code": "https://designbookmark.com/motion-src/ghost-suggestion/index.html"
+  },
+  "prompt": "Add the \"Ghost suggestion\" animated component to my project.\n\nHow it should look and move: https://designbookmark.com/motion#db-ghost-suggestion\nCode: https://designbookmark.com/motion-src/ghost-suggestion/index.html, with the CSS and JS files next to it and the shared springs in https://designbookmark.com/motion-src/shared/ (tokens.css, base.css, motion.js). It is plain HTML, CSS and JavaScript with no dependencies.\n\n1. Read those files first, then look at my project.\n2. Rebuild the component with what my project already uses (React, Vue, Svelte, SwiftUI or plain HTML). Keep the springs: the same stiffness and damping values from tokens.css, so it moves the same way.\n3. Use my colors, fonts and corner radius, and write real text for my product in place of the demo text.\n4. If I did not say where it goes, ask me before you add it to a page.\n5. Run the project, check that it works, then tell me in simple words where to see it."
+ },
+ {
+  "kind": "ui motion",
+  "name": "Goo thinking",
+  "what": "Three gooey dots that merge into the reply bubble.",
+  "tags": [
+   "AI",
+   "Thinking",
+   "DesignBookmark"
+  ],
+  "links": {
+   "Try it live": "https://designbookmark.com/motion#db-goo-thinking",
+   "Code": "https://designbookmark.com/motion-src/goo-thinking/index.html"
+  },
+  "prompt": "Add the \"Goo thinking\" animated component to my project.\n\nHow it should look and move: https://designbookmark.com/motion#db-goo-thinking\nCode: https://designbookmark.com/motion-src/goo-thinking/index.html, with the CSS and JS files next to it and the shared springs in https://designbookmark.com/motion-src/shared/ (tokens.css, base.css, motion.js). It is plain HTML, CSS and JavaScript with no dependencies.\n\n1. Read those files first, then look at my project.\n2. Rebuild the component with what my project already uses (React, Vue, Svelte, SwiftUI or plain HTML). Keep the springs: the same stiffness and damping values from tokens.css, so it moves the same way.\n3. Use my colors, fonts and corner radius, and write real text for my product in place of the demo text.\n4. If I did not say where it goes, ask me before you add it to a page.\n5. Run the project, check that it works, then tell me in simple words where to see it."
+ },
+ {
+  "kind": "ui motion",
+  "name": "Expand card",
+  "what": "A booking card that grows into a full detail view and back.",
+  "tags": [
+   "Cards",
+   "Expand",
+   "DesignBookmark"
+  ],
+  "links": {
+   "Try it live": "https://designbookmark.com/motion#db-expand-card",
+   "Code": "https://designbookmark.com/motion-src/expand-card/index.html"
+  },
+  "prompt": "Add the \"Expand card\" animated component to my project.\n\nHow it should look and move: https://designbookmark.com/motion#db-expand-card\nCode: https://designbookmark.com/motion-src/expand-card/index.html, with the CSS and JS files next to it and the shared springs in https://designbookmark.com/motion-src/shared/ (tokens.css, base.css, motion.js). It is plain HTML, CSS and JavaScript with no dependencies.\n\n1. Read those files first, then look at my project.\n2. Rebuild the component with what my project already uses (React, Vue, Svelte, SwiftUI or plain HTML). Keep the springs: the same stiffness and damping values from tokens.css, so it moves the same way.\n3. Use my colors, fonts and corner radius, and write real text for my product in place of the demo text.\n4. If I did not say where it goes, ask me before you add it to a page.\n5. Run the project, check that it works, then tell me in simple words where to see it."
+ },
+ {
+  "kind": "ui motion",
+  "name": "Fan cards",
+  "what": "A stack of cards that fans out on hover and picks one.",
+  "tags": [
+   "Cards",
+   "Fan",
+   "DesignBookmark"
+  ],
+  "links": {
+   "Try it live": "https://designbookmark.com/motion#db-fan-cards",
+   "Code": "https://designbookmark.com/motion-src/fan-cards/index.html"
+  },
+  "prompt": "Add the \"Fan cards\" animated component to my project.\n\nHow it should look and move: https://designbookmark.com/motion#db-fan-cards\nCode: https://designbookmark.com/motion-src/fan-cards/index.html, with the CSS and JS files next to it and the shared springs in https://designbookmark.com/motion-src/shared/ (tokens.css, base.css, motion.js). It is plain HTML, CSS and JavaScript with no dependencies.\n\n1. Read those files first, then look at my project.\n2. Rebuild the component with what my project already uses (React, Vue, Svelte, SwiftUI or plain HTML). Keep the springs: the same stiffness and damping values from tokens.css, so it moves the same way.\n3. Use my colors, fonts and corner radius, and write real text for my product in place of the demo text.\n4. If I did not say where it goes, ask me before you add it to a page.\n5. Run the project, check that it works, then tell me in simple words where to see it."
+ },
+ {
+  "kind": "ui motion",
+  "name": "Stat card",
+  "what": "A revenue card whose number counts and chart redraws per range.",
+  "tags": [
+   "Cards",
+   "Stat",
+   "DesignBookmark"
+  ],
+  "links": {
+   "Try it live": "https://designbookmark.com/motion#db-stat-card",
+   "Code": "https://designbookmark.com/motion-src/stat-card/index.html"
+  },
+  "prompt": "Add the \"Stat card\" animated component to my project.\n\nHow it should look and move: https://designbookmark.com/motion#db-stat-card\nCode: https://designbookmark.com/motion-src/stat-card/index.html, with the CSS and JS files next to it and the shared springs in https://designbookmark.com/motion-src/shared/ (tokens.css, base.css, motion.js). It is plain HTML, CSS and JavaScript with no dependencies.\n\n1. Read those files first, then look at my project.\n2. Rebuild the component with what my project already uses (React, Vue, Svelte, SwiftUI or plain HTML). Keep the springs: the same stiffness and damping values from tokens.css, so it moves the same way.\n3. Use my colors, fonts and corner radius, and write real text for my product in place of the demo text.\n4. If I did not say where it goes, ask me before you add it to a page.\n5. Run the project, check that it works, then tell me in simple words where to see it."
+ },
+ {
+  "kind": "ui motion",
+  "name": "Magnetic button",
+  "what": "A button that leans toward the cursor and snaps back.",
+  "tags": [
+   "Buttons",
+   "Magnetic",
+   "DesignBookmark"
+  ],
+  "links": {
+   "Try it live": "https://designbookmark.com/motion#db-magnetic-button",
+   "Code": "https://designbookmark.com/motion-src/magnetic-button/index.html"
+  },
+  "prompt": "Add the \"Magnetic button\" animated component to my project.\n\nHow it should look and move: https://designbookmark.com/motion#db-magnetic-button\nCode: https://designbookmark.com/motion-src/magnetic-button/index.html, with the CSS and JS files next to it and the shared springs in https://designbookmark.com/motion-src/shared/ (tokens.css, base.css, motion.js). It is plain HTML, CSS and JavaScript with no dependencies.\n\n1. Read those files first, then look at my project.\n2. Rebuild the component with what my project already uses (React, Vue, Svelte, SwiftUI or plain HTML). Keep the springs: the same stiffness and damping values from tokens.css, so it moves the same way.\n3. Use my colors, fonts and corner radius, and write real text for my product in place of the demo text.\n4. If I did not say where it goes, ask me before you add it to a page.\n5. Run the project, check that it works, then tell me in simple words where to see it."
+ },
+ {
+  "kind": "ui motion",
+  "name": "Loading to success",
+  "what": "Submit becomes a spinner, then a green check, then resets.",
+  "tags": [
+   "Buttons",
+   "Submit",
+   "DesignBookmark"
+  ],
+  "links": {
+   "Try it live": "https://designbookmark.com/motion#db-loading-success",
+   "Code": "https://designbookmark.com/motion-src/loading-success/index.html"
+  },
+  "prompt": "Add the \"Loading to success\" animated component to my project.\n\nHow it should look and move: https://designbookmark.com/motion#db-loading-success\nCode: https://designbookmark.com/motion-src/loading-success/index.html, with the CSS and JS files next to it and the shared springs in https://designbookmark.com/motion-src/shared/ (tokens.css, base.css, motion.js). It is plain HTML, CSS and JavaScript with no dependencies.\n\n1. Read those files first, then look at my project.\n2. Rebuild the component with what my project already uses (React, Vue, Svelte, SwiftUI or plain HTML). Keep the springs: the same stiffness and damping values from tokens.css, so it moves the same way.\n3. Use my colors, fonts and corner radius, and write real text for my product in place of the demo text.\n4. If I did not say where it goes, ask me before you add it to a page.\n5. Run the project, check that it works, then tell me in simple words where to see it."
+ },
+ {
+  "kind": "ui motion",
+  "name": "Like burst",
+  "what": "A heart that bursts with particles and ticks the counter.",
+  "tags": [
+   "Buttons",
+   "Like",
+   "DesignBookmark"
+  ],
+  "links": {
+   "Try it live": "https://designbookmark.com/motion#db-like-burst",
+   "Code": "https://designbookmark.com/motion-src/like-burst/index.html"
+  },
+  "prompt": "Add the \"Like burst\" animated component to my project.\n\nHow it should look and move: https://designbookmark.com/motion#db-like-burst\nCode: https://designbookmark.com/motion-src/like-burst/index.html, with the CSS and JS files next to it and the shared springs in https://designbookmark.com/motion-src/shared/ (tokens.css, base.css, motion.js). It is plain HTML, CSS and JavaScript with no dependencies.\n\n1. Read those files first, then look at my project.\n2. Rebuild the component with what my project already uses (React, Vue, Svelte, SwiftUI or plain HTML). Keep the springs: the same stiffness and damping values from tokens.css, so it moves the same way.\n3. Use my colors, fonts and corner radius, and write real text for my product in place of the demo text.\n4. If I did not say where it goes, ask me before you add it to a page.\n5. Run the project, check that it works, then tell me in simple words where to see it."
+ },
+ {
+  "kind": "ui motion",
+  "name": "Tab pill",
+  "what": "A pill that slides and stretches between tabs.",
+  "tags": [
+   "Navigation",
+   "Tabs",
+   "DesignBookmark"
+  ],
+  "links": {
+   "Try it live": "https://designbookmark.com/motion#db-tab-pill",
+   "Code": "https://designbookmark.com/motion-src/tab-pill/index.html"
+  },
+  "prompt": "Add the \"Tab pill\" animated component to my project.\n\nHow it should look and move: https://designbookmark.com/motion#db-tab-pill\nCode: https://designbookmark.com/motion-src/tab-pill/index.html, with the CSS and JS files next to it and the shared springs in https://designbookmark.com/motion-src/shared/ (tokens.css, base.css, motion.js). It is plain HTML, CSS and JavaScript with no dependencies.\n\n1. Read those files first, then look at my project.\n2. Rebuild the component with what my project already uses (React, Vue, Svelte, SwiftUI or plain HTML). Keep the springs: the same stiffness and damping values from tokens.css, so it moves the same way.\n3. Use my colors, fonts and corner radius, and write real text for my product in place of the demo text.\n4. If I did not say where it goes, ask me before you add it to a page.\n5. Run the project, check that it works, then tell me in simple words where to see it."
+ },
+ {
+  "kind": "ui motion",
+  "name": "Dynamic menu",
+  "what": "A small button that unfolds into a full menu panel.",
+  "tags": [
+   "Navigation",
+   "Menu",
+   "DesignBookmark"
+  ],
+  "links": {
+   "Try it live": "https://designbookmark.com/motion#db-dynamic-menu",
+   "Code": "https://designbookmark.com/motion-src/dynamic-menu/index.html"
+  },
+  "prompt": "Add the \"Dynamic menu\" animated component to my project.\n\nHow it should look and move: https://designbookmark.com/motion#db-dynamic-menu\nCode: https://designbookmark.com/motion-src/dynamic-menu/index.html, with the CSS and JS files next to it and the shared springs in https://designbookmark.com/motion-src/shared/ (tokens.css, base.css, motion.js). It is plain HTML, CSS and JavaScript with no dependencies.\n\n1. Read those files first, then look at my project.\n2. Rebuild the component with what my project already uses (React, Vue, Svelte, SwiftUI or plain HTML). Keep the springs: the same stiffness and damping values from tokens.css, so it moves the same way.\n3. Use my colors, fonts and corner radius, and write real text for my product in place of the demo text.\n4. If I did not say where it goes, ask me before you add it to a page.\n5. Run the project, check that it works, then tell me in simple words where to see it."
+ },
+ {
+  "kind": "ui motion",
+  "name": "Command palette",
+  "what": "Cmd-K palette that springs up and filters as you type.",
+  "tags": [
+   "Navigation",
+   "Command",
+   "DesignBookmark"
+  ],
+  "links": {
+   "Try it live": "https://designbookmark.com/motion#db-command-palette",
+   "Code": "https://designbookmark.com/motion-src/command-palette/index.html"
+  },
+  "prompt": "Add the \"Command palette\" animated component to my project.\n\nHow it should look and move: https://designbookmark.com/motion#db-command-palette\nCode: https://designbookmark.com/motion-src/command-palette/index.html, with the CSS and JS files next to it and the shared springs in https://designbookmark.com/motion-src/shared/ (tokens.css, base.css, motion.js). It is plain HTML, CSS and JavaScript with no dependencies.\n\n1. Read those files first, then look at my project.\n2. Rebuild the component with what my project already uses (React, Vue, Svelte, SwiftUI or plain HTML). Keep the springs: the same stiffness and damping values from tokens.css, so it moves the same way.\n3. Use my colors, fonts and corner radius, and write real text for my product in place of the demo text.\n4. If I did not say where it goes, ask me before you add it to a page.\n5. Run the project, check that it works, then tell me in simple words where to see it."
+ },
+ {
+  "kind": "ui motion",
+  "name": "Step progress",
+  "what": "A stepper whose line fills and dots pop as you go forward.",
+  "tags": [
+   "Navigation",
+   "Steps",
+   "DesignBookmark"
+  ],
+  "links": {
+   "Try it live": "https://designbookmark.com/motion#db-step-progress",
+   "Code": "https://designbookmark.com/motion-src/step-progress/index.html"
+  },
+  "prompt": "Add the \"Step progress\" animated component to my project.\n\nHow it should look and move: https://designbookmark.com/motion#db-step-progress\nCode: https://designbookmark.com/motion-src/step-progress/index.html, with the CSS and JS files next to it and the shared springs in https://designbookmark.com/motion-src/shared/ (tokens.css, base.css, motion.js). It is plain HTML, CSS and JavaScript with no dependencies.\n\n1. Read those files first, then look at my project.\n2. Rebuild the component with what my project already uses (React, Vue, Svelte, SwiftUI or plain HTML). Keep the springs: the same stiffness and damping values from tokens.css, so it moves the same way.\n3. Use my colors, fonts and corner radius, and write real text for my product in place of the demo text.\n4. If I did not say where it goes, ask me before you add it to a page.\n5. Run the project, check that it works, then tell me in simple words where to see it."
+ },
+ {
+  "kind": "ui motion",
+  "name": "OTP code",
+  "what": "One-time code boxes that fill, then turn into a Verified bar.",
+  "tags": [
+   "Inputs",
+   "Code",
+   "DesignBookmark"
+  ],
+  "links": {
+   "Try it live": "https://designbookmark.com/motion#db-otp-code",
+   "Code": "https://designbookmark.com/motion-src/otp-code/index.html"
+  },
+  "prompt": "Add the \"OTP code\" animated component to my project.\n\nHow it should look and move: https://designbookmark.com/motion#db-otp-code\nCode: https://designbookmark.com/motion-src/otp-code/index.html, with the CSS and JS files next to it and the shared springs in https://designbookmark.com/motion-src/shared/ (tokens.css, base.css, motion.js). It is plain HTML, CSS and JavaScript with no dependencies.\n\n1. Read those files first, then look at my project.\n2. Rebuild the component with what my project already uses (React, Vue, Svelte, SwiftUI or plain HTML). Keep the springs: the same stiffness and damping values from tokens.css, so it moves the same way.\n3. Use my colors, fonts and corner radius, and write real text for my product in place of the demo text.\n4. If I did not say where it goes, ask me before you add it to a page.\n5. Run the project, check that it works, then tell me in simple words where to see it."
+ },
+ {
   "kind": "skill repo",
   "name": "OpenMontage",
   "what": "Turns a coding agent into a full video studio: research, script, assets, editing and final composition through 12 production pipelines and hundreds of agent skills.",
