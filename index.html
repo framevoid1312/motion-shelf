@@ -60906,6 +60906,6 @@ document.addEventListener('click',function(e){var a=e.target.closest('a.demo');i
   dlg.showModal()});
 function closeP(){pv.pause();pv.removeAttribute('src');pv.load();pi.removeAttribute('src');if(dlg.open)dlg.close()}
 dlg.querySelector('.x').addEventListener('click',closeP);dlg.addEventListener('click',function(e){if(e.target===dlg)closeP()});dlg.addEventListener('cancel',function(e){e.preventDefault();closeP()});
-document.addEventListener('play',function(e){if(e.target.closest('.feat'))return;document.querySelectorAll('video').forEach(function(v){if(v!==e.target&&!v.closest('.feat'))v.pause()})},true);
+document.addEventListener('play',function(e){if(e.target.closest('.feat,.k-ui'))return;document.querySelectorAll('video').forEach(function(v){if(v!==e.target&&!v.closest('.feat,.k-ui'))v.pause()})},true);
 })();
 </script><script>(function(){var vs=document.querySelectorAll('.k-ui video');if(!('IntersectionObserver' in window))return;var io=new IntersectionObserver(function(es){es.forEach(function(e){var v=e.target;if(e.isIntersecting&&v.offsetParent){if(v.dataset.poster){v.poster=v.dataset.poster;v.removeAttribute('data-poster')}v.preload='auto';var p=v.play();if(p&&p.catch)p.catch(function(){})}else{v.pause()}})},{threshold:.35});vs.forEach(function(v){io.observe(v)})})();</script></body></html>
