@@ -164,6 +164,29 @@
   }
  },
  {
+  "kind": "blender to seedance",
+  "name": "Animation Direction",
+  "what": "Directs 3D animation in Blender: product/hero shots, camera moves, lens and forced-perspective math, F-curve timing, 12 principles for hard objects; tested bpy library.",
+  "tags": [
+   "MIT",
+   "DisturbedMediaGroup/claude-animation-skill"
+  ],
+  "links": {
+   "On GitHub": "https://github.com/DisturbedMediaGroup/claude-animation-skill"
+  }
+ },
+ {
+  "kind": "blender to seedance",
+  "name": "Seedance 2.5 Prompter + the full course (Dan Kieft)",
+  "what": "Skill that turns a Blender MP4 plus tagged references into a full Seedance 2.5 prompt; course page has both Blender workflows and every prompt.",
+  "tags": [
+   "Dan Kieft"
+  ],
+  "links": {
+   "Course page": "https://claude-and-blender.vercel.app/"
+  }
+ },
+ {
   "kind": "ui motion",
   "name": "Thinking sphere",
   "what": "A dot sphere that breathes while the AI thinks, then bursts into the answer. Drag to spin it.",
